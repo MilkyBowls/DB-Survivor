@@ -35,7 +35,7 @@ MonoBehaviour:
     transformationPortrait: {fileID: -2775268464705553986, guid: 2f616063cded2bb479f8befe00925d15, type: 3}
     animatorOverride: {fileID: 9100000, guid: 64fa2727f9a76fa4693c95eb5f538fe7, type: 2}
     auraSprite: {fileID: -1809007348662428564, guid: 609689e12f4a0794d8020e5577418dcf, type: 3}
-    transformationSFX: {fileID: 8300000, guid: 472c0472f7905d842aa8bf7f3b787a4c, type: 3}
+    transformationSFX: {fileID: 0}
     kiCostToTransform: 10
     attackKiMultiplier: 1.25
     kiDrainPerSecond: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
     transformationPortrait: {fileID: -1656325423940868666, guid: a116784080999524eb1dc4730817e4f6, type: 3}
     animatorOverride: {fileID: 9100000, guid: 02c904b34e361e3469f81ae9363d8af2, type: 2}
     auraSprite: {fileID: 6596035254439794027, guid: 2b9ea4f6113d0f1409e80c635c322c44, type: 3}
-    transformationSFX: {fileID: 8300000, guid: 472c0472f7905d842aa8bf7f3b787a4c, type: 3}
+    transformationSFX: {fileID: 0}
     kiCostToTransform: 20
     attackKiMultiplier: 1.5
     kiDrainPerSecond: 0
@@ -57,7 +57,7 @@ MonoBehaviour:
     transformationPortrait: {fileID: -1656325423940868666, guid: a116784080999524eb1dc4730817e4f6, type: 3}
     animatorOverride: {fileID: 9100000, guid: 02c904b34e361e3469f81ae9363d8af2, type: 2}
     auraSprite: {fileID: 6596035254439794027, guid: 2b9ea4f6113d0f1409e80c635c322c44, type: 3}
-    transformationSFX: {fileID: 8300000, guid: 472c0472f7905d842aa8bf7f3b787a4c, type: 3}
+    transformationSFX: {fileID: 0}
     kiCostToTransform: 40
     attackKiMultiplier: 1.75
     kiDrainPerSecond: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
     transformationPortrait: {fileID: 4809141741905333060, guid: b6c87fa99057bf2448f09a098397af8b, type: 3}
     animatorOverride: {fileID: 9100000, guid: cf0d180b7a6e0cd4c9ab702d64027163, type: 2}
     auraSprite: {fileID: 6596035254439794027, guid: 2b9ea4f6113d0f1409e80c635c322c44, type: 3}
-    transformationSFX: {fileID: 8300000, guid: 472c0472f7905d842aa8bf7f3b787a4c, type: 3}
+    transformationSFX: {fileID: 0}
     kiCostToTransform: 60
     attackKiMultiplier: 2
     kiDrainPerSecond: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
     transformationPortrait: {fileID: 3042247685565380832, guid: 15d1eef342b17404e85743e7631c0e66, type: 3}
     animatorOverride: {fileID: 9100000, guid: 872959ab1fa90c94a878f536032ae540, type: 2}
     auraSprite: {fileID: -15291577254450420, guid: 1962519328752a144a47ebc3599d1f9c, type: 3}
-    transformationSFX: {fileID: 8300000, guid: 472c0472f7905d842aa8bf7f3b787a4c, type: 3}
+    transformationSFX: {fileID: 0}
     kiCostToTransform: 100
     attackKiMultiplier: 3
     kiDrainPerSecond: 0
@@ -90,7 +90,7 @@ MonoBehaviour:
     transformationPortrait: {fileID: 8126610513369058158, guid: 34ac822764559664e91c4fb349594814, type: 3}
     animatorOverride: {fileID: 9100000, guid: d6ba8b533bbaeb14bad502d7f6867eff, type: 2}
     auraSprite: {fileID: -3883493146121231024, guid: b855a920e89fe964dbede7bdddd5fed9, type: 3}
-    transformationSFX: {fileID: 8300000, guid: 472c0472f7905d842aa8bf7f3b787a4c, type: 3}
+    transformationSFX: {fileID: 0}
     kiCostToTransform: 150
     attackKiMultiplier: 4
     kiDrainPerSecond: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
     transformationPortrait: {fileID: -3377388134592461165, guid: d530952aa1f19d34eb19564af4f2bc08, type: 3}
     animatorOverride: {fileID: 9100000, guid: 5bc1b61888fc7eb44824abc66c451c6c, type: 2}
     auraSprite: {fileID: 2674406140080629766, guid: 1ad943d5c8589f94e86a6a6db4a0b518, type: 3}
-    transformationSFX: {fileID: 8300000, guid: 472c0472f7905d842aa8bf7f3b787a4c, type: 3}
+    transformationSFX: {fileID: 0}
     kiCostToTransform: 200
     attackKiMultiplier: 5
     kiDrainPerSecond: 0

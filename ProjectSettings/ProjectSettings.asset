@@ -771,10 +771,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: d1b7c3b1-c78c-4c4b-a0b6-bb2d2e87b9d6
+  cloudProjectId: bd8ecdca-5a59-49c7-8f81-427e411508db
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: DB Survivor
+  projectName: DB-Survivor
   organizationId: milkybowls
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
