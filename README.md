@@ -1,6 +1,6 @@
-# DBZ: Ki Chronicles 🔥
+# DBZ: Survivor 🔥
 
-**DBZ: Ki Chronicles** is a fast-paced 2D action game built in Unity, inspired by *Vampire Survivors* and set in the Dragon Ball universe. You battle waves of enemies, unlock powerful transformations, and explore procedurally generated environments using Ki-based combat.
+**DBZ: Survivor** is a fast-paced 2D action game built in Unity, inspired by *Vampire Survivors* and set in the Dragon Ball universe. You battle waves of enemies, unlock powerful transformations, and explore procedurally generated environments using Ki-based combat.
 
 ---
 
