@@ -1818,7 +1818,7 @@ MonoBehaviour:
       weight: 10
     - prefab: {fileID: 4405696305685775850, guid: 45f0b2954332dfa4bb8077aa654ba925, type: 3}
       weight: 10
-    minimumSpacingInTiles: 5
+    minimumSpacingInTiles: 8
   - name: GroundProps
     spawnChance: 0.003
     props:

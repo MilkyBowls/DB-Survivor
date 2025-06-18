@@ -111,13 +111,30 @@ public class EnemyWaveSpawner : MonoBehaviour
         Vector2 spawnPos;
         int attempts = 0;
 
+        NNConstraint constraint = NNConstraint.Default;
+        constraint.constrainWalkability = true;
+        constraint.walkable = true;
+        constraint.constrainArea = true;
+        constraint.constrainDistance = true;
+
         do
         {
             spawnPos = (Vector2)player.position + Random.insideUnitCircle.normalized * spawnRadius;
+
+            var nearest = AstarPath.active.GetNearest(spawnPos, constraint);
+            bool valid = nearest.node != null && nearest.node.Walkable && nearest.position == (Vector3)spawnPos;
+
+            bool tooClose = Vector2.Distance(spawnPos, player.position) < safeZoneRadius;
+
+            if (valid && !tooClose)
+                return spawnPos;
+
             attempts++;
         }
-        while (Vector2.Distance(spawnPos, player.position) < safeZoneRadius && attempts < 50);
+        while (attempts < 50);
 
         return spawnPos;
     }
+
+
 }
