@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 347fff1c50a4aaa42b7c1e6c5ab0fb38
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9070389004012909900
+    second: saibaman 1_0
+  - first:
+      213: -7585864094836779113
+    second: saibaman 1_1
+  - first:
+      213: 1149399529300858659
+    second: saibaman 1_2
+  - first:
+      213: -2834934928374174168
+    second: saibaman 1_3
+  - first:
+      213: -207285525702804551
+    second: saibaman 1_4
+  - first:
+      213: -5308446402118803084
+    second: saibaman 1_5
+  - first:
+      213: 7027788085433963963
+    second: saibaman 1_6
+  - first:
+      213: 175069025048993106
+    second: saibaman 1_7
+  - first:
+      213: -5786694682584858965
+    second: saibaman 1_8
+  - first:
+      213: 622872687752222596
+    second: saibaman 1_9
+  - first:
+      213: 4624709213557222896
+    second: saibaman 1_10
+  - first:
+      213: 1929868288191139794
+    second: saibaman 1_11
+  - first:
+      213: -7387308510198655250
+    second: saibaman 1_12
+  - first:
+      213: 574260366805709730
+    second: saibaman 1_13
+  - first:
+      213: -7655488379839860186
+    second: saibaman 1_14
+  - first:
+      213: 587161703641878990
+    second: saibaman 1_15
+  - first:
+      213: 3445812791784956819
+    second: saibaman 1_16
+  - first:
+      213: -4803977364240340810
+    second: saibaman 1_17
+  - first:
+      213: 5905498718222017440
+    second: saibaman 1_18
+  - first:
+      213: -5755188016420075613
+    second: saibaman 1_19
+  - first:
+      213: 7714111909500956255
+    second: saibaman 1_20
+  - first:
+      213: -5486861470246163494
+    second: saibaman 1_21
+  - first:
+      213: 9175987014879253675
+    second: saibaman 1_22
+  - first:
+      213: 8987510261148755170
+    second: saibaman 1_23
+  - first:
+      213: 102546043549516723
+    second: saibaman 1_24
+  - first:
+      213: -6158424366326359360
+    second: saibaman 1_25
+  - first:
+      213: -8692563273854293744
+    second: saibaman 1_26
+  - first:
+      213: 2549923430978527230
+    second: saibaman 1_27
+  - first:
+      213: -136498592057972699
+    second: saibaman 1_28
+  - first:
+      213: 5523567796952594943
+    second: saibaman 1_29
+  - first:
+      213: -13881187152322755
+    second: saibaman 1_30
+  - first:
+      213: 4136916192346968840
+    second: saibaman 1_31
+  - first:
+      213: -6322355683598187877
+    second: saibaman 1_32
+  - first:
+      213: 2602785113613932417
+    second: saibaman 1_33
+  - first:
+      213: 4530452319188362566
+    second: saibaman 1_34
+  - first:
+      213: 8164092893541713407
+    second: saibaman 1_35
+  - first:
+      213: -1752640542571641127
+    second: saibaman 1_36
+  - first:
+      213: 2320110423648767262
+    second: saibaman 1_37
+  - first:
+      213: -3878564180258469505
+    second: saibaman 1_38
+  - first:
+      213: -252722588644288764
+    second: saibaman 1_39
+  - first:
+      213: -4172071542634777079
+    second: saibaman 1_40
+  - first:
+      213: 6309865776189029401
+    second: saibaman 1_41
+  - first:
+      213: 5015707996303567308
+    second: saibaman 1_42
+  - first:
+      213: -1315112390232155332
+    second: saibaman 1_43
+  - first:
+      213: 6028477485121789034
+    second: saibaman 1_44
+  - first:
+      213: 3622168095629928716
+    second: saibaman 1_45
+  - first:
+      213: -4202630406962299278
+    second: saibaman 1_46
+  - first:
+      213: 3461755675106829479
+    second: saibaman 1_47
+  - first:
+      213: -5913566171871131245
+    second: saibaman 1_48
+  - first:
+      213: -63303160680190768
+    second: saibaman 1_49
+  - first:
+      213: -3025770056587220156
+    second: saibaman 1_50
+  - first:
+      213: 5523952968221377103
+    second: saibaman 1_51
+  - first:
+      213: 2230706877775705594
+    second: saibaman 1_52
+  - first:
+      213: -569954003321687979
+    second: saibaman 1_53
+  - first:
+      213: -5457445491490503838
+    second: saibaman 1_54
+  - first:
+      213: 8267251161719025395
+    second: saibaman 1_55
+  - first:
+      213: -2956624479470668530
+    second: saibaman 1_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: saibaman 1_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 718
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c457ccefdbe70ed70800000000000000
+      internalID: 9070389004012909900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman 1_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 718
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f608139752ce0f644afbea37f005cf6c
+      internalID: -7585864094836779113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a8183aef3e4f1fe4f9a096a89bde8369
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":426.0,"y":753.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      saibaman 1_0: 9070389004012909900
+      saibaman 1_1: -7585864094836779113
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

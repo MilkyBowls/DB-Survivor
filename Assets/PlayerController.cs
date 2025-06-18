@@ -1,0 +1,496 @@
+﻿// FULL UPDATED VERSION WITH TRANSFORMATION CYCLING
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
+using TMPro;
+using System.Collections;
+using System.Collections.Generic;
+
+public class PlayerController : MonoBehaviour
+{
+    [Header("Data")]
+    public PlayerCharacterData characterData;
+    private CharacterTransformation currentTransformation;
+    private int currentTransformationIndex = -1; // -1 = base form
+
+    [Header("Visuals & Components")]
+    public Transform visualTransform;
+    public Transform enemyTargetPoint;
+    public Transform auraVisual;
+    public Transform saibamanLatchPoint;
+    public AuraController auraController;
+
+    private Vector2 moveInput;
+    private Rigidbody2D rb;
+    private PlayerControls controls;
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
+    private Vector3 visualBasePosition;
+    private CameraFollow cameraFollow;
+
+    public bool isLatched = false;
+    public bool isCharging = false;
+    public bool isDead { get; private set; } = false;
+    private bool isTransforming = false;
+    private bool isFacingLeft = false;
+
+    [Header("Ki System")]
+    public int currentKi;
+    private float kiRegenTimer = 0f;
+
+    [Header("Health System")]
+    public int currentHealth;
+
+    [Header("UI")]
+    public Slider kiBar;
+    public Slider healthBar;
+    public TextMeshProUGUI kiBarText;
+    public TextMeshProUGUI healthBarText;
+
+    [Header("Magnet Settings")]
+    public float baseMagnetRadius = 2f;
+    public float maxMagnetRadius = 8f;
+    public float radiusGrowSpeed = 5f;
+    private float currentMagnetRadius = 0f;
+
+    private float moveSpeed;
+    private float damage;
+    private int kiRegenRate;
+    private int maxKi;
+    private int maxHealth;
+
+    [Header("Weapon")]
+    public Transform firePoint;
+
+    private void Awake()
+    {
+        controls = new PlayerControls();
+    }
+
+    private void OnEnable()
+    {
+        controls.Player.Enable();
+
+        controls.Player.Move.performed += ctx => { if (!isCharging) moveInput = ctx.ReadValue<Vector2>(); };
+        controls.Player.Move.canceled += ctx => { if (!isCharging) moveInput = Vector2.zero; };
+
+        controls.Player.Charge.performed += ctx => StartCharge();
+        controls.Player.Charge.canceled += ctx => StopCharge();
+
+        controls.Player.DeTransform.performed += OnDeTransform;
+        controls.Player.Transform.performed += ctx => TryTransform();
+
+        controls.Player.MaxTransform.performed += ctx => MaxTransform();
+        controls.Player.BaseForm.performed += ctx => ForceRevertToBaseForm();
+    }
+
+    private void OnDisable()
+    {
+        controls.Player.Disable();
+    }
+
+    void Start()
+    {
+        if (characterData == null)
+        {
+            Debug.LogError("No PlayerCharacterData assigned!");
+            enabled = false;
+            return;
+        }
+
+        rb = GetComponent<Rigidbody2D>();
+        animator = visualTransform.GetComponent<Animator>();
+        spriteRenderer = visualTransform.GetComponent<SpriteRenderer>();
+        visualBasePosition = visualTransform.localPosition;
+        cameraFollow = Camera.main.GetComponent<CameraFollow>();
+
+        moveSpeed = characterData.movementSpeed;
+        damage = characterData.damage;
+        maxHealth = (int)characterData.maxHealth;
+        currentHealth = maxHealth;
+        maxKi = (int)characterData.maxKiCapacity;
+        currentKi = maxKi;
+        kiRegenRate = (int)characterData.kiRegenRate;
+
+        if (kiBar != null) { kiBar.maxValue = maxKi; kiBar.value = currentKi; }
+        if (healthBar != null) { healthBar.maxValue = maxHealth; healthBar.value = currentHealth; }
+
+        animator.runtimeAnimatorController = characterData.animatorController;
+
+        if (characterData.startingWeaponPrefab != null)
+        {
+            Instantiate(characterData.startingWeaponPrefab, transform.position, Quaternion.identity, transform);
+        }
+
+        currentMagnetRadius = baseMagnetRadius;
+    }
+
+    void Update()
+    {
+        if (!isDead && !isTransforming)
+        {
+            if (isCharging && currentKi < maxKi)
+            {
+                kiRegenTimer += Time.deltaTime;
+                if (kiRegenTimer >= 1f)
+                {
+                    currentKi += kiRegenRate;
+                    currentKi = Mathf.Min(currentKi, maxKi);
+                    kiRegenTimer = 0f;
+                }
+            }
+
+            // Only auto-revert if you're currently transformed
+            if (currentTransformation != null && currentKi <= 0)
+            {
+                currentTransformationIndex = -1;
+                RevertToBaseForm();
+            }
+        }
+
+        if (kiBar != null) kiBar.value = currentKi;
+            if (kiBarText != null) kiBarText.text = $"{currentKi} / {maxKi}";
+            if (healthBar != null) healthBar.value = currentHealth;
+            if (healthBarText != null) healthBarText.text = $"{currentHealth} / {maxHealth}";
+
+            if (isCharging && currentMagnetRadius < maxMagnetRadius)
+            {
+                currentMagnetRadius += radiusGrowSpeed * Time.deltaTime;
+                currentMagnetRadius = Mathf.Min(currentMagnetRadius, maxMagnetRadius);
+            }
+
+            if (isCharging)
+            {
+                foreach (var collectible in CollectibleObject.ActiveCollectibles)
+                {
+                    if (Vector3.Distance(transform.position, collectible.transform.position) <= currentMagnetRadius)
+                        collectible.StartMagnetize(transform);
+                }
+            }
+
+        if (isLatched || isCharging || isDead || isTransforming) return;
+
+        rb.linearVelocity = moveInput.normalized * moveSpeed;
+        FaceMouseDirection();
+    }
+
+    void FixedUpdate()
+    {
+        if (isDead || isTransforming) return;
+
+        if (isCharging)
+        {
+            rb.linearVelocity = Vector2.zero;
+            visualTransform.localPosition = visualBasePosition;
+            animator.SetInteger("Direction", 0);
+            animator.SetFloat("Speed", 0f);
+            return;
+        }
+
+        Vector2 movement = moveInput.normalized * moveSpeed * Time.fixedDeltaTime;
+        rb.MovePosition(rb.position + movement);
+
+        bool isMoving = moveInput.sqrMagnitude > 0.01f;
+        visualTransform.localPosition = isMoving
+            ? visualBasePosition + new Vector3(0, Mathf.Sin(Time.time * 2f) * 0.1f, 0)
+            : visualBasePosition;
+
+        int direction = isMoving ? (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y) ? 1 : 2) : 0;
+        animator.SetInteger("Direction", direction);
+        animator.SetFloat("Speed", isMoving ? moveInput.sqrMagnitude : 0f);
+
+        if (auraController != null && animator != null)
+        {
+            AnimatorStateInfo animState = animator.GetCurrentAnimatorStateInfo(0);
+            string currentStateName = animState.IsName("Walk") ? "Walk" :
+                                      animState.IsName("WalkAttack") ? "Walk" :
+                                      animState.IsName("Idle") ? "Idle" :
+                                      animState.IsName("Rise") ? "Rise" : "Other";
+
+            auraController.UpdateAuraOrientation(currentStateName, isFacingLeft);
+        }
+    }
+
+    private void TryTransform()
+    {
+        if (isCharging || isLatched || isDead || isTransforming) return;
+
+        int nextIndex = currentTransformationIndex + 1;
+        if (nextIndex < characterData.transformations.Count)
+        {
+            var transformation = characterData.transformations[nextIndex];
+            if (currentKi >= transformation.kiCostToTransform)
+            {
+                currentTransformationIndex = nextIndex;
+                currentTransformation = transformation;
+                StartCoroutine(PerformTransformation(transformation));
+            }
+        }
+    }
+
+    public void MaxTransform()
+    {
+        if (isCharging || isLatched || isDead) // Removed isTransforming
+        {
+            Debug.Log("Blocked: Cannot transform now.");
+            return;
+        }
+
+        for (int i = characterData.transformations.Count - 1; i >= 0; i--)
+        {
+            var transformation = characterData.transformations[i];
+            Debug.Log($"Checking form {i}: {transformation.formName}, cost: {transformation.kiCostToTransform}, currentKi: {currentKi}");
+
+            if (currentKi >= transformation.kiCostToTransform)
+            {
+                Debug.Log($"Transforming to: {transformation.formName}");
+                currentTransformationIndex = i;
+                currentTransformation = transformation;
+                StartCoroutine(PerformTransformation(transformation));
+                break;
+            }
+        }
+    }
+
+
+
+    private void OnDeTransform(InputAction.CallbackContext ctx)
+    {
+        if (Keyboard.current.leftShiftKey.isPressed || Keyboard.current.rightShiftKey.isPressed)
+            return; // Skip if Shift is pressed — this is likely a ForceRevert call
+
+        if (currentTransformationIndex > 0)
+        {
+            currentTransformationIndex--;
+            var transformation = characterData.transformations[currentTransformationIndex];
+            currentTransformation = transformation;
+            StartCoroutine(PerformDeTransform(transformation));
+        }
+        else
+        {
+            RevertToBaseForm();
+        }
+    }
+
+    private IEnumerator PerformDeTransform(CharacterTransformation transformation)
+    {
+        isTransforming = true;
+
+        animator.SetTrigger("Transform");
+        auraController?.SetAura(transformation.auraSprite);
+
+        yield return new WaitForSecondsRealtime(0f);
+
+        auraController?.FadeInAura(1f);
+
+        moveSpeed = characterData.movementSpeed * transformation.speedMultiplier;
+        damage = characterData.damage * transformation.damageMultiplier;
+
+        if (transformation.animatorOverride != null)
+            animator.runtimeAnimatorController = transformation.animatorOverride;
+        if (transformation.transformationPortrait != null)
+            spriteRenderer.sprite = transformation.transformationPortrait;
+
+        animator.Play("Idle", 0, 0f);
+        animator.updateMode = AnimatorUpdateMode.Normal;
+
+        isTransforming = false;
+    }
+
+
+    public void ForceRevertToBaseForm()
+    {
+        if (currentTransformation == null && currentTransformationIndex == -1)
+            return;
+
+        StopAllCoroutines();
+
+        currentTransformation = null;
+        currentTransformationIndex = -1;
+
+        moveSpeed = characterData.movementSpeed;
+        damage = characterData.damage;
+
+        animator.runtimeAnimatorController = characterData.animatorController;
+        animator.SetBool("IsCharging", false);
+        animator.Play("Idle", 0, 0f);
+
+        auraController?.DisableAura();
+        SFXManager.Instance?.Play(SFXManager.Instance.PowerDown);
+
+        isCharging = false;
+        isTransforming = false;
+        moveInput = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
+
+        cameraFollow?.StopChargingEffects();
+
+        Debug.Log("Forced revert to base form.");
+    }
+
+
+
+
+    private IEnumerator PerformTransformation(CharacterTransformation transformation)
+    {
+        isTransforming = true;
+
+        animator.updateMode = AnimatorUpdateMode.UnscaledTime;
+        animator.SetTrigger("Transform");
+        auraController?.SetAura(transformation.auraSprite);
+
+        CameraFollow.Instance?.TriggerImpulseShake(1f, 0.05f, 25f);
+        CameraFollow.Instance?.TemporaryZoom(3.5f, 0.5f);
+        Time.timeScale = 0.1f;
+
+        yield return new WaitForSecondsRealtime(1.183f);
+
+        auraController?.FadeInAura(1f);
+        Time.timeScale = 1f;
+
+        moveSpeed = characterData.movementSpeed * transformation.speedMultiplier;
+        damage = characterData.damage * transformation.damageMultiplier;
+
+        if (transformation.animatorOverride != null)
+            animator.runtimeAnimatorController = transformation.animatorOverride;
+        if (transformation.transformationPortrait != null)
+            spriteRenderer.sprite = transformation.transformationPortrait;
+
+        animator.Play("Idle", 0, 0f);
+        animator.updateMode = AnimatorUpdateMode.Normal;
+
+        isTransforming = false;
+    }
+
+    private void RevertToBaseForm()
+    {
+        if (currentTransformation == null && currentTransformationIndex == -1)
+            return; // Already base form
+
+        currentTransformation = null;
+        currentTransformationIndex = -1;
+
+        moveSpeed = characterData.movementSpeed;
+        damage = characterData.damage;
+
+        animator.runtimeAnimatorController = characterData.animatorController;
+        auraController?.DisableAura();
+        SFXManager.Instance?.Play(SFXManager.Instance.PowerDown);
+
+        Debug.Log("Reverted to base form.");
+    }
+
+    private bool isSuperSaiyan() => currentTransformation != null;
+
+    public void SetCharacter(PlayerCharacterData data)
+    {
+        characterData = data;
+        Start();
+    }
+
+    public void TakeDamage(int amount)
+    {
+        currentHealth -= amount;
+        currentHealth = Mathf.Max(currentHealth, 0);
+
+        if (healthBar != null) healthBar.value = currentHealth;
+        if (healthBarText != null) healthBarText.text = $"{currentHealth} / {maxHealth}";
+
+        if (currentHealth <= 0) Die();
+    }
+
+    private void Die()
+    {
+        isDead = true;
+        StopCharge();
+        rb.linearVelocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        controls.Player.Disable();
+        animator.SetTrigger("Die");
+    }
+
+    private void FaceMouseDirection()
+    {
+        Vector3 mousePos = Mouse.current.position.ReadValue();
+        Vector3 worldMousePos = Camera.main.ScreenToWorldPoint(mousePos);
+        worldMousePos.z = 0f;
+        isFacingLeft = worldMousePos.x < transform.position.x;
+        spriteRenderer.flipX = isFacingLeft;
+    }
+
+    public void PlayAttackAnimation()
+    {
+        if (isCharging || isLatched || isDead) return;
+
+        bool isMoving = moveInput.sqrMagnitude > 0.01f;
+        float verticalSpeed = moveInput.y;
+
+        if (!isMoving)
+            animator.Play("IdleAttack");
+        else if (verticalSpeed > 0.1f)
+            animator.Play("RiseAttack");
+        else
+            animator.Play("WalkAttack");
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, currentMagnetRadius);
+    }
+
+    public bool TrySpendKi(int amount)
+    {
+        if (isDead || isTransforming || isLatched) return false;
+
+        int cost = isSuperSaiyan() ? Mathf.RoundToInt(amount * currentTransformation.attackKiMultiplier) : amount;
+
+        if (currentKi >= cost)
+        {
+            currentKi -= cost;
+
+            if (isSuperSaiyan() && currentKi <= 0)
+                RevertToBaseForm();
+
+            return true;
+        }
+
+        if (isSuperSaiyan())
+            RevertToBaseForm();
+
+        return false;
+    }
+
+    private void StartCharge()
+    {
+        if (isCharging || isDead || isTransforming) return;
+
+        isCharging = true;
+        currentMagnetRadius = baseMagnetRadius;
+
+        SFXManager.Instance?.StartKiChargeLoop();
+        cameraFollow?.StartChargingEffects();
+        animator.SetBool("IsCharging", true);
+        moveInput = Vector2.zero;
+
+        foreach (var collectible in CollectibleObject.ActiveCollectibles)
+        {
+            if (Vector3.Distance(transform.position, collectible.transform.position) <= currentMagnetRadius)
+            {
+                collectible.StartMagnetize(transform);
+            }
+        }
+    }
+
+    private void StopCharge()
+    {
+        if (!isCharging || isDead || isTransforming) return;
+
+        isCharging = false;
+        SFXManager.Instance?.StopKiChargeLoop();
+        cameraFollow?.StopChargingEffects();
+        animator.SetBool("IsCharging", false);
+
+        currentMagnetRadius = 0f;
+    }
+}

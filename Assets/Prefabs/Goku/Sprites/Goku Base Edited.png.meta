@@ -1,0 +1,1645 @@
+fileFormatVersion: 2
+guid: 585932ac68e4e9140b5ada6991c87ccc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6508494961707523050
+    second: Goku Base Edited_0
+  - first:
+      213: 7899062833892487771
+    second: Goku Base Edited_1
+  - first:
+      213: -1494221145291243933
+    second: Goku Base Edited_2
+  - first:
+      213: 2241036290295009238
+    second: Goku Base Edited_3
+  - first:
+      213: -9194786299208568360
+    second: Goku Base Edited_4
+  - first:
+      213: -2605857969203350636
+    second: Goku Base Edited_5
+  - first:
+      213: 1955641502597648286
+    second: Goku Base Edited_6
+  - first:
+      213: -8331558682805793363
+    second: Goku Base Edited_7
+  - first:
+      213: 8404395500262805591
+    second: Goku Base Edited_8
+  - first:
+      213: 4535791420091861174
+    second: Goku Base Edited_9
+  - first:
+      213: -4895229743856880644
+    second: Goku Base Edited_10
+  - first:
+      213: 8963305229048388709
+    second: Goku Base Edited_11
+  - first:
+      213: -4371897143266669909
+    second: Goku Base Edited_12
+  - first:
+      213: 8486001749490846448
+    second: Goku Base Edited_13
+  - first:
+      213: 2384953628014898793
+    second: Goku Base Edited_14
+  - first:
+      213: 991178680747114869
+    second: Goku Base Edited_15
+  - first:
+      213: -5999580677570293457
+    second: Goku Base Edited_16
+  - first:
+      213: 8681996650600514943
+    second: Goku Base Edited_17
+  - first:
+      213: -6389586271207806985
+    second: Goku Base Edited_18
+  - first:
+      213: 2497501102539360033
+    second: Goku Base Edited_19
+  - first:
+      213: 7049135035334074531
+    second: Goku Base Edited_20
+  - first:
+      213: -9197800913502735943
+    second: Goku Base Edited_21
+  - first:
+      213: -6280772345116966960
+    second: Goku Base Edited_22
+  - first:
+      213: -6107347774010187875
+    second: Goku Base Edited_23
+  - first:
+      213: -1299980855446471444
+    second: Goku Base Edited_24
+  - first:
+      213: 5620673862672377218
+    second: Goku Base Edited_25
+  - first:
+      213: 2349096817431116015
+    second: Goku Base Edited_26
+  - first:
+      213: -189934571785434199
+    second: Goku Base Edited_27
+  - first:
+      213: -4104180840407893439
+    second: Goku Base Edited_28
+  - first:
+      213: 4844859056556570299
+    second: Goku Base Edited_29
+  - first:
+      213: -8218131880684008175
+    second: Goku Base Edited_30
+  - first:
+      213: -8758021901373002231
+    second: Goku Base Edited_31
+  - first:
+      213: 8537276880257345140
+    second: Goku Base Edited_32
+  - first:
+      213: -4529201156891647361
+    second: Goku Base Edited_33
+  - first:
+      213: 4798686054455318425
+    second: Goku Base Edited_34
+  - first:
+      213: -116288246982785529
+    second: Goku Base Edited_35
+  - first:
+      213: 864830342024299201
+    second: Goku Base Edited_36
+  - first:
+      213: -5721191743623089070
+    second: Goku Base Edited_37
+  - first:
+      213: -4999684248998188183
+    second: Goku Base Edited_38
+  - first:
+      213: 1414794604789282952
+    second: Goku Base Edited_39
+  - first:
+      213: 5879086835685008954
+    second: Goku Base Edited_40
+  - first:
+      213: -1629950445614789087
+    second: Goku Base Edited_41
+  - first:
+      213: 5133101640298833772
+    second: Goku Base Edited_42
+  - first:
+      213: -6360990210415330097
+    second: Goku Base Edited_43
+  - first:
+      213: 5693748184151015379
+    second: Goku Base Edited_44
+  - first:
+      213: -3820541311711700088
+    second: Goku Base Edited_45
+  - first:
+      213: 4636447798349312072
+    second: Goku Base Edited_46
+  - first:
+      213: 6522677956419133129
+    second: Goku Base Edited_47
+  - first:
+      213: -9003323611424980155
+    second: Goku Base Edited_48
+  - first:
+      213: 5581412373992908191
+    second: Goku Base Edited_49
+  - first:
+      213: 1463876765414371874
+    second: Goku Base Edited_50
+  - first:
+      213: -1131996105927076907
+    second: Goku Base Edited_51
+  - first:
+      213: -2858650350761104984
+    second: Goku Base Edited_52
+  - first:
+      213: -8532129931107844293
+    second: Goku Base Edited_53
+  - first:
+      213: 4802869508102732901
+    second: Goku Base Edited_54
+  - first:
+      213: -3272596141727163275
+    second: Goku Base Edited_55
+  - first:
+      213: -7163066822841558026
+    second: Goku Base Edited_56
+  - first:
+      213: 733306083828371875
+    second: Goku Base Edited_57
+  - first:
+      213: -5737595314199526109
+    second: Goku Base Edited_58
+  - first:
+      213: 8770036802204985508
+    second: Goku Base Edited_59
+  - first:
+      213: -1911093088254977527
+    second: Goku Base Edited_60
+  - first:
+      213: 2709829812636585481
+    second: Goku Base Edited_61
+  - first:
+      213: 9025901412306768951
+    second: Goku Base Edited_62
+  - first:
+      213: -265786756054318890
+    second: Goku Base Edited_63
+  - first:
+      213: 7295064611674169473
+    second: Goku Base Edited_64
+  - first:
+      213: -6915533512382816651
+    second: Goku Base Edited_65
+  - first:
+      213: 8354482904522408971
+    second: Goku Base Edited_66
+  - first:
+      213: -7325011660118189245
+    second: Goku Base Edited_67
+  - first:
+      213: -8794951437616675502
+    second: Goku Base Edited_68
+  - first:
+      213: -4203407746953227485
+    second: Goku Base Edited_69
+  - first:
+      213: -8327836152303719661
+    second: Goku Base Edited_70
+  - first:
+      213: 8186787197806839187
+    second: Goku Base Edited_71
+  - first:
+      213: -2825183894063265166
+    second: Goku Base Edited_72
+  - first:
+      213: 1590088692083742954
+    second: Goku Base Edited_73
+  - first:
+      213: 5163137076371448083
+    second: Goku Base Edited_74
+  - first:
+      213: 2866397147943854482
+    second: Goku Base Edited_75
+  - first:
+      213: -5690312059277366445
+    second: Goku Base Edited_76
+  - first:
+      213: 7540387110052851785
+    second: Goku Base Edited_77
+  - first:
+      213: 7956106928028493302
+    second: Goku Base Edited_78
+  - first:
+      213: -2925780558842250933
+    second: Goku Base Edited_79
+  - first:
+      213: -8940669495662421
+    second: Goku Base Edited_80
+  - first:
+      213: -7336602401064217397
+    second: Goku Base Edited_81
+  - first:
+      213: -829639725048980879
+    second: Goku Base Edited_82
+  - first:
+      213: 4042978744254041277
+    second: Goku Base Edited_83
+  - first:
+      213: 4336027160231025271
+    second: Goku Base Edited_84
+  - first:
+      213: 5277391120951598921
+    second: Goku Base Edited_85
+  - first:
+      213: -6350561018834928347
+    second: Goku Base Edited_86
+  - first:
+      213: -4761371779374468342
+    second: Goku Base Edited_87
+  - first:
+      213: 723337696928791377
+    second: Goku Base Edited_88
+  - first:
+      213: 8159494569416024627
+    second: Goku Base Edited_89
+  - first:
+      213: 8771226328439248965
+    second: Goku Base Edited_90
+  - first:
+      213: -7164956991156945365
+    second: Goku Base Edited_91
+  - first:
+      213: -2359348849922592064
+    second: Goku Base Edited_92
+  - first:
+      213: -4451778724639148015
+    second: Goku Base Edited_93
+  - first:
+      213: 8254344361801477392
+    second: Goku Base Edited_94
+  - first:
+      213: -2137224088176206229
+    second: Goku Base Edited_95
+  - first:
+      213: -4898097947906566342
+    second: Goku Base Edited_96
+  - first:
+      213: -2899252581784621878
+    second: Goku Base Edited_97
+  - first:
+      213: 9072258744859155462
+    second: Goku Base Edited_98
+  - first:
+      213: 6376324094556325750
+    second: Goku Base Edited_99
+  - first:
+      213: 4467763199600729800
+    second: Goku Base Edited_100
+  - first:
+      213: -7242548951523168620
+    second: Goku Base Edited_101
+  - first:
+      213: -5678579271213512038
+    second: Goku Base Edited_102
+  - first:
+      213: -8569639020146367710
+    second: Goku Base Edited_103
+  - first:
+      213: -2249134288709753377
+    second: Goku Base Edited_104
+  - first:
+      213: -4591568806452828652
+    second: Goku Base Edited_105
+  - first:
+      213: -8813208877302496904
+    second: Goku Base Edited_106
+  - first:
+      213: -8429585874981593684
+    second: Goku Base Edited_107
+  - first:
+      213: 6712104382073169035
+    second: Goku Base Edited_108
+  - first:
+      213: 6685228099148162878
+    second: Goku Base Edited_109
+  - first:
+      213: -3753083576525022746
+    second: Goku Base Edited_110
+  - first:
+      213: -2119242880628720665
+    second: Goku Base Edited_111
+  - first:
+      213: -432513898582214505
+    second: Goku Base Edited_112
+  - first:
+      213: -5904607891986175878
+    second: Goku Base Edited_113
+  - first:
+      213: -3706739107736367348
+    second: Goku Base Edited_114
+  - first:
+      213: -4439271369940978573
+    second: Goku Base Edited_115
+  - first:
+      213: 540639040863085715
+    second: Goku Base Edited_116
+  - first:
+      213: -6164191336422963925
+    second: Goku Base Edited_117
+  - first:
+      213: 6065577895127788312
+    second: Goku Base Edited_118
+  - first:
+      213: -2769590179476251220
+    second: Goku Base Edited_119
+  - first:
+      213: 8468361732800701072
+    second: Goku Base Edited_120
+  - first:
+      213: 3828460527762402832
+    second: Goku Base Edited_121
+  - first:
+      213: -2304120256434546113
+    second: Goku Base Edited_122
+  - first:
+      213: -3278672384967038179
+    second: Goku Base Edited_123
+  - first:
+      213: -5186013825286455879
+    second: Goku Base Edited_124
+  - first:
+      213: 9107673112221798978
+    second: Goku Base Edited_125
+  - first:
+      213: -4839022043763235067
+    second: Goku Base Edited_126
+  - first:
+      213: 3134702766721921677
+    second: Goku Base Edited_127
+  - first:
+      213: -6228338357255742131
+    second: Goku Base Edited_128
+  - first:
+      213: 8422421498275433512
+    second: Goku Base Edited_129
+  - first:
+      213: -3079254317637492003
+    second: Goku Base Edited_130
+  - first:
+      213: 3165627128172347454
+    second: Goku Base Edited_131
+  - first:
+      213: 4613953392635366219
+    second: Goku Base Edited_132
+  - first:
+      213: 7609142335164610433
+    second: Goku Base Edited_133
+  - first:
+      213: 4420690098154701808
+    second: Goku Base Edited_134
+  - first:
+      213: 4369532940603827095
+    second: Goku Base Edited_135
+  - first:
+      213: -4493461155415044749
+    second: Goku Base Edited_136
+  - first:
+      213: -6983773515069288857
+    second: Goku Base Edited_137
+  - first:
+      213: -225183210600135140
+    second: Goku Base Edited_138
+  - first:
+      213: -373850806538092308
+    second: Goku Base Edited_139
+  - first:
+      213: -1690491340076598296
+    second: Goku Base Edited_140
+  - first:
+      213: 3512428806927100920
+    second: Goku Base Edited_141
+  - first:
+      213: 3292207633634061280
+    second: Goku Base Edited_142
+  - first:
+      213: 3621533455096522080
+    second: Goku Base Edited_143
+  - first:
+      213: -8314611280454027146
+    second: Goku Base Edited_144
+  - first:
+      213: 2706746500698677999
+    second: Goku Base Edited_145
+  - first:
+      213: 2994101396934831720
+    second: Goku Base Edited_146
+  - first:
+      213: -1525357692883012957
+    second: Goku Base Edited_147
+  - first:
+      213: 5781492043103952997
+    second: Goku Base Edited_148
+  - first:
+      213: -8837549663585001530
+    second: Goku Base Edited_149
+  - first:
+      213: 4712594126632998683
+    second: Goku Base Edited_150
+  - first:
+      213: -7976527193750061709
+    second: Goku Base Edited_151
+  - first:
+      213: 7776050667835965386
+    second: Goku Base Edited_152
+  - first:
+      213: -5095627404820083393
+    second: Goku Base Edited_153
+  - first:
+      213: 6571926315183686107
+    second: Goku Base Edited_154
+  - first:
+      213: 4398471549799870123
+    second: Goku Base Edited_155
+  - first:
+      213: 3870524999002024550
+    second: Goku Base Edited_156
+  - first:
+      213: -9104740894854433987
+    second: Goku Base Edited_157
+  - first:
+      213: 7274420266507158943
+    second: Goku Base Edited_158
+  - first:
+      213: 970795369885767295
+    second: Goku Base Edited_159
+  - first:
+      213: 686151154243468579
+    second: Goku Base Edited_160
+  - first:
+      213: 6086086111079304430
+    second: Goku Base Edited_161
+  - first:
+      213: -8117592924264285435
+    second: Goku Base Edited_162
+  - first:
+      213: 7824404622241812884
+    second: Goku Base Edited_163
+  - first:
+      213: 544611400605975300
+    second: Goku Base Edited_164
+  - first:
+      213: 8815117654790009429
+    second: Goku Base Edited_165
+  - first:
+      213: 2690338422916832602
+    second: Goku Base Edited_166
+  - first:
+      213: 1688578035745428146
+    second: Goku Base Edited_167
+  - first:
+      213: 8125717480376573937
+    second: Goku Base Edited_168
+  - first:
+      213: 5927812470375744093
+    second: Goku Base Edited_169
+  - first:
+      213: -6073088686598823407
+    second: Goku Base Edited_170
+  - first:
+      213: -2081473151218075762
+    second: Goku Base Edited_171
+  - first:
+      213: -4573340721282982435
+    second: Goku Base Edited_172
+  - first:
+      213: -1370793650047942521
+    second: Goku Base Edited_173
+  - first:
+      213: 1426918349958857438
+    second: Goku Base Edited_174
+  - first:
+      213: 685465864482497119
+    second: Goku Base Edited_175
+  - first:
+      213: 8316818687512778081
+    second: Goku Base Edited_176
+  - first:
+      213: 6794894777480670186
+    second: Goku Base Edited_177
+  - first:
+      213: -7837742488869542359
+    second: Goku Base Edited_178
+  - first:
+      213: 6241880819010478393
+    second: Goku Base Edited_179
+  - first:
+      213: -7131052030349662758
+    second: Goku Base Edited_180
+  - first:
+      213: 3521415069599950926
+    second: Goku Base Edited_181
+  - first:
+      213: -4863319222171039007
+    second: Goku Base Edited_182
+  - first:
+      213: 6049825632217723118
+    second: Goku Base Edited_183
+  - first:
+      213: 8623384376580180545
+    second: Goku Base Edited_184
+  - first:
+      213: -3987630428437936550
+    second: Goku Base Edited_185
+  - first:
+      213: 1450977815181092422
+    second: Goku Base Edited_186
+  - first:
+      213: -8953671134778529668
+    second: Goku Base Edited_187
+  - first:
+      213: -6543616266910500808
+    second: Goku Base Edited_188
+  - first:
+      213: 5944445985933382123
+    second: Goku Base Edited_189
+  - first:
+      213: 1747074607497795724
+    second: Goku Base Edited_190
+  - first:
+      213: -4129901659270175540
+    second: Goku Base Edited_191
+  - first:
+      213: -4572685135185255752
+    second: Goku Base Edited_192
+  - first:
+      213: -5788341381774965801
+    second: Goku Base Edited_193
+  - first:
+      213: 2343775979582631047
+    second: Goku Base Edited_194
+  - first:
+      213: 4475847572737983033
+    second: Goku Base Edited_195
+  - first:
+      213: -3866511230033166557
+    second: Goku Base Edited_196
+  - first:
+      213: -4276882302512339107
+    second: Goku Base Edited_197
+  - first:
+      213: 2921891042754540715
+    second: Goku Base Edited_198
+  - first:
+      213: -6235039401698243846
+    second: Goku Base Edited_199
+  - first:
+      213: -8947986134111886536
+    second: Goku Base Edited_200
+  - first:
+      213: -7466075093259643534
+    second: Goku Base Edited_201
+  - first:
+      213: 2560667402244677866
+    second: Goku Base Edited_202
+  - first:
+      213: 4911471852096114059
+    second: Goku Base Edited_203
+  - first:
+      213: -3389534491781078429
+    second: Goku Base Edited_204
+  - first:
+      213: 7361409560876176812
+    second: Goku Base Edited_205
+  - first:
+      213: 6650115493593768781
+    second: Goku Base Edited_206
+  - first:
+      213: -8774797858972569917
+    second: Goku Base Edited_207
+  - first:
+      213: 2292048070960433071
+    second: Goku Base Edited_208
+  - first:
+      213: 6066108761741796771
+    second: Goku Base Edited_209
+  - first:
+      213: -4255424475011840736
+    second: Goku Base Edited_210
+  - first:
+      213: 8906263643112664773
+    second: Goku Base Edited_211
+  - first:
+      213: -11728305936284057
+    second: Goku Base Edited_212
+  - first:
+      213: -588630087663952865
+    second: Goku Base Edited_213
+  - first:
+      213: 7336957378931296486
+    second: Goku Base Edited_214
+  - first:
+      213: -2372881220784354122
+    second: Goku Base Edited_215
+  - first:
+      213: -8518019839830787612
+    second: Goku Base Edited_216
+  - first:
+      213: 5483039520645891152
+    second: Goku Base Edited_217
+  - first:
+      213: 1719772588997099591
+    second: Goku Base Edited_218
+  - first:
+      213: 2764983022117602192
+    second: Goku Base Edited_219
+  - first:
+      213: 405833621269861792
+    second: Goku Base Edited_220
+  - first:
+      213: 2419800115673655414
+    second: Goku Base Edited_221
+  - first:
+      213: 1361778383605923850
+    second: Goku Base Edited_222
+  - first:
+      213: 8969266485240377900
+    second: Goku Base Edited_223
+  - first:
+      213: 2143425704097521715
+    second: Goku Base Edited_224
+  - first:
+      213: -6422354754370220526
+    second: Goku Base Edited_225
+  - first:
+      213: 1534112007472844330
+    second: Goku Base Edited_226
+  - first:
+      213: -6029095522276947601
+    second: Goku Base Edited_227
+  - first:
+      213: 3303951803572935974
+    second: Goku Base Edited_228
+  - first:
+      213: 1210811731578117143
+    second: Goku Base Edited_229
+  - first:
+      213: 2638117680481319154
+    second: Goku Base Edited_230
+  - first:
+      213: -4436959120271631405
+    second: Goku Base Edited_231
+  - first:
+      213: -4388488269560422013
+    second: Goku Base Edited_232
+  - first:
+      213: -2079321663944877086
+    second: Goku Base Edited_233
+  - first:
+      213: -8669318236951770729
+    second: Goku Base Edited_234
+  - first:
+      213: 2017432131367966411
+    second: Goku Base Edited_235
+  - first:
+      213: 4901045664420327563
+    second: Goku Base Edited_236
+  - first:
+      213: 7490500605706150307
+    second: Goku Base Edited_237
+  - first:
+      213: -3964995109481162889
+    second: Goku Base Edited_238
+  - first:
+      213: -7282187780316796452
+    second: Goku Base Edited_239
+  - first:
+      213: 3546550398611100815
+    second: Goku Base Edited_240
+  - first:
+      213: -2282025049557985554
+    second: Goku Base Edited_241
+  - first:
+      213: -4764797277273523685
+    second: Goku Base Edited_242
+  - first:
+      213: 974609849793730290
+    second: Goku Base Edited_243
+  - first:
+      213: -669511269519133138
+    second: Goku Base Edited_244
+  - first:
+      213: -3747411670818421857
+    second: Goku Base Edited_245
+  - first:
+      213: -4340375492535170488
+    second: Goku Base Edited_246
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goku Base Edited_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1465
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0b5cca356a04449b5aef17b6ce43dd
+      internalID: -6508494961707523050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1465
+        width: 44
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfeedd005b6b414eaea76eb5c92be7b
+      internalID: 7899062833892487771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1466
+        width: 32
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d22d7575c5a92d488c70ff4bde7d044
+      internalID: -1494221145291243933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1067
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ab5094e7d4c854ba591db4a6e66b6d
+      internalID: 2241036290295009238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1067
+        width: 49
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfafa77dc7c9084387c2bd1364686b1
+      internalID: -9194786299208568360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1060
+        width: 89
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d315ac83969d9cc4e995b5d125b6616e
+      internalID: -2605857969203350636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1060
+        width: 91
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb43f9235d458ce4caa18d8885c0f684
+      internalID: 1955641502597648286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1111
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110b97f30b286334e9ec82293ea9d632
+      internalID: -1118506424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_8
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1111
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad38810142bd78a4e82d57e2bdd0dcc7
+      internalID: -105672533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_9
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1105
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87889da75a9e604592d76c1913aa692
+      internalID: 414022478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_10
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1102
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5333429636d199a499a71ba9ca8a192e
+      internalID: -1161596357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_11
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1101
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223cbe952e165424588f982326d263b5
+      internalID: -1675014341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_12
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1058
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdce306ac04a6247b164498493af86f
+      internalID: -546478519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_13
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1059
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd8b6509d10d314c92ad5a67e81e4e5
+      internalID: -2024430490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1164
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0df1922b008eb42b564503f99db5de
+      internalID: 2075078551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1164
+        width: 38
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9f3f12cd15e06478f1dd54c6fed97a
+      internalID: -88799072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1167
+        width: 37
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cc2b55acd98c547b392e3e4ee0c6db
+      internalID: -227052726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1164
+        width: 61
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48fc8dad73e95e42a2988fc37171ccd
+      internalID: -2139748579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_18
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1540
+        width: 47
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a2755ed1df01d41bc710cef4c1e47c
+      internalID: 115712960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_19
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1530
+        width: 37
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bc6d523221318429cc2a40ae9e889c
+      internalID: 1973849751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_20
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1066
+        width: 38
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a578f64cd4ac64db467f4ee28ef370
+      internalID: 2095135542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_21
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 17
+        width: 37
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14b96b752a37104984bd6e6c8b8845e
+      internalID: 1747621526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_22
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 17
+        width: 37
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8274f3d656168da428b0339e91cd5480
+      internalID: 18613654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_23
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 18
+        width: 36
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f481f9e4965ff14409240be5d8ffe0f5
+      internalID: -79055801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_24
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 19
+        width: 34
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c373573c8804da4eb4fe32a1f63a3c5
+      internalID: 982773856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_25
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 19
+        width: 35
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc46456f1e73fea4eb2534d9b549f5c7
+      internalID: 292198560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 19
+        width: 37
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c793732f6bc645428ab43d3aacb1ba2
+      internalID: -651483910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_27
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 19
+        width: 47
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f2829e76cac0c41ad8bc7b28a6e23d
+      internalID: 332373561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_28
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 19
+        width: 71
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db3c01d9c1d2714f850e19cb82768ae
+      internalID: -751309474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_29
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 19
+        width: 120
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca0dd278566eca4fbdd16ceb0b41888
+      internalID: -1888630889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_30
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 12
+        width: 113
+        height: 101
+      alignment: 9
+      pivot: {x: 0.625, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b70bbb47843d74c91218d5964ac4b5
+      internalID: -1644892610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_31
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 12
+        width: 91
+        height: 81
+      alignment: 9
+      pivot: {x: 0.51, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02dae6ab3a54c34a941db8694f2be42
+      internalID: -1611610844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_32
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1540
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee98d79c54d583488244d234db9f09d
+      internalID: -1578409656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bf4bfdc564ad71f498e38a38450a197e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1332.0,"y":1680.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Goku Base Edited_0: -6508494961707523050
+      Goku Base Edited_1: 7899062833892487771
+      Goku Base Edited_10: -1161596357
+      Goku Base Edited_11: -1675014341
+      Goku Base Edited_12: -546478519
+      Goku Base Edited_13: -2024430490
+      Goku Base Edited_14: 2075078551
+      Goku Base Edited_15: -88799072
+      Goku Base Edited_16: -227052726
+      Goku Base Edited_17: -2139748579
+      Goku Base Edited_18: 115712960
+      Goku Base Edited_19: 1973849751
+      Goku Base Edited_2: -1494221145291243933
+      Goku Base Edited_20: 2095135542
+      Goku Base Edited_21: 1747621526
+      Goku Base Edited_22: 18613654
+      Goku Base Edited_23: -79055801
+      Goku Base Edited_24: 982773856
+      Goku Base Edited_25: 292198560
+      Goku Base Edited_26: -651483910
+      Goku Base Edited_27: 332373561
+      Goku Base Edited_28: -751309474
+      Goku Base Edited_29: -1888630889
+      Goku Base Edited_3: 2241036290295009238
+      Goku Base Edited_30: -1644892610
+      Goku Base Edited_31: -1611610844
+      Goku Base Edited_32: -1578409656
+      Goku Base Edited_4: -9194786299208568360
+      Goku Base Edited_5: -2605857969203350636
+      Goku Base Edited_6: 1955641502597648286
+      Goku Base Edited_7: -1118506424
+      Goku Base Edited_8: -105672533
+      Goku Base Edited_9: 414022478
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

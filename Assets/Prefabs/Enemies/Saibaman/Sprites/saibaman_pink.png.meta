@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: 5a8009b344b0f5348b51ad5ec83ffb97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -519040897762021097
+    second: saibaman_pink_0
+  - first:
+      213: -3875572710715160250
+    second: saibaman_pink_1
+  - first:
+      213: 2010511558377196749
+    second: saibaman_pink_2
+  - first:
+      213: -1261301710386936629
+    second: saibaman_pink_3
+  - first:
+      213: 3503008487903266909
+    second: saibaman_pink_4
+  - first:
+      213: 460617123690760350
+    second: saibaman_pink_5
+  - first:
+      213: 4273720998395284929
+    second: saibaman_pink_6
+  - first:
+      213: -6647796029284153653
+    second: saibaman_pink_7
+  - first:
+      213: -22454686147032183
+    second: saibaman_pink_8
+  - first:
+      213: 728927644749318333
+    second: saibaman_pink_9
+  - first:
+      213: -8193855858343147679
+    second: saibaman_pink_10
+  - first:
+      213: -6750530373726898492
+    second: saibaman_pink_11
+  - first:
+      213: 8510235151060466906
+    second: saibaman_pink_12
+  - first:
+      213: 4504941753462518560
+    second: saibaman_pink_13
+  - first:
+      213: -6679525294043236127
+    second: saibaman_pink_14
+  - first:
+      213: -2755484352285643828
+    second: saibaman_pink_15
+  - first:
+      213: 3438111233100671031
+    second: saibaman_pink_16
+  - first:
+      213: 2397551638174458063
+    second: saibaman_pink_17
+  - first:
+      213: 1569082563778384959
+    second: saibaman_pink_18
+  - first:
+      213: 5716467073374047474
+    second: saibaman_pink_19
+  - first:
+      213: -3227540540670139374
+    second: saibaman_pink_20
+  - first:
+      213: 1435149470497814315
+    second: saibaman_pink_21
+  - first:
+      213: 4832277782600160615
+    second: saibaman_pink_22
+  - first:
+      213: 6212364137657714097
+    second: saibaman_pink_23
+  - first:
+      213: 3009983464850596834
+    second: saibaman_pink_24
+  - first:
+      213: -2183610013793210681
+    second: saibaman_pink_25
+  - first:
+      213: -4891605300182880126
+    second: saibaman_pink_26
+  - first:
+      213: -5663934092846677581
+    second: saibaman_pink_27
+  - first:
+      213: 1221028911710595166
+    second: saibaman_pink_28
+  - first:
+      213: -5035636117106291251
+    second: saibaman_pink_29
+  - first:
+      213: -4152683237898169169
+    second: saibaman_pink_30
+  - first:
+      213: -8550848450587277020
+    second: saibaman_pink_31
+  - first:
+      213: 3123624534041623384
+    second: saibaman_pink_32
+  - first:
+      213: 7241068455196455443
+    second: saibaman_pink_33
+  - first:
+      213: 3397309845266821545
+    second: saibaman_pink_34
+  - first:
+      213: 5587219395399477550
+    second: saibaman_pink_35
+  - first:
+      213: -8390179561786917194
+    second: saibaman_pink_36
+  - first:
+      213: -757002510580990584
+    second: saibaman_pink_37
+  - first:
+      213: -3725667763752524302
+    second: saibaman_pink_38
+  - first:
+      213: -2260335978745426092
+    second: saibaman_pink_39
+  - first:
+      213: 2328863099474449658
+    second: saibaman_pink_40
+  - first:
+      213: -3632040688447651534
+    second: saibaman_pink_41
+  - first:
+      213: 4021850340596439501
+    second: saibaman_pink_42
+  - first:
+      213: -2249305592399816944
+    second: saibaman_pink_43
+  - first:
+      213: -4493620758163798807
+    second: saibaman_pink_44
+  - first:
+      213: -250973126140158196
+    second: saibaman_pink_45
+  - first:
+      213: -3384361376117095484
+    second: saibaman_pink_46
+  - first:
+      213: -7589584864759453394
+    second: saibaman_pink_47
+  - first:
+      213: 4998276813848014564
+    second: saibaman_pink_48
+  - first:
+      213: 1386206488388371973
+    second: saibaman_pink_49
+  - first:
+      213: -7172971562454145794
+    second: saibaman_pink_50
+  - first:
+      213: -4650007827816209451
+    second: saibaman_pink_51
+  - first:
+      213: -2652974584054760172
+    second: saibaman_pink_52
+  - first:
+      213: 2884603027375013541
+    second: saibaman_pink_53
+  - first:
+      213: 7485975865428926597
+    second: saibaman_pink_54
+  - first:
+      213: -3676343547940003618
+    second: saibaman_pink_55
+  - first:
+      213: 3670005054187195786
+    second: saibaman_pink_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: saibaman_pink_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 717
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711bef0bd0ffbc8f0800000000000000
+      internalID: -519040897762021097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 718
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64900ac3723373ac0800000000000000
+      internalID: -3875572710715160250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 717
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccc3e53c95c6eb10800000000000000
+      internalID: 2010511558377196749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 717
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc44bcde6c4fe7ee0800000000000000
+      internalID: -1261301710386936629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5807a6f8af2d9030800000000000000
+      internalID: 3503008487903266909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 616
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98cc0365d0746600800000000000000
+      internalID: 460617123690760350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 615
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd8a7ada9e4f4b30800000000000000
+      internalID: 4273720998395284929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 615
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6044f9bb84eb3a0800000000000000
+      internalID: -6647796029284153653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 617
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bc9a8f49930bff0800000000000000
+      internalID: -22454686147032183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 620
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8ce34b4dbad1a00800000000000000
+      internalID: 728927644749318333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 612
+        width: 8
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16704be7283994e80800000000000000
+      internalID: -8193855858343147679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 611
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6f584146c4152a0800000000000000
+      internalID: -6750530373726898492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 627
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc700ed7cd6a1670800000000000000
+      internalID: 8510235151060466906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_13
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 611
+        width: 102
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02375f418a4c48e30800000000000000
+      internalID: 4504941753462518560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8f05c722f8d43a0800000000000000
+      internalID: -6679525294043236127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 513
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbeddda49d82c9d0800000000000000
+      internalID: -2755484352285643828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 513
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738ee3b53ff96bf20800000000000000
+      internalID: 3438111233100671031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_17
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 512
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc06b0c1380d54120800000000000000
+      internalID: 2397551638174458063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 514
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f341545474086c510800000000000000
+      internalID: 1569082563778384959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 513
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc4dae1488f45f40800000000000000
+      internalID: 5716467073374047474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 513
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2142f2f7af87533d0800000000000000
+      internalID: -3227540540670139374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_21
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 527
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27bc94f6dcaae310800000000000000
+      internalID: 1435149470497814315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_22
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 521
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76515ef6a03bf0340800000000000000
+      internalID: 4832277782600160615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 511
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5c678c440c63650800000000000000
+      internalID: 6212364137657714097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_24
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 509
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e32832830c95c920800000000000000
+      internalID: 3009983464850596834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_25
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 508
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ceaedff24242b1e0800000000000000
+      internalID: -2183610013793210681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_26
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 511
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2807e2575e68d1cb0800000000000000
+      internalID: -4891605300182880126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 413
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b146ac83f9a561b0800000000000000
+      internalID: -5663934092846677581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 414
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58edfe6357f1f010800000000000000
+      internalID: 1221028911710595166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_29
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 410
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd80c5a1a3dd1ab0800000000000000
+      internalID: -5035636117106291251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_30
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 412
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa45c54d894be56c0800000000000000
+      internalID: -4152683237898169169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_31
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 410
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429cb8673a8455980800000000000000
+      internalID: -8550848450587277020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_32
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 412
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bfe3bc6f7595b20800000000000000
+      internalID: 3123624534041623384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_33
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 415
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312754a25617d7460800000000000000
+      internalID: 7241068455196455443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 297
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1f017fd4ba52f20800000000000000
+      internalID: 3397309845266821545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_35
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 297
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2965f0107ac98d40800000000000000
+      internalID: 5587219395399477550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_36
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 309
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6beb2f14428109b80800000000000000
+      internalID: -8390179561786917194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_37
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 309
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88dbdb63a369e75f0800000000000000
+      internalID: -757002510580990584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_38
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 286
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5286688e4cb4cc0800000000000000
+      internalID: -3725667763752524302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_39
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 286
+        width: 79
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f08d1376ca1a0e0800000000000000
+      internalID: -2260335978745426092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_40
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 286
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af490be66a8c15020800000000000000
+      internalID: 2328863099474449658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_41
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 286
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231005bbc36689dc0800000000000000
+      internalID: -3632040688447651534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9d80b739b70d730800000000000000
+      internalID: 4021850340596439501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 191
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01795b52b7cd8c0e0800000000000000
+      internalID: -2249305592399816944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_44
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 167
+        width: 177
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4435a8ab373a1c0800000000000000
+      internalID: -4493620758163798807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 117
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f1f30854d548cf0800000000000000
+      internalID: -250973126140158196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_46
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 117
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c30df072455801d0800000000000000
+      internalID: -3384361376117095484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_47
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 117
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29e45fd6c06ca690800000000000000
+      internalID: -7589584864759453394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_48
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 117
+        width: 99
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee6b7ab7427d5540800000000000000
+      internalID: 4998276813848014564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5060bbde47bcc3310800000000000000
+      internalID: 1386206488388371973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_50
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 6
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef421f33e5c747c90800000000000000
+      internalID: -7172971562454145794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_51
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 6
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3aa34748ad77fb0800000000000000
+      internalID: -4650007827816209451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_52
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 6
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41db64ffbadbe2bd0800000000000000
+      internalID: -2652974584054760172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_53
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 6
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae34bc8b2b280820800000000000000
+      internalID: 2884603027375013541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_54
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580e900236783e760800000000000000
+      internalID: 7485975865428926597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_55
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 34
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0acb075010bfcc0800000000000000
+      internalID: -3676343547940003618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_pink_56
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d47baf62a7ee230800000000000000
+      internalID: 3670005054187195786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      saibaman_pink_0: -519040897762021097
+      saibaman_pink_1: -3875572710715160250
+      saibaman_pink_10: -8193855858343147679
+      saibaman_pink_11: -6750530373726898492
+      saibaman_pink_12: 8510235151060466906
+      saibaman_pink_13: 4504941753462518560
+      saibaman_pink_14: -6679525294043236127
+      saibaman_pink_15: -2755484352285643828
+      saibaman_pink_16: 3438111233100671031
+      saibaman_pink_17: 2397551638174458063
+      saibaman_pink_18: 1569082563778384959
+      saibaman_pink_19: 5716467073374047474
+      saibaman_pink_2: 2010511558377196749
+      saibaman_pink_20: -3227540540670139374
+      saibaman_pink_21: 1435149470497814315
+      saibaman_pink_22: 4832277782600160615
+      saibaman_pink_23: 6212364137657714097
+      saibaman_pink_24: 3009983464850596834
+      saibaman_pink_25: -2183610013793210681
+      saibaman_pink_26: -4891605300182880126
+      saibaman_pink_27: -5663934092846677581
+      saibaman_pink_28: 1221028911710595166
+      saibaman_pink_29: -5035636117106291251
+      saibaman_pink_3: -1261301710386936629
+      saibaman_pink_30: -4152683237898169169
+      saibaman_pink_31: -8550848450587277020
+      saibaman_pink_32: 3123624534041623384
+      saibaman_pink_33: 7241068455196455443
+      saibaman_pink_34: 3397309845266821545
+      saibaman_pink_35: 5587219395399477550
+      saibaman_pink_36: -8390179561786917194
+      saibaman_pink_37: -757002510580990584
+      saibaman_pink_38: -3725667763752524302
+      saibaman_pink_39: -2260335978745426092
+      saibaman_pink_4: 3503008487903266909
+      saibaman_pink_40: 2328863099474449658
+      saibaman_pink_41: -3632040688447651534
+      saibaman_pink_42: 4021850340596439501
+      saibaman_pink_43: -2249305592399816944
+      saibaman_pink_44: -4493620758163798807
+      saibaman_pink_45: -250973126140158196
+      saibaman_pink_46: -3384361376117095484
+      saibaman_pink_47: -7589584864759453394
+      saibaman_pink_48: 4998276813848014564
+      saibaman_pink_49: 1386206488388371973
+      saibaman_pink_5: 460617123690760350
+      saibaman_pink_50: -7172971562454145794
+      saibaman_pink_51: -4650007827816209451
+      saibaman_pink_52: -2652974584054760172
+      saibaman_pink_53: 2884603027375013541
+      saibaman_pink_54: 7485975865428926597
+      saibaman_pink_55: -3676343547940003618
+      saibaman_pink_56: 3670005054187195786
+      saibaman_pink_6: 4273720998395284929
+      saibaman_pink_7: -6647796029284153653
+      saibaman_pink_8: -22454686147032183
+      saibaman_pink_9: 728927644749318333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

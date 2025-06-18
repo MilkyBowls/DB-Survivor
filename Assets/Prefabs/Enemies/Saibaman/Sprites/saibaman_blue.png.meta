@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: aff014dc3b7d3e3409cc5de2c7dec0da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9035135182684069859
+    second: saibaman_blue_0
+  - first:
+      213: 6277172077981220297
+    second: saibaman_blue_1
+  - first:
+      213: -1512371096283489904
+    second: saibaman_blue_2
+  - first:
+      213: -8205149183775243635
+    second: saibaman_blue_3
+  - first:
+      213: -850716403678587235
+    second: saibaman_blue_4
+  - first:
+      213: -4449502276018908342
+    second: saibaman_blue_5
+  - first:
+      213: 7750839503100454290
+    second: saibaman_blue_6
+  - first:
+      213: 5237780620598910553
+    second: saibaman_blue_7
+  - first:
+      213: 1890449653095981404
+    second: saibaman_blue_8
+  - first:
+      213: 7557651314205462513
+    second: saibaman_blue_9
+  - first:
+      213: -8056137587150552795
+    second: saibaman_blue_10
+  - first:
+      213: -2068364553571049923
+    second: saibaman_blue_11
+  - first:
+      213: -4618835886108722343
+    second: saibaman_blue_12
+  - first:
+      213: -1799923486254144969
+    second: saibaman_blue_13
+  - first:
+      213: -5925729255003448972
+    second: saibaman_blue_14
+  - first:
+      213: -6876398362269844493
+    second: saibaman_blue_15
+  - first:
+      213: 9068822806050991967
+    second: saibaman_blue_16
+  - first:
+      213: 1513202895008038212
+    second: saibaman_blue_17
+  - first:
+      213: 3142072697134440519
+    second: saibaman_blue_18
+  - first:
+      213: -7617855806485415100
+    second: saibaman_blue_19
+  - first:
+      213: 794204095115675397
+    second: saibaman_blue_20
+  - first:
+      213: 7690782647108962726
+    second: saibaman_blue_21
+  - first:
+      213: -6316998678016556617
+    second: saibaman_blue_22
+  - first:
+      213: -8997704195662937417
+    second: saibaman_blue_23
+  - first:
+      213: -3850668489314499218
+    second: saibaman_blue_24
+  - first:
+      213: 8401819798275381889
+    second: saibaman_blue_25
+  - first:
+      213: 5235689927690319061
+    second: saibaman_blue_26
+  - first:
+      213: -4356023678318338612
+    second: saibaman_blue_27
+  - first:
+      213: 3744981394779925216
+    second: saibaman_blue_28
+  - first:
+      213: 5570765907192139959
+    second: saibaman_blue_29
+  - first:
+      213: 8370722036578368508
+    second: saibaman_blue_30
+  - first:
+      213: -9040645582792730388
+    second: saibaman_blue_31
+  - first:
+      213: 1913052144122905278
+    second: saibaman_blue_32
+  - first:
+      213: 1219817125614391653
+    second: saibaman_blue_33
+  - first:
+      213: -3086570558497374751
+    second: saibaman_blue_34
+  - first:
+      213: -7717687982883757625
+    second: saibaman_blue_35
+  - first:
+      213: 7215428771880861719
+    second: saibaman_blue_36
+  - first:
+      213: 7996778827493043598
+    second: saibaman_blue_37
+  - first:
+      213: 5647670066539475656
+    second: saibaman_blue_38
+  - first:
+      213: 829301142149185511
+    second: saibaman_blue_39
+  - first:
+      213: -3117428374697893155
+    second: saibaman_blue_40
+  - first:
+      213: -2025001355406563560
+    second: saibaman_blue_41
+  - first:
+      213: -3069961718394669921
+    second: saibaman_blue_42
+  - first:
+      213: 5727046637075498710
+    second: saibaman_blue_43
+  - first:
+      213: 2571692097913977667
+    second: saibaman_blue_44
+  - first:
+      213: 9100764850936964511
+    second: saibaman_blue_45
+  - first:
+      213: -8039719485459541385
+    second: saibaman_blue_46
+  - first:
+      213: -7671422750053688698
+    second: saibaman_blue_47
+  - first:
+      213: -4500282162551069977
+    second: saibaman_blue_48
+  - first:
+      213: 6027442727856325142
+    second: saibaman_blue_49
+  - first:
+      213: 1398520951456015008
+    second: saibaman_blue_50
+  - first:
+      213: 6137712225904036655
+    second: saibaman_blue_51
+  - first:
+      213: 3513218985450954534
+    second: saibaman_blue_52
+  - first:
+      213: -6018855155147482391
+    second: saibaman_blue_53
+  - first:
+      213: -4386675439309177651
+    second: saibaman_blue_54
+  - first:
+      213: -7862525192121732923
+    second: saibaman_blue_55
+  - first:
+      213: 6406301375835371020
+    second: saibaman_blue_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: saibaman_blue_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 717
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d106b7aeb60cc9280800000000000000
+      internalID: -9035135182684069859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 718
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd321e3fbefc1750800000000000000
+      internalID: 6277172077981220297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 717
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0995475308af20be0800000000000000
+      internalID: -1512371096283489904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 717
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d828df34a44712e80800000000000000
+      internalID: -8205149183775243635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96d32a20f5a134f0800000000000000
+      internalID: -850716403678587235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 616
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43d99221413042c0800000000000000
+      internalID: -4449502276018908342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 615
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2952e5d5673809b60800000000000000
+      internalID: 7750839503100454290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 615
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e193639b550b840800000000000000
+      internalID: 5237780620598910553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 617
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51eb8681f93c3a10800000000000000
+      internalID: 1890449653095981404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 620
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff0b7ff3db22e860800000000000000
+      internalID: 7557651314205462513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 612
+        width: 8
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52108383c89d23090800000000000000
+      internalID: -8056137587150552795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 611
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e536ea561bb43e0800000000000000
+      internalID: -2068364553571049923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 627
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bb9a4bb3996efb0800000000000000
+      internalID: -4618835886108722343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_13
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 611
+        width: 102
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73260fa20236507e0800000000000000
+      internalID: -1799923486254144969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479116073a493cda0800000000000000
+      internalID: -5925729255003448972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 513
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbf3da4f102290a0800000000000000
+      internalID: -6876398362269844493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 513
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f61ad1b4eeadd70800000000000000
+      internalID: 9068822806050991967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_17
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 512
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dfb06040afff410800000000000000
+      internalID: 1513202895008038212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 514
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740e62b7872ea9b20800000000000000
+      internalID: 3142072697134440519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 513
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b3a405180f74690800000000000000
+      internalID: -7617855806485415100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 513
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507c788aa64950b00800000000000000
+      internalID: 794204095115675397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_21
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 527
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a90bade1162bba60800000000000000
+      internalID: 7690782647108962726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_22
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 521
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b10636db238558a0800000000000000
+      internalID: -6316998678016556617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 511
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b20877b4bbb12380800000000000000
+      internalID: -8997704195662937417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_24
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 509
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e658e92296daf8ac0800000000000000
+      internalID: -3850668489314499218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_25
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 508
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a5c0f7792499470800000000000000
+      internalID: 8401819798275381889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_26
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 511
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d47216df38e8a840800000000000000
+      internalID: 5235689927690319061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 413
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd15a43b8b4c83c0800000000000000
+      internalID: -4356023678318338612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 414
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eaed4e9cb8d8f330800000000000000
+      internalID: 3744981394779925216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_29
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 410
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b05b01d3165f4d40800000000000000
+      internalID: 5570765907192139959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_30
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 412
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbb9cf9757ca2470800000000000000
+      internalID: 8370722036578368508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_31
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 410
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce85f69edbc298280800000000000000
+      internalID: -9040645582792730388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_32
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 412
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2ce3f0ac68c8a10800000000000000
+      internalID: 1913052144122905278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_33
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 415
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5611f2f7639ade010800000000000000
+      internalID: 1219817125614391653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 297
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edb59e2e6c4a25d0800000000000000
+      internalID: -3086570558497374751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_35
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 297
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1a9ec6ba345e490800000000000000
+      internalID: -7717687982883757625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_36
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 309
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71087123d3a522460800000000000000
+      internalID: 7215428771880861719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_37
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 309
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d661099f34afe60800000000000000
+      internalID: 7996778827493043598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_38
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 286
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c231bcb00e806e40800000000000000
+      internalID: 5647670066539475656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_39
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 286
+        width: 79
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efb0a5bef4428b00800000000000000
+      internalID: 829301142149185511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_40
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 286
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2a869f86bacb4d0800000000000000
+      internalID: -3117428374697893155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_41
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 286
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817ae450fffb5e3e0800000000000000
+      internalID: -2025001355406563560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94b90d151e4565d0800000000000000
+      internalID: -3069961718394669921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 191
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d60bfeb29e8a7f40800000000000000
+      internalID: 5727046637075498710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_44
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 167
+        width: 177
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b77df665c70b320800000000000000
+      internalID: 2571692097913977667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 117
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95657cf9696c4e70800000000000000
+      internalID: 9100764850936964511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_46
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 117
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772d56769bd2d6090800000000000000
+      internalID: -8039719485459541385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_47
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 117
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a133d57a1a98590800000000000000
+      internalID: -7671422750053688698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_48
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 117
+        width: 99
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2ed187739cb81c0800000000000000
+      internalID: -4500282162551069977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61243e9e937c5a350800000000000000
+      internalID: 6027442727856325142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_50
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 6
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a22a7a456b886310800000000000000
+      internalID: 1398520951456015008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_51
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 6
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b059e10c88d2550800000000000000
+      internalID: 6137712225904036655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_52
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 6
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f56fdad0671c030800000000000000
+      internalID: 3513218985450954534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_53
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 6
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ead7ea202bb87ca0800000000000000
+      internalID: -6018855155147482391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_54
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccbb07fde56f13c0800000000000000
+      internalID: -4386675439309177651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_55
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 34
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c03606cef2b2e290800000000000000
+      internalID: -7862525192121732923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saibaman_blue_56
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0673c6c821c7e850800000000000000
+      internalID: 6406301375835371020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      saibaman_blue_0: -9035135182684069859
+      saibaman_blue_1: 6277172077981220297
+      saibaman_blue_10: -8056137587150552795
+      saibaman_blue_11: -2068364553571049923
+      saibaman_blue_12: -4618835886108722343
+      saibaman_blue_13: -1799923486254144969
+      saibaman_blue_14: -5925729255003448972
+      saibaman_blue_15: -6876398362269844493
+      saibaman_blue_16: 9068822806050991967
+      saibaman_blue_17: 1513202895008038212
+      saibaman_blue_18: 3142072697134440519
+      saibaman_blue_19: -7617855806485415100
+      saibaman_blue_2: -1512371096283489904
+      saibaman_blue_20: 794204095115675397
+      saibaman_blue_21: 7690782647108962726
+      saibaman_blue_22: -6316998678016556617
+      saibaman_blue_23: -8997704195662937417
+      saibaman_blue_24: -3850668489314499218
+      saibaman_blue_25: 8401819798275381889
+      saibaman_blue_26: 5235689927690319061
+      saibaman_blue_27: -4356023678318338612
+      saibaman_blue_28: 3744981394779925216
+      saibaman_blue_29: 5570765907192139959
+      saibaman_blue_3: -8205149183775243635
+      saibaman_blue_30: 8370722036578368508
+      saibaman_blue_31: -9040645582792730388
+      saibaman_blue_32: 1913052144122905278
+      saibaman_blue_33: 1219817125614391653
+      saibaman_blue_34: -3086570558497374751
+      saibaman_blue_35: -7717687982883757625
+      saibaman_blue_36: 7215428771880861719
+      saibaman_blue_37: 7996778827493043598
+      saibaman_blue_38: 5647670066539475656
+      saibaman_blue_39: 829301142149185511
+      saibaman_blue_4: -850716403678587235
+      saibaman_blue_40: -3117428374697893155
+      saibaman_blue_41: -2025001355406563560
+      saibaman_blue_42: -3069961718394669921
+      saibaman_blue_43: 5727046637075498710
+      saibaman_blue_44: 2571692097913977667
+      saibaman_blue_45: 9100764850936964511
+      saibaman_blue_46: -8039719485459541385
+      saibaman_blue_47: -7671422750053688698
+      saibaman_blue_48: -4500282162551069977
+      saibaman_blue_49: 6027442727856325142
+      saibaman_blue_5: -4449502276018908342
+      saibaman_blue_50: 1398520951456015008
+      saibaman_blue_51: 6137712225904036655
+      saibaman_blue_52: 3513218985450954534
+      saibaman_blue_53: -6018855155147482391
+      saibaman_blue_54: -4386675439309177651
+      saibaman_blue_55: -7862525192121732923
+      saibaman_blue_56: 6406301375835371020
+      saibaman_blue_6: 7750839503100454290
+      saibaman_blue_7: 5237780620598910553
+      saibaman_blue_8: 1890449653095981404
+      saibaman_blue_9: 7557651314205462513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

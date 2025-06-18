@@ -1,0 +1,2849 @@
+fileFormatVersion: 2
+guid: 34ac822764559664e91c4fb349594814
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4819219004277678888
+    second: SSJ Blue Goku_0
+  - first:
+      213: -6551375402742922555
+    second: SSJ Blue Goku_1
+  - first:
+      213: 8126610513369058158
+    second: SSJ Blue Goku_2
+  - first:
+      213: 5819643654104493122
+    second: SSJ Blue Goku_3
+  - first:
+      213: 4162970889114871582
+    second: SSJ Blue Goku_4
+  - first:
+      213: -4254596241200547166
+    second: SSJ Blue Goku_5
+  - first:
+      213: -3039023272745719501
+    second: SSJ Blue Goku_6
+  - first:
+      213: 9005181854679155364
+    second: SSJ Blue Goku_7
+  - first:
+      213: 2729783703505925536
+    second: SSJ Blue Goku_8
+  - first:
+      213: 4586501553106934265
+    second: SSJ Blue Goku_9
+  - first:
+      213: -4710558241058296001
+    second: SSJ Blue Goku_10
+  - first:
+      213: -106271630098827118
+    second: SSJ Blue Goku_11
+  - first:
+      213: 691809363930168901
+    second: SSJ Blue Goku_12
+  - first:
+      213: -6474513725961983055
+    second: SSJ Blue Goku_13
+  - first:
+      213: 3866779459828999801
+    second: SSJ Blue Goku_14
+  - first:
+      213: 559311497787447148
+    second: SSJ Blue Goku_15
+  - first:
+      213: 1029569924065968503
+    second: SSJ Blue Goku_16
+  - first:
+      213: 4402654333739241425
+    second: SSJ Blue Goku_17
+  - first:
+      213: -1244937741518084064
+    second: SSJ Blue Goku_18
+  - first:
+      213: -74905873388177696
+    second: SSJ Blue Goku_19
+  - first:
+      213: -1853370842476844331
+    second: SSJ Blue Goku_20
+  - first:
+      213: 9135908187611420240
+    second: SSJ Blue Goku_21
+  - first:
+      213: -3050144806043047393
+    second: SSJ Blue Goku_22
+  - first:
+      213: 6380353716846301251
+    second: SSJ Blue Goku_23
+  - first:
+      213: -3178149974626838482
+    second: SSJ Blue Goku_24
+  - first:
+      213: 999252100674557561
+    second: SSJ Blue Goku_25
+  - first:
+      213: 3222186980176102768
+    second: SSJ Blue Goku_26
+  - first:
+      213: 2633062073986181453
+    second: SSJ Blue Goku_27
+  - first:
+      213: -8260585764283270737
+    second: SSJ Blue Goku_28
+  - first:
+      213: -913995879153379993
+    second: SSJ Blue Goku_29
+  - first:
+      213: -9180848686286735548
+    second: SSJ Blue Goku_30
+  - first:
+      213: -4962171048830513488
+    second: SSJ Blue Goku_31
+  - first:
+      213: 4014844968086759005
+    second: SSJ Blue Goku_32
+  - first:
+      213: 6949558836732775425
+    second: SSJ Blue Goku_33
+  - first:
+      213: 8357141439199033453
+    second: SSJ Blue Goku_34
+  - first:
+      213: -1701327365561029799
+    second: SSJ Blue Goku_35
+  - first:
+      213: -2974572745380391281
+    second: SSJ Blue Goku_36
+  - first:
+      213: -8677173752423722761
+    second: SSJ Blue Goku_37
+  - first:
+      213: 1774847751401671557
+    second: SSJ Blue Goku_38
+  - first:
+      213: 4383474848901196056
+    second: SSJ Blue Goku_39
+  - first:
+      213: 8349360569110324165
+    second: SSJ Blue Goku_40
+  - first:
+      213: 6410480487108956101
+    second: SSJ Blue Goku_41
+  - first:
+      213: 1910631221729308603
+    second: SSJ Blue Goku_42
+  - first:
+      213: 7608905739963723804
+    second: SSJ Blue Goku_43
+  - first:
+      213: 2239488722765478363
+    second: SSJ Blue Goku_44
+  - first:
+      213: -992903069972569387
+    second: SSJ Blue Goku_45
+  - first:
+      213: -8400281191484785692
+    second: SSJ Blue Goku_46
+  - first:
+      213: -6183480843696699420
+    second: SSJ Blue Goku_47
+  - first:
+      213: 4539299034654304987
+    second: SSJ Blue Goku_48
+  - first:
+      213: -6056166326236178871
+    second: SSJ Blue Goku_49
+  - first:
+      213: 7520227515683559147
+    second: SSJ Blue Goku_50
+  - first:
+      213: 3961307884011640874
+    second: SSJ Blue Goku_51
+  - first:
+      213: -3744251718843080276
+    second: SSJ Blue Goku_52
+  - first:
+      213: 195809056169979990
+    second: SSJ Blue Goku_53
+  - first:
+      213: 6646715910226543940
+    second: SSJ Blue Goku_54
+  - first:
+      213: -6607199463600567210
+    second: SSJ Blue Goku_55
+  - first:
+      213: 3495322563860116584
+    second: SSJ Blue Goku_56
+  - first:
+      213: -7129401671643953239
+    second: SSJ Blue Goku_57
+  - first:
+      213: 1795788411868692500
+    second: SSJ Blue Goku_58
+  - first:
+      213: 8495664972311020884
+    second: SSJ Blue Goku_59
+  - first:
+      213: 597261999845966772
+    second: SSJ Blue Goku_60
+  - first:
+      213: -3677175803415442798
+    second: SSJ Blue Goku_61
+  - first:
+      213: -3200284050289324628
+    second: SSJ Blue Goku_62
+  - first:
+      213: 5830616483070219827
+    second: SSJ Blue Goku_63
+  - first:
+      213: 6107887268569822045
+    second: SSJ Blue Goku_64
+  - first:
+      213: 797625031025648037
+    second: SSJ Blue Goku_65
+  - first:
+      213: 1359950120498382092
+    second: SSJ Blue Goku_66
+  - first:
+      213: -8940452919297785377
+    second: SSJ Blue Goku_67
+  - first:
+      213: -8829849115467368020
+    second: SSJ Blue Goku_68
+  - first:
+      213: 100709818042590000
+    second: SSJ Blue Goku_69
+  - first:
+      213: -2138763121353095341
+    second: SSJ Blue Goku_70
+  - first:
+      213: -8670497193349018490
+    second: SSJ Blue Goku_71
+  - first:
+      213: -4845944844469500475
+    second: SSJ Blue Goku_72
+  - first:
+      213: 5842259045853771918
+    second: SSJ Blue Goku_73
+  - first:
+      213: 4978394524468912499
+    second: SSJ Blue Goku_74
+  - first:
+      213: 8347985474425380859
+    second: SSJ Blue Goku_75
+  - first:
+      213: 3000107135977979949
+    second: SSJ Blue Goku_76
+  - first:
+      213: -3772498839473788767
+    second: SSJ Blue Goku_77
+  - first:
+      213: -3401347040290053341
+    second: SSJ Blue Goku_78
+  - first:
+      213: 6256192689273685303
+    second: SSJ Blue Goku_79
+  - first:
+      213: -4443215588675470364
+    second: SSJ Blue Goku_80
+  - first:
+      213: 3468497700650174493
+    second: SSJ Blue Goku_81
+  - first:
+      213: 1486221163508616605
+    second: SSJ Blue Goku_82
+  - first:
+      213: -5788949952311350327
+    second: SSJ Blue Goku_83
+  - first:
+      213: 7752179350170491354
+    second: SSJ Blue Goku_84
+  - first:
+      213: 4335134660597188313
+    second: SSJ Blue Goku_85
+  - first:
+      213: 2341910939800266758
+    second: SSJ Blue Goku_86
+  - first:
+      213: 3878294014094654244
+    second: SSJ Blue Goku_87
+  - first:
+      213: 630457399393669827
+    second: SSJ Blue Goku_88
+  - first:
+      213: 823814123333908354
+    second: SSJ Blue Goku_89
+  - first:
+      213: 8333984480199353048
+    second: SSJ Blue Goku_90
+  - first:
+      213: 6937975141544797245
+    second: SSJ Blue Goku_91
+  - first:
+      213: -4292239706686548704
+    second: SSJ Blue Goku_92
+  - first:
+      213: -2286985706827799858
+    second: SSJ Blue Goku_93
+  - first:
+      213: 4045269221005781113
+    second: SSJ Blue Goku_94
+  - first:
+      213: 2485340006419690240
+    second: SSJ Blue Goku_95
+  - first:
+      213: -952289015320333186
+    second: SSJ Blue Goku_96
+  - first:
+      213: -4460996129763989176
+    second: SSJ Blue Goku_97
+  - first:
+      213: 6759456628526038135
+    second: SSJ Blue Goku_98
+  - first:
+      213: 7028452515328164408
+    second: SSJ Blue Goku_99
+  - first:
+      213: -3230123371617181991
+    second: SSJ Blue Goku_100
+  - first:
+      213: -8129122412001395343
+    second: SSJ Blue Goku_101
+  - first:
+      213: 4266592119717704329
+    second: SSJ Blue Goku_102
+  - first:
+      213: 9217987867159960942
+    second: SSJ Blue Goku_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SSJ Blue Goku_0
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 782
+        width: 125
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82368cca62e41e240800000000000000
+      internalID: 4819219004277678888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 783
+        width: 139
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2c64928c6d415a0800000000000000
+      internalID: -6551375402742922555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_2
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 885
+        width: 42
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b415d843587c070800000000000000
+      internalID: 8126610513369058158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 790
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c2142d11783c050800000000000000
+      internalID: 5819643654104493122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 791
+        width: 30
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17ebff97f7d5c930800000000000000
+      internalID: 4162970889114871582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 792
+        width: 30
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa778ca243a4f4c0800000000000000
+      internalID: -4254596241200547166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 790
+        width: 30
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339a8d35f6833d5d0800000000000000
+      internalID: -3039023272745719501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_7
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 791
+        width: 29
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2c1f17f25d8fc70800000000000000
+      internalID: 9005181854679155364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_8
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 789
+        width: 24
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5fe19b0d322e520800000000000000
+      internalID: 2729783703505925536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_9
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 784
+        width: 29
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f957babcd686af30800000000000000
+      internalID: 4586501553106934265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_10
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 784
+        width: 28
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f6ee3cc3cb0aeb0800000000000000
+      internalID: -4710558241058296001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_11
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 784
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298f146f382768ef0800000000000000
+      internalID: -106271630098827118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_12
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 784
+        width: 29
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54eb85d73fcc99900800000000000000
+      internalID: 691809363930168901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_13
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 784
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb25a6d118e526a0800000000000000
+      internalID: -6474513725961983055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 696
+        width: 24
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97662ef7e6f89a530800000000000000
+      internalID: 3866779459828999801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 696
+        width: 29
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67996808d213c700800000000000000
+      internalID: 559311497787447148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 696
+        width: 24
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771c06b1464c94e00800000000000000
+      internalID: 1029569924065968503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 696
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df8c5f4ace591d30800000000000000
+      internalID: 4402654333739241425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 696
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028665558b719bee0800000000000000
+      internalID: -1244937741518084064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 697
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e67b194181e5fef0800000000000000
+      internalID: -74905873388177696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_20
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 694
+        width: 30
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dae911d9018746e0800000000000000
+      internalID: -1853370842476844331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_21
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 700
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056592fa71449ce70800000000000000
+      internalID: 9135908187611420240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_22
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 701
+        width: 48
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a2d429575bba5d0800000000000000
+      internalID: -3050144806043047393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_23
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 703
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34097f1a6e19b8850800000000000000
+      internalID: 6380353716846301251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_24
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 703
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e285377cf61f4e3d0800000000000000
+      internalID: -3178149974626838482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_25
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 701
+        width: 29
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97615c5cd7e0edd00800000000000000
+      internalID: 999252100674557561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_26
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 703
+        width: 24
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07509419cf187bc20800000000000000
+      internalID: 3222186980176102768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_27
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 713
+        width: 48
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49ef7771048a8420800000000000000
+      internalID: 2633062073986181453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_28
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 701
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa93f3b83018c5d80800000000000000
+      internalID: -8260585764283270737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_29
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 634
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76554e82795d053f0800000000000000
+      internalID: -913995879153379993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_30
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 634
+        width: 43
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447744513c2179080800000000000000
+      internalID: -9180848686286735548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 633
+        width: 30
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0becab7c8b3d22bb0800000000000000
+      internalID: -4962171048830513488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_32
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 575
+        width: 39
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5663171a3897b730800000000000000
+      internalID: 4014844968086759005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 634
+        width: 40
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c422111fac17060800000000000000
+      internalID: 6949558836732775425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 575
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68b7256cd78af370800000000000000
+      internalID: 8357141439199033453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_35
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 633
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b651966cba368e0800000000000000
+      internalID: -1701327365561029799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_36
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 636
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f861b0919d138b6d0800000000000000
+      internalID: -2974572745380391281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 576
+        width: 45
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0d070227c749780800000000000000
+      internalID: -8677173752423722761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_38
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 636
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b82b850a681a810800000000000000
+      internalID: 1774847751401671557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_39
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 638
+        width: 27
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8196d92862b35dc30800000000000000
+      internalID: 4383474848901196056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_40
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 636
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c369776333eed370800000000000000
+      internalID: 8349360569110324165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_41
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 575
+        width: 42
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfc3b1f90a96f850800000000000000
+      internalID: 6410480487108956101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_42
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 635
+        width: 30
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf22f329fce38a10800000000000000
+      internalID: 1910631221729308603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_43
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 639
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10f7ffe473489960800000000000000
+      internalID: 7608905739963723804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_44
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 621
+        width: 102
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9fde6c023441f10800000000000000
+      internalID: 2239488722765478363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 48
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2e3e12bef7832f0800000000000000
+      internalID: -992903069972569387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_46
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 573
+        width: 40
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb772053c43c6b80800000000000000
+      internalID: -8400281191484785692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_47
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 578
+        width: 45
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e786042fecdf2aa0800000000000000
+      internalID: -6183480843696699420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_48
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 575
+        width: 45
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdae7d9fb64defe30800000000000000
+      internalID: 4539299034654304987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_49
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 515
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946920030dc24fba0800000000000000
+      internalID: -6056166326236178871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 515
+        width: 44
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6df66e4173d5860800000000000000
+      internalID: 7520227515683559147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_51
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 512
+        width: 29
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28d778588469f630800000000000000
+      internalID: 3961307884011640874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_52
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 513
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca166bc46eeb90cc0800000000000000
+      internalID: -3744251718843080276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_53
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 515
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650f0d49c47a7b200800000000000000
+      internalID: 195809056169979990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_54
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 514
+        width: 29
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4458dff87e0ed3c50800000000000000
+      internalID: 6646715910226543940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_55
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 520
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ccfe328138e44a0800000000000000
+      internalID: -6607199463600567210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_56
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 521
+        width: 48
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8643a425a51e18030800000000000000
+      internalID: 3495322563860116584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_57
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 522
+        width: 45
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7069ce3f64f0d90800000000000000
+      internalID: -7129401671643953239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_58
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 460
+        width: 37
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410423dcb0cebe810800000000000000
+      internalID: 1795788411868692500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_59
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 460
+        width: 38
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455c355c74aa6e570800000000000000
+      internalID: 8495664972311020884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_60
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 459
+        width: 38
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b388aadf96e94800800000000000000
+      internalID: 597261999845966772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_61
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 457
+        width: 44
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ac2ccd61c08fcc0800000000000000
+      internalID: -3677175803415442798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_62
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 457
+        width: 49
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad0822bc9e4693d0800000000000000
+      internalID: -3200284050289324628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_63
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 457
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33610f6acc28ae050800000000000000
+      internalID: 5830616483070219827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_64
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 460
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d533c3b1c1393c450800000000000000
+      internalID: 6107887268569822045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_65
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 458
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a16e3e5dbbb11b00800000000000000
+      internalID: 797625031025648037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_66
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 398
+        width: 29
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c054e84ed638fd210800000000000000
+      internalID: 1359950120498382092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_67
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 398
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1c62e30712de380800000000000000
+      internalID: -8940452919297785377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_68
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 400
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca935441303167580800000000000000
+      internalID: -8829849115467368020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_69
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 403
+        width: 30
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033a2d1cb0bc56100800000000000000
+      internalID: 100709818042590000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_70
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 407
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3570b05d5469152e0800000000000000
+      internalID: -2138763121353095341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_71
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 403
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c096cadb43ca780800000000000000
+      internalID: -8670497193349018490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_72
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 400
+        width: 24
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c58240c6debfbcb0800000000000000
+      internalID: -4845944844469500475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_73
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 397
+        width: 55
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e883de906afd31150800000000000000
+      internalID: 5842259045853771918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_74
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 333
+        width: 27
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37128be717fc61540800000000000000
+      internalID: 4978394524468912499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_75
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 335
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffde393f800ad370800000000000000
+      internalID: 8347985474425380859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_76
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 335
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2005108b8582a920800000000000000
+      internalID: 3000107135977979949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_77
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 357
+        width: 23
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a867950b4465abc0800000000000000
+      internalID: -3772498839473788767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_78
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 357
+        width: 23
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3236fa153ecfbc0d0800000000000000
+      internalID: -3401347040290053341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_79
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 334
+        width: 27
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735cd8aaa1672d650800000000000000
+      internalID: 6256192689273685303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_80
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 335
+        width: 29
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb358896f68652c0800000000000000
+      internalID: -4443215588675470364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_81
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 336
+        width: 36
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1843872844922030800000000000000
+      internalID: 3468497700650174493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_82
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 355
+        width: 20
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d499c164e10a410800000000000000
+      internalID: 1486221163508616605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_83
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 353
+        width: 21
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cba7f580b489afa0800000000000000
+      internalID: -5788949952311350327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_84
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 249
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9d702db06459b60800000000000000
+      internalID: 7752179350170491354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_85
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 246
+        width: 55
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6016a510e792c30800000000000000
+      internalID: 4335134660597188313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_86
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 246
+        width: 58
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608656e7793208020800000000000000
+      internalID: 2341910939800266758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_87
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 247
+        width: 55
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bb2a49bd772d530800000000000000
+      internalID: 3878294014094654244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_88
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 248
+        width: 64
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c250e81aa5dfb800800000000000000
+      internalID: 630457399393669827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_89
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 248
+        width: 75
+        height: 75
+      alignment: 9
+      pivot: {x: 0.515, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28774469496ce6b00800000000000000
+      internalID: 823814123333908354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_90
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 248
+        width: 76
+        height: 81
+      alignment: 9
+      pivot: {x: 0.53, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2a6e9bab248a370800000000000000
+      internalID: 8333984480199353048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_91
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 249
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34a44cd1a3a84060800000000000000
+      internalID: 6937975141544797245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_92
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 121
+        width: 29
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0251f106ab6ee64c0800000000000000
+      internalID: -4292239706686548704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_93
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 122
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2222add9ef240e0800000000000000
+      internalID: -2286985706827799858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_94
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 123
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978eeda7ceea32830800000000000000
+      internalID: 4045269221005781113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_95
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 120
+        width: 29
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00376b46193bd7220800000000000000
+      internalID: 2485340006419690240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_96
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 120
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74335e9f2ac8c2f0800000000000000
+      internalID: -952289015320333186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_97
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 125
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8496605c7ab5712c0800000000000000
+      internalID: -4460996129763989176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_98
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 126
+        width: 33
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c34f19df96ecd50800000000000000
+      internalID: 6759456628526038135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_99
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 127
+        width: 33
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83206d803541a8160800000000000000
+      internalID: 7028452515328164408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_100
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 75
+        width: 299
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de121e48eb4c23d0800000000000000
+      internalID: -3230123371617181991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_101
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d7df87c3e8f2f80800000000000000
+      internalID: -8129122412001395343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_102
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98231417deaf53b30800000000000000
+      internalID: 4266592119717704329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Blue Goku_103
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d1eed402fdcef70800000000000000
+      internalID: 9217987867159960942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 460f3b49d158ecb4cb9be69d3e137eaf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SSJ Blue Goku_0: 4819219004277678888
+      SSJ Blue Goku_1: -6551375402742922555
+      SSJ Blue Goku_10: -4710558241058296001
+      SSJ Blue Goku_100: -3230123371617181991
+      SSJ Blue Goku_101: -8129122412001395343
+      SSJ Blue Goku_102: 4266592119717704329
+      SSJ Blue Goku_103: 9217987867159960942
+      SSJ Blue Goku_11: -106271630098827118
+      SSJ Blue Goku_12: 691809363930168901
+      SSJ Blue Goku_13: -6474513725961983055
+      SSJ Blue Goku_14: 3866779459828999801
+      SSJ Blue Goku_15: 559311497787447148
+      SSJ Blue Goku_16: 1029569924065968503
+      SSJ Blue Goku_17: 4402654333739241425
+      SSJ Blue Goku_18: -1244937741518084064
+      SSJ Blue Goku_19: -74905873388177696
+      SSJ Blue Goku_2: 8126610513369058158
+      SSJ Blue Goku_20: -1853370842476844331
+      SSJ Blue Goku_21: 9135908187611420240
+      SSJ Blue Goku_22: -3050144806043047393
+      SSJ Blue Goku_23: 6380353716846301251
+      SSJ Blue Goku_24: -3178149974626838482
+      SSJ Blue Goku_25: 999252100674557561
+      SSJ Blue Goku_26: 3222186980176102768
+      SSJ Blue Goku_27: 2633062073986181453
+      SSJ Blue Goku_28: -8260585764283270737
+      SSJ Blue Goku_29: -913995879153379993
+      SSJ Blue Goku_3: 5819643654104493122
+      SSJ Blue Goku_30: -9180848686286735548
+      SSJ Blue Goku_31: -4962171048830513488
+      SSJ Blue Goku_32: 4014844968086759005
+      SSJ Blue Goku_33: 6949558836732775425
+      SSJ Blue Goku_34: 8357141439199033453
+      SSJ Blue Goku_35: -1701327365561029799
+      SSJ Blue Goku_36: -2974572745380391281
+      SSJ Blue Goku_37: -8677173752423722761
+      SSJ Blue Goku_38: 1774847751401671557
+      SSJ Blue Goku_39: 4383474848901196056
+      SSJ Blue Goku_4: 4162970889114871582
+      SSJ Blue Goku_40: 8349360569110324165
+      SSJ Blue Goku_41: 6410480487108956101
+      SSJ Blue Goku_42: 1910631221729308603
+      SSJ Blue Goku_43: 7608905739963723804
+      SSJ Blue Goku_44: 2239488722765478363
+      SSJ Blue Goku_45: -992903069972569387
+      SSJ Blue Goku_46: -8400281191484785692
+      SSJ Blue Goku_47: -6183480843696699420
+      SSJ Blue Goku_48: 4539299034654304987
+      SSJ Blue Goku_49: -6056166326236178871
+      SSJ Blue Goku_5: -4254596241200547166
+      SSJ Blue Goku_50: 7520227515683559147
+      SSJ Blue Goku_51: 3961307884011640874
+      SSJ Blue Goku_52: -3744251718843080276
+      SSJ Blue Goku_53: 195809056169979990
+      SSJ Blue Goku_54: 6646715910226543940
+      SSJ Blue Goku_55: -6607199463600567210
+      SSJ Blue Goku_56: 3495322563860116584
+      SSJ Blue Goku_57: -7129401671643953239
+      SSJ Blue Goku_58: 1795788411868692500
+      SSJ Blue Goku_59: 8495664972311020884
+      SSJ Blue Goku_6: -3039023272745719501
+      SSJ Blue Goku_60: 597261999845966772
+      SSJ Blue Goku_61: -3677175803415442798
+      SSJ Blue Goku_62: -3200284050289324628
+      SSJ Blue Goku_63: 5830616483070219827
+      SSJ Blue Goku_64: 6107887268569822045
+      SSJ Blue Goku_65: 797625031025648037
+      SSJ Blue Goku_66: 1359950120498382092
+      SSJ Blue Goku_67: -8940452919297785377
+      SSJ Blue Goku_68: -8829849115467368020
+      SSJ Blue Goku_69: 100709818042590000
+      SSJ Blue Goku_7: 9005181854679155364
+      SSJ Blue Goku_70: -2138763121353095341
+      SSJ Blue Goku_71: -8670497193349018490
+      SSJ Blue Goku_72: -4845944844469500475
+      SSJ Blue Goku_73: 5842259045853771918
+      SSJ Blue Goku_74: 4978394524468912499
+      SSJ Blue Goku_75: 8347985474425380859
+      SSJ Blue Goku_76: 3000107135977979949
+      SSJ Blue Goku_77: -3772498839473788767
+      SSJ Blue Goku_78: -3401347040290053341
+      SSJ Blue Goku_79: 6256192689273685303
+      SSJ Blue Goku_8: 2729783703505925536
+      SSJ Blue Goku_80: -4443215588675470364
+      SSJ Blue Goku_81: 3468497700650174493
+      SSJ Blue Goku_82: 1486221163508616605
+      SSJ Blue Goku_83: -5788949952311350327
+      SSJ Blue Goku_84: 7752179350170491354
+      SSJ Blue Goku_85: 4335134660597188313
+      SSJ Blue Goku_86: 2341910939800266758
+      SSJ Blue Goku_87: 3878294014094654244
+      SSJ Blue Goku_88: 630457399393669827
+      SSJ Blue Goku_89: 823814123333908354
+      SSJ Blue Goku_9: 4586501553106934265
+      SSJ Blue Goku_90: 8333984480199353048
+      SSJ Blue Goku_91: 6937975141544797245
+      SSJ Blue Goku_92: -4292239706686548704
+      SSJ Blue Goku_93: -2286985706827799858
+      SSJ Blue Goku_94: 4045269221005781113
+      SSJ Blue Goku_95: 2485340006419690240
+      SSJ Blue Goku_96: -952289015320333186
+      SSJ Blue Goku_97: -4460996129763989176
+      SSJ Blue Goku_98: 6759456628526038135
+      SSJ Blue Goku_99: 7028452515328164408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
