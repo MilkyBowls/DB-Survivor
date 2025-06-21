@@ -2,66 +2,228 @@ using UnityEngine;
 
 public class KiBlast : MonoBehaviour
 {
+    [Header("Lifetime & Damage")]
     public float lifetime = 3f;
-    public int damage = 1;
+    public int baseDamage = 1;
+
+    [Header("Impact FX")]
     public GameObject impactFXPrefab;
 
-    void Start()
+    [Header("Upgrade Behavior")]
+    public WeaponUpgradeData upgradeData;
+
+    private int enemiesPierced = 0;
+    private Rigidbody2D rb;
+    private Transform targetEnemy;
+
+    [Header("Homing Settings")]
+    public float homingDelay = 0.5f; // time in seconds before homing activates
+
+    private bool homingActive = false;
+    private float homingStartTime;
+
+    [Header("Advanced Homing")]
+    public float homingActivationRadius = 3f; // how close to activate homing
+    public float homingTurnSpeed = 5f;        // how fast it can steer (degrees per second)
+
+
+    [Header("Visual Spawn FX")]
+    public float fadeInDuration = 0.2f;
+    public AnimationCurve fadeInCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
+    public float scalePunchAmount = 1.2f; // how big it grows initially
+    public float scaleSettleSpeed = 5f;   // how fast it returns to normal
+
+    private SpriteRenderer spriteRenderer;
+    private float fadeStartTime;
+    private bool isFadingIn = true;
+    private Vector3 originalScale;
+
+
+void Start()
+{
+    Destroy(gameObject, lifetime);
+    rb = GetComponent<Rigidbody2D>();
+    spriteRenderer = GetComponent<SpriteRenderer>();
+
+    if (spriteRenderer != null)
     {
-        Destroy(gameObject, lifetime);
+        Color c = spriteRenderer.color;
+        c.a = 0f;
+        spriteRenderer.color = c;
     }
+
+    originalScale = transform.localScale;
+    transform.localScale = originalScale * scalePunchAmount;
+
+    fadeStartTime = Time.time;
+    isFadingIn = true;
+
+    if (upgradeData != null && upgradeData.enableHoming)
+    {
+        FindInitialTarget();
+        homingStartTime = Time.time + homingDelay;
+    }
+}
+
+    void Update()
+    {
+        if (isFadingIn && spriteRenderer != null)
+        {
+            float t = (Time.time - fadeStartTime) / fadeInDuration;
+            float easedT = fadeInCurve.Evaluate(Mathf.Clamp01(t));
+
+            // Fade in
+            Color c = spriteRenderer.color;
+            c.a = easedT;
+            spriteRenderer.color = c;
+
+            // Scale down from punch to normal
+            transform.localScale = Vector3.Lerp(originalScale * scalePunchAmount, originalScale, easedT);
+
+            if (t >= 1f)
+                isFadingIn = false;
+        }
+
+        if (upgradeData?.enableHoming == true && targetEnemy != null)
+        {
+            if (!homingActive && Time.time >= homingStartTime)
+                homingActive = true;
+
+            if (homingActive)
+            {
+                float distToTarget = Vector2.Distance(transform.position, targetEnemy.position);
+
+                if (distToTarget <= homingActivationRadius)
+                {
+                    Vector2 toTarget = ((Vector2)targetEnemy.position - rb.position).normalized;
+                    Vector2 currentDir = rb.linearVelocity.normalized;
+                    float speed = rb.linearVelocity.magnitude;
+
+                    // Smoothly rotate current velocity toward target direction
+                    float angle = Vector2.SignedAngle(currentDir, toTarget);
+                    float maxAngle = homingTurnSpeed * Time.deltaTime;
+                    float clampedAngle = Mathf.Clamp(angle, -maxAngle, maxAngle);
+
+                    Vector2 newDir = Quaternion.Euler(0, 0, clampedAngle) * currentDir;
+                    rb.linearVelocity = newDir.normalized * speed;
+
+                    float visualAngle = Mathf.Atan2(newDir.y, newDir.x) * Mathf.Rad2Deg;
+                    transform.rotation = Quaternion.Euler(0, 0, visualAngle);
+                }
+            }
+        }
+    }
+
+
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log($"Trigger hit: {collision.name}");
-
+        // Damage enemy
         if (collision.CompareTag("Enemy"))
         {
-            Debug.Log("Hit enemy and applying damage");
-
-            SFXManager.Instance.Play(SFXManager.Instance.kiBlastImpact);
-
             IDamageable damageable = collision.GetComponent<IDamageable>();
             if (damageable != null)
             {
-                damageable.TakeDamage(damage);
+                int finalDamage = Mathf.RoundToInt(baseDamage * (upgradeData?.damageModifier ?? 1f));
+
+                bool isCrit = false;
+
+                if (upgradeData?.enableCrits == true && Random.value <= 0.25f)
+                    isCrit = true;
+
+                if (upgradeData?.guaranteedCritOnLowHealth == true && damageable.CurrentHealth < damageable.MaxHealth * 0.5f)
+                    isCrit = true;
+
+                if (isCrit)
+                    finalDamage *= 2;
+
+                damageable.TakeDamage(finalDamage);
+
+                if (upgradeData?.applyBurn == true)
+                    damageable.ApplyStatusEffect(StatusEffect.Burn, 3f);
+
+                if (upgradeData?.applyStun == true)
+                    damageable.ApplyStatusEffect(StatusEffect.Stun, 1f);
             }
 
-            if (impactFXPrefab != null)
+            // Explosion AoE
+            if (upgradeData?.enableExplosion == true)
             {
-                Instantiate(impactFXPrefab, transform.position, Quaternion.identity);
+                TriggerImpactFX();
+                ExplosionDamage(transform.position, 2f);
             }
 
-            Destroy(gameObject);
-        }
-
-        // Hit Prop
-        if (collision.CompareTag("Prop"))
-        {
-            SFXManager.Instance.Play(SFXManager.Instance.kiBlastImpact);
-
-            PropDestructible prop = collision.GetComponent<PropDestructible>();
-            if (prop != null)
+            enemiesPierced++;
+            if (upgradeData == null || !upgradeData.enablePiercing || enemiesPierced > 2)
             {
-                if (impactFXPrefab != null)
-                {
-                    Instantiate(impactFXPrefab, transform.position, Quaternion.identity);
-                }
-
+                TriggerImpactFX();
                 Destroy(gameObject);
             }
         }
+
+        // Hit prop
+        else if (collision.CompareTag("Prop"))
+        {
+            TriggerImpactFX();
+            Destroy(gameObject);
+        }
+
+        // Destroy enemy projectiles
+        else if (upgradeData?.destroyEnemyProjectiles == true && collision.CompareTag("EnemyProjectile"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
-
-
-    void TriggerImpactFX()
+    private void TriggerImpactFX()
     {
         if (impactFXPrefab != null)
         {
             Instantiate(impactFXPrefab, transform.position, Quaternion.identity);
         }
+    }
 
-        Destroy(gameObject);
+    private void ExplosionDamage(Vector3 center, float radius)
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(center, radius);
+        foreach (var hit in hits)
+        {
+            if (hit.CompareTag("Enemy"))
+            {
+                IDamageable damageable = hit.GetComponent<IDamageable>();
+                if (damageable != null)
+                {
+                    int aoeDamage = Mathf.RoundToInt(baseDamage * 0.5f);
+                    damageable.TakeDamage(aoeDamage);
+                }
+            }
+        }
+    }
+
+    private void FindInitialTarget()
+    {
+        float homingRadius = 8f;
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, homingRadius);
+
+        float closestDistance = float.MaxValue;
+        Transform closestEnemy = null;
+
+        foreach (var hit in hits)
+        {
+            if (hit.CompareTag("Enemy"))
+            {
+                float distance = Vector2.Distance(transform.position, hit.transform.position);
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    closestEnemy = hit.transform;
+                }
+            }
+        }
+
+        if (closestEnemy != null)
+        {
+            targetEnemy = closestEnemy;
+        }
     }
 }

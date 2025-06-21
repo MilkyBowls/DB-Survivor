@@ -6,6 +6,9 @@ public class SaibamanEnemy : MonoBehaviour, IDamageable
 {
     public EnemyStats stats;
 
+    public int CurrentHealth => currentHealth;
+    public int MaxHealth => stats.maxHealth;
+
     private int currentHealth;
     public float explosionTriggerRadius = 1.5f;
     public float stickDistance = 0.2f;
@@ -161,6 +164,40 @@ public class SaibamanEnemy : MonoBehaviour, IDamageable
         transform.SetParent(null);
         Destroy(gameObject);
     }
+
+    public void ApplyStatusEffect(StatusEffect effectType, float duration)
+{
+    switch (effectType)
+    {
+        case StatusEffect.Burn:
+            StartCoroutine(ApplyBurn(duration));
+            break;
+        case StatusEffect.Stun:
+            StartCoroutine(ApplyStun(duration));
+            break;
+    }
+}
+
+private IEnumerator ApplyBurn(float duration)
+{
+    float interval = 0.5f;
+    int ticks = Mathf.FloorToInt(duration / interval);
+    for (int i = 0; i < ticks; i++)
+    {
+        TakeDamage(1);
+        yield return new WaitForSeconds(interval);
+    }
+}
+
+private IEnumerator ApplyStun(float duration)
+{
+    // Temporarily stop movement/explosion AI
+    bool wasExploding = isExploding;
+    isExploding = true;
+    yield return new WaitForSeconds(duration);
+    isExploding = wasExploding;
+}
+
 
 
 

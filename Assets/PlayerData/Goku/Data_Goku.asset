@@ -18,14 +18,14 @@ MonoBehaviour:
   voiceLines: []
   transformationShout: {fileID: 0}
   startingWeaponPrefab: {fileID: 4901655239696510724, guid: a5cb0b8b4b5034444a583d10e5fefb15, type: 3}
-  maxHealth: 20
+  maxHealth: 1000
   damage: 1
   movementSpeed: 2
   dodgeChance: 0
   kiRegenRate: 1
   attackSpeed: 1
   critChance: 0
-  maxKiCapacity: 5
+  maxKiCapacity: 1000
   defense: 0
   luck: 0
   abilityCooldown: 5

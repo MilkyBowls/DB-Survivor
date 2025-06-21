@@ -12,10 +12,22 @@ public abstract class WeaponBase : MonoBehaviour
     private PlayerControls controls;
     private bool isFiring = false;
 
+    public int weaponLevel = 1;
+    public WeaponUpgradeData[] upgrades;
+    protected WeaponUpgradeData currentUpgrade;
+
     protected virtual void Awake()
     {
         player = GetComponentInParent<PlayerController>();
         controls = new PlayerControls();
+        ApplyUpgrade();
+    }
+
+    protected virtual void ApplyUpgrade()
+    {
+        currentUpgrade = System.Array.Find(upgrades, u => u.level == weaponLevel);
+        if (currentUpgrade == null)
+            Debug.LogWarning($"No upgrade data found for weapon level {weaponLevel}");
     }
 
     private void OnEnable()
@@ -50,7 +62,7 @@ public abstract class WeaponBase : MonoBehaviour
 
     protected virtual void Fire()
     {
-        if (!player.TrySpendKi(10)) return;
+        if (!player.TrySpendKi(1)) return;
 
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         mouseWorldPos.z = 0f;
@@ -73,4 +85,11 @@ public abstract class WeaponBase : MonoBehaviour
 
         lastFireTime = Time.time;
     }
+
+    public void LevelUpWeapon()
+    {
+        weaponLevel = Mathf.Clamp(weaponLevel + 1, 1, 10);
+        ApplyUpgrade();
+    }
+
 }

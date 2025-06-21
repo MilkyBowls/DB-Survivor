@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e232a38cc9f1140aefa0c3ad93a315, type: 3}
+  m_Name: Level 7
+  m_EditorClassIdentifier: 
+  level: 7
+  damageModifier: 1.7
+  projectileSpeedModifier: 1.35
+  fireCooldownModifier: 0.65
+  enableDoubleShot: 1
+  enablePiercing: 1
+  enableExplosion: 1
+  enableCrits: 1
+  guaranteedCritOnLowHealth: 1
+  enableBarrage: 1
+  barrageCount: 30
+  barrageDelay: 0.046
+  enableHoming: 1
+  applyBurn: 1
+  applyStun: 0
+  destroyEnemyProjectiles: 0
+  autoAimDuringBarrage: 0
+  customProjectilePrefab: {fileID: 8480796970953200573, guid: 14bfa553ae21c8746a31a2912f039ffb, type: 3}

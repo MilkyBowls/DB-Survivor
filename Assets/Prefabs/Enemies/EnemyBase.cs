@@ -2,7 +2,7 @@
 using Pathfinding;
 using System.Collections;
 
-public class EnemyBase : MonoBehaviour
+public class EnemyBase : MonoBehaviour, IDamageable
 {
     public EnemyStats stats;
     private Transform player;
@@ -15,8 +15,12 @@ public class EnemyBase : MonoBehaviour
     private int currentWaypoint = 0;
     public float nextWaypointDistance = 0.1f;
     private bool reachedEndOfPath = false;
-
     public float repathRate = 1f;
+
+    private bool isStunned = false;
+
+    public int CurrentHealth => currentHealth;
+    public int MaxHealth => stats.maxHealth;
 
     public void ScaleHealth(int wave, float difficultyMultiplier)
     {
@@ -31,6 +35,7 @@ public class EnemyBase : MonoBehaviour
         seeker = GetComponent<Seeker>();
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        currentHealth = stats.maxHealth;
 
         if (player != null)
             InvokeRepeating(nameof(UpdatePath), 0f, repathRate);
@@ -38,7 +43,7 @@ public class EnemyBase : MonoBehaviour
 
     void UpdatePath()
     {
-        if (player != null && seeker.IsDone())
+        if (!isStunned && player != null && seeker.IsDone())
             seeker.StartPath(rb.position, player.position, OnPathComplete);
     }
 
@@ -53,7 +58,7 @@ public class EnemyBase : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (path == null || player == null)
+        if (isStunned || path == null || player == null)
             return;
 
         if (currentWaypoint >= path.vectorPath.Count)
@@ -82,6 +87,37 @@ public class EnemyBase : MonoBehaviour
         currentHealth -= amount;
         if (currentHealth <= 0)
             Die();
+    }
+
+    public void ApplyStatusEffect(StatusEffect effectType, float duration)
+    {
+        switch (effectType)
+        {
+            case StatusEffect.Burn:
+                StartCoroutine(ApplyBurn(duration));
+                break;
+            case StatusEffect.Stun:
+                StartCoroutine(ApplyStun(duration));
+                break;
+        }
+    }
+
+    private IEnumerator ApplyBurn(float duration)
+    {
+        float interval = 0.5f;
+        int ticks = Mathf.FloorToInt(duration / interval);
+        for (int i = 0; i < ticks; i++)
+        {
+            TakeDamage(1); // Burn damage per tick
+            yield return new WaitForSeconds(interval);
+        }
+    }
+
+    private IEnumerator ApplyStun(float duration)
+    {
+        isStunned = true;
+        yield return new WaitForSeconds(duration);
+        isStunned = false;
     }
 
     private void Die()

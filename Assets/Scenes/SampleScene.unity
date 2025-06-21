@@ -1804,7 +1804,7 @@ MonoBehaviour:
       weight: 25
     - prefab: {fileID: 4405696305685775850, guid: 56c47105c49ce3a4d96c309275754caf, type: 3}
       weight: 25
-    minimumSpacingInTiles: 10
+    minimumSpacingInTiles: 15
   - name: Rocks
     spawnChance: 0.003
     props:
@@ -1818,7 +1818,7 @@ MonoBehaviour:
       weight: 10
     - prefab: {fileID: 4405696305685775850, guid: 45f0b2954332dfa4bb8077aa654ba925, type: 3}
       weight: 10
-    minimumSpacingInTiles: 8
+    minimumSpacingInTiles: 10
   - name: GroundProps
     spawnChance: 0.003
     props:
@@ -3175,9 +3175,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - enemyCount: 15
-    spawnInterval: 10
-    enemiesPerInterval: 3
+  - enemyCount: 1000
+    spawnInterval: 0
+    enemiesPerInterval: 100
     enemies:
     - enemyPrefab: {fileID: 1182719422405556832, guid: a95a06e8aac73bf4f9e6e4551d92b8d0, type: 3}
       weight: 100
