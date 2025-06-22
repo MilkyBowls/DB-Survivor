@@ -677,7 +677,7 @@ public class AstarPath : VersionedMonoBehaviour {
 	/// </summary>
 	public static void FindAstarPath () {
 		if (Application.isPlaying) return;
-		if (active == null) active = GameObject.FindObjectOfType<AstarPath>();
+		if (active == null) active = GameObject.FindFirstObjectByType<AstarPath>();
 		if (active != null && (active.data.graphs == null || active.data.graphs.Length == 0)) active.data.DeserializeGraphs();
 	}
 

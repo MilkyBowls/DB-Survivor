@@ -38,8 +38,16 @@ public class KiBlast : MonoBehaviour
     private bool isFadingIn = true;
     private Vector3 originalScale;
 
+    private Vector3 receivedInitialScale;
 
-void Start()
+    private CircleCollider2D circleCollider;
+    private float originalColliderRadius;
+
+    [HideInInspector]
+    public float projectileScale = 1f;
+
+
+    void Start()
 {
     Destroy(gameObject, lifetime);
     rb = GetComponent<Rigidbody2D>();
@@ -52,8 +60,10 @@ void Start()
         spriteRenderer.color = c;
     }
 
-    originalScale = transform.localScale;
-    transform.localScale = originalScale * scalePunchAmount;
+    receivedInitialScale = transform.localScale;
+    transform.localScale = receivedInitialScale * scalePunchAmount;
+
+    originalScale = receivedInitialScale;
 
     fadeStartTime = Time.time;
     isFadingIn = true;
@@ -63,7 +73,16 @@ void Start()
         FindInitialTarget();
         homingStartTime = Time.time + homingDelay;
     }
-}
+
+    circleCollider = GetComponent<CircleCollider2D>();
+    if (circleCollider != null)
+    {
+        originalColliderRadius = circleCollider.radius;
+        // Scale radius based on visual scale
+        float scaleFactor = transform.localScale.x;
+        circleCollider.radius = originalColliderRadius * scaleFactor;
+    }
+    }
 
     void Update()
     {
@@ -78,7 +97,8 @@ void Start()
             spriteRenderer.color = c;
 
             // Scale down from punch to normal
-            transform.localScale = Vector3.Lerp(originalScale * scalePunchAmount, originalScale, easedT);
+            transform.localScale = Vector3.Lerp(receivedInitialScale * scalePunchAmount, receivedInitialScale, easedT);
+
 
             if (t >= 1f)
                 isFadingIn = false;
@@ -179,7 +199,8 @@ void Start()
     {
         if (impactFXPrefab != null)
         {
-            Instantiate(impactFXPrefab, transform.position, Quaternion.identity);
+            GameObject impact = Instantiate(impactFXPrefab, transform.position, Quaternion.identity);
+            impact.transform.localScale = Vector3.one * projectileScale;
         }
     }
 

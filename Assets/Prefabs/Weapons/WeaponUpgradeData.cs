@@ -34,6 +34,11 @@ public class WeaponUpgradeData : ScriptableObject
     public bool destroyEnemyProjectiles = false;
     public bool autoAimDuringBarrage = false;
 
+    [Header("Visual & Gameplay Settings")]
+    public float visualConeAngle = 60f;   // how wide the barrage cone is
+    public float projectileScale = 1f;    // scale multiplier for visual size
+    public float kiCost = 5;                // Ki cost per shot at this level
+
     [Header("Optional Custom Projectile")]
     public GameObject customProjectilePrefab;
 }

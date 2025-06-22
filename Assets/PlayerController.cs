@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     private bool isFacingLeft = false;
 
     [Header("Ki System")]
-    public int currentKi;
+    public float currentKi;
     private float kiRegenTimer = 0f;
 
     [Header("Health System")]
@@ -149,7 +149,7 @@ public class PlayerController : MonoBehaviour
         }
 
         if (kiBar != null) kiBar.value = currentKi;
-            if (kiBarText != null) kiBarText.text = $"{currentKi} / {maxKi}";
+            if (kiBarText != null) kiBarText.text = $"{currentKi:F1} / {maxKi}";
             if (healthBar != null) healthBar.value = currentHealth;
             if (healthBarText != null) healthBarText.text = $"{currentHealth} / {maxHealth}";
 
@@ -439,17 +439,17 @@ public class PlayerController : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, currentMagnetRadius);
     }
 
-    public bool TrySpendKi(int amount)
+    public bool TrySpendKi(float amount)
     {
         if (isDead || isTransforming || isLatched) return false;
 
-        int cost = isSuperSaiyan() ? Mathf.RoundToInt(amount * currentTransformation.attackKiMultiplier) : amount;
+        float cost = isSuperSaiyan() ? amount * currentTransformation.attackKiMultiplier : amount;
 
         if (currentKi >= cost)
         {
             currentKi -= cost;
 
-            if (isSuperSaiyan() && currentKi <= 0)
+            if (isSuperSaiyan() && currentKi <= 0f)
                 RevertToBaseForm();
 
             return true;
@@ -460,6 +460,7 @@ public class PlayerController : MonoBehaviour
 
         return false;
     }
+
 
     private void StartCharge()
     {

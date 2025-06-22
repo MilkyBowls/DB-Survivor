@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 public abstract class WeaponBase : MonoBehaviour
@@ -9,8 +9,8 @@ public abstract class WeaponBase : MonoBehaviour
 
     protected float lastFireTime = -999f;
     protected PlayerController player;
-    private PlayerControls controls;
-    private bool isFiring = false;
+    protected PlayerControls controls;
+    protected bool isFiring = false;
 
     public int weaponLevel = 1;
     public WeaponUpgradeData[] upgrades;
@@ -32,6 +32,9 @@ public abstract class WeaponBase : MonoBehaviour
 
     private void OnEnable()
     {
+        if (controls == null)
+            controls = new PlayerControls(); // 🛠️ This fixes the crash!
+
         controls.Player.Enable();
         controls.Player.Weapon.performed += OnFirePerformed;
         controls.Player.Weapon.canceled += OnFireCanceled;
@@ -57,7 +60,10 @@ public abstract class WeaponBase : MonoBehaviour
 
     protected virtual bool CanFire()
     {
-        return Time.time >= lastFireTime + fireCooldown && player != null && !player.isDead;
+        float modifier = currentUpgrade != null ? currentUpgrade.fireCooldownModifier : 1f;
+        float cooldown = fireCooldown * modifier;
+
+        return Time.time >= lastFireTime + cooldown && player != null && !player.isDead;
     }
 
     protected virtual void Fire()

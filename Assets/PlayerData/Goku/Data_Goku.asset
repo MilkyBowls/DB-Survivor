@@ -17,7 +17,7 @@ MonoBehaviour:
   animatorController: {fileID: 9100000, guid: 2d59078d0dd65f7489a478b1e4af9894, type: 2}
   voiceLines: []
   transformationShout: {fileID: 0}
-  startingWeaponPrefab: {fileID: 4901655239696510724, guid: a5cb0b8b4b5034444a583d10e5fefb15, type: 3}
+  startingWeaponPrefab: {fileID: 3799930303479939859, guid: 4211280a7f9c5664798282423b5f9711, type: 3}
   maxHealth: 1000
   damage: 1
   movementSpeed: 2

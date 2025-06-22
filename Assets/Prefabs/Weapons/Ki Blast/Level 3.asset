@@ -15,10 +15,10 @@ MonoBehaviour:
   level: 3
   damageModifier: 1.3
   projectileSpeedModifier: 1.15
-  fireCooldownModifier: 0.85
+  fireCooldownModifier: 0
   enableDoubleShot: 1
   enablePiercing: 1
-  enableExplosion: 1
+  enableExplosion: 0
   enableCrits: 0
   guaranteedCritOnLowHealth: 0
   enableBarrage: 0
@@ -29,4 +29,7 @@ MonoBehaviour:
   applyStun: 0
   destroyEnemyProjectiles: 0
   autoAimDuringBarrage: 0
+  visualConeAngle: 60
+  projectileScale: 0.8
+  kiCost: 2
   customProjectilePrefab: {fileID: 8480796970953200573, guid: 14bfa553ae21c8746a31a2912f039ffb, type: 3}
