@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2289051465375603321}
   - component: {fileID: 5205306152619081084}
   - component: {fileID: 7199887777295510402}
+  - component: {fileID: -1342057019573417559}
   m_Layer: 7
   m_Name: KiBlastProjectile
   m_TagString: PlayerProjectile
@@ -30,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,12 +80,12 @@ SpriteRenderer:
   m_SortingLayerID: -1004480949
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1118506424, guid: 585932ac68e4e9140b5ada6991c87ccc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ee5f23dda8cc2142b05f8d8716df3ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.5, y: 1.0625}
+  m_Size: {x: 1.5, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -152,7 +153,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1.25
+  m_Radius: 0.74999994
 --- !u!114 &7199887777295510402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +171,7 @@ MonoBehaviour:
   impactFXPrefab: {fileID: 8452077751695647702, guid: 60c6290cf9d5fbe4394afdd9ae45ab7f, type: 3}
   upgradeData: {fileID: 11400000, guid: 6b027a02f0114824bac547e992daeeec, type: 2}
   homingDelay: 0.1
-  homingActivationRadius: 1
+  homingActivationRadius: 3
   homingTurnSpeed: 15
   fadeInDuration: 0.1
   fadeInCurve:
@@ -197,5 +198,27 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  scalePunchAmount: 2
-  scaleSettleSpeed: 5
+  scalePunchAmount: 0
+  scaleSettleSpeed: 0
+--- !u!95 &-1342057019573417559
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480796970953200573}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e20aad3ecac265d48a8716d42b34e96a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

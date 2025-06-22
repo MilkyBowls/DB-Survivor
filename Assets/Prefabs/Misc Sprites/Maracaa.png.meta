@@ -1,0 +1,1690 @@
+fileFormatVersion: 2
+guid: 517411c36d3d56646b629fba4f11c512
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1941387253883807136
+    second: Maracaa_0
+  - first:
+      213: 5325466693411423063
+    second: Maracaa_1
+  - first:
+      213: 1673502382233367989
+    second: Maracaa_2
+  - first:
+      213: 3794576300086711768
+    second: Maracaa_3
+  - first:
+      213: -7306815546758014849
+    second: Maracaa_4
+  - first:
+      213: -1370686765341300938
+    second: Maracaa_5
+  - first:
+      213: -5427677739275473835
+    second: Maracaa_6
+  - first:
+      213: -6699318818871506014
+    second: Maracaa_7
+  - first:
+      213: -6448498763799848835
+    second: Maracaa_8
+  - first:
+      213: 2600308761061207931
+    second: Maracaa_9
+  - first:
+      213: 209093622189592037
+    second: Maracaa_10
+  - first:
+      213: 3128335039296358248
+    second: Maracaa_11
+  - first:
+      213: 2536092254218155432
+    second: Maracaa_12
+  - first:
+      213: -1947121062924314081
+    second: Maracaa_13
+  - first:
+      213: -3164005944887595989
+    second: Maracaa_14
+  - first:
+      213: -228398326019830141
+    second: Maracaa_15
+  - first:
+      213: 8953202848330381509
+    second: Maracaa_16
+  - first:
+      213: 8301170092230074649
+    second: Maracaa_17
+  - first:
+      213: -9085498527050973619
+    second: Maracaa_18
+  - first:
+      213: -5889384984855270444
+    second: Maracaa_19
+  - first:
+      213: 3336764802446547998
+    second: Maracaa_20
+  - first:
+      213: -2902336248544605956
+    second: Maracaa_21
+  - first:
+      213: -5489659821506293962
+    second: Maracaa_22
+  - first:
+      213: -2171321547678601668
+    second: Maracaa_23
+  - first:
+      213: -6417266932642948209
+    second: Maracaa_24
+  - first:
+      213: -8301803495750895999
+    second: Maracaa_25
+  - first:
+      213: 5523699701697325938
+    second: Maracaa_26
+  - first:
+      213: -5649461752590465626
+    second: Maracaa_27
+  - first:
+      213: 1132359525031147755
+    second: Maracaa_28
+  - first:
+      213: -2659339365142568672
+    second: Maracaa_29
+  - first:
+      213: -6373739714069585783
+    second: Maracaa_30
+  - first:
+      213: 5876499012240044345
+    second: Maracaa_31
+  - first:
+      213: 3969761677554474881
+    second: Maracaa_32
+  - first:
+      213: 8257787885201770656
+    second: Maracaa_33
+  - first:
+      213: 40918387528363460
+    second: Maracaa_34
+  - first:
+      213: -5216323633983443143
+    second: Maracaa_35
+  - first:
+      213: 6118747226949164649
+    second: Maracaa_36
+  - first:
+      213: -8773201496409357855
+    second: Maracaa_37
+  - first:
+      213: -3207510579874869933
+    second: Maracaa_38
+  - first:
+      213: -3245889338604293935
+    second: Maracaa_39
+  - first:
+      213: 8032501427547196726
+    second: Maracaa_40
+  - first:
+      213: -8544201568174427202
+    second: Maracaa_41
+  - first:
+      213: -3363381860361493655
+    second: Maracaa_42
+  - first:
+      213: -8606138221330810592
+    second: Maracaa_43
+  - first:
+      213: 8186248760152209457
+    second: Maracaa_44
+  - first:
+      213: 4030585007775555318
+    second: Maracaa_45
+  - first:
+      213: -8790260294241738962
+    second: Maracaa_46
+  - first:
+      213: -5535226466242358217
+    second: Maracaa_47
+  - first:
+      213: -8687652889952234843
+    second: Maracaa_48
+  - first:
+      213: 6839516021287698304
+    second: Maracaa_49
+  - first:
+      213: -8696197661117757039
+    second: Maracaa_50
+  - first:
+      213: -4968484373908313377
+    second: Maracaa_51
+  - first:
+      213: -1517269254735224857
+    second: Maracaa_52
+  - first:
+      213: -8114259544244266497
+    second: Maracaa_53
+  - first:
+      213: -6584244964903196773
+    second: Maracaa_54
+  - first:
+      213: 3393836055055511859
+    second: Maracaa_55
+  - first:
+      213: -8224723361256151413
+    second: Maracaa_56
+  - first:
+      213: -8420602112613422924
+    second: Maracaa_57
+  - first:
+      213: 7097635860268433035
+    second: Maracaa_58
+  - first:
+      213: -4963718994659842866
+    second: Maracaa_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Maracaa_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 226
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ad8c8149ece05e0800000000000000
+      internalID: -1941387253883807136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 225
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75346fbfdbbd7e940800000000000000
+      internalID: 5325466693411423063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 225
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b53acfcc89793710800000000000000
+      internalID: 1673502382233367989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 223
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5d8c75a0b09a430800000000000000
+      internalID: 3794576300086711768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_4
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 223
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78df2039f9f89a90800000000000000
+      internalID: -7306815546758014849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 157
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637a08d26a75afce0800000000000000
+      internalID: -1370686765341300938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 160
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ca03b6ad30da4b0800000000000000
+      internalID: -5427677739275473835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_7
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 162
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab031c570d3703a0800000000000000
+      internalID: -6699318818871506014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 161
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d781a293a845286a0800000000000000
+      internalID: -6448498763799848835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_9
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 162
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fa3698a07261420800000000000000
+      internalID: 2600308761061207931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 88
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed0963aa89d6e200800000000000000
+      internalID: 209093622189592037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 90
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867caa3c4241a6b20800000000000000
+      internalID: 3128335039296358248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 89
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5fa4ae772023320800000000000000
+      internalID: 2536092254218155432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 81
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a17b5a5bf6af4e0800000000000000
+      internalID: -1947121062924314081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_14
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 80
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c20c35b513714d0800000000000000
+      internalID: -3164005944887595989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_15
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 81
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e4b4ebee094dcf0800000000000000
+      internalID: -228398326019830141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_16
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 80
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c87fb0fd8a204c70800000000000000
+      internalID: 8953202848330381509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_17
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 80
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9116877a73ea33370800000000000000
+      internalID: 8301170092230074649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_18
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 80
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ebac70a33d9e180800000000000000
+      internalID: -9085498527050973619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_19
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 80
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbae204f83b44ea0800000000000000
+      internalID: -5889384984855270444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 19
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c5adca8e19e4e20800000000000000
+      internalID: 3336764802446547998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 23
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf842c62f84d8b7d0800000000000000
+      internalID: -2902336248544605956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_22
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 50
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f02615a7fc0d3b0800000000000000
+      internalID: -5489659821506293962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 50
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e27797e8aedd1e0800000000000000
+      internalID: -2171321547678601668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_24
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bd4f299b941f6a0800000000000000
+      internalID: -6417266932642948209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_25
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186fba894b11acc80800000000000000
+      internalID: -8301803495750895999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_26
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ba995ec9f18ac40800000000000000
+      internalID: 5523699701697325938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a580b8d7741991b0800000000000000
+      internalID: -5649461752590465626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_28
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 50
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8f28f0df2f6bf00800000000000000
+      internalID: 1132359525031147755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_29
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 50
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021e67befe0281bd0800000000000000
+      internalID: -2659339365142568672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_30
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 50
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9802514ef7deb87a0800000000000000
+      internalID: -6373739714069585783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_31
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 50
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931708377b48d8150800000000000000
+      internalID: 5876499012240044345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_32
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 50
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fd799863d671730800000000000000
+      internalID: 3969761677554474881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 50
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8c9f7745e899270800000000000000
+      internalID: 8257787885201770656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_34
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 50
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cde8618e0f519000800000000000000
+      internalID: 40918387528363460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_35
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 25
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f21faca45eb97b0800000000000000
+      internalID: -5216323633983443143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_36
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 37
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e16b43f282ae450800000000000000
+      internalID: 6118747226949164649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_37
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 37
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1489fa8b35f3680800000000000000
+      internalID: -8773201496409357855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_38
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 37
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d40492f12ac73d0800000000000000
+      internalID: -3207510579874869933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_39
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 37
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0734018d844f2d0800000000000000
+      internalID: -3245889338604293935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_40
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 37
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dc4c68d7d297f60800000000000000
+      internalID: 8032501427547196726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_41
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 37
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3b0af51f5ec6980800000000000000
+      internalID: -8544201568174427202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_42
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 37
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9632929940ed251d0800000000000000
+      internalID: -3363381860361493655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 37
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0293aad82ead09880800000000000000
+      internalID: -8606138221330810592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_44
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 37
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138badfefd56b9170800000000000000
+      internalID: 8186248760152209457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_45
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 37
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe1a79a5b38fe730800000000000000
+      internalID: 4030585007775555318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_46
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 37
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f108ec5d8b20680800000000000000
+      internalID: -8790260294241738962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_47
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 37
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73498481bdcee23b0800000000000000
+      internalID: -5535226466242358217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_48
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 37
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2508ac9b14f6780800000000000000
+      internalID: -8687652889952234843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_49
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 24
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f32748597daee50800000000000000
+      internalID: 6839516021287698304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_50
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 24
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1994e783d46e05780800000000000000
+      internalID: -8696197661117757039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_51
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 24
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaad1d39c56c0bb0800000000000000
+      internalID: -4968484373908313377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 24
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef92e2d6a391fae0800000000000000
+      internalID: -1517269254735224857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_53
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 24
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff95ff98feb546f80800000000000000
+      internalID: -8114259544244266497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_54
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 24
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b976ac8d61010a4a0800000000000000
+      internalID: -6584244964903196773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_55
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 24
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3313f7729e3591f20800000000000000
+      internalID: 3393836055055511859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_56
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 24
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86687ceda9ebdd80800000000000000
+      internalID: -8224723361256151413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_57
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 24
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8e5ca2ef2042b80800000000000000
+      internalID: -8420602112613422924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_58
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 24
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ebf54c53edf7260800000000000000
+      internalID: 7097635860268433035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maracaa_59
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 24
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4e07e8fd35d1bb0800000000000000
+      internalID: -4963718994659842866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Maracaa_0: -1941387253883807136
+      Maracaa_1: 5325466693411423063
+      Maracaa_10: 209093622189592037
+      Maracaa_11: 3128335039296358248
+      Maracaa_12: 2536092254218155432
+      Maracaa_13: -1947121062924314081
+      Maracaa_14: -3164005944887595989
+      Maracaa_15: -228398326019830141
+      Maracaa_16: 8953202848330381509
+      Maracaa_17: 8301170092230074649
+      Maracaa_18: -9085498527050973619
+      Maracaa_19: -5889384984855270444
+      Maracaa_2: 1673502382233367989
+      Maracaa_20: 3336764802446547998
+      Maracaa_21: -2902336248544605956
+      Maracaa_22: -5489659821506293962
+      Maracaa_23: -2171321547678601668
+      Maracaa_24: -6417266932642948209
+      Maracaa_25: -8301803495750895999
+      Maracaa_26: 5523699701697325938
+      Maracaa_27: -5649461752590465626
+      Maracaa_28: 1132359525031147755
+      Maracaa_29: -2659339365142568672
+      Maracaa_3: 3794576300086711768
+      Maracaa_30: -6373739714069585783
+      Maracaa_31: 5876499012240044345
+      Maracaa_32: 3969761677554474881
+      Maracaa_33: 8257787885201770656
+      Maracaa_34: 40918387528363460
+      Maracaa_35: -5216323633983443143
+      Maracaa_36: 6118747226949164649
+      Maracaa_37: -8773201496409357855
+      Maracaa_38: -3207510579874869933
+      Maracaa_39: -3245889338604293935
+      Maracaa_4: -7306815546758014849
+      Maracaa_40: 8032501427547196726
+      Maracaa_41: -8544201568174427202
+      Maracaa_42: -3363381860361493655
+      Maracaa_43: -8606138221330810592
+      Maracaa_44: 8186248760152209457
+      Maracaa_45: 4030585007775555318
+      Maracaa_46: -8790260294241738962
+      Maracaa_47: -5535226466242358217
+      Maracaa_48: -8687652889952234843
+      Maracaa_49: 6839516021287698304
+      Maracaa_5: -1370686765341300938
+      Maracaa_50: -8696197661117757039
+      Maracaa_51: -4968484373908313377
+      Maracaa_52: -1517269254735224857
+      Maracaa_53: -8114259544244266497
+      Maracaa_54: -6584244964903196773
+      Maracaa_55: 3393836055055511859
+      Maracaa_56: -8224723361256151413
+      Maracaa_57: -8420602112613422924
+      Maracaa_58: 7097635860268433035
+      Maracaa_59: -4963718994659842866
+      Maracaa_6: -5427677739275473835
+      Maracaa_7: -6699318818871506014
+      Maracaa_8: -6448498763799848835
+      Maracaa_9: 2600308761061207931
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
