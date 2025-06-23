@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e232a38cc9f1140aefa0c3ad93a315, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  level: 1
+  damageModifier: 1
+  projectileSpeedModifier: 1
+  fireCooldownModifier: 1
+  projectileScale: 1
+  enableDoubleShot: 0
+  enablePiercing: 0
+  enableExplosion: 0
+  enableCrits: 0
+  guaranteedCritOnLowHealth: 0
+  enableBarrage: 0
+  barrageCount: 0
+  barrageDelay: 0.05
+  enableHoming: 0
+  applyBurn: 0
+  applyStun: 0
+  destroyEnemyProjectiles: 0
+  autoAimDuringBarrage: 0
+  visualConeAngle: 60
+  kiCost: 1
+  customProjectilePrefab: {fileID: 0}
+  beamMaxLengthModifier: 1
+  beamGrowthSpeedModifier: 1
+  beamDuration: 5

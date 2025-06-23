@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BeamController : MonoBehaviour
 {
@@ -9,80 +8,60 @@ public class BeamController : MonoBehaviour
     public Transform endTransform;
     public BoxCollider2D damageCollider;
 
-    [Header("Beam Settings")]
-    public float beamWidth = 1f;
+    [Header("Visual Root")]
+    [SerializeField] public Transform visualRoot;
 
-    [SerializeField] private AnimationCurve growthCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
+    private float currentMidLength = 0f;
+    private float beamWidth = 1f;
 
+    public void SetBeamWidth(float width)
+    {
+        beamWidth = width;
+    }
 
-    public void SetBeamLength(float length)
+    public void SetStartEndScale(float scale)
+    {
+        if (startTransform != null)
+            startTransform.localScale = Vector3.one * scale;
+
+        if (endTransform != null)
+            endTransform.localScale = Vector3.one * scale;
+    }
+
+    public void SetBeamLength(float length, float midScaleX = 1f, float midScaleY = 1f)
     {
         if (startTransform == null || midRenderer == null || endTransform == null)
             return;
 
-        float startWidth = startTransform.GetComponent<SpriteRenderer>().sprite.rect.width / 16f;
-        float endWidth = endTransform.GetComponent<SpriteRenderer>().sprite.rect.width / 16f;
+        float pixelsPerUnit = 16f;
+        float startWidth = startTransform.GetComponent<SpriteRenderer>().sprite.rect.width / pixelsPerUnit;
+        float endWidth = endTransform.GetComponent<SpriteRenderer>().sprite.rect.width / pixelsPerUnit;
+        float buffer = 0f;
 
-        // Clamp total beam length to at least (start + end)
-        length = Mathf.Max(startWidth + endWidth, length);
+        float minLength = startWidth + endWidth + buffer;
+        length = Mathf.Max(length, minLength);
 
-        // Clamp mid section to minimum size (even if beam is very short)
-        float rawMid = length - (startWidth + endWidth);
-        float midLength = Mathf.Max(1f, rawMid); // ✅ force minimum mid
+        currentMidLength = Mathf.Max(0.01f, length - (startWidth + endWidth + buffer));
 
-        // Position start
         startTransform.localPosition = Vector3.zero;
+        midRenderer.transform.localPosition = new Vector3(startWidth + buffer, 0f, 0f);
+        endTransform.localPosition = new Vector3(startWidth + buffer + currentMidLength, 0f, 0f);
 
-        // Position and size mid
-        midRenderer.transform.localPosition = new Vector3(startWidth, 0f, 0f);
-        midRenderer.size = new Vector2(midLength, beamWidth);
+        if (midRenderer != null)
+            midRenderer.size = new Vector2(currentMidLength * midScaleX, beamWidth * midScaleY);
 
-        // Position end
-        endTransform.localPosition = new Vector3(startWidth + midLength, 0f, 0f);
-
-        // Collider
         if (damageCollider != null)
         {
-            damageCollider.offset = new Vector2(startWidth + midLength * 0.5f, 0f);
-            damageCollider.size = new Vector2(midLength, beamWidth);
+            damageCollider.offset = new Vector2(startWidth + buffer + (currentMidLength * 0.5f), 0f);
+            damageCollider.size = new Vector2(currentMidLength, beamWidth * midScaleY);
         }
+
+        Debug.Log($"[BeamController] SetBeamLength({length:F2}) | midLength: {currentMidLength:F2}");
     }
-
-
-
-
 
     public void SetDirection(Vector2 direction)
     {
-        Debug.Log($"[BeamController] SetDirection({direction})");
-
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
-    }
-
-    public void AnimateBeamGrowth(float targetLength, float growDuration)
-    {
-        StartCoroutine(GrowBeam(targetLength, growDuration));
-    }
-
-    private IEnumerator GrowBeam(float targetLength, float duration)
-    {
-        float startWidth = 1f; // match BeamStart width
-        float endWidth = 1f;   // match BeamEnd width
-        float minLength = startWidth + endWidth + 0.1f;
-
-        float time = 0f;
-        while (time < duration)
-        {
-            float t = time / duration;
-            float eased = growthCurve.Evaluate(t);
-            float currentLength = Mathf.Lerp(minLength, targetLength, eased);
-
-            SetBeamLength(currentLength);
-            time += Time.deltaTime;
-            yield return null;
-        }
-
-        SetBeamLength(targetLength); // final snap to ensure precision
     }
 }

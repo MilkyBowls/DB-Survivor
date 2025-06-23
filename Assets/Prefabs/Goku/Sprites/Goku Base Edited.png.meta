@@ -1748,9 +1748,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 485
-        y: 946
+        y: 942
         width: 105
-        height: 75
+        height: 82
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1770,9 +1770,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 641
-        y: 940
+        y: 938
         width: 120
-        height: 79
+        height: 83
       alignment: 9
       pivot: {x: 0, y: 0.556962}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1783,6 +1783,50 @@ TextureImporter:
       bones: []
       spriteID: ea7360db30853d94a916dbe4c9e4fd74
       internalID: -425744557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_42
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 939
+        width: 105
+        height: 82
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d69731cf9abf24fa8cc94613d79dfb
+      internalID: 697164482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_43
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 936
+        width: 121
+        height: 83
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b5bc74c258e6f4ea63f1c8b58307e1
+      internalID: 829782239
       vertices: []
       indices: 
       edges: []
@@ -1840,6 +1884,8 @@ TextureImporter:
       Goku Base Edited_4: -9194786299208568360
       Goku Base Edited_40: 1251671895
       Goku Base Edited_41: -425744557
+      Goku Base Edited_42: 697164482
+      Goku Base Edited_43: 829782239
       Goku Base Edited_5: -2605857969203350636
       Goku Base Edited_6: 1955641502597648286
       Goku Base Edited_7: -1118506424

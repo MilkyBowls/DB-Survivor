@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class BeamWeapon : WeaponBase
@@ -12,13 +12,24 @@ public class BeamWeapon : WeaponBase
     public float maxBeamLength = 15f;
     public float beamWidth = 1f;
     public float kiDrainPerSecond = 10f;
-    public float maxBeamDuration = 5f;
 
     private GameObject activeBeam;
     private BeamController beamController;
 
     private float growthTimer = 0f;
     private bool isFiring = false;
+
+    [Tooltip("Default beam duration if upgrade data is missing.")]
+    public float baseBeamDuration = 5f;
+
+    [Tooltip("Explosion prefab or visual effect to trigger when beam ends.")]
+    public GameObject explosionPrefab;
+
+    [SerializeField] private float visualScaleX = 1f;
+    [SerializeField] private float visualScaleY = 1f;
+
+    [HideInInspector] public int baseDamage = 1;
+    [HideInInspector] public WeaponUpgradeData currentUpgrade;
 
     protected override void Awake()
     {
@@ -45,22 +56,36 @@ public class BeamWeapon : WeaponBase
 
     private void Update()
     {
-        if (beamController != null)
+        if (beamController != null && isFiring)
         {
-            // Increase length while held
-            growthTimer += Time.deltaTime;
-            float dynamicLength = Mathf.Min(maxBeamLength, beamGrowthSpeed * growthTimer);
-            beamController.SetBeamLength(dynamicLength);
+            player.PlayAttackAnimation();
 
-            // Drain Ki
+            activeBeam.transform.position = firePoint.position;
+
+            Vector2 mouseScreen = Mouse.current.position.ReadValue();
+            Vector2 world = Camera.main.ScreenToWorldPoint(mouseScreen);
+            Vector2 aimDir = (world - (Vector2)firePoint.position).normalized;
+            beamController.SetDirection(aimDir);
+
+            float scale = currentUpgrade?.projectileScale ?? 1f;
+            float maxLength = maxBeamLength * (currentUpgrade?.beamMaxLengthModifier ?? 1f);
+            float growthSpeed = beamGrowthSpeed * (currentUpgrade?.beamGrowthSpeedModifier ?? 1f);
+            float initialLength = 6f * scale;
+
+            growthTimer += Time.deltaTime;
+            float dynamicLength = Mathf.Min(maxLength, initialLength + growthSpeed * growthTimer);
+
+            float midScaleX = currentUpgrade?.beamVisualScaleX ?? 1f;
+            float midScaleY = currentUpgrade?.beamVisualScaleY ?? 1f;
+
+            beamController.SetStartEndScale(scale);
+            beamController.SetBeamWidth(beamWidth);
+            beamController.SetBeamLength(dynamicLength, midScaleX, midScaleY);
+
             float kiCost = kiDrainPerSecond * Time.deltaTime;
             if (player.currentKi >= kiCost)
             {
                 player.currentKi -= kiCost;
-            }
-            else
-            {
-                EndBeam(); // stop beam if out of Ki
             }
         }
     }
@@ -69,23 +94,32 @@ public class BeamWeapon : WeaponBase
     {
         if (!CanFire() || isFiring) return;
 
+        CancelInvoke(nameof(EndBeam));
         isFiring = true;
         growthTimer = 0f;
+
+        Vector2 mouseScreen = Mouse.current.position.ReadValue();
+        Vector2 world = Camera.main.ScreenToWorldPoint(mouseScreen);
+        Vector2 aimDir = (world - (Vector2)firePoint.position).normalized;
 
         activeBeam = Instantiate(beamPrefab, firePoint.position, Quaternion.identity, transform);
         beamController = activeBeam.GetComponent<BeamController>();
 
         if (beamController != null)
         {
-            Vector2 mouseScreen = Mouse.current.position.ReadValue();
-            Vector2 world = Camera.main.ScreenToWorldPoint(mouseScreen);
-            Vector2 aimDir = (world - (Vector2)firePoint.position).normalized;
-
             beamController.SetDirection(aimDir);
-            beamController.SetBeamLength(0.1f); // initial small size
+
+            float scale = currentUpgrade?.projectileScale ?? 1f;
+            float midScaleX = currentUpgrade?.beamVisualScaleX ?? 1f;
+            float midScaleY = currentUpgrade?.beamVisualScaleY ?? 1f;
+
+            beamController.SetStartEndScale(scale);
+            beamController.SetBeamWidth(beamWidth);
+            beamController.SetBeamLength(6f * scale, midScaleX, midScaleY);
         }
 
-        Invoke(nameof(EndBeam), maxBeamDuration); // auto-end after max duration
+        float upgradedDuration = currentUpgrade?.beamDuration ?? baseBeamDuration;
+        Invoke(nameof(EndBeam), upgradedDuration);
     }
 
     private void EndBeam()

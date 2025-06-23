@@ -47,10 +47,20 @@ MonoBehaviour:
   projectilePrefab: {fileID: 0}
   fireCooldown: 0.5
   weaponLevel: 1
-  upgrades: []
+  upgrades:
+  - {fileID: 11400000, guid: 7adac823e395ef54c8592208e10fb41d, type: 2}
+  - {fileID: 11400000, guid: 64d8b7472ededbc4db240be1707a3833, type: 2}
+  - {fileID: 11400000, guid: 133647c79eb20ef4d85185ddbbb7dbbd, type: 2}
+  - {fileID: 11400000, guid: bd348831f25768e40997aabe68b2922d, type: 2}
+  - {fileID: 11400000, guid: ae1ec9f5a35ce5c439396150d64fc09f, type: 2}
   beamPrefab: {fileID: 824023819897462620, guid: eae16fe4b89e81e4c8ffc23da0294aa4, type: 3}
-  beamGrowthSpeed: 1
-  maxBeamLength: 100
-  beamWidth: 2.5
-  kiDrainPerSecond: 10
-  maxBeamDuration: 100
+  beamGrowthSpeed: 30
+  maxBeamLength: 40
+  beamWidth: 2.55
+  kiDrainPerSecond: 0
+  baseBeamDuration: 5
+  explosionPrefab: {fileID: 0}
+  visualScaleX: 1
+  visualScaleY: 1
+  baseDamage: 1
+  currentUpgrade: {fileID: 0}

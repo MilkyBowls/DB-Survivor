@@ -3161,7 +3161,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1915219734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3175,9 +3175,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - enemyCount: 5
-    spawnInterval: 0
-    enemiesPerInterval: 5
+  - enemyCount: 1000
+    spawnInterval: 30
+    enemiesPerInterval: 100
     enemies:
     - enemyPrefab: {fileID: 1182719422405556832, guid: a95a06e8aac73bf4f9e6e4551d92b8d0, type: 3}
       weight: 100

@@ -27,7 +27,9 @@ public abstract class WeaponBase : MonoBehaviour
     {
         currentUpgrade = System.Array.Find(upgrades, u => u.level == weaponLevel);
         if (currentUpgrade == null)
-            Debug.LogWarning($"No upgrade data found for weapon level {weaponLevel}");
+            Debug.LogWarning($"[BeamWeapon] No upgrade data found for weapon level {weaponLevel}");
+        else
+            Debug.Log($"[BeamWeapon] Upgrade applied: level {currentUpgrade.level}");
     }
 
     private void OnEnable()
