@@ -1,0 +1,2431 @@
+fileFormatVersion: 2
+guid: efb84f8fb56917040b20f16b15224f7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 851905518832578864
+    second: ShusRobot_0
+  - first:
+      213: 5152610304257029651
+    second: ShusRobot_1
+  - first:
+      213: 4265352840603868551
+    second: ShusRobot_2
+  - first:
+      213: -4199026327029549438
+    second: ShusRobot_3
+  - first:
+      213: -1648325890590211181
+    second: ShusRobot_4
+  - first:
+      213: 7281974903886802204
+    second: ShusRobot_5
+  - first:
+      213: 6675271329080202994
+    second: ShusRobot_6
+  - first:
+      213: 8780795178977163871
+    second: ShusRobot_7
+  - first:
+      213: -7517400319523412926
+    second: ShusRobot_8
+  - first:
+      213: -4736048506443016610
+    second: ShusRobot_9
+  - first:
+      213: 5159857712190449004
+    second: ShusRobot_10
+  - first:
+      213: -1267049166337014501
+    second: ShusRobot_11
+  - first:
+      213: 7942618999618061975
+    second: ShusRobot_12
+  - first:
+      213: 1590921170652532447
+    second: ShusRobot_13
+  - first:
+      213: -4166030722195192577
+    second: ShusRobot_14
+  - first:
+      213: -5065231465609815644
+    second: ShusRobot_15
+  - first:
+      213: 552518864727261471
+    second: ShusRobot_16
+  - first:
+      213: 8013799066928541668
+    second: ShusRobot_17
+  - first:
+      213: -5756435155697754895
+    second: ShusRobot_18
+  - first:
+      213: -2902070639381735273
+    second: ShusRobot_19
+  - first:
+      213: 5804760675411461672
+    second: ShusRobot_20
+  - first:
+      213: 8434634826850097159
+    second: ShusRobot_21
+  - first:
+      213: 2625555138464134874
+    second: ShusRobot_22
+  - first:
+      213: 9028410722729616053
+    second: ShusRobot_23
+  - first:
+      213: -2363930956013952406
+    second: ShusRobot_24
+  - first:
+      213: 500901574746049281
+    second: ShusRobot_25
+  - first:
+      213: -6855658665856828094
+    second: ShusRobot_26
+  - first:
+      213: 5123143528227874204
+    second: ShusRobot_27
+  - first:
+      213: 8293306627685027655
+    second: ShusRobot_28
+  - first:
+      213: 4751357594934256338
+    second: ShusRobot_29
+  - first:
+      213: -3319721736078621666
+    second: ShusRobot_30
+  - first:
+      213: 4578610105361130770
+    second: ShusRobot_31
+  - first:
+      213: -8144726866330592495
+    second: ShusRobot_32
+  - first:
+      213: -4301386071797473445
+    second: ShusRobot_33
+  - first:
+      213: -4347209707324918564
+    second: ShusRobot_34
+  - first:
+      213: 4423899467779617279
+    second: ShusRobot_35
+  - first:
+      213: -3639446472530720235
+    second: ShusRobot_36
+  - first:
+      213: -5304842612871762290
+    second: ShusRobot_37
+  - first:
+      213: 7572447149609423687
+    second: ShusRobot_38
+  - first:
+      213: -4108633493670846654
+    second: ShusRobot_39
+  - first:
+      213: 3147753855752960103
+    second: ShusRobot_40
+  - first:
+      213: 1913737040194514248
+    second: ShusRobot_41
+  - first:
+      213: 1664508648872155917
+    second: ShusRobot_42
+  - first:
+      213: 5869599504947996832
+    second: ShusRobot_43
+  - first:
+      213: -3653225260480574142
+    second: ShusRobot_44
+  - first:
+      213: -9057784387565093322
+    second: ShusRobot_45
+  - first:
+      213: 1320891262653780719
+    second: ShusRobot_46
+  - first:
+      213: 5203794610226652049
+    second: ShusRobot_47
+  - first:
+      213: -7290822950845011604
+    second: ShusRobot_48
+  - first:
+      213: -1878641236870110114
+    second: ShusRobot_49
+  - first:
+      213: -3027153726677664939
+    second: ShusRobot_50
+  - first:
+      213: -1328174235646499910
+    second: ShusRobot_51
+  - first:
+      213: -2153183947126101133
+    second: ShusRobot_52
+  - first:
+      213: 6448664749735649681
+    second: ShusRobot_53
+  - first:
+      213: 5119385917660638887
+    second: ShusRobot_54
+  - first:
+      213: 4955201472393057182
+    second: ShusRobot_55
+  - first:
+      213: -5654622018434956639
+    second: ShusRobot_56
+  - first:
+      213: -5154463295315857953
+    second: ShusRobot_57
+  - first:
+      213: -624819596008582101
+    second: ShusRobot_58
+  - first:
+      213: -1217575916836316431
+    second: ShusRobot_59
+  - first:
+      213: 971734514644504631
+    second: ShusRobot_60
+  - first:
+      213: 3258866549078570365
+    second: ShusRobot_61
+  - first:
+      213: 8936788877521069476
+    second: ShusRobot_62
+  - first:
+      213: -1691343343339123189
+    second: ShusRobot_63
+  - first:
+      213: 7021818894072290523
+    second: ShusRobot_64
+  - first:
+      213: -212373734182056021
+    second: ShusRobot_65
+  - first:
+      213: -6351458264762257373
+    second: ShusRobot_66
+  - first:
+      213: -4354227954670179151
+    second: ShusRobot_67
+  - first:
+      213: 2772544691715617667
+    second: ShusRobot_68
+  - first:
+      213: 884339275978847416
+    second: ShusRobot_69
+  - first:
+      213: 8737621241148770921
+    second: ShusRobot_70
+  - first:
+      213: -3057953949102955264
+    second: ShusRobot_71
+  - first:
+      213: -8423641046294209870
+    second: ShusRobot_72
+  - first:
+      213: -4437759176918057076
+    second: ShusRobot_73
+  - first:
+      213: 6993728754442791871
+    second: ShusRobot_74
+  - first:
+      213: -751368353075040364
+    second: ShusRobot_75
+  - first:
+      213: -1608829611640570752
+    second: ShusRobot_76
+  - first:
+      213: -1734634321008588174
+    second: ShusRobot_77
+  - first:
+      213: 3785405742996130878
+    second: ShusRobot_78
+  - first:
+      213: 2021295363264809724
+    second: ShusRobot_79
+  - first:
+      213: 6972391810985520167
+    second: ShusRobot_80
+  - first:
+      213: -7973278999052727437
+    second: ShusRobot_81
+  - first:
+      213: -4509697434418706349
+    second: ShusRobot_82
+  - first:
+      213: 785625795807609724
+    second: ShusRobot_83
+  - first:
+      213: 5001739218993610619
+    second: ShusRobot_84
+  - first:
+      213: 3567691154164629694
+    second: ShusRobot_85
+  - first:
+      213: -2024250745062536152
+    second: ShusRobot_86
+  - first:
+      213: 8423335263079709512
+    second: ShusRobot_87
+  - first:
+      213: -6995497375366987369
+    second: ShusRobot_88
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShusRobot_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 641
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031f5384e8392db00800000000000000
+      internalID: 851905518832578864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 641
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316f143a5cfb18740800000000000000
+      internalID: 5152610304257029651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 641
+        width: 65
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d95e94fc3913b30800000000000000
+      internalID: 4265352840603868551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 641
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286f3ee8dcf0ab5c0800000000000000
+      internalID: -4199026327029549438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 641
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3938a41f558ff19e0800000000000000
+      internalID: -1648325890590211181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 641
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d6b71f795ce0560800000000000000
+      internalID: 7281974903886802204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_6
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 641
+        width: 65
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6dc2d18e353ac50800000000000000
+      internalID: 6675271329080202994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_7
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 641
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a756051b6abd970800000000000000
+      internalID: 8780795178977163871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_8
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 641
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24426600d34dca790800000000000000
+      internalID: -7517400319523412926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_9
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 641
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56d17ed9fc264eb0800000000000000
+      internalID: -4736048506443016610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 539
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65ebaa404f7b9740800000000000000
+      internalID: 5159857712190449004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 539
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15078f0f798a6ee0800000000000000
+      internalID: -1267049166337014501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 539
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796c08af5e9d93e60800000000000000
+      internalID: 7942618999618061975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_13
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 540
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde846a2066141610800000000000000
+      internalID: 1590921170652532447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 540
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4013871294f26c0800000000000000
+      internalID: -4166030722195192577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_15
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 540
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9123b91dea4b9b0800000000000000
+      internalID: -5065231465609815644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_16
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 540
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1145c7eaf0faa700800000000000000
+      internalID: 552518864727261471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 540
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efe1addacbb63f60800000000000000
+      internalID: 8013799066928541668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 436
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc901c89b80d10b0800000000000000
+      internalID: -5756435155697754895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 436
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7989f8a1126c9b7d0800000000000000
+      internalID: -2902070639381735273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_20
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 436
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8268e005417ae8050800000000000000
+      internalID: 5804760675411461672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_21
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 436
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708d988bfa7dd0570800000000000000
+      internalID: 8434634826850097159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_22
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 436
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad63b56dc78df6420800000000000000
+      internalID: 2625555138464134874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_23
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 436
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b260aeb7bb5b4d70800000000000000
+      internalID: 9028410722729616053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_24
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 436
+        width: 65
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a622d35f151a13fd0800000000000000
+      internalID: -2363930956013952406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_25
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 436
+        width: 65
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b0c2e045f83f600800000000000000
+      internalID: 500901574746049281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_26
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 436
+        width: 65
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d764824cecbd0a0800000000000000
+      internalID: -6855658665856828094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_27
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 436
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c952d5535ef091740800000000000000
+      internalID: 5123143528227874204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_28
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 437
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f0f84207eb71370800000000000000
+      internalID: 8293306627685027655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_29
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 437
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d229ee0f8630f140800000000000000
+      internalID: 4751357594934256338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_30
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 437
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1404ef6baafde1d0800000000000000
+      internalID: -3319721736078621666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 331
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215601fd1ad7a8f30800000000000000
+      internalID: 4578610105361130770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 331
+        width: 78
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bd8c3511e18fe80800000000000000
+      internalID: -8144726866330592495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_33
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 331
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fd2bc48286e44c0800000000000000
+      internalID: -4301386071797473445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_34
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 331
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4b4cebdcb9ba3c0800000000000000
+      internalID: -4347209707324918564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_35
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 397
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff13b0b8029d46d30800000000000000
+      internalID: 4423899467779617279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_36
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 394
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a02c147b61e7dc0800000000000000
+      internalID: -3639446472530720235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_37
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 393
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e6c66ffb96166b0800000000000000
+      internalID: -5304842612871762290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_38
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 414
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74393e0ef8cb61960800000000000000
+      internalID: 7572447149609423687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_39
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 394
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f1a712b933bf6c0800000000000000
+      internalID: -4108633493670846654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 331
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768758c44711fab20800000000000000
+      internalID: 3147753855752960103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_41
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 331
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d2d4ad2b5fe8a10800000000000000
+      internalID: 1913737040194514248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_42
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 331
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b17951cc5891710800000000000000
+      internalID: 1664508648872155917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_43
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 331
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8eb3ab6a1057150800000000000000
+      internalID: 5869599504947996832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_44
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 331
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d42903bf22d4dc0800000000000000
+      internalID: -3653225260480574142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_45
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 367
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e7a17f6194c4280800000000000000
+      internalID: -9057784387565093322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_46
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 364
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe25561ea9fb45210800000000000000
+      internalID: 1320891262653780719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_47
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 364
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193e6aa80a7973840800000000000000
+      internalID: 5203794610226652049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_48
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 364
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c692e96972bc1da90800000000000000
+      internalID: -7290822950845011604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_49
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 337
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54e4ff9fb9bde5e0800000000000000
+      internalID: -1878641236870110114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_50
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 330
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bb0e069b36df5d0800000000000000
+      internalID: -3027153726677664939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_51
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3e674d190619de0800000000000000
+      internalID: -1328174235646499910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_52
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 329
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ba97fab9a5e12e0800000000000000
+      internalID: -2153183947126101133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_53
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 225
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191a3936c624e7950800000000000000
+      internalID: 6448664749735649681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_54
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 225
+        width: 78
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aeac425e56bb0740800000000000000
+      internalID: 5119385917660638887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_55
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 225
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e931b704c7964c440800000000000000
+      internalID: 4955201472393057182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 225
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a20514db3fb681b0800000000000000
+      internalID: -5654622018434956639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_57
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 225
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdda8e241faa778b0800000000000000
+      internalID: -5154463295315857953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_58
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 225
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24943b43e13457f0800000000000000
+      internalID: -624819596008582101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_59
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 225
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa96e5972d4a1fe0800000000000000
+      internalID: -1217575916836316431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_60
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 225
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7305f51846b4c7d00800000000000000
+      internalID: 971734514644504631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_61
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 225
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d753b343cd1d93d20800000000000000
+      internalID: 3258866549078570365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_62
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 225
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a52e4d822ad50c70800000000000000
+      internalID: 8936788877521069476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_63
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 225
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ecc0bb0342788e0800000000000000
+      internalID: -1691343343339123189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_64
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 225
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc1e4ab413827160800000000000000
+      internalID: 7021818894072290523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_65
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 119
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf8476c63f7d0df0800000000000000
+      internalID: -212373734182056021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_66
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 119
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32070231c561bd7a0800000000000000
+      internalID: -6351458264762257373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_67
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 119
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bceec2bebca293c0800000000000000
+      internalID: -4354227954670179151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_68
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 119
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383ba9125be0a7620800000000000000
+      internalID: 2772544691715617667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_69
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 206
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b435a5d2edc54c00800000000000000
+      internalID: 884339275978847416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_70
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 119
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a84949934424970800000000000000
+      internalID: 8737621241148770921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_71
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 119
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0052734c517ff85d0800000000000000
+      internalID: -3057953949102955264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_72
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 119
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2badb384917391b80800000000000000
+      internalID: -8423641046294209870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_73
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 151
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fb1157a89e962c0800000000000000
+      internalID: -4437759176918057076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_74
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 141
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb6fff6f37be0160800000000000000
+      internalID: 6993728754442791871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_75
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 135
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fed7bb67a9295f0800000000000000
+      internalID: -751368353075040364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_76
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 135
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cb80efdf94ca9e0800000000000000
+      internalID: -1608829611640570752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_77
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 138
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a051986475de7e0800000000000000
+      internalID: -1734634321008588174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_78
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 144
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c0202a776788430800000000000000
+      internalID: 3785405742996130878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_79
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 148
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa0b817c651d0c10800000000000000
+      internalID: 2021295363264809724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_80
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 119
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c62a82969e2c060800000000000000
+      internalID: 6972391810985520167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_81
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 102
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b416e9ef8395190800000000000000
+      internalID: -7973278999052727437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_82
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 102
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3588bf8a3165a61c0800000000000000
+      internalID: -4509697434418706349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_83
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 102
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c730f75bf7a17ea00800000000000000
+      internalID: 785625795807609724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_84
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 102
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ff04fb15fb96540800000000000000
+      internalID: 5001739218993610619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_85
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 102
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb04948c33cf28130800000000000000
+      internalID: 3567691154164629694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_86
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 102
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c4a3c1caa68e3e0800000000000000
+      internalID: -2024250745062536152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_87
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b33e30bc2b5e470800000000000000
+      internalID: 8423335263079709512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShusRobot_88
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 30
+        width: 329
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791c21a63300bee90800000000000000
+      internalID: -6995497375366987369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ShusRobot_0: 851905518832578864
+      ShusRobot_1: 5152610304257029651
+      ShusRobot_10: 5159857712190449004
+      ShusRobot_11: -1267049166337014501
+      ShusRobot_12: 7942618999618061975
+      ShusRobot_13: 1590921170652532447
+      ShusRobot_14: -4166030722195192577
+      ShusRobot_15: -5065231465609815644
+      ShusRobot_16: 552518864727261471
+      ShusRobot_17: 8013799066928541668
+      ShusRobot_18: -5756435155697754895
+      ShusRobot_19: -2902070639381735273
+      ShusRobot_2: 4265352840603868551
+      ShusRobot_20: 5804760675411461672
+      ShusRobot_21: 8434634826850097159
+      ShusRobot_22: 2625555138464134874
+      ShusRobot_23: 9028410722729616053
+      ShusRobot_24: -2363930956013952406
+      ShusRobot_25: 500901574746049281
+      ShusRobot_26: -6855658665856828094
+      ShusRobot_27: 5123143528227874204
+      ShusRobot_28: 8293306627685027655
+      ShusRobot_29: 4751357594934256338
+      ShusRobot_3: -4199026327029549438
+      ShusRobot_30: -3319721736078621666
+      ShusRobot_31: 4578610105361130770
+      ShusRobot_32: -8144726866330592495
+      ShusRobot_33: -4301386071797473445
+      ShusRobot_34: -4347209707324918564
+      ShusRobot_35: 4423899467779617279
+      ShusRobot_36: -3639446472530720235
+      ShusRobot_37: -5304842612871762290
+      ShusRobot_38: 7572447149609423687
+      ShusRobot_39: -4108633493670846654
+      ShusRobot_4: -1648325890590211181
+      ShusRobot_40: 3147753855752960103
+      ShusRobot_41: 1913737040194514248
+      ShusRobot_42: 1664508648872155917
+      ShusRobot_43: 5869599504947996832
+      ShusRobot_44: -3653225260480574142
+      ShusRobot_45: -9057784387565093322
+      ShusRobot_46: 1320891262653780719
+      ShusRobot_47: 5203794610226652049
+      ShusRobot_48: -7290822950845011604
+      ShusRobot_49: -1878641236870110114
+      ShusRobot_5: 7281974903886802204
+      ShusRobot_50: -3027153726677664939
+      ShusRobot_51: -1328174235646499910
+      ShusRobot_52: -2153183947126101133
+      ShusRobot_53: 6448664749735649681
+      ShusRobot_54: 5119385917660638887
+      ShusRobot_55: 4955201472393057182
+      ShusRobot_56: -5654622018434956639
+      ShusRobot_57: -5154463295315857953
+      ShusRobot_58: -624819596008582101
+      ShusRobot_59: -1217575916836316431
+      ShusRobot_6: 6675271329080202994
+      ShusRobot_60: 971734514644504631
+      ShusRobot_61: 3258866549078570365
+      ShusRobot_62: 8936788877521069476
+      ShusRobot_63: -1691343343339123189
+      ShusRobot_64: 7021818894072290523
+      ShusRobot_65: -212373734182056021
+      ShusRobot_66: -6351458264762257373
+      ShusRobot_67: -4354227954670179151
+      ShusRobot_68: 2772544691715617667
+      ShusRobot_69: 884339275978847416
+      ShusRobot_7: 8780795178977163871
+      ShusRobot_70: 8737621241148770921
+      ShusRobot_71: -3057953949102955264
+      ShusRobot_72: -8423641046294209870
+      ShusRobot_73: -4437759176918057076
+      ShusRobot_74: 6993728754442791871
+      ShusRobot_75: -751368353075040364
+      ShusRobot_76: -1608829611640570752
+      ShusRobot_77: -1734634321008588174
+      ShusRobot_78: 3785405742996130878
+      ShusRobot_79: 2021295363264809724
+      ShusRobot_8: -7517400319523412926
+      ShusRobot_80: 6972391810985520167
+      ShusRobot_81: -7973278999052727437
+      ShusRobot_82: -4509697434418706349
+      ShusRobot_83: 785625795807609724
+      ShusRobot_84: 5001739218993610619
+      ShusRobot_85: 3567691154164629694
+      ShusRobot_86: -2024250745062536152
+      ShusRobot_87: 8423335263079709512
+      ShusRobot_88: -6995497375366987369
+      ShusRobot_9: -4736048506443016610
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

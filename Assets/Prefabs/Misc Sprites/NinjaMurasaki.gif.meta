@@ -1,0 +1,2587 @@
+fileFormatVersion: 2
+guid: cdc02f48e59fc3f4bbc9f2b03d256840
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6802100917497779696
+    second: NinjaMurasaki_0
+  - first:
+      213: -5136115622010325007
+    second: NinjaMurasaki_1
+  - first:
+      213: 2984880767205615509
+    second: NinjaMurasaki_2
+  - first:
+      213: 3246141710004625665
+    second: NinjaMurasaki_3
+  - first:
+      213: -1576469509554079226
+    second: NinjaMurasaki_4
+  - first:
+      213: 2995780007912868322
+    second: NinjaMurasaki_5
+  - first:
+      213: -7324040431108526910
+    second: NinjaMurasaki_6
+  - first:
+      213: 3335625154041938070
+    second: NinjaMurasaki_7
+  - first:
+      213: 4015917084253494550
+    second: NinjaMurasaki_8
+  - first:
+      213: 1995996631248142704
+    second: NinjaMurasaki_9
+  - first:
+      213: -7627154930829592750
+    second: NinjaMurasaki_10
+  - first:
+      213: 9217231860327791092
+    second: NinjaMurasaki_11
+  - first:
+      213: -7470369710269529450
+    second: NinjaMurasaki_12
+  - first:
+      213: 6702635688114193666
+    second: NinjaMurasaki_13
+  - first:
+      213: -4969920902809517442
+    second: NinjaMurasaki_14
+  - first:
+      213: -3346666219177485238
+    second: NinjaMurasaki_15
+  - first:
+      213: 473980692355901237
+    second: NinjaMurasaki_16
+  - first:
+      213: 2365827350416487089
+    second: NinjaMurasaki_17
+  - first:
+      213: -1698512210960661474
+    second: NinjaMurasaki_18
+  - first:
+      213: -3967705113848135218
+    second: NinjaMurasaki_19
+  - first:
+      213: -8974324821190345673
+    second: NinjaMurasaki_20
+  - first:
+      213: -2527414781084584687
+    second: NinjaMurasaki_21
+  - first:
+      213: -3805788306857155230
+    second: NinjaMurasaki_22
+  - first:
+      213: 438896019895281889
+    second: NinjaMurasaki_23
+  - first:
+      213: 4494288741451298741
+    second: NinjaMurasaki_24
+  - first:
+      213: -2502252606053546931
+    second: NinjaMurasaki_25
+  - first:
+      213: 3718890342790465582
+    second: NinjaMurasaki_26
+  - first:
+      213: 8190959927446349723
+    second: NinjaMurasaki_27
+  - first:
+      213: 4092873662495214670
+    second: NinjaMurasaki_28
+  - first:
+      213: -3093097250911799623
+    second: NinjaMurasaki_29
+  - first:
+      213: 7293142953206978724
+    second: NinjaMurasaki_30
+  - first:
+      213: -8852078833557465143
+    second: NinjaMurasaki_31
+  - first:
+      213: 4437655388739850556
+    second: NinjaMurasaki_32
+  - first:
+      213: 9049578569554754895
+    second: NinjaMurasaki_33
+  - first:
+      213: -6035577729839698475
+    second: NinjaMurasaki_34
+  - first:
+      213: 6272161446789407417
+    second: NinjaMurasaki_35
+  - first:
+      213: 4236381408107503847
+    second: NinjaMurasaki_36
+  - first:
+      213: 5152154400126189899
+    second: NinjaMurasaki_37
+  - first:
+      213: 4144301500685640152
+    second: NinjaMurasaki_38
+  - first:
+      213: -2491524430411227250
+    second: NinjaMurasaki_39
+  - first:
+      213: 1495842925516548419
+    second: NinjaMurasaki_40
+  - first:
+      213: -9173605059894072915
+    second: NinjaMurasaki_41
+  - first:
+      213: 7273807521073858553
+    second: NinjaMurasaki_42
+  - first:
+      213: -1893448192549952789
+    second: NinjaMurasaki_43
+  - first:
+      213: -6546952444963015783
+    second: NinjaMurasaki_44
+  - first:
+      213: -1542945007676587303
+    second: NinjaMurasaki_45
+  - first:
+      213: 272721411270187650
+    second: NinjaMurasaki_46
+  - first:
+      213: 5927707137509555430
+    second: NinjaMurasaki_47
+  - first:
+      213: 1555373689461753478
+    second: NinjaMurasaki_48
+  - first:
+      213: 6262245829686594050
+    second: NinjaMurasaki_49
+  - first:
+      213: 9053053684859107491
+    second: NinjaMurasaki_50
+  - first:
+      213: -6823003818647570330
+    second: NinjaMurasaki_51
+  - first:
+      213: -9058382742292409124
+    second: NinjaMurasaki_52
+  - first:
+      213: -2609988404633491612
+    second: NinjaMurasaki_53
+  - first:
+      213: 4337169085429507723
+    second: NinjaMurasaki_54
+  - first:
+      213: 4843262350742702172
+    second: NinjaMurasaki_55
+  - first:
+      213: 2831649410807792526
+    second: NinjaMurasaki_56
+  - first:
+      213: -7382724920555820981
+    second: NinjaMurasaki_57
+  - first:
+      213: -934488466054882652
+    second: NinjaMurasaki_58
+  - first:
+      213: 641609755978253379
+    second: NinjaMurasaki_59
+  - first:
+      213: -3986260416133357157
+    second: NinjaMurasaki_60
+  - first:
+      213: -6590857690226314401
+    second: NinjaMurasaki_61
+  - first:
+      213: 338917040646164567
+    second: NinjaMurasaki_62
+  - first:
+      213: 5775430801265446536
+    second: NinjaMurasaki_63
+  - first:
+      213: -4522954844073884544
+    second: NinjaMurasaki_64
+  - first:
+      213: -2931795517104470781
+    second: NinjaMurasaki_65
+  - first:
+      213: -307699305651677539
+    second: NinjaMurasaki_66
+  - first:
+      213: 2426378912259985504
+    second: NinjaMurasaki_67
+  - first:
+      213: -1482485589662226664
+    second: NinjaMurasaki_68
+  - first:
+      213: 1428021164368717258
+    second: NinjaMurasaki_69
+  - first:
+      213: -2347497681763275726
+    second: NinjaMurasaki_70
+  - first:
+      213: -5913653119028604449
+    second: NinjaMurasaki_71
+  - first:
+      213: 5230318632566930616
+    second: NinjaMurasaki_72
+  - first:
+      213: -598501569826125055
+    second: NinjaMurasaki_73
+  - first:
+      213: -7633598771258781748
+    second: NinjaMurasaki_74
+  - first:
+      213: -1604221114377343074
+    second: NinjaMurasaki_75
+  - first:
+      213: -9119885162214498808
+    second: NinjaMurasaki_76
+  - first:
+      213: -3650480784763178681
+    second: NinjaMurasaki_77
+  - first:
+      213: -8874512346293417061
+    second: NinjaMurasaki_78
+  - first:
+      213: -4811424989598053675
+    second: NinjaMurasaki_79
+  - first:
+      213: 6377069664393861023
+    second: NinjaMurasaki_80
+  - first:
+      213: -5122705756625588562
+    second: NinjaMurasaki_81
+  - first:
+      213: 2683375301579012269
+    second: NinjaMurasaki_82
+  - first:
+      213: -7497963931359244505
+    second: NinjaMurasaki_83
+  - first:
+      213: 4058696963744920581
+    second: NinjaMurasaki_84
+  - first:
+      213: -8877955091754588173
+    second: NinjaMurasaki_85
+  - first:
+      213: -6345570980644728275
+    second: NinjaMurasaki_86
+  - first:
+      213: -4082957059225347995
+    second: NinjaMurasaki_87
+  - first:
+      213: -7508899446139916306
+    second: NinjaMurasaki_88
+  - first:
+      213: -3296274175837043514
+    second: NinjaMurasaki_89
+  - first:
+      213: -6975559612973391723
+    second: NinjaMurasaki_90
+  - first:
+      213: 7483528997427047593
+    second: NinjaMurasaki_91
+  - first:
+      213: -1319923262687981371
+    second: NinjaMurasaki_92
+  - first:
+      213: -3321650213245885572
+    second: NinjaMurasaki_93
+  - first:
+      213: 8583919707405285312
+    second: NinjaMurasaki_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NinjaMurasaki_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 734
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f550d1debae56e50800000000000000
+      internalID: 6802100917497779696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 734
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f77db8dd0ad8b8b0800000000000000
+      internalID: -5136115622010325007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 734
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597af224e3d6c6920800000000000000
+      internalID: 2984880767205615509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 736
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101a76bbfac9c0d20800000000000000
+      internalID: 3246141710004625665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 736
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a7bc365514f1ae0800000000000000
+      internalID: -1576469509554079226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 734
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e90ddc7b06239920800000000000000
+      internalID: 2995780007912868322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_6
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 734
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc6d274808cb5a90800000000000000
+      internalID: -7324040431108526910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_7
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 734
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690078a97658a4e20800000000000000
+      internalID: 3335625154041938070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_8
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 734
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d1a569f476bb730800000000000000
+      internalID: 4015917084253494550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 655
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0710c626c5433bb10800000000000000
+      internalID: 1995996631248142704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 655
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25778053007e62690800000000000000
+      internalID: -7627154930829592750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 679
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9304fba8f2aef70800000000000000
+      internalID: 9217231860327791092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 655
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6920c86045ae35890800000000000000
+      internalID: -7470369710269529450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 654
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20507e075ab840d50800000000000000
+      internalID: 6702635688114193666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 654
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72004a454b470bb0800000000000000
+      internalID: -4969920902809517442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_15
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 654
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c50281ec04e81d0800000000000000
+      internalID: -3346666219177485238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_16
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 652
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537644eadeae39600800000000000000
+      internalID: 473980692355901237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 588
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b27a75c07b15d020800000000000000
+      internalID: 2365827350416487089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 588
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14c60ba42cad68e0800000000000000
+      internalID: -1698512210960661474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_19
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 588
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1c4938831efe8c0800000000000000
+      internalID: -3967705113848135218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_20
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 588
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c7af58f1bc47380800000000000000
+      internalID: -8974324821190345673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_21
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 588
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115b16db5a1dcecd0800000000000000
+      internalID: -2527414781084584687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 588
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265a177e2bf1f2bc0800000000000000
+      internalID: -3805788306857155230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_23
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 588
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8e03fca95471600800000000000000
+      internalID: 438896019895281889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 527
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7fd307ccbee5e30800000000000000
+      internalID: 4494288741451298741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 527
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4402e52386364dd0800000000000000
+      internalID: -2502252606053546931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_26
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 527
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2808a030172c9330800000000000000
+      internalID: 3718890342790465582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 527
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9726ec08a22ca170800000000000000
+      internalID: 8190959927446349723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_28
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 541
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c449b39eeccc830800000000000000
+      internalID: 4092873662495214670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_29
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 542
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b63aaf207c1315d0800000000000000
+      internalID: -3093097250911799623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_30
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 542
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a89b0e00e2763560800000000000000
+      internalID: 7293142953206978724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_31
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 545
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c79d028339172580800000000000000
+      internalID: -8852078833557465143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_32
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 542
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31df697018b59d30800000000000000
+      internalID: 4437655388739850556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_33
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 457
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d7c4523cf869d70800000000000000
+      internalID: 9049578569554754895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_34
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 457
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd65a658025d3ca0800000000000000
+      internalID: -6035577729839698475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_35
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 484
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b268c1ca913b0750800000000000000
+      internalID: 6272161446789407417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_36
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 477
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e021530276aaca30800000000000000
+      internalID: 4236381408107503847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_37
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 457
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41cc7f2121208740800000000000000
+      internalID: 5152154400126189899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_38
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 467
+        width: 244
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d16c76e144838930800000000000000
+      internalID: 4144301500685640152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_39
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 391
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f91203bb35c6dd0800000000000000
+      internalID: -2491524430411227250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 391
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349e137273d42c410800000000000000
+      internalID: 1495842925516548419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 391
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9a9474dcec0b080800000000000000
+      internalID: -9173605059894072915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_42
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 391
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f70c22f661c1f460800000000000000
+      internalID: 7273807521073858553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_43
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 391
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2647a96ee19b5e0800000000000000
+      internalID: -1893448192549952789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_44
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 391
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993ba94407d8425a0800000000000000
+      internalID: -6546952444963015783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_45
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 391
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2897db0bb569ae0800000000000000
+      internalID: -1542945007676587303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_46
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 391
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a1769bda6e8c300800000000000000
+      internalID: 272721411270187650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 391
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecfdc73c32734250800000000000000
+      internalID: 5927707137509555430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_48
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 391
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6864b5d312cc59510800000000000000
+      internalID: 1555373689461753478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_49
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 324
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a04ae3767f7e650800000000000000
+      internalID: 6262245829686594050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_50
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 324
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8719a7c58e2ad70800000000000000
+      internalID: 9053053684859107491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_51
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 324
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668b0604d22df41a0800000000000000
+      internalID: -6823003818647570330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 324
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4d126a3e82a4280800000000000000
+      internalID: -9058382742292409124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_53
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 324
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467aee1df5577cbd0800000000000000
+      internalID: -2609988404633491612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_54
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 324
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86e4dbcd48b03c30800000000000000
+      internalID: 4337169085429507723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_55
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 324
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58ca028279b63340800000000000000
+      internalID: 4843262350742702172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_56
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 324
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8384abe22a0c4720800000000000000
+      internalID: 2831649410807792526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_57
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 324
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48a8d3dcca4b8990800000000000000
+      internalID: -7382724920555820981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_58
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 264
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa5916f0b70803f0800000000000000
+      internalID: -934488466054882652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 264
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34442857ca477e800800000000000000
+      internalID: 641609755978253379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_60
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 264
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91ab2a8545fda8c0800000000000000
+      internalID: -3986260416133357157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_61
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 264
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53b8e0c9d19884a0800000000000000
+      internalID: -6590857690226314401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_62
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 264
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7509a08b04314b400800000000000000
+      internalID: 338917040646164567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_63
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 277
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ec646d6b3762050800000000000000
+      internalID: 5775430801265446536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_64
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 277
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08408df688c3b31c0800000000000000
+      internalID: -4522954844073884544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_65
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 277
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305c7e0b28b2057d0800000000000000
+      internalID: -2931795517104470781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_66
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 277
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d965ffc9c15dabbf0800000000000000
+      internalID: -307699305651677539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_67
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 277
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06051c3e3ca3ca120800000000000000
+      internalID: 2426378912259985504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_68
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 276
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8172c83f5372d6be0800000000000000
+      internalID: -1482485589662226664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_69
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 201
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5efe9dea951d310800000000000000
+      internalID: 1428021164368717258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_70
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 201
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c6277cb430c6fd0800000000000000
+      internalID: -2347497681763275726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_71
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 201
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd15b63f1db7eeda0800000000000000
+      internalID: -5913653119028604449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_72
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 201
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc324cb513d59840800000000000000
+      internalID: 5230318632566930616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_73
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 201
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b00054ef1b1b7f0800000000000000
+      internalID: -598501569826125055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_74
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 201
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf0341bc52001690800000000000000
+      internalID: -7633598771258781748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_75
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 139
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f6b506569acb9e0800000000000000
+      internalID: -1604221114377343074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_76
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 139
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e59d1a3c8af6180800000000000000
+      internalID: -9119885162214498808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_77
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 139
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7413dcc3113e65dc0800000000000000
+      internalID: -3650480784763178681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_78
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 139
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bcc5c4a0667d480800000000000000
+      internalID: -8874512346293417061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_79
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 69
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da0297c6726a3db0800000000000000
+      internalID: -4811424989598053675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_80
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 69
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f979d169217ef7850800000000000000
+      internalID: 6377069664393861023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_81
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 72
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaeab7f614e78e8b0800000000000000
+      internalID: -5122705756625588562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_82
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 72
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da87ca1ae934d3520800000000000000
+      internalID: 2683375301579012269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_83
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 72
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f04a4c781e1f790800000000000000
+      internalID: -7497963931359244505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_84
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 72
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504f8f67263635830800000000000000
+      internalID: 4058696963744920581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_85
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 72
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7e818a1ea2bc480800000000000000
+      internalID: -8877955091754588173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_86
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 72
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22d4a930d000f7a0800000000000000
+      internalID: -6345570980644728275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_87
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 59
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56813b3ef2c6657c0800000000000000
+      internalID: -4082957059225347995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_88
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 5
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefe3b2dcb70bc790800000000000000
+      internalID: -7508899446139916306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_89
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 5
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c480faf9184142d0800000000000000
+      internalID: -3296274175837043514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_90
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 5
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590e8277d75d13f90800000000000000
+      internalID: -6975559612973391723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_91
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 5
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac69f549f5dad760800000000000000
+      internalID: 7483528997427047593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_92
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 24
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c055bc29c0beade0800000000000000
+      internalID: -1319923262687981371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_93
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 6
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73e06bdab027e1d0800000000000000
+      internalID: -3321650213245885572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaMurasaki_94
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 5
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7fd5c8e75302770800000000000000
+      internalID: 8583919707405285312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NinjaMurasaki_0: 6802100917497779696
+      NinjaMurasaki_1: -5136115622010325007
+      NinjaMurasaki_10: -7627154930829592750
+      NinjaMurasaki_11: 9217231860327791092
+      NinjaMurasaki_12: -7470369710269529450
+      NinjaMurasaki_13: 6702635688114193666
+      NinjaMurasaki_14: -4969920902809517442
+      NinjaMurasaki_15: -3346666219177485238
+      NinjaMurasaki_16: 473980692355901237
+      NinjaMurasaki_17: 2365827350416487089
+      NinjaMurasaki_18: -1698512210960661474
+      NinjaMurasaki_19: -3967705113848135218
+      NinjaMurasaki_2: 2984880767205615509
+      NinjaMurasaki_20: -8974324821190345673
+      NinjaMurasaki_21: -2527414781084584687
+      NinjaMurasaki_22: -3805788306857155230
+      NinjaMurasaki_23: 438896019895281889
+      NinjaMurasaki_24: 4494288741451298741
+      NinjaMurasaki_25: -2502252606053546931
+      NinjaMurasaki_26: 3718890342790465582
+      NinjaMurasaki_27: 8190959927446349723
+      NinjaMurasaki_28: 4092873662495214670
+      NinjaMurasaki_29: -3093097250911799623
+      NinjaMurasaki_3: 3246141710004625665
+      NinjaMurasaki_30: 7293142953206978724
+      NinjaMurasaki_31: -8852078833557465143
+      NinjaMurasaki_32: 4437655388739850556
+      NinjaMurasaki_33: 9049578569554754895
+      NinjaMurasaki_34: -6035577729839698475
+      NinjaMurasaki_35: 6272161446789407417
+      NinjaMurasaki_36: 4236381408107503847
+      NinjaMurasaki_37: 5152154400126189899
+      NinjaMurasaki_38: 4144301500685640152
+      NinjaMurasaki_39: -2491524430411227250
+      NinjaMurasaki_4: -1576469509554079226
+      NinjaMurasaki_40: 1495842925516548419
+      NinjaMurasaki_41: -9173605059894072915
+      NinjaMurasaki_42: 7273807521073858553
+      NinjaMurasaki_43: -1893448192549952789
+      NinjaMurasaki_44: -6546952444963015783
+      NinjaMurasaki_45: -1542945007676587303
+      NinjaMurasaki_46: 272721411270187650
+      NinjaMurasaki_47: 5927707137509555430
+      NinjaMurasaki_48: 1555373689461753478
+      NinjaMurasaki_49: 6262245829686594050
+      NinjaMurasaki_5: 2995780007912868322
+      NinjaMurasaki_50: 9053053684859107491
+      NinjaMurasaki_51: -6823003818647570330
+      NinjaMurasaki_52: -9058382742292409124
+      NinjaMurasaki_53: -2609988404633491612
+      NinjaMurasaki_54: 4337169085429507723
+      NinjaMurasaki_55: 4843262350742702172
+      NinjaMurasaki_56: 2831649410807792526
+      NinjaMurasaki_57: -7382724920555820981
+      NinjaMurasaki_58: -934488466054882652
+      NinjaMurasaki_59: 641609755978253379
+      NinjaMurasaki_6: -7324040431108526910
+      NinjaMurasaki_60: -3986260416133357157
+      NinjaMurasaki_61: -6590857690226314401
+      NinjaMurasaki_62: 338917040646164567
+      NinjaMurasaki_63: 5775430801265446536
+      NinjaMurasaki_64: -4522954844073884544
+      NinjaMurasaki_65: -2931795517104470781
+      NinjaMurasaki_66: -307699305651677539
+      NinjaMurasaki_67: 2426378912259985504
+      NinjaMurasaki_68: -1482485589662226664
+      NinjaMurasaki_69: 1428021164368717258
+      NinjaMurasaki_7: 3335625154041938070
+      NinjaMurasaki_70: -2347497681763275726
+      NinjaMurasaki_71: -5913653119028604449
+      NinjaMurasaki_72: 5230318632566930616
+      NinjaMurasaki_73: -598501569826125055
+      NinjaMurasaki_74: -7633598771258781748
+      NinjaMurasaki_75: -1604221114377343074
+      NinjaMurasaki_76: -9119885162214498808
+      NinjaMurasaki_77: -3650480784763178681
+      NinjaMurasaki_78: -8874512346293417061
+      NinjaMurasaki_79: -4811424989598053675
+      NinjaMurasaki_8: 4015917084253494550
+      NinjaMurasaki_80: 6377069664393861023
+      NinjaMurasaki_81: -5122705756625588562
+      NinjaMurasaki_82: 2683375301579012269
+      NinjaMurasaki_83: -7497963931359244505
+      NinjaMurasaki_84: 4058696963744920581
+      NinjaMurasaki_85: -8877955091754588173
+      NinjaMurasaki_86: -6345570980644728275
+      NinjaMurasaki_87: -4082957059225347995
+      NinjaMurasaki_88: -7508899446139916306
+      NinjaMurasaki_89: -3296274175837043514
+      NinjaMurasaki_9: 1995996631248142704
+      NinjaMurasaki_90: -6975559612973391723
+      NinjaMurasaki_91: 7483528997427047593
+      NinjaMurasaki_92: -1319923262687981371
+      NinjaMurasaki_93: -3321650213245885572
+      NinjaMurasaki_94: 8583919707405285312
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

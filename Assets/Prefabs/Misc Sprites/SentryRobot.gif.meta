@@ -1,0 +1,2457 @@
+fileFormatVersion: 2
+guid: 29e6410557f4789499f7b07e3ca38402
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1109051178905940512
+    second: SentryRobot_0
+  - first:
+      213: -5386000182888658806
+    second: SentryRobot_1
+  - first:
+      213: 2021603315406046516
+    second: SentryRobot_2
+  - first:
+      213: 4525573442053989127
+    second: SentryRobot_3
+  - first:
+      213: -4520815954206915386
+    second: SentryRobot_4
+  - first:
+      213: -2144022460574120336
+    second: SentryRobot_5
+  - first:
+      213: -2532227859703237163
+    second: SentryRobot_6
+  - first:
+      213: 2512989370552672289
+    second: SentryRobot_7
+  - first:
+      213: -4306573035528314318
+    second: SentryRobot_8
+  - first:
+      213: -7638069319373450075
+    second: SentryRobot_9
+  - first:
+      213: -7120490044393201254
+    second: SentryRobot_10
+  - first:
+      213: 5776384242353445119
+    second: SentryRobot_11
+  - first:
+      213: 4068916870000423332
+    second: SentryRobot_12
+  - first:
+      213: 6465308678814441757
+    second: SentryRobot_13
+  - first:
+      213: 1121666638896113330
+    second: SentryRobot_14
+  - first:
+      213: -4117681107528229988
+    second: SentryRobot_15
+  - first:
+      213: -4787258749103927730
+    second: SentryRobot_16
+  - first:
+      213: -543695263453395862
+    second: SentryRobot_17
+  - first:
+      213: 5505659534232689360
+    second: SentryRobot_18
+  - first:
+      213: -8879829297570653891
+    second: SentryRobot_19
+  - first:
+      213: 4090612721269086681
+    second: SentryRobot_20
+  - first:
+      213: -932967803831125657
+    second: SentryRobot_21
+  - first:
+      213: 6281591345720763877
+    second: SentryRobot_22
+  - first:
+      213: -6313690124667548359
+    second: SentryRobot_23
+  - first:
+      213: -8832514953589391537
+    second: SentryRobot_24
+  - first:
+      213: -3725817837080349917
+    second: SentryRobot_25
+  - first:
+      213: -5329218318126463009
+    second: SentryRobot_26
+  - first:
+      213: 81753394720901207
+    second: SentryRobot_27
+  - first:
+      213: 1525687898325563299
+    second: SentryRobot_28
+  - first:
+      213: -518835896380897491
+    second: SentryRobot_29
+  - first:
+      213: 780178788765848582
+    second: SentryRobot_30
+  - first:
+      213: 5936328942197205834
+    second: SentryRobot_31
+  - first:
+      213: -8154639809331601590
+    second: SentryRobot_32
+  - first:
+      213: 9015610758477611232
+    second: SentryRobot_33
+  - first:
+      213: -4206315216663260522
+    second: SentryRobot_34
+  - first:
+      213: 4235614762420685777
+    second: SentryRobot_35
+  - first:
+      213: 4295530717008647002
+    second: SentryRobot_36
+  - first:
+      213: -3215445391571969105
+    second: SentryRobot_37
+  - first:
+      213: -3314653622053193314
+    second: SentryRobot_38
+  - first:
+      213: 4422271889200650292
+    second: SentryRobot_39
+  - first:
+      213: 3505689926061752906
+    second: SentryRobot_40
+  - first:
+      213: -1352508535491845458
+    second: SentryRobot_41
+  - first:
+      213: 6876195424100260677
+    second: SentryRobot_42
+  - first:
+      213: -3191763242710296730
+    second: SentryRobot_43
+  - first:
+      213: 7664254114935314468
+    second: SentryRobot_44
+  - first:
+      213: 2939126759998205455
+    second: SentryRobot_45
+  - first:
+      213: -6879470587101371472
+    second: SentryRobot_46
+  - first:
+      213: 51441728300818050
+    second: SentryRobot_47
+  - first:
+      213: -780397792012100374
+    second: SentryRobot_48
+  - first:
+      213: 6163095567506403866
+    second: SentryRobot_49
+  - first:
+      213: 5710301492419595192
+    second: SentryRobot_50
+  - first:
+      213: 7452690014455222754
+    second: SentryRobot_51
+  - first:
+      213: -6705991416711252012
+    second: SentryRobot_52
+  - first:
+      213: 7843267649618488929
+    second: SentryRobot_53
+  - first:
+      213: 6923933963416350589
+    second: SentryRobot_54
+  - first:
+      213: -4103961347758581091
+    second: SentryRobot_55
+  - first:
+      213: -7137245890291719183
+    second: SentryRobot_56
+  - first:
+      213: -1351390930770624229
+    second: SentryRobot_57
+  - first:
+      213: 8783814740777593067
+    second: SentryRobot_58
+  - first:
+      213: 9139801051876417797
+    second: SentryRobot_59
+  - first:
+      213: 4249193750260668745
+    second: SentryRobot_60
+  - first:
+      213: -6370817904917823803
+    second: SentryRobot_61
+  - first:
+      213: 3162893356702222880
+    second: SentryRobot_62
+  - first:
+      213: 6436303516590654370
+    second: SentryRobot_63
+  - first:
+      213: 5370112508921189017
+    second: SentryRobot_64
+  - first:
+      213: 3305179108404283536
+    second: SentryRobot_65
+  - first:
+      213: 7383701915727422678
+    second: SentryRobot_66
+  - first:
+      213: 1736187231023418079
+    second: SentryRobot_67
+  - first:
+      213: 3088309805342797938
+    second: SentryRobot_68
+  - first:
+      213: -8274745828732282980
+    second: SentryRobot_69
+  - first:
+      213: 8984083942207485477
+    second: SentryRobot_70
+  - first:
+      213: 4274957909879366242
+    second: SentryRobot_71
+  - first:
+      213: 5731942524381906150
+    second: SentryRobot_72
+  - first:
+      213: 2786506129571914473
+    second: SentryRobot_73
+  - first:
+      213: -3211393911071173912
+    second: SentryRobot_74
+  - first:
+      213: 7504622846169269558
+    second: SentryRobot_75
+  - first:
+      213: -6892106811421798507
+    second: SentryRobot_76
+  - first:
+      213: 5500211541499399413
+    second: SentryRobot_77
+  - first:
+      213: -2119729976960428612
+    second: SentryRobot_78
+  - first:
+      213: 4571486250968428962
+    second: SentryRobot_79
+  - first:
+      213: 1028530941390725520
+    second: SentryRobot_80
+  - first:
+      213: -6694221990000640349
+    second: SentryRobot_81
+  - first:
+      213: 1020196689118002239
+    second: SentryRobot_82
+  - first:
+      213: 8308409296421588550
+    second: SentryRobot_83
+  - first:
+      213: -2708064369199618632
+    second: SentryRobot_84
+  - first:
+      213: -3650628619879151054
+    second: SentryRobot_85
+  - first:
+      213: 4495724839341503453
+    second: SentryRobot_86
+  - first:
+      213: 5147453209870538150
+    second: SentryRobot_87
+  - first:
+      213: -8919020672943106451
+    second: SentryRobot_88
+  - first:
+      213: -890435485826258810
+    second: SentryRobot_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SentryRobot_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 396
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022ba64db24246f00800000000000000
+      internalID: 1109051178905940512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 396
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a888bb2be551145b0800000000000000
+      internalID: -5386000182888658806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 396
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4358783218d2e0c10800000000000000
+      internalID: 2021603315406046516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 396
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703e19a61111ece30800000000000000
+      internalID: 4525573442053989127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 396
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4049a87d5d241c0800000000000000
+      internalID: -4520815954206915386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_5
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 396
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076450f7ee6ee32e0800000000000000
+      internalID: -2144022460574120336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 396
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d57a0c8d28bbdcd0800000000000000
+      internalID: -2532227859703237163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 336
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120ef14a48eefd220800000000000000
+      internalID: 2512989370552672289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 336
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2322f0234aafb34c0800000000000000
+      internalID: -4306573035528314318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 336
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a49fe81c60200690800000000000000
+      internalID: -7638069319373450075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_10
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 336
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91ec35d700fe2d90800000000000000
+      internalID: -7120490044393201254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 336
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff814a32dd6d92050800000000000000
+      internalID: 5776384242353445119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_12
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 336
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a138f0d552b77830800000000000000
+      internalID: 4068916870000423332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_13
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 336
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d112cfb1df369b950800000000000000
+      internalID: 6465308678814441757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_14
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 336
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b62fcf7dd5f09f00800000000000000
+      internalID: 1121666638896113330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 287
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b517f59de0bd6c0800000000000000
+      internalID: -4117681107528229988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 287
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e87cb188d309db0800000000000000
+      internalID: -4787258749103927730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 287
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a644ccbd9086478f0800000000000000
+      internalID: -543695263453395862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 287
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da9e281d28086c40800000000000000
+      internalID: 5505659534232689360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_19
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 287
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39d13c1d4284c480800000000000000
+      internalID: -8879829297570653891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 300
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d910f4d896c4c830800000000000000
+      internalID: 4090612721269086681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_21
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 300
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769f4c9b9be6d03f0800000000000000
+      internalID: -932967803831125657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_22
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 300
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5aad13c02bc2750800000000000000
+      internalID: 6281591345720763877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_23
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 300
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d8c4178444168a0800000000000000
+      internalID: -6313690124667548359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 231
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f7af5427a9c6580800000000000000
+      internalID: -8832514953589391537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 231
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323f20bda6c3b4cc0800000000000000
+      internalID: -3725817837080349917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_26
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 231
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd74191dc20da06b0800000000000000
+      internalID: -5329218318126463009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 231
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75885838742722100800000000000000
+      internalID: 81753394720901207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 231
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7bec16f055c2510800000000000000
+      internalID: 1525687898325563299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_29
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 231
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27ce7b4089bcc8f0800000000000000
+      internalID: -518835896380897491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_30
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 231
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604dead8970c3da00800000000000000
+      internalID: 780178788765848582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_31
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 231
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4be88d88b3126250800000000000000
+      internalID: 5936328942197205834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_32
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 231
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fd78d6c46e4de80800000000000000
+      internalID: -8154639809331601590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_33
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 251
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e08f34d732ed1d70800000000000000
+      internalID: 9015610758477611232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_34
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 231
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6925771b89a20a5c0800000000000000
+      internalID: -4206315216663260522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_35
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 183
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db4c776f2de7ca30800000000000000
+      internalID: 4235614762420685777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 211
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53541dad6acc9b30800000000000000
+      internalID: 4295530717008647002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_37
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 183
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab9fa8d3717063d0800000000000000
+      internalID: -3215445391571969105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_38
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 221
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99be00b71cfff1d0800000000000000
+      internalID: -3314653622053193314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_39
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 183
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43810006ad01f5d30800000000000000
+      internalID: 4422271889200650292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_40
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 183
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42839fe966b6a030800000000000000
+      internalID: 3505689926061752906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_41
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 183
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2235227acea3de0800000000000000
+      internalID: -1352508535491845458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_42
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 187
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b99ab7e472d6f50800000000000000
+      internalID: 6876195424100260677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_43
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 187
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6679a1fcd3494b3d0800000000000000
+      internalID: -3191763242710296730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_44
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 187
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4289b05b286ec5a60800000000000000
+      internalID: 7664254114935314468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_45
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 188
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ea98f4730e9c820800000000000000
+      internalID: 2939126759998205455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_46
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 189
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3231533f53780a0800000000000000
+      internalID: -6879470587101371472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 130
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e9006baf1c6b000800000000000000
+      internalID: 51441728300818050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_48
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 130
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec9e97c7587b25f0800000000000000
+      internalID: -780397792012100374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_49
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 130
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12f002e3c6b78550800000000000000
+      internalID: 6163095567506403866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_50
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 130
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb8d00f3f01f3f40800000000000000
+      internalID: 5710301492419595192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_51
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 130
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e154b405164d6760800000000000000
+      internalID: 7452690014455222754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 158
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d77b1c16588fe2a0800000000000000
+      internalID: -6705991416711252012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_53
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 130
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ea2d53f52e8dc60800000000000000
+      internalID: 7843267649618488929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_54
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 168
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fa1b15141c61060800000000000000
+      internalID: 6923933963416350589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_55
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 130
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a9aeed5eccb07c0800000000000000
+      internalID: -4103961347758581091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_56
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 130
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3ab827da863fc90800000000000000
+      internalID: -7137245890291719183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_57
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 130
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b118bb2cb15ee3de0800000000000000
+      internalID: -1351390930770624229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_58
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 130
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be863e4d7f066e970800000000000000
+      internalID: 8783814740777593067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_59
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 150
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501e5d6c1a817de70800000000000000
+      internalID: 9139801051876417797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_60
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 111
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949d812e33b28fa30800000000000000
+      internalID: 4249193750260668745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_61
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 111
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cebca89ede4697a0800000000000000
+      internalID: -6370817904917823803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_62
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 72
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02acdac00cad4eb20800000000000000
+      internalID: 3162893356702222880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_63
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 72
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3cbf482f7525950800000000000000
+      internalID: 6436303516590654370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_64
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 73
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9921122ffd8768a40800000000000000
+      internalID: 5370112508921189017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_65
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 89
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098ca7333ea5edd20800000000000000
+      internalID: 3305179108404283536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_66
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 102
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4ed4695cd287660800000000000000
+      internalID: 7383701915727422678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_67
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 72
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda48b0861d281810800000000000000
+      internalID: 1736187231023418079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 110
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27030d7c761ebda20800000000000000
+      internalID: 3088309805342797938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_69
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9754cf92823a2d80800000000000000
+      internalID: -8274745828732282980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_70
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 108
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5267197eeb0edac70800000000000000
+      internalID: 8984083942207485477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_71
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 66
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2622b10c193b35b30800000000000000
+      internalID: 4274957909879366242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_72
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 66
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e44db65b53fb8f40800000000000000
+      internalID: 5731942524381906150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_73
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 66
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e22591bf88aba620800000000000000
+      internalID: 2786506129571914473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_74
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 55
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e210c8a046de63d0800000000000000
+      internalID: -3211393911071173912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_75
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 81
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6354337a7b6c52860800000000000000
+      internalID: 7504622846169269558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_76
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 81
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f4727fe515a50a0800000000000000
+      internalID: -6892106811421798507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_77
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 57
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc4390714da45c40800000000000000
+      internalID: 5500211541499399413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_78
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 80
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5d68711d43592e0800000000000000
+      internalID: -2119729976960428612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_79
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 75
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a13e84468e217f30800000000000000
+      internalID: 4571486250968428962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_80
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 71
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091a71a1173164e00800000000000000
+      internalID: 1028530941390725520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_81
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 71
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae376e41985913a0800000000000000
+      internalID: -6694221990000640349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_82
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c78e7cb77782e00800000000000000
+      internalID: 1020196689118002239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_83
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 13
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e03c93c366d4370800000000000000
+      internalID: 8308409296421588550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_84
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 9
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5e6fcddc50b6ad0800000000000000
+      internalID: -2708064369199618632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_85
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 9
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a8a31bc9c565dc0800000000000000
+      internalID: -3650628619879151054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_86
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 10
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3b9d80ce5046e30800000000000000
+      internalID: 4495724839341503453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_87
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 12
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a517480c6d6f6740800000000000000
+      internalID: 5147453209870538150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_88
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 16
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d665cd4f3f5493480800000000000000
+      internalID: -8919020672943106451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SentryRobot_89
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1
+        width: 319
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6886ce3b4a984a3f0800000000000000
+      internalID: -890435485826258810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SentryRobot_0: 1109051178905940512
+      SentryRobot_1: -5386000182888658806
+      SentryRobot_10: -7120490044393201254
+      SentryRobot_11: 5776384242353445119
+      SentryRobot_12: 4068916870000423332
+      SentryRobot_13: 6465308678814441757
+      SentryRobot_14: 1121666638896113330
+      SentryRobot_15: -4117681107528229988
+      SentryRobot_16: -4787258749103927730
+      SentryRobot_17: -543695263453395862
+      SentryRobot_18: 5505659534232689360
+      SentryRobot_19: -8879829297570653891
+      SentryRobot_2: 2021603315406046516
+      SentryRobot_20: 4090612721269086681
+      SentryRobot_21: -932967803831125657
+      SentryRobot_22: 6281591345720763877
+      SentryRobot_23: -6313690124667548359
+      SentryRobot_24: -8832514953589391537
+      SentryRobot_25: -3725817837080349917
+      SentryRobot_26: -5329218318126463009
+      SentryRobot_27: 81753394720901207
+      SentryRobot_28: 1525687898325563299
+      SentryRobot_29: -518835896380897491
+      SentryRobot_3: 4525573442053989127
+      SentryRobot_30: 780178788765848582
+      SentryRobot_31: 5936328942197205834
+      SentryRobot_32: -8154639809331601590
+      SentryRobot_33: 9015610758477611232
+      SentryRobot_34: -4206315216663260522
+      SentryRobot_35: 4235614762420685777
+      SentryRobot_36: 4295530717008647002
+      SentryRobot_37: -3215445391571969105
+      SentryRobot_38: -3314653622053193314
+      SentryRobot_39: 4422271889200650292
+      SentryRobot_4: -4520815954206915386
+      SentryRobot_40: 3505689926061752906
+      SentryRobot_41: -1352508535491845458
+      SentryRobot_42: 6876195424100260677
+      SentryRobot_43: -3191763242710296730
+      SentryRobot_44: 7664254114935314468
+      SentryRobot_45: 2939126759998205455
+      SentryRobot_46: -6879470587101371472
+      SentryRobot_47: 51441728300818050
+      SentryRobot_48: -780397792012100374
+      SentryRobot_49: 6163095567506403866
+      SentryRobot_5: -2144022460574120336
+      SentryRobot_50: 5710301492419595192
+      SentryRobot_51: 7452690014455222754
+      SentryRobot_52: -6705991416711252012
+      SentryRobot_53: 7843267649618488929
+      SentryRobot_54: 6923933963416350589
+      SentryRobot_55: -4103961347758581091
+      SentryRobot_56: -7137245890291719183
+      SentryRobot_57: -1351390930770624229
+      SentryRobot_58: 8783814740777593067
+      SentryRobot_59: 9139801051876417797
+      SentryRobot_6: -2532227859703237163
+      SentryRobot_60: 4249193750260668745
+      SentryRobot_61: -6370817904917823803
+      SentryRobot_62: 3162893356702222880
+      SentryRobot_63: 6436303516590654370
+      SentryRobot_64: 5370112508921189017
+      SentryRobot_65: 3305179108404283536
+      SentryRobot_66: 7383701915727422678
+      SentryRobot_67: 1736187231023418079
+      SentryRobot_68: 3088309805342797938
+      SentryRobot_69: -8274745828732282980
+      SentryRobot_7: 2512989370552672289
+      SentryRobot_70: 8984083942207485477
+      SentryRobot_71: 4274957909879366242
+      SentryRobot_72: 5731942524381906150
+      SentryRobot_73: 2786506129571914473
+      SentryRobot_74: -3211393911071173912
+      SentryRobot_75: 7504622846169269558
+      SentryRobot_76: -6892106811421798507
+      SentryRobot_77: 5500211541499399413
+      SentryRobot_78: -2119729976960428612
+      SentryRobot_79: 4571486250968428962
+      SentryRobot_8: -4306573035528314318
+      SentryRobot_80: 1028530941390725520
+      SentryRobot_81: -6694221990000640349
+      SentryRobot_82: 1020196689118002239
+      SentryRobot_83: 8308409296421588550
+      SentryRobot_84: -2708064369199618632
+      SentryRobot_85: -3650628619879151054
+      SentryRobot_86: 4495724839341503453
+      SentryRobot_87: 5147453209870538150
+      SentryRobot_88: -8919020672943106451
+      SentryRobot_89: -890435485826258810
+      SentryRobot_9: -7638069319373450075
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

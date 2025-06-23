@@ -1,0 +1,1963 @@
+fileFormatVersion: 2
+guid: 9c71e6d63e9924f448d55deda6736a2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -344225278574236301
+    second: OfficerBlack_0
+  - first:
+      213: -4415526025335909329
+    second: OfficerBlack_1
+  - first:
+      213: -474201191049235714
+    second: OfficerBlack_2
+  - first:
+      213: -8093614798944199488
+    second: OfficerBlack_3
+  - first:
+      213: 1151272313091834060
+    second: OfficerBlack_4
+  - first:
+      213: -5384982666073054727
+    second: OfficerBlack_5
+  - first:
+      213: -1849465584051819096
+    second: OfficerBlack_6
+  - first:
+      213: -8380688607094933799
+    second: OfficerBlack_7
+  - first:
+      213: 340041362807897896
+    second: OfficerBlack_8
+  - first:
+      213: -5672822295388559092
+    second: OfficerBlack_9
+  - first:
+      213: -3331602009879829320
+    second: OfficerBlack_10
+  - first:
+      213: 1522277994971536421
+    second: OfficerBlack_11
+  - first:
+      213: 5943754968231416214
+    second: OfficerBlack_12
+  - first:
+      213: -410088567806713445
+    second: OfficerBlack_13
+  - first:
+      213: 4518517201435744857
+    second: OfficerBlack_14
+  - first:
+      213: 8459458476652720679
+    second: OfficerBlack_15
+  - first:
+      213: -1823562122465400349
+    second: OfficerBlack_16
+  - first:
+      213: -3935449910132732744
+    second: OfficerBlack_17
+  - first:
+      213: -3198860267935786351
+    second: OfficerBlack_18
+  - first:
+      213: -2108653961669733416
+    second: OfficerBlack_19
+  - first:
+      213: -2614578687357982036
+    second: OfficerBlack_20
+  - first:
+      213: -1109460159999948688
+    second: OfficerBlack_21
+  - first:
+      213: 6397020448041103793
+    second: OfficerBlack_22
+  - first:
+      213: -2501984074456279503
+    second: OfficerBlack_23
+  - first:
+      213: 3396360339270994407
+    second: OfficerBlack_24
+  - first:
+      213: -2995868003686364682
+    second: OfficerBlack_25
+  - first:
+      213: -4737966854838008032
+    second: OfficerBlack_26
+  - first:
+      213: 5468034049612923598
+    second: OfficerBlack_27
+  - first:
+      213: 6371569699936655606
+    second: OfficerBlack_28
+  - first:
+      213: 1422179854694879980
+    second: OfficerBlack_29
+  - first:
+      213: -2636944760572006368
+    second: OfficerBlack_30
+  - first:
+      213: -1856254480379681817
+    second: OfficerBlack_31
+  - first:
+      213: 5900386293247706477
+    second: OfficerBlack_32
+  - first:
+      213: 3674569537617823489
+    second: OfficerBlack_33
+  - first:
+      213: -2634072702426512097
+    second: OfficerBlack_34
+  - first:
+      213: -3290543122366882046
+    second: OfficerBlack_35
+  - first:
+      213: 4119966956072497175
+    second: OfficerBlack_36
+  - first:
+      213: -4699037501104188047
+    second: OfficerBlack_37
+  - first:
+      213: 4312422863328843916
+    second: OfficerBlack_38
+  - first:
+      213: -5744457939279520811
+    second: OfficerBlack_39
+  - first:
+      213: -3967500117908368055
+    second: OfficerBlack_40
+  - first:
+      213: -6936127831284889088
+    second: OfficerBlack_41
+  - first:
+      213: -6715446327060352344
+    second: OfficerBlack_42
+  - first:
+      213: 965390902154365869
+    second: OfficerBlack_43
+  - first:
+      213: -8284814177466474479
+    second: OfficerBlack_44
+  - first:
+      213: 6037061875224652602
+    second: OfficerBlack_45
+  - first:
+      213: -8376162087117515751
+    second: OfficerBlack_46
+  - first:
+      213: 1545611299176494539
+    second: OfficerBlack_47
+  - first:
+      213: -2168698427365981767
+    second: OfficerBlack_48
+  - first:
+      213: 2507032547803154528
+    second: OfficerBlack_49
+  - first:
+      213: 6590431370064593979
+    second: OfficerBlack_50
+  - first:
+      213: 2950679045509515736
+    second: OfficerBlack_51
+  - first:
+      213: 7190275499777115535
+    second: OfficerBlack_52
+  - first:
+      213: 2747274633583774133
+    second: OfficerBlack_53
+  - first:
+      213: -1832769062192152526
+    second: OfficerBlack_54
+  - first:
+      213: -8814597222633849556
+    second: OfficerBlack_55
+  - first:
+      213: -5643772586622128709
+    second: OfficerBlack_56
+  - first:
+      213: -7414186799880130387
+    second: OfficerBlack_57
+  - first:
+      213: -8662409043116487300
+    second: OfficerBlack_58
+  - first:
+      213: 6321676977527075575
+    second: OfficerBlack_59
+  - first:
+      213: -7651593805566677157
+    second: OfficerBlack_60
+  - first:
+      213: -6758575114969708030
+    second: OfficerBlack_61
+  - first:
+      213: 8576433318729163415
+    second: OfficerBlack_62
+  - first:
+      213: -5723017052752356002
+    second: OfficerBlack_63
+  - first:
+      213: -4895444351905640094
+    second: OfficerBlack_64
+  - first:
+      213: 6120414830368714515
+    second: OfficerBlack_65
+  - first:
+      213: -3602974417848179421
+    second: OfficerBlack_66
+  - first:
+      213: -7175619170475445719
+    second: OfficerBlack_67
+  - first:
+      213: 5657880302139692242
+    second: OfficerBlack_68
+  - first:
+      213: 5662729547376187917
+    second: OfficerBlack_69
+  - first:
+      213: -7325922500603728712
+    second: OfficerBlack_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OfficerBlack_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 704
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d6fd3dee0193bf0800000000000000
+      internalID: -344225278574236301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 704
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f245c537976e8b2c0800000000000000
+      internalID: -4415526025335909329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 704
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef27177778c4b69f0800000000000000
+      internalID: -474201191049235714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 704
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc1610e834bdaf80800000000000000
+      internalID: -8093614798944199488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_4
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 704
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0c49da1142aff00800000000000000
+      internalID: 1151272313091834060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 704
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1641bcbc2b445b0800000000000000
+      internalID: -5384982666073054727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 598
+        width: 92
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ade746a9d06556e0800000000000000
+      internalID: -1849465584051819096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 594
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d671f85d10d1bb80800000000000000
+      internalID: -8380688607094933799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_8
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 601
+        width: 92
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fba1f51d118b400800000000000000
+      internalID: 340041362807897896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_9
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 616
+        width: 282
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09e271ad261641b0800000000000000
+      internalID: -5672822295388559092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 479
+        width: 86
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4a224af95c3c1d0800000000000000
+      internalID: -3331602009879829320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 479
+        width: 88
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c1ca365c7302510800000000000000
+      internalID: 1522277994971536421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 480
+        width: 86
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6919569f6a57c7250800000000000000
+      internalID: 5943754968231416214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_13
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 497
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91ae6dce921f4af0800000000000000
+      internalID: -410088567806713445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_14
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 499
+        width: 96
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ad11f547ff4be30800000000000000
+      internalID: 4518517201435744857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_15
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 498
+        width: 96
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7227d051aa8066570800000000000000
+      internalID: 8459458476652720679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_16
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 485
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9a79849e761b6e0800000000000000
+      internalID: -1823562122465400349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_17
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 486
+        width: 92
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc023b58297269c0800000000000000
+      internalID: -3935449910132732744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 371
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a939bd88d5b93d0800000000000000
+      internalID: -3198860267935786351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 370
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3947cd46e8cb2e0800000000000000
+      internalID: -2108653961669733416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 371
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa68b6598627bbd0800000000000000
+      internalID: -2614578687357982036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_21
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 371
+        width: 113
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07841c6dcd76a90f0800000000000000
+      internalID: -1109460159999948688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_22
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 371
+        width: 119
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b176626438c6c850800000000000000
+      internalID: 6397020448041103793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_23
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 371
+        width: 101
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13659588dba274dd0800000000000000
+      internalID: -2501984074456279503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_24
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 371
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9097fdbbb422f20800000000000000
+      internalID: 3396360339270994407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 264
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9c0566ce98c66d0800000000000000
+      internalID: -2995868003686364682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_26
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 264
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0274ec39f3c5f3eb0800000000000000
+      internalID: -4737966854838008032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_27
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 264
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec24bea4ffb52eb40800000000000000
+      internalID: 5468034049612923598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 264
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8dd5252ec5c6850800000000000000
+      internalID: 6371569699936655606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_29
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 265
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce21ec5fa099cb310800000000000000
+      internalID: 1422179854694879980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_30
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 293
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02037cd16b0b76bd0800000000000000
+      internalID: -2636944760572006368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_31
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 293
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3ed3c82624d36e0800000000000000
+      internalID: -1856254480379681817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_32
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 293
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d650d96721262e150800000000000000
+      internalID: 5900386293247706477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_33
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 293
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1078e289681bef230800000000000000
+      internalID: 3674569537617823489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_34
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 294
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15805345d4e17bd0800000000000000
+      internalID: -2634072702426512097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_35
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 294
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f9739d674a552d0800000000000000
+      internalID: -3290543122366882046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_36
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 293
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7107c073e101d2930800000000000000
+      internalID: 4119966956072497175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_37
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 204
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17512701a4aa9ceb0800000000000000
+      internalID: -4699037501104188047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_38
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 204
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c881df9febdc8db30800000000000000
+      internalID: 4312422863328843916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 204
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db521e80f59740b0800000000000000
+      internalID: -5744457939279520811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_40
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 204
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94550c9d9ab90f8c0800000000000000
+      internalID: -3967500117908368055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 204
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a40939c7cedbf90800000000000000
+      internalID: -6936127831284889088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_42
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 212
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2bd5f3521fdc2a0800000000000000
+      internalID: -6715446327060352344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_43
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 212
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab0e4029e1c56d00800000000000000
+      internalID: 965390902154365869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_44
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 182
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110adf1866d660d80800000000000000
+      internalID: -8284814177466474479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_45
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 182
+        width: 42
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ba1df2ac3f7c350800000000000000
+      internalID: 6037061875224652602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_46
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 206
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9141448e5f4e1cb80800000000000000
+      internalID: -8376162087117515751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_47
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 206
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5be30a94d137510800000000000000
+      internalID: 1545611299176494539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_48
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 206
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b107e3454c37e1e0800000000000000
+      internalID: -2168698427365981767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_49
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 205
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0684624c1d4cac220800000000000000
+      internalID: 2507032547803154528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_50
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 206
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b348a49d96ae57b50800000000000000
+      internalID: 6590431370064593979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_51
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 64
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d988c165fae2f820800000000000000
+      internalID: 2950679045509515736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_52
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85c869a87df8c360800000000000000
+      internalID: 7190275499777115535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_53
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 66
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9c33b39b7402620800000000000000
+      internalID: 2747274633583774133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_54
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 66
+        width: 79
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23006b49f32b096e0800000000000000
+      internalID: -1832769062192152526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_55
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 65
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2db3ca17824ca580800000000000000
+      internalID: -8814597222633849556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_56
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 67
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdec450cba4da1b0800000000000000
+      internalID: -5643772586622128709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_57
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 122
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da031c633648b1990800000000000000
+      internalID: -7414186799880130387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_58
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 122
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d09e5eed0f8c780800000000000000
+      internalID: -8662409043116487300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_59
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 116
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f23446a7bb1bb750800000000000000
+      internalID: 6321676977527075575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_60
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 116
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f6e9549f310d590800000000000000
+      internalID: -7651593805566677157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_61
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 7
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a8f6ccdb7b432a0800000000000000
+      internalID: -6758575114969708030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_62
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 8
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7922daad9ac950770800000000000000
+      internalID: 8576433318729163415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_63
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 8
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d5137ff42c390b0800000000000000
+      internalID: -5723017052752356002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_64
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 9
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261d8f29c43ef0cb0800000000000000
+      internalID: -4895444351905640094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_65
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 10
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fe8226cd410f450800000000000000
+      internalID: 6120414830368714515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_66
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 10
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325e6593bd9affdc0800000000000000
+      internalID: -3602974417848179421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_67
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 11
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922f35ce1641b6c90800000000000000
+      internalID: -7175619170475445719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_68
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 10
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d457b67824d48e40800000000000000
+      internalID: 5657880302139692242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_69
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 11
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a577a558e069e40800000000000000
+      internalID: 5662729547376187917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficerBlack_70
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 12
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc2973dc48155a90800000000000000
+      internalID: -7325922500603728712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OfficerBlack_0: -344225278574236301
+      OfficerBlack_1: -4415526025335909329
+      OfficerBlack_10: -3331602009879829320
+      OfficerBlack_11: 1522277994971536421
+      OfficerBlack_12: 5943754968231416214
+      OfficerBlack_13: -410088567806713445
+      OfficerBlack_14: 4518517201435744857
+      OfficerBlack_15: 8459458476652720679
+      OfficerBlack_16: -1823562122465400349
+      OfficerBlack_17: -3935449910132732744
+      OfficerBlack_18: -3198860267935786351
+      OfficerBlack_19: -2108653961669733416
+      OfficerBlack_2: -474201191049235714
+      OfficerBlack_20: -2614578687357982036
+      OfficerBlack_21: -1109460159999948688
+      OfficerBlack_22: 6397020448041103793
+      OfficerBlack_23: -2501984074456279503
+      OfficerBlack_24: 3396360339270994407
+      OfficerBlack_25: -2995868003686364682
+      OfficerBlack_26: -4737966854838008032
+      OfficerBlack_27: 5468034049612923598
+      OfficerBlack_28: 6371569699936655606
+      OfficerBlack_29: 1422179854694879980
+      OfficerBlack_3: -8093614798944199488
+      OfficerBlack_30: -2636944760572006368
+      OfficerBlack_31: -1856254480379681817
+      OfficerBlack_32: 5900386293247706477
+      OfficerBlack_33: 3674569537617823489
+      OfficerBlack_34: -2634072702426512097
+      OfficerBlack_35: -3290543122366882046
+      OfficerBlack_36: 4119966956072497175
+      OfficerBlack_37: -4699037501104188047
+      OfficerBlack_38: 4312422863328843916
+      OfficerBlack_39: -5744457939279520811
+      OfficerBlack_4: 1151272313091834060
+      OfficerBlack_40: -3967500117908368055
+      OfficerBlack_41: -6936127831284889088
+      OfficerBlack_42: -6715446327060352344
+      OfficerBlack_43: 965390902154365869
+      OfficerBlack_44: -8284814177466474479
+      OfficerBlack_45: 6037061875224652602
+      OfficerBlack_46: -8376162087117515751
+      OfficerBlack_47: 1545611299176494539
+      OfficerBlack_48: -2168698427365981767
+      OfficerBlack_49: 2507032547803154528
+      OfficerBlack_5: -5384982666073054727
+      OfficerBlack_50: 6590431370064593979
+      OfficerBlack_51: 2950679045509515736
+      OfficerBlack_52: 7190275499777115535
+      OfficerBlack_53: 2747274633583774133
+      OfficerBlack_54: -1832769062192152526
+      OfficerBlack_55: -8814597222633849556
+      OfficerBlack_56: -5643772586622128709
+      OfficerBlack_57: -7414186799880130387
+      OfficerBlack_58: -8662409043116487300
+      OfficerBlack_59: 6321676977527075575
+      OfficerBlack_6: -1849465584051819096
+      OfficerBlack_60: -7651593805566677157
+      OfficerBlack_61: -6758575114969708030
+      OfficerBlack_62: 8576433318729163415
+      OfficerBlack_63: -5723017052752356002
+      OfficerBlack_64: -4895444351905640094
+      OfficerBlack_65: 6120414830368714515
+      OfficerBlack_66: -3602974417848179421
+      OfficerBlack_67: -7175619170475445719
+      OfficerBlack_68: 5657880302139692242
+      OfficerBlack_69: 5662729547376187917
+      OfficerBlack_7: -8380688607094933799
+      OfficerBlack_70: -7325922500603728712
+      OfficerBlack_8: 340041362807897896
+      OfficerBlack_9: -5672822295388559092
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: cc97f27f3b211f043af34cccb89529ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4118222601076918640
+    second: OozaruVegeta_0
+  - first:
+      213: -8154894441126670337
+    second: OozaruVegeta_1
+  - first:
+      213: -5198764454634146767
+    second: OozaruVegeta_2
+  - first:
+      213: 2392989148177909069
+    second: OozaruVegeta_3
+  - first:
+      213: -3367918252994451213
+    second: OozaruVegeta_4
+  - first:
+      213: -3840009470952252644
+    second: OozaruVegeta_5
+  - first:
+      213: -1097046984851906541
+    second: OozaruVegeta_6
+  - first:
+      213: -5691088018249569441
+    second: OozaruVegeta_7
+  - first:
+      213: -5790598002415254243
+    second: OozaruVegeta_8
+  - first:
+      213: -4700698723316118729
+    second: OozaruVegeta_9
+  - first:
+      213: -7708183098908873354
+    second: OozaruVegeta_10
+  - first:
+      213: 8544348030917966536
+    second: OozaruVegeta_11
+  - first:
+      213: -3207359559996685939
+    second: OozaruVegeta_12
+  - first:
+      213: -4161855121471912474
+    second: OozaruVegeta_13
+  - first:
+      213: 4465706193268859388
+    second: OozaruVegeta_14
+  - first:
+      213: -7179208197366873132
+    second: OozaruVegeta_15
+  - first:
+      213: -1880559770070044754
+    second: OozaruVegeta_16
+  - first:
+      213: -7263985907909515195
+    second: OozaruVegeta_17
+  - first:
+      213: -4383528671568848838
+    second: OozaruVegeta_18
+  - first:
+      213: 8482500119061937356
+    second: OozaruVegeta_19
+  - first:
+      213: 1495197136074675740
+    second: OozaruVegeta_20
+  - first:
+      213: -5278672924452590937
+    second: OozaruVegeta_21
+  - first:
+      213: -8200294807156648940
+    second: OozaruVegeta_22
+  - first:
+      213: 8780392313118437481
+    second: OozaruVegeta_23
+  - first:
+      213: 7597327764253048116
+    second: OozaruVegeta_24
+  - first:
+      213: 2117782529767477297
+    second: OozaruVegeta_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OozaruVegeta_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 442
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09633d41d5229d6c0800000000000000
+      internalID: -4118222601076918640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 442
+        width: 67
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff46d756bef3de80800000000000000
+      internalID: -8154894441126670337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 269
+        width: 163
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134ba92d5474ad7b0800000000000000
+      internalID: -5198764454634146767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 267
+        width: 152
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d454280a3fa953120800000000000000
+      internalID: 2392989148177909069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 269
+        width: 154
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f826b16130c241d0800000000000000
+      internalID: -3367918252994451213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_5
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 266
+        width: 156
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b51cd3bbb85bac0800000000000000
+      internalID: -3840009470952252644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_6
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 268
+        width: 157
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3102df5649186c0f0800000000000000
+      internalID: -1097046984851906541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_7
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 266
+        width: 157
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ba0ce99913501b0800000000000000
+      internalID: -5691088018249569441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_8
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 268
+        width: 157
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15c3f4fbc9a3afa0800000000000000
+      internalID: -5790598002415254243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_9
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 267
+        width: 163
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b4c90aa63c3ceb0800000000000000
+      internalID: -4700698723316118729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 194
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dedddaf48070590800000000000000
+      internalID: -7708183098908873354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 194
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca7c24a34f939670800000000000000
+      internalID: 8544348030917966536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 194
+        width: 58
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81c177397b2d73d0800000000000000
+      internalID: -3207359559996685939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_13
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 133
+        width: 206
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5c60641de1e36c0800000000000000
+      internalID: -4161855121471912474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 14
+        width: 137
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf16d095f1069fd30800000000000000
+      internalID: 4465706193268859388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 13
+        width: 148
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3006b7e245e5c90800000000000000
+      internalID: -7179208197366873132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_16
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 15
+        width: 143
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafa51e4ad8e6e5e0800000000000000
+      internalID: -1880559770070044754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 11
+        width: 161
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5482c919d43213b90800000000000000
+      internalID: -7263985907909515195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_18
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1
+        width: 146
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38166ce5e39a23c0800000000000000
+      internalID: -4383528671568848838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_19
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2
+        width: 139
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc35e38ae4e7b570800000000000000
+      internalID: 8482500119061937356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_20
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 78
+        width: 83
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1699e49fd100c410800000000000000
+      internalID: 1495197136074675740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_21
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 78
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aae78c51f26eb6b0800000000000000
+      internalID: -5278672924452590937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_22
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 78
+        width: 92
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41492f5e153b23e80800000000000000
+      internalID: -8200294807156648940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_23
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 46
+        width: 93
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960befbc9483ad970800000000000000
+      internalID: 8780392313118437481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_24
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 47
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43df38669512f6960800000000000000
+      internalID: 7597327764253048116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OozaruVegeta_25
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 47
+        width: 131
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13091568dffd36d10800000000000000
+      internalID: 2117782529767477297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OozaruVegeta_0: -4118222601076918640
+      OozaruVegeta_1: -8154894441126670337
+      OozaruVegeta_10: -7708183098908873354
+      OozaruVegeta_11: 8544348030917966536
+      OozaruVegeta_12: -3207359559996685939
+      OozaruVegeta_13: -4161855121471912474
+      OozaruVegeta_14: 4465706193268859388
+      OozaruVegeta_15: -7179208197366873132
+      OozaruVegeta_16: -1880559770070044754
+      OozaruVegeta_17: -7263985907909515195
+      OozaruVegeta_18: -4383528671568848838
+      OozaruVegeta_19: 8482500119061937356
+      OozaruVegeta_2: -5198764454634146767
+      OozaruVegeta_20: 1495197136074675740
+      OozaruVegeta_21: -5278672924452590937
+      OozaruVegeta_22: -8200294807156648940
+      OozaruVegeta_23: 8780392313118437481
+      OozaruVegeta_24: 7597327764253048116
+      OozaruVegeta_25: 2117782529767477297
+      OozaruVegeta_3: 2392989148177909069
+      OozaruVegeta_4: -3367918252994451213
+      OozaruVegeta_5: -3840009470952252644
+      OozaruVegeta_6: -1097046984851906541
+      OozaruVegeta_7: -5691088018249569441
+      OozaruVegeta_8: -5790598002415254243
+      OozaruVegeta_9: -4700698723316118729
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

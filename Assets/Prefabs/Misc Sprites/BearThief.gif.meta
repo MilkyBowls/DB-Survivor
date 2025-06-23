@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 484d60c434c2e2a44bff58b187cf5227
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 575861048132692241
+    second: BearThief_0
+  - first:
+      213: -1280314242175112486
+    second: BearThief_1
+  - first:
+      213: 6396610601841321826
+    second: BearThief_2
+  - first:
+      213: -1889138811930266445
+    second: BearThief_3
+  - first:
+      213: -2773923719570069807
+    second: BearThief_4
+  - first:
+      213: -4764521884529770269
+    second: BearThief_5
+  - first:
+      213: 8190062371630202529
+    second: BearThief_6
+  - first:
+      213: -3050811281674892476
+    second: BearThief_7
+  - first:
+      213: -7267674313412928210
+    second: BearThief_8
+  - first:
+      213: 4176410860834419031
+    second: BearThief_9
+  - first:
+      213: 1896118496994124887
+    second: BearThief_10
+  - first:
+      213: -2583348484708295795
+    second: BearThief_11
+  - first:
+      213: 6759465152860906846
+    second: BearThief_12
+  - first:
+      213: -4706339669114182098
+    second: BearThief_13
+  - first:
+      213: 6322991435315612910
+    second: BearThief_14
+  - first:
+      213: -7570725422223233480
+    second: BearThief_15
+  - first:
+      213: 2378696011262450694
+    second: BearThief_16
+  - first:
+      213: -1818957239458939902
+    second: BearThief_17
+  - first:
+      213: 8154067351092768751
+    second: BearThief_18
+  - first:
+      213: -5806104925729780632
+    second: BearThief_19
+  - first:
+      213: 3583124345532226940
+    second: BearThief_20
+  - first:
+      213: 395724268391076356
+    second: BearThief_21
+  - first:
+      213: -1067945916292304421
+    second: BearThief_22
+  - first:
+      213: -3250569152173026726
+    second: BearThief_23
+  - first:
+      213: 6134093832526523531
+    second: BearThief_24
+  - first:
+      213: -7299464178258973505
+    second: BearThief_25
+  - first:
+      213: -6090148415828416919
+    second: BearThief_26
+  - first:
+      213: -6040843360100684577
+    second: BearThief_27
+  - first:
+      213: -8383245610071041408
+    second: BearThief_28
+  - first:
+      213: 721928851287712976
+    second: BearThief_29
+  - first:
+      213: 792487498750093139
+    second: BearThief_30
+  - first:
+      213: -4733915435163354138
+    second: BearThief_31
+  - first:
+      213: 1605595786829692649
+    second: BearThief_32
+  - first:
+      213: 3866622577194161338
+    second: BearThief_33
+  - first:
+      213: 3652296321861415807
+    second: BearThief_34
+  - first:
+      213: -3005637204885369401
+    second: BearThief_35
+  - first:
+      213: -2859027100097299924
+    second: BearThief_36
+  - first:
+      213: 4277323050215685318
+    second: BearThief_37
+  - first:
+      213: 4492288313106707585
+    second: BearThief_38
+  - first:
+      213: -7499280174932526520
+    second: BearThief_39
+  - first:
+      213: -25631649734827168
+    second: BearThief_40
+  - first:
+      213: 6936154633945312726
+    second: BearThief_41
+  - first:
+      213: 3719957058839042144
+    second: BearThief_42
+  - first:
+      213: -8143188449288941906
+    second: BearThief_43
+  - first:
+      213: 5624162898897159399
+    second: BearThief_44
+  - first:
+      213: -1868035158388012782
+    second: BearThief_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BearThief_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 469
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119eeed729eddf700800000000000000
+      internalID: 575861048132692241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 469
+        width: 81
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada674aeaf86b3ee0800000000000000
+      internalID: -1280314242175112486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 469
+        width: 80
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267ef31a37355c850800000000000000
+      internalID: 6396610601841321826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_3
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 469
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b43e77724e68c5e0800000000000000
+      internalID: -1889138811930266445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_4
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 469
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6eefce21b0189d0800000000000000
+      internalID: -2773923719570069807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_5
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 469
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0470ce69401edb0800000000000000
+      internalID: -4764521884529770269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_6
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 479
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aebf4d8552f8a170800000000000000
+      internalID: 8190062371630202529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 379
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b830f9d4759a5d0800000000000000
+      internalID: -3050811281674892476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 379
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d9acdb7b8042b90800000000000000
+      internalID: -7267674313412928210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_9
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 379
+        width: 85
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7517e14ec8795f930800000000000000
+      internalID: 4176410860834419031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 379
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754e1691abd505a10800000000000000
+      internalID: 1896118496994124887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_11
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 378
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b1be58d3a162cd0800000000000000
+      internalID: -2583348484708295795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_12
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 379
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55e7eb4eb17ecd50800000000000000
+      internalID: 6759465152860906846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 286
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26ae169109bfaeb0800000000000000
+      internalID: -4706339669114182098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 286
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec03d3b537cfb750800000000000000
+      internalID: 6322991435315612910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_15
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 286
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e6d5407516fe690800000000000000
+      internalID: -7570725422223233480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 286
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cdfeb5b63d20120800000000000000
+      internalID: 2378696011262450694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 283
+        width: 120
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cbc682704c1c6e0800000000000000
+      internalID: -1818957239458939902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_18
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 281
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefae70cd01192170800000000000000
+      internalID: 8154067351092768751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_19
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 286
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c0b3505529c6fa0800000000000000
+      internalID: -5806104925729780632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_20
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 286
+        width: 81
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d9089ab90d9b130800000000000000
+      internalID: 3583124345532226940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_21
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 278
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402937e1025ed7500800000000000000
+      internalID: 395724268391076356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 183
+        width: 83
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1711ce8d4ed21f0800000000000000
+      internalID: -1067945916292304421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 183
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5252ee0498a3e2d0800000000000000
+      internalID: -3250569152173026726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_24
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 183
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c68a247dda02550800000000000000
+      internalID: 6134093832526523531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_25
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 183
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc6f2c010813ba90800000000000000
+      internalID: -7299464178258973505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_26
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 183
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966a32568427b7ba0800000000000000
+      internalID: -6090148415828416919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_27
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 183
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdceb6148fc9a2ca0800000000000000
+      internalID: -6040843360100684577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_28
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 183
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08adcd2b88ab8ab80800000000000000
+      internalID: -8383245610071041408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_29
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 183
+        width: 113
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d42c1e177ec40a00800000000000000
+      internalID: 721928851287712976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_30
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 178
+        width: 96
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357efeb6e2b7ffa00800000000000000
+      internalID: 792487498750093139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 105
+        width: 95
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb795a3ef0cd4eb0800000000000000
+      internalID: -4733915435163354138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_32
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 108
+        width: 83
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eef8de7cd8384610800000000000000
+      internalID: 1605595786829692649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_33
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 108
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4d92a6fb009a530800000000000000
+      internalID: 3866622577194161338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_34
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 106
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73f30f67209fa230800000000000000
+      internalID: 3652296321861415807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_35
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 105
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd0c1ff2e4d946d0800000000000000
+      internalID: -3005637204885369401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_36
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 109
+        width: 140
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a3c7f0002b258d0800000000000000
+      internalID: -2859027100097299924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 9
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc32b5e6aa1c5b30800000000000000
+      internalID: 4277323050215685318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_38
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 9
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1843d5b6b60d75e30800000000000000
+      internalID: 4492288313106707585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_39
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 9
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a740ee9643de790800000000000000
+      internalID: -7499280174932526520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_40
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 9
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0636c8e7620f4aff0800000000000000
+      internalID: -25631649734827168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_41
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 9
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd6d77e3eb224060800000000000000
+      internalID: 6936154633945312726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_42
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 15
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068decf5c31ff9330800000000000000
+      internalID: 3719957058839042144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_43
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 15
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae8115ff359dfe80800000000000000
+      internalID: -8143188449288941906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_44
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 22
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e442b3cb5a0d0e40800000000000000
+      internalID: 5624162898897159399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearThief_45
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 11
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2198754bbe76316e0800000000000000
+      internalID: -1868035158388012782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BearThief_0: 575861048132692241
+      BearThief_1: -1280314242175112486
+      BearThief_10: 1896118496994124887
+      BearThief_11: -2583348484708295795
+      BearThief_12: 6759465152860906846
+      BearThief_13: -4706339669114182098
+      BearThief_14: 6322991435315612910
+      BearThief_15: -7570725422223233480
+      BearThief_16: 2378696011262450694
+      BearThief_17: -1818957239458939902
+      BearThief_18: 8154067351092768751
+      BearThief_19: -5806104925729780632
+      BearThief_2: 6396610601841321826
+      BearThief_20: 3583124345532226940
+      BearThief_21: 395724268391076356
+      BearThief_22: -1067945916292304421
+      BearThief_23: -3250569152173026726
+      BearThief_24: 6134093832526523531
+      BearThief_25: -7299464178258973505
+      BearThief_26: -6090148415828416919
+      BearThief_27: -6040843360100684577
+      BearThief_28: -8383245610071041408
+      BearThief_29: 721928851287712976
+      BearThief_3: -1889138811930266445
+      BearThief_30: 792487498750093139
+      BearThief_31: -4733915435163354138
+      BearThief_32: 1605595786829692649
+      BearThief_33: 3866622577194161338
+      BearThief_34: 3652296321861415807
+      BearThief_35: -3005637204885369401
+      BearThief_36: -2859027100097299924
+      BearThief_37: 4277323050215685318
+      BearThief_38: 4492288313106707585
+      BearThief_39: -7499280174932526520
+      BearThief_4: -2773923719570069807
+      BearThief_40: -25631649734827168
+      BearThief_41: 6936154633945312726
+      BearThief_42: 3719957058839042144
+      BearThief_43: -8143188449288941906
+      BearThief_44: 5624162898897159399
+      BearThief_45: -1868035158388012782
+      BearThief_5: -4764521884529770269
+      BearThief_6: 8190062371630202529
+      BearThief_7: -3050811281674892476
+      BearThief_8: -7267674313412928210
+      BearThief_9: 4176410860834419031
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

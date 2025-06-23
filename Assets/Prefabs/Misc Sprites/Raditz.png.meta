@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 7f52813988673da4591577dec3e39c83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8879509252304347355
+    second: Raditz_0
+  - first:
+      213: -2060440417156041312
+    second: Raditz_1
+  - first:
+      213: 2585305130459153847
+    second: Raditz_2
+  - first:
+      213: -9107437816385829970
+    second: Raditz_3
+  - first:
+      213: -2793936567509615792
+    second: Raditz_4
+  - first:
+      213: -70247615832978517
+    second: Raditz_5
+  - first:
+      213: -2398667062037727172
+    second: Raditz_6
+  - first:
+      213: 6712408255521546801
+    second: Raditz_7
+  - first:
+      213: -5585997112356152947
+    second: Raditz_8
+  - first:
+      213: 520628317703790726
+    second: Raditz_9
+  - first:
+      213: 8212862516854992700
+    second: Raditz_10
+  - first:
+      213: -6745685793463481508
+    second: Raditz_11
+  - first:
+      213: -26579541102666190
+    second: Raditz_12
+  - first:
+      213: 7838999166250059712
+    second: Raditz_13
+  - first:
+      213: -3657682051687962090
+    second: Raditz_14
+  - first:
+      213: 5132710095713925011
+    second: Raditz_15
+  - first:
+      213: 6865535673715644371
+    second: Raditz_16
+  - first:
+      213: -7275483180363036288
+    second: Raditz_17
+  - first:
+      213: 1401090670627155610
+    second: Raditz_18
+  - first:
+      213: -7187169294493396307
+    second: Raditz_19
+  - first:
+      213: 1795056974415811091
+    second: Raditz_20
+  - first:
+      213: 2222702822197026784
+    second: Raditz_21
+  - first:
+      213: 3376607812296666912
+    second: Raditz_22
+  - first:
+      213: 678771276121036258
+    second: Raditz_23
+  - first:
+      213: 7220274569584839967
+    second: Raditz_24
+  - first:
+      213: 1250999763903862119
+    second: Raditz_25
+  - first:
+      213: 3971813177880301569
+    second: Raditz_26
+  - first:
+      213: -5053238777365080329
+    second: Raditz_27
+  - first:
+      213: -3323690992664372562
+    second: Raditz_28
+  - first:
+      213: 5010220212723749362
+    second: Raditz_29
+  - first:
+      213: -5716569230302125050
+    second: Raditz_30
+  - first:
+      213: 5336249242440045064
+    second: Raditz_31
+  - first:
+      213: -4601135905176824475
+    second: Raditz_32
+  - first:
+      213: 5039426298574043392
+    second: Raditz_33
+  - first:
+      213: -1706675752636520325
+    second: Raditz_34
+  - first:
+      213: -6581376996061508769
+    second: Raditz_35
+  - first:
+      213: 7042932807197728755
+    second: Raditz_36
+  - first:
+      213: -5197276512283186033
+    second: Raditz_37
+  - first:
+      213: 7643699057293737888
+    second: Raditz_38
+  - first:
+      213: 2276528771254754571
+    second: Raditz_39
+  - first:
+      213: -5813485860053518427
+    second: Raditz_40
+  - first:
+      213: 4498164244943384752
+    second: Raditz_41
+  - first:
+      213: -2215431858214588916
+    second: Raditz_42
+  - first:
+      213: -7648615341215272456
+    second: Raditz_43
+  - first:
+      213: 6871532883616442718
+    second: Raditz_44
+  - first:
+      213: 7196770342907048813
+    second: Raditz_45
+  - first:
+      213: 7882293384279122760
+    second: Raditz_46
+  - first:
+      213: -5485208497873811243
+    second: Raditz_47
+  - first:
+      213: -5151922684462055662
+    second: Raditz_48
+  - first:
+      213: -8122725541617785458
+    second: Raditz_49
+  - first:
+      213: 9135049101157175216
+    second: Raditz_50
+  - first:
+      213: 6718971594517550031
+    second: Raditz_51
+  - first:
+      213: -7025220447448012940
+    second: Raditz_52
+  - first:
+      213: 4316763864025830370
+    second: Raditz_53
+  - first:
+      213: 233876846837496430
+    second: Raditz_54
+  - first:
+      213: -1884960636419166972
+    second: Raditz_55
+  - first:
+      213: 5937960261638308941
+    second: Raditz_56
+  - first:
+      213: -7756270968061307454
+    second: Raditz_57
+  - first:
+      213: -3101141696479888784
+    second: Raditz_58
+  - first:
+      213: 4549268568326316116
+    second: Raditz_59
+  - first:
+      213: -2533066147405088917
+    second: Raditz_60
+  - first:
+      213: -9173802633616021069
+    second: Raditz_61
+  - first:
+      213: 6690991286486864222
+    second: Raditz_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Raditz_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 495
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0256b8e9a5a3b70800000000000000
+      internalID: 8879509252304347355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 495
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a57e867b58d763e0800000000000000
+      internalID: -2060440417156041312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 490
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b543019159d0e320800000000000000
+      internalID: 2585305130459153847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 489
+        width: 147
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea30d5c2f81eb9180800000000000000
+      internalID: -9107437816385829970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_4
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 490
+        width: 147
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b7d98ae71f939d0800000000000000
+      internalID: -2793936567509615792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_5
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 490
+        width: 147
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab05f36a2e660ff0800000000000000
+      internalID: -70247615832978517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 463
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38bfc8040936bed0800000000000000
+      internalID: -2398667062037727172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 463
+        width: 61
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132e2c99eb3472d50800000000000000
+      internalID: 6712408255521546801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 461
+        width: 111
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8957a1e83d8a72b0800000000000000
+      internalID: -5585997112356152947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 459
+        width: 60
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6806eb052b4a93700800000000000000
+      internalID: 520628317703790726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_10
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 457
+        width: 86
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f234a02f2f9f170800000000000000
+      internalID: 8212862516854992700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_11
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 457
+        width: 74
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bc532d2828262a0800000000000000
+      internalID: -6745685793463481508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 371
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e58465c0291aff0800000000000000
+      internalID: -26579541102666190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 371
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c70bea7538b9cc60800000000000000
+      internalID: 7838999166250059712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 371
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a21df9d8d4d3dc0800000000000000
+      internalID: -3657682051687962090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 371
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397f61643ac0b3740800000000000000
+      internalID: 5132710095713925011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 374
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7d790f158474f50800000000000000
+      internalID: 6865535673715644371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_17
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 387
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089c129389a480b90800000000000000
+      internalID: -7275483180363036288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_18
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 375
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e68d8aa8ca17310800000000000000
+      internalID: 1401090670627155610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_19
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 370
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2502d1b9b024c90800000000000000
+      internalID: -7187169294493396307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_20
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 370
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31254afbec259e810800000000000000
+      internalID: 1795056974415811091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_21
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 358
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efdf4eb070a8de10800000000000000
+      internalID: 2222702822197026784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_22
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 358
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f60cd4aee1cde20800000000000000
+      internalID: 3376607812296666912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_23
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 357
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5deec11ea7b6900800000000000000
+      internalID: 678771276121036258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 326
+        width: 56
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d04e46771933460800000000000000
+      internalID: 7220274569584839967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 326
+        width: 87
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765569d38a17c5110800000000000000
+      internalID: 1250999763903862119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_26
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 326
+        width: 74
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10055cdaa07be1730800000000000000
+      internalID: 3971813177880301569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_27
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 328
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6dcedea1a4fd9b0800000000000000
+      internalID: -5053238777365080329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_28
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 328
+        width: 87
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa131fd6a0efd1d0800000000000000
+      internalID: -3323690992664372562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_29
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 328
+        width: 74
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f191e9fcb0e78540800000000000000
+      internalID: 5010220212723749362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_30
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 328
+        width: 79
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604e9ed929aaaa0b0800000000000000
+      internalID: -5716569230302125050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_31
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 328
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8021690d96a2e0a40800000000000000
+      internalID: 5336249242440045064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_32
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 328
+        width: 64
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565d3a8a54b7520c0800000000000000
+      internalID: -4601135905176824475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_33
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 327
+        width: 88
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009744eb483afe540800000000000000
+      internalID: 5039426298574043392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 233
+        width: 39
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78e351027ba058e0800000000000000
+      internalID: -1706675752636520325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_35
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 236
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b83d0ed704aa4a0800000000000000
+      internalID: -6581376996061508769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_36
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 238
+        width: 58
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff17f5b2168db160800000000000000
+      internalID: 7042932807197728755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_37
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 233
+        width: 49
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c21e56c809fd7b0800000000000000
+      internalID: -5197276512283186033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_38
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 234
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af3bf76bcfd31a60800000000000000
+      internalID: 7643699057293737888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_39
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 232
+        width: 53
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d989b1bdad79f10800000000000000
+      internalID: 2276528771254754571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_40
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 234
+        width: 45
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7f0c45969525fa0800000000000000
+      internalID: -5813485860053518427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_41
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 236
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0b6396c80bc6e30800000000000000
+      internalID: 4498164244943384752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_42
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 238
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e290b76743141e0800000000000000
+      internalID: -2215431858214588916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_43
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 109
+        width: 233
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1b24b0fd8aad590800000000000000
+      internalID: -7648615341215272456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_44
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 32
+        width: 237
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59af5e20c69c5f50800000000000000
+      internalID: 6871532883616442718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_45
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 114
+        width: 258
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d637a0b2f7010e360800000000000000
+      internalID: 7196770342907048813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_46
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 204
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8436e512218836d60800000000000000
+      internalID: 7882293384279122760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_47
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 178
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8074ddeef90e3b0800000000000000
+      internalID: -5485208497873811243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_48
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 178
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fbc525d91b088b0800000000000000
+      internalID: -5151922684462055662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_49
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 204
+        width: 78
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8521ebe728464f80800000000000000
+      internalID: -8122725541617785458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_50
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 131
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf893802c636ce70800000000000000
+      internalID: 9135049101157175216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_51
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 56
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3982b01159e3d50800000000000000
+      internalID: 6718971594517550031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_52
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 56
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477ec096937618e90800000000000000
+      internalID: -7025220447448012940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_53
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 56
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e39086fcd938eb30800000000000000
+      internalID: 4316763864025830370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_54
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 82
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6affe8c0c5ee3300800000000000000
+      internalID: 233876846837496430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_55
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 82
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d24a2c94647d5e0800000000000000
+      internalID: -1884960636419166972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_56
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 82
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d444655b56fd76250800000000000000
+      internalID: 5937960261638308941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_57
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 82
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5d70726a03c5490800000000000000
+      internalID: -7756270968061307454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_58
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 82
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07af92fbe0886f4d0800000000000000
+      internalID: -3101141696479888784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_59
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 82
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450a0fae8af322f30800000000000000
+      internalID: 4549268568326316116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_60
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 82
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b673a5b72cdb8dcd0800000000000000
+      internalID: -2533066147405088917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_61
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 4
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b926cf0c1b10b080800000000000000
+      internalID: -9173802633616021069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raditz_62
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 5
+        width: 116
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51984aef1d2bdc50800000000000000
+      internalID: 6690991286486864222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Raditz_0: 8879509252304347355
+      Raditz_1: -2060440417156041312
+      Raditz_10: 8212862516854992700
+      Raditz_11: -6745685793463481508
+      Raditz_12: -26579541102666190
+      Raditz_13: 7838999166250059712
+      Raditz_14: -3657682051687962090
+      Raditz_15: 5132710095713925011
+      Raditz_16: 6865535673715644371
+      Raditz_17: -7275483180363036288
+      Raditz_18: 1401090670627155610
+      Raditz_19: -7187169294493396307
+      Raditz_2: 2585305130459153847
+      Raditz_20: 1795056974415811091
+      Raditz_21: 2222702822197026784
+      Raditz_22: 3376607812296666912
+      Raditz_23: 678771276121036258
+      Raditz_24: 7220274569584839967
+      Raditz_25: 1250999763903862119
+      Raditz_26: 3971813177880301569
+      Raditz_27: -5053238777365080329
+      Raditz_28: -3323690992664372562
+      Raditz_29: 5010220212723749362
+      Raditz_3: -9107437816385829970
+      Raditz_30: -5716569230302125050
+      Raditz_31: 5336249242440045064
+      Raditz_32: -4601135905176824475
+      Raditz_33: 5039426298574043392
+      Raditz_34: -1706675752636520325
+      Raditz_35: -6581376996061508769
+      Raditz_36: 7042932807197728755
+      Raditz_37: -5197276512283186033
+      Raditz_38: 7643699057293737888
+      Raditz_39: 2276528771254754571
+      Raditz_4: -2793936567509615792
+      Raditz_40: -5813485860053518427
+      Raditz_41: 4498164244943384752
+      Raditz_42: -2215431858214588916
+      Raditz_43: -7648615341215272456
+      Raditz_44: 6871532883616442718
+      Raditz_45: 7196770342907048813
+      Raditz_46: 7882293384279122760
+      Raditz_47: -5485208497873811243
+      Raditz_48: -5151922684462055662
+      Raditz_49: -8122725541617785458
+      Raditz_5: -70247615832978517
+      Raditz_50: 9135049101157175216
+      Raditz_51: 6718971594517550031
+      Raditz_52: -7025220447448012940
+      Raditz_53: 4316763864025830370
+      Raditz_54: 233876846837496430
+      Raditz_55: -1884960636419166972
+      Raditz_56: 5937960261638308941
+      Raditz_57: -7756270968061307454
+      Raditz_58: -3101141696479888784
+      Raditz_59: 4549268568326316116
+      Raditz_6: -2398667062037727172
+      Raditz_60: -2533066147405088917
+      Raditz_61: -9173802633616021069
+      Raditz_62: 6690991286486864222
+      Raditz_7: 6712408255521546801
+      Raditz_8: -5585997112356152947
+      Raditz_9: 520628317703790726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3705 @@
+fileFormatVersion: 2
+guid: f2174257521644248b771bc79b9befdd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7244599959823007193
+    second: BearSoldier_0
+  - first:
+      213: -4864412162016965580
+    second: BearSoldier_1
+  - first:
+      213: 380204050942454129
+    second: BearSoldier_2
+  - first:
+      213: -6647676221823124788
+    second: BearSoldier_3
+  - first:
+      213: -5720448382605139564
+    second: BearSoldier_4
+  - first:
+      213: 256560489430670513
+    second: BearSoldier_5
+  - first:
+      213: 8814395200909932447
+    second: BearSoldier_6
+  - first:
+      213: 4179043876469310566
+    second: BearSoldier_7
+  - first:
+      213: 7541792597680895393
+    second: BearSoldier_8
+  - first:
+      213: -2899834422812596053
+    second: BearSoldier_9
+  - first:
+      213: 3552067539874476009
+    second: BearSoldier_10
+  - first:
+      213: -4980109729329952123
+    second: BearSoldier_11
+  - first:
+      213: 5206886730933189192
+    second: BearSoldier_12
+  - first:
+      213: 3353957202193197287
+    second: BearSoldier_13
+  - first:
+      213: 1738385007917854971
+    second: BearSoldier_14
+  - first:
+      213: -2805462032623756565
+    second: BearSoldier_15
+  - first:
+      213: 5957016507338500154
+    second: BearSoldier_16
+  - first:
+      213: 576739865661860442
+    second: BearSoldier_17
+  - first:
+      213: -235436099240964841
+    second: BearSoldier_18
+  - first:
+      213: 1315590791722791131
+    second: BearSoldier_19
+  - first:
+      213: 333662059832835916
+    second: BearSoldier_20
+  - first:
+      213: -7210573754992203762
+    second: BearSoldier_21
+  - first:
+      213: 8909096687225894693
+    second: BearSoldier_22
+  - first:
+      213: -4379250860899475820
+    second: BearSoldier_23
+  - first:
+      213: -528782001586604551
+    second: BearSoldier_24
+  - first:
+      213: 854777079533570888
+    second: BearSoldier_25
+  - first:
+      213: 4001036887794282575
+    second: BearSoldier_26
+  - first:
+      213: 9216103269348978329
+    second: BearSoldier_27
+  - first:
+      213: 386820862785127073
+    second: BearSoldier_28
+  - first:
+      213: 1093625674911777134
+    second: BearSoldier_29
+  - first:
+      213: 8560954635219063451
+    second: BearSoldier_30
+  - first:
+      213: -2979985722165341611
+    second: BearSoldier_31
+  - first:
+      213: 1963776302509301825
+    second: BearSoldier_32
+  - first:
+      213: -6129107099782997823
+    second: BearSoldier_33
+  - first:
+      213: 3748851754333024070
+    second: BearSoldier_34
+  - first:
+      213: -2195107927119951737
+    second: BearSoldier_35
+  - first:
+      213: -1170213857046088943
+    second: BearSoldier_36
+  - first:
+      213: 6784255082794572686
+    second: BearSoldier_37
+  - first:
+      213: 4568537730274278191
+    second: BearSoldier_38
+  - first:
+      213: 8777668220732341942
+    second: BearSoldier_39
+  - first:
+      213: 5655044269325212180
+    second: BearSoldier_40
+  - first:
+      213: -5751784560718402759
+    second: BearSoldier_41
+  - first:
+      213: 4145992708420974312
+    second: BearSoldier_42
+  - first:
+      213: 5850374576321123567
+    second: BearSoldier_43
+  - first:
+      213: 4170573376064077799
+    second: BearSoldier_44
+  - first:
+      213: -5628579012126406693
+    second: BearSoldier_45
+  - first:
+      213: 3942763620059525719
+    second: BearSoldier_46
+  - first:
+      213: -7567673808054034877
+    second: BearSoldier_47
+  - first:
+      213: -3872111928937266591
+    second: BearSoldier_48
+  - first:
+      213: 8691839892878574578
+    second: BearSoldier_49
+  - first:
+      213: 1830336510763021843
+    second: BearSoldier_50
+  - first:
+      213: 842729190168450836
+    second: BearSoldier_51
+  - first:
+      213: 8380183587091757050
+    second: BearSoldier_52
+  - first:
+      213: 3504399481031257431
+    second: BearSoldier_53
+  - first:
+      213: 8395697165293985389
+    second: BearSoldier_54
+  - first:
+      213: 4641855205623881776
+    second: BearSoldier_55
+  - first:
+      213: 4972399428789340237
+    second: BearSoldier_56
+  - first:
+      213: -2436800174367539274
+    second: BearSoldier_57
+  - first:
+      213: 5940401641242577174
+    second: BearSoldier_58
+  - first:
+      213: -2404018890382097822
+    second: BearSoldier_59
+  - first:
+      213: -5560009062512705222
+    second: BearSoldier_60
+  - first:
+      213: -7120094598867312343
+    second: BearSoldier_61
+  - first:
+      213: -726133983661195787
+    second: BearSoldier_62
+  - first:
+      213: 4400484135696741405
+    second: BearSoldier_63
+  - first:
+      213: -8836622910834122381
+    second: BearSoldier_64
+  - first:
+      213: 1192442072606769136
+    second: BearSoldier_65
+  - first:
+      213: 5143728782961301396
+    second: BearSoldier_66
+  - first:
+      213: -7829154977697255590
+    second: BearSoldier_67
+  - first:
+      213: 1845816776719795546
+    second: BearSoldier_68
+  - first:
+      213: 2900569002175524984
+    second: BearSoldier_69
+  - first:
+      213: 3688081427736225853
+    second: BearSoldier_70
+  - first:
+      213: -5199550842556861383
+    second: BearSoldier_71
+  - first:
+      213: -3099223828927353744
+    second: BearSoldier_72
+  - first:
+      213: -4461347490734666322
+    second: BearSoldier_73
+  - first:
+      213: 2121718858484262015
+    second: BearSoldier_74
+  - first:
+      213: -8157627579007028347
+    second: BearSoldier_75
+  - first:
+      213: 6967947334135088096
+    second: BearSoldier_76
+  - first:
+      213: -7461825584969072336
+    second: BearSoldier_77
+  - first:
+      213: -7042493316131053437
+    second: BearSoldier_78
+  - first:
+      213: -8799516996718251294
+    second: BearSoldier_79
+  - first:
+      213: 6094123535400350525
+    second: BearSoldier_80
+  - first:
+      213: -8725462617390512872
+    second: BearSoldier_81
+  - first:
+      213: 1232746920739184262
+    second: BearSoldier_82
+  - first:
+      213: -2727303181702545521
+    second: BearSoldier_83
+  - first:
+      213: 561894275689337469
+    second: BearSoldier_84
+  - first:
+      213: -6205901592069255031
+    second: BearSoldier_85
+  - first:
+      213: -7402291995805873248
+    second: BearSoldier_86
+  - first:
+      213: 5548874977368151865
+    second: BearSoldier_87
+  - first:
+      213: -8985619170212664001
+    second: BearSoldier_88
+  - first:
+      213: 5768595759038020500
+    second: BearSoldier_89
+  - first:
+      213: 3459415786491110770
+    second: BearSoldier_90
+  - first:
+      213: -3860539797024177559
+    second: BearSoldier_91
+  - first:
+      213: 9216440958643364761
+    second: BearSoldier_92
+  - first:
+      213: -3728477852190162677
+    second: BearSoldier_93
+  - first:
+      213: 5473887137251361479
+    second: BearSoldier_94
+  - first:
+      213: -3627346740768828009
+    second: BearSoldier_95
+  - first:
+      213: 3002645435719445598
+    second: BearSoldier_96
+  - first:
+      213: -7421031466354857705
+    second: BearSoldier_97
+  - first:
+      213: 6213155324351190312
+    second: BearSoldier_98
+  - first:
+      213: 5189836702311674183
+    second: BearSoldier_99
+  - first:
+      213: 5383856496896424945
+    second: BearSoldier_100
+  - first:
+      213: 4262674573787200621
+    second: BearSoldier_101
+  - first:
+      213: 61986122528629917
+    second: BearSoldier_102
+  - first:
+      213: 9102092920506653346
+    second: BearSoldier_103
+  - first:
+      213: 2179225587916608723
+    second: BearSoldier_104
+  - first:
+      213: 917303587092677268
+    second: BearSoldier_105
+  - first:
+      213: -7232780672076169172
+    second: BearSoldier_106
+  - first:
+      213: 4973675161573448912
+    second: BearSoldier_107
+  - first:
+      213: -6746111534126518867
+    second: BearSoldier_108
+  - first:
+      213: 7864896216162317261
+    second: BearSoldier_109
+  - first:
+      213: -4302749228794181423
+    second: BearSoldier_110
+  - first:
+      213: 6930627905600123057
+    second: BearSoldier_111
+  - first:
+      213: -1935805771363319990
+    second: BearSoldier_112
+  - first:
+      213: 4760719099494485696
+    second: BearSoldier_113
+  - first:
+      213: 7934572135400365546
+    second: BearSoldier_114
+  - first:
+      213: 7883025273003008130
+    second: BearSoldier_115
+  - first:
+      213: 7176862497339418064
+    second: BearSoldier_116
+  - first:
+      213: 1427201012358483417
+    second: BearSoldier_117
+  - first:
+      213: -379192349567244266
+    second: BearSoldier_118
+  - first:
+      213: -8733825293221079874
+    second: BearSoldier_119
+  - first:
+      213: -3615734237660972543
+    second: BearSoldier_120
+  - first:
+      213: 9055637960112003748
+    second: BearSoldier_121
+  - first:
+      213: 3039547407841491093
+    second: BearSoldier_122
+  - first:
+      213: 479570122033962583
+    second: BearSoldier_123
+  - first:
+      213: 2918731107384719023
+    second: BearSoldier_124
+  - first:
+      213: 5881382843638784656
+    second: BearSoldier_125
+  - first:
+      213: -2786676078545503914
+    second: BearSoldier_126
+  - first:
+      213: -8155258689610621934
+    second: BearSoldier_127
+  - first:
+      213: 3464209684666479105
+    second: BearSoldier_128
+  - first:
+      213: 1243018584490521423
+    second: BearSoldier_129
+  - first:
+      213: 8306042731092653579
+    second: BearSoldier_130
+  - first:
+      213: -6858260815978019056
+    second: BearSoldier_131
+  - first:
+      213: 7682896057961460349
+    second: BearSoldier_132
+  - first:
+      213: 417031042377880912
+    second: BearSoldier_133
+  - first:
+      213: -4236890550398763972
+    second: BearSoldier_134
+  - first:
+      213: 2341658561037025062
+    second: BearSoldier_135
+  - first:
+      213: -797250434797386750
+    second: BearSoldier_136
+  - first:
+      213: 3777296832137850003
+    second: BearSoldier_137
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BearSoldier_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 722
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722c0f658b2067b90800000000000000
+      internalID: -7244599959823007193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c83e159e22e7cb0800000000000000
+      internalID: -4864412162016965580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 722
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179e696e191c64500800000000000000
+      internalID: 380204050942454129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccafb6872b5beb3a0800000000000000
+      internalID: -6647676221823124788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 723
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491ecd61182ec90b0800000000000000
+      internalID: -5720448382605139564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 723
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc5ae3e76c7f8300800000000000000
+      internalID: 256560489430670513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 667
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97f42c0cb5035a70800000000000000
+      internalID: 8814395200909932447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 667
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66489bd9342fef930800000000000000
+      internalID: 4179043876469310566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_8
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 667
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5b072d864d9a860800000000000000
+      internalID: 7541792597680895393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 667
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba82ec8d4f7b1c7d0800000000000000
+      internalID: -2899834422812596053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_10
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 667
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efe96c9b9a7b4130800000000000000
+      internalID: 3552067539874476009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 667
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a42d0469813eab0800000000000000
+      internalID: -4980109729329952123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_12
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 667
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ab7fef4e3924840800000000000000
+      internalID: 5206886730933189192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_13
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 667
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8a69c2e46ab8e20800000000000000
+      internalID: 3353957202193197287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 615
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0fecf44fbff1810800000000000000
+      internalID: 1738385007917854971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 615
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea9d92352ff019d0800000000000000
+      internalID: -2805462032623756565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_16
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 615
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38ac09a3f29ba250800000000000000
+      internalID: 5957016507338500154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 615
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ae4942addf00800800000000000000
+      internalID: 576739865661860442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 615
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d40797d109bbcf0800000000000000
+      internalID: -235436099240964841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_19
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 615
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd07962dadae14210800000000000000
+      internalID: 1315590791722791131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_20
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 615
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f7c5720e761a400800000000000000
+      internalID: 333662059832835916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 562
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e086fe28f55eeeb90800000000000000
+      internalID: -7210573754992203762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_22
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 562
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52775bf0c3873ab70800000000000000
+      internalID: 8909096687225894693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_23
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 562
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e53c55b86c933c0800000000000000
+      internalID: -4379250860899475820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_24
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 562
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f57fc7329369a8f0800000000000000
+      internalID: -528782001586604551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 562
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b8ebb9937ccdb00800000000000000
+      internalID: 854777079533570888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_26
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 562
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40763ed9d9868730800000000000000
+      internalID: 4001036887794282575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_27
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 562
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99eacde281d26ef70800000000000000
+      internalID: 9216103269348978329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_28
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 562
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2840676834e5500800000000000000
+      internalID: 386820862785127073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_29
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 562
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e610d5ec1c65d2f00800000000000000
+      internalID: 1093625674911777134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 493
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92577202ee9ec670800000000000000
+      internalID: 8560954635219063451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_31
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 493
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552599a36c6f4a6d0800000000000000
+      internalID: -2979985722165341611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_32
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 493
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140a561842cb04b10800000000000000
+      internalID: 1963776302509301825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_33
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 493
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c81c1fe09901faa0800000000000000
+      internalID: -6129107099782997823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_34
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 493
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fae9ceec8960430800000000000000
+      internalID: 3748851754333024070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_35
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 493
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7880f5078f86981e0800000000000000
+      internalID: -2195107927119951737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_36
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 493
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113378372b092cfe0800000000000000
+      internalID: -1170213857046088943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_37
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 530
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bdb93ad04862e50800000000000000
+      internalID: 6784255082794572686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_38
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 530
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bb7fb4cd4b66f30800000000000000
+      internalID: 4568537730274278191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_39
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 530
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be7cfc9dba80d970800000000000000
+      internalID: 8777668220732341942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_40
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 517
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41adc3e1dc0ca7e40800000000000000
+      internalID: 5655044269325212180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_41
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 517
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93badc19a6e8d20b0800000000000000
+      internalID: -5751784560718402759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_42
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 493
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6bac2e666898930800000000000000
+      internalID: 4145992708420974312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_43
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 491
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4d8983ea4b03150800000000000000
+      internalID: 5850374576321123567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_44
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 493
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef300e836ad0e930800000000000000
+      internalID: 4170573376064077799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 476
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd78cffb53543e1b0800000000000000
+      internalID: -5628579012126406693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 476
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7523bfe6f9287b630800000000000000
+      internalID: 3942763620059525719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_47
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 474
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e59ee44c83af690800000000000000
+      internalID: -7567673808054034877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_48
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 476
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162442947be734ac0800000000000000
+      internalID: -3872111928937266591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_49
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 476
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3c89bc45e9f9870800000000000000
+      internalID: 8691839892878574578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_50
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 476
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3163577eb59a66910800000000000000
+      internalID: 1830336510763021843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_51
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 476
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417d7d5cbb9f1bb00800000000000000
+      internalID: 842729190168450836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_52
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 432
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7b92582946c4470800000000000000
+      internalID: 8380183587091757050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_53
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 428
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d6ee9c2c022a030800000000000000
+      internalID: 3504399481031257431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_54
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 428
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e1a1be612838470800000000000000
+      internalID: 8395697165293985389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_55
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 428
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030620647be2b6040800000000000000
+      internalID: 4641855205623881776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_56
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 446
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4808528fe2810540800000000000000
+      internalID: 4972399428789340237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_57
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 458
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf7632f62fbe2ed0800000000000000
+      internalID: -2436800174367539274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_58
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 428
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6194961b1db807250800000000000000
+      internalID: 5940401641242577174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_59
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 466
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26242756e8533aed0800000000000000
+      internalID: -2404018890382097822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_60
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 461
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a314af04731e6d2b0800000000000000
+      internalID: -5560009062512705222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_61
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 461
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921265bafa7503d90800000000000000
+      internalID: -7120094598867312343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_62
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 438
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdf8843df04ce5f0800000000000000
+      internalID: -726133983661195787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_63
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 428
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1432f3b109a11d30800000000000000
+      internalID: 4400484135696741405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_64
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 424
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37167a1f7420e5580800000000000000
+      internalID: -8836622910834122381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_65
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 405
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fff4f84fb76c8010800000000000000
+      internalID: 1192442072606769136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_66
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 405
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4975c515312326740800000000000000
+      internalID: 5143728782961301396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_67
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 403
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fafd64701495390800000000000000
+      internalID: -7829154977697255590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 405
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5507d03498ad9910800000000000000
+      internalID: 1845816776719795546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_69
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 405
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8707e2db324e04820800000000000000
+      internalID: 2900569002175524984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_70
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 405
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38eeeaa482be2330800000000000000
+      internalID: 3688081427736225853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_71
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 405
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934b0dd9e0c77d7b0800000000000000
+      internalID: -5199550842556861383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_72
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 405
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ceb5519585df4d0800000000000000
+      internalID: -3099223828927353744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_73
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 338
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead0e2b281c1612c0800000000000000
+      internalID: -4461347490734666322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_74
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 340
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74a3397f0cd17d10800000000000000
+      internalID: 2121718858484262015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_75
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 338
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5833b5710f84ace80800000000000000
+      internalID: -8157627579007028347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_76
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 372
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e380c0ce2f13b060800000000000000
+      internalID: 6967947334135088096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_77
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 338
+        width: 78
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0314ff73a25427890800000000000000
+      internalID: -7461825584969072336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_78
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 336
+        width: 83
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38022f644a9044e90800000000000000
+      internalID: -7042493316131053437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_79
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 333
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2b89fc9e5d1e580800000000000000
+      internalID: -8799516996718251294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_80
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 340
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33b2e0411da29450800000000000000
+      internalID: 6094123535400350525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_81
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 253
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8150d7d9afde8e680800000000000000
+      internalID: -8725462617390512872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_82
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 249
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e9d940bc89b1110800000000000000
+      internalID: 1232746920739184262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_83
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 252
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fb3d3c43ca62ad0800000000000000
+      internalID: -2727303181702545521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_84
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 250
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72d9cfdddf3cc700800000000000000
+      internalID: 561894275689337469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_85
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 308
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9805eadd16530e9a0800000000000000
+      internalID: -6205901592069255031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_86
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 256
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab064a16a6c54990800000000000000
+      internalID: -7402291995805873248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_87
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 309
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93715198460910d40800000000000000
+      internalID: 5548874977368151865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_88
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 264
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3da888f8faac4380800000000000000
+      internalID: -8985619170212664001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_89
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 254
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b394e874b2e0050800000000000000
+      internalID: 5768595759038020500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_90
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 264
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2756e2c3450520030800000000000000
+      internalID: 3459415786491110770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_91
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 262
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9628d15328b9c6ac0800000000000000
+      internalID: -3860539797024177559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_92
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 180
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9936c49983067ef70800000000000000
+      internalID: 9216440958643364761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_93
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 217
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b014b43d529c14cc0800000000000000
+      internalID: -3728477852190162677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_94
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 238
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c28274795727fb40800000000000000
+      internalID: 5473887137251361479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7959d479b5319adc0800000000000000
+      internalID: -3627346740768828009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_96
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 229
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c61867d1a8ba920800000000000000
+      internalID: 3002645435719445598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_97
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 230
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7192cec1333330990800000000000000
+      internalID: -7421031466354857705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 227
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825974a49df893650800000000000000
+      internalID: 6213155324351190312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_99
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 237
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741729bdbf0060840800000000000000
+      internalID: 5189836702311674183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_100
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 211
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbb03385fc47ba40800000000000000
+      internalID: 5383856496896424945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_101
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 216
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cfca3b0ff082b30800000000000000
+      internalID: 4262674573787200621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_102
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 224
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94a25ecc083cd000800000000000000
+      internalID: 61986122528629917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_103
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 220
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa95674941215e70800000000000000
+      internalID: 9102092920506653346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_104
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 125
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4163d402a2e3e10800000000000000
+      internalID: 2179225587916608723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_105
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 125
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492c9db90caeabc00800000000000000
+      internalID: 917303587092677268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_106
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 125
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20c696bc4000ab90800000000000000
+      internalID: -7232780672076169172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_107
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 142
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcd4c1353b060540800000000000000
+      internalID: 4973675161573448912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_108
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 142
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad29395d4ff062a0800000000000000
+      internalID: -6746111534126518867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 142
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc33ba74079b52d60800000000000000
+      internalID: 7864896216162317261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_110
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 142
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d803249f509944c0800000000000000
+      internalID: -4302749228794181423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_111
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 114
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b074bf2c598e2060800000000000000
+      internalID: 6930627905600123057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_112
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 114
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ffcb348e2a225e0800000000000000
+      internalID: -1935805771363319990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_113
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 114
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce49c03cc8711240800000000000000
+      internalID: 4760719099494485696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_114
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 119
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed504761534d1e60800000000000000
+      internalID: 7934572135400365546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_115
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 119
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28065c048b1266d60800000000000000
+      internalID: 7883025273003008130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_116
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 119
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d52dbbaa66599360800000000000000
+      internalID: 7176862497339418064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_117
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 119
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd84b452cf6ec310800000000000000
+      internalID: 1427201012358483417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_118
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 119
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618af7e2196dcbaf0800000000000000
+      internalID: -379192349567244266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_119
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 119
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb45c3b6b283bc680800000000000000
+      internalID: -8733825293221079874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_120
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 119
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10afff92ed452ddc0800000000000000
+      internalID: -3615734237660972543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_121
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 119
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aad403feb61cad70800000000000000
+      internalID: 9055637960112003748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_122
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 119
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598f9526344ae2a20800000000000000
+      internalID: 3039547407841491093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_123
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 119
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e99b03c76c7a600800000000000000
+      internalID: 479570122033962583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_124
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 119
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa67c826a7a618820800000000000000
+      internalID: 2918731107384719023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_125
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092aa2f098ede9150800000000000000
+      internalID: 5881382843638784656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_126
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 70
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659773afedcb359d0800000000000000
+      internalID: -2786676078545503914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_127
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 70
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c57522e63b2de80800000000000000
+      internalID: -8155258689610621934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_128
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 70
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1027302aa58531030800000000000000
+      internalID: 3464209684666479105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_129
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 70
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4334c911d6104110800000000000000
+      internalID: 1243018584490521423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_130
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 93
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b063efb4bddf44370800000000000000
+      internalID: 8306042731092653579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_131
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 93
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01746aedf1092d0a0800000000000000
+      internalID: -6858260815978019056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_132
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 66
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72ba0d42412f9a60800000000000000
+      internalID: 7682896057961460349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_133
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 66
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0559e35068799c500800000000000000
+      internalID: 417031042377880912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_134
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 66
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cb54f0e7a8335c0800000000000000
+      internalID: -4236890550398763972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_135
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 59
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f3ddbfd0e3f7020800000000000000
+      internalID: 2341658561037025062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_136
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 59
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20440ec14f89fe4f0800000000000000
+      internalID: -797250434797386750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearSoldier_137
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 5
+        width: 332
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ce8c2b477ab6430800000000000000
+      internalID: 3777296832137850003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BearSoldier_0: -7244599959823007193
+      BearSoldier_1: -4864412162016965580
+      BearSoldier_10: 3552067539874476009
+      BearSoldier_100: 5383856496896424945
+      BearSoldier_101: 4262674573787200621
+      BearSoldier_102: 61986122528629917
+      BearSoldier_103: 9102092920506653346
+      BearSoldier_104: 2179225587916608723
+      BearSoldier_105: 917303587092677268
+      BearSoldier_106: -7232780672076169172
+      BearSoldier_107: 4973675161573448912
+      BearSoldier_108: -6746111534126518867
+      BearSoldier_109: 7864896216162317261
+      BearSoldier_11: -4980109729329952123
+      BearSoldier_110: -4302749228794181423
+      BearSoldier_111: 6930627905600123057
+      BearSoldier_112: -1935805771363319990
+      BearSoldier_113: 4760719099494485696
+      BearSoldier_114: 7934572135400365546
+      BearSoldier_115: 7883025273003008130
+      BearSoldier_116: 7176862497339418064
+      BearSoldier_117: 1427201012358483417
+      BearSoldier_118: -379192349567244266
+      BearSoldier_119: -8733825293221079874
+      BearSoldier_12: 5206886730933189192
+      BearSoldier_120: -3615734237660972543
+      BearSoldier_121: 9055637960112003748
+      BearSoldier_122: 3039547407841491093
+      BearSoldier_123: 479570122033962583
+      BearSoldier_124: 2918731107384719023
+      BearSoldier_125: 5881382843638784656
+      BearSoldier_126: -2786676078545503914
+      BearSoldier_127: -8155258689610621934
+      BearSoldier_128: 3464209684666479105
+      BearSoldier_129: 1243018584490521423
+      BearSoldier_13: 3353957202193197287
+      BearSoldier_130: 8306042731092653579
+      BearSoldier_131: -6858260815978019056
+      BearSoldier_132: 7682896057961460349
+      BearSoldier_133: 417031042377880912
+      BearSoldier_134: -4236890550398763972
+      BearSoldier_135: 2341658561037025062
+      BearSoldier_136: -797250434797386750
+      BearSoldier_137: 3777296832137850003
+      BearSoldier_14: 1738385007917854971
+      BearSoldier_15: -2805462032623756565
+      BearSoldier_16: 5957016507338500154
+      BearSoldier_17: 576739865661860442
+      BearSoldier_18: -235436099240964841
+      BearSoldier_19: 1315590791722791131
+      BearSoldier_2: 380204050942454129
+      BearSoldier_20: 333662059832835916
+      BearSoldier_21: -7210573754992203762
+      BearSoldier_22: 8909096687225894693
+      BearSoldier_23: -4379250860899475820
+      BearSoldier_24: -528782001586604551
+      BearSoldier_25: 854777079533570888
+      BearSoldier_26: 4001036887794282575
+      BearSoldier_27: 9216103269348978329
+      BearSoldier_28: 386820862785127073
+      BearSoldier_29: 1093625674911777134
+      BearSoldier_3: -6647676221823124788
+      BearSoldier_30: 8560954635219063451
+      BearSoldier_31: -2979985722165341611
+      BearSoldier_32: 1963776302509301825
+      BearSoldier_33: -6129107099782997823
+      BearSoldier_34: 3748851754333024070
+      BearSoldier_35: -2195107927119951737
+      BearSoldier_36: -1170213857046088943
+      BearSoldier_37: 6784255082794572686
+      BearSoldier_38: 4568537730274278191
+      BearSoldier_39: 8777668220732341942
+      BearSoldier_4: -5720448382605139564
+      BearSoldier_40: 5655044269325212180
+      BearSoldier_41: -5751784560718402759
+      BearSoldier_42: 4145992708420974312
+      BearSoldier_43: 5850374576321123567
+      BearSoldier_44: 4170573376064077799
+      BearSoldier_45: -5628579012126406693
+      BearSoldier_46: 3942763620059525719
+      BearSoldier_47: -7567673808054034877
+      BearSoldier_48: -3872111928937266591
+      BearSoldier_49: 8691839892878574578
+      BearSoldier_5: 256560489430670513
+      BearSoldier_50: 1830336510763021843
+      BearSoldier_51: 842729190168450836
+      BearSoldier_52: 8380183587091757050
+      BearSoldier_53: 3504399481031257431
+      BearSoldier_54: 8395697165293985389
+      BearSoldier_55: 4641855205623881776
+      BearSoldier_56: 4972399428789340237
+      BearSoldier_57: -2436800174367539274
+      BearSoldier_58: 5940401641242577174
+      BearSoldier_59: -2404018890382097822
+      BearSoldier_6: 8814395200909932447
+      BearSoldier_60: -5560009062512705222
+      BearSoldier_61: -7120094598867312343
+      BearSoldier_62: -726133983661195787
+      BearSoldier_63: 4400484135696741405
+      BearSoldier_64: -8836622910834122381
+      BearSoldier_65: 1192442072606769136
+      BearSoldier_66: 5143728782961301396
+      BearSoldier_67: -7829154977697255590
+      BearSoldier_68: 1845816776719795546
+      BearSoldier_69: 2900569002175524984
+      BearSoldier_7: 4179043876469310566
+      BearSoldier_70: 3688081427736225853
+      BearSoldier_71: -5199550842556861383
+      BearSoldier_72: -3099223828927353744
+      BearSoldier_73: -4461347490734666322
+      BearSoldier_74: 2121718858484262015
+      BearSoldier_75: -8157627579007028347
+      BearSoldier_76: 6967947334135088096
+      BearSoldier_77: -7461825584969072336
+      BearSoldier_78: -7042493316131053437
+      BearSoldier_79: -8799516996718251294
+      BearSoldier_8: 7541792597680895393
+      BearSoldier_80: 6094123535400350525
+      BearSoldier_81: -8725462617390512872
+      BearSoldier_82: 1232746920739184262
+      BearSoldier_83: -2727303181702545521
+      BearSoldier_84: 561894275689337469
+      BearSoldier_85: -6205901592069255031
+      BearSoldier_86: -7402291995805873248
+      BearSoldier_87: 5548874977368151865
+      BearSoldier_88: -8985619170212664001
+      BearSoldier_89: 5768595759038020500
+      BearSoldier_9: -2899834422812596053
+      BearSoldier_90: 3459415786491110770
+      BearSoldier_91: -3860539797024177559
+      BearSoldier_92: 9216440958643364761
+      BearSoldier_93: -3728477852190162677
+      BearSoldier_94: 5473887137251361479
+      BearSoldier_95: -3627346740768828009
+      BearSoldier_96: 3002645435719445598
+      BearSoldier_97: -7421031466354857705
+      BearSoldier_98: 6213155324351190312
+      BearSoldier_99: 5189836702311674183
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

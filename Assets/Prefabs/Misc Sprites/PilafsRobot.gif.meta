@@ -1,0 +1,4069 @@
+fileFormatVersion: 2
+guid: a6ec6b3c472a2414ab0dcd8cc6142064
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6914365079953266512
+    second: PilafsRobot_0
+  - first:
+      213: -1885368264410909716
+    second: PilafsRobot_1
+  - first:
+      213: -8110291744961671716
+    second: PilafsRobot_2
+  - first:
+      213: 7665831647315212556
+    second: PilafsRobot_3
+  - first:
+      213: -173641926159122405
+    second: PilafsRobot_4
+  - first:
+      213: -5154339722139618996
+    second: PilafsRobot_5
+  - first:
+      213: -8999338084222841454
+    second: PilafsRobot_6
+  - first:
+      213: 8365314096226254211
+    second: PilafsRobot_7
+  - first:
+      213: 1279417056115745508
+    second: PilafsRobot_8
+  - first:
+      213: -5111906589356839201
+    second: PilafsRobot_9
+  - first:
+      213: 19879509369589161
+    second: PilafsRobot_10
+  - first:
+      213: 3150636585362549467
+    second: PilafsRobot_11
+  - first:
+      213: -322676803458941363
+    second: PilafsRobot_12
+  - first:
+      213: -5177104082763287481
+    second: PilafsRobot_13
+  - first:
+      213: 2187770288330620236
+    second: PilafsRobot_14
+  - first:
+      213: -5840981755502656737
+    second: PilafsRobot_15
+  - first:
+      213: 7069633129511942340
+    second: PilafsRobot_16
+  - first:
+      213: 5361209532812750504
+    second: PilafsRobot_17
+  - first:
+      213: 1121963291627264642
+    second: PilafsRobot_18
+  - first:
+      213: -3202660589070068936
+    second: PilafsRobot_19
+  - first:
+      213: -4533830255625656718
+    second: PilafsRobot_20
+  - first:
+      213: -440650664693223987
+    second: PilafsRobot_21
+  - first:
+      213: 6173746765298217067
+    second: PilafsRobot_22
+  - first:
+      213: -4682441393156210191
+    second: PilafsRobot_23
+  - first:
+      213: 572297705928802615
+    second: PilafsRobot_24
+  - first:
+      213: 6494761352253569749
+    second: PilafsRobot_25
+  - first:
+      213: 8004165440763367952
+    second: PilafsRobot_26
+  - first:
+      213: 2885699732542813609
+    second: PilafsRobot_27
+  - first:
+      213: -325156425851954125
+    second: PilafsRobot_28
+  - first:
+      213: 3267630791556004925
+    second: PilafsRobot_29
+  - first:
+      213: -4073108391386930187
+    second: PilafsRobot_30
+  - first:
+      213: 6020261960195333849
+    second: PilafsRobot_31
+  - first:
+      213: -3530989003448900276
+    second: PilafsRobot_32
+  - first:
+      213: -5206312214437185608
+    second: PilafsRobot_33
+  - first:
+      213: -5685641740601032800
+    second: PilafsRobot_34
+  - first:
+      213: -1895525251488366782
+    second: PilafsRobot_35
+  - first:
+      213: -8756643710572051851
+    second: PilafsRobot_36
+  - first:
+      213: 671648764510055558
+    second: PilafsRobot_37
+  - first:
+      213: -2279986118128064240
+    second: PilafsRobot_38
+  - first:
+      213: -1001905634082565674
+    second: PilafsRobot_39
+  - first:
+      213: -5994271551028041223
+    second: PilafsRobot_40
+  - first:
+      213: -4147176527415688505
+    second: PilafsRobot_41
+  - first:
+      213: 1223932839897858519
+    second: PilafsRobot_42
+  - first:
+      213: -4632564801588272342
+    second: PilafsRobot_43
+  - first:
+      213: 5615281234762979568
+    second: PilafsRobot_44
+  - first:
+      213: 581046621384454486
+    second: PilafsRobot_45
+  - first:
+      213: -5894185082189615229
+    second: PilafsRobot_46
+  - first:
+      213: 4005913532281461691
+    second: PilafsRobot_47
+  - first:
+      213: 8086507988928829273
+    second: PilafsRobot_48
+  - first:
+      213: 8331652536055122720
+    second: PilafsRobot_49
+  - first:
+      213: -7902531334457202240
+    second: PilafsRobot_50
+  - first:
+      213: 330518614861909366
+    second: PilafsRobot_51
+  - first:
+      213: -5824876202080319760
+    second: PilafsRobot_52
+  - first:
+      213: 6617756853158186681
+    second: PilafsRobot_53
+  - first:
+      213: -4869355926042362623
+    second: PilafsRobot_54
+  - first:
+      213: -8858328654197794209
+    second: PilafsRobot_55
+  - first:
+      213: 4288556016418946293
+    second: PilafsRobot_56
+  - first:
+      213: 3704550804090582019
+    second: PilafsRobot_57
+  - first:
+      213: -7944135996425895026
+    second: PilafsRobot_58
+  - first:
+      213: 89715588352775899
+    second: PilafsRobot_59
+  - first:
+      213: -4126430005308573110
+    second: PilafsRobot_60
+  - first:
+      213: 7498023194983535875
+    second: PilafsRobot_61
+  - first:
+      213: 283517409651601158
+    second: PilafsRobot_62
+  - first:
+      213: -6153294287236404921
+    second: PilafsRobot_63
+  - first:
+      213: 3950343406017308952
+    second: PilafsRobot_64
+  - first:
+      213: -981220726627755344
+    second: PilafsRobot_65
+  - first:
+      213: 1157849409026251953
+    second: PilafsRobot_66
+  - first:
+      213: -2930402260785019364
+    second: PilafsRobot_67
+  - first:
+      213: -7209510529951010763
+    second: PilafsRobot_68
+  - first:
+      213: -7361994617315447734
+    second: PilafsRobot_69
+  - first:
+      213: 7133490722806121850
+    second: PilafsRobot_70
+  - first:
+      213: -536570754831802255
+    second: PilafsRobot_71
+  - first:
+      213: 8103021180457027473
+    second: PilafsRobot_72
+  - first:
+      213: -2756357618234859601
+    second: PilafsRobot_73
+  - first:
+      213: -7143859365722520012
+    second: PilafsRobot_74
+  - first:
+      213: -1491141717945558333
+    second: PilafsRobot_75
+  - first:
+      213: -8990913177181651599
+    second: PilafsRobot_76
+  - first:
+      213: -3399641796190347905
+    second: PilafsRobot_77
+  - first:
+      213: 3063161590780982316
+    second: PilafsRobot_78
+  - first:
+      213: 5318107846791004431
+    second: PilafsRobot_79
+  - first:
+      213: 7027525690060991945
+    second: PilafsRobot_80
+  - first:
+      213: 1281663791507642433
+    second: PilafsRobot_81
+  - first:
+      213: 6140897599245728920
+    second: PilafsRobot_82
+  - first:
+      213: 7755003255378150106
+    second: PilafsRobot_83
+  - first:
+      213: 1762590371433669051
+    second: PilafsRobot_84
+  - first:
+      213: 4907226816638654584
+    second: PilafsRobot_85
+  - first:
+      213: 4153052106927410151
+    second: PilafsRobot_86
+  - first:
+      213: -7228704377760177547
+    second: PilafsRobot_87
+  - first:
+      213: -2914411283036979476
+    second: PilafsRobot_88
+  - first:
+      213: -4128534532217108987
+    second: PilafsRobot_89
+  - first:
+      213: -1849288852452062874
+    second: PilafsRobot_90
+  - first:
+      213: -7645023010957711253
+    second: PilafsRobot_91
+  - first:
+      213: -1844253537214168655
+    second: PilafsRobot_92
+  - first:
+      213: -1145780674266470157
+    second: PilafsRobot_93
+  - first:
+      213: 1690869370617005784
+    second: PilafsRobot_94
+  - first:
+      213: 4395475133822799181
+    second: PilafsRobot_95
+  - first:
+      213: 2908144279942650626
+    second: PilafsRobot_96
+  - first:
+      213: 8069471098926835049
+    second: PilafsRobot_97
+  - first:
+      213: 4161899009456851393
+    second: PilafsRobot_98
+  - first:
+      213: -2706604812392591541
+    second: PilafsRobot_99
+  - first:
+      213: -2991083936559739340
+    second: PilafsRobot_100
+  - first:
+      213: -2075958781733134110
+    second: PilafsRobot_101
+  - first:
+      213: -4136971502828942211
+    second: PilafsRobot_102
+  - first:
+      213: 6708191814876154357
+    second: PilafsRobot_103
+  - first:
+      213: 3174011120546772436
+    second: PilafsRobot_104
+  - first:
+      213: -958782798997897876
+    second: PilafsRobot_105
+  - first:
+      213: -7620326121163878097
+    second: PilafsRobot_106
+  - first:
+      213: -3762457423281216798
+    second: PilafsRobot_107
+  - first:
+      213: 3517985325075550025
+    second: PilafsRobot_108
+  - first:
+      213: -3216307020087001326
+    second: PilafsRobot_109
+  - first:
+      213: -4243097285696706992
+    second: PilafsRobot_110
+  - first:
+      213: 2170528740700116609
+    second: PilafsRobot_111
+  - first:
+      213: -1597641485977255184
+    second: PilafsRobot_112
+  - first:
+      213: 8918486765543296889
+    second: PilafsRobot_113
+  - first:
+      213: 1240856920221679265
+    second: PilafsRobot_114
+  - first:
+      213: -6944685624511562213
+    second: PilafsRobot_115
+  - first:
+      213: 6339210040867186380
+    second: PilafsRobot_116
+  - first:
+      213: -6298011862220093397
+    second: PilafsRobot_117
+  - first:
+      213: 38114789652808948
+    second: PilafsRobot_118
+  - first:
+      213: 1924872573413051409
+    second: PilafsRobot_119
+  - first:
+      213: -1812919500120892767
+    second: PilafsRobot_120
+  - first:
+      213: 517728403680553240
+    second: PilafsRobot_121
+  - first:
+      213: -7184735731152351715
+    second: PilafsRobot_122
+  - first:
+      213: 3484089124334750621
+    second: PilafsRobot_123
+  - first:
+      213: -351199541680338443
+    second: PilafsRobot_124
+  - first:
+      213: -3528533385601357671
+    second: PilafsRobot_125
+  - first:
+      213: 4175925011182758797
+    second: PilafsRobot_126
+  - first:
+      213: -2186883831440782353
+    second: PilafsRobot_127
+  - first:
+      213: -7091501849553692984
+    second: PilafsRobot_128
+  - first:
+      213: 8385044784616802219
+    second: PilafsRobot_129
+  - first:
+      213: -3129556147803905845
+    second: PilafsRobot_130
+  - first:
+      213: 8625170980728881048
+    second: PilafsRobot_131
+  - first:
+      213: 6914683012566722569
+    second: PilafsRobot_132
+  - first:
+      213: -6111495810203238698
+    second: PilafsRobot_133
+  - first:
+      213: 5820609928539961302
+    second: PilafsRobot_134
+  - first:
+      213: -791667783463487277
+    second: PilafsRobot_135
+  - first:
+      213: -6858531554044666658
+    second: PilafsRobot_136
+  - first:
+      213: -2891196644479710486
+    second: PilafsRobot_137
+  - first:
+      213: 3063507290883196490
+    second: PilafsRobot_138
+  - first:
+      213: 332140968750543985
+    second: PilafsRobot_139
+  - first:
+      213: 69213682097317456
+    second: PilafsRobot_140
+  - first:
+      213: -4737913080848427989
+    second: PilafsRobot_141
+  - first:
+      213: 5545279542910196320
+    second: PilafsRobot_142
+  - first:
+      213: -621094954490283109
+    second: PilafsRobot_143
+  - first:
+      213: 1304676519536272386
+    second: PilafsRobot_144
+  - first:
+      213: 7516479023953960093
+    second: PilafsRobot_145
+  - first:
+      213: -1750756609884829399
+    second: PilafsRobot_146
+  - first:
+      213: -4158293499446747593
+    second: PilafsRobot_147
+  - first:
+      213: 6769955499787229992
+    second: PilafsRobot_148
+  - first:
+      213: -5645242356191944583
+    second: PilafsRobot_149
+  - first:
+      213: 7828664173940913038
+    second: PilafsRobot_150
+  - first:
+      213: 459999466616988679
+    second: PilafsRobot_151
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PilafsRobot_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 965
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8250af79d3b00a0800000000000000
+      internalID: -6914365079953266512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 965
+        width: 74
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce33ef87d83d5d5e0800000000000000
+      internalID: -1885368264410909716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 965
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddc6ccc0a4727f80800000000000000
+      internalID: -8110291744961671716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_3
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 965
+        width: 74
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09bb269441826a60800000000000000
+      internalID: 7665831647315212556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_4
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 965
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10cb219699179df0800000000000000
+      internalID: -173641926159122405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_5
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 965
+        width: 74
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41be22e45b1878b0800000000000000
+      internalID: -5154339722139618996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_6
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 965
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dc04461bdeb1380800000000000000
+      internalID: -8999338084222841454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_7
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 965
+        width: 74
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d322469d0971470800000000000000
+      internalID: 8365314096226254211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 911
+        width: 71
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2ea5da80761c110800000000000000
+      internalID: 1279417056115745508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 911
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde28608a0cde09b0800000000000000
+      internalID: -5111906589356839201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_10
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 911
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad8846fe40a64000800000000000000
+      internalID: 19879509369589161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 911
+        width: 74
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda62e6184f49bb20800000000000000
+      internalID: 3150636585362549467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 911
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e3298282f958bf0800000000000000
+      internalID: -322676803458941363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_13
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 911
+        width: 75
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7447ba5244b3728b0800000000000000
+      internalID: -5177104082763287481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_14
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 911
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4db9166c758c5e10800000000000000
+      internalID: 2187770288330620236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_15
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 911
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f130abb4a0aa0fea0800000000000000
+      internalID: -5840981755502656737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_16
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 911
+        width: 73
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c874e0ffd16c1260800000000000000
+      internalID: 7069633129511942340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_17
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 911
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aeedb94aa7d66a40800000000000000
+      internalID: 5361209532812750504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 848
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a98785ba3029f00800000000000000
+      internalID: 1121963291627264642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 848
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833d554a92ddd83d0800000000000000
+      internalID: -3202660589070068936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_20
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 849
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276a38d57699411c0800000000000000
+      internalID: -4533830255625656718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_21
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 858
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdabec1e8e72e9f0800000000000000
+      internalID: -440650664693223987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 859
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6031de19fd8da550800000000000000
+      internalID: 6173746765298217067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 857
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1c65f8c50a40fb0800000000000000
+      internalID: -4682441393156210191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_24
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 858
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73148ab3bb531f700800000000000000
+      internalID: 572297705928802615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_25
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 853
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da72060a07022a50800000000000000
+      internalID: 6494761352253569749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_26
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 852
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012982c7f02841f60800000000000000
+      internalID: 8004165440763367952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_27
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 848
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a577ae1e901c0820800000000000000
+      internalID: 2885699732542813609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_28
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 848
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c98a414ffcc7bf0800000000000000
+      internalID: -325156425851954125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_29
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 849
+        width: 83
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cf2db64e4f85d20800000000000000
+      internalID: 3267630791556004925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_30
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 848
+        width: 81
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f328bf8f796977c0800000000000000
+      internalID: -4073108391386930187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 799
+        width: 83
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de5d382b544c8350800000000000000
+      internalID: 6020261960195333849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_32
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 796
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c452e9795386ffec0800000000000000
+      internalID: -3530989003448900276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_33
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 797
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7b1bc00a67fb7b0800000000000000
+      internalID: -5206312214437185608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_34
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 798
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af7753f5fa8811b0800000000000000
+      internalID: -5685641740601032800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_35
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 794
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fb042a3ddb1b5e0800000000000000
+      internalID: -1895525251488366782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_36
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 795
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572c1be90f62a7680800000000000000
+      internalID: -8756643710572051851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_37
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 798
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ca3762efc225900800000000000000
+      internalID: 671648764510055558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_38
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 808
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019a72894bcdb50e0800000000000000
+      internalID: -2279986118128064240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_39
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 744
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1db0652248812f0800000000000000
+      internalID: -1001905634082565674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 744
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f96eb988c110dca0800000000000000
+      internalID: -5994271551028041223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_41
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 744
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2cc86cbe44276c0800000000000000
+      internalID: -4147176527415688505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_42
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 740
+        width: 87
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d10c07ee684cf010800000000000000
+      internalID: 1223932839897858519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_43
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 744
+        width: 79
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a236a5a7bd2d5bfb0800000000000000
+      internalID: -4632564801588272342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_44
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 744
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8d6ff288c7ded40800000000000000
+      internalID: 5615281234762979568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 654
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651bf89d2da401800800000000000000
+      internalID: 581046621384454486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_46
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 654
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f6eaf75e5a33ea0800000000000000
+      internalID: -5894185082189615229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_47
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 654
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb1194222dd79730800000000000000
+      internalID: 4005913532281461691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_48
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 654
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9571679fb2c093070800000000000000
+      internalID: 8086507988928829273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_49
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 654
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b4c8ba6d9ff9370800000000000000
+      internalID: 8331652536055122720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 649
+        width: 110
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9e847ee91945290800000000000000
+      internalID: -7902531334457202240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_51
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 654
+        width: 104
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d8f76ddec369400800000000000000
+      internalID: 330518614861909366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_52
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 630
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6406aa4f1e92fa0800000000000000
+      internalID: -5824876202080319760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_53
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 579
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be866aabcef6db50800000000000000
+      internalID: 6617756853158186681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_54
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 579
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d3d4f85929c6cb0800000000000000
+      internalID: -4869355926042362623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_55
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 579
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a50eeb505e01580800000000000000
+      internalID: -8858328654197794209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_56
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 579
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcf306a9f2048b30800000000000000
+      internalID: 4288556016418946293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_57
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 579
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304f43a2455396330800000000000000
+      internalID: 3704550804090582019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 579
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8304ada662c0c190800000000000000
+      internalID: -7944135996425895026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_59
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 579
+        width: 79
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6159e2adbbe3100800000000000000
+      internalID: 89715588352775899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_60
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 579
+        width: 87
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ab11fd5c9fbb6c0800000000000000
+      internalID: -4126430005308573110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_61
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 579
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30512ae9e545e0860800000000000000
+      internalID: 7498023194983535875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_62
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 579
+        width: 103
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f2ce9f4914fe300800000000000000
+      internalID: 283517409651601158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_63
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 529
+        width: 111
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74965d2827b1b9aa0800000000000000
+      internalID: -6153294287236404921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_64
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 529
+        width: 112
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819e770e56072d630800000000000000
+      internalID: 3950343406017308952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_65
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 529
+        width: 113
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba1a17a2f00262f0800000000000000
+      internalID: -981220726627755344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_66
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 529
+        width: 111
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcd76827e1811010800000000000000
+      internalID: 1157849409026251953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_67
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 529
+        width: 110
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1648e47bae1557d0800000000000000
+      internalID: -2930402260785019364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_68
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 529
+        width: 109
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530f4d1ee5ca2fb90800000000000000
+      internalID: -7209510529951010763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_69
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 529
+        width: 111
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c239ca6e0f4d990800000000000000
+      internalID: -7361994617315447734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_70
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 474
+        width: 103
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75476d74004ff260800000000000000
+      internalID: 7133490722806121850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_71
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 474
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1702369cdb7bd88f0800000000000000
+      internalID: -536570754831802255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_72
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 474
+        width: 87
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1978b9cf4d6b37070800000000000000
+      internalID: 8103021180457027473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_73
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 474
+        width: 79
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf5b2b99537fb9d0800000000000000
+      internalID: -2756357618234859601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_74
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 457
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43603c4b1c9ebdc90800000000000000
+      internalID: -7143859365722520012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_75
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 457
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cad61802866e4be0800000000000000
+      internalID: -1491141717945558333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_76
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 400
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d75bbe91cd93380800000000000000
+      internalID: -8990913177181651599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_77
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 400
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dd0866ccb02d0d0800000000000000
+      internalID: -3399641796190347905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_78
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 400
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24fe1ccc39828a20800000000000000
+      internalID: 3063161590780982316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_79
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 400
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01023df8e6bdc940800000000000000
+      internalID: 5318107846791004431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_80
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 400
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd6406b169c68160800000000000000
+      internalID: 7027525690060991945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_81
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 400
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1481b468d6269c110800000000000000
+      internalID: 1281663791507642433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_82
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 400
+        width: 79
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c3715a4d9d83550800000000000000
+      internalID: 6140897599245728920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_83
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 400
+        width: 87
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad200dc7f5e4f9b60800000000000000
+      internalID: 7755003255378150106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_84
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 400
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1e3ddaa9af57810800000000000000
+      internalID: 1762590371433669051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_85
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 400
+        width: 103
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87894064ac8f91440800000000000000
+      internalID: 4907226816638654584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_86
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 319
+        width: 111
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb881f23ea92a930800000000000000
+      internalID: 4153052106927410151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_87
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 319
+        width: 108
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5722b41faab7eab90800000000000000
+      internalID: -7228704377760177547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_88
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 318
+        width: 99
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceeb039116eed87d0800000000000000
+      internalID: -2914411283036979476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_89
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 318
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506044487bf74b6c0800000000000000
+      internalID: -4128534532217108987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_90
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 314
+        width: 71
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669418e26910656e0800000000000000
+      internalID: -1849288852452062874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_91
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 312
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68ad2c931c67e590800000000000000
+      internalID: -7645023010957711253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_92
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 248
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1879edd25e766e0800000000000000
+      internalID: -1844253537214168655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_93
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 248
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8e6df1c8e5910f0800000000000000
+      internalID: -1145780674266470157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_94
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 248
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d60735ebbc277710800000000000000
+      internalID: 1690869370617005784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_95
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 248
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d0292985ddffc30800000000000000
+      internalID: 4395475133822799181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_96
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 248
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bd09980ddcb5820800000000000000
+      internalID: 2908144279942650626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_97
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 248
+        width: 74
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965a0d8e5358cff60800000000000000
+      internalID: 8069471098926835049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_98
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 247
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9c9b1391902c930800000000000000
+      internalID: 4161899009456851393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_99
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 242
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f0af96345307ad0800000000000000
+      internalID: -2706604812392591541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_100
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 242
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ecaf3d1098d76d0800000000000000
+      internalID: -2991083936559739340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_101
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 241
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0a176ac76b033e0800000000000000
+      internalID: -2075958781733134110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_102
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 275
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c87f736568696c0800000000000000
+      internalID: -4136971502828942211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_103
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 240
+        width: 78
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f940e20ae8481d50800000000000000
+      internalID: 6708191814876154357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_104
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 247
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d574592c4a5c0c20800000000000000
+      internalID: 3174011120546772436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_105
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 247
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6db9f8cf18b1b2f0800000000000000
+      internalID: -958782798997897876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_106
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 247
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21956b54c92f3690800000000000000
+      internalID: -7620326121163878097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_107
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 155
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2aaca68e019cbc0800000000000000
+      internalID: -3762457423281216798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_108
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 153
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f4a2a930562d030800000000000000
+      internalID: 3517985325075550025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_109
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 159
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f7e135ec16d53d0800000000000000
+      internalID: -3216307020087001326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_110
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 167
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056af92ef7d7d15c0800000000000000
+      internalID: -4243097285696706992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_111
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 169
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186d434c3644f1e10800000000000000
+      internalID: 2170528740700116609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_112
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 206
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f206ed788904d9e0800000000000000
+      internalID: -1597641485977255184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_113
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 227
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f0b3a0674d4cb70800000000000000
+      internalID: 8918486765543296889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_114
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 197
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aef5ea6bc8683110800000000000000
+      internalID: 1240856920221679265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_115
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 218
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ef93218358f9f90800000000000000
+      internalID: -6944685624511562213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_116
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 219
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc66a7212f569f750800000000000000
+      internalID: 6339210040867186380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_117
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 216
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28cc216497f898a0800000000000000
+      internalID: -6298011862220093397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_118
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 226
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4c1f10339678000800000000000000
+      internalID: 38114789652808948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_119
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 159
+        width: 83
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c4d28386586ba10800000000000000
+      internalID: 1924872573413051409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_120
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 156
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa5ae4e15737d6e0800000000000000
+      internalID: -1812919500120892767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_121
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 156
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81962877d375f2700800000000000000
+      internalID: 517728403680553240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_122
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 152
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e8b9b3be0ba4c90800000000000000
+      internalID: -7184735731152351715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_123
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 211
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b46cd5998f95030800000000000000
+      internalID: 3484089124334750621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_124
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 212
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f90dd8a0e9402bf0800000000000000
+      internalID: -351199541680338443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_125
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 200
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998ef1da491280fc0800000000000000
+      internalID: -3528533385601357671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_126
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 205
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ba7343cadd3f930800000000000000
+      internalID: 4175925011182758797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_127
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 213
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb4dededb0a6a1e0800000000000000
+      internalID: -2186883831440782353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_128
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 209
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c69355e3ace59d90800000000000000
+      internalID: -7091501849553692984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_129
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 157
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba783d44ec9ad5470800000000000000
+      internalID: 8385044784616802219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_130
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 167
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc02281c3459194d0800000000000000
+      internalID: -3129556147803905845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_131
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 165
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f3a511f43c2b770800000000000000
+      internalID: 8625170980728881048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_132
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 138
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908a77a7093e5ff50800000000000000
+      internalID: 6914683012566722569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_133
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 82
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de3c82d0fa9f2ba0800000000000000
+      internalID: -6111495810203238698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_134
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 82
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d77cbe14e5f6c050800000000000000
+      internalID: 5820609928539961302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_135
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 82
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8b98a685e6305f0800000000000000
+      internalID: -791667783463487277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_136
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 83
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc1c50c3e991d0a0800000000000000
+      internalID: -6858531554044666658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_137
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea4cf558f760e7d0800000000000000
+      internalID: -2891196644479710486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_138
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 84
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4689ef56a3c38a20800000000000000
+      internalID: 3063507290883196490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_139
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 84
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174fab983700c9400800000000000000
+      internalID: 332140968750543985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_140
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 87
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056e1072a75e5f000800000000000000
+      internalID: 69213682097317456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_141
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 93
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b245a5fc72d8f3eb0800000000000000
+      internalID: -4737913080848427989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_142
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 97
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a17673d5ac4fc40800000000000000
+      internalID: 5545279542910196320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_143
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 82
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bb1d9fd6d6167f0800000000000000
+      internalID: -621094954490283109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_144
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204a0cdc1642b1210800000000000000
+      internalID: 1304676519536272386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_145
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 54
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c537829d5ef4860800000000000000
+      internalID: 7516479023953960093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_146
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 54
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929c5a3a32014b7e0800000000000000
+      internalID: -1750756609884829399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_147
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 54
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e19a50816ca46c0800000000000000
+      internalID: -4158293499446747593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_148
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b150688a6b3fd50800000000000000
+      internalID: 6769955499787229992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_149
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 54
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970a030acf118a1b0800000000000000
+      internalID: -5645242356191944583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_150
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 15
+        width: 326
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e833391969005ac60800000000000000
+      internalID: 7828664173940913038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilafsRobot_151
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 9
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7042394e31f326600800000000000000
+      internalID: 459999466616988679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PilafsRobot_0: -6914365079953266512
+      PilafsRobot_1: -1885368264410909716
+      PilafsRobot_10: 19879509369589161
+      PilafsRobot_100: -2991083936559739340
+      PilafsRobot_101: -2075958781733134110
+      PilafsRobot_102: -4136971502828942211
+      PilafsRobot_103: 6708191814876154357
+      PilafsRobot_104: 3174011120546772436
+      PilafsRobot_105: -958782798997897876
+      PilafsRobot_106: -7620326121163878097
+      PilafsRobot_107: -3762457423281216798
+      PilafsRobot_108: 3517985325075550025
+      PilafsRobot_109: -3216307020087001326
+      PilafsRobot_11: 3150636585362549467
+      PilafsRobot_110: -4243097285696706992
+      PilafsRobot_111: 2170528740700116609
+      PilafsRobot_112: -1597641485977255184
+      PilafsRobot_113: 8918486765543296889
+      PilafsRobot_114: 1240856920221679265
+      PilafsRobot_115: -6944685624511562213
+      PilafsRobot_116: 6339210040867186380
+      PilafsRobot_117: -6298011862220093397
+      PilafsRobot_118: 38114789652808948
+      PilafsRobot_119: 1924872573413051409
+      PilafsRobot_12: -322676803458941363
+      PilafsRobot_120: -1812919500120892767
+      PilafsRobot_121: 517728403680553240
+      PilafsRobot_122: -7184735731152351715
+      PilafsRobot_123: 3484089124334750621
+      PilafsRobot_124: -351199541680338443
+      PilafsRobot_125: -3528533385601357671
+      PilafsRobot_126: 4175925011182758797
+      PilafsRobot_127: -2186883831440782353
+      PilafsRobot_128: -7091501849553692984
+      PilafsRobot_129: 8385044784616802219
+      PilafsRobot_13: -5177104082763287481
+      PilafsRobot_130: -3129556147803905845
+      PilafsRobot_131: 8625170980728881048
+      PilafsRobot_132: 6914683012566722569
+      PilafsRobot_133: -6111495810203238698
+      PilafsRobot_134: 5820609928539961302
+      PilafsRobot_135: -791667783463487277
+      PilafsRobot_136: -6858531554044666658
+      PilafsRobot_137: -2891196644479710486
+      PilafsRobot_138: 3063507290883196490
+      PilafsRobot_139: 332140968750543985
+      PilafsRobot_14: 2187770288330620236
+      PilafsRobot_140: 69213682097317456
+      PilafsRobot_141: -4737913080848427989
+      PilafsRobot_142: 5545279542910196320
+      PilafsRobot_143: -621094954490283109
+      PilafsRobot_144: 1304676519536272386
+      PilafsRobot_145: 7516479023953960093
+      PilafsRobot_146: -1750756609884829399
+      PilafsRobot_147: -4158293499446747593
+      PilafsRobot_148: 6769955499787229992
+      PilafsRobot_149: -5645242356191944583
+      PilafsRobot_15: -5840981755502656737
+      PilafsRobot_150: 7828664173940913038
+      PilafsRobot_151: 459999466616988679
+      PilafsRobot_16: 7069633129511942340
+      PilafsRobot_17: 5361209532812750504
+      PilafsRobot_18: 1121963291627264642
+      PilafsRobot_19: -3202660589070068936
+      PilafsRobot_2: -8110291744961671716
+      PilafsRobot_20: -4533830255625656718
+      PilafsRobot_21: -440650664693223987
+      PilafsRobot_22: 6173746765298217067
+      PilafsRobot_23: -4682441393156210191
+      PilafsRobot_24: 572297705928802615
+      PilafsRobot_25: 6494761352253569749
+      PilafsRobot_26: 8004165440763367952
+      PilafsRobot_27: 2885699732542813609
+      PilafsRobot_28: -325156425851954125
+      PilafsRobot_29: 3267630791556004925
+      PilafsRobot_3: 7665831647315212556
+      PilafsRobot_30: -4073108391386930187
+      PilafsRobot_31: 6020261960195333849
+      PilafsRobot_32: -3530989003448900276
+      PilafsRobot_33: -5206312214437185608
+      PilafsRobot_34: -5685641740601032800
+      PilafsRobot_35: -1895525251488366782
+      PilafsRobot_36: -8756643710572051851
+      PilafsRobot_37: 671648764510055558
+      PilafsRobot_38: -2279986118128064240
+      PilafsRobot_39: -1001905634082565674
+      PilafsRobot_4: -173641926159122405
+      PilafsRobot_40: -5994271551028041223
+      PilafsRobot_41: -4147176527415688505
+      PilafsRobot_42: 1223932839897858519
+      PilafsRobot_43: -4632564801588272342
+      PilafsRobot_44: 5615281234762979568
+      PilafsRobot_45: 581046621384454486
+      PilafsRobot_46: -5894185082189615229
+      PilafsRobot_47: 4005913532281461691
+      PilafsRobot_48: 8086507988928829273
+      PilafsRobot_49: 8331652536055122720
+      PilafsRobot_5: -5154339722139618996
+      PilafsRobot_50: -7902531334457202240
+      PilafsRobot_51: 330518614861909366
+      PilafsRobot_52: -5824876202080319760
+      PilafsRobot_53: 6617756853158186681
+      PilafsRobot_54: -4869355926042362623
+      PilafsRobot_55: -8858328654197794209
+      PilafsRobot_56: 4288556016418946293
+      PilafsRobot_57: 3704550804090582019
+      PilafsRobot_58: -7944135996425895026
+      PilafsRobot_59: 89715588352775899
+      PilafsRobot_6: -8999338084222841454
+      PilafsRobot_60: -4126430005308573110
+      PilafsRobot_61: 7498023194983535875
+      PilafsRobot_62: 283517409651601158
+      PilafsRobot_63: -6153294287236404921
+      PilafsRobot_64: 3950343406017308952
+      PilafsRobot_65: -981220726627755344
+      PilafsRobot_66: 1157849409026251953
+      PilafsRobot_67: -2930402260785019364
+      PilafsRobot_68: -7209510529951010763
+      PilafsRobot_69: -7361994617315447734
+      PilafsRobot_7: 8365314096226254211
+      PilafsRobot_70: 7133490722806121850
+      PilafsRobot_71: -536570754831802255
+      PilafsRobot_72: 8103021180457027473
+      PilafsRobot_73: -2756357618234859601
+      PilafsRobot_74: -7143859365722520012
+      PilafsRobot_75: -1491141717945558333
+      PilafsRobot_76: -8990913177181651599
+      PilafsRobot_77: -3399641796190347905
+      PilafsRobot_78: 3063161590780982316
+      PilafsRobot_79: 5318107846791004431
+      PilafsRobot_8: 1279417056115745508
+      PilafsRobot_80: 7027525690060991945
+      PilafsRobot_81: 1281663791507642433
+      PilafsRobot_82: 6140897599245728920
+      PilafsRobot_83: 7755003255378150106
+      PilafsRobot_84: 1762590371433669051
+      PilafsRobot_85: 4907226816638654584
+      PilafsRobot_86: 4153052106927410151
+      PilafsRobot_87: -7228704377760177547
+      PilafsRobot_88: -2914411283036979476
+      PilafsRobot_89: -4128534532217108987
+      PilafsRobot_9: -5111906589356839201
+      PilafsRobot_90: -1849288852452062874
+      PilafsRobot_91: -7645023010957711253
+      PilafsRobot_92: -1844253537214168655
+      PilafsRobot_93: -1145780674266470157
+      PilafsRobot_94: 1690869370617005784
+      PilafsRobot_95: 4395475133822799181
+      PilafsRobot_96: 2908144279942650626
+      PilafsRobot_97: 8069471098926835049
+      PilafsRobot_98: 4161899009456851393
+      PilafsRobot_99: -2706604812392591541
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

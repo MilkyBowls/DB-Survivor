@@ -16,7 +16,7 @@ MonoBehaviour:
   damageModifier: 1
   projectileSpeedModifier: 1
   fireCooldownModifier: 1
-  projectileScale: 2
+  projectileScale: 3
   enableDoubleShot: 0
   enablePiercing: 0
   enableExplosion: 0
@@ -38,4 +38,4 @@ MonoBehaviour:
   beamDuration: 8
   beamFollowsMouse: 1
   beamVisualScaleX: 1
-  beamVisualScaleY: 2
+  beamVisualScaleY: 3

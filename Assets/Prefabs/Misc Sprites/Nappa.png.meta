@@ -1,0 +1,2977 @@
+fileFormatVersion: 2
+guid: 4164efca44a754e4aad82d49bdc5ec98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7274032773338122440
+    second: Nappa_0
+  - first:
+      213: 2876393466448991390
+    second: Nappa_1
+  - first:
+      213: 8204191278179912807
+    second: Nappa_2
+  - first:
+      213: 2698551560890128187
+    second: Nappa_3
+  - first:
+      213: 6155920014800278307
+    second: Nappa_4
+  - first:
+      213: -6899335520168361320
+    second: Nappa_5
+  - first:
+      213: -7673897244406997353
+    second: Nappa_6
+  - first:
+      213: -8741390907881273330
+    second: Nappa_7
+  - first:
+      213: -4150382877496238116
+    second: Nappa_8
+  - first:
+      213: 6021291243842122359
+    second: Nappa_9
+  - first:
+      213: 6147894100722708295
+    second: Nappa_10
+  - first:
+      213: -37073704422548849
+    second: Nappa_11
+  - first:
+      213: 3626776414916468573
+    second: Nappa_12
+  - first:
+      213: -3234399022383804366
+    second: Nappa_13
+  - first:
+      213: 9054342906933279457
+    second: Nappa_14
+  - first:
+      213: 2128324549514524515
+    second: Nappa_15
+  - first:
+      213: 516059752907377599
+    second: Nappa_16
+  - first:
+      213: 1692189693124824565
+    second: Nappa_17
+  - first:
+      213: -209961119568446978
+    second: Nappa_18
+  - first:
+      213: 4521471465091914346
+    second: Nappa_19
+  - first:
+      213: 2121236000838138087
+    second: Nappa_20
+  - first:
+      213: 344400978470530005
+    second: Nappa_21
+  - first:
+      213: -4428918287019147279
+    second: Nappa_22
+  - first:
+      213: 8169491905145963639
+    second: Nappa_23
+  - first:
+      213: -3935998477662839496
+    second: Nappa_24
+  - first:
+      213: -2827941199516564119
+    second: Nappa_25
+  - first:
+      213: -8090021868276694190
+    second: Nappa_26
+  - first:
+      213: 6711312573273218592
+    second: Nappa_27
+  - first:
+      213: -939485706138415454
+    second: Nappa_28
+  - first:
+      213: 7137334981582326738
+    second: Nappa_29
+  - first:
+      213: 3041134958441617663
+    second: Nappa_30
+  - first:
+      213: 929564906361813960
+    second: Nappa_31
+  - first:
+      213: 6409108244871450472
+    second: Nappa_32
+  - first:
+      213: -8753506303086561229
+    second: Nappa_33
+  - first:
+      213: 319901186253390852
+    second: Nappa_34
+  - first:
+      213: -8622602714519210955
+    second: Nappa_35
+  - first:
+      213: 1680395743451274087
+    second: Nappa_36
+  - first:
+      213: -364830405641688094
+    second: Nappa_37
+  - first:
+      213: -8207967931920455318
+    second: Nappa_38
+  - first:
+      213: 8620728229415132216
+    second: Nappa_39
+  - first:
+      213: -1668549300014846048
+    second: Nappa_40
+  - first:
+      213: -6456471550589337324
+    second: Nappa_41
+  - first:
+      213: -2954024779221884473
+    second: Nappa_42
+  - first:
+      213: 2976402608023732971
+    second: Nappa_43
+  - first:
+      213: 3523197703599159753
+    second: Nappa_44
+  - first:
+      213: 2151764786574365353
+    second: Nappa_45
+  - first:
+      213: 17811905031755346
+    second: Nappa_46
+  - first:
+      213: 3823218249960879506
+    second: Nappa_47
+  - first:
+      213: -6919121302102876158
+    second: Nappa_48
+  - first:
+      213: 2557432242247443760
+    second: Nappa_49
+  - first:
+      213: -5929677622929675067
+    second: Nappa_50
+  - first:
+      213: 142528716214220970
+    second: Nappa_51
+  - first:
+      213: -6743643558670400696
+    second: Nappa_52
+  - first:
+      213: 250934356518036492
+    second: Nappa_53
+  - first:
+      213: -1760314751942881999
+    second: Nappa_54
+  - first:
+      213: 275257693451016718
+    second: Nappa_55
+  - first:
+      213: -8601417032725680855
+    second: Nappa_56
+  - first:
+      213: -183324817583667796
+    second: Nappa_57
+  - first:
+      213: 2761321646741884339
+    second: Nappa_58
+  - first:
+      213: 5260894766047722821
+    second: Nappa_59
+  - first:
+      213: 128696474311912836
+    second: Nappa_60
+  - first:
+      213: -2313166535492235903
+    second: Nappa_61
+  - first:
+      213: 6834456222298873972
+    second: Nappa_62
+  - first:
+      213: -213933426755652638
+    second: Nappa_63
+  - first:
+      213: -2299311759442945283
+    second: Nappa_64
+  - first:
+      213: 4630130066364971268
+    second: Nappa_65
+  - first:
+      213: 2347808227384564606
+    second: Nappa_66
+  - first:
+      213: -1901286726784004929
+    second: Nappa_67
+  - first:
+      213: 1184082147538536536
+    second: Nappa_68
+  - first:
+      213: 4914656804514507862
+    second: Nappa_69
+  - first:
+      213: -6146764951083182692
+    second: Nappa_70
+  - first:
+      213: -3522991314288185195
+    second: Nappa_71
+  - first:
+      213: -3986404529927976117
+    second: Nappa_72
+  - first:
+      213: 9101515345203433583
+    second: Nappa_73
+  - first:
+      213: 6217797812780143437
+    second: Nappa_74
+  - first:
+      213: 5337434510928197635
+    second: Nappa_75
+  - first:
+      213: -3368732072709531988
+    second: Nappa_76
+  - first:
+      213: 2947157571175875543
+    second: Nappa_77
+  - first:
+      213: -3818608734559014985
+    second: Nappa_78
+  - first:
+      213: 739490120620035187
+    second: Nappa_79
+  - first:
+      213: 2210610104579472389
+    second: Nappa_80
+  - first:
+      213: 702810816563913670
+    second: Nappa_81
+  - first:
+      213: -9011451737847752323
+    second: Nappa_82
+  - first:
+      213: -7135998387876546473
+    second: Nappa_83
+  - first:
+      213: -5778849100765054459
+    second: Nappa_84
+  - first:
+      213: -6624412603122292979
+    second: Nappa_85
+  - first:
+      213: 3108871175680226321
+    second: Nappa_86
+  - first:
+      213: 6078485987508982497
+    second: Nappa_87
+  - first:
+      213: 5883556801094098878
+    second: Nappa_88
+  - first:
+      213: 3266024909175103562
+    second: Nappa_89
+  - first:
+      213: 669164350447819211
+    second: Nappa_90
+  - first:
+      213: 4704423814787088595
+    second: Nappa_91
+  - first:
+      213: -5257602664662783011
+    second: Nappa_92
+  - first:
+      213: -6529180486299911593
+    second: Nappa_93
+  - first:
+      213: 2103904639089128284
+    second: Nappa_94
+  - first:
+      213: 2947933679041288657
+    second: Nappa_95
+  - first:
+      213: -1543764563841176643
+    second: Nappa_96
+  - first:
+      213: -1739560585455135646
+    second: Nappa_97
+  - first:
+      213: 2510020137708813597
+    second: Nappa_98
+  - first:
+      213: -9074808481627537910
+    second: Nappa_99
+  - first:
+      213: 1013581798227223926
+    second: Nappa_100
+  - first:
+      213: -8236385345157621966
+    second: Nappa_101
+  - first:
+      213: 7578273977420650263
+    second: Nappa_102
+  - first:
+      213: 4021747583384187701
+    second: Nappa_103
+  - first:
+      213: 537911291687128037
+    second: Nappa_104
+  - first:
+      213: 1940077194526222212
+    second: Nappa_105
+  - first:
+      213: -4878461255110729696
+    second: Nappa_106
+  - first:
+      213: 2727819486453942948
+    second: Nappa_107
+  - first:
+      213: 6398028478233999996
+    second: Nappa_108
+  - first:
+      213: -1965706342489927111
+    second: Nappa_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nappa_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1060
+        width: 179
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c84e53944e82f460800000000000000
+      internalID: 7274032773338122440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1060
+        width: 179
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9452f13e900be720800000000000000
+      internalID: 2876393466448991390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1060
+        width: 178
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c8545ff742bd170800000000000000
+      internalID: 8204191278179912807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_3
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1094
+        width: 258
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b379eead85e237520800000000000000
+      internalID: 2698551560890128187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_4
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1086
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32353e353a83e6550800000000000000
+      internalID: 6155920014800278307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 899
+        width: 178
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892412e06e2a040a0800000000000000
+      internalID: -6899335520168361320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 899
+        width: 178
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e95404d17d08590800000000000000
+      internalID: -7673897244406997353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 898
+        width: 179
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0848ec784750b680800000000000000
+      internalID: -8741390907881273330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_8
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 893
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf19f833c0e666c0800000000000000
+      internalID: -4150382877496238116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_9
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 935
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772316eeb7cef8350800000000000000
+      internalID: 6021291243842122359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 872
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74feb469c15b15550800000000000000
+      internalID: 6147894100722708295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 872
+        width: 61
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ad26989a94c7ff0800000000000000
+      internalID: -37073704422548849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_12
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 865
+        width: 62
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f5cd21fe5e45230800000000000000
+      internalID: 3626776414916468573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_13
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 865
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23051f8c93b1d13d0800000000000000
+      internalID: -3234399022383804366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 865
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eaf552e6ec77ad70800000000000000
+      internalID: 9054342906933279457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_15
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 865
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3677e84c6e3598d10800000000000000
+      internalID: 2128324549514524515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_16
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 865
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb8bee6c99692700800000000000000
+      internalID: 516059752907377599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_17
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 865
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd484f6f8ddb7710800000000000000
+      internalID: 1692189693124824565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_18
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 865
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9ba736971161df0800000000000000
+      internalID: -209961119568446978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 787
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a5eda775e7fbe30800000000000000
+      internalID: 4521471465091914346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 788
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e83aba67e4207d10800000000000000
+      internalID: 2121236000838138087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 790
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db680e7dde87c400800000000000000
+      internalID: 344400978470530005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_22
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 791
+        width: 81
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fffdfa88425982c0800000000000000
+      internalID: -4428918287019147279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 793
+        width: 82
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77487a99a9ddf5170800000000000000
+      internalID: 8169491905145963639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_24
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 854
+        width: 49
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d9d660d368069c0800000000000000
+      internalID: -3935998477662839496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_25
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 854
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9658f1d467221c8d0800000000000000
+      internalID: -2827941199516564119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 765
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253c93c39f77abf80800000000000000
+      internalID: -8090021868276694190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_27
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 765
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e10923a3f532d50800000000000000
+      internalID: 6711312573273218592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_28
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 765
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae00165ab646f2f0800000000000000
+      internalID: -939485706138415454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_29
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 765
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db0f2cb958ec0360800000000000000
+      internalID: 7137334981582326738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 765
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff85fefc128443a20800000000000000
+      internalID: 3041134958441617663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_31
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 765
+        width: 93
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb7d577b5a76ec00800000000000000
+      internalID: 929564906361813960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_32
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 765
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f0796edf9b1f850800000000000000
+      internalID: 6409108244871450472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_33
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 765
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338f169356c458680800000000000000
+      internalID: -8753506303086561229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_34
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 766
+        width: 114
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4040cd91f64807400800000000000000
+      internalID: 319901186253390852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_35
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 767
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53473c1048c565880800000000000000
+      internalID: -8622602714519210955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_36
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 769
+        width: 115
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bdd7a8607f15710800000000000000
+      internalID: 1680395743451274087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_37
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 660
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb2774ddacdfeaf0800000000000000
+      internalID: -364830405641688094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_38
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 694
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69651257a0771e80800000000000000
+      internalID: -8207967931920455318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_39
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 740
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c987b66aaf2a770800000000000000
+      internalID: 8620728229415132216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_40
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 740
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af6362804f18d8e0800000000000000
+      internalID: -1668549300014846048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_41
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 737
+        width: 66
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41105b425510666a0800000000000000
+      internalID: -6456471550589337324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_42
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 654
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c127c84d123107d0800000000000000
+      internalID: -2954024779221884473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_43
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 654
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be20dcff66e4e4920800000000000000
+      internalID: 2976402608023732971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_44
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 654
+        width: 113
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9ff7c05a9e4e030800000000000000
+      internalID: 3523197703599159753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 658
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a295ff3caa9cdd10800000000000000
+      internalID: 2151764786574365353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_46
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 657
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256d03055d74f3000800000000000000
+      internalID: 17811905031755346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_47
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 658
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29575b7fdbcce0530800000000000000
+      internalID: 3823218249960879506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_48
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 658
+        width: 82
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200e156b5d75aff90800000000000000
+      internalID: -6919121302102876158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_49
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 654
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0352a401313dd7320800000000000000
+      internalID: 2557432242247443760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_50
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 654
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cca1b46e9d85bda0800000000000000
+      internalID: -5929677622929675067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615
+        width: 920
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8bd3cbc1d5af100800000000000000
+      internalID: 142528716214220970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_52
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 466
+        width: 163
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8438999a9e3c962a0800000000000000
+      internalID: -6743643558670400696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_53
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 466
+        width: 163
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04e23eb77f7b7300800000000000000
+      internalID: 250934356518036492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_54
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 467
+        width: 163
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d80954f0b1297e0800000000000000
+      internalID: -1760314751942881999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_55
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 484
+        width: 163
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a57dfe969e1d300800000000000000
+      internalID: 275257693451016718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_56
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 516
+        width: 207
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d246fe7c0a1a880800000000000000
+      internalID: -8601417032725680855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_57
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 446
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca58969bc03b47df0800000000000000
+      internalID: -183324817583667796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_58
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 446
+        width: 61
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd85a8586f225620800000000000000
+      internalID: 2761321646741884339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_59
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 443
+        width: 62
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d7cf29ae3720940800000000000000
+      internalID: 5260894766047722821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_60
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 443
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48de433f2c839c100800000000000000
+      internalID: 128696474311912836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_61
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 328
+        width: 163
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d0aa9aa4bf5efd0800000000000000
+      internalID: -2313166535492235903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_62
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 287
+        width: 252
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470251349bdd8de50800000000000000
+      internalID: 6834456222298873972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 361
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3b5ac8ea4f70df0800000000000000
+      internalID: -213933426755652638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_64
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 359
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa568613243710e0800000000000000
+      internalID: -2299311759442945283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_65
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 358
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4093a8d83c6814040800000000000000
+      internalID: 4630130066364971268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 369
+        width: 80
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b1ff1c427159020800000000000000
+      internalID: 2347808227384564606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_67
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 375
+        width: 82
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbccfd1abc54d95e0800000000000000
+      internalID: -1901286726784004929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 342
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8588aec8074be6010800000000000000
+      internalID: 1184082147538536536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_69
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 342
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c2b02235e543440800000000000000
+      internalID: 4914656804514507862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_70
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 342
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c959ddc08dd42baa0800000000000000
+      internalID: -6146764951083182692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_71
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 342
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590f015b012db1fc0800000000000000
+      internalID: -3522991314288185195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_72
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 342
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b82ae63327da8c0800000000000000
+      internalID: -3986404529927976117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_73
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 340
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f601e9c0cf31f4e70800000000000000
+      internalID: 9101515345203433583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_74
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 340
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4316fbda2e0a4650800000000000000
+      internalID: 6217797812780143437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_75
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 340
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30839c3a860621a40800000000000000
+      internalID: 5337434510928197635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_76
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 340
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6dea6370cdf31d0800000000000000
+      internalID: -3368732072709531988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_77
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 340
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d38a0f323866e820800000000000000
+      internalID: 2947157571175875543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_78
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 340
+        width: 93
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfe7687693910bc0800000000000000
+      internalID: -3818608734559014985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_79
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 340
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cc772c852334a00800000000000000
+      internalID: 739490120620035187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_80
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 256
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c39548d2aadae10800000000000000
+      internalID: 2210610104579472389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_81
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 256
+        width: 115
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c32899c6b2e0c900800000000000000
+      internalID: 702810816563913670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_82
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 248
+        width: 111
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79120f9364e0f280800000000000000
+      internalID: -9011451737847752323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_83
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 238
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758bbdc3647d7fc90800000000000000
+      internalID: -7135998387876546473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_84
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 273
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a305a4c576dcfa0800000000000000
+      internalID: -5778849100765054459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 236
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d076649c5db5114a0800000000000000
+      internalID: -6624412603122292979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_86
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 205
+        width: 66
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114fededcdde42b20800000000000000
+      internalID: 3108871175680226321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_87
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 219
+        width: 49
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e299a9ecce1b5450800000000000000
+      internalID: 6078485987508982497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_88
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 219
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf1c09fcb796a150800000000000000
+      internalID: 5883556801094098878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_89
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 217
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40a5fac950435d20800000000000000
+      internalID: 3266024909175103562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_90
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 217
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc91ccc6e69594900800000000000000
+      internalID: 669164350447819211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_91
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 126
+        width: 81
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0c541d888794140800000000000000
+      internalID: 4704423814787088595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_92
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 127
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddba0a28b3e3907b0800000000000000
+      internalID: -5257602664662783011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_93
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 127
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a7ea7d0f0b365a0800000000000000
+      internalID: -6529180486299911593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_94
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 128
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53343e4f12923d10800000000000000
+      internalID: 2103904639089128284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_95
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 130
+        width: 112
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d99aa0ff0a29e820800000000000000
+      internalID: 2947933679041288657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_96
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 135
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb2963fe42739ae0800000000000000
+      internalID: -1543764563841176643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_97
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 134
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2641da63dd6dbd7e0800000000000000
+      internalID: -1739560585455135646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_98
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 132
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1df53f340265d220800000000000000
+      internalID: 2510020137708813597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_99
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 7
+        width: 217
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e73ef24cdcf0280800000000000000
+      internalID: -9074808481627537910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_100
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 162
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675a22a7647f01e00800000000000000
+      internalID: 1013581798227223926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_101
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 36
+        width: 119
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23795a4ba2b72bd80800000000000000
+      internalID: -8236385345157621966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_102
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 26
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7179eb2f7007b2960800000000000000
+      internalID: 7578273977420650263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_103
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 27
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53376e37e1e10d730800000000000000
+      internalID: 4021747583384187701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_104
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 26
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebcea5487b077700800000000000000
+      internalID: 537911291687128037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_105
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 25
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4876290fde98cea10800000000000000
+      internalID: 1940077194526222212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_106
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 4
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0206e9ee5593c4cb0800000000000000
+      internalID: -4878461255110729696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_107
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 3
+        width: 59
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aac97dce592bd520800000000000000
+      internalID: 2727819486453942948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_108
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 5
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a78f3b00d5ac850800000000000000
+      internalID: 6398028478233999996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nappa_109
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 4
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932d72b0f7868b4e0800000000000000
+      internalID: -1965706342489927111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nappa_0: 7274032773338122440
+      Nappa_1: 2876393466448991390
+      Nappa_10: 6147894100722708295
+      Nappa_100: 1013581798227223926
+      Nappa_101: -8236385345157621966
+      Nappa_102: 7578273977420650263
+      Nappa_103: 4021747583384187701
+      Nappa_104: 537911291687128037
+      Nappa_105: 1940077194526222212
+      Nappa_106: -4878461255110729696
+      Nappa_107: 2727819486453942948
+      Nappa_108: 6398028478233999996
+      Nappa_109: -1965706342489927111
+      Nappa_11: -37073704422548849
+      Nappa_12: 3626776414916468573
+      Nappa_13: -3234399022383804366
+      Nappa_14: 9054342906933279457
+      Nappa_15: 2128324549514524515
+      Nappa_16: 516059752907377599
+      Nappa_17: 1692189693124824565
+      Nappa_18: -209961119568446978
+      Nappa_19: 4521471465091914346
+      Nappa_2: 8204191278179912807
+      Nappa_20: 2121236000838138087
+      Nappa_21: 344400978470530005
+      Nappa_22: -4428918287019147279
+      Nappa_23: 8169491905145963639
+      Nappa_24: -3935998477662839496
+      Nappa_25: -2827941199516564119
+      Nappa_26: -8090021868276694190
+      Nappa_27: 6711312573273218592
+      Nappa_28: -939485706138415454
+      Nappa_29: 7137334981582326738
+      Nappa_3: 2698551560890128187
+      Nappa_30: 3041134958441617663
+      Nappa_31: 929564906361813960
+      Nappa_32: 6409108244871450472
+      Nappa_33: -8753506303086561229
+      Nappa_34: 319901186253390852
+      Nappa_35: -8622602714519210955
+      Nappa_36: 1680395743451274087
+      Nappa_37: -364830405641688094
+      Nappa_38: -8207967931920455318
+      Nappa_39: 8620728229415132216
+      Nappa_4: 6155920014800278307
+      Nappa_40: -1668549300014846048
+      Nappa_41: -6456471550589337324
+      Nappa_42: -2954024779221884473
+      Nappa_43: 2976402608023732971
+      Nappa_44: 3523197703599159753
+      Nappa_45: 2151764786574365353
+      Nappa_46: 17811905031755346
+      Nappa_47: 3823218249960879506
+      Nappa_48: -6919121302102876158
+      Nappa_49: 2557432242247443760
+      Nappa_5: -6899335520168361320
+      Nappa_50: -5929677622929675067
+      Nappa_51: 142528716214220970
+      Nappa_52: -6743643558670400696
+      Nappa_53: 250934356518036492
+      Nappa_54: -1760314751942881999
+      Nappa_55: 275257693451016718
+      Nappa_56: -8601417032725680855
+      Nappa_57: -183324817583667796
+      Nappa_58: 2761321646741884339
+      Nappa_59: 5260894766047722821
+      Nappa_6: -7673897244406997353
+      Nappa_60: 128696474311912836
+      Nappa_61: -2313166535492235903
+      Nappa_62: 6834456222298873972
+      Nappa_63: -213933426755652638
+      Nappa_64: -2299311759442945283
+      Nappa_65: 4630130066364971268
+      Nappa_66: 2347808227384564606
+      Nappa_67: -1901286726784004929
+      Nappa_68: 1184082147538536536
+      Nappa_69: 4914656804514507862
+      Nappa_7: -8741390907881273330
+      Nappa_70: -6146764951083182692
+      Nappa_71: -3522991314288185195
+      Nappa_72: -3986404529927976117
+      Nappa_73: 9101515345203433583
+      Nappa_74: 6217797812780143437
+      Nappa_75: 5337434510928197635
+      Nappa_76: -3368732072709531988
+      Nappa_77: 2947157571175875543
+      Nappa_78: -3818608734559014985
+      Nappa_79: 739490120620035187
+      Nappa_8: -4150382877496238116
+      Nappa_80: 2210610104579472389
+      Nappa_81: 702810816563913670
+      Nappa_82: -9011451737847752323
+      Nappa_83: -7135998387876546473
+      Nappa_84: -5778849100765054459
+      Nappa_85: -6624412603122292979
+      Nappa_86: 3108871175680226321
+      Nappa_87: 6078485987508982497
+      Nappa_88: 5883556801094098878
+      Nappa_89: 3266024909175103562
+      Nappa_9: 6021291243842122359
+      Nappa_90: 669164350447819211
+      Nappa_91: 4704423814787088595
+      Nappa_92: -5257602664662783011
+      Nappa_93: -6529180486299911593
+      Nappa_94: 2103904639089128284
+      Nappa_95: 2947933679041288657
+      Nappa_96: -1543764563841176643
+      Nappa_97: -1739560585455135646
+      Nappa_98: 2510020137708813597
+      Nappa_99: -9074808481627537910
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

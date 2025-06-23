@@ -1,0 +1,2197 @@
+fileFormatVersion: 2
+guid: 739b7e1d9650c714ab380d4aebbf5cc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6766980227969988688
+    second: Buyon_0
+  - first:
+      213: 3927899704599347575
+    second: Buyon_1
+  - first:
+      213: 3288235683228192464
+    second: Buyon_2
+  - first:
+      213: 7730856902202009608
+    second: Buyon_3
+  - first:
+      213: 1585803231217274927
+    second: Buyon_4
+  - first:
+      213: 6701686732961050211
+    second: Buyon_5
+  - first:
+      213: 8941820761375985524
+    second: Buyon_6
+  - first:
+      213: -9012993361114247840
+    second: Buyon_7
+  - first:
+      213: 5026364299132961474
+    second: Buyon_8
+  - first:
+      213: -4451542339196670805
+    second: Buyon_9
+  - first:
+      213: -6025388148527626384
+    second: Buyon_10
+  - first:
+      213: -2639071061671944727
+    second: Buyon_11
+  - first:
+      213: -4946150240236356391
+    second: Buyon_12
+  - first:
+      213: 127826238358728621
+    second: Buyon_13
+  - first:
+      213: 5824308555983331317
+    second: Buyon_14
+  - first:
+      213: -8593089596988245977
+    second: Buyon_15
+  - first:
+      213: 5879451986013480563
+    second: Buyon_16
+  - first:
+      213: -451769756166939873
+    second: Buyon_17
+  - first:
+      213: -4590106069153394441
+    second: Buyon_18
+  - first:
+      213: -2329410357436364265
+    second: Buyon_19
+  - first:
+      213: -1058726352624920789
+    second: Buyon_20
+  - first:
+      213: 8196797431036578654
+    second: Buyon_21
+  - first:
+      213: 1136662370942432245
+    second: Buyon_22
+  - first:
+      213: -8338759200664706542
+    second: Buyon_23
+  - first:
+      213: 7370604099985451029
+    second: Buyon_24
+  - first:
+      213: -6073728123238350314
+    second: Buyon_25
+  - first:
+      213: -7307031382186459134
+    second: Buyon_26
+  - first:
+      213: -6782015461817855545
+    second: Buyon_27
+  - first:
+      213: -1947590422211872470
+    second: Buyon_28
+  - first:
+      213: 8496329720137759213
+    second: Buyon_29
+  - first:
+      213: -2469188116927838600
+    second: Buyon_30
+  - first:
+      213: 4732931984340544594
+    second: Buyon_31
+  - first:
+      213: -5693557700897650047
+    second: Buyon_32
+  - first:
+      213: -8591043189617087533
+    second: Buyon_33
+  - first:
+      213: -4954607006128073547
+    second: Buyon_34
+  - first:
+      213: -7752276672276597764
+    second: Buyon_35
+  - first:
+      213: 2956928281946367495
+    second: Buyon_36
+  - first:
+      213: 8418681586627004136
+    second: Buyon_37
+  - first:
+      213: 8179463025794554331
+    second: Buyon_38
+  - first:
+      213: 5564821781500393599
+    second: Buyon_39
+  - first:
+      213: 7690979062824128109
+    second: Buyon_40
+  - first:
+      213: -7583087462130184053
+    second: Buyon_41
+  - first:
+      213: -3402739186425262625
+    second: Buyon_42
+  - first:
+      213: -7438243276842891893
+    second: Buyon_43
+  - first:
+      213: -6492572240346022641
+    second: Buyon_44
+  - first:
+      213: -759323964320806956
+    second: Buyon_45
+  - first:
+      213: 3264596003205558533
+    second: Buyon_46
+  - first:
+      213: 4030091162556294340
+    second: Buyon_47
+  - first:
+      213: 3211973902410021258
+    second: Buyon_48
+  - first:
+      213: -5156132904523880496
+    second: Buyon_49
+  - first:
+      213: -4252953792560795249
+    second: Buyon_50
+  - first:
+      213: -5368337674765174607
+    second: Buyon_51
+  - first:
+      213: 1735652209313842010
+    second: Buyon_52
+  - first:
+      213: -4808711108182638092
+    second: Buyon_53
+  - first:
+      213: 1472016847151532421
+    second: Buyon_54
+  - first:
+      213: -7894561405496330978
+    second: Buyon_55
+  - first:
+      213: 6406480781281866317
+    second: Buyon_56
+  - first:
+      213: -8695476640522133150
+    second: Buyon_57
+  - first:
+      213: -8937112830206662454
+    second: Buyon_58
+  - first:
+      213: -570808832388890311
+    second: Buyon_59
+  - first:
+      213: 8885622789793420876
+    second: Buyon_60
+  - first:
+      213: -8791873886197184773
+    second: Buyon_61
+  - first:
+      213: 5108942044060667494
+    second: Buyon_62
+  - first:
+      213: 4440995471229003688
+    second: Buyon_63
+  - first:
+      213: 3405376130328726873
+    second: Buyon_64
+  - first:
+      213: -1158275323147882716
+    second: Buyon_65
+  - first:
+      213: 4529970940603191865
+    second: Buyon_66
+  - first:
+      213: -4128707377524031389
+    second: Buyon_67
+  - first:
+      213: 1138699289602753125
+    second: Buyon_68
+  - first:
+      213: 6931704421838846858
+    second: Buyon_69
+  - first:
+      213: -7666004183277877770
+    second: Buyon_70
+  - first:
+      213: 136970937291768455
+    second: Buyon_71
+  - first:
+      213: -5994673238301062929
+    second: Buyon_72
+  - first:
+      213: -2540654536259655910
+    second: Buyon_73
+  - first:
+      213: -2215802645072500855
+    second: Buyon_74
+  - first:
+      213: -2834228942910965650
+    second: Buyon_75
+  - first:
+      213: -8352246469908466989
+    second: Buyon_76
+  - first:
+      213: 3420979027420316958
+    second: Buyon_77
+  - first:
+      213: 602476152943478208
+    second: Buyon_78
+  - first:
+      213: 1440419728506411021
+    second: Buyon_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buyon_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 739
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7c1cde55bd612a0800000000000000
+      internalID: -6766980227969988688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 740
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771810e68f3b28630800000000000000
+      internalID: 3927899704599347575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 739
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de849c9ee822ad20800000000000000
+      internalID: 3288235683228192464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 739
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808a0298465894b60800000000000000
+      internalID: 7730856902202009608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_4
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 739
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f205f5803a7e10610800000000000000
+      internalID: 1585803231217274927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 740
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e671a939c210d50800000000000000
+      internalID: 6701686732961050211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_6
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 740
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f470f4b9ab71c70800000000000000
+      internalID: 8941820761375985524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 656
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dc4db7a4a6be280800000000000000
+      internalID: -9012993361114247840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 657
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2868103bb31c540800000000000000
+      internalID: 5026364299132961474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 656
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac2299e3d1f832c0800000000000000
+      internalID: -4451542339196670805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 656
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077892d1765816ca0800000000000000
+      internalID: -6025388148527626384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_11
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 656
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edd7001ad2206bd0800000000000000
+      internalID: -2639071061671944727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_12
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 657
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcbff4ff8ebb5bb0800000000000000
+      internalID: -4946150240236356391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_13
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 657
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafa85a594126c100800000000000000
+      internalID: 127826238358728621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 566
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff97ade5c914d050800000000000000
+      internalID: 5824308555983331317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 566
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72839682a863fb880800000000000000
+      internalID: -8593089596988245977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_16
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 566
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3766c4c3e62089150800000000000000
+      internalID: 5879451986013480563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 566
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b9763eccdfab9f0800000000000000
+      internalID: -451769756166939873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 566
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f05fba79daac40c0800000000000000
+      internalID: -4590106069153394441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_19
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 566
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ac3e42f954cafd0800000000000000
+      internalID: -2329410357436364265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_20
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 566
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27527dddf5ae41f0800000000000000
+      internalID: -1058726352624920789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_21
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 529
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b05c4c5dfd0c170800000000000000
+      internalID: 8196797431036578654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_22
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 551
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3b391776c36cf00800000000000000
+      internalID: 1136662370942432245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 556
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2122cd800b6c64c80800000000000000
+      internalID: -8338759200664706542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_24
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 535
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518aba7b065a94660800000000000000
+      internalID: 7370604099985451029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_25
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 557
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6120410b378c5bba0800000000000000
+      internalID: -6073728123238350314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_26
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 529
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20005261ca5389a90800000000000000
+      internalID: -7307031382186459134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_27
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 529
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1d321ced071e1a0800000000000000
+      internalID: -6782015461817855545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 538
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29bb1c64d4c8f4e0800000000000000
+      internalID: -1947590422211872470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 538
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9b76f6dd609e570800000000000000
+      internalID: 8496329720137759213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 529
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87686ee6d7eabbdd0800000000000000
+      internalID: -2469188116927838600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_31
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 533
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ce3b84090cea140800000000000000
+      internalID: 4732931984340544594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 536
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a4ec1df6b6cf0b0800000000000000
+      internalID: -5693557700897650047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_33
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 545
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dba5d08cbb76c880800000000000000
+      internalID: -8591043189617087533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_34
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 529
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b41316bd23bd3bb0800000000000000
+      internalID: -4954607006128073547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 529
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3f76c90716a6490800000000000000
+      internalID: -7752276672276597764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_36
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 529
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70628bf1b9e190920800000000000000
+      internalID: 2956928281946367495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_37
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 529
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e646088c4a25d470800000000000000
+      internalID: 8418681586627004136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_38
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 529
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd91de9094a438170800000000000000
+      internalID: 8179463025794554331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_39
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 447
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78ffa43de73a3d40800000000000000
+      internalID: 5564821781500393599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_40
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 447
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e499685b8dbba60800000000000000
+      internalID: 7690979062824128109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_41
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 447
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80130f412673c690800000000000000
+      internalID: -7583087462130184053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 447
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd02d90dba07c0d0800000000000000
+      internalID: -3402739186425262625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 447
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8587d2362d06c890800000000000000
+      internalID: -7438243276842891893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_44
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 447
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dfc9f42ffb5e5a0800000000000000
+      internalID: -6492572240346022641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_45
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 447
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d78735a0e65675f0800000000000000
+      internalID: -759323964320806956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_46
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 447
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5013a32b4cc2e4d20800000000000000
+      internalID: 3264596003205558533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_47
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 447
+        width: 101
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4eb9c5f82cde730800000000000000
+      internalID: 4030091162556294340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 281
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8979f81f39339c20800000000000000
+      internalID: 3211973902410021258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_49
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 359
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7a623117cb178b0800000000000000
+      internalID: -5156132904523880496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 359
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81734c0f097af4c0800000000000000
+      internalID: -4252953792560795249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_51
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 359
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b87645d355df75b0800000000000000
+      internalID: -5368337674765174607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_52
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 359
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5306cd0d76461810800000000000000
+      internalID: 1735652209313842010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_53
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 359
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f18c4989b6044db0800000000000000
+      internalID: -4808711108182638092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_54
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 359
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5898bddf587ad6410800000000000000
+      internalID: 1472016847151532421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_55
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 359
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15f1e79a32e07290800000000000000
+      internalID: -7894561405496330978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_56
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 359
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d423cacd35468e850800000000000000
+      internalID: 6406480781281866317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_57
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 359
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261a8f8e016735780800000000000000
+      internalID: -8695476640522133150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_58
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 359
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac822f55b3ff8f380800000000000000
+      internalID: -8937112830206662454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_59
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 197
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9310ec624641418f0800000000000000
+      internalID: -570808832388890311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_60
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 197
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4690c969d2105b70800000000000000
+      internalID: 8885622789793420876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_61
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 197
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf60f27284dfcf580800000000000000
+      internalID: -8791873886197184773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_62
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 197
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e4b4288bb96e640800000000000000
+      internalID: 5108942044060667494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_63
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 197
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a729b70ad591ad30800000000000000
+      internalID: 4440995471229003688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_64
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 197
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d86de4c83524f20800000000000000
+      internalID: 3405376130328726873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_65
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 197
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f6babfabafcefe0800000000000000
+      internalID: -1158275323147882716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_66
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 197
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932de75d190bdde30800000000000000
+      internalID: 4529970940603191865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_67
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 84
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3604525d382e3b6c0800000000000000
+      internalID: -4128707377524031389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 84
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56203c688f87dcf00800000000000000
+      internalID: 1138699289602753125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_69
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 84
+        width: 85
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b75b7227c523060800000000000000
+      internalID: 6931704421838846858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_70
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 84
+        width: 85
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f54011cfc1ec9590800000000000000
+      internalID: -7666004183277877770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_71
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 84
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78204dd775e96e100800000000000000
+      internalID: 136970937291768455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_72
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 84
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8468e6374aecca0800000000000000
+      internalID: -5994673238301062929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_73
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1722450928cdbcd0800000000000000
+      internalID: -2540654536259655910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_74
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9872510fb33ef31e0800000000000000
+      internalID: -2215802645072500855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_75
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6839a5facbcaa8d0800000000000000
+      internalID: -2834228942910965650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_76
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 0
+        width: 96
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d27894761cd61c80800000000000000
+      internalID: -8352246469908466989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_77
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 94
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e150371ec42c97f20800000000000000
+      internalID: 3420979027420316958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_78
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 94
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c507d97edc6c5800800000000000000
+      internalID: 602476152943478208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buyon_79
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 0
+        width: 258
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08d6158c166df310800000000000000
+      internalID: 1440419728506411021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Buyon_0: -6766980227969988688
+      Buyon_1: 3927899704599347575
+      Buyon_10: -6025388148527626384
+      Buyon_11: -2639071061671944727
+      Buyon_12: -4946150240236356391
+      Buyon_13: 127826238358728621
+      Buyon_14: 5824308555983331317
+      Buyon_15: -8593089596988245977
+      Buyon_16: 5879451986013480563
+      Buyon_17: -451769756166939873
+      Buyon_18: -4590106069153394441
+      Buyon_19: -2329410357436364265
+      Buyon_2: 3288235683228192464
+      Buyon_20: -1058726352624920789
+      Buyon_21: 8196797431036578654
+      Buyon_22: 1136662370942432245
+      Buyon_23: -8338759200664706542
+      Buyon_24: 7370604099985451029
+      Buyon_25: -6073728123238350314
+      Buyon_26: -7307031382186459134
+      Buyon_27: -6782015461817855545
+      Buyon_28: -1947590422211872470
+      Buyon_29: 8496329720137759213
+      Buyon_3: 7730856902202009608
+      Buyon_30: -2469188116927838600
+      Buyon_31: 4732931984340544594
+      Buyon_32: -5693557700897650047
+      Buyon_33: -8591043189617087533
+      Buyon_34: -4954607006128073547
+      Buyon_35: -7752276672276597764
+      Buyon_36: 2956928281946367495
+      Buyon_37: 8418681586627004136
+      Buyon_38: 8179463025794554331
+      Buyon_39: 5564821781500393599
+      Buyon_4: 1585803231217274927
+      Buyon_40: 7690979062824128109
+      Buyon_41: -7583087462130184053
+      Buyon_42: -3402739186425262625
+      Buyon_43: -7438243276842891893
+      Buyon_44: -6492572240346022641
+      Buyon_45: -759323964320806956
+      Buyon_46: 3264596003205558533
+      Buyon_47: 4030091162556294340
+      Buyon_48: 3211973902410021258
+      Buyon_49: -5156132904523880496
+      Buyon_5: 6701686732961050211
+      Buyon_50: -4252953792560795249
+      Buyon_51: -5368337674765174607
+      Buyon_52: 1735652209313842010
+      Buyon_53: -4808711108182638092
+      Buyon_54: 1472016847151532421
+      Buyon_55: -7894561405496330978
+      Buyon_56: 6406480781281866317
+      Buyon_57: -8695476640522133150
+      Buyon_58: -8937112830206662454
+      Buyon_59: -570808832388890311
+      Buyon_6: 8941820761375985524
+      Buyon_60: 8885622789793420876
+      Buyon_61: -8791873886197184773
+      Buyon_62: 5108942044060667494
+      Buyon_63: 4440995471229003688
+      Buyon_64: 3405376130328726873
+      Buyon_65: -1158275323147882716
+      Buyon_66: 4529970940603191865
+      Buyon_67: -4128707377524031389
+      Buyon_68: 1138699289602753125
+      Buyon_69: 6931704421838846858
+      Buyon_7: -9012993361114247840
+      Buyon_70: -7666004183277877770
+      Buyon_71: 136970937291768455
+      Buyon_72: -5994673238301062929
+      Buyon_73: -2540654536259655910
+      Buyon_74: -2215802645072500855
+      Buyon_75: -2834228942910965650
+      Buyon_76: -8352246469908466989
+      Buyon_77: 3420979027420316958
+      Buyon_78: 602476152943478208
+      Buyon_79: 1440419728506411021
+      Buyon_8: 5026364299132961474
+      Buyon_9: -4451542339196670805
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
