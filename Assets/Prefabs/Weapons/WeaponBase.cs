@@ -14,7 +14,7 @@ public abstract class WeaponBase : MonoBehaviour
 
     public int weaponLevel = 1;
     public WeaponUpgradeData[] upgrades;
-    protected WeaponUpgradeData currentUpgrade;
+    public WeaponUpgradeData currentUpgrade;
 
     protected virtual void Awake()
     {

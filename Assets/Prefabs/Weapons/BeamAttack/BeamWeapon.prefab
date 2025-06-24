@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 0}
   fireCooldown: 0.5
-  weaponLevel: 1
+  weaponLevel: 5
   upgrades:
   - {fileID: 11400000, guid: 7adac823e395ef54c8592208e10fb41d, type: 2}
   - {fileID: 11400000, guid: 64d8b7472ededbc4db240be1707a3833, type: 2}

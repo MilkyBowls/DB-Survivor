@@ -28,36 +28,44 @@ public class BeamController : MonoBehaviour
             endTransform.localScale = Vector3.one * scale;
     }
 
-    public void SetBeamLength(float length, float midScaleX = 1f, float midScaleY = 1f)
+public void SetBeamVisuals(float length, float startEndScale, float midScaleX, float midScaleY)
+{
+    if (startTransform == null || midRenderer == null || endTransform == null)
+        return;
+
+    float pixelsPerUnit = 16f;
+    float startWidth = startTransform.GetComponent<SpriteRenderer>().sprite.rect.width / pixelsPerUnit;
+    float endWidth = endTransform.GetComponent<SpriteRenderer>().sprite.rect.width / pixelsPerUnit;
+    float buffer = 0f;
+
+    float minLength = startWidth + endWidth + buffer;
+    length = Mathf.Max(length, minLength);
+
+    currentMidLength = Mathf.Max(0.01f, length - (startWidth + endWidth + buffer));
+
+    startTransform.localPosition = Vector3.zero;
+    midRenderer.transform.localPosition = new Vector3(startWidth + buffer, 0f, 0f);
+    endTransform.localPosition = new Vector3(startWidth + buffer + currentMidLength, 0f, 0f);
+
+    // Apply scale
+    if (startTransform != null)
+        startTransform.localScale = Vector3.one * startEndScale;
+
+    if (endTransform != null)
+        endTransform.localScale = Vector3.one * startEndScale;
+
+    if (midRenderer != null)
+        midRenderer.size = new Vector2(currentMidLength * midScaleX, beamWidth * midScaleY);
+
+    if (damageCollider != null)
     {
-        if (startTransform == null || midRenderer == null || endTransform == null)
-            return;
-
-        float pixelsPerUnit = 16f;
-        float startWidth = startTransform.GetComponent<SpriteRenderer>().sprite.rect.width / pixelsPerUnit;
-        float endWidth = endTransform.GetComponent<SpriteRenderer>().sprite.rect.width / pixelsPerUnit;
-        float buffer = 0f;
-
-        float minLength = startWidth + endWidth + buffer;
-        length = Mathf.Max(length, minLength);
-
-        currentMidLength = Mathf.Max(0.01f, length - (startWidth + endWidth + buffer));
-
-        startTransform.localPosition = Vector3.zero;
-        midRenderer.transform.localPosition = new Vector3(startWidth + buffer, 0f, 0f);
-        endTransform.localPosition = new Vector3(startWidth + buffer + currentMidLength, 0f, 0f);
-
-        if (midRenderer != null)
-            midRenderer.size = new Vector2(currentMidLength * midScaleX, beamWidth * midScaleY);
-
-        if (damageCollider != null)
-        {
-            damageCollider.offset = new Vector2(startWidth + buffer + (currentMidLength * 0.5f), 0f);
-            damageCollider.size = new Vector2(currentMidLength, beamWidth * midScaleY);
-        }
-
-        Debug.Log($"[BeamController] SetBeamLength({length:F2}) | midLength: {currentMidLength:F2}");
+        damageCollider.offset = new Vector2(startWidth + buffer + (currentMidLength * 0.5f), 0f);
+        damageCollider.size = new Vector2(currentMidLength, beamWidth * midScaleY);
     }
+
+    Debug.Log($"[BeamController] SetBeamVisuals | length={length:F2}, midSize=({currentMidLength * midScaleX}, {beamWidth * midScaleY})");
+}
+
 
     public void SetDirection(Vector2 direction)
     {

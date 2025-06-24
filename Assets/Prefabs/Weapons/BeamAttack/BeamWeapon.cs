@@ -17,7 +17,6 @@ public class BeamWeapon : WeaponBase
     private BeamController beamController;
 
     private float growthTimer = 0f;
-    private bool isFiring = false;
 
     [Tooltip("Default beam duration if upgrade data is missing.")]
     public float baseBeamDuration = 5f;
@@ -29,7 +28,6 @@ public class BeamWeapon : WeaponBase
     [SerializeField] private float visualScaleY = 1f;
 
     [HideInInspector] public int baseDamage = 1;
-    [HideInInspector] public WeaponUpgradeData currentUpgrade;
 
     protected override void Awake()
     {
@@ -78,9 +76,8 @@ public class BeamWeapon : WeaponBase
             float midScaleX = currentUpgrade?.beamVisualScaleX ?? 1f;
             float midScaleY = currentUpgrade?.beamVisualScaleY ?? 1f;
 
-            beamController.SetStartEndScale(scale);
             beamController.SetBeamWidth(beamWidth);
-            beamController.SetBeamLength(dynamicLength, midScaleX, midScaleY);
+            beamController.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY);
 
             float kiCost = kiDrainPerSecond * Time.deltaTime;
             if (player.currentKi >= kiCost)
@@ -113,9 +110,8 @@ public class BeamWeapon : WeaponBase
             float midScaleX = currentUpgrade?.beamVisualScaleX ?? 1f;
             float midScaleY = currentUpgrade?.beamVisualScaleY ?? 1f;
 
-            beamController.SetStartEndScale(scale);
             beamController.SetBeamWidth(beamWidth);
-            beamController.SetBeamLength(6f * scale, midScaleX, midScaleY);
+            beamController.SetBeamVisuals(6f * scale, scale, midScaleX, midScaleY);
         }
 
         float upgradedDuration = currentUpgrade?.beamDuration ?? baseBeamDuration;
