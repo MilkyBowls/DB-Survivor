@@ -36,3 +36,6 @@ MonoBehaviour:
   beamMaxLengthModifier: 1
   beamGrowthSpeedModifier: 1
   beamDuration: 5
+  beamFollowsMouse: 0
+  beamVisualScaleX: 1
+  beamVisualScaleY: 1

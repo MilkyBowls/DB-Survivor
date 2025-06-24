@@ -33,7 +33,7 @@ MonoBehaviour:
   visualConeAngle: 60
   kiCost: 1
   customProjectilePrefab: {fileID: 824023819897462620, guid: eae16fe4b89e81e4c8ffc23da0294aa4, type: 3}
-  beamMaxLengthModifier: 1
+  beamMaxLengthModifier: 2
   beamGrowthSpeedModifier: 1
   beamDuration: 8
   beamFollowsMouse: 1
