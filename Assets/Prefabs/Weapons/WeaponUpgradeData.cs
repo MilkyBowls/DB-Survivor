@@ -64,5 +64,12 @@ public class WeaponUpgradeData : ScriptableObject
     [Header("Beam Weapon - Visual Scale")]
     public float beamVisualScaleX = 1f;
     public float beamVisualScaleY = 1f;
+
+    [Header("Beam Weapon - Branching")]
+    [Tooltip("Number of extra beams to spawn (in addition to the main one).")]
+    public int extraBeams = 0;
+
+    [Tooltip("Degrees between beams (e.g., 15 = ±15° around the center beam).")]
+    public float beamSpreadAngle = 15f;
 }
 

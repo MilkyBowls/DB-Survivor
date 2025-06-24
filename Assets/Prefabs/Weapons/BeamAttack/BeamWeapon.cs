@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class BeamWeapon : WeaponBase
 {
@@ -13,8 +14,8 @@ public class BeamWeapon : WeaponBase
     public float beamWidth = 1f;
     public float kiDrainPerSecond = 10f;
 
-    private GameObject activeBeam;
-    private BeamController beamController;
+    private List<GameObject> activeBeams = new List<GameObject>();
+    private List<BeamController> beamControllers = new List<BeamController>();
 
     private float growthTimer = 0f;
 
@@ -54,16 +55,9 @@ public class BeamWeapon : WeaponBase
 
     private void Update()
     {
-        if (beamController != null && isFiring)
+        if (beamControllers.Count > 0 && isFiring)
         {
             player.PlayAttackAnimation();
-
-            activeBeam.transform.position = firePoint.position;
-
-            Vector2 mouseScreen = Mouse.current.position.ReadValue();
-            Vector2 world = Camera.main.ScreenToWorldPoint(mouseScreen);
-            Vector2 aimDir = firePoint.right;
-            beamController.SetDirection(aimDir);
 
             float scale = currentUpgrade?.projectileScale ?? 1f;
             float maxLength = maxBeamLength * (currentUpgrade?.beamMaxLengthModifier ?? 1f);
@@ -76,8 +70,29 @@ public class BeamWeapon : WeaponBase
             float midScaleX = currentUpgrade?.beamVisualScaleX ?? 1f;
             float midScaleY = currentUpgrade?.beamVisualScaleY ?? 1f;
 
-            beamController.SetBeamWidth(beamWidth);
-            beamController.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY);
+            int totalBeams = beamControllers.Count;
+            float angleSpread = currentUpgrade?.beamSpreadAngle ?? 15f;
+
+            for (int i = 0; i < totalBeams; i++)
+            {
+                float angleOffset = 0f;
+
+                if (totalBeams > 1)
+                {
+                    float centerIndex = (totalBeams - 1) * 0.5f;
+                    angleOffset = (i - centerIndex) * angleSpread;
+                }
+
+                Quaternion rotation = Quaternion.AngleAxis(angleOffset, Vector3.forward);
+                Vector2 direction = rotation * firePoint.right;
+
+                BeamController controller = beamControllers[i];
+                controller.transform.position = firePoint.position;
+                controller.transform.right = direction;
+                controller.SetDirection(direction);
+                controller.SetBeamWidth(beamWidth);
+                controller.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY);
+            }
 
             float kiCost = kiDrainPerSecond * Time.deltaTime;
             if (player.currentKi >= kiCost)
@@ -87,40 +102,57 @@ public class BeamWeapon : WeaponBase
         }
     }
 
-private void StartBeam()
-{
-    if (!CanFire() || isFiring) return;
-
-    CancelInvoke(nameof(EndBeam));
-    isFiring = true;
-    growthTimer = 0f;
-
-    activeBeam = Instantiate(beamPrefab, firePoint.position, Quaternion.identity, transform);
-    beamController = activeBeam.GetComponent<BeamController>();
-
-    if (beamController != null)
+    private void StartBeam()
     {
-        Vector2 aimDir = firePoint.right; // 🔄 Move this here
-        beamController.SetDirection(aimDir);
+        if (!CanFire() || isFiring) return;
+
+        CancelInvoke(nameof(EndBeam));
+        isFiring = true;
+        growthTimer = 0f;
+
+        int extraBeams = currentUpgrade?.extraBeams ?? 0;
+        float angleSpread = currentUpgrade?.beamSpreadAngle ?? 15f;
+        float totalBeams = 1 + extraBeams;
 
         float scale = currentUpgrade?.projectileScale ?? 1f;
-        float maxLength = maxBeamLength * (currentUpgrade?.beamMaxLengthModifier ?? 1f);
-        float growthSpeed = beamGrowthSpeed * (currentUpgrade?.beamGrowthSpeedModifier ?? 1f);
-        float initialLength = 6f * scale;
-
-        growthTimer += Time.deltaTime;
-        float dynamicLength = Mathf.Min(maxLength, initialLength + growthSpeed * growthTimer);
-
         float midScaleX = currentUpgrade?.beamVisualScaleX ?? 1f;
         float midScaleY = currentUpgrade?.beamVisualScaleY ?? 1f;
 
-        beamController.SetBeamWidth(beamWidth);
-        beamController.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY);
-    }
+        float maxLength = maxBeamLength * (currentUpgrade?.beamMaxLengthModifier ?? 1f);
+        float growthSpeed = beamGrowthSpeed * (currentUpgrade?.beamGrowthSpeedModifier ?? 1f);
+        float initialLength = 6f * scale;
+        float dynamicLength = Mathf.Min(maxLength, initialLength + growthSpeed * growthTimer);
 
-    float upgradedDuration = currentUpgrade?.beamDuration ?? baseBeamDuration;
-    Invoke(nameof(EndBeam), upgradedDuration);
-}
+        for (int i = 0; i < totalBeams; i++)
+        {
+            float angleOffset = 0f;
+
+            if (totalBeams > 1)
+            {
+                float centerIndex = (totalBeams - 1) * 0.5f;
+                angleOffset = (i - centerIndex) * angleSpread;
+            }
+
+            Quaternion rotation = Quaternion.AngleAxis(angleOffset, Vector3.forward);
+            Vector2 direction = rotation * firePoint.right;
+
+            GameObject beam = Instantiate(beamPrefab, firePoint.position, Quaternion.identity, transform);
+            BeamController controller = beam.GetComponent<BeamController>();
+
+            if (controller != null)
+            {
+                controller.transform.right = direction;
+                controller.SetDirection(direction);
+                controller.SetBeamWidth(beamWidth);
+                controller.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY);
+                beamControllers.Add(controller);
+                activeBeams.Add(beam);
+            }
+        }
+
+        float upgradedDuration = currentUpgrade?.beamDuration ?? baseBeamDuration;
+        Invoke(nameof(EndBeam), upgradedDuration);
+    }
 
     private void EndBeam()
     {
@@ -129,10 +161,13 @@ private void StartBeam()
         isFiring = false;
         growthTimer = 0f;
 
-        if (activeBeam != null)
-            Destroy(activeBeam);
+        foreach (var beam in activeBeams)
+        {
+            if (beam != null)
+                Destroy(beam);
+        }
 
-        beamController = null;
-        activeBeam = null;
+        activeBeams.Clear();
+        beamControllers.Clear();
     }
 }
