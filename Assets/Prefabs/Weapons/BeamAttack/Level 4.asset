@@ -36,6 +36,6 @@ MonoBehaviour:
   beamMaxLengthModifier: 1
   beamGrowthSpeedModifier: 1
   beamDuration: 8
-  enableBeamPulse: 0
-  additionalBeamCount: 0
-  childBeamSpreadAngle: 15
+  beamFollowsMouse: 0
+  beamVisualScaleX: 1
+  beamVisualScaleY: 1.75

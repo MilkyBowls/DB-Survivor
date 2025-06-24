@@ -62,7 +62,7 @@ public class BeamWeapon : WeaponBase
 
             Vector2 mouseScreen = Mouse.current.position.ReadValue();
             Vector2 world = Camera.main.ScreenToWorldPoint(mouseScreen);
-            Vector2 aimDir = (world - (Vector2)firePoint.position).normalized;
+            Vector2 aimDir = firePoint.right;
             beamController.SetDirection(aimDir);
 
             float scale = currentUpgrade?.projectileScale ?? 1f;
@@ -87,36 +87,40 @@ public class BeamWeapon : WeaponBase
         }
     }
 
-    private void StartBeam()
+private void StartBeam()
+{
+    if (!CanFire() || isFiring) return;
+
+    CancelInvoke(nameof(EndBeam));
+    isFiring = true;
+    growthTimer = 0f;
+
+    activeBeam = Instantiate(beamPrefab, firePoint.position, Quaternion.identity, transform);
+    beamController = activeBeam.GetComponent<BeamController>();
+
+    if (beamController != null)
     {
-        if (!CanFire() || isFiring) return;
+        Vector2 aimDir = firePoint.right; // 🔄 Move this here
+        beamController.SetDirection(aimDir);
 
-        CancelInvoke(nameof(EndBeam));
-        isFiring = true;
-        growthTimer = 0f;
+        float scale = currentUpgrade?.projectileScale ?? 1f;
+        float maxLength = maxBeamLength * (currentUpgrade?.beamMaxLengthModifier ?? 1f);
+        float growthSpeed = beamGrowthSpeed * (currentUpgrade?.beamGrowthSpeedModifier ?? 1f);
+        float initialLength = 6f * scale;
 
-        Vector2 mouseScreen = Mouse.current.position.ReadValue();
-        Vector2 world = Camera.main.ScreenToWorldPoint(mouseScreen);
-        Vector2 aimDir = (world - (Vector2)firePoint.position).normalized;
+        growthTimer += Time.deltaTime;
+        float dynamicLength = Mathf.Min(maxLength, initialLength + growthSpeed * growthTimer);
 
-        activeBeam = Instantiate(beamPrefab, firePoint.position, Quaternion.identity, transform);
-        beamController = activeBeam.GetComponent<BeamController>();
+        float midScaleX = currentUpgrade?.beamVisualScaleX ?? 1f;
+        float midScaleY = currentUpgrade?.beamVisualScaleY ?? 1f;
 
-        if (beamController != null)
-        {
-            beamController.SetDirection(aimDir);
-
-            float scale = currentUpgrade?.projectileScale ?? 1f;
-            float midScaleX = currentUpgrade?.beamVisualScaleX ?? 1f;
-            float midScaleY = currentUpgrade?.beamVisualScaleY ?? 1f;
-
-            beamController.SetBeamWidth(beamWidth);
-            beamController.SetBeamVisuals(6f * scale, scale, midScaleX, midScaleY);
-        }
-
-        float upgradedDuration = currentUpgrade?.beamDuration ?? baseBeamDuration;
-        Invoke(nameof(EndBeam), upgradedDuration);
+        beamController.SetBeamWidth(beamWidth);
+        beamController.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY);
     }
+
+    float upgradedDuration = currentUpgrade?.beamDuration ?? baseBeamDuration;
+    Invoke(nameof(EndBeam), upgradedDuration);
+}
 
     private void EndBeam()
     {

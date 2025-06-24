@@ -46,13 +46,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 0}
   fireCooldown: 0.5
-  weaponLevel: 5
+  weaponLevel: 1
   upgrades:
   - {fileID: 11400000, guid: 7adac823e395ef54c8592208e10fb41d, type: 2}
   - {fileID: 11400000, guid: 64d8b7472ededbc4db240be1707a3833, type: 2}
   - {fileID: 11400000, guid: 133647c79eb20ef4d85185ddbbb7dbbd, type: 2}
   - {fileID: 11400000, guid: bd348831f25768e40997aabe68b2922d, type: 2}
   - {fileID: 11400000, guid: ae1ec9f5a35ce5c439396150d64fc09f, type: 2}
+  - {fileID: 11400000, guid: acb675306d2c1f44caf8c00e770ed0af, type: 2}
+  - {fileID: 11400000, guid: 912f461f7b9570641b4a9f569024014b, type: 2}
+  - {fileID: 11400000, guid: 5ea3571a6a16ba44d8f17d6988cb17b5, type: 2}
+  - {fileID: 11400000, guid: 3186066e39e0f1149a20cb39915a9270, type: 2}
+  - {fileID: 11400000, guid: 59da250d9035ebb44840ddb3d7ca81d8, type: 2}
+  currentUpgrade: {fileID: 0}
   beamPrefab: {fileID: 824023819897462620, guid: eae16fe4b89e81e4c8ffc23da0294aa4, type: 3}
   beamGrowthSpeed: 30
   maxBeamLength: 40
@@ -63,4 +69,3 @@ MonoBehaviour:
   visualScaleX: 1
   visualScaleY: 1
   baseDamage: 1
-  currentUpgrade: {fileID: 0}

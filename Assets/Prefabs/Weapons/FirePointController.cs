@@ -16,28 +16,38 @@ public class FirePointController : MonoBehaviour
         }
     }
 
-    void Update()
+void Update()
+{
+    if (player == null) return;
+
+    // Get mouse position in world space
+    Vector3 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+    mousePos.z = 0f;
+
+    // Calculate direction and distance
+    Vector3 playerCenter = player.position + offsetFromPlayerCenter;
+    Vector3 toMouse = mousePos - playerCenter;
+    float distance = toMouse.magnitude;
+
+    // Default direction if mouse is inside the radius
+    Vector3 direction;
+
+    if (distance > maxRadius)
     {
-        if (player == null) return;
-
-        // Get mouse position in world space
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-        mousePos.z = 0f;
-
-        // Calculate direction from player to mouse
-        Vector3 playerCenter = player.position + offsetFromPlayerCenter;
-        Vector3 direction = (mousePos - playerCenter).normalized;
-
-        // Clamp distance to max radius
-        Vector3 offset = direction * maxRadius;
-
-        // Set fire point position relative to adjusted center
-        transform.position = playerCenter + offset;
-
-        // Face the mouse direction
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle);
+        direction = toMouse.normalized;
+        transform.position = playerCenter + direction * maxRadius;
     }
+    else
+    {
+        direction = transform.right; // keep current facing direction
+        transform.position = playerCenter + direction * maxRadius;
+    }
+
+    // Always rotate to face the current direction
+    float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+    transform.rotation = Quaternion.Euler(0, 0, angle);
+}
+
 
     void OnDrawGizmos()
     {

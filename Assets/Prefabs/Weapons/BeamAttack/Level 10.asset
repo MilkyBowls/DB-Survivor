@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84e232a38cc9f1140aefa0c3ad93a315, type: 3}
-  m_Name: Level 2
+  m_Name: Level 10
   m_EditorClassIdentifier: 
-  level: 2
+  level: 10
   damageModifier: 1
   projectileSpeedModifier: 1
   fireCooldownModifier: 1
-  projectileScale: 1.25
+  projectileScale: 4
   enableDoubleShot: 0
   enablePiercing: 0
   enableExplosion: 0
@@ -32,10 +32,10 @@ MonoBehaviour:
   autoAimDuringBarrage: 0
   visualConeAngle: 60
   kiCost: 1
-  customProjectilePrefab: {fileID: 0}
+  customProjectilePrefab: {fileID: 824023819897462620, guid: eae16fe4b89e81e4c8ffc23da0294aa4, type: 3}
   beamMaxLengthModifier: 1
   beamGrowthSpeedModifier: 1
-  beamDuration: 6
-  beamFollowsMouse: 0
+  beamDuration: 8
+  beamFollowsMouse: 1
   beamVisualScaleX: 1
-  beamVisualScaleY: 1.25
+  beamVisualScaleY: 4
