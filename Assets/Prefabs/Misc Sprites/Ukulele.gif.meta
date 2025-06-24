@@ -116,10 +116,10 @@ TextureImporter:
       name: Ukulele_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 254
-        height: 286
+        x: 16
+        y: 240
+        width: 34
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,11 +134,253 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Ukulele_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 239
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2a9ad9e64397b4b900e079b68e310f
+      internalID: 811072485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukulele_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 170
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bd5695c0edf8144b4da4ff075a01cf
+      internalID: 1838466201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukulele_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 170
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c79d299453664c40ad29e4186bbcab4
+      internalID: -85788190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukulele_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 169
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44765b2089b5bf64295c1ba7ce62171e
+      internalID: 435465594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukulele_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 88
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0939accdc27e2d040a777975ee158dd9
+      internalID: 1835925010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukulele_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 88
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff29bc467bad6146ad40ba7e3722e04
+      internalID: -1124834099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukulele_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 89
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88a1fa6275499d4584d922f7f6ad530
+      internalID: 1127225728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukulele_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 89
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde7951b93768fa459914d9c31e413d2
+      internalID: -868927080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukulele_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 39
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bb45d6bbebe4647ba6cb60eff569dc
+      internalID: -1501389281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukulele_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 40
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc30e3980da96b40908ead7796087a1
+      internalID: 1043060688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukulele_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 40
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87410dfe434379243a8905b724a03491
+      internalID: 964441809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 09859f895dd538444bccd0c36f65e1f3
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +388,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":13.0},"gridSpriteSize":{"x":48.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Ukulele_0: 7549623754939382772
+      Ukulele_1: 811072485
+      Ukulele_10: 1043060688
+      Ukulele_11: 2093516333
+      Ukulele_12: 804355460
+      Ukulele_13: 964441809
+      Ukulele_14: 1445233173
+      Ukulele_15: -1845886003
+      Ukulele_16: -660632833
+      Ukulele_17: -1536712408
+      Ukulele_18: 371903605
+      Ukulele_2: 1838466201
+      Ukulele_3: -85788190
+      Ukulele_4: 435465594
+      Ukulele_5: 1835925010
+      Ukulele_6: -1124834099
+      Ukulele_7: 1127225728
+      Ukulele_8: -868927080
+      Ukulele_9: -1501389281
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -116,10 +116,10 @@ TextureImporter:
       name: Giran_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 660
-        height: 926
+        x: 10
+        y: 821
+        width: 72
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,11 +134,1419 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Giran_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 823
+        width: 71
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eee78aef173f647ac9dd6dd3c3da1e
+      internalID: 1427013574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 826
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a469a985132f44fbcd28910b23c514
+      internalID: 747954223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_3
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 822
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e765fbc113a116949a26b7d7bf1536e0
+      internalID: -1260359519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 824
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5d9bdc42d9d95469e28ca6fa3a6b53
+      internalID: -742319575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 746
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62671f6377b959541a18dcf12003f2f8
+      internalID: -220093802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 747
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf2c7d75aa11144db8743bec1ec87a2
+      internalID: -283255962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 746
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022bde473a68286429f9a30f2a830fda
+      internalID: -552348525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 743
+        width: 86
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1011506ec0046a546ba146189bbd62d9
+      internalID: 1675214406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_9
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 738
+        width: 79
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb062763fbb0af429c9642c5cda9d96
+      internalID: 1147054299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 738
+        width: 78
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3c7e3bd26b3e245a1a1a08547c7536
+      internalID: 1688078082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 659
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bbcfe279cb55f42bfd261c9bcf9896
+      internalID: 410952596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 661
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95d33e1a2880da4b8f047d62639a120
+      internalID: -926218386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 661
+        width: 83
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc2645bbb3ce094da0c4ba99cf41698
+      internalID: 884817511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_14
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 656
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72640bc65ecc3e347aef43bdd8b59b8f
+      internalID: -392017632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 655
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863aee1861f85ef40823f6eb0faa77d3
+      internalID: -730924930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_16
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 656
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d3c573f4ff16445b2134aaa70e25aa
+      internalID: 758461294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_17
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 657
+        width: 75
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c23fe7e9ff65604aa4e4c7349246315
+      internalID: -1353163926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 583
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750d9037cf8b95b4ca2cf40dadcd41da
+      internalID: -275229439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 584
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d2036f91f485e4c93b1f0ea186c469
+      internalID: 1676717326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_20
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 587
+        width: 78
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401d3804018b7cf46b419585d83cd0f0
+      internalID: 297202295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 584
+        width: 79
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bc1fdc6e8adbc4594b774bb2d90d7d
+      internalID: -479562579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_22
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 583
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06713cc71e89ef84399ae668ad8f58e2
+      internalID: 368641884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_23
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 584
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a3db85348072642b009092a2b32354
+      internalID: 407877020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 511
+        width: 79
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0eb002da54a6b74d8032f3267a44004
+      internalID: -808936742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c310e13ad0740c847aa94448f7e9316b
+      internalID: -2133176483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_26
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 514
+        width: 76
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e56eed5cdfc17b4f97a97ac773d1d60
+      internalID: 2052866083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_27
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 509
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5286aedfc002c645a1458c751a100e0
+      internalID: -1461124060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 430
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956671a14a016914f94a7d3cef2f24ac
+      internalID: -1891738508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_29
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 430
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876979018cb70054ebd30267241d2a16
+      internalID: -531318252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_30
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 436
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7ac5b89d465ed4da0b74ada64e2fba
+      internalID: -1443639682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_31
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 431
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8a36447d629b4469375b4215aeb881
+      internalID: 215931401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_32
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 434
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc5effbdef13314d868e03b221bf162
+      internalID: 174577271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_33
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 431
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47dcbb8eeca02040bf064c90b791857
+      internalID: -1492559272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_34
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 431
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2076746c700604388ff561f9b920b2
+      internalID: 573896988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 343
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e56c8683135a064390d41558e7f3c9d
+      internalID: 882518976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_36
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 351
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e898fbd6b1126945a42670285113e85
+      internalID: 1625900065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_37
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 332
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abc03d4ec1cb61409135f8e423fa4c5
+      internalID: -111955579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_38
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 348
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d342b1c1153ec47927673973547acb
+      internalID: 1188358184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_39
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 351
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074848143486bf0498552a136430ed60
+      internalID: 1082157696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_40
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 353
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e65659bea93c246bf5724e3dfcbdb7
+      internalID: 599970900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_41
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 337
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b730d5c8f9a434d88158783e4d58b1
+      internalID: -1700654147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 247
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dce516d5e861284e92b6bfeac776741
+      internalID: -846939811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_43
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 245
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77480a813cad51c41b5d33f288089339
+      internalID: -771834291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_44
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 245
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a86cb1fb19ae648a225cccef3c7159
+      internalID: 1360851906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_45
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 245
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fa7a1130b665d4295df614c02a1f8f
+      internalID: -1056978553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_46
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 244
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8019857fa59adee49ab6a248205af108
+      internalID: 1150632261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_47
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 251
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630a12900d516ba47befbdda5247a456
+      internalID: -495233784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_48
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 248
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed5524f7b189064bb1fde96e5c5efd5
+      internalID: 40711158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_49
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 167
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a371c91df1016d2498aa63f42faa924c
+      internalID: -1717489678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_50
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 168
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4c24e6e21bbb542a02ab75124542c5
+      internalID: 798591614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_51
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 165
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50836701fd939a4bb3b12af62fc0eb9
+      internalID: 1611980330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_52
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 168
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337152cb0dac8364198790034d139927
+      internalID: -117306794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_53
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 168
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7e3fff501905341b4e45b8c38d9536
+      internalID: 1195548740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_54
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 168
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6040f2550b798c42b9c0da98520ff5c
+      internalID: -432714067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_55
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 168
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99241fc9ee8025a4c8950557f84bb93b
+      internalID: 830208328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_56
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 167
+        width: 71
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2f4d540201414459f0055fba5fd779
+      internalID: -1728547178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_57
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 88
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af558c396da14444b9676955b3b92af8
+      internalID: -142769160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 86
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d556fd36ce47b4c8deb8fb35e94c90
+      internalID: -784871824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_59
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 92
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beca0fd5bfd724245b073e2ba50bea57
+      internalID: 1300687271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_60
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 92
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8125e79f33bf24740b4e7b5dd2604a1d
+      internalID: -628997346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_61
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 94
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de202401e1b5d8e45986cd0a66af02e0
+      internalID: -1256978240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_62
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 94
+        width: 79
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68562a25f2ea6394ea47dd65c1f94fc6
+      internalID: 1633671931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_63
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 95
+        width: 75
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085c86605d11c924c87b927976a8a8db
+      internalID: 2103272542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giran_64
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 91
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abca99346ef9c9040b7d9caa7e311e30
+      internalID: 1286749251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 49ede59768a85744885514764a2506be
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +1554,141 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":13.0},"gridSpriteSize":{"x":48.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Giran_0: 464199902646874040
+      Giran_1: 1427013574
+      Giran_10: 1688078082
+      Giran_100: 1671414393
+      Giran_101: 240529584
+      Giran_102: -1257792784
+      Giran_103: -1168907614
+      Giran_104: 2106188450
+      Giran_105: 1917697505
+      Giran_106: 828270874
+      Giran_107: 135896280
+      Giran_108: 690413933
+      Giran_109: 2066815695
+      Giran_11: 410952596
+      Giran_110: 311547184
+      Giran_111: -200689783
+      Giran_112: -1384374645
+      Giran_113: 540912220
+      Giran_114: -867127110
+      Giran_115: 1666301292
+      Giran_116: 1795893226
+      Giran_117: 1945310294
+      Giran_118: -362594528
+      Giran_119: -1988547579
+      Giran_12: -926218386
+      Giran_120: 1710790575
+      Giran_121: 872717815
+      Giran_122: -208880335
+      Giran_123: -939917921
+      Giran_124: 448039978
+      Giran_125: -1039136242
+      Giran_126: -2023081245
+      Giran_127: -1373537660
+      Giran_128: -636688197
+      Giran_129: 777276979
+      Giran_13: 884817511
+      Giran_130: 1511765976
+      Giran_14: -392017632
+      Giran_15: -730924930
+      Giran_16: 758461294
+      Giran_17: -1353163926
+      Giran_18: -275229439
+      Giran_19: 1676717326
+      Giran_2: 747954223
+      Giran_20: 297202295
+      Giran_21: -479562579
+      Giran_22: 368641884
+      Giran_23: 407877020
+      Giran_24: -808936742
+      Giran_25: -2133176483
+      Giran_26: 2052866083
+      Giran_27: -1461124060
+      Giran_28: -1891738508
+      Giran_29: -531318252
+      Giran_3: -1260359519
+      Giran_30: -1443639682
+      Giran_31: 215931401
+      Giran_32: 174577271
+      Giran_33: -1492559272
+      Giran_34: 573896988
+      Giran_35: 882518976
+      Giran_36: 1625900065
+      Giran_37: -111955579
+      Giran_38: 1188358184
+      Giran_39: 1082157696
+      Giran_4: -742319575
+      Giran_40: 599970900
+      Giran_41: -1700654147
+      Giran_42: -846939811
+      Giran_43: -771834291
+      Giran_44: 1360851906
+      Giran_45: -1056978553
+      Giran_46: 1150632261
+      Giran_47: -495233784
+      Giran_48: 40711158
+      Giran_49: -1717489678
+      Giran_5: -220093802
+      Giran_50: 798591614
+      Giran_51: 1611980330
+      Giran_52: -117306794
+      Giran_53: 1195548740
+      Giran_54: -432714067
+      Giran_55: 830208328
+      Giran_56: -1728547178
+      Giran_57: -142769160
+      Giran_58: -784871824
+      Giran_59: 1300687271
+      Giran_6: -283255962
+      Giran_60: -628997346
+      Giran_61: -1256978240
+      Giran_62: 1633671931
+      Giran_63: 2103272542
+      Giran_64: 1286749251
+      Giran_65: 1660915004
+      Giran_66: 2121861323
+      Giran_67: 186216301
+      Giran_68: 1910947030
+      Giran_69: 180005848
+      Giran_7: -552348525
+      Giran_70: 1756786137
+      Giran_71: -1904861242
+      Giran_72: 2134132942
+      Giran_73: -1090410564
+      Giran_74: 1348252886
+      Giran_75: -1231680958
+      Giran_76: 70319921
+      Giran_77: 882010429
+      Giran_78: 2036546610
+      Giran_79: -590149121
+      Giran_8: 1675214406
+      Giran_80: 2044636594
+      Giran_81: 1602502052
+      Giran_82: -324476342
+      Giran_83: -804755710
+      Giran_84: -948172700
+      Giran_85: 709545545
+      Giran_86: -1784772737
+      Giran_87: -1544755543
+      Giran_88: 71221979
+      Giran_89: -244185425
+      Giran_9: 1147054299
+      Giran_90: -817065067
+      Giran_91: -925322579
+      Giran_92: 1028222878
+      Giran_93: 131257217
+      Giran_94: 1158850875
+      Giran_95: 40093106
+      Giran_96: 1697974406
+      Giran_97: -1741341953
+      Giran_98: 1437927654
+      Giran_99: 1799100042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
