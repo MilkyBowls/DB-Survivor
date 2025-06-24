@@ -103,10 +103,10 @@ TextureImporter:
       name: DBZSSW-Effects_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 651
-        height: 1336
+        x: 42
+        y: 1311
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,11 +121,5159 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1307
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22044c808b1f45f48aa1f0eee10fe495
+      internalID: -1702221292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1306
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9277be0d718dac41b5cdbe508dcf16d
+      internalID: -534265201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1306
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e757093d0e72ba447ad4c2a0b7140973
+      internalID: 519106734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_6
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cae9ccb6cabd364a9b429d23d69a50d
+      internalID: 1346250669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1311
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310b0266a97e6a947bf7e5593f12907e
+      internalID: -1284139051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_8
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1313
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbef30d6b5ac3b548a0cf6a6af084091
+      internalID: 1008107830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_9
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09a71216b932a9419d8b3bb54de4565
+      internalID: 1244478162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1305
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d58fcd3ecc3d104d85f148c78465fba
+      internalID: 499123856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_11
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1303
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafc0e18aec0e5941b08fede841505c2
+      internalID: -654701743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1303
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0087379349477eb4a9436fcd16a6fef5
+      internalID: -939747865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_13
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1305
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf5ca002aa324f409aa466855b5200c
+      internalID: -444488133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_14
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1309
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd254a2ff1cfdc4e83bdc1f527b2db1
+      internalID: 1874206177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_15
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1303
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a18c163d3fe22741b58881788527d87
+      internalID: 2136734821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_16
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1303
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3841597882fe6441932de0710e7b090
+      internalID: 2007203795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_17
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1303
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f822313b904b5e4d84affbc1d4a8841
+      internalID: -967246260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_18
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1303
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea9c945ed0cf7f45808beb87fdda1ef
+      internalID: -196317067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1315
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ca0a87f12363e4da49d3531615a661
+      internalID: -558648056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1278
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be9ad8eba893e5448f58b1d966afb19
+      internalID: 719269598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1274
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6629483c4ef2c734ea7ed8379e731577
+      internalID: -1862397163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1273
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adebba63e9cb41449a15d9ea00474d21
+      internalID: -723128143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_28
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1273
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fe8fcaab4f66e4d891e60d2073dd63
+      internalID: 1259270536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_29
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1277
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b854b122770e6b949b92e284c8022353
+      internalID: -50114399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1278
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ddfc45a97cfd648ad4087a7f29e577
+      internalID: 496259555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_31
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1280
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996be5b4518244b46bf8dba9f24e57d9
+      internalID: -1872799423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_32
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1270
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f4dcba4cc03ea4fad11102a43783a3
+      internalID: 1471610084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_33
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1272
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159bc07fc01484c4e855aedde8efd198
+      internalID: 1096332345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_34
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1270
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0643b0ed4d380864584b581be0bfda29
+      internalID: -422737629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_35
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1270
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7988bdfd08f30c6429ad8ba814205ac5
+      internalID: -907030696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_36
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1272
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9126ca31fb6484dacc9511d937be38
+      internalID: -1055768516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_37
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1276
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4e99304efa65e4cb1804b4349ec72b
+      internalID: 964514499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_38
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1270
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92d187c614e96541ae2fc817dbb4c22
+      internalID: 1859595936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_39
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1270
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9edbd666de39c4e8cdb0ea2b93ad02
+      internalID: 1850260512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_40
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1270
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ac6921a9e6b7e41acf83d8d24dea4b
+      internalID: -814194666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_41
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1270
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a3240f200003041a820c0c29fe6b17
+      internalID: 1935636609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_42
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1282
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6045595cd9d46bf41bc8ffea35126b36
+      internalID: 620937117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_46
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1245
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329fa25c3a7555a47950a7b775f70abc
+      internalID: 763552752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_47
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1241
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53c397a8208d8544bde7ff9daefe6d3
+      internalID: -2119241321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_50
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1240
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58b0f427f595f9459f743cd7bb88642
+      internalID: 528465589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_51
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1240
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c37019befd2d449b393eed4bcd8530
+      internalID: 1775129004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_52
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1244
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266d7028b5040824087c5781b6e87cb7
+      internalID: 1680425122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_53
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1245
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addf713a3e6077c4c97d6cd4ffc5842c
+      internalID: 224744658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_54
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1247
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd9e55338eb200468c7aa396b08e97f
+      internalID: 1770605810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_55
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82bc13e22efbca47856202f96911124
+      internalID: 2068408351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_56
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1239
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7086f01f7885325429f3457bb69968e7
+      internalID: -2026186163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_57
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1242
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3e205f70f7437419a439b9b459020a
+      internalID: -2054059726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_58
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1241
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fe40110b240ac4288df45db69214d3
+      internalID: -1965787602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_59
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1242
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec242191d2380b544a581196f614f403
+      internalID: -829427056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_60
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1238
+        width: 5
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c665b7e09432d4ea1222fb7b520f4d
+      internalID: -2132136167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_61
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1237
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c35394f675498468bf5ef6a57174d6
+      internalID: -381290098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_62
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1237
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef03a7a6f7c3da04fb9a5f7febc96efb
+      internalID: 2087158284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_63
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1237
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7bae84e4d947c4cb554c96660f296b
+      internalID: 1892238604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_64
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1237
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe729e693a980d84a8f72ce04329f2a4
+      internalID: -622962890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_65
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1249
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8463422020abbfe49994388c4693a21a
+      internalID: -414833893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_69
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1208
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58d81ef037992749a0212cb98be9306
+      internalID: 1136215007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_72
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1207
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682446c3285a5e745b335a529411ee73
+      internalID: 1506004380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_73
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a25135da0bdaf448fcc044d140d819
+      internalID: -930197582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_74
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1206
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90367ab86c7f5ec429d00a117d91e251
+      internalID: 1501328534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_75
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1204
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8732e9f3269ea174bb044183768727d7
+      internalID: 89074962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_76
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1204
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20f36b652a94ba40968e18088d8849f
+      internalID: -1250506508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_77
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1206
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a4aa1df9c279b47b5dd16abe3bc3ee
+      internalID: -1186581863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_78
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1208
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0746f7f3fe9b7384eb8a15cebc4bfc4b
+      internalID: 1924375106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_79
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1a98323770cb946bb710ce9ae02b66
+      internalID: -157907093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_83
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e049aa5f5e96034793361f81d5a5509
+      internalID: 1850060534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_85
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1211
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeff86a1abd37de4f8461849ce9e5c9f
+      internalID: 834958055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_86
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1212
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87182c8e57c64d441a808e6fd01b40db
+      internalID: 1742873989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_87
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1214
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e606edb7b4d154c488ed95d7778cb39e
+      internalID: 857757322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_88
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1210
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cfdbb21fd0c8d4badd131c711fb612
+      internalID: 1016843100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_89
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09bf7e4a0a594847a3290bdc6f33270
+      internalID: -2045665780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_93
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1216
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b40a642688912045bb1132822dbcdf9
+      internalID: -199745852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_95
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1213
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef214ea5f75cfc44caab9c60a9241e11
+      internalID: -194313009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_97
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1207
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5540d78c7d11b344ba95d2f0bf3e1bc4
+      internalID: 1024547546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_99
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5f527231da9e946b667e04250f0aa1
+      internalID: 1534105518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_102
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1139
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525dfe1a22a85ce4a9e0fabffa502c8e
+      internalID: 240948086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_103
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1139
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66968e85c4b9da418aa833fbb4d2107
+      internalID: -1982540539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_104
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1139
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd3df6b6e18d8d4eb15112b0a9eeb8e
+      internalID: 2014779005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_105
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1139
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3cf26280474a2478f303f61cebb3ee
+      internalID: 2050682017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_106
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1139
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb6f649cec9b8249b0052d562356be4
+      internalID: -547471548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_107
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1139
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc699592cd0b5e84f9b3faab75062320
+      internalID: -1256038527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_108
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1143
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6952f779be136f34bb1c143f6b2bf089
+      internalID: -985372684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_109
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1141
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddf6031478662242b8a58196b027091
+      internalID: -1658365451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_110
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1145
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cd88d82032e5a4192361c30e1abe13
+      internalID: 788000763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_111
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1145
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6720a94553e917d419bd0de801817e6c
+      internalID: -468444970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_112
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1085
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9310452d9c6a204cb30c9d65a4e5a16
+      internalID: 1285044502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_113
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1082
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c28094abb893548b2b507c046268fc
+      internalID: -1177306816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_114
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1090
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e42a868192fac43bbeb18a2204e5f7
+      internalID: -127596839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_115
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1091
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cb497755a56114195355a06324f057
+      internalID: -1989353837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_116
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1100
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95a1077c5dca68408b3e911f2d153ec
+      internalID: -863875576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_117
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1102
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae69bc21e52203c409de225ad669ddfa
+      internalID: 734536961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_118
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1103
+        width: 48
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11234c709fa86f4984462a1c8847d1b
+      internalID: -1410930144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_119
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1104
+        width: 48
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195b8d10bef445e45bf7ab5271bfcb63
+      internalID: -640203752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_120
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1076
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69a35c95427b8c4c81ced4fd5b3431f
+      internalID: 1602353750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_121
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1077
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58fe8babe3793b4eb89d627684a9da0
+      internalID: -1853209511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_122
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1031
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0eb7082b7b3c245a42307299a499f0
+      internalID: 773020706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_123
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1029
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9610d7a6d64a254478f9e059d121ef63
+      internalID: 533291726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_124
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1031
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84e4d33b7cf73143b4157bf03d2dccd
+      internalID: 1748859224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_125
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1032
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33e6350e024d6d4a80c93b99ffd298c
+      internalID: 1918951694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_126
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1036
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2776399c84c471944aa5211591b47c59
+      internalID: 2136386879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_127
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1039
+        width: 48
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615cdcb11290cf34eb420f462604caaf
+      internalID: -463024309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_128
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1039
+        width: 113
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4e4061040cf364db6406e21a820002
+      internalID: -79600498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_129
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1026
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359781f1e1f05764a879b686acea0a89
+      internalID: 1583187801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_130
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1026
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cc7831372d4e24e8c54c4fc9a4b849
+      internalID: -344213924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_131
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 969
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abdb8510f3eaf843b101e3d4a934152
+      internalID: -2034750514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_132
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 964
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5235748af973b24b904a9bcadf20758
+      internalID: -928534547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_133
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 963
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef2d1e37f5bd7c44bcb4cb8a4854d51
+      internalID: 1019611793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_134
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 963
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70df0cc2ecd6ee540b9414757d436cd3
+      internalID: 337048314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_135
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 965
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbef0fbd554e3e409b7cc1b58ef2683
+      internalID: 1293093992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_136
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 968
+        width: 55
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577cf0aa66d28f84091c92289994a632
+      internalID: -1144209946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_137
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 968
+        width: 56
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d342cf2b24d184f91593a892c01ac8
+      internalID: -1731162173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_138
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 968
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a011456923efd9846ab13cbb6a244cdb
+      internalID: -1932545800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_139
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 903
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb116e7f12b07954fb24c2c97ce7236b
+      internalID: -1811554733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_140
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 903
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1448be3d3b74e33469b562f6f2a1d8d0
+      internalID: 2112735007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_141
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 903
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484e7b37565086d4d8ec14e2abf0162b
+      internalID: -227048982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_142
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 903
+        width: 52
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f673045dd75419d4cb6399a215a43cc1
+      internalID: -1880535965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_143
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 903
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d1b4a79e1d36c41a638dac76d36159
+      internalID: -1772311032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_144
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 901
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e352ce8de1697943b02bd452f2d49c4
+      internalID: -298244763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_145
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 900
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ba3d80b7f8ff84db12fe2e58018a05
+      internalID: -427285997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_146
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 899
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c746ae1586502c047b612cc0d03f6d49
+      internalID: 1187053706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_147
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 834
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c18816a3d24b20439f546a74921dfbd
+      internalID: -597674752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_148
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 834
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3afe5a28cc35604083be19f6fb75d7e
+      internalID: 1217059001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_149
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 838
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8dbd25062e4f3408c0eaa75fcb439c
+      internalID: 2100816010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_150
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 839
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4738fd832bf4ef345b4043827bfb473c
+      internalID: -389125672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_151
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 839
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73cdcb1acb20ce4981773720d8accca
+      internalID: 1216522465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_152
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 830
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342dcc187d3afe74e89740d38d2a1fba
+      internalID: 203288638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_153
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 757
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a1c0714f6488944905a468688ac316
+      internalID: 1329576597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_154
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 755
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21996b504bffa01478ebd59b5177bbf0
+      internalID: -818986536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_155
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 754
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8736818c7aaf2534a9625cf7c2c32013
+      internalID: -1993167047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_156
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 753
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59777443f3954942abead8cca568771
+      internalID: -775321583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_157
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 757
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf1862c207fe254a91dea7fbcc830e5
+      internalID: 494409616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_158
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 755
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37aacfb5f537ce44bec4fd3eb2910a9
+      internalID: -292385204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_159
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 754
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484e375bc4e378a4e8094f84a85ca32e
+      internalID: -1131428460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_160
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 753
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afe4610e4b4eb04c93265811525c413
+      internalID: -1217577832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_161
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 749
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b3b3402bbefe74399affaebb66b6b6
+      internalID: -419007601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_162
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 749
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0781b011f46978e46933e4619fa912dd
+      internalID: -94889256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_163
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 688
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259475c558491cf4c874d659aa7cdccd
+      internalID: 180026633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_164
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 688
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7b41a578377be4e9f14ea2b830f906
+      internalID: -538850880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_165
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 688
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed06f03c8cdb02f438f30a5307820eae
+      internalID: -1365640511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_166
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 688
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3767d5d934668de4aac17a0bd7c13b6a
+      internalID: -76355925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_167
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 688
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0522e761db9f140b1b8a48c19ca61d
+      internalID: -982086484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_168
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 704
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff878e3d9d91da74a9c3434428bf94e4
+      internalID: -769938342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_169
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 704
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cfc90e180f4be4c92e5e81e8cb4de9
+      internalID: -1574458465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_170
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 704
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8fea64f89fa544bb11de504b02a1f1
+      internalID: 849382014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_171
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 704
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58e6f4584786684e8df36df00e3eec1
+      internalID: -652030376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_173
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 621
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70126b1d1c8fdea4fb37f7456c1ce274
+      internalID: 1889347151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_174
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 621
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8130280143b86f844afe860a0d2bebbb
+      internalID: 1691189768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_175
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 621
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcb45f64e0ac444ab45624dd03da6ee
+      internalID: -1163699024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_176
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 621
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794d67639f8a5ab48a542b79a1f36e5d
+      internalID: -521150976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_177
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 621
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d509124e4ccb9d24cbab80a2a3fe7f13
+      internalID: -1446676965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_178
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 621
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5444bafa40dc4184dbf10ccc61b78422
+      internalID: -818631334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_179
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 621
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e7fc5e6a2d86a439b3f384355e6bf9
+      internalID: -1348776693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_180
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 621
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0292b385c92b8b47979d380a5453a6e
+      internalID: 1684732427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_181
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 621
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999391e2b9086fd4291dc25f191c0224
+      internalID: 833601109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_182
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 619
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e8b56bdb0b74a4d9ad7869fc041a3c
+      internalID: 988981362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_185
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e44c53b52f78a244a5061db345bc934
+      internalID: -1273227028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_186
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 555
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1150d11816cc5f44ca61e93ccd76e035
+      internalID: 1471158780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_187
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 554
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f579a899f81fef4787350744579f69e
+      internalID: 515689545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_188
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 554
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1020632804e1f3429a6ec916985e645
+      internalID: -84371789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_189
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 554
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea939de78262b542903fe648605a177
+      internalID: -717378074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_190
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 554
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb403bfcec89f64cbddecb3ccfa47c8
+      internalID: -1163181403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_191
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 554
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ca6bfa8ca5be44880a96f9113da53d
+      internalID: 562684280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_193
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 554
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e7b863b368e134d9b6951371c630b3
+      internalID: -412641805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_194
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 554
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac73c3895cae7b479a190dec18d3590
+      internalID: -573360183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_195
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 563
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e995652f79e32d04cacf79e6a2e99eaf
+      internalID: 839264535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_197
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 489
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7cb4405fc12704984e4522a53a5a04
+      internalID: 2057666779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_198
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 489
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65f269c50f7f344e8e90cd46978e824
+      internalID: 810421561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_199
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 493
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f5a37239a5b2c489e6c59225e09c54
+      internalID: 273632571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_200
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 493
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79c7e50cfe6c184c8b8259348383812
+      internalID: -1070770232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_201
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 489
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45a8705e934ef048a99c3ee70d25254
+      internalID: 672070554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_202
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 489
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9568eba41aac94587a3c1b0a3575a9
+      internalID: 883609416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_203
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 493
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b593f20aea4ad469861afde9ff82ae
+      internalID: -2138570000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_204
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 428
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff9069f37ef6dd4cad5deb0030067a9
+      internalID: 1252177495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_205
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 424
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f2318dce62e124e89b3e36217925be
+      internalID: 73372741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_206
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 424
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350b5b04e7c2e5646b8e69fbabc58b09
+      internalID: 1898073885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_207
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 428
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799c2a1c178ae5b42b83ea8d03a7bc15
+      internalID: 1626291600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_208
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 428
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00c361422efa204ba7d4d5f87108669
+      internalID: 685584027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_209
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 424
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22d2a266248b0c4881e586e8a02387c
+      internalID: 797418333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_210
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 424
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fd37aaf3e906743bfedc34e5ce1091
+      internalID: -736712960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_211
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 365
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f584354dd211f0943baf5d926ea9b51b
+      internalID: 2017904567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_212
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 371
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edf164a9b6e73d489dd54e7ecef71d0
+      internalID: 441341885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_213
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 372
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768e2af933291ee448bc13f654a43f0b
+      internalID: -1262205639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_214
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 370
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4141aca89b657a4bac2d17e25da5680
+      internalID: -1131828404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_215
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 367
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68ae3feb56bfe14d90e7d7623867ec8
+      internalID: 546624727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_216
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 374
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4525d59d4233db148b6e50476c6f5387
+      internalID: -2039405634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_217
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 371
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352cbea95ab5e9b478acdce5c6ac33bc
+      internalID: -96114331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_218
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 371
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489a9d03fcbbced47b9201162aee3733
+      internalID: 1943363530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_219
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 374
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1ea7fcb494b5642853d4c77581c2f1
+      internalID: 11359725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_220
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 378
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f4d296470a2e144a04bf202949f1ad
+      internalID: 1776460398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_221
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 329
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17defd88a8cdd6841b514c08d379479e
+      internalID: -988170225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_222
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 330
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48675ab31fb0ca04bb1716a1335b16c3
+      internalID: -1452318655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_223
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 332
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb821c2b05d1cda488de493c66290665
+      internalID: 1697084978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_224
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 328
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fdf0ad1ef3a894693bb9ed8c9f5354
+      internalID: 360583950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_225
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 328
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d5a3fd951a4a2469d3bb76df9b1488
+      internalID: -976039509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_233
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 330
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3926562add67e94fad982cea8bc8feb
+      internalID: -1129272563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_234
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 328
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42c28260b1b29e4890f7ed2e7e86033
+      internalID: -575682720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_235
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 327
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e0d178f24f6ce4992898e5768b03d4
+      internalID: -937926902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_236
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 326
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87e03c90a963db4380fe7aefaf6103d
+      internalID: -381728182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_237
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 327
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8d0a38f914ee74091cd5c78ceb7096
+      internalID: -737271479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_245
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740912746e0f9844b91208526331f7ab
+      internalID: 1315728620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_246
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 264
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b718ddcc474d7b64a933c46c2b71554d
+      internalID: 1138753123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_247
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 263
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113696958e24bf4459392245f78279d2
+      internalID: 1098808235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_249
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 261
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9081f9a75edee424b9889bd0459ac139
+      internalID: 2007094555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_250
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 268
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d1d67fb3932684fb546d5b76514cb3
+      internalID: -1414969395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_255
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 271
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2931d3cd072a0e449b1466fc8eadb8fa
+      internalID: -1328447353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_269
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 275
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41377bfaeb659cb48843aea19e451c4b
+      internalID: 1724298075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_276
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 210
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32e64a8cdf03db48b279501c0bab649
+      internalID: 2039390547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_277
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 205
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15912a79342adab408961cedd3834780
+      internalID: 2090756147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_278
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 205
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1284bb12bde5ef47ae10a6ae2750036
+      internalID: -1902366583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_279
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 197
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a24da2412e6fb4cbfff60c5f3b1e78
+      internalID: -329768346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_280
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 200
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf86fa19f47c5a4a884aa6db562a4ee
+      internalID: 424830586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_281
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 199
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751b81ac2657e0a4dbdb900c9e48e9a5
+      internalID: 1857347009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_282
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 197
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ef17fdf2d8aaa4faf18a0a6cab37a9
+      internalID: -44109458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_284
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 197
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb063f9fcc1b33469f545a350ca9ffe
+      internalID: 429523155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_286
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 133
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e2178dad337064eb4122f167a0a6ae
+      internalID: 24835475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_287
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 132
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7028b7cd97a3cac48ae47790cc3a87e1
+      internalID: 166512294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_288
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4432c1d19f8a04d4bab0dfae4ff47c93
+      internalID: 748193774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_289
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 131
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81eb066cdeaea54db9d3775e8a80948
+      internalID: 2098463756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_292
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 134
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0f6a14354e22e43b647001437b4c80
+      internalID: -810875614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_302
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 136
+        width: 63
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2e7aea61740334b8edae4191ff01f6
+      internalID: -420163382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_306
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 136
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70beeca4d41b2644917487922e211a7
+      internalID: 252056961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_308
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 102
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85c2a1f64826d144bb4557e36d20102
+      internalID: 2114910627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_309
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 70
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccfdcd3865d666458bebe8b400056a5
+      internalID: -759943160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_312
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 68
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20ad8c7663d0c24b8294a0c03d7291d
+      internalID: 27079446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_313
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 67
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3889e050af91b44409b248380d80099a
+      internalID: 214036037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_316
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c011b29b272900643a0ac767a07813a5
+      internalID: -1395720773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_318
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 67
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7460166964b86d42b6a85327c775e18
+      internalID: -126535046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_319
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 66
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b971890f2d097ac49b4ba934ef06472f
+      internalID: -1490669266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_323
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 66
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665a8fa95a0b9a1408e04c206557cfc3
+      internalID: -1996050923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_325
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49fe5dd6e8fb404f8f9b216925f3617
+      internalID: 170523446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_326
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 3
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be31f4e387327e94fbca756c9501c244
+      internalID: -873024931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_327
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3b2ed56cc16bc4c8a6effc3f27f8b8
+      internalID: 435037327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_328
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ff88db0c5e2b748b9ab78b63308cdc
+      internalID: 1992060334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_329
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 17
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7d8830e32f78e4c9d57f10615621db
+      internalID: 494022613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_330
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 13
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b70564c10291a4e9473a236bdd2dd7
+      internalID: 1898137297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_331
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 10
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b346b27b172964458ed1c727fb9e28e
+      internalID: 42909874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZSSW-Effects_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f86795f2321d344bd6e3041f8d9f39
+      internalID: 1965370337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 441f9ff6f2599d84c9bb0c1dc7549f67
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +5281,342 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       DBZSSW-Effects_0: 5964221420594256964
+      DBZSSW-Effects_1: -1702221292
+      DBZSSW-Effects_10: 499123856
+      DBZSSW-Effects_100: 905757976
+      DBZSSW-Effects_101: -429271934
+      DBZSSW-Effects_102: 240948086
+      DBZSSW-Effects_103: -1982540539
+      DBZSSW-Effects_104: 2014779005
+      DBZSSW-Effects_105: 2050682017
+      DBZSSW-Effects_106: -547471548
+      DBZSSW-Effects_107: -1256038527
+      DBZSSW-Effects_108: -985372684
+      DBZSSW-Effects_109: -1658365451
+      DBZSSW-Effects_11: -654701743
+      DBZSSW-Effects_110: 788000763
+      DBZSSW-Effects_111: -468444970
+      DBZSSW-Effects_112: 1285044502
+      DBZSSW-Effects_113: -1177306816
+      DBZSSW-Effects_114: -127596839
+      DBZSSW-Effects_115: -1989353837
+      DBZSSW-Effects_116: -863875576
+      DBZSSW-Effects_117: 734536961
+      DBZSSW-Effects_118: -1410930144
+      DBZSSW-Effects_119: -640203752
+      DBZSSW-Effects_12: -939747865
+      DBZSSW-Effects_120: 1602353750
+      DBZSSW-Effects_121: -1853209511
+      DBZSSW-Effects_122: 773020706
+      DBZSSW-Effects_123: 533291726
+      DBZSSW-Effects_124: 1748859224
+      DBZSSW-Effects_125: 1918951694
+      DBZSSW-Effects_126: 2136386879
+      DBZSSW-Effects_127: -463024309
+      DBZSSW-Effects_128: -79600498
+      DBZSSW-Effects_129: 1583187801
+      DBZSSW-Effects_13: -444488133
+      DBZSSW-Effects_130: -344213924
+      DBZSSW-Effects_131: -2034750514
+      DBZSSW-Effects_132: -928534547
+      DBZSSW-Effects_133: 1019611793
+      DBZSSW-Effects_134: 337048314
+      DBZSSW-Effects_135: 1293093992
+      DBZSSW-Effects_136: -1144209946
+      DBZSSW-Effects_137: -1731162173
+      DBZSSW-Effects_138: -1932545800
+      DBZSSW-Effects_139: -1811554733
+      DBZSSW-Effects_14: 1874206177
+      DBZSSW-Effects_140: 2112735007
+      DBZSSW-Effects_141: -227048982
+      DBZSSW-Effects_142: -1880535965
+      DBZSSW-Effects_143: -1772311032
+      DBZSSW-Effects_144: -298244763
+      DBZSSW-Effects_145: -427285997
+      DBZSSW-Effects_146: 1187053706
+      DBZSSW-Effects_147: -597674752
+      DBZSSW-Effects_148: 1217059001
+      DBZSSW-Effects_149: 2100816010
+      DBZSSW-Effects_15: 2136734821
+      DBZSSW-Effects_150: -389125672
+      DBZSSW-Effects_151: 1216522465
+      DBZSSW-Effects_152: 203288638
+      DBZSSW-Effects_153: 1329576597
+      DBZSSW-Effects_154: -818986536
+      DBZSSW-Effects_155: -1993167047
+      DBZSSW-Effects_156: -775321583
+      DBZSSW-Effects_157: 494409616
+      DBZSSW-Effects_158: -292385204
+      DBZSSW-Effects_159: -1131428460
+      DBZSSW-Effects_16: 2007203795
+      DBZSSW-Effects_160: -1217577832
+      DBZSSW-Effects_161: -419007601
+      DBZSSW-Effects_162: -94889256
+      DBZSSW-Effects_163: 180026633
+      DBZSSW-Effects_164: -538850880
+      DBZSSW-Effects_165: -1365640511
+      DBZSSW-Effects_166: -76355925
+      DBZSSW-Effects_167: -982086484
+      DBZSSW-Effects_168: -769938342
+      DBZSSW-Effects_169: -1574458465
+      DBZSSW-Effects_17: -967246260
+      DBZSSW-Effects_170: 849382014
+      DBZSSW-Effects_171: -652030376
+      DBZSSW-Effects_172: 1758815739
+      DBZSSW-Effects_173: 1889347151
+      DBZSSW-Effects_174: 1691189768
+      DBZSSW-Effects_175: -1163699024
+      DBZSSW-Effects_176: -521150976
+      DBZSSW-Effects_177: -1446676965
+      DBZSSW-Effects_178: -818631334
+      DBZSSW-Effects_179: -1348776693
+      DBZSSW-Effects_18: -196317067
+      DBZSSW-Effects_180: 1684732427
+      DBZSSW-Effects_181: 833601109
+      DBZSSW-Effects_182: 988981362
+      DBZSSW-Effects_183: -194658498
+      DBZSSW-Effects_184: 465681010
+      DBZSSW-Effects_185: -1273227028
+      DBZSSW-Effects_186: 1471158780
+      DBZSSW-Effects_187: 515689545
+      DBZSSW-Effects_188: -84371789
+      DBZSSW-Effects_189: -717378074
+      DBZSSW-Effects_19: -558648056
+      DBZSSW-Effects_190: -1163181403
+      DBZSSW-Effects_191: 562684280
+      DBZSSW-Effects_192: -1905384798
+      DBZSSW-Effects_193: -412641805
+      DBZSSW-Effects_194: -573360183
+      DBZSSW-Effects_195: 839264535
+      DBZSSW-Effects_196: -1698610480
+      DBZSSW-Effects_197: 2057666779
+      DBZSSW-Effects_198: 810421561
+      DBZSSW-Effects_199: 273632571
+      DBZSSW-Effects_2: 1965370337
+      DBZSSW-Effects_20: 1566888797
+      DBZSSW-Effects_200: -1070770232
+      DBZSSW-Effects_201: 672070554
+      DBZSSW-Effects_202: 883609416
+      DBZSSW-Effects_203: -2138570000
+      DBZSSW-Effects_204: 1252177495
+      DBZSSW-Effects_205: 73372741
+      DBZSSW-Effects_206: 1898073885
+      DBZSSW-Effects_207: 1626291600
+      DBZSSW-Effects_208: 685584027
+      DBZSSW-Effects_209: 797418333
+      DBZSSW-Effects_21: 385741699
+      DBZSSW-Effects_210: -736712960
+      DBZSSW-Effects_211: 2017904567
+      DBZSSW-Effects_212: 441341885
+      DBZSSW-Effects_213: -1262205639
+      DBZSSW-Effects_214: -1131828404
+      DBZSSW-Effects_215: 546624727
+      DBZSSW-Effects_216: -2039405634
+      DBZSSW-Effects_217: -96114331
+      DBZSSW-Effects_218: 1943363530
+      DBZSSW-Effects_219: 11359725
+      DBZSSW-Effects_22: 1025849442
+      DBZSSW-Effects_220: 1776460398
+      DBZSSW-Effects_221: -988170225
+      DBZSSW-Effects_222: -1452318655
+      DBZSSW-Effects_223: 1697084978
+      DBZSSW-Effects_224: 360583950
+      DBZSSW-Effects_225: -976039509
+      DBZSSW-Effects_226: 1087684020
+      DBZSSW-Effects_227: -892879498
+      DBZSSW-Effects_228: 1560508995
+      DBZSSW-Effects_229: -2124413968
+      DBZSSW-Effects_23: 719269598
+      DBZSSW-Effects_230: -732809294
+      DBZSSW-Effects_231: -1278229635
+      DBZSSW-Effects_232: 988619238
+      DBZSSW-Effects_233: -1129272563
+      DBZSSW-Effects_234: -575682720
+      DBZSSW-Effects_235: -937926902
+      DBZSSW-Effects_236: -381728182
+      DBZSSW-Effects_237: -737271479
+      DBZSSW-Effects_238: 1364508804
+      DBZSSW-Effects_239: -990547942
+      DBZSSW-Effects_24: -1862397163
+      DBZSSW-Effects_240: -1941274559
+      DBZSSW-Effects_241: -1388436185
+      DBZSSW-Effects_242: -866201224
+      DBZSSW-Effects_243: -1819496258
+      DBZSSW-Effects_244: -1754975126
+      DBZSSW-Effects_245: 1315728620
+      DBZSSW-Effects_246: 1138753123
+      DBZSSW-Effects_247: 1098808235
+      DBZSSW-Effects_248: 993259498
+      DBZSSW-Effects_249: 2007094555
+      DBZSSW-Effects_25: 1305817860
+      DBZSSW-Effects_250: -1414969395
+      DBZSSW-Effects_251: -977179397
+      DBZSSW-Effects_252: -1125935236
+      DBZSSW-Effects_253: -2014215919
+      DBZSSW-Effects_254: 1251029666
+      DBZSSW-Effects_255: -1328447353
+      DBZSSW-Effects_256: -1950503439
+      DBZSSW-Effects_257: 1185864016
+      DBZSSW-Effects_258: 1567934547
+      DBZSSW-Effects_259: -318619936
+      DBZSSW-Effects_26: -1825822931
+      DBZSSW-Effects_260: -1968209553
+      DBZSSW-Effects_261: -117285822
+      DBZSSW-Effects_262: -723943296
+      DBZSSW-Effects_263: 875118620
+      DBZSSW-Effects_264: -1255620753
+      DBZSSW-Effects_265: 1418366956
+      DBZSSW-Effects_266: 1966787528
+      DBZSSW-Effects_267: 858618925
+      DBZSSW-Effects_268: 311637510
+      DBZSSW-Effects_269: 1724298075
+      DBZSSW-Effects_27: -723128143
+      DBZSSW-Effects_270: -1645227453
+      DBZSSW-Effects_271: 445589249
+      DBZSSW-Effects_272: -622630115
+      DBZSSW-Effects_273: 1272205059
+      DBZSSW-Effects_274: -1735312687
+      DBZSSW-Effects_275: 2033331557
+      DBZSSW-Effects_276: 2039390547
+      DBZSSW-Effects_277: 2090756147
+      DBZSSW-Effects_278: -1902366583
+      DBZSSW-Effects_279: -329768346
+      DBZSSW-Effects_28: 1259270536
+      DBZSSW-Effects_280: 424830586
+      DBZSSW-Effects_281: 1857347009
+      DBZSSW-Effects_282: -44109458
+      DBZSSW-Effects_283: -997011145
+      DBZSSW-Effects_284: 429523155
+      DBZSSW-Effects_285: 1602165859
+      DBZSSW-Effects_286: 24835475
+      DBZSSW-Effects_287: 166512294
+      DBZSSW-Effects_288: 748193774
+      DBZSSW-Effects_289: 2098463756
+      DBZSSW-Effects_29: -50114399
+      DBZSSW-Effects_290: 1952401568
+      DBZSSW-Effects_291: 1439645475
+      DBZSSW-Effects_292: -810875614
+      DBZSSW-Effects_293: 1683022703
+      DBZSSW-Effects_294: 1004145432
+      DBZSSW-Effects_295: -1425761934
+      DBZSSW-Effects_296: -1667225459
+      DBZSSW-Effects_297: 81169940
+      DBZSSW-Effects_298: -1710957302
+      DBZSSW-Effects_299: -1730581410
+      DBZSSW-Effects_3: 1452365443
+      DBZSSW-Effects_30: 496259555
+      DBZSSW-Effects_300: 938488744
+      DBZSSW-Effects_301: -1627619709
+      DBZSSW-Effects_302: -420163382
+      DBZSSW-Effects_303: 631428453
+      DBZSSW-Effects_304: 1728974583
+      DBZSSW-Effects_305: -1405308880
+      DBZSSW-Effects_306: 252056961
+      DBZSSW-Effects_307: 927818911
+      DBZSSW-Effects_308: 2114910627
+      DBZSSW-Effects_309: -759943160
+      DBZSSW-Effects_31: -1872799423
+      DBZSSW-Effects_310: 2031588536
+      DBZSSW-Effects_311: 1613289477
+      DBZSSW-Effects_312: 27079446
+      DBZSSW-Effects_313: 214036037
+      DBZSSW-Effects_314: 250097921
+      DBZSSW-Effects_315: 1289299775
+      DBZSSW-Effects_316: -1395720773
+      DBZSSW-Effects_317: 516689620
+      DBZSSW-Effects_318: -126535046
+      DBZSSW-Effects_319: -1490669266
+      DBZSSW-Effects_32: 1471610084
+      DBZSSW-Effects_320: -1242802640
+      DBZSSW-Effects_321: 279742397
+      DBZSSW-Effects_322: -1683342440
+      DBZSSW-Effects_323: -1996050923
+      DBZSSW-Effects_324: -1493359748
+      DBZSSW-Effects_325: 170523446
+      DBZSSW-Effects_326: -873024931
+      DBZSSW-Effects_327: 435037327
+      DBZSSW-Effects_328: 1992060334
+      DBZSSW-Effects_329: 494022613
+      DBZSSW-Effects_33: 1096332345
+      DBZSSW-Effects_330: 1898137297
+      DBZSSW-Effects_331: 42909874
+      DBZSSW-Effects_34: -422737629
+      DBZSSW-Effects_35: -907030696
+      DBZSSW-Effects_36: -1055768516
+      DBZSSW-Effects_37: 964514499
+      DBZSSW-Effects_38: 1859595936
+      DBZSSW-Effects_39: 1850260512
+      DBZSSW-Effects_4: -534265201
+      DBZSSW-Effects_40: -814194666
+      DBZSSW-Effects_41: 1935636609
+      DBZSSW-Effects_42: 620937117
+      DBZSSW-Effects_43: -548143612
+      DBZSSW-Effects_44: -524052467
+      DBZSSW-Effects_45: 247291365
+      DBZSSW-Effects_46: 763552752
+      DBZSSW-Effects_47: -2119241321
+      DBZSSW-Effects_48: 481301314
+      DBZSSW-Effects_49: -1584414403
+      DBZSSW-Effects_5: 519106734
+      DBZSSW-Effects_50: 528465589
+      DBZSSW-Effects_51: 1775129004
+      DBZSSW-Effects_52: 1680425122
+      DBZSSW-Effects_53: 224744658
+      DBZSSW-Effects_54: 1770605810
+      DBZSSW-Effects_55: 2068408351
+      DBZSSW-Effects_56: -2026186163
+      DBZSSW-Effects_57: -2054059726
+      DBZSSW-Effects_58: -1965787602
+      DBZSSW-Effects_59: -829427056
+      DBZSSW-Effects_6: 1346250669
+      DBZSSW-Effects_60: -2132136167
+      DBZSSW-Effects_61: -381290098
+      DBZSSW-Effects_62: 2087158284
+      DBZSSW-Effects_63: 1892238604
+      DBZSSW-Effects_64: -622962890
+      DBZSSW-Effects_65: -414833893
+      DBZSSW-Effects_66: 1681878966
+      DBZSSW-Effects_67: -1235845606
+      DBZSSW-Effects_68: -1824293751
+      DBZSSW-Effects_69: 1136215007
+      DBZSSW-Effects_7: -1284139051
+      DBZSSW-Effects_70: -1581758764
+      DBZSSW-Effects_71: -815986018
+      DBZSSW-Effects_72: 1506004380
+      DBZSSW-Effects_73: -930197582
+      DBZSSW-Effects_74: 1501328534
+      DBZSSW-Effects_75: 89074962
+      DBZSSW-Effects_76: -1250506508
+      DBZSSW-Effects_77: -1186581863
+      DBZSSW-Effects_78: 1924375106
+      DBZSSW-Effects_79: -157907093
+      DBZSSW-Effects_8: 1008107830
+      DBZSSW-Effects_80: 985248086
+      DBZSSW-Effects_81: -1351697799
+      DBZSSW-Effects_82: -314564424
+      DBZSSW-Effects_83: 1850060534
+      DBZSSW-Effects_84: -1497562138
+      DBZSSW-Effects_85: 834958055
+      DBZSSW-Effects_86: 1742873989
+      DBZSSW-Effects_87: 857757322
+      DBZSSW-Effects_88: 1016843100
+      DBZSSW-Effects_89: -2045665780
+      DBZSSW-Effects_9: 1244478162
+      DBZSSW-Effects_90: 1154944010
+      DBZSSW-Effects_91: -1233515806
+      DBZSSW-Effects_92: 1063498478
+      DBZSSW-Effects_93: -199745852
+      DBZSSW-Effects_94: -1497599091
+      DBZSSW-Effects_95: -194313009
+      DBZSSW-Effects_96: -103784772
+      DBZSSW-Effects_97: 1024547546
+      DBZSSW-Effects_98: -1874940298
+      DBZSSW-Effects_99: 1534105518
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

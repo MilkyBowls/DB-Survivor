@@ -100,23 +100,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DBZAotS_Map_0
+      name: DBZAotS_Map_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1046
-        height: 398
+        x: 584
+        y: 35
+        width: 38
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b32d38aed1a40c3f0800000000000000
-      internalID: -882624034615602629
+      spriteID: 21fb772f402ed0543badda476c9c0a75
+      internalID: 691258151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DBZAotS_Map_4
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 43
+        width: 142
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60a4b5eb4b9bfe46901f1c06fe87e3c
+      internalID: 1544846892
       vertices: []
       indices: 
       edges: []
@@ -125,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 401ed62df8aefd541943ff98f990f206
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +155,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       DBZAotS_Map_0: -882624034615602629
+      DBZAotS_Map_1: -1307253355
+      DBZAotS_Map_2: 691258151
+      DBZAotS_Map_3: -1424101648
+      DBZAotS_Map_4: 1544846892
+      DBZAotS_Map_5: -1465371353
+      DBZAotS_Map_6: 331836556
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

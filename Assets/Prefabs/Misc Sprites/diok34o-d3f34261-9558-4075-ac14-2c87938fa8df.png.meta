@@ -103,10 +103,10 @@ TextureImporter:
       name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1006
-        height: 658
+        x: 333
+        y: 459
+        width: 22
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,11 +121,1947 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 480
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d59bf3bb5fd0243b2882cca027d5e0
+      internalID: 1423373732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_2
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 456
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266094951a2895e49b59bcb48f172f73
+      internalID: -1068119146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_3
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 448
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617eaef2780f313428559ff4954fc65f
+      internalID: 512184258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_4
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 448
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c660194530659b74fa911e89a208562a
+      internalID: -1740998522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_5
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 448
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a961310650fa64b8fc4b3dfb6c727e
+      internalID: -809914425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 448
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07017d7b922690f4eb349162ae405251
+      internalID: 552954069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 448
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ba101dacd0bb24ca5d33c8f5136af9
+      internalID: -266258948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 448
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb481329bd49ed4aa3ec2fbd7a324c3
+      internalID: 563836943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 447
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8659166f9f55b84abf4a09b2e4ada8d
+      internalID: 1618964864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_14
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 447
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0325081f0c58d4ba4aecb2c603e63d
+      internalID: -2090862133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 447
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec7d6eedfe138c4e837b5f2bcbf4292
+      internalID: -531385723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_16
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 447
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea10462d7a5d2e4a90e5e4bc96a233e
+      internalID: -437446666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_17
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 447
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71de478984def714d91060682244ec65
+      internalID: 441937648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_18
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 447
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8fa2db26ba9ca4393bfcb6c1a17f6f
+      internalID: 1381366241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_19
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 448
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84606f1d34173d84e8efecc3d3336ef4
+      internalID: -1740756528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_24
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 448
+        width: 77
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6e2473e82c8f540824d84b6b9587a9
+      internalID: -168190854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_26
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 390
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7a6e3167c0d1b4484cbff9a329dcdf
+      internalID: 2144716347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_27
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 391
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0df5a6b63ca7a458f59ea473621b0a
+      internalID: 1553652600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_28
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 392
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3f2681e6a628045a8981f238ec2545
+      internalID: -935488264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_29
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 392
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff7223163ae12a4ba2271ba499adc80
+      internalID: 883771200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_30
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 393
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686d0280c04ab994bbbc7ec72c82fb40
+      internalID: -1090826065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 419
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd6e6c639b78764ebfa7d172bf4c365
+      internalID: -66787699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 372
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34a08c4e849d174ab64baa773a3d7e3
+      internalID: -1368090729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 372
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483f8ecf6827bf94da63c7c7bca51047
+      internalID: -489573712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 372
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c66d8ec3a79d344bd7d22fd02f0bd6
+      internalID: 1742378944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_35
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 372
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2903cb6cccb964eafb42daa7dcc7cf
+      internalID: 338901086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_36
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 372
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5afb6528b87c864bbbb320465d4c79e
+      internalID: 1466231400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 372
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767a3930bc72c604c89b0c6ea3c7228e
+      internalID: 592325686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_38
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 377
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea20347e9ef3fb46823434edab6f7c4
+      internalID: -1514967598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_39
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 381
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028c88d806750924ba44930b873e4a09
+      internalID: -104405097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_40
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 380
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e4f70104b35d54d845b80bae81c5b6
+      internalID: 2139062032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_41
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 371
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d699a5b6716f147901ccc954318ffd
+      internalID: 2113191471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_42
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 372
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f5cc509d94b0549b09dd19d56b7dc1
+      internalID: 245060865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_43
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 311
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc1368210408dd41ad391f56232702b
+      internalID: 306878322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_44
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 311
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c178ca2ae5a294d8b72c5e4cc9111c
+      internalID: 1372140094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_45
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 311
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cfee954f49f6e458ad6fdfa0836fde
+      internalID: -593118294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_46
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 311
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59ee6f3681b61046b70bd1ebc97affd
+      internalID: -838174736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_47
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 311
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5f9a92e935daf48906f4e0c8456cae
+      internalID: -2093460510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_48
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611a4b75262a9cf41afa432608b9056a
+      internalID: 66323977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_49
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 311
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53daf4ff6fafb5c4fab2e036671a0779
+      internalID: 1943532498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_50
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 325
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ca842152c0a7a4d8e05a5859ad4b62
+      internalID: -727392053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_51
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 311
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f151d3b0e607ff3408438c1bca55856b
+      internalID: -625124951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_52
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 311
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0600af36fdb11a41b94eb192340084e
+      internalID: 2076589256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_53
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 311
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b959d0f4e81204f994d935dc4eddfb
+      internalID: -1651378432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_54
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 324
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d07388c5b397943b11f9cceb9654a3
+      internalID: -1966936337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 311
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4912757ec3c942c489e347b5b13292ce
+      internalID: 530256347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_56
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 323
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb7e9a0d8f04a244afabcadcc7e5a74
+      internalID: 1245792089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_57
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 311
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e9a616710eaee4ebd57e7d32eeee34
+      internalID: 1169199411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_58
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 323
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087f40104a4cfa744a90ce681918eddf
+      internalID: -673875167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_59
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 311
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58620f3caaa22bc4ba2d73a6a58e24b3
+      internalID: -1668624466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_60
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 323
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16187ab07e022ef45b4c717b9ecb7232
+      internalID: 853228578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_61
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 312
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d121915a47783428134e7944220ea5
+      internalID: -1407952410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_62
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 312
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311ca50a5f1b27f4995addc340844512
+      internalID: 1768662435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 278
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e5fe80225b2ba4a91b26fed3c058a2
+      internalID: -1712696998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_64
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 277
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906913a822c9b6b458770709f46a6521
+      internalID: -1558793639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_65
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 279
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5829f0d61a33745aabc6a7609f0dc8
+      internalID: 345434058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b81bcf31880b344b84b39f6e7710a57
+      internalID: -1777708819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_67
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 218
+        width: 109
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bee99686ee02e44ba62d5dee9a5af4e
+      internalID: -1438893602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_68
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 270
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f59974f11df2304695d77976da29809
+      internalID: -1885283225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_69
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 219
+        width: 110
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed12e91f97e2c04ea7144f443bc6932
+      internalID: -229860617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_71
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 239
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8b20d5ffc597f47bd40c014fa82445
+      internalID: -647506138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_72
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 239
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4d47f7a986274499b63519389cb463
+      internalID: 1578536645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_73
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 239
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022134f7554ea8d4c97bbe297776a541
+      internalID: -1925789314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_74
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 239
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659f1e5fc3159b64ca5b4e1f64cc3738
+      internalID: -343490536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_75
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 239
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26c49030344d324490adae9010b561a
+      internalID: 697199063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_76
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 239
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fcffc247863ba4ebb8607da7f85730
+      internalID: -628994573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_77
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 227
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d023a7e5684981c479038554e540ab26
+      internalID: 2101879610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_78
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 226
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cf7185eb8d36544850811fc93c5639
+      internalID: -31369528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_79
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 234
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe1c0278c43a524b825100e911a7c10
+      internalID: -1977996639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_80
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 230
+        width: 72
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e14581b6b7041b48b4079191afd0ce9
+      internalID: -272744618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_81
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 219
+        width: 110
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b7d5295ccd8134fb24b5c0e65b6302
+      internalID: 411214369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_82
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 226
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14bb7dd60538794a95dd004c82ce6af
+      internalID: -163164967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_83
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 225
+        width: 74
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04836686ead6d8242999fc83e4fd7ab9
+      internalID: 806680058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_84
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 201
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a72393044d7bd42bb03c50c30e3d68
+      internalID: 387494957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_85
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 200
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17174df1d2ef852468359adcd9833842
+      internalID: 2113608387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_86
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 208
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08963fd97cfd619468533dac3220b08c
+      internalID: 419912794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_88
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 125
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d65769f8d2469f41a2dd997ae4787b6
+      internalID: 2017407491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_94
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 142
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12365391e35ef374fad6c9f96d8124a2
+      internalID: -1239130322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_95
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 139
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7235f114105e24fb71800b5f1b4e71
+      internalID: -1120866611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_98
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 148
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2974a77719c01241be71d6bc2995d3c
+      internalID: -999754457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_100
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 144
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd83c9f98fae47d48a3e4d401de06862
+      internalID: -2010633718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_101
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 123
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869c50361ac3b8f40bed5d529a639939
+      internalID: -150289784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_106
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 142
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5266674cd41314dadc3f93e254fca9
+      internalID: 864311253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 142
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16e7a9207f508e4595198b4e9db25b2
+      internalID: 1428908413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_109
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 141
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fc1a3fbb05dc74c8e2a4e84fa5c65e
+      internalID: -1197474985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_116
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 135
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e34fb883bcee6e48b3188ba2db59332
+      internalID: 1642812191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_6
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 123
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26112f79ad3de424baa523e2f3fa62e4
+      internalID: 635379760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_7
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 123
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c254cd0c21cfd04aaff2bf41766d6a4
+      internalID: -986332581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7aad4a381d52f834493e8b57dae90e07
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +2069,150 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_0: -8759247429387767789
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_1: 1423373732
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_10: 552954069
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_100: -2010633718
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_101: -150289784
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_102: -54612459
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_103: 1307799702
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_104: 741010715
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_105: 1589401026
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_106: 864311253
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_107: 1428908413
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_108: -641594571
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_109: -1197474985
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_11: -266258948
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_110: -696083962
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_111: 933729989
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_112: -325791704
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_113: 458308753
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_114: -908576693
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_115: 963889130
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_116: 1642812191
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_117: -497190816
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_118: -1178877506
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_119: 1346792051
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_12: 563836943
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_120: -793008245
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_121: 942409645
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_122: -953220429
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_123: 970597098
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_124: 631769788
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_125: -645181110
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_126: 284707191
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_127: -1605982394
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_128: -207624426
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_129: 1165169087
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_13: 1618964864
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_130: 1595011331
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_131: 1352966636
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_132: 867496403
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_133: -1765492231
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_134: -702460024
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_135: 563451751
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_136: -867370657
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_137: 1770516546
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_138: -100112249
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_139: 494497899
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_14: -2090862133
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_15: -531385723
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_16: -437446666
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_17: 441937648
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_18: 1381366241
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_19: -1740756528
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_2: -1068119146
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_20: 1560419263
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_21: -567348214
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_22: -1736202514
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_23: -1794922600
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_24: -168190854
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_25: -1612207735
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_26: 2144716347
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_27: 1553652600
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_28: -935488264
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_29: 883771200
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_3: 512184258
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_30: -1090826065
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_31: -66787699
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_32: -1368090729
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_33: -489573712
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_34: 1742378944
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_35: 338901086
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_36: 1466231400
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_37: 592325686
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_38: -1514967598
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_39: -104405097
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_4: -1740998522
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_40: 2139062032
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_41: 2113191471
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_42: 245060865
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_43: 306878322
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_44: 1372140094
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_45: -593118294
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_46: -838174736
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_47: -2093460510
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_48: 66323977
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_49: 1943532498
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_5: -809914425
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_50: -727392053
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_51: -625124951
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_52: 2076589256
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_53: -1651378432
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_54: -1966936337
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_55: 530256347
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_56: 1245792089
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_57: 1169199411
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_58: -673875167
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_59: -1668624466
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_6: 635379760
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_60: 853228578
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_61: -1407952410
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_62: 1768662435
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_63: -1712696998
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_64: -1558793639
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_65: 345434058
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_66: -1777708819
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_67: -1438893602
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_68: -1885283225
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_69: -229860617
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_7: -986332581
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_70: -2088068579
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_71: -647506138
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_72: 1578536645
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_73: -1925789314
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_74: -343490536
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_75: 697199063
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_76: -628994573
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_77: 2101879610
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_78: -31369528
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_79: -1977996639
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_8: -227571480
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_80: -272744618
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_81: 411214369
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_82: -163164967
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_83: 806680058
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_84: 387494957
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_85: 2113608387
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_86: 419912794
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_87: -139408939
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_88: 2017407491
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_89: 897252033
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_9: -391539995
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_90: 379863011
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_91: -119216888
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_92: -1478857660
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_93: 2095996511
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_94: -1239130322
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_95: -1120866611
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_96: 136755659
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_97: 333025073
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_98: -999754457
+      diok34o-d3f34261-9558-4075-ac14-2c87938fa8df_99: -2006377159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

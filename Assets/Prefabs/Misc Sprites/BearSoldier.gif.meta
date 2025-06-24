@@ -514,10 +514,10 @@ TextureImporter:
       name: BearSoldier_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 722
-        width: 44
-        height: 46
+        x: 6
+        y: 723
+        width: 42
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +536,10 @@ TextureImporter:
       name: BearSoldier_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 722
-        width: 45
-        height: 45
+        x: 56
+        y: 723
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +558,10 @@ TextureImporter:
       name: BearSoldier_2
       rect:
         serializedVersion: 2
-        x: 107
-        y: 722
-        width: 45
-        height: 44
+        x: 108
+        y: 723
+        width: 43
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +580,10 @@ TextureImporter:
       name: BearSoldier_3
       rect:
         serializedVersion: 2
-        x: 161
-        y: 722
-        width: 45
-        height: 45
+        x: 162
+        y: 723
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +602,10 @@ TextureImporter:
       name: BearSoldier_4
       rect:
         serializedVersion: 2
-        x: 243
-        y: 723
-        width: 44
-        height: 49
+        x: 244
+        y: 724
+        width: 42
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: BearSoldier_5
       rect:
         serializedVersion: 2
-        x: 292
-        y: 723
-        width: 44
-        height: 49
+        x: 293
+        y: 724
+        width: 42
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +646,10 @@ TextureImporter:
       name: BearSoldier_6
       rect:
         serializedVersion: 2
-        x: 3
-        y: 667
-        width: 45
-        height: 46
+        x: 4
+        y: 668
+        width: 43
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +668,10 @@ TextureImporter:
       name: BearSoldier_7
       rect:
         serializedVersion: 2
-        x: 56
-        y: 667
-        width: 45
-        height: 47
+        x: 57
+        y: 668
+        width: 43
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +690,10 @@ TextureImporter:
       name: BearSoldier_8
       rect:
         serializedVersion: 2
-        x: 110
-        y: 667
-        width: 45
-        height: 47
+        x: 111
+        y: 668
+        width: 43
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +712,10 @@ TextureImporter:
       name: BearSoldier_9
       rect:
         serializedVersion: 2
-        x: 163
-        y: 667
-        width: 45
-        height: 46
+        x: 164
+        y: 668
+        width: 43
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +734,10 @@ TextureImporter:
       name: BearSoldier_10
       rect:
         serializedVersion: 2
-        x: 217
-        y: 667
-        width: 45
-        height: 47
+        x: 218
+        y: 668
+        width: 43
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +756,10 @@ TextureImporter:
       name: BearSoldier_11
       rect:
         serializedVersion: 2
-        x: 270
-        y: 667
-        width: 45
-        height: 48
+        x: 271
+        y: 668
+        width: 43
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +778,10 @@ TextureImporter:
       name: BearSoldier_12
       rect:
         serializedVersion: 2
-        x: 322
-        y: 667
-        width: 45
-        height: 46
+        x: 323
+        y: 668
+        width: 43
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,10 +800,10 @@ TextureImporter:
       name: BearSoldier_13
       rect:
         serializedVersion: 2
-        x: 377
-        y: 667
-        width: 45
-        height: 45
+        x: 378
+        y: 668
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,10 +822,10 @@ TextureImporter:
       name: BearSoldier_14
       rect:
         serializedVersion: 2
-        x: 11
-        y: 615
-        width: 41
-        height: 46
+        x: 12
+        y: 616
+        width: 39
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,10 +844,10 @@ TextureImporter:
       name: BearSoldier_15
       rect:
         serializedVersion: 2
-        x: 64
-        y: 615
-        width: 41
-        height: 46
+        x: 65
+        y: 616
+        width: 39
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -866,10 +866,10 @@ TextureImporter:
       name: BearSoldier_16
       rect:
         serializedVersion: 2
-        x: 115
-        y: 615
-        width: 41
-        height: 46
+        x: 116
+        y: 616
+        width: 39
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -888,10 +888,10 @@ TextureImporter:
       name: BearSoldier_17
       rect:
         serializedVersion: 2
-        x: 162
-        y: 615
-        width: 41
-        height: 46
+        x: 163
+        y: 616
+        width: 39
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -910,10 +910,10 @@ TextureImporter:
       name: BearSoldier_18
       rect:
         serializedVersion: 2
-        x: 213
-        y: 615
-        width: 41
-        height: 46
+        x: 214
+        y: 616
+        width: 39
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -932,10 +932,10 @@ TextureImporter:
       name: BearSoldier_19
       rect:
         serializedVersion: 2
-        x: 265
-        y: 615
-        width: 41
-        height: 46
+        x: 266
+        y: 616
+        width: 39
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -954,10 +954,10 @@ TextureImporter:
       name: BearSoldier_20
       rect:
         serializedVersion: 2
-        x: 317
-        y: 615
-        width: 41
-        height: 46
+        x: 318
+        y: 616
+        width: 39
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -976,10 +976,10 @@ TextureImporter:
       name: BearSoldier_21
       rect:
         serializedVersion: 2
-        x: 5
-        y: 562
-        width: 48
-        height: 46
+        x: 6
+        y: 563
+        width: 46
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -998,10 +998,10 @@ TextureImporter:
       name: BearSoldier_22
       rect:
         serializedVersion: 2
-        x: 63
-        y: 562
-        width: 42
-        height: 46
+        x: 64
+        y: 563
+        width: 40
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1020,10 +1020,10 @@ TextureImporter:
       name: BearSoldier_23
       rect:
         serializedVersion: 2
-        x: 116
-        y: 562
-        width: 44
-        height: 44
+        x: 117
+        y: 563
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1042,10 +1042,10 @@ TextureImporter:
       name: BearSoldier_24
       rect:
         serializedVersion: 2
-        x: 173
-        y: 562
-        width: 51
-        height: 44
+        x: 174
+        y: 563
+        width: 49
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1064,10 +1064,10 @@ TextureImporter:
       name: BearSoldier_25
       rect:
         serializedVersion: 2
-        x: 233
-        y: 562
-        width: 46
-        height: 43
+        x: 234
+        y: 563
+        width: 44
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1086,10 +1086,10 @@ TextureImporter:
       name: BearSoldier_26
       rect:
         serializedVersion: 2
-        x: 290
-        y: 562
-        width: 39
-        height: 43
+        x: 291
+        y: 563
+        width: 37
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1108,10 +1108,10 @@ TextureImporter:
       name: BearSoldier_27
       rect:
         serializedVersion: 2
-        x: 341
-        y: 562
-        width: 43
-        height: 46
+        x: 342
+        y: 563
+        width: 41
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1130,10 +1130,10 @@ TextureImporter:
       name: BearSoldier_28
       rect:
         serializedVersion: 2
-        x: 395
-        y: 562
-        width: 44
-        height: 45
+        x: 396
+        y: 563
+        width: 42
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1152,10 +1152,10 @@ TextureImporter:
       name: BearSoldier_29
       rect:
         serializedVersion: 2
-        x: 447
-        y: 562
-        width: 44
-        height: 46
+        x: 448
+        y: 563
+        width: 42
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1174,10 +1174,10 @@ TextureImporter:
       name: BearSoldier_30
       rect:
         serializedVersion: 2
-        x: 3
-        y: 493
-        width: 44
-        height: 46
+        x: 4
+        y: 494
+        width: 42
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1196,10 +1196,10 @@ TextureImporter:
       name: BearSoldier_31
       rect:
         serializedVersion: 2
-        x: 58
-        y: 493
-        width: 44
-        height: 46
+        x: 59
+        y: 494
+        width: 42
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1218,10 +1218,10 @@ TextureImporter:
       name: BearSoldier_32
       rect:
         serializedVersion: 2
-        x: 110
-        y: 493
-        width: 54
-        height: 44
+        x: 111
+        y: 494
+        width: 52
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1240,10 +1240,10 @@ TextureImporter:
       name: BearSoldier_33
       rect:
         serializedVersion: 2
-        x: 175
-        y: 493
-        width: 36
-        height: 44
+        x: 176
+        y: 494
+        width: 34
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1262,10 +1262,10 @@ TextureImporter:
       name: BearSoldier_34
       rect:
         serializedVersion: 2
-        x: 221
-        y: 493
-        width: 47
-        height: 45
+        x: 222
+        y: 494
+        width: 45
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1284,10 +1284,10 @@ TextureImporter:
       name: BearSoldier_35
       rect:
         serializedVersion: 2
-        x: 278
-        y: 493
-        width: 46
-        height: 45
+        x: 279
+        y: 494
+        width: 44
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1306,10 +1306,10 @@ TextureImporter:
       name: BearSoldier_36
       rect:
         serializedVersion: 2
-        x: 335
-        y: 493
-        width: 42
-        height: 46
+        x: 336
+        y: 494
+        width: 40
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1328,10 +1328,10 @@ TextureImporter:
       name: BearSoldier_37
       rect:
         serializedVersion: 2
-        x: 392
-        y: 530
-        width: 21
-        height: 21
+        x: 393
+        y: 531
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1350,10 +1350,10 @@ TextureImporter:
       name: BearSoldier_38
       rect:
         serializedVersion: 2
-        x: 415
-        y: 530
-        width: 10
-        height: 23
+        x: 416
+        y: 531
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1372,10 +1372,10 @@ TextureImporter:
       name: BearSoldier_39
       rect:
         serializedVersion: 2
-        x: 429
-        y: 530
-        width: 21
-        height: 21
+        x: 430
+        y: 531
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1394,10 +1394,10 @@ TextureImporter:
       name: BearSoldier_40
       rect:
         serializedVersion: 2
-        x: 389
-        y: 517
-        width: 23
-        height: 10
+        x: 390
+        y: 518
+        width: 21
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1416,10 +1416,10 @@ TextureImporter:
       name: BearSoldier_41
       rect:
         serializedVersion: 2
-        x: 429
-        y: 517
-        width: 23
-        height: 10
+        x: 430
+        y: 518
+        width: 21
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1438,10 +1438,10 @@ TextureImporter:
       name: BearSoldier_42
       rect:
         serializedVersion: 2
-        x: 391
-        y: 493
-        width: 21
-        height: 21
+        x: 392
+        y: 494
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1460,10 +1460,10 @@ TextureImporter:
       name: BearSoldier_43
       rect:
         serializedVersion: 2
-        x: 415
-        y: 491
-        width: 10
-        height: 23
+        x: 416
+        y: 492
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1482,10 +1482,10 @@ TextureImporter:
       name: BearSoldier_44
       rect:
         serializedVersion: 2
-        x: 429
-        y: 493
-        width: 21
-        height: 21
+        x: 430
+        y: 494
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1504,10 +1504,10 @@ TextureImporter:
       name: BearSoldier_45
       rect:
         serializedVersion: 2
-        x: 9
-        y: 476
-        width: 7
-        height: 9
+        x: 10
+        y: 477
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1526,10 +1526,10 @@ TextureImporter:
       name: BearSoldier_46
       rect:
         serializedVersion: 2
-        x: 16
-        y: 476
-        width: 6
-        height: 7
+        x: 17
+        y: 477
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1548,10 +1548,10 @@ TextureImporter:
       name: BearSoldier_47
       rect:
         serializedVersion: 2
-        x: 22
-        y: 474
-        width: 9
-        height: 12
+        x: 23
+        y: 475
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1570,10 +1570,10 @@ TextureImporter:
       name: BearSoldier_48
       rect:
         serializedVersion: 2
-        x: 31
-        y: 476
-        width: 6
-        height: 7
+        x: 32
+        y: 477
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1592,10 +1592,10 @@ TextureImporter:
       name: BearSoldier_49
       rect:
         serializedVersion: 2
-        x: 37
-        y: 476
-        width: 9
-        height: 9
+        x: 38
+        y: 477
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1614,10 +1614,10 @@ TextureImporter:
       name: BearSoldier_50
       rect:
         serializedVersion: 2
-        x: 46
-        y: 476
-        width: 6
-        height: 7
+        x: 47
+        y: 477
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1636,10 +1636,10 @@ TextureImporter:
       name: BearSoldier_51
       rect:
         serializedVersion: 2
-        x: 52
-        y: 476
-        width: 15
-        height: 9
+        x: 53
+        y: 477
+        width: 13
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1658,10 +1658,10 @@ TextureImporter:
       name: BearSoldier_52
       rect:
         serializedVersion: 2
-        x: 33
-        y: 432
-        width: 32
-        height: 34
+        x: 70
+        y: 429
+        width: 42
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1680,10 +1680,10 @@ TextureImporter:
       name: BearSoldier_53
       rect:
         serializedVersion: 2
-        x: 69
-        y: 428
-        width: 44
-        height: 42
+        x: 119
+        y: 429
+        width: 42
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1702,10 +1702,10 @@ TextureImporter:
       name: BearSoldier_54
       rect:
         serializedVersion: 2
-        x: 118
-        y: 428
-        width: 44
-        height: 42
+        x: 73
+        y: 190
+        width: 45
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1721,35 +1721,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BearSoldier_55
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 428
-        width: 40
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 030620647be2b6040800000000000000
-      internalID: 4641855205623881776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BearSoldier_56
       rect:
         serializedVersion: 2
-        x: 218
-        y: 446
-        width: 30
-        height: 26
+        x: 256
+        y: 429
+        width: 28
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1765,79 +1743,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BearSoldier_57
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 458
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6bf7632f62fbe2ed0800000000000000
-      internalID: -2436800174367539274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_58
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 428
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6194961b1db807250800000000000000
-      internalID: 5940401641242577174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_59
-      rect:
-        serializedVersion: 2
-        x: 267
-        y: 466
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26242756e8533aed0800000000000000
-      internalID: -2404018890382097822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BearSoldier_60
       rect:
         serializedVersion: 2
-        x: 272
-        y: 461
-        width: 12
-        height: 14
+        x: 8
+        y: 439
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1856,10 +1768,10 @@ TextureImporter:
       name: BearSoldier_61
       rect:
         serializedVersion: 2
-        x: 295
-        y: 461
-        width: 22
-        height: 11
+        x: 34
+        y: 433
+        width: 30
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1878,10 +1790,10 @@ TextureImporter:
       name: BearSoldier_62
       rect:
         serializedVersion: 2
-        x: 7
-        y: 438
-        width: 23
-        height: 23
+        x: 169
+        y: 429
+        width: 38
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1900,10 +1812,10 @@ TextureImporter:
       name: BearSoldier_63
       rect:
         serializedVersion: 2
-        x: 217
-        y: 428
-        width: 31
-        height: 18
+        x: 218
+        y: 429
+        width: 29
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1922,10 +1834,10 @@ TextureImporter:
       name: BearSoldier_64
       rect:
         serializedVersion: 2
-        x: 292
-        y: 424
-        width: 29
-        height: 32
+        x: 293
+        y: 425
+        width: 27
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1944,10 +1856,10 @@ TextureImporter:
       name: BearSoldier_65
       rect:
         serializedVersion: 2
-        x: 10
-        y: 405
-        width: 7
-        height: 9
+        x: 11
+        y: 406
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1966,10 +1878,10 @@ TextureImporter:
       name: BearSoldier_66
       rect:
         serializedVersion: 2
-        x: 17
-        y: 405
-        width: 6
-        height: 7
+        x: 18
+        y: 406
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1988,10 +1900,10 @@ TextureImporter:
       name: BearSoldier_67
       rect:
         serializedVersion: 2
-        x: 23
-        y: 403
-        width: 9
-        height: 12
+        x: 24
+        y: 404
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2010,10 +1922,10 @@ TextureImporter:
       name: BearSoldier_68
       rect:
         serializedVersion: 2
-        x: 32
-        y: 405
-        width: 6
-        height: 7
+        x: 33
+        y: 406
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2032,10 +1944,10 @@ TextureImporter:
       name: BearSoldier_69
       rect:
         serializedVersion: 2
-        x: 38
-        y: 405
-        width: 9
-        height: 9
+        x: 39
+        y: 406
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2054,10 +1966,10 @@ TextureImporter:
       name: BearSoldier_70
       rect:
         serializedVersion: 2
-        x: 47
-        y: 405
-        width: 6
-        height: 7
+        x: 48
+        y: 406
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2076,10 +1988,10 @@ TextureImporter:
       name: BearSoldier_71
       rect:
         serializedVersion: 2
-        x: 53
-        y: 405
-        width: 6
-        height: 7
+        x: 54
+        y: 406
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2098,10 +2010,10 @@ TextureImporter:
       name: BearSoldier_72
       rect:
         serializedVersion: 2
-        x: 62
-        y: 405
-        width: 7
-        height: 9
+        x: 63
+        y: 406
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2120,10 +2032,10 @@ TextureImporter:
       name: BearSoldier_73
       rect:
         serializedVersion: 2
-        x: 31
-        y: 338
-        width: 39
-        height: 37
+        x: 32
+        y: 339
+        width: 37
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2142,10 +2054,10 @@ TextureImporter:
       name: BearSoldier_74
       rect:
         serializedVersion: 2
-        x: 83
-        y: 340
-        width: 52
-        height: 50
+        x: 84
+        y: 341
+        width: 50
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2164,9 +2076,9 @@ TextureImporter:
       name: BearSoldier_75
       rect:
         serializedVersion: 2
-        x: 150
-        y: 338
-        width: 67
+        x: 151
+        y: 339
+        width: 65
         height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2183,35 +2095,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BearSoldier_76
-      rect:
-        serializedVersion: 2
-        x: 190
-        y: 372
-        width: 27
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e380c0ce2f13b060800000000000000
-      internalID: 6967947334135088096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BearSoldier_77
       rect:
         serializedVersion: 2
-        x: 229
-        y: 338
-        width: 78
-        height: 58
+        x: 230
+        y: 339
+        width: 76
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2230,10 +2120,10 @@ TextureImporter:
       name: BearSoldier_78
       rect:
         serializedVersion: 2
-        x: 318
-        y: 336
-        width: 83
-        height: 62
+        x: 319
+        y: 337
+        width: 81
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2252,10 +2142,10 @@ TextureImporter:
       name: BearSoldier_79
       rect:
         serializedVersion: 2
-        x: 411
-        y: 333
-        width: 82
-        height: 67
+        x: 412
+        y: 334
+        width: 80
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2274,10 +2164,10 @@ TextureImporter:
       name: BearSoldier_80
       rect:
         serializedVersion: 2
-        x: 4
-        y: 340
-        width: 18
-        height: 18
+        x: 5
+        y: 341
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2296,10 +2186,10 @@ TextureImporter:
       name: BearSoldier_81
       rect:
         serializedVersion: 2
-        x: 6
-        y: 253
-        width: 74
-        height: 66
+        x: 7
+        y: 254
+        width: 72
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2318,10 +2208,10 @@ TextureImporter:
       name: BearSoldier_82
       rect:
         serializedVersion: 2
-        x: 93
-        y: 249
-        width: 73
-        height: 74
+        x: 94
+        y: 250
+        width: 71
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2340,10 +2230,10 @@ TextureImporter:
       name: BearSoldier_83
       rect:
         serializedVersion: 2
-        x: 179
-        y: 252
-        width: 71
-        height: 72
+        x: 180
+        y: 253
+        width: 69
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2362,10 +2252,10 @@ TextureImporter:
       name: BearSoldier_84
       rect:
         serializedVersion: 2
-        x: 261
-        y: 250
+        x: 262
+        y: 251
         width: 66
-        height: 75
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2381,35 +2271,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BearSoldier_85
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 308
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9805eadd16530e9a0800000000000000
-      internalID: -6205901592069255031
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BearSoldier_86
       rect:
         serializedVersion: 2
-        x: 351
-        y: 256
-        width: 59
-        height: 69
+        x: 353
+        y: 254
+        width: 61
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2425,34 +2293,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BearSoldier_87
-      rect:
-        serializedVersion: 2
-        x: 403
-        y: 309
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93715198460910d40800000000000000
-      internalID: 5548874977368151865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BearSoldier_88
       rect:
         serializedVersion: 2
-        x: 437
-        y: 264
-        width: 62
+        x: 438
+        y: 263
+        width: 60
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2469,79 +2315,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BearSoldier_89
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 254
-        width: 21
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49b394e874b2e0050800000000000000
-      internalID: 5768595759038020500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_90
-      rect:
-        serializedVersion: 2
-        x: 376
-        y: 264
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2756e2c3450520030800000000000000
-      internalID: 3459415786491110770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_91
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 262
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9628d15328b9c6ac0800000000000000
-      internalID: -3860539797024177559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BearSoldier_92
       rect:
         serializedVersion: 2
-        x: 9
-        y: 180
-        width: 69
-        height: 63
+        x: 10
+        y: 181
+        width: 54
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2557,145 +2337,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BearSoldier_93
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 217
-        width: 26
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b014b43d529c14cc0800000000000000
-      internalID: -3728477852190162677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_94
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 238
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c28274795727fb40800000000000000
-      internalID: 5473887137251361479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_95
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 208
-        width: 25
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7959d479b5319adc0800000000000000
-      internalID: -3627346740768828009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_96
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 229
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5c61867d1a8ba920800000000000000
-      internalID: 3002645435719445598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_97
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 230
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7192cec1333330990800000000000000
-      internalID: -7421031466354857705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_98
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 227
-        width: 20
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 825974a49df893650800000000000000
-      internalID: 6213155324351190312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BearSoldier_99
       rect:
         serializedVersion: 2
-        x: 160
-        y: 237
-        width: 7
-        height: 6
+        x: 128
+        y: 217
+        width: 38
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2711,101 +2359,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BearSoldier_100
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 211
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fbb03385fc47ba40800000000000000
-      internalID: 5383856496896424945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_101
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 216
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6cfca3b0ff082b30800000000000000
-      internalID: 4262674573787200621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_102
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 224
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d94a25ecc083cd000800000000000000
-      internalID: 61986122528629917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_103
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 220
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2aa95674941215e70800000000000000
-      internalID: 9102092920506653346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BearSoldier_104
       rect:
         serializedVersion: 2
-        x: 5
-        y: 125
-        width: 39
-        height: 45
+        x: 6
+        y: 126
+        width: 37
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2824,10 +2384,10 @@ TextureImporter:
       name: BearSoldier_105
       rect:
         serializedVersion: 2
-        x: 52
-        y: 125
-        width: 39
-        height: 45
+        x: 53
+        y: 126
+        width: 37
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2846,10 +2406,10 @@ TextureImporter:
       name: BearSoldier_106
       rect:
         serializedVersion: 2
-        x: 100
-        y: 125
-        width: 50
-        height: 45
+        x: 101
+        y: 126
+        width: 48
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2868,10 +2428,10 @@ TextureImporter:
       name: BearSoldier_107
       rect:
         serializedVersion: 2
-        x: 160
-        y: 142
-        width: 10
-        height: 10
+        x: 161
+        y: 143
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2890,10 +2450,10 @@ TextureImporter:
       name: BearSoldier_108
       rect:
         serializedVersion: 2
-        x: 175
-        y: 142
-        width: 10
-        height: 10
+        x: 176
+        y: 143
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2912,10 +2472,10 @@ TextureImporter:
       name: BearSoldier_109
       rect:
         serializedVersion: 2
-        x: 192
-        y: 142
-        width: 10
-        height: 10
+        x: 193
+        y: 143
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2934,10 +2494,10 @@ TextureImporter:
       name: BearSoldier_110
       rect:
         serializedVersion: 2
-        x: 207
-        y: 142
-        width: 10
-        height: 10
+        x: 208
+        y: 143
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2956,10 +2516,10 @@ TextureImporter:
       name: BearSoldier_111
       rect:
         serializedVersion: 2
-        x: 265
-        y: 114
-        width: 22
-        height: 29
+        x: 294
+        y: 115
+        width: 17
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2978,10 +2538,10 @@ TextureImporter:
       name: BearSoldier_112
       rect:
         serializedVersion: 2
-        x: 293
-        y: 114
-        width: 19
-        height: 30
+        x: 266
+        y: 115
+        width: 20
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3000,10 +2560,10 @@ TextureImporter:
       name: BearSoldier_113
       rect:
         serializedVersion: 2
-        x: 319
-        y: 114
-        width: 29
-        height: 22
+        x: 320
+        y: 115
+        width: 27
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3019,255 +2579,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BearSoldier_114
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 119
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aed504761534d1e60800000000000000
-      internalID: 7934572135400365546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_115
-      rect:
-        serializedVersion: 2
-        x: 407
-        y: 119
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28065c048b1266d60800000000000000
-      internalID: 7883025273003008130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_116
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 119
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d52dbbaa66599360800000000000000
-      internalID: 7176862497339418064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_117
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 119
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9dd84b452cf6ec310800000000000000
-      internalID: 1427201012358483417
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_118
-      rect:
-        serializedVersion: 2
-        x: 430
-        y: 119
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 618af7e2196dcbaf0800000000000000
-      internalID: -379192349567244266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_119
-      rect:
-        serializedVersion: 2
-        x: 435
-        y: 119
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb45c3b6b283bc680800000000000000
-      internalID: -8733825293221079874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_120
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 119
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10afff92ed452ddc0800000000000000
-      internalID: -3615734237660972543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_121
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 119
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4aad403feb61cad70800000000000000
-      internalID: 9055637960112003748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_122
-      rect:
-        serializedVersion: 2
-        x: 457
-        y: 119
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 598f9526344ae2a20800000000000000
-      internalID: 3039547407841491093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_123
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 119
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 75e99b03c76c7a600800000000000000
-      internalID: 479570122033962583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BearSoldier_124
-      rect:
-        serializedVersion: 2
-        x: 472
-        y: 119
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa67c826a7a618820800000000000000
-      internalID: 2918731107384719023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BearSoldier_125
       rect:
         serializedVersion: 2
-        x: 5
-        y: 70
-        width: 37
-        height: 41
+        x: 6
+        y: 71
+        width: 35
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3286,10 +2604,10 @@ TextureImporter:
       name: BearSoldier_126
       rect:
         serializedVersion: 2
-        x: 49
-        y: 70
-        width: 39
-        height: 41
+        x: 50
+        y: 71
+        width: 37
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3308,10 +2626,10 @@ TextureImporter:
       name: BearSoldier_127
       rect:
         serializedVersion: 2
-        x: 95
-        y: 70
-        width: 41
-        height: 38
+        x: 96
+        y: 71
+        width: 39
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3330,10 +2648,10 @@ TextureImporter:
       name: BearSoldier_128
       rect:
         serializedVersion: 2
-        x: 142
-        y: 70
-        width: 46
-        height: 36
+        x: 143
+        y: 71
+        width: 44
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3352,10 +2670,10 @@ TextureImporter:
       name: BearSoldier_129
       rect:
         serializedVersion: 2
-        x: 192
-        y: 70
-        width: 53
-        height: 23
+        x: 261
+        y: 94
+        width: 28
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3374,10 +2692,10 @@ TextureImporter:
       name: BearSoldier_130
       rect:
         serializedVersion: 2
-        x: 260
-        y: 93
-        width: 30
-        height: 19
+        x: 320
+        y: 94
+        width: 28
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3396,10 +2714,10 @@ TextureImporter:
       name: BearSoldier_131
       rect:
         serializedVersion: 2
-        x: 319
-        y: 93
-        width: 30
-        height: 19
+        x: 395
+        y: 67
+        width: 39
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3418,10 +2736,10 @@ TextureImporter:
       name: BearSoldier_132
       rect:
         serializedVersion: 2
-        x: 394
-        y: 66
-        width: 41
-        height: 46
+        x: 448
+        y: 67
+        width: 39
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3440,10 +2758,10 @@ TextureImporter:
       name: BearSoldier_133
       rect:
         serializedVersion: 2
-        x: 447
-        y: 66
-        width: 41
-        height: 46
+        x: 193
+        y: 71
+        width: 51
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3462,10 +2780,10 @@ TextureImporter:
       name: BearSoldier_134
       rect:
         serializedVersion: 2
-        x: 261
-        y: 66
-        width: 29
-        height: 22
+        x: 262
+        y: 67
+        width: 27
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3484,10 +2802,10 @@ TextureImporter:
       name: BearSoldier_135
       rect:
         serializedVersion: 2
-        x: 295
-        y: 59
-        width: 19
-        height: 30
+        x: 296
+        y: 60
+        width: 17
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3506,10 +2824,10 @@ TextureImporter:
       name: BearSoldier_136
       rect:
         serializedVersion: 2
-        x: 318
-        y: 59
-        width: 22
-        height: 29
+        x: 319
+        y: 60
+        width: 20
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3524,33 +2842,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: BearSoldier_137
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 5
-        width: 332
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39ce8c2b477ab6430800000000000000
-      internalID: 3777296832137850003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 136e8b375269da34fb7c997960e94878
     internalID: 0
     vertices: []
     indices: 
@@ -3558,7 +2854,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":4.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       BearSoldier_0: -7244599959823007193
       BearSoldier_1: -4864412162016965580
