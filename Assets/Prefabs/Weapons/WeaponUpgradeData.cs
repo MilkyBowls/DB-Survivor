@@ -71,5 +71,13 @@ public class WeaponUpgradeData : ScriptableObject
 
     [Tooltip("Degrees between beams (e.g., 15 = ±15° around the center beam).")]
     public float beamSpreadAngle = 15f;
+
+    [Header("Beam Weapon - Visual Overrides")]
+    public AnimatorOverrideController beamStartOverride;
+    public AnimatorOverrideController beamEndOverride;
+    public Sprite beamMidOverrideSprite;
+
+    [Tooltip("Base pixel height of the beam mid sprite before visual scaling.")]
+    public float beamMidBaseHeight = 4f;
 }
 

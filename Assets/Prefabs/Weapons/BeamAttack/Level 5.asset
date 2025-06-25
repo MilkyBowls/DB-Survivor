@@ -39,3 +39,9 @@ MonoBehaviour:
   beamFollowsMouse: 1
   beamVisualScaleX: 1
   beamVisualScaleY: 2
+  extraBeams: 1
+  beamSpreadAngle: 15
+  beamStartOverride: {fileID: 22100000, guid: 24577703ff886be4295e524fe1f7b345, type: 2}
+  beamEndOverride: {fileID: 22100000, guid: 195f65683aa1b4d4bb284032d269a6c6, type: 2}
+  beamMidOverrideSprite: {fileID: 21300000, guid: 83c5fc8bc617b7f409c201759e951baa, type: 3}
+  beamMidBaseHeight: 3

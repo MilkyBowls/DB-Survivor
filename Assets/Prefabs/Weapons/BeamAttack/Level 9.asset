@@ -38,4 +38,9 @@ MonoBehaviour:
   beamDuration: 8
   beamFollowsMouse: 1
   beamVisualScaleX: 1
-  beamVisualScaleY: 2
+  beamVisualScaleY: 3
+  extraBeams: 2
+  beamSpreadAngle: 30
+  beamStartOverride: {fileID: 0}
+  beamEndOverride: {fileID: 0}
+  beamMidOverrideSprite: {fileID: 0}

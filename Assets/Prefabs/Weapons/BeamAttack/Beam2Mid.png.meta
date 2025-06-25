@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0c54dd3088bde7b4686ca9fdcb17fd52
+guid: 83c5fc8bc617b7f409c201759e951baa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5213822974528810110
-    second: Goku Base Edited - Copy_0
+      213: -3053746126742565513
+    second: Beam2Mid_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,17 +40,17 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 9
-  spritePivot: {x: 0, y: 0.52}
+  alignment: 4
+  spritePivot: {x: 0, y: 0.5}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -101,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Goku Base Edited - Copy_0
+      name: Beam2Mid_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 45
-        height: 40
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2839071f0a7c4a7b0800000000000000
-      internalID: -5213822974528810110
+      spriteID: 77dc841c31aee95d0800000000000000
+      internalID: -3053746126742565513
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Goku Base Edited - Copy_0: -5213822974528810110
+      Beam2Mid_0: -3053746126742565513
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

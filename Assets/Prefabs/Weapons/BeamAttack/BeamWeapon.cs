@@ -91,7 +91,8 @@ public class BeamWeapon : WeaponBase
                 controller.transform.right = direction;
                 controller.SetDirection(direction);
                 controller.SetBeamWidth(beamWidth);
-                controller.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY);
+                float midBaseHeight = currentUpgrade?.beamMidBaseHeight ?? 4f;
+                controller.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY, midBaseHeight);
             }
 
             float kiCost = kiDrainPerSecond * Time.deltaTime;
@@ -139,15 +140,25 @@ public class BeamWeapon : WeaponBase
             GameObject beam = Instantiate(beamPrefab, firePoint.position, Quaternion.identity, transform);
             BeamController controller = beam.GetComponent<BeamController>();
 
-            if (controller != null)
-            {
-                controller.transform.right = direction;
-                controller.SetDirection(direction);
-                controller.SetBeamWidth(beamWidth);
-                controller.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY);
-                beamControllers.Add(controller);
-                activeBeams.Add(beam);
-            }
+        if (controller != null)
+        {
+            controller.transform.right = direction;
+            controller.SetDirection(direction);
+            controller.SetBeamWidth(beamWidth);
+            float midBaseHeight = currentUpgrade?.beamMidBaseHeight ?? 4f;
+            controller.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY, midBaseHeight);
+            controller.SetSortingOrder(i); // Push each beam slightly forward in render order
+
+            // Apply visual overrides from upgrade data
+                controller.ApplyVisualOverrides(
+                currentUpgrade?.beamStartOverride,
+                currentUpgrade?.beamEndOverride,
+                currentUpgrade?.beamMidOverrideSprite
+            );
+
+            beamControllers.Add(controller);
+            activeBeams.Add(beam);
+        }
         }
 
         float upgradedDuration = currentUpgrade?.beamDuration ?? baseBeamDuration;
