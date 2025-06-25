@@ -43,16 +43,14 @@ public class BeamController : MonoBehaviour
 
         currentMidLength = Mathf.Max(0.01f, length - (startWidth + endWidth + buffer));
 
-        startTransform.localPosition = Vector3.zero;
-        midRenderer.transform.localPosition = new Vector3(startWidth + buffer, 0f, 0f);
-        endTransform.localPosition = new Vector3(startWidth + buffer + currentMidLength, 0f, 0f);
+        // Set Z-depth order manually
+        startTransform.localPosition = new Vector3(0f, 0f, 0.01f);
+        midRenderer.transform.localPosition = new Vector3(startWidth + buffer, 0f, 0.02f);
+        endTransform.localPosition = new Vector3(startWidth + buffer + currentMidLength, 0f, 0.01f);
 
         // Apply scale
-        if (startTransform != null)
-            startTransform.localScale = Vector3.one * startEndScale;
-
-        if (endTransform != null)
-            endTransform.localScale = Vector3.one * startEndScale;
+        startTransform.localScale = Vector3.one * startEndScale;
+        endTransform.localScale = Vector3.one * startEndScale;
 
         if (midRenderer != null)
         {
@@ -88,15 +86,17 @@ public class BeamController : MonoBehaviour
             midRenderer.sprite = midOverride;
     }
 
-public void SetSortingOrder(int orderOffset)
-{
-    if (startTransform.TryGetComponent(out SpriteRenderer startSR))
-        startSR.sortingOrder += orderOffset;
+    public void SetSortingOrder(int beamGroupIndex, int baseOrder = 0)
+    {
+        int groupOrder = baseOrder + (beamGroupIndex * 10); // ← space out more
 
-    if (midRenderer != null)
-        midRenderer.sortingOrder += orderOffset;
+        if (startTransform.TryGetComponent(out SpriteRenderer startSR))
+            startSR.sortingOrder = groupOrder + 1;
 
-    if (endTransform.TryGetComponent(out SpriteRenderer endSR))
-        endSR.sortingOrder += orderOffset;
-}
+        if (midRenderer != null)
+            midRenderer.sortingOrder = groupOrder;
+
+        if (endTransform.TryGetComponent(out SpriteRenderer endSR))
+            endSR.sortingOrder = groupOrder + 1;
+    }
 }

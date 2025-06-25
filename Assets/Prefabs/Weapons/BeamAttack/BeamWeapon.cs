@@ -147,9 +147,9 @@ public class BeamWeapon : WeaponBase
             controller.SetBeamWidth(beamWidth);
             float midBaseHeight = currentUpgrade?.beamMidBaseHeight ?? 4f;
             controller.SetBeamVisuals(dynamicLength, scale, midScaleX, midScaleY, midBaseHeight);
-            controller.SetSortingOrder(i); // Push each beam slightly forward in render order
+            controller.SetSortingOrder(i, 100);
 
-            // Apply visual overrides from upgrade data
+                // Apply visual overrides from upgrade data
                 controller.ApplyVisualOverrides(
                 currentUpgrade?.beamStartOverride,
                 currentUpgrade?.beamEndOverride,

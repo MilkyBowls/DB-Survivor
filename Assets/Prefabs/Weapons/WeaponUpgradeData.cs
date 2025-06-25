@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Weapons/Weapon Upgrade Tier")]
@@ -79,5 +80,9 @@ public class WeaponUpgradeData : ScriptableObject
 
     [Tooltip("Base pixel height of the beam mid sprite before visual scaling.")]
     public float beamMidBaseHeight = 4f;
+
+    [Header("Beam Weapon - Animated Mid Sprite")]
+    public List<Sprite> animatedMidFrames;
+    public float animatedMidFrameRate = 12f;
 }
 
