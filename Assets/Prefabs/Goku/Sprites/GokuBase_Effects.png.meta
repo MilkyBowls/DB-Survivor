@@ -19782,8 +19782,8 @@ TextureImporter:
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaUsage: 0
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -19844,12 +19844,12 @@ TextureImporter:
       name: GokuBase_Effects_0
       rect:
         serializedVersion: 2
-        x: 98
+        x: 92
         y: 12758
-        width: 134
+        width: 169
         height: 95
       alignment: 9
-      pivot: {x: 0.09752621, y: 0.4664371}
+      pivot: {x: 0.10293715, y: 0.46750617}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -19868,10 +19868,10 @@ TextureImporter:
         serializedVersion: 2
         x: 265
         y: 12756
-        width: 192
+        width: 233
         height: 95
       alignment: 9
-      pivot: {x: 0.09225003, y: 0.53358346}
+      pivot: {x: 0.06396458, y: 0.532206}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -19890,10 +19890,10 @@ TextureImporter:
         serializedVersion: 2
         x: 502
         y: 12769
-        width: 177
+        width: 230
         height: 82
       alignment: 9
-      pivot: {x: 0.123222396, y: 0.5282846}
+      pivot: {x: 0.0772307, y: 0.5185785}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -19912,10 +19912,10 @@ TextureImporter:
         serializedVersion: 2
         x: 728
         y: 12753
-        width: 159
+        width: 179
         height: 98
       alignment: 9
-      pivot: {x: 0.17721923, y: 0.5147979}
+      pivot: {x: 0.13484098, y: 0.502272}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -19934,10 +19934,10 @@ TextureImporter:
         serializedVersion: 2
         x: 909
         y: 12754
-        width: 229
+        width: 243
         height: 97
       alignment: 9
-      pivot: {x: 0.122680396, y: 0.5418512}
+      pivot: {x: 0.104511276, y: 0.54100555}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -19955,11 +19955,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1156
-        y: 12740
-        width: 202
-        height: 111
+        y: 12754
+        width: 246
+        height: 102
       alignment: 9
-      pivot: {x: 0.11387227, y: 0.65151674}
+      pivot: {x: 0.07818157, y: 0.5670573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -19968,6 +19968,490 @@ TextureImporter:
       bones: []
       spriteID: e5f0dfe6e83e84c49a5075b5a0f042a2
       internalID: 8162973982970500600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_6
+      rect:
+        serializedVersion: 2
+        x: 9386
+        y: 12558
+        width: 329
+        height: 276
+      alignment: 9
+      pivot: {x: 0.5345626, y: 0.46337536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0323c37af0a048b24ecbf4ad4d1c0
+      internalID: -1880296651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_7
+      rect:
+        serializedVersion: 2
+        x: 9725
+        y: 12556
+        width: 308
+        height: 278
+      alignment: 9
+      pivot: {x: 0.49999684, y: 0.48181766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3ae7dd1f63db048aaaa2139572b0a9
+      internalID: -576449727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_8
+      rect:
+        serializedVersion: 2
+        x: 10038
+        y: 12543
+        width: 311
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4284ce815fc4c82418f687f3e577b264
+      internalID: -770933534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_9
+      rect:
+        serializedVersion: 2
+        x: 10365
+        y: 12525
+        width: 306
+        height: 302
+      alignment: 9
+      pivot: {x: 0.46283638, y: 0.5376526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f7059b332b7954bafa4cb3a7244307
+      internalID: 538357047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_10
+      rect:
+        serializedVersion: 2
+        x: 10680
+        y: 12544
+        width: 289
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14034610008da44d88257995effe5f2
+      internalID: 1417502808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_11
+      rect:
+        serializedVersion: 2
+        x: 10974
+        y: 12545
+        width: 335
+        height: 278
+      alignment: 9
+      pivot: {x: 0.4924557, y: 0.50454205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b05c3437f5d9e54b865d798ce699e0c
+      internalID: -1828015580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_12
+      rect:
+        serializedVersion: 2
+        x: 11312
+        y: 12527
+        width: 300
+        height: 296
+      alignment: 9
+      pivot: {x: 0.47051433, y: 0.5469509}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58f435d74a960c4a89ac60233ae1b9f
+      internalID: 113943912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_13
+      rect:
+        serializedVersion: 2
+        x: 11615
+        y: 12539
+        width: 292
+        height: 283
+      alignment: 9
+      pivot: {x: 0.51297957, y: 0.52231944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012e462d87388014e8ed135567bbb8e3
+      internalID: -1795193032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_14
+      rect:
+        serializedVersion: 2
+        x: 11850
+        y: 12387
+        width: 164
+        height: 204
+      alignment: 9
+      pivot: {x: 0.56933, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e726a209540104c8286ca9049f7f2c
+      internalID: -208744429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_15
+      rect:
+        serializedVersion: 2
+        x: 4097
+        y: 10128
+        width: 450
+        height: 403
+      alignment: 9
+      pivot: {x: 0.5239377, y: 0.5160394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfae0ce22959f5e42b05f812a3090d33
+      internalID: -1679706658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_16
+      rect:
+        serializedVersion: 2
+        x: 4618
+        y: 10081
+        width: 502
+        height: 448
+      alignment: 9
+      pivot: {x: 0.52146006, y: 0.57213485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79801727629ada48b6ff150a561694d
+      internalID: -218866468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_17
+      rect:
+        serializedVersion: 2
+        x: 6407
+        y: 10096
+        width: 495
+        height: 455
+      alignment: 9
+      pivot: {x: 0.50435406, y: 0.5142063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140e95a085dd86f4298471e49058c956
+      internalID: -1870210514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_18
+      rect:
+        serializedVersion: 2
+        x: 6986
+        y: 10068
+        width: 461
+        height: 483
+      alignment: 9
+      pivot: {x: 0.49532795, y: 0.5267635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0067ef96614eee6469530a3b2fa8b7fc
+      internalID: 1123292442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_19
+      rect:
+        serializedVersion: 2
+        x: 7533
+        y: 10096
+        width: 494
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a51bc6f79b73814aa35f026072e6308
+      internalID: 646598037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_20
+      rect:
+        serializedVersion: 2
+        x: 8074
+        y: 10047
+        width: 543
+        height: 510
+      alignment: 9
+      pivot: {x: 0.4960344, y: 0.53801894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f58e96579e4f84b86cb613dba8dbc1
+      internalID: 384962948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_21
+      rect:
+        serializedVersion: 2
+        x: 8656
+        y: 10059
+        width: 487
+        height: 494
+      alignment: 9
+      pivot: {x: 0.5265437, y: 0.5436112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a292f3582816676418d4a4c367447d92
+      internalID: 24669147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_22
+      rect:
+        serializedVersion: 2
+        x: 9179
+        y: 10072
+        width: 521
+        height: 474
+      alignment: 9
+      pivot: {x: 0.55375594, y: 0.5409064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80854667d3eec141b9d60c5de5f5de9
+      internalID: -1032396659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5880
+        width: 354
+        height: 388
+      alignment: 9
+      pivot: {x: 0.47142944, y: 0.12389633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e364e9329b3590644a8cd8dd0ce5fdbe
+      internalID: 899919499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_24
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 5864
+        width: 356
+        height: 405
+      alignment: 9
+      pivot: {x: 0.45941418, y: 0.09152199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d797b0b42979d4cbb3874b4e4f9f1d
+      internalID: 1680386578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_25
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 5854
+        width: 383
+        height: 414
+      alignment: 9
+      pivot: {x: 0.50754446, y: 0.10563741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342bde0ff96ada84a8842a09361dab9c
+      internalID: -1699792375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_26
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 5837
+        width: 354
+        height: 431
+      alignment: 9
+      pivot: {x: 0.55509955, y: 0.19326648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcfc673da8926045b77c2c999d18b8d
+      internalID: 846738113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuBase_Effects_27
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 5891
+        width: 371
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5077885, y: 0.06026786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded73037608855644999e79065921081
+      internalID: 231510973
       vertices: []
       indices: 
       edges: []
@@ -19990,10 +20474,32 @@ TextureImporter:
     nameFileIdTable:
       GokuBase_Effects_0: 3327199479812366901
       GokuBase_Effects_1: 8360775260845150879
+      GokuBase_Effects_10: 1417502808
+      GokuBase_Effects_11: -1828015580
+      GokuBase_Effects_12: 113943912
+      GokuBase_Effects_13: -1795193032
+      GokuBase_Effects_14: -208744429
+      GokuBase_Effects_15: -1679706658
+      GokuBase_Effects_16: -218866468
+      GokuBase_Effects_17: -1870210514
+      GokuBase_Effects_18: 1123292442
+      GokuBase_Effects_19: 646598037
       GokuBase_Effects_2: -6211126643176518256
+      GokuBase_Effects_20: 384962948
+      GokuBase_Effects_21: 24669147
+      GokuBase_Effects_22: -1032396659
+      GokuBase_Effects_23: 899919499
+      GokuBase_Effects_24: 1680386578
+      GokuBase_Effects_25: -1699792375
+      GokuBase_Effects_26: 846738113
+      GokuBase_Effects_27: 231510973
       GokuBase_Effects_3: -6128631719344992323
       GokuBase_Effects_4: 9051825134720415551
       GokuBase_Effects_5: 8162973982970500600
+      GokuBase_Effects_6: -1880296651
+      GokuBase_Effects_7: -576449727
+      GokuBase_Effects_8: -770933534
+      GokuBase_Effects_9: 538357047
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -25,7 +25,7 @@ public class KiBlastWeapon : WeaponBase
 
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         mouseWorldPos.z = 0f;
-        Vector3 direction = (mouseWorldPos - player.transform.position).normalized;
+        Vector3 direction = (mouseWorldPos - player.firePoint.position).normalized;
 
         if (!player.TrySpendKi(kiCostPerBlast)) return;
         player.PlayAttackAnimation();
@@ -46,7 +46,7 @@ public class KiBlastWeapon : WeaponBase
 
     private IEnumerator FireBarrage()
     {
-        isBarrageFiring = true; // 🚫 Lock input
+        isBarrageFiring = true;
 
         int count = currentUpgrade?.barrageCount ?? 20;
         float delay = currentUpgrade?.barrageDelay ?? 0.05f;
@@ -58,13 +58,21 @@ public class KiBlastWeapon : WeaponBase
             if (!player.TrySpendKi(kiCost))
                 break;
 
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-            Vector3 aimDir = (mousePos - player.firePoint.position).normalized;
-            float aimAngle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg;
+            player.PlayAttackAnimation();
 
+            // 🔁 Get fresh mouse + firepoint position each blast
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            mouseWorldPos.z = 0f;
+
+            Vector3 firePointPos = player.firePoint.position;
+            Vector3 aimDir = (mouseWorldPos - firePointPos).normalized;
+            float baseAngle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg;
+
+            // Apply random angle offset for spread
             float offset = Random.Range(-arc / 2f, arc / 2f);
-            float finalAngle = aimAngle + offset;
+            float finalAngle = baseAngle + offset;
             float rad = finalAngle * Mathf.Deg2Rad;
+
             Vector3 direction = new Vector3(Mathf.Cos(rad), Mathf.Sin(rad), 0f);
 
             GameObject blast = FireBlastAndReturn(direction);
@@ -73,6 +81,9 @@ public class KiBlastWeapon : WeaponBase
                 KiBlast kiBlast = blast.GetComponent<KiBlast>();
                 if (kiBlast != null)
                     kiBlast.homingDelay = homingDelay;
+
+                float rotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                blast.transform.rotation = Quaternion.Euler(0f, 0f, rotation);
             }
 
             yield return new WaitForSeconds(delay);
@@ -82,8 +93,10 @@ public class KiBlastWeapon : WeaponBase
         float modifiedCooldown = fireCooldown * cooldownModifier;
         lastFireTime = Time.time + modifiedCooldown;
 
-        isBarrageFiring = false; // ✅ Unlock input
+        isBarrageFiring = false;
     }
+
+
 
 
 
@@ -147,8 +160,8 @@ public class KiBlastWeapon : WeaponBase
             rb.linearVelocity = direction.normalized * speed;
         }
 
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        blast.transform.rotation = Quaternion.Euler(0, 0, angle);
+        float angle = Mathf.Atan2(rb.linearVelocity.y, rb.linearVelocity.x) * Mathf.Rad2Deg;
+        blast.transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
         KiBlast kiBlast = blast.GetComponent<KiBlast>();
         if (kiBlast != null)

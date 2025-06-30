@@ -16,6 +16,7 @@ MonoBehaviour:
   damageModifier: 1.8
   projectileSpeedModifier: 1.4
   fireCooldownModifier: 0.6
+  projectileScale: 0.775
   enableDoubleShot: 1
   enablePiercing: 1
   enableExplosion: 0
@@ -30,6 +31,19 @@ MonoBehaviour:
   destroyEnemyProjectiles: 0
   autoAimDuringBarrage: 0
   visualConeAngle: 80
-  projectileScale: 1.3
   kiCost: 1.15
   customProjectilePrefab: {fileID: 8480796970953200573, guid: 14bfa553ae21c8746a31a2912f039ffb, type: 3}
+  beamMaxLengthModifier: 1
+  beamGrowthSpeedModifier: 1
+  beamDuration: 5
+  beamFollowsMouse: 0
+  beamVisualScaleX: 1
+  beamVisualScaleY: 1
+  extraBeams: 0
+  beamSpreadAngle: 15
+  beamStartOverride: {fileID: 0}
+  beamEndOverride: {fileID: 0}
+  beamMidOverrideSprite: {fileID: 0}
+  beamMidBaseHeight: 4
+  animatedMidFrames: []
+  animatedMidFrameRate: 12

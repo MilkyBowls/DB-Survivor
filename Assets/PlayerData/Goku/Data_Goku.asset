@@ -25,7 +25,7 @@ MonoBehaviour:
   kiRegenRate: 1
   attackSpeed: 1
   critChance: 0
-  maxKiCapacity: 1000
+  maxKiCapacity: 100000
   defense: 0
   luck: 0
   abilityCooldown: 5

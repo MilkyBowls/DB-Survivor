@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 8480796970953200573, guid: 14bfa553ae21c8746a31a2912f039ffb, type: 3}
   fireCooldown: 1
-  weaponLevel: 10
+  weaponLevel: 5
   upgrades:
   - {fileID: 11400000, guid: 6b027a02f0114824bac547e992daeeec, type: 2}
   - {fileID: 11400000, guid: f8e956736a4d4ce43854fa9d35705a27, type: 2}
@@ -58,5 +58,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 04c728f9f58ddc147980cd2845d79e96, type: 2}
   - {fileID: 11400000, guid: 017ea185a116a4d4daafa32d5d1441ee, type: 2}
   - {fileID: 11400000, guid: d4e8e3d3859e4614c833e7f72a487012, type: 2}
+  currentUpgrade: {fileID: 0}
   blastSpeed: 10
   kiCostPerBlast: 1

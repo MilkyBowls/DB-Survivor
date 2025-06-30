@@ -138,9 +138,10 @@ public class KiBlast : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // Damage enemy
         if (collision.CompareTag("Enemy"))
         {
+            bool shouldDestroy = false;
+
             IDamageable damageable = collision.GetComponent<IDamageable>();
             if (damageable != null)
             {
@@ -164,45 +165,64 @@ public class KiBlast : MonoBehaviour
 
                 if (upgradeData?.applyStun == true)
                     damageable.ApplyStatusEffect(StatusEffect.Stun, 1f);
+
+                // Always show impact FX on hit
+                TriggerImpactFX();
+
+                // Explosion
+                if (upgradeData?.enableExplosion == true)
+                    ExplosionDamage(transform.position, 2f);
+
+                enemiesPierced++;
+
+                if (upgradeData == null || !upgradeData.enablePiercing || enemiesPierced > 2)
+                    shouldDestroy = true;
             }
 
-            // Explosion AoE
-            if (upgradeData?.enableExplosion == true)
+            if (shouldDestroy)
             {
-                TriggerImpactFX();
-                ExplosionDamage(transform.position, 2f);
-            }
-
-            enemiesPierced++;
-            if (upgradeData == null || !upgradeData.enablePiercing || enemiesPierced > 2)
-            {
-                TriggerImpactFX();
                 Destroy(gameObject);
             }
         }
-
-        // Hit prop
         else if (collision.CompareTag("Prop"))
         {
             TriggerImpactFX();
             Destroy(gameObject);
         }
-
-        // Destroy enemy projectiles
         else if (upgradeData?.destroyEnemyProjectiles == true && collision.CompareTag("EnemyProjectile"))
         {
             Destroy(collision.gameObject);
         }
     }
 
+
     private void TriggerImpactFX()
     {
         if (impactFXPrefab != null)
         {
             GameObject impact = Instantiate(impactFXPrefab, transform.position, Quaternion.identity);
-            impact.transform.localScale = Vector3.one * projectileScale;
+
+            // Rotation variation
+            impact.transform.rotation = Quaternion.Euler(0f, 0f, Random.Range(0f, 360f));
+
+            // Scale variation
+            float baseScale = (upgradeData != null ? upgradeData.projectileScale : 1f) * 0.6f;
+            float variedScale = baseScale * Random.Range(0.9f, 1.1f);
+            impact.transform.localScale = Vector3.one * variedScale;
+
+            // Optional: Color variation if SpriteRenderer exists
+            SpriteRenderer sr = impact.GetComponent<SpriteRenderer>();
+            if (sr != null)
+            {
+                Color color = sr.color;
+                color.r *= Random.Range(0.3f, 1.1f);
+                color.g *= Random.Range(0.3f, 1.1f);
+                color.b *= Random.Range(0.3f, 1.1f);
+                sr.color = color;
+            }
         }
     }
+
 
     private void ExplosionDamage(Vector3 center, float radius)
     {
