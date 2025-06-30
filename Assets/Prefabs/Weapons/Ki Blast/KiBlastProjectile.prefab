@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: -1004480949
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 6ee5f23dda8cc2142b05f8d8716df3ea, type: 3}
+  m_Sprite: {fileID: 3327199479812366901, guid: bd2bf4ccc7366cd4098079382d443964, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -200,6 +200,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   scalePunchAmount: 0
   scaleSettleSpeed: 0
+  projectileScale: 1
 --- !u!95 &-1342057019573417559
 Animator:
   serializedVersion: 7

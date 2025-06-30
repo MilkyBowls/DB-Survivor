@@ -1,0 +1,20 @@
+[Info]
+name="Goku"
+displayname="Goku"
+versiondate=17/03/2018
+mugenversion=1.0
+author="IsackMuGeN"
+pal.defaults=1
+[Files]
+sprite=Goku.sff
+sound=Goku.snd
+anim=Goku.air
+cmd=Goku.cmd
+cns=Goku.cns
+st=Goku.cns
+st2=IA.cns
+stcommon=common1.cns
+pal1 = Goku.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=
