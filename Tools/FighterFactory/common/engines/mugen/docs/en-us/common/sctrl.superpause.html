@@ -1,0 +1,29 @@
+<p>Freezes the gameplay and darkens the screen. While each player is frozen, no time passes for them. Use for a dramatic pause during the start of hyper attacks.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<p>SuperPause accepts all optional parameters that the Pause controller does. In addition, SuperPause also takes the following parameters:</p>
+<ul>
+	<li><b>time</b> = pause_time (int)<br>
+	<i>Specifies the number of ticks that the pause should last. Default is 30 ticks (half a second at default speed).</i><br></li>
+	<li><b>anim</b> = anim_no (int)<br>
+	<i>Specifies the animation number (from fightfx.air) to play during the SuperPause. The default is 30, which is a charging effect. If anim is -1, no animation will be played. If you prepend "S" to anim_no, the animation used will be from the player's AIR file. For example, anim = S10.</i><br></li>
+	<li><b>sound</b> = snd_grp, snd_no (int, int)<br>
+	<i>Specifies a sound to play (from common.snd) during SuperPause. The default is -1, which means no sound is played. If you prepend "S" to snd_grp, then the sound used will be from the player's own SND file. For example, sound = S10,0.</i><br></li>
+	<li><b>pos</b> = x_pos, y_pos (float)<br>
+	<i>Specifies the offset (from the player axis) at which the super anim is to be displayed. Defaults to 0,0.</i><br></li>
+	<li><b>darken</b> = bvalue (boolean)<br>
+	<i>If this is 1, the screen will darken during the SuperPause. Set this to 0 to disable this effect. The default value is 1.</i><br></li>
+	<li><b>p2defmul</b> = def_mul (float)<br>
+	<i>This is the amount in which to temporarily multiply the defence of any targets the player has. This is used to make chaining into supers less damaging. Setting this at 1 will make no changes to the targets' defence. 0 is a special value that will set the defence to the number set in Super.TargetDefenceMul in the [Rules] section of mugen.cfg. The default value is 0. Valid values are all positive numbers, including zero.</i><br></li>
+	<li><b>poweradd</b> = value (int)<br>
+	<i>This is the amount to add to the player's power. Defaults to 0.</i><br></li>
+	<li><b>unhittable</b> = bvalue (boolean)<br>
+	<i>If set to 1, the player cannot be hit during the SuperPause. Set to 0 to disable this. Defaults to 1.</i></li>
+</ul>
+<p><b>Notes:</b></p>
+<p>If the Pause controller was previously executed, and the action is still paused, executing a SuperPause will preempt the Pause controller's effects. During the SuperPause, the time left until the Pause controller's effects expires will not count down.</p>
+<p><b>Examples:</b></p>
+<p><code></code></p>

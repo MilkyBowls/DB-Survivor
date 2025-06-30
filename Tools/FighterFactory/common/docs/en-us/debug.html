@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li><a href="using.html">Using</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li>Debug</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Menu Debug</h1>
+        <p>The Debug menu is used to launch the engine using a debugger. This allows easy and real-time inspection of in-game variables directly from the engine's memory.</p> 
+        <p>Debugging also allows you to make the engine stop execution at points defined by breakpoints, so you can track bugs easely and faster.</p> 
+        <p>Fighter Factory Studio doesn't come with a general purpose debugger. This function is provided by the engine's module, so the available feature set is subject to change based on each engine implementation.</p> 
+        <p>There's two supported modes of operation:</p>
+        <ul>
+          <li>Traditional debugging: the engine itself is launched and debugger directly manipulates its memory and execution;</li>
+          <li>Emulator: an engine-compatible environment runs inside Fighter Factory. This allows even faster debugging and enables all feature set.</li>
+        </ul> 
+        <p>While a debugger is active, the right panel on text editors is set to the Debug panel. This panel displays a live snapshot of in-game variables, or the current state of these if you pause execution.</p> 
+        
+        <a id="start"></a><h2>Start on engine</h2>
+        <p>Starts the engine using the debugger, in traditional debugging mode.</p>
+        <a id="emul"></a><h2>Start emulator</h2>         
+        <p>Use the Emulator as a debugger, in built-in engine debugging mode.</i></p>
+
+        <a id="interrupt"></a><h2>Interrupt</h2>
+        <p>Pauses engine execution.</p>
+        <a id="continue"></a><h2>Continue</h2>
+        <p>Resumes engine execution.</p>
+        <a id="stop"></a><h2>Stop</h2>
+        <p>Stops engine execution. This ends the debug session.</p>
+        <a id="restart"></a><h2>Restart</h2>
+        <p>Stops and restart engine execution. This fully resets the debug session.</p>
+
+        <a id="stepover"></a><h2>Step over</h2>
+        <p>While the debugger is in interrupt state, executes next instruction and interrupts execution again, without entering into functions.</p>
+        <a id="stepinto"></a><h2>Step into</h2>
+        <p>While the debugger is in interrupt state, executes next instruction and interrupts execution again, entering into functions.</p>
+        <a id="stepout"></a><h2>Step out</h2>
+        <p>While the debugger is in interrupt state, executes all next instructions in the current function and interrupts execution again, right outside that function.</p>
+        <a id="stepframe"></a><h2>Step frame</h2>
+        <p>While the debugger is in interrupt state, executes every instruction till next frame starts.</p>
+
+        <a id="codetoolbar"></a><h2>Code toolbar</h2>
+        <p>Defines the visibility of the Code toolbar. This toolbar contains the code snippet system and a syntax error navigation list.</p>
+        
+        <a id="toggebrk"></a><h2>Toggle breakpoint</h2>
+        <p>Activate/deactivate a breakpoint in the current line on the active code editor.</p>       
+        <a id="addbrk"></a><h2>Add breakpoint</h2>
+        <p>Adds a new breakpoint. This opens a dialog to setup all supported breakpoint modes.</p> 
+        <img src="images/breakpoint.png"/>
+        <p><b>Breakpoint type:</b></p>
+        <ul>
+          <li><b>File Name and Line Number:</b> Adds a breakpoint to interrupt execution before this line gets executed. You can set breakpoints to any file, even it's not currently opened in any editor. You must use the fields "File name" and "Line number".</li>
+          <li><b>Function Name:</b> Adds a breakpoint to interrupt execution before the function is executed. You must use the Function field to define the desired one.</li>
+          <li><b>Break on Memory Access:</b> Adds a breakpoint to interrupt execution after the data at specified address is modified. You must use the Address field. This type of breakpoint can be easely set by right-clicking a variable in the Debug panel and choosing "Add data breakpoint".</li>
+          <li><b>Break on frame:</b> Adds a breakpoint to interrupt execution before the next frame starts.</li>
+        </ul>
+        <p><b>Enabled:</b> Defines if the breakpoint is currently enabled or not.</p>
+        <p><b>Condition:</b> Only interrupts execution if this condition is met. This rely on debugger support.</p>
+        <p><b>Ignore count:</b> Anytime conditions are met, decrease this counter and only triggers the breakpoint when it reaches zero.</p>
+        <p><b>One shot only:</b> Trigger this breakpoint only once.</p>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

@@ -1,0 +1,7 @@
+[State 0, Trans]
+type = Trans
+trigger1 = 
+trans = Default     ;None, Add, AddAlpha, Add1, Sub
+;alpha = 256, 256
+;ignorehitpause = 
+;persistent = 

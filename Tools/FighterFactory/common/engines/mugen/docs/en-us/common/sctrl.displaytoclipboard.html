@@ -1,0 +1,20 @@
+<p>This controller is only useful for debugging. Clears the player clipboard and prints a specified message to it.<br>
+Display of the player clipboards is enabled in debug mode (press Ctrl+D).</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>text</b> = "format_string"<br>
+	<i>format_string must be encased in double-quotes. It is a printf format string, so if you know about printf, you can skip this description. The format string contains any text you wish to display. You can also use \n to generate a line break, and \t to generate a tab character (tab width is equivalent to 4 characters).<br>
+    To display the value of an arithmetic expression, you can put a %d (for ints) or a %f (for floats) in the format string, then specify the expression in the params list. To display a % character, you must put %% in the format string.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>params</b> = exp_1, exp_2,exp_3, exp_4, exp_5<br>
+	<i>Up to 5 numeric arguments can be specified in the format string. These should be listed under the params item, in order. The type of each parameter must match its format specifier. You cannot specify more or less parameters than are called for in the format string.</i></li>
+</ul>
+<p><b>Example:</b></p>
+<p><code><b>type</b> = <b>DisplayToClipboard</b><br>
+<b>text</b> = "The value of var(17) is %d, which is %f%% of 23.\n\t--Kiwi."<br>
+<b>params</b> = var(17) := 1, var(17) / .230<br>
+; displays the following to the player's clipboard:<br>
+; The value of var(17) is 1, which is 4.347826% of 23.<br>
+; &Tab;--Kiwi.</code></p>

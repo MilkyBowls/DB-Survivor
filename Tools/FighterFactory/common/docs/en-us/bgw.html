@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li><a href="using.html">Using</a></li>
+            <li><a href="workspace.html">Editor's workspace</a></li>
+            <li>M.U.G.E.N.</li>
+            <li>Backgrounds</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Backgrounds</h1>
+        <p>The Backgrounds editor is used to edit the background elements of current project.</p>
+        <p>See <a href="bgs.html">Backgrounds menu</a> for more details.</p>
+        <h2>Controls</h2>
+        <p>All controls available to the backgrounds editor are listed below:</p>
+        <a id="scroll"></a><h4>Background selection scroll bar</h4>
+        <p>Defines the current background element to work on.</p>
+        <a id="name"></a><h4>Name field</h4>
+        <p>Defines the name of the current background element.</p>
+        <a id="type"></a><h4>Type</h4>
+        <p>Defines the type of the current background element. Available options are:</p>
+        <p><i>Null:</i> null background.</p>
+        <p><i>Normal:</i> single sprite background.</p>
+        <p><i>Animation:</i> animated background.</p>
+        <p><i>Parallax:</i> animated or single sprite background to be perspective projected or pre-projected. Besides perspective projection, this has the effect of the bottom moving faster than the top, or the opposite, as the camera moves.</p>
+        <p><i>Dummy:</i> non graphical background. Can be used in combination with Ground link to move players Ground level.</p>
+        <a id="group"></a><h4>Sprite Group field</h4>
+        <p>Defines the group number of the sprite to be used in the current background element. <i>Note: only valid for Normal or Parallax.</i></p>
+        <a id="index"></a><h4>Sprite Index field</h4>
+        <p>Defines the index number of the sprite to be used in the current background element. <i>Note: only valid for Normal or Parallax.</i></p>
+        <a id="animation"></a><h4>Animation field</h4>
+        <p>Defines the animation number to be used in the current background element. <i>Note: only valid for Animation or Parallax (M.U.G.E.N. 1.1 only).</i></p>
+        <a id="masked"></a><h4>Masked</h4>
+        <p>Enable alpha channel, otherwise sprite will be rendered fully opaque. <i>Note: Animated backgrounds always have this enabled.</i></p>
+        <a id="startx"></a><h4>Start X field</h4>
+        <p>Defines the starting position of the background element in the x axis.</p>
+        <a id="starty"></a><h4>Start Y field</h4>
+        <p>Defines the starting position of the background element in the y axis.</p>
+        <a id="deltax"></a><h4>Delta X field</h4>
+        <p>Defines how much the background element will move to follow the camera movement in the x axis.</p>
+        <a id="deltay"></a><h4>Delta Y field</h4>
+        <p>Defines how much the background element will move to follow the camera movement in the y axis.</p>
+        <a id="velocityx"></a><h4>Velocity X field</h4>
+        <p>Defines the lifetime velocity of the background element in the x axis. <i>Note: this can't be changed using VelSet or VelAdd controllers (they stack on top of this).</i></p>
+        <a id="velocityy"></a><h4>Velocity Y field</h4>
+        <p>Defines the lifetime velocity of the background element in the y axis. <i>Note: this can't be changed using VelSet or VelAdd controllers (they stack on top of this).</i></p>
+        <a id="id"></a><h4>ID field</h4>
+        <p>Defines the ID of the background element. This will be used to make controllers of the same ID affects this element.</p>
+        <a id="layer"></a><h4>Layer field</h4>
+        <p>Defines the rendering layer of the background element. <i>For Stages and Storyboard there's only 0 (background) and 1 (foreground). Motifs have also 2 (On top of foreground).</i></p>
+        <a id="poslink"></a><h4>Link to previous</h4>
+        <p>Make the position of this background element as an offset to the previous element.</p>
+        <a id="tilex"></a><h4>Tile X field</h4>
+        <p>Defines the number of times this background element will be repeated in the x axis. <i>0 = one time, 1 or negative = infinite, 2 or more makes it repeats this number of times forward.</i></p>
+        <a id="tiley"></a><h4>Tile Y field</h4>
+        <p>Defines the number of times this background element will be repeated in the y axis. <i>0 = one time, 1 or negative = infinite, 2 or more makes it repeats this number of times forward.</i></p>
+        <a id="tilespcx"></a><h4>Tile Spacing X field</h4>
+        <p>Defines the space between each tile in the x axis.</p>
+        <a id="tilespcy"></a><h4>Tile Spacing Y field</h4>
+        <p>Defines the space between each tile in the y axis.</p>
+        <a id="trans"></a><h4>Transparency</h4>
+        <p>Defines how this background element will blended to the framebuffer color. Available options are:</p>
+        <p><i>None:</i> no blending, the sprite fully raplaces previous color.</p>
+        <p><i>Default:</i> inherits the blending mode of the animation, or none if isn't an animated type.</p>
+        <p><i>Addition:</i> additive blending. Source and Dest defines the intensity of the effect.</p>
+        <p><i>Addition 50%:</i> additive blending on a 50% darkened destination. Source and Dest are set to 256, 128 respectively. <i>This is a shortcut to these Source and Dest settings on M.U.G.E.N. 1.x. Previous versions doesn't support arbitrary source/dest, so this is the only option besides full additive blending.</i></p>
+        <p><i>Subtraction:</i> reverse subtraction blending. This has a similar effect to color inversion.</p>
+        <a id="source"></a><h4>Sounce field</h4>
+        <p>Defines the transparency of the sprite. 0 means fully transparent, 256 fully visible.<i>Note: unavailable on M.U.G.E.N. versions older than 1.x.</i></p>
+        <a id="dest"></a><h4>Dest field</h4>
+        <p>Defines how much dark the destination color will be before additive blending. 0 means black, 256 original color.<i>Note: unavailable on M.U.G.E.N. versions older than 1.x. Setting this to 0 and Source to 256 is the same as no blending, but loosing performance, so avoid this.</i></p>
+        <a id="paralmode"></a><h4>Parallax mode</h4>
+        <p>Defines the mode of the parallax effect to be applied. Options are:</p>
+        <p><i>Width (centered):</i> applies perspective projection to the sprite, based on the specified width for top and bottom of the sprite. The x axis is changed to half width, so centered.</p>
+        <p><i>Width (x axis aligned):</i> applies perspective projection to the sprite, based on the specified width for top and bottom of the sprite. The x axis remains intact.</p>
+        <p><i>X Scale (pre-projected):</i> Intended for already perspective projected sprites, so only the top/bottom movement is applied.<i>Note: Animated Parallax doesn't support X Scale mode.</i></p>
+        <a id="topwidth"></a><h4>Top width field</h4>
+        <p>Defines the top width of the sprite. Mismatching top and bottom widths creates a perspective effect on the sprite.<i>Note: only available for Width parallax modes.</i></p>
+        <a id="botwidth"></a><h4>Bottom width field</h4>
+        <p>Defines the bottom width of the sprite. Mismatching top and bottom widths creates a perspective effect on the sprite.<i>Note: only available for Width parallax modes.</i></p>
+        <a id="scalestartx"></a><h4>Scale start X field</h4>
+        <p>Defines the starting scale of the background element on the x axis.<i>Note: only available on M.U.G.E.N. 1.1.</i></p>
+        <a id="scalestarty"></a><h4>Scale start Y field</h4>
+        <p>Defines the starting scale of the background element on the y axis.<i>Note: only available on M.U.G.E.N. 1.1.</i></p>
+        <a id="scaledeltax"></a><h4>Scale delta X field</h4>
+        <p>Defines how much the scale changes as camera moves on the x axis.<i>Note: only available on M.U.G.E.N. 1.1.</i></p>
+        <a id="scaledeltay"></a><h4>Scale delta Y field</h4>
+        <p>Defines how much the scale changes as camera moves on the y axis.<i>Note: only available on M.U.G.E.N. 1.1.</i></p>
+        <a id="yscalestart"></a><h4>Scale start Y field</h4>
+        <p>Defines the starting scale of the background element on the y axis, in percentage, so 100 = 1X = original size.<i>Note: on M.U.G.E.N. 1.1 this functionality is superseded by scale start/delta parameters.</i></p>
+        <a id="yscaledelta"></a><h4>Scale delta Y field</h4>
+        <p>Defines how much the scale changes as camera moves on the y axis.<i>Note: on M.U.G.E.N. 1.1 this functionality is superseded by scale start/delta parameters.</i></p>
+        <a id="windeltax"></a><h4>Window delta X field</h4>
+        <p>Defines how much the clipping window moves to follow the camera movement on the x axis.</p>
+        <a id="windeltay"></a><h4>Window delta Y field</h4>
+        <p>Defines how much the clipping window moves to follow the camera movement on the y axis.</p>
+        <a id="windowmode"></a><h4>Window mode</h4>
+        <p>Defines the mode of the clipping window (this is the maximum area the sprite will be drawed into). Options are:</p>
+        <p><i>Full screen (disabled):</i> sprite is rendered without any restriction.</p>
+        <p><i>Top left (normal):</i> the area coordinates are relative to the top-left corner of the screen.</p>
+        <p><i>Top center (mask):</i> the area coordinates are relative to the top-center of the screen.<i>Note: only available on M.U.G.E.N. 1.1.</i></p>
+        <a id="winleft"></a><h4>Window left field</h4>
+        <p>Defines the left bounds of window clipping area.</p>
+        <a id="wintop"></a><h4>Window top field</h4>
+        <p>Defines the top bounds of window clipping area.</p>
+        <a id="winright"></a><h4>Window right field</h4>
+        <p>Defines the right bounds of window clipping area.</p>
+        <a id="winbottom"></a><h4>Window bottom field</h4>
+        <p>Defines the bottom bounds of window clipping area.</p>
+        <a id="sine"></a><h4>Sine (x/y axis)</h4>
+        <p>Creates a sine-wave effect on the background element position, in their respective axis. It's calculated as follows: Sin((Period + Offset) / CurrentPeriod * PI * 2) * Amplitude</p>
+        <a id="sineampl"></a><h4>Sine amplitude field</h4>
+        <p>Defines the amplitude of the sine effect.</p>
+        <a id="sineperiod"></a><h4>Sine period field</h4>
+        <p>Defines the period of the sine effect.</p>
+        <a id="sineoffste"></a><h4>Sine offset field</h4>
+        <p>Defines the offset of the sine effect.</p>
+
+        <h2>Controls (Controllers panel)</h4>
+        <p>All controls available to the background controllers editor are listed below:</p>
+        <a id="ctrldefscroll"></a><h4>Controller definition selection scroll bar</h2>
+        <p>Defines the current background controller definition to work on.</p>
+        <a id="ctrldefname"></a><h4>Controller definition Name field</h2>
+        <p>Defines the name of the current controller definition.</p>
+        <a id="ctrldeflooptime"></a><h4>Controller definition Loop time field</h4>
+        <p>Defines when the controller's internal time will be reset. Use a negative number to never loop.</p>
+        <a id="ctrldefids"></a><h4>Controller definition ID fields</h4>
+        <p>Defines up to 10 background element IDs that will be affected by this controller definition. You must start from the first field. As you change from -1 (invalid) the next ones will be enabled for use.</p>
+        <a id="ctrlscroll"></a><h4>Controller selection scroll bar</h4>
+        <p>Defines the current background controller to work on.</p>
+        <a id="ctrlname"></a><h4>Controller Name field</h4>
+        <p>Defines the name of the current controller.</p>
+        <a id="ctrltype"></a><h4>Controller Type</h4>
+        <p>Defines the type of the current background element. Available options are:</p>
+        <p><i>Null:</i> does nothing.</p>
+        <p><i>Enable:</i> defines if the affected background elements are enabled or disabled. Use the Enabled checkbox to set this. An enabled background element is rendered and its animation updated.</p>
+        <p><i>Visible:</i> defines if the affected background elements are visible or hidden. Use the Enabled checkbox to set this. A visible background element is rendered and its animation updated even while hidden.</p>
+        <p><i>Animation:</i> changes the animation of the affected background elements.</p>
+        <p><i>Set position:</i> resets the position of the affected background elements to this values (X/Y). <i>Note: This doesn't change start position neither affects the position incremented by background's lifetime velocity.</i></p>
+        <p><i>Add position:</i> increments the position of the affected background elements by these values (X/Y).</p>
+        <p><i>Set velocity:</i> resets the additional velocity of the affected background elements to this values (X/Y). <i>Note: This doesn't affects the background's lifetime velocity.</i></p>
+        <p><i>Add velocity:</i> imcrements the additional velocity of the affected background elements by these values (X/Y). <i>Note: This doesn't affects the background's lifetime velocity.</i></p>
+        <p><i>Sine (x axis):</i> changes the sine effect of the affected background elements on the x axis. Use Amplitude, Period and Offset fields to define the new values.</p>
+        <p><i>Sine (y axis):</i> changes the sine effect of the affected background elements on the y axis. Use Amplitude, Period and Offset fields to define the new values.</p>
+        <a id="ctrlenabled"></a><h4>Enabled checkbox</h4>
+        <p>Used by the Enabled and Visible controllers. This turn on or off the effects of that controllers.</p>
+        <a id="ctrlanim"></a><h4>Animation field</h4>
+        <p>Defines the animation to be set by the Animation controller.</i></p>
+        <a id="ctrlx"></a><h4>X field</h4>
+        <p>Defines the x value to be used by Set position, Add position, Set velocity and Add velocity controllers. The checkbox next to it turns on or off the use of this value.</p>
+        <a id="ctrly"></a><h4>Y field</h4>
+        <p>Defines the y value to be used by Set position, Add position, Set velocity and Add velocity controllers. The checkbox next to it turns on or off the use of this value.</p>
+        <a id="ctrlampl"></a><h4>Amplitude field</h4>
+        <p>Defines the amplitude of the sine effect to be set by the Sine controllers.</p>
+        <a id="ctrlperiod"></a><h4>Period field</h4>
+        <p>Defines the period of the sine effect to be set by the Sine controllers.</p>
+        <a id="ctrloffste"></a><h4>Offset field</h4>
+        <p>Defines the offset of the sine effect to be set by the Sine controllers.</p>
+        <a id="ctrltimestart"></a><h4>Time Start field</h4>
+        <p>Defines the starting time this controller starts being executed.</p>
+        <a id="ctrltimeend"></a><h4>Time End field</h4>
+        <p>Defines the last time this controller is executed (stops on next game tick).<i>Note: this defaults to the start time.</i></p>
+        <a id="ctrltimeloop"></a><h4>Time Loop field</h4>
+        <p>Defines when the controller's internal time will be reset. Use a negative number to never loop.<i>Note: This defaults to the controller definition loop time.</i></p>
+        
+        <h2>Controls (Stage panel)</h2>
+        <p>All controls available to the stage editor are listed below:</p>
+        <a id="boundsleft"></a><h4>Bounds left field</h4>
+        <p>Defines the left limit of camera movement.</p>
+        <a id="boundstop"></a><h4>Bounds top field</h4>
+        <p>Defines the top limit of camera movement.</p>
+        <a id="boundsright"></a><h4>Bounds right field</h4>
+        <p>Defines the right limit of camera movement.</p>
+        <a id="boundsbottom"></a><h4>Bounds bottom field</h4>
+        <p>Defines the bottom limit of camera movement.</p>
+        <a id="startx"></a><h4>Start X field</h4>
+        <p>Defines the starting position of the camera in the x axis, relative to the center of the screen.</p>
+        <a id="starty"></a><h4>Start Y field</h4>
+        <p>Defines the starting position of the camera in the y axis, relative to the top of the screen.</p>
+        <a id="cutlow"></a><h4>Cut low field</h4>
+        <p>Defines the maximum amount of pixels that can be cut at the top to fit the stage on taller aspect ratios. <i>Note: M.U.G.E.N. 1.x only.</i></p>
+        <a id="curhigh"></a><h4>Cut high field</h4>
+        <p>Defines the maximum amount of pixels that can be cut at the bottom to fit the stage on taller aspect ratios. <i>Note: M.U.G.E.N. 1.x only.</i></p>
+        <a id="sidetension"></a><h4>Side tension field</h4>
+        <p>Defines the horizontal distance a player can get from the left and right edges before the camera starts to follow.</p>
+        <a id="floortension"></a><h4>Floor tension field</h4>
+        <p>Defines the the minimum vertical distance the highest player has to be from the floor (given as a positive value), before the camera starts to move up to follow him. This parameter is used only with the Vertical Follow camera scrolling mode. This parameter is ignored if High Tension and Low Tension are used.</p>
+        <a id="lowtension"></a><h4>Low tension field</h4>
+        <p>Defines the vertical distance a player can get from the bottom edge before the camera starts to follow. <i>Note: M.U.G.E.N. 1.1 only. If used, Vertical Follow and Floor Tension will be ignored.</i></p>
+        <a id="hightension"></a><h4>High tension field</h4>
+        <p>Defines the vertical distance a player can get from the top edge before the camera starts to follow. <i>Note: M.U.G.E.N. 1.1 only. If used, Vertical Follow and Floor Tension will be ignored.</i></p>
+        <a id="odleft"></a><h4>Overdraw left field</h4>
+        <p>Defines the number of pixels beyond the left of the screen that may be drawn. Overdraw specifies the how much can be seen during an EnvShake. Overdraw pixels will also be used when the screen aspect is taller than the stage aspect.. <i>Note: M.U.G.E.N. 1.x only.</i></p>
+        <a id="odright"></a><h4>Overdraw right field</h4>
+        <p>Defines the number of pixels beyond the right of the screen that may be drawn. Overdraw specifies the how much can be seen during an EnvShake. Overdraw pixels will also be used when the screen aspect is taller than the stage aspect. <i>Note: M.U.G.E.N. 1.x only.</i></p>
+        <a id="odlow"></a><h4>Overdraw top field</h4>
+        <p>Defines the number of pixels beyond the bottom of the screen that may be drawn. Overdraw specifies the how much can be seen during an EnvShake. Overdraw pixels will also be used when the screen aspect is taller than the stage aspect. <i>Note: M.U.G.E.N. 1.x only.</i></p>
+        <a id="odhigh"></a><h4>Overdraw bottom field</h4>
+        <p>Defines the number of pixels beyond the top of the screen that may be drawn. Overdraw specifies the how much can be seen during an EnvShake. Overdraw pixels will also be used when the screen aspect is taller than the stage aspect. <i>Note: M.U.G.E.N. 1.x only.</i></p>
+        <a id="vertfollow"></a><h4>Vertical follow field</h4>
+        <p>This value affects the vertical movement of the camera to follow the highest player. It should be set between 0 and 1. A value of 0 means the camera does not move up at all. A higher value makes the camera track the higher player closer. A value of 1 makes the camera track the player as close as possible.</p>
+        <a id="p1facing"></a><h4>P1 Facing field</h4>
+        <p>Defines the facing direction of Player 1. 1 means right, -1 left.</p>
+        <a id="p1startx"></a><h4>P1 Start X field</h4>
+        <p>Defines the starting position of the Player 1 in the x axis, relative to the center of the screen.</p>
+        <a id="p1starty"></a><h4>P1 Start Y field</h4>
+        <p>Defines the starting position of the Player 1 in the y axis, relative to the Ground position.</p>
+        <a id="p2facing"></a><h4>P2 Facing field</h4>
+        <p>Defines the facing direction of Player 2. 1 means right, -1 left.</p>
+        <a id="p2startx"></a><h4>P2 Start X field</h4>
+        <p>Defines the starting position of the Player 2 in the x axis, relative to the center of the screen.</p>
+        <a id="p2starty"></a><h4>P2 Start Y field</h4>
+        <p>Defines the starting position of the Player 2 in the y axis, relative to the Ground position.</p>
+        <a id="zoomstart"></a><h4>Zoom Start field</h4>
+        <p>Defines the starting zoom level. <i>Note: M.U.G.E.N. 1.1 only.</i></p>
+        <a id="zoomin"></a><h4>Zoom In field</h4>
+        <p>Defines the maximum zoom level. <i>Note: M.U.G.E.N. 1.1 only.</i></p>
+        <a id="zoomout"></a><h4>Zoom Out field</h4>
+        <p>Defines the minimum zoom level. <i>Note: M.U.G.E.N. 1.1 only.</i></p>
+        <a id="boundleft"></a><h4>Bound Left field</h4>
+        <p>Sets the minimum allowable distance between players and the left edge of the screen. Must be positive.</p>
+        <a id="boundright"></a><h4>Bound Right field</h4>
+        <p>Sets the minimum allowable distance between players and the right edge of the screen. Must be positive.</p>
+        <a id="lcwidth"></a><h4>Local coord Width field</h4>
+        <p>Defines the width of the coordinate space of the stage. Defaults to 320. <i>Note: M.U.G.E.N. 1.x only.</i></p>
+        <a id="lcheight"></a><h4>Local coord Height field</h4>
+        <p>Defines the height of the coordinate space of the stage. Defaults to 320. <i>Note: M.U.G.E.N. 1.x only.</i></p>
+        <a id="scalex"></a><h4>Scale X field</h4>
+        <p>Defines the horizontal scale of the stage. <i>Note: M.U.G.E.N. 1.x only.</i></p>
+        <a id="scaley"></a><h4>Scale Y field</h4>
+        <p>Defines the vertical scale of the stage. <i>Note: M.U.G.E.N. 1.x only.</i></p>
+        <a id="hires"></a><h4>High resolution</h4>
+        <p>Sets the stage scale to 0.5 on both axis. <i>Note: Use scale instead on M.U.G.E.N. 1.x.</i></p>
+        <a id="autoturn"></a><h4>Auto turn</h4>
+        <p>Enable this to make characters automatically turn to face each other.</p>
+        <a id="resetbg"></a><h4>Reset BG</h4>
+        <p>Enable this to reset background elements between rounds.</p>
+        <a id="ground"></a><h4>Ground position field</h4>
+        <p>Defines the vertical distance of the ground level from the top of the screen, given in pixels.</p>
+        <a id="groundlink"></a><h4>Ground link field</h4>
+        <p>Links the Ground position value to the y-position of a background element with the specified ID number.</p>
+
+        <h2>Workspace</h2>
+        <p>The Backgrounds editor is used to manipulate the background elements of the project. The graphic workspace contains the timeline, rulers, guide lines, screen size delimiter, all background elements at same time and two crosshairs (on Stages only, to show P1/P2 starting position). Some of these can be enabled/disabled in the <a href="view">View menu</a>.</p>
+        <p>You can change the starting position of the background by dragging it to the desirable position. The guide lines can be placed in the same way. All other points will move the entire screen (or if you hold the Ctrl key).</p>
+        <p>The timeline can be used to manually set the current time and see how background elements are changing/moving based on their properties and the execution of background controllers.</p>
+        <p>In stopped state, there's a screen size delimiter and no content is clipped to the screen size, so you can freely position elements outside of the screen area. Otherwise, the screen is clipped just like in-engine for final simulation and you can move the camera limited to stage bounds. Use arrow keys to move, Hold Shift to move 2px and Alt to move 10px..</p>
+        <p>The zoom can be changed using the mouse wheel.</p>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

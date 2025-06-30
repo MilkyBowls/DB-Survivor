@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li>Change History</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Change History</h1>
+
+        <h2>Version 3.7.3</h2>
+        <ul class="single">
+          <li>Updated Qt on all platforms (including Qt4 and Qt5 variants) and removed DirectX 11 dependency on Windows;</li>
+          <li>Updated Dark and Light styles to use HiDPI images;</li>
+          <li>Added two new iconsets (Flat-Dark and Flat-Light) and a new Colorset (Monokai by Jesuszilla);</li>
+          <li>Made changes to avoid multiple consecutive error dialogs while using the "Test in engine" function;</li>
+          <li>Fixed the program crashing after closing a tab (when multiple tabs are open);</li>
+          <li>Fixed the crash happening after Applying settings and closing Options window;</li>
+          <li>Fixed a crash that may happen in rare conditions while editing sprites/sounds and auto save is running;</li>
+          <li>Fixed multiple random crashes happening while editing sprites and sounds;</li>
+          <li>Fixed a typo in the message displayed while trying to run two engine instances at same time;</li>
+          <li>Fixed a bug where after editing a sprite, navigating to another and choosing to discard the changes, the selection slider moves one more position;</li>
+          <li>Fixed the option 'Switch to the frame's sprite' resetting upon applying settings;</li>
+          <li>Fixed a crash when trying to cancel adding new sounds by closing the "Add" dialog;</li>
+          <li>Fixed icons not showing for Quick search functionality;</li>
+          <li>Fixed auto save progress notification not going away for text files;</li>
+          <li>Fixed file modification watcher not working after the file has been saved;</li>
+          <li>Fixed the file tab not updating correctly after saving the file;</li>
+          <li>Fixed a bug in the colors list in Options where using keyboard to change the selection doesn't update the color state;</li>
+          <li>Fixed a bug in quick search on non-text editors (jumping to the next element while opening or closing the search box);</li>
+          <li>Fixed a bug where replacing a sound/sprite from 'Import from another Project' doesn't count and the interface isn't updated;</li>
+          <li>Some toggle states are saved properly now (contact boxes, guides, ruler, axes);</li>
+          <li>Added support for using the Numpad Enter key for quick search;</li>
+          <li>Added the ability to move the cursor position on Sound editor to start playing from that sample;</li>
+          <li>Implemented sample range selection on Sound editor;</li>
+          <li>Implemented some basic Sound editing functions (Remove selected, Fill silence, Fade in, Fade out, Cut, Copy and Paste);</li>
+          <li>Implemented some Audio editing tools (Move selected and resize samples);</li>
+          <li>Implemented the Pause function on Sound editor.</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Fixed the crash that happens while switching from/to var list mode on States editor;</li>
+          <li>Fixed the crash happening sometimes when you type in an out of bounds var index;</li>
+          <li>Fixed a crash while opening a project that contains both mugenversion tied to Win/DOS M.U.G.E.N and localcoord;</li>
+          <li>Fixed a bug in the animation creation feature of the Throw Creator;</li>
+          <li>Added support for opening files with any extension in Commands and States editors;</li>
+          <li>Fixed the Emulator crashing if some State has more than 128 trigger lines;</li>
+          <li>Fixed a bug preventing some old SFF v1 files from opening;</li>
+          <li>Added VictoryQuote to the SCtrls template list.</li>
+        </ul>
+
+        <h2>Version 3.7.2.1</h2>
+        <ul class="single">
+          <li>Fixed the undo limit not properly applying for some files, disabling undo at all (unable to save too).</li>
+        </ul>
+
+        <h2>Version 3.7.2</h2>
+        <ul class="single">
+          <li>Fixed the bug that prevents the program from opening on some machines.</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Added trigger and sctrl documentation popup while holding Ctrl and clicking on code editors.</li>
+        </ul>
+
+        <h2>Version 3.7.1</h2>
+        <ul class="single">
+          <li>Fixed code folding indent for some file types (like M.U.G.E.N Storyboard and Animations).</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Fixed window not clipping correclty on BGs editor;</li>
+          <li>Fixed many bugs related to Storyboard and the Emulator;</li>
+          <li>Improved the engine directory detection for the Emulator;</li>
+          <li>Updated syntax database to better support Storyboard (only Backgrounds starting with "BG" are supported);</li>
+          <li>Changed BGDef selection on BGs editor to be items in the Backgrounds menu instead of tabs (virtual files);</li>
+          <li>Added support to Storyboard BGs on Backgrounds editor.</li>
+        </ul>
+
+        <h2>Version 3.7.0</h2>
+        <ul class="single">
+          <li>Texture Upload Method will reset to Delayed (some systems are having issues with Multi-threaded mode, the previous default);</li>
+          <li>Improved texture uploading (reduced memory usage for delayed mode and fixed some random crashes/freeze that may occur in multi-threaded mode);</li>
+          <li>Fixed Tab focus order;</li>
+          <li>Fixed color customization in options going empty after changing something in a fresh install;</li>
+          <li>Added two options as a workaround to the text tabulation issue on DPI settings not multiple of 100% ("Convert Tab to Spaces while opening" and "Convert Spaces to Tab while saving"), as avoiding Tab and only using Spaces fix the issue;</li>
+          <li>Added debugging support (emulator, a MUGENext internal build);</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Improved PCX and SFF decoding to better handle corrupted files (avoiding crash and freeze on some cases);</li>
+          <li>Fixed window parameter for hires stages;</li>
+          <li>Fixed Offset Viewer and Throw Creator not taking the frame's offset into account;</li>
+          <li>Added detection of WinMugen Plus select screen (may not work in all cases because sometimes is impossible to tell);</li>
+          <li>Added support for properly drawing parallax on Native painter rendering mode;</li>
+          <li>Added debugging support (external debugger grabbing data from M.U.G.E.N's process memory).</li>
+          <li>Added support for rendering in the Emulator for "Export to HTML" function (supports exporting stages too).</li>
+        </ul>
+
+        <h2>Version 3.6.3</h2>
+        <ul class="single">
+          <li>Fixed color settings not being properly updated while applying changes;</li>
+          <li>Made text editor background/foreground colors customizable;</li>
+          <li>Increased maximum zoom level for Image editor to 32.</li>
+          <li>Implemented some security measures to avoid data corruption of binary files if something goes wrong during save;</li>
+          <li>Implemented a tooltip for tabs to display the full path of the file/project.</li>
+          <li>Implemented Edit / Code / 'Auto-indent selection' and 'Auto-format selection' functions for code formatting;</li>
+          <li>Implemented Project / 'Welcome screen' to show the first screen with recent projects as a tab;</li>
+          <li>Added the complete file path to the history menu;</li>
+          <li>Added an option to edit the history (remove items) from the Welcome screen;</li>
+          <li>Added support for OGG/FLAC/MP3 (open/import) and OGG/FLAC (save/export);</li>
+          <li>Increased maximum pen size from 24 to 128 and remap slots from 12 to 32 in the Image editor;</li>
+          <li>Moved tool options in the image editor to a toolbar at the top of the canvas area (will move to the main toolbar later);</li>
+          <li>Fixed the bug that makes impossible to manually go to a frame with time = 0 in Animations editor;</li>
+          <li>Fixed current line in full text mode changing to the first frame when you go to the [Begin Action] line in Animations editor;</li>
+          <li>Fixed "Import from another Project" functions reporting twice the ammount of items imported;</li>
+          <li>Fixed "Import animations from another Project" function not properly renaming if you do so;</li>
+          <li>Added options to choose the texture upload method (Options / Graphics). This may help avoiding issues with bad OpenGL drivers.</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Fixed search & replace for CMD and AIR text mode;</li>
+          <li>Fixed .def not being saved for testing in M.U.G.E.N. if used as cns, st, ...</li>
+        </ul>
+
+        <h2>Version 3.6.2</h2>
+        <ul class="single">
+          <li>Fixed window size restoration on macOS;</li>
+          <li>Fixed some weird bugs on Animation editor after manually editing the Begin Action number in full text mode;</li>
+          <li>Fixed current line not being set to current frame while switching from graphic to text mode on Animations editor;</li>
+          <li>Fixed the autosave interval (in minutes as intended now);</li>
+          <li>Fixed some random freeze/crashes while editing text (affects any text-based editor);</li>
+          <li>Fixed some typos in the sound editor (sprite instead of sound);</li>
+          <li>Fixed delete sound group (was keeping the first of the group and removing the next from the group's last one);</li>
+          <li>Fixed the "Import" function for Sprites and Sounds freezing if there's a syntax error in the .ffe file;</li>
+          <li>Fixed program crashing if you use zoom fit on a very small sprite;</li>
+          <li>Improved support for 32-bit images.</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Fixed flip on Throw Creator not flipping axis too;</li>
+          <li>Fixed workspace not updating after changing screen resolution on Throw Creator and Offset Viewer;</li>
+          <li>Fixed P1 and P2 frames and added an option to limit bind on Throw Creator;</li>
+          <li>Fixed angle on Animations editor (now counterclockwise);</li>
+          <li>Fixed an issue where incorrect image size calculation makes M.U.G.E.N. use more memory for sprites (fixed on next time SFF is saved);</li>
+        </ul>
+
+        <h2>Version 3.6.1</h2>
+        <ul class="single">
+          <li>Fixed the file modification watcher showing twice and prompting the user at every external change, even if there's already a prompt active;</li>
+          <li>Fixed a bug where incorrect indexing causes code to me moved to the wrong animation;</li>
+          <li>Fixed the crop after option on the add sprites function;</li>
+          <li>Fixed Zoom Fit function for graphic editors;</li>
+          <li>Fixed program freezing on DirectX rendering mode (dead-locking on slower machines).</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Fixed camera movement (up/down) on BGs editor;</li>
+          <li>Fixed the sprite Export function for SprMake2;</li>
+          <li>Fixed default width/xscale values for new Parallax elements;</li>
+          <li>Fixed sprite not showing properly on BGs editor after undo/redo and BG type changes;</li>
+        </ul>
+
+        <h2>Version 3.6.0</h2>
+        <ul class="single">
+          <li>Image editor no longer asks to discard changes after saving and navigating to another sprite.</li>
+          <li>Added contiguous option to Magic Wand.</li>
+          <li>Increased maximum Zoom level.</li>
+          <li>An active search no longer moves cursor position while going to another editor.</li>
+          <li>Changed format for exporting config from options to include everything in a single file.</li>
+          <li>Welcome dialog don't show if the program finds an existing configuration.</li>
+          <li>Improved search & replace functions to use the advanced search functionality.</li>
+          <li>Added support to captures on regular expression replace mode (%1, %2, ...).</li>
+          <li>Fixed some crashes while applying settings.</li>
+          <li>Fixed selection mask not moving alongside pixels on image editor.</li>
+          <li>Fixed a bug that might cause sprites to be incorrectly linked.</li>
+          <li>Made changes on Sprite explorer(thumbnails) to be more generic, so now it's not exclusive to Animations editor.</li>
+          <li>Sprite explorer can be used on Image editor to insert sprites as individual layers.</li>
+          <li>Implemented a Play function for Image editor, so it hides all layers and then on, one at a time.</li>
+          <li>Implemented Save layers as individual sprites (the layer's name defines the sprite identifier).</li>
+          <li>Made a lot of changes on all presets and iconsets for the new features (including moving OnionSkin to Animations panel, which makes more sense).</li>
+          <li>Updated the Reference Documentation (scripting documentation is on the way).</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Fixed some crashes while editing commands.</li>
+          <li>Fixed some crashes while trying to edit a FightFX Project.</li>
+          <li>Fixed Issues showing twice for virtual files like Animations on stages and BGs (stuff from .def).</li>
+          <li>Updated syntax highlight for stages, storyboard, system.def and fight.def.</li>
+          <li><b>Implemented complete BGs support (work for Stages, Motif and Storyboard).</b></li>
+          <li>Implemented Controllers panel to edit BG controllers.</li>
+          <li>Implemented Stage panel to edit Stage specific options (affecting BG preview).</li>
+        </ul>
+
+        <h2>Version 3.5.7</h2>
+        <ul class="single">
+          <li>Fixes many crashes on DirectX rendering mode.</li>
+          <li>Fix Ultimate preset errors.</li>
+          <li>Adds a volume control in Sound editor (for playback).</li>
+          <li>Fixed an infinite loop while closing a Project (DirectX rendering mode).</li>
+          <li>Fixed random crashes caused by very small textures (like in Winane AI template).</li>
+          <li>Fixed many memory leaks.</li>
+          <li>Project loaded from script (like Winane AI template) has code navigation list enabled now.</li>
+          <li>Added "Zoom / Fit to screen" function to adjust the zoom level to best fit the contents on workspace area (a button is available on toolbars too).</li>
+          <li>Implemented zoom support for sounds editor.</li>
+          <li>Implemented a tick based timeline (60Hz) on sounds editor.</li>
+          <li>Improved waveform rendering (min/max sampling).</li>
+          <li>Added waveform color for customization in Options (if you use custom colors you may need to check this anyway).</li>
+          <li>Added an optional package that install Archive extensions (RAR/ZIP support). This will allow you to open a Project from these archives using "Project / Open from archive" function. Backups will be made in ZIP archives too instead of sub folders.</li>
+          <li>Fixed a crash when applying changes to animation code while playing at same time.</li>
+          <li>Fixed relative path handling on archives.</li>
+          <li>Fixed modification status in animation text mode window.</li>
+          <li>Fixed checkbox icon not showing on menus.</li>
+          <li>Fixed program freezing temporarily after opening/switching projects.</li>
+          <li>Saving sprite changes in image editor also adjusts axis if canvas size was increased.</li>
+          <li>Implemented Save as UTF-8 functions (This saves the current file like regular Save using UTF-8 encoding. Only use this if all characters are being displayed correctly in text editor, otherwise you must select the right encoding first, reload then save as UTF-8).</li>
+          <li>Implemented Encoding menu under Edit (This is another way of changing the encoding, instead of clicking in the status bar which is not so obvious).</li>
+          <li>Implemented find animation for OnionSkin.</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+        </ul>
+
+        <h2>Version 3.5.6</h2>
+        <ul class="single">
+          <li>Fixed many crashes while closing a project.</li>
+          <li>Fixed scripting system (so templates on Project/New menu will work again).</li>
+          <li>Made demanding tasks heavily multi-threaded, so you'll see massive performance gains on newer hardware.</li>
+          <li>Implemented asyncronous task support (async and auto save implemented).</li>
+          <li>Improved cache systems.</li>
+          <li>Improved the way files are handled (now you can open multiple files in any editor).</li>
+          <li>Fixed frame skipping while navigating between frames using the slider.</li>
+          <li>Implemented "Contiguous" option for Paint bucket on Image editor (when disabled paints all pixels with the same color).</li>
+          <li>Implemented Magic Wand tool on Image editor.</li>
+          <li>Exposed more classes to the scripting system (documentation will be updates later).</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Fixed crashes while closing/resetting .cmd file in the commands editor.</li>
+          <li>Fixed Throw Creator (code fixed by O Ilusionista).</li>
+          <li>Optimized code parsing (opening and reparse after big changes should be a lot faster now).</li>
+          <li>Improved the way it handles non-8bit images on SFF v1.</li>
+          <li>Fixed Import sprites from anorther project (second and third palette options not working as intended).</li>
+        </ul>
+
+        <h2>Version 3.5.4</h2>
+        <ul class="single">
+          <li>Zoom on code editors applied to "Edit animations too".</li>
+          <li>Export sprites/sounds crashes if used while in another editor.</li>
+          <li>String replace crashes if it changes some comments.</li>
+          <li>Random crash while editng code.</li>
+          <li>Fixed some bugs in OnionSkin.</li>
+          <li>Pasting a RGBA image on Indexed canvas tries to preserve transparency.</li>
+          <li>Added option to allow color slot redistribution on Advanced Palette Editor.</li>
+          <li>Better renderer selection (Native painting is activated if neither OpenGL 2.0 or DirectX 9 support is available).</li>
+          <li>Code list updates itself when some value changes.</li>
+          <li>Tree list state is preserved when switching between editors.</li>
+          <li>Texture cache is resetted on Native painting mode, saving lots of memory.</li>
+          <li>Fixed the zoom on animation editor after closing all tabs.</li>
+          <li>Fixed some crashes while editing animations.</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Fixed "Run in engine" when .def is used as CNS too.</li>
+          <li>Fixed the crash when switching from definitions editor right after some change was made.</li>
+          <li>Implemented the variable usage list/log.</li>
+        </ul>
+
+        <h2>Version 3.5.3</h2>
+        <ul class="single">
+          <li>Added support to OpenGL ES.</li>
+          <li>Some palette functions won't work.</li>
+          <li>Advanced search freezes on empty string.</li>
+          <li>Added support to native paint engine.</li>
+          <li>Crash when removing the line of the code selected in the left panel's list.</li>
+          <li>Cursor going to the end of the line while editing animation name.</li>
+          <li>Added support to external files by relative path on save as and run in engine functions.</li>
+          <li>Implemented an auto update function.</li>
+          <li>Crash when commenting the line of the code selected in the left panel's list.</li>
+          <li>Optimized some stuff.</li>
+          <li>Tools -> Options -> Image -> Center of zoom: unable to set value "Center of workspace".</li>
+          <li>Crash trying to open a palette or image on Advanced palettes editor while no Project is open.</li>
+          <li>Clicking a selected contact box tries to select another one underneath.</li>
+          <li>Remember what you're doing on each project tabs while switching between them.</li>
+          <li>Crash after editing an sprite using multiple layers and going to another one.</li>
+          <li>Sound cuts off on linux and macOS.</li>
+          <li>Fixed zoom on code editors.</li>
+          <li>Can't save colorset.</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>PalFX, Offset viewer and Throw creator crashes if no sprite and/or animation file is open.</li>
+          <li>Crash while choosing an animation in offset viewer or throw creator.</li>
+          <li>Improved system screen support.</li>
+          <li>CLSN default stops showing after first non-default.</li>
+          <li>Inability to add an mugen engine with a name other than "mugen.exe".</li>
+          <li>Fixed loop when duration of first or last frame is 1 tick.</li>
+          <li>"New Animation with all" in AIR editor has the add dialog pop up twice after switching back from text mode.</li>
+        </ul>
+
+        <h2>Version 3.5.2</h2>
+        <ul class="single">
+          <li>Fixed the crashe when you attempt to close a project when nothing's open (the button is usually greyed out, but becomes available if you open the options menu and hit apply).</li>
+          <li>Fixed copy and paste on sprites.</li>
+          <li>Issues list now updates itself after things get fixed.</li>
+          <li>Fixed the crash when closing a file after removing a state.</li>
+          <li>Fixed the crash while editing code snippets.</li>
+          <li>Fixed syntax error underlining comments too.</li>
+          <li>Fixed case sensivity on file extensions on Linux by an option to disable native dialogs.</li>
+          <li>Fixed panel's background color.</li>
+          <li>Fixed DPI Settings on Linux.</li>
+          <li>Fixed tabulation on code editor.</li>
+          <li>Fixed the problems with unicode file paths.</li>
+          <li>Fixed some bugs in the frame interpolation while playing animation.</li>
+          <li>Fixed file navigation when the file isn't saved.</li>
+          <li>Fixed the crash after changing shortcuts in Options window.</li>
+          <li>Fixed the case where "Run in engine" crashes if you click OK faster than it selects one item.</li>
+          <li>Improved panel size management.</li>
+          <li>Issues list moved to a better place on bottom.</li>
+          <li>Advanced search implemented on bottom.</li>
+          <li>Engine output added to bottom.</li>
+          <li>"Project -> Open single file" implemented.</li>
+          <li>Support for closing any file (closes the editor on last file).</li>
+          <li>Support for opening any number of files (all editors are tabbed).</li>
+          <li>Improved code tree management.</li>
+          <li>Welcome windows implemented to easy setup Fighter Factory on first use.</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Fixed M.U.G.E.N. setups defined in the Options menu don't appear to get written to a saved config file.</li>
+          <li>Fixed SFF handling on "non-char" projects.</li>
+          <li>SFF save function not blocking anymore.</li>
+          <li>Syntax fixed for fonts.</li>
+          <li>Added the empty template for new projects.</li>
+          <li>Implemented the Lazy syntax fix as custom search & replace.</li>
+          <li>Added support for nil expressions (-1).</li>
+        </ul>
+
+        <h2>Version 3.5.1</h2>
+        <ul class="single">
+          <li>Added Windows XP support on the x86 version.</li>
+          <li>Crash when selecting an item in the left, then switching to another editor.</li>
+          <li>Crash with backup on load activated.</li>
+          <li>Many crashes on Sprites and palettes editor (includes all sort of bugs like Import, Insert, New file, almost all functions).</li>
+          <li>Errors window not jumping to the right tab.</li>
+          <li>Crash after closing tabs and switch to Animations editor.</li>
+          <li>Window size goes outside screen boundaries in low resolution screens.</li>
+          <li>Can't save sprites on thumbnails panel.</li>
+          <li>Add sprites by file name using the same group for all images.</li>
+          <li>Added support for navigation using organizer.</li>
+          <li>Fixed a bug when black colors get painted in some part of 24bit images.</li>
+          <li>Optimized the wave rendering.</li>
+          <li>Fixed all possible cases that can lead to crash after closing tabs and switching to another editor.</li>
+          <li>Fixed the bug that files get deleted when opened from engine sub directories and tested in the same installation.</li>
+          <li>By fixing the previous bug, added support to run a project in-place.</li>
+          <li>Added more options for conflict resolution on Import from another project.</li>
+          <li>Unlocked palette organizer.</li>
+          <li>Added the 'Detect group/index from file name' option in Palettes and Sounds editors too.</li>
+          <li>When opening 24/32bit images in the Advanced palettes editor, it asks if you want an optimized palette for it.</li>
+          </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Fixed a bug when animation code gets reparsed, CLSNs before the first animation (if they exists) are set to the first frame.</li>
+          <li>Crash after closing all tabs in Cns/St editor.</li>
+          <li>Error on [State xyz]</li>
+          <li>Not loading def that has point character before extension.</li>
+          <li>Some files not being copied to ffs_x temporary folder.</li>
+        </ul>
+
+        <h2>Version 3.5.0</h2>
+        <ul class="single">
+          <li>Split on modules with support for multiple engines.</li>
+          <li>Project file explorer (will be essential for full game development).</li>
+          <li>OpenGL is mandatory, but a software rasterizer alternative is available too.</li>
+          <li>Updated to latest version of Qt framework.</li>
+          <li>Hybrid parser/syntax highlighter (smarter, faster and more reliable). </li>
+          <li>Multi-threaded (long tasks are split across all available CPU cores).</li>
+          <li>Import from another project can import from any supported engine too, and has collision resolution.</li>
+          <li>Backup function restore files by replacing them and reloading, instead of just loading the backup on memory without changes in the original files.</li>
+          <li>'Project -> Save' improved. Saves all modified files and call save as for those who lives on memory only as expected, on all projects of the same 'group'.</li>
+          <li>'Project -> Save as' improved. Saves all files of the current 'project group' to a new folder (copy them in its current state to a new folder). Eg.: open a character, make a copy of it on another folder to create a new one based on the first. We can even make a full copy of a default engine installation to make a full game.</li>
+          <li>'Project -> Run in engine' improved. All bugs solved, faster than before, and on a full game 'project group' runs on the game itself.</li>
+          <li>Undo, redo, cut, copy, paste, find and replace available in all editors. You can even undo complex things like changes on sprites.</li>
+          <li>Zoom available on code editor too.</li>
+          <li>Built-in image editor inside sprites editor.</li>
+          <li>Import replace sprites with same group/number.</li>
+          <li>Ability to resize one or more sprites outside image editor (you can scale all sprites with hit box adjustment/scaling in one batch).</li>
+          <li>Default background is set based on localcoord.</li>
+          <li>Contact Box drawing always use the same type as current ones (default or not), or non-default if there's none.</li>
+          <li>Better support for frame interpolation, including timeline controls.</li>
+          <li>Onion Skin on animations changed from sprite to animation/frame.</li>
+          <li>Complete support for high DPI displays.</li>
+          <li>Palette generation and 'Adapt image to palette' with better support for alpha channel (can produce anti-aliased 8bit sprites).</li>
+          <li>Animated GIF generation works even with non-8bit sprites (adapts to 8bit).</li>
+          <li>Better interface preset system (adjusts to available space and scales nicely).</li>
+          <li>Drag and drop support on the Organizer.</li>
+          <li>Sound file viewer on sounds editor (basic editing functionality will be added over time).</li>
+          <li>Added fold all/unfold all for code editors.</li>
+          <li>Improved 'Export to HTML function' (tries to detect AI commands to uncheck them).</li>
+        </ul>
+        <h3>M.U.G.E.N.</h3>
+        <ul class="single">
+          <li>Parser groups allowed code by file type.</li>
+          <li>Added A1 transparency shortcut in Animations editor.</li>
+          <li>Added full support for frame interpolation.</li>
+          <li>Improved offset viewer and throw creator.</li>
+          <li>Fixed PCX decoding (solves some issues on portraits in SFF v1).</li>
+        </ul>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

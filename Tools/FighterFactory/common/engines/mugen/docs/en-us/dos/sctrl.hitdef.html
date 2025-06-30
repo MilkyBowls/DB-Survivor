@@ -1,0 +1,234 @@
+<p>Defines a single hit of the player's attack. If the player's Clsn1 box (red) comes in contact with his opponent's Clsn2 box (blue), and the HitDef was define on or before that particular point in time, then the specified effect will be applied. This is one of the more complex, but most commonly-used controllers.</p>
+<p>A single HitDef is valid only for a single hit. To make a move hit severaltimes, you must trigger more than one HitDef during the attack.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>attr</b> = hit_attribute (string)<br>
+    <i>This is the attribute of the attack. It is used to determine if the attack can hit P2. It has the format: <br>
+    <b>attr</b> = arg1, arg2<br>
+    Where:<br>
+    <ul>
+    <li>arg1 is either "S", "C" or "A". Similar to "statetype" for the StateDef, this says whether the attack is a standing, crouching, or aerial attack.</li>
+    <li>arg2 is a 2-character string. The first character is either "N" for "normal", "S" for "special", or "H" for "hyper" (or "super", as it is commonly known). The second character must be either "A" for "attack" (a normal hit attack), "T" for "throw", or "P" for projectile.</li>
+  	</ul></i><br></li>
+
+  	<li><b>hitflag</b> = hit_flags (string)<br>
+    <i>This determines what type of state P2 must be in for P1 to hit. hit_flags is a string containing a combination of the following characters:<br>
+    "H" for "high", "L" for "low" or "A" for air. "M" (mid) is equivalent to saying "HL". "F" is for fall, and if included will allow P1 to juggle falling opponents in the air. "D" is for "lying Down", and if included allows P1 to hit opponents lying down on the ground.<br>
+    Two optional characters are "+" and "-". If "+" is added, then the hit only affects people in a gethit state. This may be useful for chain-moves that should not affect opponents who were not hit by the first move in the chain attack.<br>
+    If "-" is added, then the hit only affects players that are NOT in a gethit state. You should use "-" for throws and other moves you do not want P1 to be able to combo into.<br>
+    "+" and "-" are mutually exclusive, ie. cannot be used at the same time.<br>
+    If omitted, this defaults to "MAF".</i><br></li>
+
+	<li><b>guardflag</b> = hit_flags (string)<br>
+    <i>This determines how P2 may guard the attack. hit_flags is a string containing a combination of the following characters:<br>
+    "H" for "high", "L" for "low" or "A" for air. "M" (mid) is equivalent to saying "HL".</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>animtype</b> = anim_type (string)<br>
+	<i>This refers to the type of animation that P2 will go into when hit by the attack. Choose from "light", "medium", "hard" or "back". The first three should be self-explanatory. "Back" is the animation where P2 is knocked off her feet.<br>
+		The default is "Light".</i><br></li>
+
+	<li><b>air.animtype</b> = anim_type (string)<br>
+	<i>Similar to the "animtype" parameter, this is the animtype to set P2 to if P2 is in the air, instead of on the ground.<br>
+		Defaults to the same value as the "animtype" parameter if omitted.</i><br></li>
+
+	<li><b>damage</b> = hit_damage, guard_damage (int)<br>
+	<i>hit_damage is the damage that P2 takes when hit by P2. The optional guard_damage parameter is the damage taken by P2 if the hit is guarded.<br>
+	Both default to zero if omitted.</i><br></li>
+
+	<li><b>pausetime</b> = p1_pausetime, p2_shaketime (int)<br>
+	<i>This is the time that each player will pause on the hit.<br>
+	p1_pausetime is the time to freeze P1, measured in game-ticks.<br>
+	p2_pausetime is the time to make P2 shake before recoiling from the hit.<br>
+	Defaults to 0,0 if omitted.</i><br></li>
+
+	<li><b>guard.pausetime</b> = p1_pausetime, p2_shaketime (int)<br>
+	<i>Similar to the "pausetime" parameter, these are the times to pause each player if the hit was guarded.<br>
+	Defaults to the same values as the "pausetime" parameter if omitted.</i><br></li>
+
+	<li><b>sparkno</b> = 0, action_no (int)<br>
+	<i>This is the action number of the spark to display if the hit is successful. The first argument is obselete and should be set to zero.<br>
+	Defaults to the value set in the player variables if omitted.</i><br></li>
+
+	<li><b>guard.sparkno</b> = 0, action_no (int)<br>
+	<i>This is the action number of the spark to display if the hit was guarded.<br>
+	Defaults to the value set in the player variables if omitted.</i><br></li>
+
+	<li><b>sparkxy</b> = spark_x, spark_y (int)<br>
+ 	<i>This is where to make the hit/guard spark.<br>
+    spark_x is a coordinate relative to the front of P2. A negative value makes the spark deeper inside P2.<br>
+    spark_y is relative to P1. A negative value makes a spark higher up. You can use a tool like AirView to determine this value by positioning the cursor at the "attack spot" and reading off the value of the y-position.<br>
+    Defaults to 0,0 if omitted.</i><br></li>
+
+	<li><b>hitsound</b> = snd_grp, snd_item (int)<br>
+	<i>This is the sound to play on hit (from fight.snd). The included fight.snd lets you choose from 5,0 (light hit sound) through to 5,4 (painful whack). To play a sound from the player's own SND file, precede the first number with an "S". For example, "hitsound = S1,0".<br>
+    Defaults to the value set in the player variables if omitted.</i><br></li>
+
+	<li><b>guardsound</b> = snd_grp, snd_item (int)<br>
+	<i>This is the sound to play on guard (from fight.snd). Only 6,0 is available at this time. To play a sound from the player's own SND file, precede the first number with an "S". There is no facility to play a sound from the opponent's SND file.<br>
+    Defaults to the value set in the player variables if omitted.</i><br></li>
+
+	<li><b>ground.type</b> = attack_type (string)<br>
+	<i>This is the kind of attack if P2 is on the ground. Choose from "High" for attacks that make P2's head snap backwards, "Low" for attacks that look like that hit in the stomach, "Trip" for low sweep attacks, or "None" to not do anything to P2. "High" and "Low" attacks are the same on P2 if the AnimType is "Back".<br>
+    Defaults to "High" if omitted.</i><br></li>
+
+	<li><b>air.type</b> = attack_type (string)<br>
+	<i>This is the kind of attack if P2 is in the air.<br>
+	Defaults to the same value as "ground.type" if omitted.</i><br></li>
+
+	<li><b>ground.slidetime</b> = slide_time (int)<br>
+	<i>This is the time in game-ticks that P2 will slide back for after being hit (this time does not include the pausetime for P2).<br>
+    Applicable only to hits that keep P2 on the ground.<br>
+    Defaults to 0 if omitted.</i><br></li>
+
+	<li><b>guard.slidetime</b> = slide_time (int)<br>
+	<i>Same as "ground.slidetime", but this is the value if P2 guards the hit.<br>
+	Defaults to same value as "guard.hittime".</i><br></li>
+
+	<li><b>ground.hittime</b> = hit_time (int)<br>
+	<i>Time that P2 stays in the hit state after being hit. Increase this value to keep P2 in the hit state for a longer time, perhaps to make it easier to combo. Applicable only to hits that keep P2 on the ground.<br>
+    Defaults to 0 if omitted.</i><br></li>
+
+	<li><b>guard.hittime</b> = hit_time (int)<br>
+	<i>Same as "ground.hittime", but this is the value if P2 guards the hit.<br>
+    Defaults to same value as "ground.hittime".</i><br></li>
+
+	<li><b>air.hittime</b> = hit_time (int)<br>
+	<i>Time that p2 stays in the hit state after being hit in or into the air, before going into the "air recover" state. This parameter has no effect if the "fall" parameter is set to 1.<br>
+    Defaults to 20 if omitted.</i><br></li>
+
+	<li><b>guard.ctrltime</b> = ctrl_time (int)<br>
+	<i>This is the time before p2 regains control in the ground guard state.<br>
+	Defaults to the same value as "guard.slidetime" if omitted.</i><br></li>
+
+	<li><b>guard.dist</b> = x_dist (int)<br>
+	<i>This is the x-distance from P1 in which P2 will go into a guard state if P2 is holding the direction away from P1.<br>
+    Defaults to the value in the player variables if omitted. You normally do not need to use this parameter.</i><br></li>
+
+	<li><b>ground.velocity</b> = x_velocity, y_velocity (float)<br>
+	<i>Initial velocity to give P2 after being hit, if P2 is on the ground. If y_velocity is not zero, P2 will be knocked into the air.<br>
+    Both values default to 0 if omitted. You can leave out the y_velocity if you want P2 to remain on the ground.</i><br></li>
+
+	<li><b>guard.velocity</b> = x_velocity (float)<br>
+	<i>Velocity to give P2 if P2 guards the hit on the ground.<br>
+    Defaults to the x_velocity value of the "ground.velocity" parameter if omitted.</i><br></li>
+
+	<li><b>air.velocity</b> = x_velocity, y_velocity (float)<br>
+	<i>Initial velocity to give P2 if P2 is hit in the air.<br>
+    Defaults to 0,0 if omitted.</i><br></li>
+
+	<li><b>airguard.velocity</b> = x_velocity, y_velocity (float)<br>
+	<i>Velocity to give P2 if P2 guards the hit in the air.<br>
+	Defaults to x_velocity*1.5, y_velocity/2, where x_velocity and y_velocity are values of the "air.velocity" parameter.</i><br></li>
+
+	<li><b>airguard.ctrltime</b> = ctrl_time (int)<br>
+	<i>This is the time before p2 regains control in the air guard state.<br>
+    Defaults to the same value as "guard.ctrltime" if omitted.</i><br></li>
+
+	<li><b>air.juggle</b> = juggle_points (int)<br>
+	<i>The amount of additional juggle points the hit requires. Do not confuse this with the "juggle" parameter in the StateDef. You typically do not need this parameter, except for HitDefs of projectiles.<br>
+    Defaults to 0 if omitted.</i><br></li>
+
+	<li><b>mindist</b> = x_pos, y_pos (int)<br>
+	<i>Controls the minimum distance of P2 relative to P1, after P2 has been hit. This parameter is not commonly used.<br>
+    Defaults to no change in P2's position if omitted.</i><br></li>
+
+	<li><b>maxdist</b> = x_pos, y_pos (int)<br>
+	<i>Controls the maximum distance of P2 relative to P1, after P2 has been hit. This parameter is not commonly used.<br>
+    Defaults to no change in P2's position if omitted.</i><br></li>
+
+	<li><b>snap</b> = x_pos, y_pos (int)<br>
+	<i>This moves P2 to the specified position relative to P1 if hit. This controller is not normally used. If you want to snap P2 to a particular position for a throw, it is recommended you use a "TargetBind" controller in P1's throwing state instead.<br>
+    Defaults to no change in P2's position if omitted.</i><br></li>
+
+	<li><b>sprpriority</b> = drawing_priority (int)<br>
+	<i>This is the drawing priority of P1's sprite if the move hits or is guarded by P2. This controls whether or not P1 is drawn in front of or behind P2. P2's drawing priority is always set to 0. Set to -1 if you want to make P1 appear behind P2.<br>
+    The default value is 1.</i><br></li>
+
+	<li><b>p1facing</b> = facing (int)<br>
+	<i>Set to -1 to make P1 turn around if the hit is successful. Usually useful only for throws.<br>
+    The default value is no change in where P1 is facing.</i><br></li>
+
+	<li><b>p2facing</b> = facing (int)<br>
+	<i>Set to 1 to make P2 face the same direction as P1 if the hit is successful, -1 to make P2 face away.<br>
+    The default value is no change in where P2 is facing.</i><br></li>
+
+	<li><b>p1stateno</b> = state_no (int)<br>
+	<i>This is the number of the state to set P1 to if the hit is successful. Used mainly for throws.</i><br></li>
+
+	<li><b>p2stateno</b> = state_no (int)<br>
+	<i>This is the number of the state to set P2 to if the hit is successful. P2 will get P1's states and animation data. Used mainly for throws.</i><br></li>
+
+	<li><b>p2getp1state</b> = value (boolean)<br>
+	<i>Set to 0 to prevent P2 from getting P1's state and animation data, in case you do not want that default behaviour of the "p2stateno" parameter.<br>
+    Defaults to 1 if the "p2stateno" parameter is used. Ignored otherwise.</i><br></li>  
+
+	<li><b>forcestand</b> = value (boolean)<br>
+	<i>Set to 1 to force P2 to a standing state-type if the hit is successful, and P2 is in a crouching state.<br>
+    Normally defaults to 0, but if the y_velocity of the "ground.velocity" parameter is non-zero, it defaults to 1.</i><br></li>
+
+	<li><b>fall</b> = value (boolean)<br>
+	<i>Set to 1 if you want P2 to go into a "fall" state (where P2 hits the ground without recovering control in the air). Use if you want a move to "knock down" P2.</i><br></li>
+
+	<li><b>fall.xvelocity</b> = x_velocity (float)<br>
+	<i>This is the x-velocity that P2 gets when bouncing off the ground in the "fall" state.<br>
+	Defaults to no change if omitted.</i><br></li>
+
+	<li><b>fall.yvelocity</b> = y_velocity (float)<br>
+	<i>This is the y-velocity that P2 gets when bouncing off the ground in the "fall" state.<br>
+	Defaults to -4.5 if omitted.</i><br></li>
+
+	<li><b>fall.recover</b> = value (boolean)<br>
+	<i>Set to 0 if you do not want P2 to be able to recover from the "fall" state.<br>
+	Defaults to 1 if omitted (can recover).</i><br></li>
+
+	<li><b>fall.recover</b> = recover_time (int)<br>
+ 	<i>This is the time that must pass before P2 is able to recover from the "fall" state. Does not include the time that P2 is paused for while shaking from the hit.<br>
+    Defaults to 4 if omitted.</i><br></li>
+
+	<li><b>down.velocity</b> = x_velocity, y_velocity (float)<br>
+	<i>This is the velocity to assign P2 if P2 is hit while lying down. If the y_velocity is non-zero, P2 will be hit into the air. If it is zero, then P2 will slide back on the ground.<br>
+    Defaults to the same values as the "air.velocity" parameter if omitted.</i><br></li>
+
+	<li><b>down.hittime</b> = hit_time (int)<br>
+	<i>This is the time that P2 will slide back for if P2 is hit while lying down. This parameter is ignored if the y_velocity is non-zero for the "down.velocity" parameter.</i><br></li>
+
+	<li><b>down.bounce</b> = value (boolean)<br>
+	<i>Set to 1 if you want P2 to bounce off the ground one time (using the fall.xvelocity and fall.yvelocity values) after hitting the ground from the hit.<br>
+    This parameter is ignored if the y_velocity is zero for the "down.velocity" parameter.<br>
+    Defaults to 0 if omitted (P2 hits the ground and stays there).</i><br></li>
+
+	<li><b>id</b> = id_number (int)<br>
+	<i>Main use of this is for chain moves. You can use this number to later detect if a player was last hit by this particular HitDef.<br>
+    Valid values are all values >= 1.<br>
+    If omitted, defaults to 0 (no ID).</i><br></li>
+
+	<li><b>chainID</b> = id_number (int)<br>
+	<i>Main use of this is for chain moves. If P2 was last hit by a move with this ID, only then can he be hit by the HitDef with this chainID. Use in the following parts of a chain move. Note that chain moves are still possible even without the use of "id" and "chainid".<br>
+    Valid values are all values >= 1.<br>
+    If omitted, defaults to -1 (chain from any hit).</i><br></li>
+
+	<li><b>palfx.time</b> = duration (int)<br>
+	<i>If included, this allows for palette effects on P2 if the hit is successful. Time specifies the number of ticks that the palette effects should last. Specify -1 to have the palette effects last indefinitely. Specify 0 to stop any ongoing palette effects.</i><br></li>
+
+	<li><b>palfx.add</b> = add_r, add_g, add_b (int)<br></li>
+
+	<li><b>palfx.mul</b> = mul_r, mul_g, mul_b (int)<br>
+	<i>Each add component is added to the appropriate component of the player's palette, and the result is multiplied by the appropriate mul component divided by 256. For instance, if pal_r is the red component of the character's original palette, then the new red component is (pal_r + add_r)*mul_r/256. The values for mul must be >= 0.<br>
+    The defaults for these parameters are for no change:<br>
+    <b>add</b> = 0,0,0<br>
+    <b>mul</b> = 256,256,256</i><br></li>
+
+	<li><b>palfx.sinadd</b> = ampl_r, ampl_g, ampl_b, period (int)<br>
+	<i>Creates an additional sine-wave palette addition effect. Period specifies the period of the sine wave in game ticks, and the amplitude parameters control the amplitude of the sine wave for the respective components. For instance, if t represents the number of ticks elapsed since the activation of the PalFX controller, and pal_r is the red component of the character's original palette, then the red component of the character's palette at time t is (pal_r + add_r + ampl_r*sin(2*pi*t/period))*mul_r/256.<br></li>
+
+	<li><b>palfx.invertall</b> = bvalue (bool)<br>
+	<i>If bvalue is non-zero, then the colors in the palette will be inverted, creating a "film negative" effect. Color inversion is applied before effects of add and mul. bvalue defaults to 0.<br></li>
+
+	<li><b>palfx.color</b> = value (int)<br>
+	<i>This affects the color level of the palette. If value is 0, the palette will be greyscale. If value is 256, there is no change in palette. Values in between will have an intermediate effect. This parameter's effects are applied before invertall, add and mul. Values must be in range 0 to 256.<br>
+    Default value is 256.</li>
+</ul>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

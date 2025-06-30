@@ -1,0 +1,14 @@
+<p>Gets the value of the camera's position relative to the stage.</p>
+<p><b>Format:</b> CameraPos <i>[component]</i></p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[component]:</b> X, Y</li>
+</ul>
+<p><b>Return type:</b> float</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>The home position of the camera is 0, 0. The value of "CameraPos X" increases as the camera moves to the right. The value of "CameraPos Y" decreases as the camera moves upwards.</p>
+<p>The units of the position returned is in the coordspace of the player.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>CameraPos X</b> &gt;= 0<br>
+<i>; True when the camera is to the left of the center of the stage.</i></code></p>

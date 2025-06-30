@@ -1,0 +1,17 @@
+<p>Turns the whole screen a solid color, excepting foreground-layer animations like hit sparks and "ontop" explods. Foreground layers of the stage will not be visible.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>value</b> = col_r,col_g, col_b (int)<br>
+	<i>Specifies the R, G, and B components of the color to set the screen to. Each component should be an integer between 0 and 255. The larger a component, the more of that color will appear in the environment color. The default is 255,255,255 (pure white).</i><br></li>
+	<li><b>time</b> = effective_time (int)<br>
+	<i>Specifies how many ticks the environment color should be displayed. Defaults to 1 tick. Set to -1 to have the EnvColor persist indefinitely.</i><br></li>
+	<li><b>under</b> = under_flag (boolean)<br>
+	<i>Set under_flag to 1 to have the environment color drawn under characters and projectiles. In other words, characters and projectiles will be visible on top of the colored backdrop.<br>
+    Defaults to 0.</i></li>
+</ul>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

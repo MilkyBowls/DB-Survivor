@@ -1,0 +1,45 @@
+<p>Enables player afterimage effects. The character's frames are stored in a history buffer, and are displayed after a delay as afterimages.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>time</b> = duration (int)<br>
+	<i>Specifies the number of ticks that the afterimages should be displayed for. Defaults to 1.</i><br></li>
+
+	<li><b>length</b> = no_of_frames (int)</b><br>
+	<i>Sets the capacity of the frame history buffer. The history will hold up to no_of_frames of the character's most recently saved frames. Assuming constant values for timegap and framegap, increasing the length can increase the number and "age" (for lack of a better term) of afterimages displayed at one time. The maximum length is 60, and the default is 20.</i><br></li>
+
+	<li><b>palcolor</b> = col (int)</b></li>
+	<li><b>palinvertall</b> = invertall (bool)</b></li>
+	<li><b>palbright</b> = add_r, add_g, add_b (int)</b></li>
+	<li><b>palcontrast</b> = mul_r, mul_g, mul_b (int)</b></li>
+	<li><b>palpostbright</b> = add2_r, add2_g, add2_b (int)</b><br>
+	<i>These parameters determine palette effects to be applied to all afterimages. First the color level is adjusted according to the palcolor value, then if invertall is non-zero the colors are inverted. Afterwards, the palbright components are added to the corresponding component of the player's palette, then each component is multiplied by the corresponding palcontrast component divided by 256, then the palpostbright components are added to the result. The value of palcolor ranges from 0 (greyscale) to 256 (normal color). For instance, if the red component of the character's palette is denoted pal_r, then the red component of the afterimage palette is given by (pal_r+add_r)*mul_r/256 + add2_r, assuming palcolor and palinvert are left at their default values.<br>
+	Valid values are 0-256 for palcolor, 0-255 for palbright and palpostbright components, and any non-negative integer for palcontrast  components.<br>
+	The defaults are:<br>
+	<b>palcolor</b> = 256<br>
+	<b>palinvertall</b> = 0<br>
+	<b>palbright</b> = 30,30,30<br>
+	<b>palcontrast</b> = 120,120,220<br>
+	<b>palpostbright</b> = 0,0,0</i><br></li>
+
+	<li><b>paladd</b> = add_r, add_g, add_b (int)</b></li>
+	<li><b>palmul</b> = mul_r, mul_g, mul_b (float)</b><br>
+	<i>These parameters specify palette effects that are applied repeatedly to successive frames in the afterimage. In one application of these palette effects, first the paladd components are added to the afterimage palette, then the components are multiplied by the palmul multipliers. These effects are applied zero times to the most recent afterimage frame, once to the  second-newest afterimage frame, twice in succession to the third-newest afterimage frame, etc.<br>
+	Valid values are 0-255 for the paladd components, and any non-negative float value for the palmul multipliers. The defaults are:<br>
+	<b>paladd</b> = 10,10,25<br>
+	<b>palmul</b> = .65,.65,.75</i><br></li>
+
+	<li><b>timegap</b> = value (int)</b><br>
+	<i>This parameter controls how many frames to skip between saving player frames to the history buffer for afterimage display. The default is 1 (skip no frames). To save every third frame (for example), you would use timegap = 3.</i><br></li>
+
+	<li><b>framegap</b> = value (int)</b><br>
+	<i>Every value'th frame in the history buffer will be displayed as an afterimage. For instance, if framegap = 4 (the default), then the first, fifth, ninth, ... frames of the history buffer will be displayed as afterimages.</i><br></li>
+	
+	<li><b>trans</b> = type (string)</b><br>
+	<i>Specifies the transparency type for the afterimages. Valid types are "none" for an opaque afterimage, "add", "add1", and "sub".</i></li>
+</ul>
+<p><b>Example:</b></p>
+<code>none</code>

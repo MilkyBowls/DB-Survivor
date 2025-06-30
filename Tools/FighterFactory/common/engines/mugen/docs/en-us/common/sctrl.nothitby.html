@@ -1,0 +1,24 @@
+<p>Temporarily specifies types of hits that should not be allowed to hit the player.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>value</b> = attr_string OR <b>value2</b> = attr_string<br>
+	<i>Only one of the above parameters can be specified. attr_string should be a standard hit attribute string.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>time</b> = effective_time (int)<br>
+	<i>Specifies the number of game ticks that these NotHitBy attributes should be effective for. Defaults to 1.</i></li>
+</ul>
+<p><b>Details:</b></p>
+<p>The player has two hit attribute slots, which can be set using the "value" or "value2" parameters to the NotHitBy controller. These slots can also be set by the HitBy controller. When a slot is set, it gets a timer (the effective time) which counts down toward zero.</p>
+<p>If the timer has not yet reached zero, the slot is considered to be active. The player can be hit by a HitDef only if that HitDef's attribute appears in all currently active slots.</p>
+<p>Using the NotHitBy controller sets the specified slot to contain all hit attributes except those specified in the NotHitBy attribute string.</p>
+<p><b>Example:</b></p>
+<p><code><i>; Not hit by anything</i><br>
+<b>trigger1</b> = 1<br>
+<b>type</b> = NotHitBy<br>
+<b>value</b> = SCA</code></p>
+<p><code><i>; Not hit by normal attacks, and all projectiles</i><br>
+<b>trigger1</b> = 1<br>
+<b>type</b> = NotHitBy<br>
+<b>value</b> = , NA, AP</code></p>

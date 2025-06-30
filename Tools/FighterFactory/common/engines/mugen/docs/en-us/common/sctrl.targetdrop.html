@@ -1,0 +1,14 @@
+<p>Drops all targets from the player's target list, except possibly for those having a specified target ID number. Useful for applying effects to only certain targets.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>excludeID</b> = id_no (int)<br>
+	<i>Any targets with target ID number not equal to id_no will be dropped from the player's target list. Defaults to -1 (drop all targets).</i><br></li>
+	<li><b>keepone</b> = keep_flag (boolean)<br>
+	<i>If keep_flag is non-zero, then at most one target is kept on the player's target list. If there are multiple targets whose target ID number is the same as id_no, one will be picked at random and the rest will be dropped. This behavior is useful in throws, to keep from throwing multiple opponents simultaneously. If keep_flag is 0, then all targets with the appropriate ID number will be kept. keep_flag defaults to 1.</i></li>
+</ul>
+<p><b>Examples:</b></p>
+<p><code></code></p>

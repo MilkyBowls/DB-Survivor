@@ -1,0 +1,15 @@
+<p>This trigger is valid only when the player is in an attack state. MoveReversed gives a non-zero value if P1's attack has been reversed by P2. It gives 0 otherwise.</p>
+<p><b>Format:</b> MoveReversed</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li>none</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>On attack contact, MoveReversed returns 1. After contact, MoveReversed's return value will increase by 1 for each game tick that P1 is not paused (P1 gets paused on contact; see pausetime parameter in HitDef controller).</p>
+<p>Note 1: the values of MoveContact, MoveGuarded, MoveHit and MoveReversed are set simultaneously. For example, if one HitDef in a move hits successfully, MoveHit will return non-zero. If a following HitDef in the same move is reversed, MoveReversed will return non-zero, and the other three triggers will return 0.</p>
+<p>Note 2: the values of the four Move* triggers reset to 0 and stop incrementing after a state transition. See "movehitpersist" parameter for StateDefs (CNS docs) for how to override this behavior.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>MoveReversed</b><br>
+<i>; True if P1's attack was reversed by P2.</i></code></p>

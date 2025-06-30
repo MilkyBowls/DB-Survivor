@@ -1,0 +1,13 @@
+<p>Returns the number of rounds the player has existed for. On the first round, returns 0. This is useful for a Turns mode intro.</p>
+<p><b>Format:</b> RoundsExisted</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li>none</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>RoundsExisted</b> = 0<br>
+<b>trigger1</b> = <b>TeamMode</b> = Turns<br>
+<b>trigger1</b> = <b>RoundNo</b> > 0<br>
+<i>; Triggers if the player has just entered a Turns mode team match after the first round. You can use this example with a ChangeState controller to switch to an intro state by overriding the Initialize state (state 5900).</i></code></p>

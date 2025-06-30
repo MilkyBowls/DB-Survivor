@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li>Scripting system</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Scripting system</h1>
+        <p>The Scripting system allows the user to perform very specific and advanced tasks that the program doesn't provide by default.</p>
+        <p>All project functions and some interface widgets are scriptable using Lua 5.1. See <a href="scriptclass.html">Classes and functions</a> for more details.</p>
+        <p>The system contains 4 types of scripts:</p>        
+                                                  
+        <a id="common"></a><h2>Common</h2>
+        <p>Stored in the common folder, is used to provide helper functions to other scripts.</p>
+        
+        <a id="proj"></a><h2>Project template</h2>
+        <p>Stored in the projects folder, this type of script is used to initialize a new project (Project -> New).</p>
+        <p>You must call any of the Project creation funcions:</p>
+        <p><b>FF.emptyProject(engineName, projectType)</b><br/>
+        <p><b>FF.projectFromFile(fileName, asCopy)</b><br/>
+        <p>This is the simpliest template that leaves the new project empty. The return value determines if the new project will be accepted as is or discarded.</p>
+        <p>The return value must be a <a href="scriptclass.html#proj">Project class</a>.</p>
+        
+        <a id="snippet"></a><h2>Code snippet</h2>
+        
+        <a id="tool"></a><h2>Tool</h2>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<p>TeamMode gives the current mode of play for the player's team.</p>
+<p><b>Format:</b> TeamMode <i>[oper]</i> mode</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[oper] <i>(boolean)</i>:</b> =, != (other operators not valid)</li>
+<li><b>mode <i>(string)</i>:</b>
+<ul>
+<li>single - single player</li>
+<li>simul  - 2 players simultaneously</li>
+<li>turns  - turns battle</li>
+</ul></li>
+</ul>
+<p><b>Return type:</b> boolean (1 if true or 0 if false)</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Notes:</b></p>
+<p>In survival mode, TeamMode = turns on the enemy side.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>TeamMode</b> = Single<br>
+<i>; Triggers if the player is playing in single play.</i></code></p>

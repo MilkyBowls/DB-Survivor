@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mugen version="WinBeta">
+    <address name="game_base" value="4938572" absolute="true"/>
+    <address name="debug_target" value="50456"/>
+    <address name="debug_mode" value="50464"/>
+    <address name="cmd_buffer" value="4937032" absolute="true"/>
+    <address name="cmd_current" value="4938056" absolute="true"/>
+    <address name="cmd_last" value="4938060" absolute="true"/>
+    <address name="pause" value="4942465" absolute="true"/>
+    <address name="screen_x" value="46120"/>
+    <address name="screen_y" value="46132"/>
+    <address name="players" value="46932"/>
+    <address name="player_active" value="344"/>
+    <address name="player_id" value="4"/>
+    <address name="player_helper_id" value="9752"/>
+    <address name="player_team" value="12"/>
+    <address name="player_parent" value="9756"/>
+    <address name="player_root" value="9764"/>
+    <address name="player_name" value="32"/>
+    <address name="player_alive" value="3620"/>
+    <address name="player_visible" value=""/>
+    <address name="player_unhitable_time" value="4088"/>
+    <address name="player_life" value="352"/>
+    <address name="player_power" value="376"/>
+    <address name="player_power_level" value="388"/>
+    <address name="player_facing" value="400"/>
+    <address name="player_spr_priority" value=""/>
+    <address name="player_damage" value="4136"/>
+    <address name="player_fall_damage" value="4212"/>
+    <address name="player_palette_no" value="5060"/>
+    <address name="player_pos_x" value="412"/>
+    <address name="player_pos_y" value="416"/>
+    <address name="player_pos_freeze" value="3616"/>
+    <address name="player_vel_x" value="436"/>
+    <address name="player_vel_y" value="440"/>
+    <address name="player_state_redit_to" value="3036"/>
+    <address name="player_state_no" value="3060"/>
+    <address name="player_prev_state_no" value="3064"/>
+    <address name="player_state_type" value="3584"/>
+    <address name="player_move_type" value="3588"/>
+    <address name="player_physics" value="3592"/>
+    <address name="player_state_time" value="3580"/>
+    <address name="player_ctrl" value="3596"/>
+    <address name="player_guard" value="3600"/>
+    <address name="player_hit_pause_time" value=""/>
+    <address name="player_pause_move_time" value=""/>
+    <address name="player_spause_move_time" value=""/>
+    <address name="player_attack_mul" value="392"/>
+    <address name="player_defence_mul" value="396"/>
+    <address name="player_constrain" value=""/>
+    <address name="player_camera_follows_x" value=""/>
+    <address name="player_camera_follows_y" value=""/>
+    <address name="player_push_checking" value=""/>
+    <address name="player_edge_front" value=""/>
+    <address name="player_edge_back" value=""/>
+    <address name="player_player_front" value=""/>
+    <address name="player_player_back" value=""/>
+    <address name="player_move_hit" value="3632"/>
+    <address name="player_enemy_hit" value="3636"/>
+    <address name="player_hit_attr1" value=""/>
+    <address name="player_hit_attr2" value=""/>
+    <address name="player_var" value="3648"/>
+    <address name="player_fvar" value="3888"/>
+    <address name="player_isys_var" value="4048"/>
+    <address name="player_sys_fvar" value="4068"/>
+</mugen>

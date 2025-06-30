@@ -1,0 +1,111 @@
+<p>The Explod controller is a flexible tool for displaying animations such as sparks. Its functionality includes that of GameMakeAnim, which is now deprecated.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>anim</b> = [F]anim_no (int)<br>
+	<i>anim_no specifies the number of the animation to play back. The 'F' prefix is optional: if included, then the animation is played back from fight.def.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>ID</b> = id_no (int)<br>
+	<i>id_no specifies an ID number for this explod. Used to identify particular explods in triggers and controllers that affect explods.</i><br></li>
+
+	<li><b>space</b> = space (string)<br>
+	<i>Specifies the coordinate space in which the explod is to be created. Valid values for space are:<br>
+	<ul>
+		<li><b>screen</b> - This coordinate space maps to the screen. The upper-left corner is 0,0 and the lower-right corner is ScreenWidth,ScreenHeight (refer to the triggers with these names). Explods created in screen space are not affected by camera movement or zoom.</li>
+		<li><b>stage</b> - This coordinate space maps to the stage space in which players reside. 0,0 is the center of the stage at ground level. Explods created in screen space are affected by camera movement and zoom. This is the default.</li>
+	</ul></i><br></li>
+
+	<li><b>pos</b> = x_pos, y_pos (int)<br>
+	<i>If the explod is not bound, off_x and off_y specify the position at which to create the explod. If the explod is bound, off_x and off_y specify the offset from the object to which the explod is bound to.</i><br></li>
+
+	<li><b>postype</b> = string (string)<br>
+	<i><u>Deprecated -- use space, pos and facing parameter instead</u><br>
+	string specifies the postype -- how to interpret the pos parameters. In all cases, a positive y offset means a downward displacement. Valid values for postype are the following:<br>
+	<ul>
+		<li><b>p1</b> - Interprets pos relative to p1's axis. A positive x offset is toward the front of p1. This is the default value for postype.</li>
+		<li><b>p2</b> - Interprets pos relative to p2's axis. A positive x offset is toward the front of p2.</li>
+		<li><b>front</b> - Interprets xpos relative to the edge of the screen that p1 is facing toward, and ypos relative to the top of the screen. A positive x offset is away from the center of the screen, whereas a negative x offset is toward the center.</li>
+		<li><b>back</b> - Interprets xpos relative to the edge of the screen that p1 is facing away from, and ypos relative to the top of the screen. A positive x offset is toward the center of the screen, whereas a negative x offset is away from the center.</li>
+		<li><b>left</b> - Interprets xpos and ypos relative to the upper-left corner of the screen. A positive x offset is toward the right of the screen.</li>
+		<li><b>right</b> - Interprets xpos and ypos relative to the upper-right corner of the screen. A positive x offset is toward the left of the screen.</li>
+		<li><b>none</b> - Interprets off_x and off_y as an absolute position. This is the default value for postype for characters with a mugenversion of 1.1 or higher.</li>
+	</ul></i><br></li>
+
+	<li><b>facing</b> = facing (int)<br>
+	<i>Set facing to 1 to have the explod face in the same direction as the positive off_x, and -1 to have the explod face in the opposite direction. Defaults to 1.</i><br></li>
+
+	<li><b>vfacing</b> = facing (int)<br>
+	<i>Set vfacing to -1 to have the explod display vertically flipped, or 1 to have the explod display vertically unflipped. Defaults to 1.</i><br></li>
+
+	<li><b>bindID</b> = bind_id (int)<br>
+	<i>ID number of a player or helper to bind to. The position of a bound explod is relative to the object that it is bound to. Special values are -1 (bind to any single player) and -2 (do not bind). Defaults to -2. The bindtime parameter is required if bindID is not -2. Screen space explods cannot be bound.</i><br></li>
+
+	<li><b>bindtime</b> = bind_time (int)<br>
+	<i>Specifies the number of game ticks to keep the explod bound. After the bindtime has expired, the explod will be explod will no longer be bound to the bind point, and will maintain its position (unless affected by the vel or accel parameters). If bind_time is -1, then the explod will be bound until the explod is removed or another controller affects the bindtime.</i><br></li>
+
+	<li><b>vel</b> = x_vel, y_vel (float)<br>
+	<i>Specifies initial X and Y velocity components for the explod. These are interpreted relative to the explod's "facing" direction. These default to 0 if omitted.</i><br></li>
+
+	<li><b>accel</b> = x_accel, y_accel (float)<br>
+	<i>Specifies X and Y acceleration components for the explod. These default to 0.</i><br></li>
+
+	<li><b>random</b> = rand_x, rand_y (int)<br>
+	<i><u>Deprecated</u><br>
+	Causes the explod's bind point to be displaced by a random amount  when created. rand_x specifies the displacement range in the x direction, and rand_y specifies the displacement range in the y direction. For instance, if pos = 0,0 and random = 40,80, then the explod's x location will be a random number between -20 and 19, and its y location will be a random number between -40 and 39. Both arg1 and arg2 default to 0 if omitted.</i><br></li>
+
+	<li><b>removetime</b> = rem_time (int)<br>
+	<i>If rem_time is positive, the explod will be removed after having been displayed for that number of game ticks. If rem_time is -1, the explod will be displayed indefinitely. If rem_time is -2, the explod will be removed when its animtime reaches 0. The default value is -2.</i><br></li>
+
+	<li><b>supermove</b> = bvalue (boolean)<br>
+	<i><u>Deprecated -- use supermovetime parameter instead</u><br>
+	Set supermove = 1 to have the explod persist until the end of a super pause, regardless of the value of removetime. Defaults to 0.</i><br></li>
+
+	<li><b>supermovetime</b> = move_time (int)<br>
+	<i>Specifies the number of ticks that the explod will be unfrozen during a SuperPause. Used where you want the explod to be animated during a SuperPause, such as for custom super sparks. Defaults to 0.</i><br></li>
+
+	<li><b>pausemovetime</b> = move_time (int)<br>
+	<i>Specifies the number of ticks that the explod should be unfrozen during a Pause. Defaults to 0.</i><br></li>
+
+	<li><b>scale</b> = x_scale [,y_scale] (float)<br>
+	<i>x_scale and y_scale specify the scaling factors to apply to the explod in the horizontal and vertical directions. Both default to 1 (no scaling) if omitted.</i><br></li>
+
+	<li><b>angle</b> = angle (float)<br>
+	<i>angle specifies the explod's drawing angle in degrees. Defaults to 0.</i><br></li>
+
+	<li><b>yangle</b> = y_angle (float)<br>
+	<i>y_angle specifies the explod's drawing angle around the y-axis in degrees. Defaults to 0.</i><br></li>
+
+	<li><b>xangle</b> = x_angle (float)<br>
+	<i>x_angle specifies the explod's drawing angle around the x-axis in degrees. Defaults to 0.</i><br></li>
+
+	<li><b>sprpriority</b> = pr (int)<br>
+	<i>pr specifies the drawing priority for the explod. Animations with higher priority get drawn over animations with lesser priority. For instances, setting sprpriority = -3 will cause the explod to be drawn under most characters and other explods, which usually have sprpriority >= -2. Defaults to 0 if omitted.</i><br></li>
+
+	<li><b>ontop</b> = bvalue (boolean)<br>
+	<i>Set ontop = 1 to have the explod drawn over all other sprites and background layers. This parameter has precedence over sprpriority. Defaults to 0.</i><br></li>
+
+	<li><b>shadow</b> = shad_r, shad_g,shad_b (int)<br>
+	<i>If shadow is not 0, a shadow will be drawn for the explod, else no shadow will be drawn. Defaults to 0.</i><br></li>
+
+	<li><b>ownpal</b> = bvalue (boolean)<br>
+	<i>If ownpal_flag is 0, the explod color will be affected by subsequent execution of the player's PalFX and RemapPal controllers. This is normally the default.<br>
+	If ownpal_flag is 1, the explod color will not be affected by subsequent execution of the player's PalFX and RemapPal controllers. This is the default if the anim is from fightfx.air.</i><br></li>
+
+	<li><b>remappal</b> = dst_pal_grp, dst_pal_item (int, int)<br>
+	<i>Forces a palette remap of the explod's indexed-color sprites to the specified palette. This parameter is used only if ownpal_flag is non-zero and a fight.def anim is not used. If dst_pal_grp is -1, this parameter will be ignored. Defaults to -1, 0.</i><br></li>
+
+	<li><b>removeongethit</b> = bvalue (boolean)<br>
+	<i>Setting this to 1 will cause the explod removed if the player gets hit. Defaults to 0.</i><br></li>
+
+	<li><b>ignorehitpause</b> = bvalue (boolean)<br>
+	<i>If this is 1, the explod will be animated independently of the player that created it. If set to 0, it will not be updated when the player is in hitpause. Defaults to 1.</i><br></li>
+
+	<li><b>trans</b> = trans_type (string)<br>
+	<i>Overrides the explod's animation transparency settings. See the Trans controller for details. An "alpha" parameter may be specified if trans_type is an additive type. If omitted, does nothing.</i></li>
+</ul>
+<p><b>Notes:</b></p>
+<p>The position of an explod that is bound to a player is determined only after all player updates have completed (compared to helpers, which are created relative to the player's immediate position when the controller was executed). This behavior is necessary to make explods bind properly to the player's screen position.</p>
+<p>For example, assume the player has an x velocity of 5 and a position of (160,0). If an explod is created with an offset of 0,0 relative to p1, then the explod's actual screen position will be 165,0.</p>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

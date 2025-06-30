@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li>Installation</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Installation</h1>
+        <p>On all supported platforms, Fighter Factory Studio comes as an installer package. Just double-click it and follow the steps to install in on your machine.</p>
+        <p>On Linux, you must install Wine (if the engine doesn't have a native build) and openGL drivers.</p>
+        <p>On Windows, the current minimum supported version is Windows XP SP3 (x86 only), Windows Vista SP2 / Windows 7 SP1 (x86 and x64). You must install Microsoft Visual C++ 2017 Redistributable before using it (comes with the installer) and DirectX SDK. <a href="https://aka.ms/vs/15/release/VC_redist.x64.exe">Download x64 version.</a>. <a href="https://aka.ms/vs/15/release/VC_redist.x86.exe">Download x86 version.</a>.</p>
+        <p>On macOS, you will need to install Wine if the engine doesn't have a native build.</p>
+        <h2>File structure (may vary based on OS requirements)</h2>
+        <ul class="double">
+          <li><b>audio</b> Qt audio plugins.</li>
+          <li><b>colorsets:</b> Contains all available sets of colors to be used in the Fighter Factory interface.</li>
+          <li><b>docs:</b> Contains de Reference Documentation.</li>
+          <li><b>engines:</b> Contains modules and all required files for any supported engine.</li>
+          <li><b>extensions:</b> Contains optional extensions.</li>
+          <li><b>iconsets:</b> Contains all available sets of icons to be used in the Fighter Factory interface.</li>
+          <li><b>languages:</b> Contains all available languages.</li>
+          <li><b>platforms:</b> Contains Qt platform abstraction plugin.</li> 
+          <li><b>presets:</b> Contains all interface presets.</li> 
+          <li><b>scripts:</b> Contains all Lua scripts.</li>
+          <li><b>styles:</b> Contains all available interface style sheets.</li>
+          <li><b>ffs.exe:</b> The program executable.</li>
+          <li><b>config.xml:</b> The configuration database file.</li>
+          <li><b>history.xml:</b> The file history database file.</li>
+          <li><b>shortcuts.xml:</b> The shortcuts database file.</li>
+          <li><b>ff(x).dll / libff(x).so / libff(x).dylib</b> Fighter Factory common classes, editors and workspaces.</li>
+          <li><b>Lua53(x).dll / libLua53(x).so / libLua53(x).dylib</b> Lua library.</li>
+          <li><b>Qt libraries.</b></li>
+        </ul>
+        <h2>Engine file structure (required)</h2>
+        <ul class="double">
+          <li><b>iconsets:</b> Contains all available sets of icons to be used in the Fighter Factory interface.</li>
+          <li><b>layouts:</b> Contains all templates for the 'Export to HTML' function (M.U.G.E.N. only).</li>
+          <li><b>presets:</b> Contains all interface presets.</li> 
+          <li><b>scripts:</b> Contains all Lua scripts.</li>
+          <li><b>snippets:</b> Contains all available code snippets.</li>
+          <li><b>completer.xml:</b> The auto-completer database file.</li>
+          <li><b>config.xml:</b> The configuration database file.</li>
+          <li><b>icon.png:</b> Default engine icon.</li>
+        </ul>
+        <p>Folder structure may be split on more than one location in the file system on installation (so theme folders are moved to a shared location for easy use without administrator privileges).</p>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

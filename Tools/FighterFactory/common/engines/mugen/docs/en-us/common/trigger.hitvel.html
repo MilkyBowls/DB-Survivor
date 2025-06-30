@@ -1,0 +1,13 @@
+<p>Gets the value of the velocity imparted to the player by a hit. You must specify the component that you want to check, eg. "HitVel Y" to check the vertical velocity component.</p>
+<p><b>Format:</b> HitVel <i>[component]</i></p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[component]:</b> X, Y</li>
+</ul>
+<p><b>Return type:</b> float</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>A positive HitVel Y means that the player is moving upward on the screen. A positive HitVel X means that the player is moving backward. Note that the HitVel X trigger behaves in the opposite manner to the Vel X trigger.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>HitVel X</b> &gt; 0.5<br>
+<i>; True when the player's gethit x-velocity is greater than 0.5 pixels per tick.</i></code></p>

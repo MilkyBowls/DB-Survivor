@@ -1,0 +1,30 @@
+<p>Applies temporary effects to the player's palette. These will also affect the palette of any explods and helpers the player has, unless they have specified ownpal = 1.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>time</b> = duration (int)<br>
+	<i>Specifies the number of ticks that the palette effects should last. Specify -1 to have the palette effects last indefinitely. Specify 0 to stop any ongoing palette effects.</i><br></li>
+
+	<li><b>add</b> = add_r, add_g, add_b (int)<br></li>
+
+	<li><b>mul</b> = mul_r, mul_g, mul_b (int)<br>
+	<i>Each add component is added to the appropriate component of the player's palette, and the result is multiplied by the appropriate mul component divided by 256. For instance, if pal_r is the red component of the character's original palette, then the new red component is (pal_r + add_r)*mul_r/256. The values for mul must be >= 0.<br>
+    The defaults for these parameters are for no change:<br>
+    <b>add</b> = 0,0,0<br>
+    <b>mul</b> = 256,256,256</i><br></li>
+
+	<li><b>sinadd</b> = ampl_r, ampl_g, ampl_b, period (int)<br>
+	<i>Creates an additional sine-wave palette addition effect. Period specifies the period of the sine wave in game ticks, and the amplitude parameters control the amplitude of the sine wave for the respective components. For instance, if t represents the number of ticks elapsed since the activation of the PalFX controller, and pal_r is the red component of the character's original palette, then the red component of the character's palette at time t is (pal_r + add_r + ampl_r*sin(2*pi*t/period))*mul_r/256.</i><br></li>
+
+	<li><b>invertall</b> = bvalue (bool)<br>
+	<i>If bvalue is non-zero, then the colors in the palette will be inverted, creating a "film negative" effect. Color inversion is applied before effects of add and mul. bvalue defaults to 0.</i><br></li>
+
+	<li><b>color</b> = value (int)<br>
+	<i>This affects the color level of the palette. If value is 0, the palette will be greyscale. If value is 256, there is no change in palette. Values in between will have an intermediate effect. This parameter's effects are applied before invertall, add and mul. Values must be in range 0 to 256.<br>
+    Default value is 256.</i></li>
+</ul>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

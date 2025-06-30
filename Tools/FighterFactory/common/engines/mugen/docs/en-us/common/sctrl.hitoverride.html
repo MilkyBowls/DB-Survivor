@@ -1,0 +1,19 @@
+<p>Defines a hit override. If the player is hit by an attack of the specified type, he will go to the specified state number instead of his default gethit behavior. Up to 8 hit overrides can be active at one time.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><br>attr</b> = attr_string (string)<br>
+	<i>Standard hit attribute string specifying what types of hits to override. See HitDef's description for the "attr" parameter.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><br>slot</b> = slot_no (int)<br>
+	<i>Specifies a slot number (0 to 7) to place this hit override in. Defaults to 0 if omitted.</i><br></li>
+	<li><br>stateno</b> = value (int)<br>
+	<i>Specifies which state to go into if hit by a HitDef with the specified attributes. Defaults to -1 (no change) if omitted.</i><br></li>
+	<li><br>time</b> = effective_time (int)<br>
+	<i>Specifies how long this hit override should be active. Defaults to 1 (one tick). Set this to -1 to have this override last until overwritten by another one.</i><br></li>
+	<li><br>forceair</b> = value (boolean)<br>
+	<i>If set to 1, the player's gethit variables will be set as if he was in an aerial state when hit. Useful if you want to force the player to fall down from any hit. Defaults to 0 if omitted.</i></li>
+</ul>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

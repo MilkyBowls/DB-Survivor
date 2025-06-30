@@ -1,0 +1,18 @@
+<p>Changes the state number of the player.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>value</b> = state_no (int)<br>
+	<i>state_no is the number of the state to change to.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>ctrl</b> = ctrl_flag (boolean)<br>
+	<i>ctrl_flag is the value to set the player's control flag to. Valid values are 0 and 1.</i><br></li>
+	<li><b>anim</b> = anim_no (int)</b><br>
+	<i>anim_no is the action number to switch to.</i></li>
+</ul>
+<p><b>Example:</b></p>
+<p><code><i>; Change to standing state, and give player control</i><br>
+<b>type</b> = <b>ChangeState</b><br>
+<b>value</b> = 0<br>
+<b>ctrl</b> = 1</code></p>

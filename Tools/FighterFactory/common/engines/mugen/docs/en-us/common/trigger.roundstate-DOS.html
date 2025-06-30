@@ -1,0 +1,20 @@
+<p>Returns the current round state number.</p>
+<p><b>Format:</b> RoundState</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li>none</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>Return values:</p>
+<ul>
+<li>0: Pre-intro  - screen fades in</li>
+<li>1: Intro</li>
+<li>2: Fight - players do battle</li>
+<li>3: Pre-over - just a round is won or lost</li>
+<li>4: Over - win poses</li>
+</ul>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>RoundState</b> = 2<br>
+<i>; Triggers if the actual fighting portion of the round is in progress.</i></code></p>

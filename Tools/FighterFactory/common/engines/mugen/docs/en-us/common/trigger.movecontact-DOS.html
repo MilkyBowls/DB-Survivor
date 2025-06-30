@@ -1,0 +1,18 @@
+<p>This trigger is valid only when the player is in an attack state. MoveContact gives a non-zero value if P2 has either been hit, or has guarded P1's attack. It gives 0 otherwise. P1 is the player, and P2 is his opponent. Typically used with the "StateNo" and "Command" triggers for detecting move-interrupts in the CMD file.</p>
+<p><b>Format:</b> MoveContact</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li>none</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>On attack contact, MoveContact returns 1. After contact, MoveContact's return value will increase by 1 for each game tick that P1 is not paused (P1 gets paused on contact; see pausetime parameter in HitDef controller).</p>
+<p>Note 1: the values of MoveContact, MoveGuarded, MoveHit and MoveReversed are set simultaneously. For example, if one HitDef in a move hits successfully, MoveHit will return non-zero. If a following HitDef in the same move is guarded, MoveGuarded will return non-zero, and the other three triggers will return 0.</p>
+<p>Note 2: the values of the four Move* triggers reset to 0 and stop incrementing after a state transition. See "movehitpersist" parameter for StateDefs (CNS docs) for how to override this behavior.</p>
+<p><b>Examples:</b></p>
+<p><code><b>trigger1</b> = <b>MoveContact</b><br>
+<i>; True if P1's attack did not miss P2.</i><br>
+<br>
+<b>trigger1</b> = <b>MoveContact</b> = 1<br>
+<i>; True from the time P1's attack came in contact with P2, until just after P1's pausetime wears off.</i></code></p>

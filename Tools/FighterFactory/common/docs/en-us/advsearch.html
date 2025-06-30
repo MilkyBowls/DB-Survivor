@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">    
+  <head>        
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />        
+  </head>   
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li><a href="using.html">Using</a></li>
+            <li><a href="menu.html">Menu</a></li>  
+            <li><a href="view.html">View</a></li>
+            <li>Advanced Search</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Advanced Search</h1>
+
+        <p>This search function works on multiple files, including closed ones.</p> 
+        <p>It supports multiple search modes, across multiple scopes, displaying all results in a friendly list (searches all occurrences at once as opposed to the quick search that searches one by one).</p> 
+           
+        <img src="images/advsearch.png" style="float: right; display: inline;"/>
+
+        <h1>Scope</h1>
+        <a id="allproj"></a><h2>All projects</h2>
+        <p>Searches in all opened Projects, including closed files.</p>
+        <a id="currproj"></a><h2>Current project</h2>
+        <p>Searches only in the current Project, including closed files.</p>
+        <a id="currfile"></a><h2>Current file</h2>
+        <p>Searches only in the current file (of the current editor).</p>
+        <a id="openfiles"></a><h2>Opened files</h2>
+        <p>Searches in all opened files, in all open Projects.</p>
+        <a id="filesys"></a><h2>File System</h2>
+        <p>Searches in the specified directory.</p>
+
+        <h1>Type</h1>
+        <a id="string"></a><h2>By string</h2>
+        <p>Default search mode, using text from "Search for".</p>
+        <p><b>M.U.G.E.N. only</b></p>
+        <a id="lazy"></a><h2>Lazy syntax fix</h2>
+        <p>Searches for "lazy syntax". M.U.G.E.N. parser is a big shit, so people exploit the way it works to write non standard code (including Elecbyte itself, oh God), so this tries to fix that mess.</p>
+
+        <h1>Search for</h1>
+        <p>Text you're looking for. This is available only on "By String" searches.</p>
+
+        <h1>Options</h1>
+        <p><b>Case sensitive:</b> doesn't ignore case, matching exactly what we're looking for.</p>
+        <p><b>Whole words only:</b> only matches full words.</p>
+        <p><b>Use Regular expression:</b> text in the "Search for" field is treated as a Perl-compatible Regular expression. You can include captures in replace mode by using %1, %2, %3, ...</p>
+
+        <h1>Directory</h1>
+        <p>Directory to search on. Only available in File System scope.</p>
+
+        <h1>Patterns</h1>
+        <p><i>Only available for scopes: All Projects, Current Project and File System.</i></p>
+        <p><b>File pattern:</b> filter files by these wildcards.</p>
+        <p><b>Exclusion pattern:</b> ignore files matched by this wildcard.</p>
+    </div>
+        
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">    
+  <head>        
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />        
+  </head>   
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li><a href="using.html">Using</a></li>
+            <li><a href="workspace.html">Editor's workspace</a></li>
+            <li>M.U.G.E.N.</li>
+            <li>Animations</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Animations</h1>
+        <p>The Animations editor is used to edit the animations of current project.</p>
+        <p>See <a href="anims.html">Animations menu</a> for more details.</p>
+        <h2>Controls</h2>
+        <p>All controls available to the animations editor are listed below:</p>
+        <a id="ascroll"></a><h4>Animation selection scroll bar</h4>
+        <p>Defines the current animation to work on.</p>
+        <a id="number"></a><h4>Number</h4>
+        <p>Defines the number of the current animation.</p>
+        <a id="name"></a><h4>Name</h4>
+        <p>Defines the name of the current animation.</p>
+        <a id="fscroll"></a><h4>Frame selection scroll bar</h4>
+        <p>Defines the current frame to work on.</p>
+        <a id="group"></a><h4>Group field</h4>
+        <p>Defines the sprite group of the current frame.</p>
+        <a id="index"></a><h4>Index field</h4>
+        <p>Defines the sprite index of the current frame.</p>
+        <a id="xaxis"></a><h4>X axis field</h4>
+        <p>Defines the x axis (offset) of the current frame.</p>
+        <a id="yaxis"></a><h4>Y axis field</h4>
+        <p>Defines the y axis (offset) number of the current frame.</p>
+        <a id="time"></a><h4>Time</h4>
+        <p>Defines the time/delay of the current frame. You can use -1 to infinite.</p>
+        <a id="flip"></a><h4>Flip</h4>
+        <p>Defines if the sprite will be inverted (vertically, horizontally or both) or not.</p>
+        <a id="trans"></a><h4>Transparency</h4>
+        <p>Defines the sprite transparency, that can be: None, Addition, Addition 50% or Subtract. The 'Addition' transparency have two parameters.</p>
+        <a id="source"></a><h4>Source</h4>
+        <p>Opacity of the sprite.</p>
+        <a id="dest"></a><h4>Dest</h4>
+        <p>Darkness of the destination surface.</p>
+        <a id="loop"></a><h4>Start loop in this frame</h4>
+        <p>Defines a loop point in this frame. After the last frame, the animation will go to the next loop point from the current (only if the time is positive).</p>
+        <a id="xscale"></a><h4>X Scale</h4>
+        <p>Defines the x scale of the frame's sprite. <i>Note: Only on M.U.G.E.N. 1.1.</i></p>
+        <a id="yscale"></a><h4>Y Scale</h4>
+        <p>Defines the y scale of the frame's sprite. <i>Note: Only on M.U.G.E.N. 1.1.</i></p>
+        <a id="angle"></a><h4>Angle</h4>
+        <p>Defines the angle of the frame's sprite in degrees. <i>Note: Only on M.U.G.E.N. 1.1.</i></p>
+        <a id="interpolate"></a><h4>Interpolate</h4>
+        <p>Defines the interpolation between frames. <i>Note: Only on M.U.G.E.N. 1.1.</i></p>
+        <p><b>Blend:</b> interpolate the blending (transparency).</p>
+        <p><b>Offset:</b> interpolate the offset (axis).</p>
+        <p><b>Scale:</b> interpolate the scale.</p>
+        <p><b>Angle:</b> interpolate the angle.</p>
+        <a id="onion"></a><h4>OnionSkin</h2>
+        <p>If enabled, displays the OnionSkin sprite. When enabled, the OnionSkin scroll bar will be set to the current animation. You can control the OnionSkin appearance in the <a href="optimg.html">Options window</a>.</p>
+        <a id="onionscroll"></a><h4>OnionSkin animation scrool bar</h2>
+        <p>Defines the current OnionSkin animation to display.</p>
+        <a id="onionfrmscroll"></a><h4>OnionSkin frame scrool bar</h2>
+        <p>Defines the current OnionSkin frame to display.</p>
+        <a id="onionscroll"></a><h4>OnionSkin find animation</h2>
+        <p>Defines the current OnionSkin animation searching by identifier.</p>
+
+        <h2>Sprite explorer controls (thumbnails)</h2>
+        <p>All controls available to the Sprite Explorer extra editor are listed below:</p>
+        <a id="thumbsel"></a><h4>Thumbnail group selection</h4>
+        <p>Defines the sprite group to be viewed in the thumbnails list.</p>
+        <a id="thumbaddsel"></a><h4>Add selected thumbnails to the current animation</h4>
+        <p>Adds all selected thumbnails to the current animation as new frames.</p>
+        <a id="thumbaddall"></a><h4>Add all thumbnails to the current animation</h4>
+        <p>Adds all thumbnails to the current animation as new frames.</p>
+        <a id="thumbnewsel"></a><h4>New animation with the selected thumbnails</h4>
+        <p>Creates a new animation with all selected thumbnails as frames.</p>
+        <a id="thumbnewall"></a><h4>New animation with all thumbnails</h4>
+        <p>Creates a new animation with all thumbnails as frames.</p>
+        <a id="thumbnaillist"></a><h4>Thumbnail list</h4>
+        <p>Displays all sprites of the selected group as thumbnails.</p>
+        <h2>Workspace</h2>
+        <p>The Animation editor is used to create and edit the animations of the project. The graphic workspace contains the rulers, guide lines, OnionSkin image, current sprite image, contact boxes, sprite axis cross, frame axis cross and the extra cross. Some of these can be enabled/disabled in the <a href="view">View menu</a>.</p>
+        <p>You can change the position of the image by dragging it to the desirable position. The guide lines, contact boxes and the frame axis can be placed in the same way. All other points will move the axis and background image.</p>
+        <p>The contact boxes are handled in a special way. You can select multiple boxes holding Ctrl or Shift keys, remove all selected boxes pressing the Delete key, move by 1px pressing the arrow keys and cut/copy/paste them.</p>
+        <a id="clsnmode"></a><p>In the Contact box creation mode, you can add new boxes by simply drawing it on the screen. While you keep in this mode, you can draw many boxes you want, including over another existing one. To exit this mode, right-click on the graphic workspace or disable one of the creation options. When you exit this mode, the last box you drawn will be selected.</p>
+        <p>The zoom can be changed using the mouse wheel.</p>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

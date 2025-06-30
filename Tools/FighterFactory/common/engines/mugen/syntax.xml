@@ -1,0 +1,3941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax>
+
+<file type="char">
+
+  <block type="Palette Keymap" minver="1.0">
+    <param name="x" type="int"/>
+    <param name="y" type="int"/>
+    <param name="z" type="int"/>
+    <param name="a" type="int"/>
+    <param name="b" type="int"/>
+    <param name="c" type="int"/>
+    <param name="x2" type="int"/>
+    <param name="y2" type="int"/>
+    <param name="z2" type="int"/>
+    <param name="a2" type="int"/>
+    <param name="b2" type="int"/>
+    <param name="c2" type="int"/>
+  </block>
+
+  <block type="Arcade">
+    <param name="intro.storyboard" type="file"/>
+    <param name="ending.storyboard" type="file"/>
+  </block>
+
+</file>
+
+<file type="state">
+
+  <block type="Data">
+    <param name="life" type="int" required="true"/>
+    <param name="power" type="int"/>
+    <param name="attack" type="int" required="true"/>
+    <param name="defence" type="int" required="true"/>
+    <param name="fall.defence_up" type="int" required="true"/>
+    <param name="liedown.time" type="int" required="true"/>
+    <param name="airjuggle" type="int" required="true"/>
+    <param name="sparkno" type="expi" char="S"/>
+    <param name="guard.sparkno" type="expi" char="S"/>
+    <param name="ko.echo" type="int"/>
+    <param name="volume" type="int" deprecated="1.0"/>
+    <param name="volumescale" type="int"/>
+    <param name="intpersistindex" type="int"/>
+    <param name="floatpersistindex" type="int"/>
+  </block>
+
+  <block type="Size">
+    <param name="xscale" type="float"/>
+    <param name="yscale" type="float"/>
+    <param name="ground.back" type="int" required="true"/>
+    <param name="ground.front" type="int" required="true"/>
+    <param name="air.back" type="int" required="true"/>
+    <param name="air.front" type="int" required="true"/>
+    <param name="height" type="int"/>
+    <param name="attack.dist" type="int"/>
+    <param name="proj.attack.dist" type="int"/>
+    <param name="proj.doscale" type="int"/>
+    <param name="shadowoffset" type="int"/>
+    <param name="head.pos" type="int2"/>
+    <param name="mid.pos" type="int2"/>
+    <param name="draw.offset" type="int2"/>
+  </block>
+
+  <block type="Velocity">
+    <param name="walk.fwd" type="float"/>
+    <param name="walk.back" type="float"/>
+    <param name="run.fwd" type="float2" optional="req,prev"/>
+    <param name="run.back" type="float2" optional="req,prev"/>
+    <param name="jump.back" type="float2" optional="req,prev"/>
+    <param name="jump.fwd" type="float2" optional="req,prev"/>
+    <param name="jump.neu" type="float2" optional="req,prev"/>
+    <param name="runjump.back" type="float2" optional="req,prev"/>
+    <param name="runjump.fwd" type="float2" optional="req,prev"/>
+    <param name="airjump.neu" type="float2" optional="req,prev"/>
+    <param name="airjump.back" type="float"/>
+    <param name="airjump.fwd" type="float"/>
+    <param name="air.gethit.groundrecover" type="float2" optional="req,prev" minver="1.0"/>
+    <param name="air.gethit.airrecover.mul" type="float2" optional="req,prev" minver="1.0"/>
+    <param name="air.gethit.airrecover.add" type="float2" optional="req,prev" minver="1.0"/>
+    <param name="air.gethit.airrecover.back" type="float" minver="1.0"/>
+    <param name="air.gethit.airrecover.fwd" type="float" minver="1.0"/>
+    <param name="air.gethit.airrecover.up" type="float" minver="1.0"/>
+    <param name="air.gethit.airrecover.down" type="float" minver="1.0"/>
+  </block>
+
+  <block type="Movement">
+    <param name="airjump.num" type="int"/>
+    <param name="airjump.height" type="float"/>
+    <param name="yaccel" type="float" required="true"/>
+    <param name="stand.friction" type="float" required="true"/>
+    <param name="crouch.friction" type="float" required="true"/>
+    <param name="stand.friction.threshold" type="float" minver="1.0"/>
+    <param name="crouch.friction.threshold" type="float" minver="1.0"/>
+    <param name="air.gethit.groundlevel" type="int" minver="1.0"/>
+    <param name="air.gethit.groundrecover.ground.threshold" type="int" minver="1.0"/>
+    <param name="air.gethit.groundrecover.groundlevel" type="int" minver="1.0"/>
+    <param name="air.gethit.airrecover.threshold" type="int" minver="1.0"/>
+    <param name="air.gethit.airrecover.yaccel" type="float" minver="1.0"/>
+    <param name="air.gethit.trip.groundlevel" type="int" minver="1.0"/>
+    <param name="down.bounce.offset" type="int2" minver="1.0"/>
+    <param name="down.bounce.yaccel" type="float" minver="1.0"/>
+    <param name="down.bounce.groundlevel" type="int" minver="1.0"/>
+    <param name="down.friction.threshold" type="float" minver="1.0"/>
+  </block>
+
+  <block type="Quotes" minver="1.0">
+    <param name="victory*" type="string"/>
+  </block>
+
+  <block type="StateDef">
+    <param name="type" type="keyword" list="S,C,A,L,U" required="true"/>
+    <param name="movetype" type="keyword" list="A,I,H,U" required="true"/>
+    <param name="physics" type="keyword" list="S,C,A,N,U" required="true"/>
+    <param name="anim" type="expi" required="true"/>
+    <param name="ctrl" type="expb"/>
+    <param name="poweradd" type="expi"/>
+    <param name="juggle" type="expi"/>
+    <param name="facep2" type="expb"/>
+    <param name="hitdefpersist" type="expb"/>
+    <param name="movehitpersist" type="expb"/>
+    <param name="hitcountpersist" type="expb"/>
+    <param name="sprpriority" type="expi"/>
+    <param name="velset" type="exp2f"/>
+  </block>
+
+  <block type="State>AfterImage">
+    <param name="time" type="expi"/>
+    <param name="length" type="expi"/>
+    <param name="palcolor" type="expi"/>
+    <param name="palinvertall" type="expb"/>
+    <param name="palbright" type="exp3i"/>
+    <param name="palcontrast" type="exp3i"/>
+    <param name="palpostbright" type="exp3i"/>
+    <param name="paladd" type="exp3i"/>
+    <param name="palmul" type="exp3f"/>
+    <param name="timegap" type="expi"/>
+    <param name="framegap" type="expi"/>
+    <param name="trans" type="keyword" list="None,Add,Add1,Sub"/>
+  </block>
+
+  <block type="State>AfterImageTime">
+    <param name="time" type="expi" required="true"/>
+    <param name="value" type="expi"/>
+  </block>
+
+  <block type="State>AllPalFX">
+    <param name="time" type="expi"/>
+    <param name="add" type="exp3i"/>
+    <param name="mul" type="exp3i"/>
+    <param name="sinadd" type="exp4i"/>
+    <param name="invertall" type="expb"/>
+    <param name="color" type="expi"/>
+  </block>
+
+  <block type="State>AngleAdd">
+    <param name="value" type="expf" required="true"/>
+  </block>
+
+  <block type="State>AngleDraw">
+    <param name="value" type="expf"/>
+    <param name="scale" type="exp2f"/>
+  </block>
+
+  <block type="State>AngleMul">
+    <param name="value" type="expf" required="true"/>
+  </block>
+
+  <block type="State>AngleSet">
+    <param name="value" type="expf" required="true"/>
+  </block>
+
+  <block type="State>AppendToClipboard">
+    <param name="text" type="string" required="true"/>
+    <param name="params" type="expvec"/>
+  </block>
+
+  <block type="State>AssertSpecial">
+    <param name="flag" type="keyword" list="Intro,Invisible,RoundNotOver,NoBarDisplay,NoBG,NoFG,NoStandGuard,NoCrouchGuard,NoAirGuard,NoAutoTurn,NoJuggleCheck,NoKOSnd,NoKOSlow,NoShadow,GlobalNoShadow,NoMusic,NoWalk,TimerFreeze,Unguardable,NoKO" required="true"/>
+    <param name="flag2" type="keyword" list="Intro,Invisible,RoundNotOver,NoBarDisplay,NoBG,NoFG,NoStandGuard,NoCrouchGuard,NoAirGuard,NoAutoTurn,NoJuggleCheck,NoKOSnd,NoKOSlow,NoShadow,GlobalNoShadow,NoMusic,NoWalk,TimerFreeze,Unguardable,NoKO"/>
+    <param name="flag3" type="keyword" list="Intro,Invisible,RoundNotOver,NoBarDisplay,NoBG,NoFG,NoStandGuard,NoCrouchGuard,NoAirGuard,NoAutoTurn,NoJuggleCheck,NoKOSnd,NoKOSlow,NoShadow,GlobalNoShadow,NoMusic,NoWalk,TimerFreeze,Unguardable,NoKO"/>
+  </block>
+
+  <block type="State>AttackDist">
+    <param name="value" type="expi" required="true"/>
+  </block>
+
+  <block type="State>AttackMulSet">
+    <param name="value" type="expf" required="true"/>
+  </block>
+
+  <block type="State>BGPalFX:AllPalFX"/>
+
+  <block type="State>BindToParent">
+    <param name="time" type="expi"/>
+    <param name="facing" type="expi"/>
+    <param name="pos" type="exp2f"/>
+  </block>
+
+  <block type="State>BindToRoot">
+    <param name="time" type="expi"/>
+    <param name="facing" type="expi"/>
+    <param name="pos" type="exp2f"/>
+  </block>
+
+  <block type="State>BindToTarget">
+    <param name="time" type="expi"/>
+    <param name="id" type="expi"/>
+    <param name="pos" type="exp2keyword" list="Foot,Mid,Head"/>
+  </block>
+
+  <block type="State>ChangeAnim">
+    <param name="value" type="expi" required="true"/>
+    <param name="elem" type="expi"/>
+  </block>
+
+  <block type="State>ChangeAnim2">
+    <param name="value" type="expi" required="true"/>
+    <param name="elem" type="expi"/>
+  </block>
+
+  <block type="State>ChangeState">
+    <param name="value" type="expi" required="true"/>
+    <param name="ctrl" type="expb"/>
+    <param name="anim" type="expi"/>
+  </block>
+
+  <block type="State>ClearClipboard"/>
+
+  <block type="State>CtrlSet">
+    <param name="value" type="expb" required="true"/>
+  </block>
+
+  <block type="State>DefenceMulSet">
+    <param name="value" type="expf" required="true"/>
+  </block>
+
+  <block type="State>DestroySelf">
+    <param name="recursive" minver="1.1" type="expb"/>
+    <param name="removeexplods" minver="1.1" type="expb"/>
+  </block>
+
+  <block type="State>DisplayToClipboard:AppendToClipboard"/>
+
+  <block type="State>EnvColor">
+    <param name="value" type="exp3i"/>
+    <param name="time" type="expi"/>
+    <param name="under" type="expi"/>
+  </block>
+
+  <block type="State>EnvShake">
+    <param name="time" type="expi" required="true"/>
+    <param name="freq" type="expf"/>
+    <param name="ampl" type="expi"/>
+    <param name="phase" type="expf"/>
+  </block>
+
+  <block type="State>Explod">
+    <param name="anim" type="expi" char="F" required="true"/>
+    <param name="id" type="expi"/>
+    <param name="pos" type="exp3f" optional="req,req,def"/>
+    <param name="postype" type="keyword" list="None,P1,P2,Front,Back,Left,Right" deprecated="1.1"/>
+    <param name="facing" type="expi"/>
+    <param name="vfacing" type="expi"/>
+    <param name="bindtime" type="expi"/>
+    <param name="bindID" minver="1.1" type="expi"/>
+    <param name="vel" type="exp3f" optional="req,def,def"/>
+    <param name="accel" type="exp3f" optional="req,def,def"/>
+    <param name="random" type="exp3i" optional="req,def,def" deprecated="1.1"/>
+    <param name="removetime" type="expi"/>
+    <param name="supermove" type="expb" deprecated="WinBeta"/>
+    <param name="supermovetime" type="expi"/>
+    <param name="pausemovetime" type="expi"/>
+    <param name="scale" type="exp2f"/>
+    <param name="sprpriority" type="expi"/>
+    <param name="layer" type="expi" minver="ext"/>
+    <param name="ontop" type="expb" deprecated="ext"/>
+    <param name="shadow" type="exp3i" optional="req,def,def" nil="true"/>
+    <param name="ownpal" type="expb"/>
+    <param name="remappal" minver="1.1" type="exp2i"/>
+    <param name="removeongethit" type="expb"/>
+    <param name="ignorehitpause" type="expb"/>
+    <param name="trans" type="keyword" list="Default,None,Add,AddAlpha,Add1,Sub"/>
+    <param name="alpha" type="exp2i"/>
+    <param name="space" minver="1.0" type="keyword" list="Screen,Stage"/>
+    <param name="angle" minver="1.1" type="expf"/>
+    <param name="xangle" minver="1.1" type="expf"/>
+    <param name="yangle" minver="1.1" type="expf"/>
+    <param name="velocity" type="exp2f"/>
+  </block>
+
+  <block type="State>ExplodBindTime">
+    <param name="id" type="expi"/>
+    <param name="time" type="expi"/>
+    <param name="value" type="expi"/>
+  </block>
+
+  <block type="State>ForceFeedback">
+    <param name="waveform" type="keyword" list="Sine,Square,SineSquare,Off"/>
+    <param name="time" type="int"/>
+    <param name="freq" type="ifloat3" optional="req,def,def,def"/>
+    <param name="ampl" type="ifloat3" optional="req,def,def,def"/>
+    <param name="self" type="int"/>
+  </block>
+
+  <block type="State>FallEnvShake"/>
+
+  <block type="State>GameMakeAnim" deprecated="1.0">
+    <param name="value" type="expi"/>
+    <param name="under" type="expi"/>
+    <param name="pos" type="exp2f" optional="req,def"/>
+    <param name="random" type="expi"/>
+  </block>
+
+  <block type="State>Gravity"/>
+
+  <block type="State>Helper">
+    <param name="helpertype" type="keyword" list="Normal,Player" deprecated="WinBeta"/>
+    <param name="name" type="string"/>
+    <param name="id" type="expi"/>
+    <param name="pos" type="exp3" optional="req,def,def"/>
+    <param name="postype" type="keyword" list="P1,P2,Front,Back,Left,Right"/>
+    <param name="facing" type="expi"/>
+    <param name="stateno" type="expi"/>
+    <param name="keyctrl" type="expb"/>
+    <param name="ownpal" type="expb"/>
+    <param name="remappal" minver="1.1" type="exp2i"/>
+    <param name="supermovetime" type="expi"/>
+    <param name="pausemovetime" type="expi"/>
+    <param name="size.xscale" type="expf"/>
+    <param name="size.yscale" type="expf"/>
+    <param name="size.ground.back" type="exp"/>
+    <param name="size.ground.front" type="exp"/>
+    <param name="size.air.back" type="expi"/>
+    <param name="size.air.front" type="expi"/>
+    <param name="size.height" type="expi"/>
+    <param name="size.proj.doscale" type="expi"/>
+    <param name="size.head.pos" type="exp2i"/>
+    <param name="size.mid.pos" type="exp2i"/>
+    <param name="size.shadowoffset" type="expi"/>
+  </block>
+
+  <block type="State>HitAdd">
+    <param name="value" type="expi" required="true"/>
+  </block>
+
+  <block type="State>HitBy">
+    <param name="value" type="hitattr" required="true"/>
+    <param name="value2" type="hitattr"/>
+    <param name="time" type="expi"/>
+  </block>
+
+  <block type="State>HitDef">
+    <param name="attr" type="hitattr" required="true"/>
+    <param name="hitflag" type="hitflags"/>
+    <param name="guardflag" type="guardflags"/>
+    <param name="affectteam" type="keyword" list="E,B,F"/>
+    <param name="animtype" type="keyword" list="Light,Medium,Hard,Back,Up,DiagUp"/>
+    <param name="air.animtype" type="keyword" list="Light,Medium,Hard,Back,Up,DiagUp"/>
+    <param name="fall.animtype" type="keyword" list="Light,Medium,Hard,Back,Up,DiagUp"/>
+    <param name="priority" type="expkeyword" list="Dodge,Hit,Miss" optional="req,def"/>
+    <param name="damage" type="exp2i" optional="req,def"/>
+    <param name="pausetime" type="exp2i"/>
+    <param name="guard.pausetime" type="exp2i"/>
+    <param name="sparkno" type="expi" char="S"/>
+    <param name="sparkfacing" type="expi" minver="ext"/>
+    <param name="guard.sparkno" type="expi" char="S"/>
+    <param name="sparkxy" type="exp2i"/>
+    <param name="hitsound" type="exp2i" char="SF" nil="true"/>
+    <param name="guardsound" type="exp2i" char="SF" nil="true"/>
+    <param name="ground.type" type="keyword" list="High,Low,Trip,None"/>
+    <param name="air.type" type="keyword" list="High,Low,Trip,None"/>
+    <param name="ground.slidetime" type="expi"/>
+    <param name="guard.slidetime" type="expi"/>
+    <param name="ground.hittime" type="expi"/>
+    <param name="guard.hittime" type="expi"/>
+    <param name="air.hittime" type="expi"/>
+    <param name="guard.ctrltime" type="expi"/>
+    <param name="guard.dist" type="expi"/>
+    <param name="yaccel" type="expf"/>
+    <param name="ground.velocity" type="exp2f" optional="req,def"/>
+    <param name="guard.velocity" type="expf" optional="req,def"/>
+    <param name="air.velocity" type="exp2f" optional="req,def"/>
+    <param name="airguard.velocity" type="exp2f" optional="req,def"/>
+    <param name="ground.cornerpush.veloff" type="expf"/>
+    <param name="air.cornerpush.veloff" type="expf"/>
+    <param name="down.cornerpush.veloff" type="expf"/>
+    <param name="guard.cornerpush.veloff" type="expf"/>
+    <param name="airguard.cornerpush.veloff" type="expf"/>
+    <param name="airguard.ctrltime" type="expi"/>
+    <param name="air.juggle" type="expi"/>
+    <param name="mindist" type="exp2i"/>
+    <param name="maxdist" type="exp2i"/>
+    <param name="snap" type="exp2i"/>
+    <param name="p1sprpriority" type="expi"/>
+    <param name="p2sprpriority" type="expi"/>
+    <param name="p1facing" type="expi"/>
+    <param name="p1getp2facing" type="expi"/>
+    <param name="p2facing" type="expi"/>
+    <param name="p1stateno" type="expi"/>
+    <param name="p2stateno" type="expi"/>
+    <param name="p2getp1state" type="expb"/>
+    <param name="forcestand" type="expb"/>
+    <param name="fall" type="expb"/>
+    <param name="fall.xvelocity" type="expf"/>
+    <param name="fall.yvelocity" type="expf"/>
+    <param name="fall.recover" type="expb"/>
+    <param name="fall.recovertime" type="expi"/>
+    <param name="fall.damage" type="expi"/>
+    <param name="air.fall" type="expb"/>
+    <param name="forcenofall" minver="1.0" type="expb"/>
+    <param name="down.velocity" type="exp2f" optional="req,def"/>
+    <param name="down.hittime" type="expi"/>
+    <param name="down.bounce" type="expb"/>
+    <param name="id" type="expi"/>
+    <param name="chainid" type="expi"/>
+    <param name="nochainid" type="exp2i" optional="req,def"/>
+    <param name="hitonce" type="expb"/>
+    <param name="kill" type="expb"/>
+    <param name="guard.kill" type="expb"/>
+    <param name="fall.kill" type="expb"/>
+    <param name="numhits" type="expi"/>
+    <param name="getpower" type="exp2i" optional="req,prev"/>
+    <param name="givepower" type="exp2i" optional="req,prev"/>
+    <param name="palfx.time" type="expi"/>
+    <param name="palfx.add" type="exp3i"/>
+    <param name="palfx.mul" type="exp3i"/>
+    <param name="palfx.sinadd" type="exp4"/>
+    <param name="palfx.invertall" type="expb"/>
+    <param name="palfx.color" type="expi"/>
+    <param name="envshake.time" type="expi"/>
+    <param name="envshake.freq" type="expf"/>
+    <param name="envshake.ampl" type="expi"/>
+    <param name="envshake.phase" type="expf"/>
+    <param name="fall.envshake.time" type="expi"/>
+    <param name="fall.envshake.freq" type="expf"/>
+    <param name="fall.envshake.ampl" type="expi"/>
+    <param name="fall.envshake.phase" type="expf"/>
+    <param name="attack.width" type="exp2i" deprecated="WinBeta"/>
+  </block>
+
+  <block type="State>HitFallDamage"/>
+
+  <block type="State>HitFallSet">
+    <param name="value" type="expi"/>
+    <param name="xvel" type="expf"/>
+    <param name="yvel" type="expf"/>
+  </block>
+
+  <block type="State>HitFallVel"/>
+
+  <block type="State>HitOverride">
+    <param name="attr" type="hitattr" required="true"/>
+    <param name="slot" type="expi"/>
+    <param name="stateno" type="expi" required="true"/>
+    <param name="time" type="expi"/>
+    <param name="forceair" type="expb"/>
+  </block>
+
+  <block type="State>HitVelSet" deprecated="1.0">
+    <param name="x" type="expb"/>
+    <param name="y" type="expb"/>
+  </block>
+
+  <block type="State>LifeAdd">
+    <param name="value" type="expi" required="true"/>
+    <param name="kill" type="expb"/>
+    <param name="absolute" type="expb"/>
+  </block>
+
+  <block type="State>LifeSet">
+    <param name="value" type="expi" required="true"/>
+  </block>
+
+  <block type="State>MakeDust" deprecated="1.0">
+    <param name="pos" type="exp2i" optional="req,def"/>
+    <param name="pos2" type="exp2f" optional="req,def"/>
+    <param name="spacing" type="expi"/>
+  </block>
+
+  <block type="State>ModifyExplod:Explod"/>
+
+  <block type="State>MoveHitReset"/>
+
+  <block type="State>NotHitBy">
+    <param name="value" type="hitattr" required="true"/>
+    <param name="value2" type="hitattr"/>
+    <param name="time" type="expi"/>
+  </block>
+
+  <block type="State>Offset">
+    <param name="x" type="expf"/>
+    <param name="y" type="expf"/>
+  </block>
+
+  <block type="State>PalFX:AllPalFX"/>
+
+  <block type="State>ParentVarAdd">
+    <param name="v" type="expi" required="true"/>
+    <param name="fv" type="expf"/>
+    <param name="value" type="exp" required="true"/>
+    <param name="var" format="indexed" type="expi"/>
+    <param name="fvar" format="indexed" type="expf"/>
+  </block>
+
+  <block type="State>ParentVarSet">
+    <param name="v" type="expi" required="true"/>
+    <param name="fv" type="expf"/>
+    <param name="value" type="exp" required="true"/>
+    <param name="var" format="indexed" type="expi"/>
+    <param name="fvar" format="indexed" type="expf"/>
+  </block>
+
+  <block type="State>Pause">
+    <param name="time" type="expi" required="true"/>
+    <param name="endcmdbuftime" type="expi"/>
+    <param name="movetime" type="expi"/>
+    <param name="pausebg" type="expb"/>
+  </block>
+
+  <block type="State>PlayerPush">
+    <param name="value" type="expb" required="true"/>
+  </block>
+
+  <block type="State>PlaySnd">
+    <param name="value" type="exp2i" char="SF" required="true"/>
+    <param name="volume" type="expi" deprecated="1.0"/>
+    <param name="volumescale" type="expf" minver="1.0"/>
+    <param name="channel" type="expi"/>
+    <param name="lowpriority" type="expi"/>
+    <param name="freqmul" type="expf"/>
+    <param name="loop" type="expb"/>
+    <param name="pan" type="expi"/>
+    <param name="abspan" type="expi"/>
+  </block>
+
+  <block type="State>PosAdd">
+    <param name="x" type="expf"/>
+    <param name="y" type="expf"/>
+    <param name="z" type="expf" minver="ext"/>
+  </block>
+
+  <block type="State>PosFreeze">
+    <param name="value" type="expb"/>
+  </block>
+
+  <block type="State>PosSet">
+    <param name="x" type="expf"/>
+    <param name="y" type="expf"/>
+    <param name="z" type="expf" minver="ext"/>
+  </block>
+
+  <block type="State>PowerAdd">
+    <param name="value" type="expi" required="true"/>
+  </block>
+
+  <block type="State>PowerSet">
+    <param name="value" type="expi"/>
+  </block>
+
+  <block type="State>Projectile:HitDef">
+    <param name="projid" type="expi"/>
+    <param name="projanim" type="expi"/>
+    <param name="projhitanim" type="expi"/>
+    <param name="projremanim" type="expi"/>
+    <param name="projcancelanim" type="expi"/>
+    <param name="projscale" type="exp2f"/>
+    <param name="projremove" type="expb"/>
+    <param name="projremovetime" type="expi"/>
+    <param name="velocity" type="exp3f" optional="req,def,def"/>
+    <param name="remvelocity" type="exp3f" optional="req,def,def"/>
+    <param name="accel" type="exp3f" optional="req,req,def"/>
+    <param name="velmul" type="exp3f" optional="req,req,def"/>
+    <param name="projhits" type="expi"/>
+    <param name="projmisstime" type="expi"/>
+    <param name="projpriority" type="expi"/>
+    <param name="projsprpriority" type="expi"/>
+    <param name="projedgebound" type="expi"/>
+    <param name="projstagebound" type="expi"/>
+    <param name="projheightbound" type="exp2i"/>
+    <param name="projzbound" type="exp2i" minver="ext"/>
+    <param name="offset" type="exp3i" optional="req,req,def"/>
+    <param name="postype" type="keyword" list="P1,P2,Front,Back,Left,Right"/>
+    <param name="projshadow" type="exp3i" optional="req,def,def" nil="true"/>
+    <param name="supermovetime" type="expi"/>
+    <param name="pausemovetime" type="expi"/>
+    <param name="ownpal" type="expb"/>
+    <param name="remappal" minver="1.1" type="exp2i"/>
+    <param name="afterimage.time" type="expi"/>
+    <param name="afterimage.length" type="expi"/>
+    <param name="afterimage.palcolor" type="expi"/>
+    <param name="afterimage.palintervall" type="expb"/>
+    <param name="afterimage.palbright" type="exp3i"/>
+    <param name="afterimage.palcontrast" type="exp3i"/>
+    <param name="afterimage.palpostbright" type="exp3i"/>
+    <param name="afterimage.paladd" type="exp3i"/>
+    <param name="afterimage.palmul" type="exp3f"/>
+    <param name="afterimage.timegap" type="expi"/>
+    <param name="afterimage.framegap" type="expi"/>
+    <param name="afterimage.trans" type="keyword" list="None,Add,Add1,Sub"/>
+  </block>
+
+  <block type="State>RemapPal" minver="1.0">
+    <param name="source" type="exp2i"/>
+    <param name="dest" type="exp2i"/>
+  </block>
+
+  <block type="State>RemoveExplod">
+    <param name="id" type="expi"/>
+  </block>
+
+  <block type="State>ReversalDef">
+    <param name="reversal.attr" type="hitattr" required="true"/>
+    <param name="pausetime" type="exp2i"/>
+    <param name="sparkno" type="expi" char="S"/>
+    <param name="sparkxy" type="exp2i"/>
+    <param name="hitsound" type="exp2i" char="SF" nil="true"/>
+    <param name="p1stateno" type="expi"/>
+    <param name="p2stateno" type="expi"/>
+    <param name="p1sprpriority" type="expi"/>
+    <param name="p2sprpriority" type="expi"/>
+  </block>
+
+  <block type="State>ScreenBound">
+    <param name="value" type="expb"/>
+    <param name="movecamera" type="exp2b"/>
+  </block>
+
+  <block type="State>SelfState:ChangeState"/>
+
+  <block type="State>SprPriority">
+    <param name="value" type="expi" required="true"/>
+  </block>
+
+  <block type="State>StateTypeSet">
+    <param name="statetype" type="keyword" list="A,C,S,L"/>
+    <param name="movetype" type="keyword" list="I,A,H"/>
+    <param name="physics" type="keyword" list="A,C,S,N"/>
+  </block>
+
+  <block type="State>SndPan">
+    <param name="channel" type="expi" required="true"/>
+    <param name="pan" type="expi" required="true"/>
+    <param name="abspan" type="expi"/>
+  </block>
+
+  <block type="State>StopSnd">
+    <param name="channel" type="expi" required="true"/>
+  </block>
+
+  <block type="State>SuperPause:Pause">
+    <param name="time" type="expi"/>
+    <param name="anim" type="expi" char="S"/>
+    <param name="sound" type="exp2i" char="SF" nil="true"/>
+    <param name="pos" type="exp2f" optional="req,def"/>
+    <param name="darken" type="expb"/>
+    <param name="p2defmul" type="expf"/>
+    <param name="poweradd" type="expi"/>
+    <param name="unhittable" type="expb"/>
+  </block>
+
+  <block type="State>TagIn" deprecated="1.0">
+    <param name="stateno" type="expi"/>
+    <param name="partnerstateno" type="expi"/>
+    <param name="ctrl" type="expb"/>
+  </block>
+
+  <block type="State>TargetBind">
+    <param name="time" type="expi"/>
+    <param name="id" type="expi"/>
+    <param name="pos" type="exp2f" optional="req,def"/>
+  </block>
+
+  <block type="State>TargetDrop">
+    <param name="excludeid" type="expi"/>
+    <param name="keepone" type="expb"/>
+  </block>
+
+  <block type="State>TargetFacing">
+    <param name="value" type="expi" required="true"/>
+    <param name="id" type="expi"/>
+  </block>
+
+  <block type="State>TargetLifeAdd">
+    <param name="value" type="expi" required="true"/>
+    <param name="id" type="expi"/>
+    <param name="kill" type="expb"/>
+    <param name="absolute" type="expb"/>
+  </block>
+
+  <block type="State>TargetPowerAdd" required="true">
+    <param name="value" type="expi"/>
+    <param name="id" type="expi"/>
+  </block>
+
+  <block type="State>TargetState">
+    <param name="value" type="expi" required="true"/>
+    <param name="id" type="expi"/>
+  </block>
+
+  <block type="State>TargetVelAdd">
+    <param name="x" type="expf"/>
+    <param name="y" type="expf"/>
+    <param name="z" type="expf" minver="ext"/>
+    <param name="id" type="expi"/>
+  </block>
+
+  <block type="State>TargetVelSet">
+    <param name="x" type="expf"/>
+    <param name="y" type="expf"/>
+    <param name="z" type="expf" minver="ext"/>
+    <param name="id" type="expi"/>
+  </block>
+
+  <block type="State>Trans">
+    <param name="trans" type="keyword" list="Default,None,Add,AddAlpha,Add1,Sub" required="true"/>
+    <param name="alpha" type="exp2i"/>
+  </block>
+
+  <block type="State>Turn"/>
+
+  <block type="State>VarAdd">
+    <param name="v" type="expi" required="true"/>
+    <param name="fv" type="expf"/>
+    <param name="value" type="exp" required="true"/>
+    <param name="var" format="indexed" type="expi"/>
+    <param name="fvar" format="indexed" type="expf"/>
+    <param name="sysvar" format="indexed" type="expi"/>
+    <param name="sysfvar" format="indexed" type="expf"/>
+  </block>
+
+  <block type="State>VarRandom">
+    <param name="v" type="expi" required="true"/>
+    <param name="range" type="exp2i" optional="req,prev"/>
+  </block>
+
+  <block type="State>VarRangeSet">
+    <param name="value" type="expi" required="true"/>
+    <param name="fvalue" type="expf"/>
+    <param name="first" type="expi"/>
+    <param name="last" type="expi"/>
+  </block>
+
+  <block type="State>VarSet">
+    <param name="v" type="expi" required="true"/>
+    <param name="fv" type="expf"/>
+    <param name="value" type="exp" required="true"/>
+    <param name="var" format="indexed" type="expi"/>
+    <param name="fvar" format="indexed" type="expf"/>
+    <param name="sysvar" format="indexed" type="expi"/>
+    <param name="sysfvar" format="indexed" type="expf"/>
+  </block>
+
+  <block type="State>VelAdd">
+    <param name="x" type="expf"/>
+    <param name="y" type="expf"/>
+    <param name="z" type="expf" minver="ext"/>
+  </block>
+
+  <block type="State>VelMul">
+    <param name="x" type="expf"/>
+    <param name="y" type="expf"/>
+    <param name="z" type="expf" minver="ext"/>
+  </block>
+
+  <block type="State>VelSet">
+    <param name="x" type="expf"/>
+    <param name="y" type="expf"/>
+    <param name="z" type="expf" minver="ext"/>
+  </block>
+
+  <block type="State>VictoryQuote" minver="1.0">
+    <param name="value" type="expi"/>
+  </block>
+
+  <block type="State>Width">
+    <param name="edge" type="exp2i"/>
+    <param name="player" type="exp2i"/>
+    <param name="value" type="exp2i"/>
+  </block>
+
+  <block type="State>Zoom">
+    <param name="scale" type="expf"/>
+    <param name="pos" type="exp2f"/>
+  </block>
+
+</file>
+
+<file type="command">
+
+  <block type="Command">
+    <param name="name" type="string" required="true"/>
+    <param name="command" type="keyseq" required="true"/>
+    <param name="time" type="int"/>
+    <param name="buffer.time" type="int"/>
+  </block>
+
+  <block type="Remap">
+    <param name="x" type="keyword" list="x,y,z,a,b,c,s"/>
+    <param name="y" type="keyword" list="x,y,z,a,b,c,s"/>
+    <param name="z" type="keyword" list="x,y,z,a,b,c,s"/>
+    <param name="a" type="keyword" list="x,y,z,a,b,c,s"/>
+    <param name="b" type="keyword" list="x,y,z,a,b,c,s"/>
+    <param name="c" type="keyword" list="x,y,z,a,b,c,s"/>
+    <param name="s" type="keyword" list="x,y,z,a,b,c,s"/>
+  </block>
+
+  <block type="Defaults">
+    <param name="command.time" type="int"/>
+    <param name="command.buffer.time" type="int"/>
+  </block>
+
+  <block type="StateDef:state.StateDef"/>
+  <block type="State>AfterImageTime:state.AfterImageTime"/>
+  <block type="State>AllPalFX:state.AllPalFX"/>
+  <block type="State>AngleAdd:state.AngleAdd"/>
+  <block type="State>AngleDraw:state.AngleDraw"/>
+  <block type="State>AngleMul:state.AngleMul"/>
+  <block type="State>AngleSet:state.AngleSet"/>
+  <block type="State>AppendToClipboard:state.AppendToClipboard"/>
+  <block type="State>AssertSpecial:state.AssertSpecial"/>
+  <block type="State>AttackDist:state.AttackDist"/>
+  <block type="State>AttackMulSet:state.AttackMulSet"/>
+  <block type="State>BGPalFX:state.BGPalFX"/>
+  <block type="State>BindToParent:state.BindToParent"/>
+  <block type="State>BindToRoot:state.BindToRoot"/>
+  <block type="State>BindToTarget:state.BindToTarget"/>
+  <block type="State>ChangeAnim:state.ChangeAnim"/>
+  <block type="State>ChangeAnim2:state.ChangeAnim2"/>
+  <block type="State>ChangeState:state.ChangeState"/>
+  <block type="State>ClearClipboard:state.ClearClipboard"/>
+  <block type="State>CtrlSet:state.CtrlSet"/>
+  <block type="State>DefenceMulSet:state.DefenceMulSet"/>
+  <block type="State>DestroySelf:state.DestroySelf"/>
+  <block type="State>DisplayToClipboard:state.DisplayToClipboard"/>
+  <block type="State>EnvColor:state.EnvColor"/>
+  <block type="State>EnvShake:state.EnvShake"/>
+  <block type="State>Explod:state.Explod"/>
+  <block type="State>ExplodBindTime:state.ExplodBindTime"/>
+  <block type="State>ForceFeedback:state.ForceFeedback"/>
+  <block type="State>FallEnvShake:state.FallEnvShake"/>
+  <block type="State>Gravity:state.Gravity"/>
+  <block type="State>Helper:state.Helper"/>
+  <block type="State>HitAdd:state.HitAdd"/>
+  <block type="State>HitBy:state.HitBy"/>
+  <block type="State>HitDef:state.HitDef"/>
+  <block type="State>HitFallDamage:state.HitFallDamage"/>
+  <block type="State>HitFallSet:state.HitFallSet"/>
+  <block type="State>HitFallVel:state.HitFallVel"/>
+  <block type="State>HitOverride:state.HitOverride"/>
+  <block type="State>HitVelSet:state.HitVelSet" deprecated="1.0"/>
+  <block type="State>LifeAdd:state.LifeAdd"/>
+  <block type="State>LifeSet:state.LifeSet"/>
+  <block type="State>MakeDust:state.MakeDust" deprecated="1.0"/>
+  <block type="State>ModifyExplod::state.ModifyExplod"/>
+  <block type="State>MoveHitReset:state.MoveHitReset"/>
+  <block type="State>NotHitBy:state.NotHitBy"/>
+  <block type="State>Offset:state.Offset"/>
+  <block type="State>PalFX:state.PalFX"/>
+  <block type="State>ParentVarAdd:state.ParentVarAdd"/>
+  <block type="State>ParentVarSet:state.ParentVarSet"/>
+  <block type="State>Pause:state.Pause"/>
+  <block type="State>PlayerPush:state.PlayerPush"/>
+  <block type="State>PlaySnd:state.PlaySnd"/>
+  <block type="State>PosAdd:state.PosAdd"/>
+  <block type="State>PosFreeze:state.PosFreeze"/>
+  <block type="State>PosSet:state.PosSet"/>
+  <block type="State>PowerAdd:state.PowerAdd"/>
+  <block type="State>PowerSet:state.PowerSet"/>
+  <block type="State>Projectile:state.Projectile"/>
+  <block type="State>RemapPal:state.RemapPal" minver="1.0"/>
+  <block type="State>RemoveExplod:state.RemoveExplod"/>
+  <block type="State>ReversalDef:state.ReversalDef"/>
+  <block type="State>ScreenBound:state.ScreenBound"/>
+  <block type="State>SelfState:state.SelfState"/>
+  <block type="State>SprPriority:state.SprPriority"/>
+  <block type="State>StateTypeSet:state.StateTypeSet"/>
+  <block type="State>SndPan:state.SndPan"/>
+  <block type="State>StopSnd:state.StopSnd"/>
+  <block type="State>SuperPause:state.SuperPause"/>
+  <block type="State>TagIn:state.TagIn" deprecated="1.0"/>
+  <block type="State>TargetBind:state.TargetBind"/>
+  <block type="State>TargetDrop:state.TargetDrop"/>
+  <block type="State>TargetFacing:state.TargetFacing"/>
+  <block type="State>TargetLifeAdd:state.TargetLifeAdd"/>
+  <block type="State>TargetPowerAdd:state.TargetPowerAdd"/>
+  <block type="State>TargetState:state.TargetState"/>
+  <block type="State>TargetVelAdd:state.TargetVelAdd"/>
+  <block type="State>TargetVelSet:state.TargetVelSet"/>
+  <block type="State>Trans:state.Trans"/>
+  <block type="State>Turn:state.Turn"/>
+  <block type="State>VarAdd:state.VarAdd"/>
+  <block type="State>VarRandom:state.VarRandom"/>
+  <block type="State>VarRangeSet:state.VarRangeSet"/>
+  <block type="State>VarSet:state.VarSet"/>
+  <block type="State>VelAdd:state.VelAdd"/>
+  <block type="State>VelMul:state.VelMul"/>
+  <block type="State>VelSet:state.VelSet"/>
+  <block type="State>VictoryQuote:state.VictoryQuote" minver="1.0"/>
+  <block type="State>Width:state.Width"/>
+  <block type="State>Zoom:state.Zoom"/>
+
+</file>
+
+<file type="stage">
+
+  <block type="Camera">
+    <param name="startx" type="int"/>
+    <param name="starty" type="int"/>
+    <param name="boundleft" type="int"/>
+    <param name="boundright" type="int"/>
+    <param name="boundhigh" type="int"/>
+    <param name="boundlow" type="int"/>
+    <param name="verticalfollow" type="float"/>
+    <param name="floortension" type="int"/>
+    <param name="tension" type="int"/>
+    <param name="tensionhigh" type="int" minver="1.1"/>
+    <param name="tensionlow" type="int" minver="1.1"/>
+    <param name="overdrawleft" type="int" minver="1.0"/>
+    <param name="overdrawright" type="int" minver="1.0"/>
+    <param name="overdrawhigh" type="int" minver="1.0"/>
+    <param name="overdrawlow" type="int" minver="1.0"/>
+    <param name="cuthigh" type="int" minver="1.0"/>
+    <param name="cutlow" type="int" minver="1.0"/>
+    <param name="startzoom" type="float" minver="1.1"/>
+    <param name="zoomout" type="float" minver="1.1"/>
+    <param name="zoomin" type="float" minver="1.1"/>
+  </block>
+
+  <block type="PlayerInfo">
+    <param name="p1startx" type="int" required="true"/>
+    <param name="p1starty" type="int" required="true"/>
+    <param name="p1startz" type="int"/>
+    <param name="p1facing" type="int" required="true"/>
+    <param name="p2startx" type="int" required="true"/>
+    <param name="p2starty" type="int" required="true"/>
+    <param name="p2startz" type="int"/>
+    <param name="p2facing" type="int" required="true"/>
+    <param name="p3startx" type="int"/>
+    <param name="p3starty" type="int"/>
+    <param name="p3startz" type="int"/>
+    <param name="p3facing" type="int"/>
+    <param name="p4startx" type="int"/>
+    <param name="p4starty" type="int"/>
+    <param name="p4startz" type="int"/>
+    <param name="p4facing" type="int"/>
+    <param name="leftbound" type="int" required="true"/>
+    <param name="rightbound" type="int" required="true"/>
+    <param name="topbound" type="int" deprecated="1.0"/>
+    <param name="botbound" type="int" deprecated="1.0"/>
+  </block>
+
+  <block type="Bound">
+    <param name="screenleft" type="int" required="true"/>
+    <param name="screenright" type="int" required="true"/>
+  </block>
+
+  <block type="StageInfo">
+    <param name="zoffset" type="float"/>
+    <param name="zoffsetlink" type="int"/>
+    <param name="autoturn" type="int"/>
+    <param name="resetbg" type="int"/>
+    <param name="localcoord" type="int2" minver="1.0"/>
+    <param name="xscale" type="float" minver="1.0"/>
+    <param name="yscale" type="float" minver="1.0"/>
+    <param name="hires" type="int" deprecated="1.0"/>
+  </block>
+
+  <block type="Shadow">
+    <param name="reflect" type="int" deprecated="WinBeta"/>
+    <param name="intensity" type="int" minver="1.0"/>
+    <param name="color" type="int3"/>
+    <param name="yscale" type="float"/>
+    <param name="fade.range" type="int2" minver="WinBeta"/>
+    <param name="xshear" type="float" minver="1.1"/>
+  </block>
+
+  <block type="Reflection" minver="WinBeta">
+    <param name="intensity" type="int" required="true"/>
+  </block>
+
+  /<block type="Scaling">
+    <param name="topz" type="int" deprecated="1.0" required="true"/>
+    <param name="botz" type="int" deprecated="1.0" required="true"/>
+    <param name="topscale" type="float" deprecated="1.0" required="true"/>
+    <param name="botscale" type="float" deprecated="1.0" required="true"/>
+  </block>
+
+  <block type="Music">
+    <param name="bgmusic" type="file"/>
+    <param name="bgvolume" type="int" deprecated="1.0"/>
+    <param name="bgmvolume" type="int" minver="1.0"/>
+    <param name="bgmloopstart" type="int" minver="1.0"/>
+    <param name="bgmloopend" type="int" minver="1.0"/>
+  </block>
+</file>
+
+<file type="fight">
+
+  <block type="FightFX" minver="1.0">
+    <param name="scale" type="int"/>
+  </block>
+
+  <block type="LifeBar">
+    <param name="p1.pos" type="int2"/>
+    <param name="p1.bg0.anim" type="int"/>
+    <param name="p1.bg0.spr" type="int2"/>
+    <param name="p1.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.bg0.text" type="ustring"/>
+    <param name="p1.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.bg0.offset" type="int2"/>
+    <param name="p1.bg0.displaytime" type="int"/>
+    <param name="p1.bg0.facing" type="int"/>
+    <param name="p1.bg0.vfacing" type="int"/>
+    <param name="p1.bg0.layerno" type="int"/>
+    <param name="p1.bg0.scale" type="float2"/>
+    <param name="p1.bg0.window" type="int4"/>
+    <param name="p1.bg0.angle" type="float" minver="1.1"/>
+    <param name="p1.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p1.bg0.xangle" type="float" minver="1.1"/>
+    <param name="p1.bg1.anim" type="int"/>
+    <param name="p1.bg1.spr" type="int2"/>
+    <param name="p1.bg1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.bg1.text" type="ustring"/>
+    <param name="p1.bg1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.bg1.offset" type="int2"/>
+    <param name="p1.bg1.displaytime" type="int"/>
+    <param name="p1.bg1.facing" type="int"/>
+    <param name="p1.bg1.vfacing" type="int"/>
+    <param name="p1.bg1.layerno" type="int"/>
+    <param name="p1.bg1.scale" type="float2"/>
+    <param name="p1.bg1.window" type="int4"/>
+    <param name="p1.bg1.angle" type="float" minver="1.1"/>
+    <param name="p1.bg1.yangle" type="float" minver="1.1"/>
+    <param name="p1.bg1.xangle" type="float" minver="1.1"/>
+    <param name="p1.bg2.anim" type="int"/>
+    <param name="p1.bg2.spr" type="int2"/>
+    <param name="p1.bg2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.bg2.text" type="ustring"/>
+    <param name="p1.bg2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.bg2.offset" type="int2"/>
+    <param name="p1.bg2.displaytime" type="int"/>
+    <param name="p1.bg2.facing" type="int"/>
+    <param name="p1.bg2.vfacing" type="int"/>
+    <param name="p1.bg2.layerno" type="int"/>
+    <param name="p1.bg2.scale" type="float2"/>
+    <param name="p1.bg2.window" type="int4"/>
+    <param name="p1.bg2.angle" type="float" minver="1.1"/>
+    <param name="p1.bg2.yangle" type="float" minver="1.1"/>
+    <param name="p1.bg2.xangle" type="float" minver="1.1"/>
+    <param name="p1.mid.anim" type="int"/>
+    <param name="p1.mid.spr" type="int2"/>
+    <param name="p1.mid.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.mid.text" type="ustring"/>
+    <param name="p1.mid.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.mid.offset" type="int2"/>
+    <param name="p1.mid.displaytime" type="int"/>
+    <param name="p1.mid.facing" type="int"/>
+    <param name="p1.mid.vfacing" type="int"/>
+    <param name="p1.mid.layerno" type="int"/>
+    <param name="p1.mid.scale" type="float2"/>
+    <param name="p1.mid.window" type="int4"/>
+    <param name="p1.mid.angle" type="float" minver="1.1"/>
+    <param name="p1.mid.yangle" type="float" minver="1.1"/>
+    <param name="p1.mid.xangle" type="float" minver="1.1"/>
+    <param name="p1.front.anim" type="int"/>
+    <param name="p1.front.spr" type="int2"/>
+    <param name="p1.front.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.front.text" type="ustring"/>
+    <param name="p1.front.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.front.offset" type="int2"/>
+    <param name="p1.front.displaytime" type="int"/>
+    <param name="p1.front.facing" type="int"/>
+    <param name="p1.front.vfacing" type="int"/>
+    <param name="p1.front.layerno" type="int"/>
+    <param name="p1.front.scale" type="float2"/>
+    <param name="p1.front.window" type="int4"/>
+    <param name="p1.front.angle" type="float" minver="1.1"/>
+    <param name="p1.front.yangle" type="float" minver="1.1"/>
+    <param name="p1.front.xangle" type="float" minver="1.1"/>
+    <param name="p1.range.x" type="int2"/>
+
+    <param name="p2.pos" type="int2"/>
+    <param name="p2.bg0.anim" type="int"/>
+    <param name="p2.bg0.spr" type="int2"/>
+    <param name="p2.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.bg0.text" type="ustring"/>
+    <param name="p2.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.bg0.offset" type="int2"/>
+    <param name="p2.bg0.displaytime" type="int"/>
+    <param name="p2.bg0.facing" type="int"/>
+    <param name="p2.bg0.vfacing" type="int"/>
+    <param name="p2.bg0.layerno" type="int"/>
+    <param name="p2.bg0.scale" type="float2"/>
+    <param name="p2.bg0.window" type="int4"/>
+    <param name="p2.bg0.angle" type="float" minver="1.1"/>
+    <param name="p2.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p2.bg0.xangle" type="float" minver="1.1"/>
+    <param name="p2.bg1.anim" type="int"/>
+    <param name="p2.bg1.spr" type="int2"/>
+    <param name="p2.bg1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.bg1.text" type="ustring"/>
+    <param name="p2.bg1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.bg1.offset" type="int2"/>
+    <param name="p2.bg1.displaytime" type="int"/>
+    <param name="p2.bg1.facing" type="int"/>
+    <param name="p2.bg1.vfacing" type="int"/>
+    <param name="p2.bg1.layerno" type="int"/>
+    <param name="p2.bg1.scale" type="float2"/>
+    <param name="p2.bg1.window" type="int4"/>
+    <param name="p2.bg1.angle" type="float" minver="1.1"/>
+    <param name="p2.bg1.yangle" type="float" minver="1.1"/>
+    <param name="p2.bg1.xangle" type="float" minver="1.1"/>
+    <param name="p2.bg2.anim" type="int"/>
+    <param name="p2.bg2.spr" type="int2"/>
+    <param name="p2.bg2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.bg2.text" type="ustring"/>
+    <param name="p2.bg2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.bg2.offset" type="int2"/>
+    <param name="p2.bg2.displaytime" type="int"/>
+    <param name="p2.bg2.facing" type="int"/>
+    <param name="p2.bg2.vfacing" type="int"/>
+    <param name="p2.bg2.layerno" type="int"/>
+    <param name="p2.bg2.scale" type="float2"/>
+    <param name="p2.bg2.window" type="int4"/>
+    <param name="p2.bg2.angle" type="float" minver="1.1"/>
+    <param name="p2.bg2.yangle" type="float" minver="1.1"/>
+    <param name="p2.bg2.xangle" type="float" minver="1.1"/>
+    <param name="p2.mid.anim" type="int"/>
+    <param name="p2.mid.spr" type="int2"/>
+    <param name="p2.mid.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.mid.text" type="ustring"/>
+    <param name="p2.mid.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.mid.offset" type="int2"/>
+    <param name="p2.mid.displaytime" type="int"/>
+    <param name="p2.mid.facing" type="int"/>
+    <param name="p2.mid.vfacing" type="int"/>
+    <param name="p2.mid.layerno" type="int"/>
+    <param name="p2.mid.scale" type="float2"/>
+    <param name="p2.mid.window" type="int4"/>
+    <param name="p2.mid.angle" type="float" minver="1.1"/>
+    <param name="p2.mid.yangle" type="float" minver="1.1"/>
+    <param name="p2.mid.xangle" type="float" minver="1.1"/>
+    <param name="p2.front.anim" type="int"/>
+    <param name="p2.front.spr" type="int2"/>
+    <param name="p2.front.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.front.text" type="ustring"/>
+    <param name="p2.front.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.front.offset" type="int2"/>
+    <param name="p2.front.displaytime" type="int"/>
+    <param name="p2.front.facing" type="int"/>
+    <param name="p2.front.vfacing" type="int"/>
+    <param name="p2.front.layerno" type="int"/>
+    <param name="p2.front.scale" type="float2"/>
+    <param name="p2.front.window" type="int4"/>
+    <param name="p2.front.angle" type="float" minver="1.1"/>
+    <param name="p2.front.yangle" type="float" minver="1.1"/>
+    <param name="p2.front.xangle" type="float" minver="1.1"/>
+    <param name="p2.range.x" type="int2"/>
+  </block>
+
+  <block type="Simul LifeBar:LifeBar">
+    <param name="p3.pos" type="int2"/>
+    <param name="p3.bg0.anim" type="int"/>
+    <param name="p3.bg0.spr" type="int2"/>
+    <param name="p3.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.bg0.text" type="ustring"/>
+    <param name="p3.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.bg0.offset" type="int2"/>
+    <param name="p3.bg0.displaytime" type="int"/>
+    <param name="p3.bg0.facing" type="int"/>
+    <param name="p3.bg0.vfacing" type="int"/>
+    <param name="p3.bg0.layerno" type="int"/>
+    <param name="p3.bg0.scale" type="float2"/>
+    <param name="p3.bg0.window" type="int4"/>
+    <param name="p3.bg0.angle" type="float" minver="1.1"/>
+    <param name="p3.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p3.bg0.xangle" type="float" minver="1.1"/>
+    <param name="p3.bg1.anim" type="int"/>
+    <param name="p3.bg1.spr" type="int2"/>
+    <param name="p3.bg1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.bg1.text" type="ustring"/>
+    <param name="p3.bg1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.bg1.offset" type="int2"/>
+    <param name="p3.bg1.displaytime" type="int"/>
+    <param name="p3.bg1.facing" type="int"/>
+    <param name="p3.bg1.vfacing" type="int"/>
+    <param name="p3.bg1.layerno" type="int"/>
+    <param name="p3.bg1.scale" type="float2"/>
+    <param name="p3.bg1.window" type="int4"/>
+    <param name="p3.bg1.angle" type="float" minver="1.1"/>
+    <param name="p3.bg1.yangle" type="float" minver="1.1"/>
+    <param name="p3.bg1.xangle" type="float" minver="1.1"/>
+    <param name="p3.bg2.anim" type="int"/>
+    <param name="p3.bg2.spr" type="int2"/>
+    <param name="p3.bg2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.bg2.text" type="ustring"/>
+    <param name="p3.bg2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.bg2.offset" type="int2"/>
+    <param name="p3.bg2.displaytime" type="int"/>
+    <param name="p3.bg2.facing" type="int"/>
+    <param name="p3.bg2.vfacing" type="int"/>
+    <param name="p3.bg2.layerno" type="int"/>
+    <param name="p3.bg2.scale" type="float2"/>
+    <param name="p3.bg2.window" type="int4"/>
+    <param name="p3.bg2.angle" type="float" minver="1.1"/>
+    <param name="p3.bg2.yangle" type="float" minver="1.1"/>
+    <param name="p3.bg2.xangle" type="float" minver="1.1"/>
+    <param name="p3.mid.anim" type="int"/>
+    <param name="p3.mid.spr" type="int2"/>
+    <param name="p3.mid.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.mid.text" type="ustring"/>
+    <param name="p3.mid.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.mid.offset" type="int2"/>
+    <param name="p3.mid.displaytime" type="int"/>
+    <param name="p3.mid.facing" type="int"/>
+    <param name="p3.mid.vfacing" type="int"/>
+    <param name="p3.mid.layerno" type="int"/>
+    <param name="p3.mid.scale" type="float2"/>
+    <param name="p3.mid.window" type="int4"/>
+    <param name="p3.mid.angle" type="float" minver="1.1"/>
+    <param name="p3.mid.yangle" type="float" minver="1.1"/>
+    <param name="p3.mid.xangle" type="float" minver="1.1"/>
+    <param name="p3.front.anim" type="int"/>
+    <param name="p3.front.spr" type="int2"/>
+    <param name="p3.front.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.front.text" type="ustring"/>
+    <param name="p3.front.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.front.offset" type="int2"/>
+    <param name="p3.front.displaytime" type="int"/>
+    <param name="p3.front.facing" type="int"/>
+    <param name="p3.front.vfacing" type="int"/>
+    <param name="p3.front.layerno" type="int"/>
+    <param name="p3.front.scale" type="float2"/>
+    <param name="p3.front.window" type="int4"/>
+    <param name="p3.front.angle" type="float" minver="1.1"/>
+    <param name="p3.front.yangle" type="float" minver="1.1"/>
+    <param name="p3.front.xangle" type="float" minver="1.1"/>
+    <param name="p3.range.x" type="int2"/>
+
+    <param name="p4.pos" type="int2"/>
+    <param name="p4.bg0.anim" type="int"/>
+    <param name="p4.bg0.spr" type="int2"/>
+    <param name="p4.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.bg0.text" type="ustring"/>
+    <param name="p4.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.bg0.offset" type="int2"/>
+    <param name="p4.bg0.displaytime" type="int"/>
+    <param name="p4.bg0.facing" type="int"/>
+    <param name="p4.bg0.vfacing" type="int"/>
+    <param name="p4.bg0.layerno" type="int"/>
+    <param name="p4.bg0.scale" type="float2"/>
+    <param name="p4.bg0.window" type="int4"/>
+    <param name="p4.bg0.angle" type="float" minver="1.1"/>
+    <param name="p4.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p4.bg0.xangle" type="float" minver="1.1"/>
+    <param name="p4.bg1.anim" type="int"/>
+    <param name="p4.bg1.spr" type="int2"/>
+    <param name="p4.bg1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.bg1.text" type="ustring"/>
+    <param name="p4.bg1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.bg1.offset" type="int2"/>
+    <param name="p4.bg1.displaytime" type="int"/>
+    <param name="p4.bg1.facing" type="int"/>
+    <param name="p4.bg1.vfacing" type="int"/>
+    <param name="p4.bg1.layerno" type="int"/>
+    <param name="p4.bg1.scale" type="float2"/>
+    <param name="p4.bg1.window" type="int4"/>
+    <param name="p4.bg1.angle" type="float" minver="1.1"/>
+    <param name="p4.bg1.yangle" type="float" minver="1.1"/>
+    <param name="p4.bg1.xangle" type="float" minver="1.1"/>
+    <param name="p4.bg2.anim" type="int"/>
+    <param name="p4.bg2.spr" type="int2"/>
+    <param name="p4.bg2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.bg2.text" type="ustring"/>
+    <param name="p4.bg2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.bg2.offset" type="int2"/>
+    <param name="p4.bg2.displaytime" type="int"/>
+    <param name="p4.bg2.facing" type="int"/>
+    <param name="p4.bg2.vfacing" type="int"/>
+    <param name="p4.bg2.layerno" type="int"/>
+    <param name="p4.bg2.scale" type="float2"/>
+    <param name="p4.bg2.window" type="int4"/>
+    <param name="p4.bg2.angle" type="float" minver="1.1"/>
+    <param name="p4.bg2.yangle" type="float" minver="1.1"/>
+    <param name="p4.bg2.xangle" type="float" minver="1.1"/>
+    <param name="p4.mid.anim" type="int"/>
+    <param name="p4.mid.spr" type="int2"/>
+    <param name="p4.mid.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.mid.text" type="ustring"/>
+    <param name="p4.mid.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.mid.offset" type="int2"/>
+    <param name="p4.mid.displaytime" type="int"/>
+    <param name="p4.mid.facing" type="int"/>
+    <param name="p4.mid.vfacing" type="int"/>
+    <param name="p4.mid.layerno" type="int"/>
+    <param name="p4.mid.scale" type="float2"/>
+    <param name="p4.mid.window" type="int4"/>
+    <param name="p4.mid.angle" type="float" minver="1.1"/>
+    <param name="p4.mid.yangle" type="float" minver="1.1"/>
+    <param name="p4.mid.xangle" type="float" minver="1.1"/>
+    <param name="p4.front.anim" type="int"/>
+    <param name="p4.front.spr" type="int2"/>
+    <param name="p4.front.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.front.text" type="ustring"/>
+    <param name="p4.front.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.front.offset" type="int2"/>
+    <param name="p4.front.displaytime" type="int"/>
+    <param name="p4.front.facing" type="int"/>
+    <param name="p4.front.vfacing" type="int"/>
+    <param name="p4.front.layerno" type="int"/>
+    <param name="p4.front.scale" type="float2"/>
+    <param name="p4.front.window" type="int4"/>
+    <param name="p4.front.angle" type="float" minver="1.1"/>
+    <param name="p4.front.yangle" type="float" minver="1.1"/>
+    <param name="p4.front.xangle" type="float" minver="1.1"/>
+    <param name="p4.range.x" type="int2"/>
+  </block>
+
+  <block type="Turns LifeBar:LifeBar">
+  </block>
+
+  <block type="PowerBar:LifeBar">
+    <param name="p1.counter.anim" type="int"/>
+    <param name="p1.counter.spr" type="int2"/>
+    <param name="p1.counter.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.counter.text" type="ustring"/>
+    <param name="p1.counter.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.counter.offset" type="int2"/>
+    <param name="p1.counter.displaytime" type="int"/>
+    <param name="p1.counter.facing" type="int"/>
+    <param name="p1.counter.vfacing" type="int"/>
+    <param name="p1.counter.layerno" type="int"/>
+    <param name="p1.counter.scale" type="float2"/>
+    <param name="p1.counter.window" type="int4"/>
+    <param name="p1.counter.angle" type="float" minver="1.1"/>
+    <param name="p1.counter.yangle" type="float" minver="1.1"/>
+    <param name="p1.counter.xangle" type="float" minver="1.1"/>
+    <param name="p2.counter.anim" type="int"/>
+    <param name="p2.counter.spr" type="int2"/>
+    <param name="p2.counter.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.counter.text" type="ustring"/>
+    <param name="p2.counter.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.counter.offset" type="int2"/>
+    <param name="p2.counter.displaytime" type="int"/>
+    <param name="p2.counter.facing" type="int"/>
+    <param name="p2.counter.vfacing" type="int"/>
+    <param name="p2.counter.layerno" type="int"/>
+    <param name="p2.counter.scale" type="float2"/>
+    <param name="p2.counter.window" type="int4"/>
+    <param name="p2.counter.angle" type="float" minver="1.1"/>
+    <param name="p2.counter.yangle" type="float" minver="1.1"/>
+    <param name="p2.counter.xangle" type="float" minver="1.1"/>
+    <param name="level1.snd" type="int2"/>
+    <param name="level2.snd" type="int2"/>
+    <param name="level3.snd" type="int2"/>
+    <param name="level4.snd" type="int2"/>
+    <param name="level5.snd" type="int2"/>
+    <param name="level6.snd" type="int2"/>
+    <param name="level7.snd" type="int2"/>
+    <param name="level8.snd" type="int2"/>
+    <param name="level9.snd" type="int2"/>
+    <param name="level10.snd" type="int2"/>
+  </block>
+
+  <block type="Face">
+    <param name="p1.pos" type="int2"/>
+    <param name="p1.facing" type="int"/>
+    <param name="p1.bg.anim" type="int"/>
+    <param name="p1.bg.spr" type="int2"/>
+    <param name="p1.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.bg.text" type="ustring"/>
+    <param name="p1.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.bg.offset" type="int2"/>
+    <param name="p1.bg.displaytime" type="int"/>
+    <param name="p1.bg.facing" type="int"/>
+    <param name="p1.bg.vfacing" type="int"/>
+    <param name="p1.bg.layerno" type="int"/>
+    <param name="p1.bg.scale" type="float2"/>
+    <param name="p1.bg.window" type="int4"/>
+    <param name="p1.bg.angle" type="float" minver="1.1"/>
+    <param name="p1.bg.yangle" type="float" minver="1.1"/>
+    <param name="p1.bg.xangle" type="float" minver="1.1"/>
+    <param name="p1.bg0.anim" type="int"/>
+    <param name="p1.bg0.spr" type="int2"/>
+    <param name="p1.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.bg0.text" type="ustring"/>
+    <param name="p1.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.bg0.offset" type="int2"/>
+    <param name="p1.bg0.displaytime" type="int"/>
+    <param name="p1.bg0.facing" type="int"/>
+    <param name="p1.bg0.vfacing" type="int"/>
+    <param name="p1.bg0.layerno" type="int"/>
+    <param name="p1.bg0.scale" type="float2"/>
+    <param name="p1.bg0.window" type="int4"/>
+    <param name="p1.bg0.angle" type="float" minver="1.1"/>
+    <param name="p1.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p1.bg0.xangle" type="float" minver="1.1"/>
+    <param name="p1.bg1.anim" type="int"/>
+    <param name="p1.bg1.spr" type="int2"/>
+    <param name="p1.bg1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.bg1.text" type="ustring"/>
+    <param name="p1.bg1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.bg1.offset" type="int2"/>
+    <param name="p1.bg1.displaytime" type="int"/>
+    <param name="p1.bg1.facing" type="int"/>
+    <param name="p1.bg1.vfacing" type="int"/>
+    <param name="p1.bg1.layerno" type="int"/>
+    <param name="p1.bg1.scale" type="float2"/>
+    <param name="p1.bg1.window" type="int4"/>
+    <param name="p1.bg1.angle" type="float" minver="1.1"/>
+    <param name="p1.bg1.yangle" type="float" minver="1.1"/>
+    <param name="p1.bg1.xangle" type="float" minver="1.1"/>
+    <param name="p1.bg2.anim" type="int"/>
+    <param name="p1.bg2.spr" type="int2"/>
+    <param name="p1.bg2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.bg2.text" type="ustring"/>
+    <param name="p1.bg2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.bg2.offset" type="int2"/>
+    <param name="p1.bg2.displaytime" type="int"/>
+    <param name="p1.bg2.facing" type="int"/>
+    <param name="p1.bg2.vfacing" type="int"/>
+    <param name="p1.bg2.layerno" type="int"/>
+    <param name="p1.bg2.scale" type="float2"/>
+    <param name="p1.bg2.window" type="int4"/>
+    <param name="p1.bg2.angle" type="float" minver="1.1"/>
+    <param name="p1.bg2.yangle" type="float" minver="1.1"/>
+    <param name="p1.bg2.xangle" type="float" minver="1.1"/>
+    <param name="p1.face.anim" type="int"/>
+    <param name="p1.face.spr" type="int2"/>
+    <param name="p1.face.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.face.text" type="ustring"/>
+    <param name="p1.face.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.face.offset" type="int2"/>
+    <param name="p1.face.displaytime" type="int"/>
+    <param name="p1.face.facing" type="int"/>
+    <param name="p1.face.vfacing" type="int"/>
+    <param name="p1.face.layerno" type="int"/>
+    <param name="p1.face.scale" type="float2"/>
+    <param name="p1.face.window" type="int4"/>
+    <param name="p1.face.angle" type="float" minver="1.1"/>
+    <param name="p1.face.yangle" type="float" minver="1.1"/>
+    <param name="p1.face.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.pos" type="int2"/>
+    <param name="p2.facing" type="int"/>
+    <param name="p2.bg.anim" type="int"/>
+    <param name="p2.bg.spr" type="int2"/>
+    <param name="p2.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.bg.text" type="ustring"/>
+    <param name="p2.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.bg.offset" type="int2"/>
+    <param name="p2.bg.displaytime" type="int"/>
+    <param name="p2.bg.facing" type="int"/>
+    <param name="p2.bg.vfacing" type="int"/>
+    <param name="p2.bg.layerno" type="int"/>
+    <param name="p2.bg.scale" type="float2"/>
+    <param name="p2.bg.window" type="int4"/>
+    <param name="p2.bg.angle" type="float" minver="1.1"/>
+    <param name="p2.bg.yangle" type="float" minver="1.1"/>
+    <param name="p2.bg.xangle" type="float" minver="1.1"/>
+    <param name="p2.bg0.anim" type="int"/>
+    <param name="p2.bg0.spr" type="int2"/>
+    <param name="p2.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.bg0.text" type="ustring"/>
+    <param name="p2.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.bg0.offset" type="int2"/>
+    <param name="p2.bg0.displaytime" type="int"/>
+    <param name="p2.bg0.facing" type="int"/>
+    <param name="p2.bg0.vfacing" type="int"/>
+    <param name="p2.bg0.layerno" type="int"/>
+    <param name="p2.bg0.scale" type="float2"/>
+    <param name="p2.bg0.window" type="int4"/>
+    <param name="p2.bg0.angle" type="float" minver="1.1"/>
+    <param name="p2.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p2.bg0.xangle" type="float" minver="1.1"/>
+    <param name="p2.bg1.anim" type="int"/>
+    <param name="p2.bg1.spr" type="int2"/>
+    <param name="p2.bg1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.bg1.text" type="ustring"/>
+    <param name="p2.bg1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.bg1.offset" type="int2"/>
+    <param name="p2.bg1.displaytime" type="int"/>
+    <param name="p2.bg1.facing" type="int"/>
+    <param name="p2.bg1.vfacing" type="int"/>
+    <param name="p2.bg1.layerno" type="int"/>
+    <param name="p2.bg1.scale" type="float2"/>
+    <param name="p2.bg1.window" type="int4"/>
+    <param name="p2.bg1.angle" type="float" minver="1.1"/>
+    <param name="p2.bg1.yangle" type="float" minver="1.1"/>
+    <param name="p2.bg1.xangle" type="float" minver="1.1"/>
+    <param name="p2.bg2.anim" type="int"/>
+    <param name="p2.bg2.spr" type="int2"/>
+    <param name="p2.bg2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.bg2.text" type="ustring"/>
+    <param name="p2.bg2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.bg2.offset" type="int2"/>
+    <param name="p2.bg2.displaytime" type="int"/>
+    <param name="p2.bg2.facing" type="int"/>
+    <param name="p2.bg2.vfacing" type="int"/>
+    <param name="p2.bg2.layerno" type="int"/>
+    <param name="p2.bg2.scale" type="float2"/>
+    <param name="p2.bg2.window" type="int4"/>
+    <param name="p2.bg2.angle" type="float" minver="1.1"/>
+    <param name="p2.bg2.yangle" type="float" minver="1.1"/>
+    <param name="p2.bg2.xangle" type="float" minver="1.1"/>
+    <param name="p2.face.anim" type="int"/>
+    <param name="p2.face.spr" type="int2"/>
+    <param name="p2.face.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.face.text" type="ustring"/>
+    <param name="p2.face.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.face.offset" type="int2"/>
+    <param name="p2.face.displaytime" type="int"/>
+    <param name="p2.face.facing" type="int"/>
+    <param name="p2.face.vfacing" type="int"/>
+    <param name="p2.face.layerno" type="int"/>
+    <param name="p2.face.scale" type="float2"/>
+    <param name="p2.face.window" type="int4"/>
+    <param name="p2.face.angle" type="float" minver="1.1"/>
+    <param name="p2.face.yangle" type="float" minver="1.1"/>
+    <param name="p2.face.xangle" type="float" minver="1.1"/>
+  </block>
+
+  <block type="Simul Face:Face">
+    <param name="p3.pos" type="int2"/>
+    <param name="p3.facing" type="int"/>
+    <param name="p3.bg.anim" type="int"/>
+    <param name="p3.bg.spr" type="int2"/>
+    <param name="p3.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.bg.text" type="ustring"/>
+    <param name="p3.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.bg.offset" type="int2"/>
+    <param name="p3.bg.displaytime" type="int"/>
+    <param name="p3.bg.facing" type="int"/>
+    <param name="p3.bg.vfacing" type="int"/>
+    <param name="p3.bg.layerno" type="int"/>
+    <param name="p3.bg.scale" type="float2"/>
+    <param name="p3.bg.window" type="int4"/>
+    <param name="p3.bg.angle" type="float" minver="1.1"/>
+    <param name="p3.bg.yangle" type="float" minver="1.1"/>
+    <param name="p3.bg.xangle" type="float" minver="1.1"/>
+    <param name="p3.bg0.anim" type="int"/>
+    <param name="p3.bg0.spr" type="int2"/>
+    <param name="p3.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.bg0.text" type="ustring"/>
+    <param name="p3.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.bg0.offset" type="int2"/>
+    <param name="p3.bg0.displaytime" type="int"/>
+    <param name="p3.bg0.facing" type="int"/>
+    <param name="p3.bg0.vfacing" type="int"/>
+    <param name="p3.bg0.layerno" type="int"/>
+    <param name="p3.bg0.scale" type="float2"/>
+    <param name="p3.bg0.window" type="int4"/>
+    <param name="p3.bg0.angle" type="float" minver="1.1"/>
+    <param name="p3.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p3.bg0.xangle" type="float" minver="1.1"/>
+    <param name="p3.bg1.anim" type="int"/>
+    <param name="p3.bg1.spr" type="int2"/>
+    <param name="p3.bg1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.bg1.text" type="ustring"/>
+    <param name="p3.bg1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.bg1.offset" type="int2"/>
+    <param name="p3.bg1.displaytime" type="int"/>
+    <param name="p3.bg1.facing" type="int"/>
+    <param name="p3.bg1.vfacing" type="int"/>
+    <param name="p3.bg1.layerno" type="int"/>
+    <param name="p3.bg1.scale" type="float2"/>
+    <param name="p3.bg1.window" type="int4"/>
+    <param name="p3.bg1.angle" type="float" minver="1.1"/>
+    <param name="p3.bg1.yangle" type="float" minver="1.1"/>
+    <param name="p3.bg1.xangle" type="float" minver="1.1"/>
+    <param name="p3.bg2.anim" type="int"/>
+    <param name="p3.bg2.spr" type="int2"/>
+    <param name="p3.bg2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.bg2.text" type="ustring"/>
+    <param name="p3.bg2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.bg2.offset" type="int2"/>
+    <param name="p3.bg2.displaytime" type="int"/>
+    <param name="p3.bg2.facing" type="int"/>
+    <param name="p3.bg2.vfacing" type="int"/>
+    <param name="p3.bg2.layerno" type="int"/>
+    <param name="p3.bg2.scale" type="float2"/>
+    <param name="p3.bg2.window" type="int4"/>
+    <param name="p3.bg2.angle" type="float" minver="1.1"/>
+    <param name="p3.bg2.yangle" type="float" minver="1.1"/>
+    <param name="p3.bg2.xangle" type="float" minver="1.1"/>
+    <param name="p3.face.anim" type="int"/>
+    <param name="p3.face.spr" type="int2"/>
+    <param name="p3.face.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.face.text" type="ustring"/>
+    <param name="p3.face.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.face.offset" type="int2"/>
+    <param name="p3.face.displaytime" type="int"/>
+    <param name="p3.face.facing" type="int"/>
+    <param name="p3.face.vfacing" type="int"/>
+    <param name="p3.face.layerno" type="int"/>
+    <param name="p3.face.scale" type="float2"/>
+    <param name="p3.face.window" type="int4"/>
+    <param name="p3.face.angle" type="float" minver="1.1"/>
+    <param name="p3.face.yangle" type="float" minver="1.1"/>
+    <param name="p3.face.xangle" type="float" minver="1.1"/>
+
+    <param name="p4.pos" type="int2"/>
+    <param name="p4.facing" type="int"/>
+    <param name="p4.bg.anim" type="int"/>
+    <param name="p4.bg.spr" type="int2"/>
+    <param name="p4.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.bg.text" type="ustring"/>
+    <param name="p4.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.bg.offset" type="int2"/>
+    <param name="p4.bg.displaytime" type="int"/>
+    <param name="p4.bg.facing" type="int"/>
+    <param name="p4.bg.vfacing" type="int"/>
+    <param name="p4.bg.layerno" type="int"/>
+    <param name="p4.bg.scale" type="float2"/>
+    <param name="p4.bg.window" type="int4"/>
+    <param name="p4.bg.angle" type="float" minver="1.1"/>
+    <param name="p4.bg.yangle" type="float" minver="1.1"/>
+    <param name="p4.bg.xangle" type="float" minver="1.1"/>
+    <param name="p4.bg0.anim" type="int"/>
+    <param name="p4.bg0.spr" type="int2"/>
+    <param name="p4.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.bg0.text" type="ustring"/>
+    <param name="p4.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.bg0.offset" type="int2"/>
+    <param name="p4.bg0.displaytime" type="int"/>
+    <param name="p4.bg0.facing" type="int"/>
+    <param name="p4.bg0.vfacing" type="int"/>
+    <param name="p4.bg0.layerno" type="int"/>
+    <param name="p4.bg0.scale" type="float2"/>
+    <param name="p4.bg0.window" type="int4"/>
+    <param name="p4.bg0.angle" type="float" minver="1.1"/>
+    <param name="p4.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p4.bg0.xangle" type="float" minver="1.1"/>
+    <param name="p4.bg1.anim" type="int"/>
+    <param name="p4.bg1.spr" type="int2"/>
+    <param name="p4.bg1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.bg1.text" type="ustring"/>
+    <param name="p4.bg1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.bg1.offset" type="int2"/>
+    <param name="p4.bg1.displaytime" type="int"/>
+    <param name="p4.bg1.facing" type="int"/>
+    <param name="p4.bg1.vfacing" type="int"/>
+    <param name="p4.bg1.layerno" type="int"/>
+    <param name="p4.bg1.scale" type="float2"/>
+    <param name="p4.bg1.window" type="int4"/>
+    <param name="p4.bg1.angle" type="float" minver="1.1"/>
+    <param name="p4.bg1.yangle" type="float" minver="1.1"/>
+    <param name="p4.bg1.xangle" type="float" minver="1.1"/>
+    <param name="p4.bg2.anim" type="int"/>
+    <param name="p4.bg2.spr" type="int2"/>
+    <param name="p4.bg2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.bg2.text" type="ustring"/>
+    <param name="p4.bg2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.bg2.offset" type="int2"/>
+    <param name="p4.bg2.displaytime" type="int"/>
+    <param name="p4.bg2.facing" type="int"/>
+    <param name="p4.bg2.vfacing" type="int"/>
+    <param name="p4.bg2.layerno" type="int"/>
+    <param name="p4.bg2.scale" type="float2"/>
+    <param name="p4.bg2.window" type="int4"/>
+    <param name="p4.bg2.angle" type="float" minver="1.1"/>
+    <param name="p4.bg2.yangle" type="float" minver="1.1"/>
+    <param name="p4.bg2.xangle" type="float" minver="1.1"/>
+    <param name="p4.face.anim" type="int"/>
+    <param name="p4.face.spr" type="int2"/>
+    <param name="p4.face.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.face.text" type="ustring"/>
+    <param name="p4.face.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.face.offset" type="int2"/>
+    <param name="p4.face.displaytime" type="int"/>
+    <param name="p4.face.facing" type="int"/>
+    <param name="p4.face.vfacing" type="int"/>
+    <param name="p4.face.layerno" type="int"/>
+    <param name="p4.face.scale" type="float2"/>
+    <param name="p4.face.window" type="int4"/>
+    <param name="p4.face.angle" type="float" minver="1.1"/>
+    <param name="p4.face.yangle" type="float" minver="1.1"/>
+    <param name="p4.face.xangle" type="float" minver="1.1"/>
+  </block>
+
+  <block type="Turns Face:Face">
+    <param name="p1.teammate.pos" type="int2"/>
+    <param name="p1.teammate.spacing" type="int2"/>
+    <param name="p1.teammate.facing" type="int"/>
+    <param name="p1.teammate.bg.anim" type="int"/>
+    <param name="p1.teammate.bg.spr" type="int2"/>
+    <param name="p1.teammate.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammate.bg.text" type="ustring"/>
+    <param name="p1.teammate.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammate.bg.offset" type="int2"/>
+    <param name="p1.teammate.bg.displaytime" type="int"/>
+    <param name="p1.teammate.bg.facing" type="int"/>
+    <param name="p1.teammate.bg.vfacing" type="int"/>
+    <param name="p1.teammate.bg.layerno" type="int"/>
+    <param name="p1.teammate.bg.scale" type="float2"/>
+    <param name="p1.teammate.bg.window" type="int4"/>
+    <param name="p1.teammate.bg.angle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg0.anim" type="int"/>
+    <param name="p1.teammate.bg0.spr" type="int2"/>
+    <param name="p1.teammate.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammate.bg0.text" type="ustring"/>
+    <param name="p1.teammate.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammate.bg0.offset" type="int2"/>
+    <param name="p1.teammate.bg0.displaytime" type="int"/>
+    <param name="p1.teammate.bg0.facing" type="int"/>
+    <param name="p1.teammate.bg0.vfacing" type="int"/>
+    <param name="p1.teammate.bg0.layerno" type="int"/>
+    <param name="p1.teammate.bg0.scale" type="float2"/>
+    <param name="p1.teammate.bg0.window" type="int4"/>
+    <param name="p1.teammate.bg0.angle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg0.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg1.anim" type="int"/>
+    <param name="p1.teammate.bg1.spr" type="int2"/>
+    <param name="p1.teammate.bg1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammate.bg1.text" type="ustring"/>
+    <param name="p1.teammate.bg1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammate.bg1.offset" type="int2"/>
+    <param name="p1.teammate.bg1.displaytime" type="int"/>
+    <param name="p1.teammate.bg1.facing" type="int"/>
+    <param name="p1.teammate.bg1.vfacing" type="int"/>
+    <param name="p1.teammate.bg1.layerno" type="int"/>
+    <param name="p1.teammate.bg1.scale" type="float2"/>
+    <param name="p1.teammate.bg1.window" type="int4"/>
+    <param name="p1.teammate.bg1.angle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg1.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg1.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg2.anim" type="int"/>
+    <param name="p1.teammate.bg2.spr" type="int2"/>
+    <param name="p1.teammate.bg2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammate.bg2.text" type="ustring"/>
+    <param name="p1.teammate.bg2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammate.bg2.offset" type="int2"/>
+    <param name="p1.teammate.bg2.displaytime" type="int"/>
+    <param name="p1.teammate.bg2.facing" type="int"/>
+    <param name="p1.teammate.bg2.vfacing" type="int"/>
+    <param name="p1.teammate.bg2.layerno" type="int"/>
+    <param name="p1.teammate.bg2.scale" type="float2"/>
+    <param name="p1.teammate.bg2.window" type="int4"/>
+    <param name="p1.teammate.bg2.angle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg2.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.bg2.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.face.anim" type="int"/>
+    <param name="p1.teammate.face.spr" type="int2"/>
+    <param name="p1.teammate.face.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammate.face.text" type="ustring"/>
+    <param name="p1.teammate.face.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammate.face.offset" type="int2"/>
+    <param name="p1.teammate.face.displaytime" type="int"/>
+    <param name="p1.teammate.face.facing" type="int"/>
+    <param name="p1.teammate.face.vfacing" type="int"/>
+    <param name="p1.teammate.face.layerno" type="int"/>
+    <param name="p1.teammate.face.scale" type="float2"/>
+    <param name="p1.teammate.face.window" type="int4"/>
+    <param name="p1.teammate.face.angle" type="float" minver="1.1"/>
+    <param name="p1.teammate.face.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.face.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.ko.anim" type="int"/>
+    <param name="p1.teammate.ko.spr" type="int2"/>
+    <param name="p1.teammate.ko.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammate.ko.text" type="ustring"/>
+    <param name="p1.teammate.ko.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammate.ko.offset" type="int2"/>
+    <param name="p1.teammate.ko.displaytime" type="int"/>
+    <param name="p1.teammate.ko.facing" type="int"/>
+    <param name="p1.teammate.ko.vfacing" type="int"/>
+    <param name="p1.teammate.ko.layerno" type="int"/>
+    <param name="p1.teammate.ko.scale" type="float2"/>
+    <param name="p1.teammate.ko.window" type="int4"/>
+    <param name="p1.teammate.ko.angle" type="float" minver="1.1"/>
+    <param name="p1.teammate.ko.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.ko.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.teammate.pos" type="int2"/>
+    <param name="p2.teammate.spacing" type="int2"/>
+    <param name="p2.teammate.facing" type="int"/>
+    <param name="p2.teammate.bg.anim" type="int"/>
+    <param name="p2.teammate.bg.spr" type="int2"/>
+    <param name="p2.teammate.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammate.bg.text" type="ustring"/>
+    <param name="p2.teammate.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammate.bg.offset" type="int2"/>
+    <param name="p2.teammate.bg.displaytime" type="int"/>
+    <param name="p2.teammate.bg.facing" type="int"/>
+    <param name="p2.teammate.bg.vfacing" type="int"/>
+    <param name="p2.teammate.bg.layerno" type="int"/>
+    <param name="p2.teammate.bg.scale" type="float2"/>
+    <param name="p2.teammate.bg.window" type="int4"/>
+    <param name="p2.teammate.bg.angle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg0.anim" type="int"/>
+    <param name="p2.teammate.bg0.spr" type="int2"/>
+    <param name="p2.teammate.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammate.bg0.text" type="ustring"/>
+    <param name="p2.teammate.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammate.bg0.offset" type="int2"/>
+    <param name="p2.teammate.bg0.displaytime" type="int"/>
+    <param name="p2.teammate.bg0.facing" type="int"/>
+    <param name="p2.teammate.bg0.vfacing" type="int"/>
+    <param name="p2.teammate.bg0.layerno" type="int"/>
+    <param name="p2.teammate.bg0.scale" type="float2"/>
+    <param name="p2.teammate.bg0.window" type="int4"/>
+    <param name="p2.teammate.bg0.angle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg0.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg1.anim" type="int"/>
+    <param name="p2.teammate.bg1.spr" type="int2"/>
+    <param name="p2.teammate.bg1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammate.bg1.text" type="ustring"/>
+    <param name="p2.teammate.bg1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammate.bg1.offset" type="int2"/>
+    <param name="p2.teammate.bg1.displaytime" type="int"/>
+    <param name="p2.teammate.bg1.facing" type="int"/>
+    <param name="p2.teammate.bg1.vfacing" type="int"/>
+    <param name="p2.teammate.bg1.layerno" type="int"/>
+    <param name="p2.teammate.bg1.scale" type="float2"/>
+    <param name="p2.teammate.bg1.window" type="int4"/>
+    <param name="p2.teammate.bg1.angle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg1.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg1.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg2.anim" type="int"/>
+    <param name="p2.teammate.bg2.spr" type="int2"/>
+    <param name="p2.teammate.bg2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammate.bg2.text" type="ustring"/>
+    <param name="p2.teammate.bg2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammate.bg2.offset" type="int2"/>
+    <param name="p2.teammate.bg2.displaytime" type="int"/>
+    <param name="p2.teammate.bg2.facing" type="int"/>
+    <param name="p2.teammate.bg2.vfacing" type="int"/>
+    <param name="p2.teammate.bg2.layerno" type="int"/>
+    <param name="p2.teammate.bg2.scale" type="float2"/>
+    <param name="p2.teammate.bg2.window" type="int4"/>
+    <param name="p2.teammate.bg2.angle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg2.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.bg2.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.face.anim" type="int"/>
+    <param name="p2.teammate.face.spr" type="int2"/>
+    <param name="p2.teammate.face.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammate.face.text" type="ustring"/>
+    <param name="p2.teammate.face.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammate.face.offset" type="int2"/>
+    <param name="p2.teammate.face.displaytime" type="int"/>
+    <param name="p2.teammate.face.facing" type="int"/>
+    <param name="p2.teammate.face.vfacing" type="int"/>
+    <param name="p2.teammate.face.layerno" type="int"/>
+    <param name="p2.teammate.face.scale" type="float2"/>
+    <param name="p2.teammate.face.window" type="int4"/>
+    <param name="p2.teammate.face.angle" type="float" minver="1.1"/>
+    <param name="p2.teammate.face.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.face.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.ko.anim" type="int"/>
+    <param name="p2.teammate.ko.spr" type="int2"/>
+    <param name="p2.teammate.ko.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammate.ko.text" type="ustring"/>
+    <param name="p2.teammate.ko.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammate.ko.offset" type="int2"/>
+    <param name="p2.teammate.ko.displaytime" type="int"/>
+    <param name="p2.teammate.ko.facing" type="int"/>
+    <param name="p2.teammate.ko.vfacing" type="int"/>
+    <param name="p2.teammate.ko.layerno" type="int"/>
+    <param name="p2.teammate.ko.scale" type="float2"/>
+    <param name="p2.teammate.ko.window" type="int4"/>
+    <param name="p2.teammate.ko.angle" type="float" minver="1.1"/>
+    <param name="p2.teammate.ko.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.ko.xangle" type="float" minver="1.1"/>
+  </block>
+
+  <block type="Name">
+    <param name="p1.pos" type="int2"/>
+    <param name="p1.name.anim" type="int"/>
+    <param name="p1.name.spr" type="int2"/>
+    <param name="p1.name.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.name.text" type="ustring"/>
+    <param name="p1.name.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.name.offset" type="int2"/>
+    <param name="p1.name.displaytime" type="int"/>
+    <param name="p1.name.facing" type="int"/>
+    <param name="p1.name.vfacing" type="int"/>
+    <param name="p1.name.layerno" type="int"/>
+    <param name="p1.name.scale" type="float2"/>
+    <param name="p1.name.window" type="int4"/>
+    <param name="p1.name.angle" type="float" minver="1.1"/>
+    <param name="p1.name.yangle" type="float" minver="1.1"/>
+    <param name="p1.name.xangle" type="float" minver="1.1"/>
+    <param name="p1.bg.anim" type="int"/>
+    <param name="p1.bg.spr" type="int2"/>
+    <param name="p1.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.bg.text" type="ustring"/>
+    <param name="p1.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.bg.offset" type="int2"/>
+    <param name="p1.bg.displaytime" type="int"/>
+    <param name="p1.bg.facing" type="int"/>
+    <param name="p1.bg.vfacing" type="int"/>
+    <param name="p1.bg.layerno" type="int"/>
+    <param name="p1.bg.scale" type="float2"/>
+    <param name="p1.bg.window" type="int4"/>
+    <param name="p1.bg.angle" type="float" minver="1.1"/>
+    <param name="p1.bg.yangle" type="float" minver="1.1"/>
+    <param name="p1.bg.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.pos" type="int2"/>
+    <param name="p2.name.anim" type="int"/>
+    <param name="p2.name.spr" type="int2"/>
+    <param name="p2.name.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.name.text" type="ustring"/>
+    <param name="p2.name.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.name.offset" type="int2"/>
+    <param name="p2.name.displaytime" type="int"/>
+    <param name="p2.name.facing" type="int"/>
+    <param name="p2.name.vfacing" type="int"/>
+    <param name="p2.name.layerno" type="int"/>
+    <param name="p2.name.scale" type="float2"/>
+    <param name="p2.name.window" type="int4"/>
+    <param name="p2.name.angle" type="float" minver="1.1"/>
+    <param name="p2.name.yangle" type="float" minver="1.1"/>
+    <param name="p2.name.xangle" type="float" minver="1.1"/>
+    <param name="p2.bg.anim" type="int"/>
+    <param name="p2.bg.spr" type="int2"/>
+    <param name="p2.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.bg.text" type="ustring"/>
+    <param name="p2.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.bg.offset" type="int2"/>
+    <param name="p2.bg.displaytime" type="int"/>
+    <param name="p2.bg.facing" type="int"/>
+    <param name="p2.bg.vfacing" type="int"/>
+    <param name="p2.bg.layerno" type="int"/>
+    <param name="p2.bg.scale" type="float2"/>
+    <param name="p2.bg.window" type="int4"/>
+    <param name="p2.bg.angle" type="float" minver="1.1"/>
+    <param name="p2.bg.yangle" type="float" minver="1.1"/>
+    <param name="p2.bg.xangle" type="float" minver="1.1"/>
+  </block>
+
+  <block type="Simul Name:Name">
+    <param name="p3.pos" type="int2"/>
+    <param name="p3.name.anim" type="int"/>
+    <param name="p3.name.spr" type="int2"/>
+    <param name="p3.name.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.name.text" type="ustring"/>
+    <param name="p3.name.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.name.offset" type="int2"/>
+    <param name="p3.name.displaytime" type="int"/>
+    <param name="p3.name.facing" type="int"/>
+    <param name="p3.name.vfacing" type="int"/>
+    <param name="p3.name.layerno" type="int"/>
+    <param name="p3.name.scale" type="float2"/>
+    <param name="p3.name.window" type="int4"/>
+    <param name="p3.name.angle" type="float" minver="1.1"/>
+    <param name="p3.name.yangle" type="float" minver="1.1"/>
+    <param name="p3.name.xangle" type="float" minver="1.1"/>
+    <param name="p3.bg.anim" type="int"/>
+    <param name="p3.bg.spr" type="int2"/>
+    <param name="p3.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p3.bg.text" type="ustring"/>
+    <param name="p3.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p3.bg.offset" type="int2"/>
+    <param name="p3.bg.displaytime" type="int"/>
+    <param name="p3.bg.facing" type="int"/>
+    <param name="p3.bg.vfacing" type="int"/>
+    <param name="p3.bg.layerno" type="int"/>
+    <param name="p3.bg.scale" type="float2"/>
+    <param name="p3.bg.window" type="int4"/>
+    <param name="p3.bg.angle" type="float" minver="1.1"/>
+    <param name="p3.bg.yangle" type="float" minver="1.1"/>
+    <param name="p3.bg.xangle" type="float" minver="1.1"/>
+
+    <param name="p4.pos" type="int2"/>
+    <param name="p4.name.anim" type="int"/>
+    <param name="p4.name.spr" type="int2"/>
+    <param name="p4.name.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.name.text" type="ustring"/>
+    <param name="p4.name.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.name.offset" type="int2"/>
+    <param name="p4.name.displaytime" type="int"/>
+    <param name="p4.name.facing" type="int"/>
+    <param name="p4.name.vfacing" type="int"/>
+    <param name="p4.name.layerno" type="int"/>
+    <param name="p4.name.scale" type="float2"/>
+    <param name="p4.name.window" type="int4"/>
+    <param name="p4.name.angle" type="float" minver="1.1"/>
+    <param name="p4.name.yangle" type="float" minver="1.1"/>
+    <param name="p4.name.xangle" type="float" minver="1.1"/>
+    <param name="p4.bg.anim" type="int"/>
+    <param name="p4.bg.spr" type="int2"/>
+    <param name="p4.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p4.bg.text" type="ustring"/>
+    <param name="p4.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p4.bg.offset" type="int2"/>
+    <param name="p4.bg.displaytime" type="int"/>
+    <param name="p4.bg.facing" type="int"/>
+    <param name="p4.bg.vfacing" type="int"/>
+    <param name="p4.bg.layerno" type="int"/>
+    <param name="p4.bg.scale" type="float2"/>
+    <param name="p4.bg.window" type="int4"/>
+    <param name="p4.bg.angle" type="float" minver="1.1"/>
+    <param name="p4.bg.yangle" type="float" minver="1.1"/>
+    <param name="p4.bg.xangle" type="float" minver="1.1"/>
+  </block>
+
+  <block type="Turns Name:Name">
+  </block>
+
+  <block type="Time">
+    <param name="pos" type="int2"/>
+    <param name="bg.anim" type="int"/>
+    <param name="bg.spr" type="int2"/>
+    <param name="bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="bg.text" type="ustring"/>
+    <param name="bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="bg.offset" type="int2"/>
+    <param name="bg.displaytime" type="int"/>
+    <param name="bg.facing" type="int"/>
+    <param name="bg.vfacing" type="int"/>
+    <param name="bg.layerno" type="int"/>
+    <param name="bg.scale" type="float2"/>
+    <param name="bg.window" type="int4"/>
+    <param name="bg.angle" type="float" minver="1.1"/>
+    <param name="bg.yangle" type="float" minver="1.1"/>
+    <param name="bg.xangle" type="float" minver="1.1"/>
+    <param name="counter.anim" type="int"/>
+    <param name="counter.spr" type="int2"/>
+    <param name="counter.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="counter.text" type="ustring"/>
+    <param name="counter.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="counter.offset" type="int2"/>
+    <param name="counter.displaytime" type="int"/>
+    <param name="counter.facing" type="int"/>
+    <param name="counter.vfacing" type="int"/>
+    <param name="counter.layerno" type="int"/>
+    <param name="counter.scale" type="float2"/>
+    <param name="counter.window" type="int4"/>
+    <param name="counter.angle" type="float" minver="1.1"/>
+    <param name="counter.yangle" type="float" minver="1.1"/>
+    <param name="counter.xangle" type="float" minver="1.1"/>
+    <param name="framespercount" type="int"/>
+  </block>
+
+  <block type="Combo">
+    <param name="pos" type="int2"/>
+    <param name="start.x" type="int"/>
+    <param name="counter.shake" type="int"/>
+    <param name="counter.anim" type="int"/>
+    <param name="counter.spr" type="int2"/>
+    <param name="counter.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="counter.text" type="ustring"/>
+    <param name="counter.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="counter.offset" type="int2"/>
+    <param name="counter.displaytime" type="int"/>
+    <param name="counter.facing" type="int"/>
+    <param name="counter.vfacing" type="int"/>
+    <param name="counter.layerno" type="int"/>
+    <param name="counter.scale" type="float2"/>
+    <param name="counter.window" type="int4"/>
+    <param name="counter.angle" type="float" minver="1.1"/>
+    <param name="counter.yangle" type="float" minver="1.1"/>
+    <param name="counter.xangle" type="float" minver="1.1"/>
+    <param name="text.anim" type="int"/>
+    <param name="text.spr" type="int2"/>
+    <param name="text.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="text.text" type="ustring"/>
+    <param name="text.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="text.offset" type="int2"/>
+    <param name="text.displaytime" type="int"/>
+    <param name="text.facing" type="int"/>
+    <param name="text.vfacing" type="int"/>
+    <param name="text.layerno" type="int"/>
+    <param name="text.scale" type="float2"/>
+    <param name="text.window" type="int4"/>
+    <param name="text.angle" type="float" minver="1.1"/>
+    <param name="text.yangle" type="float" minver="1.1"/>
+    <param name="text.xangle" type="float" minver="1.1"/>
+    <param name="displaytime" type="int"/>
+
+    <param name="team1.pos" type="int2"/>
+    <param name="team1.start.x" type="int"/>
+    <param name="team1.counter.shake" type="int"/>
+    <param name="team1.counter.anim" type="int"/>
+    <param name="team1.counter.spr" type="int2"/>
+    <param name="team1.counter.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="team1.counter.text" type="ustring"/>
+    <param name="team1.counter.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="team1.counter.offset" type="int2"/>
+    <param name="team1.counter.displaytime" type="int"/>
+    <param name="team1.counter.facing" type="int"/>
+    <param name="team1.counter.vfacing" type="int"/>
+    <param name="team1.counter.layerno" type="int"/>
+    <param name="team1.counter.scale" type="float2"/>
+    <param name="team1.counter.window" type="int4"/>
+    <param name="team1.counter.angle" type="float" minver="1.1"/>
+    <param name="team1.counter.yangle" type="float" minver="1.1"/>
+    <param name="team1.counter.xangle" type="float" minver="1.1"/>
+    <param name="team1.text.anim" type="int"/>
+    <param name="team1.text.spr" type="int2"/>
+    <param name="team1.text.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="team1.text.text" type="ustring"/>
+    <param name="team1.text.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="team1.text.offset" type="int2"/>
+    <param name="team1.text.displaytime" type="int"/>
+    <param name="team1.text.facing" type="int"/>
+    <param name="team1.text.vfacing" type="int"/>
+    <param name="team1.text.layerno" type="int"/>
+    <param name="team1.text.scale" type="float2"/>
+    <param name="team1.text.window" type="int4"/>
+    <param name="team1.text.angle" type="float" minver="1.1"/>
+    <param name="team1.text.yangle" type="float" minver="1.1"/>
+    <param name="team1.text.xangle" type="float" minver="1.1"/>
+    <param name="team1.displaytime" type="int"/>
+
+    <param name="team2.pos" type="int2"/>
+    <param name="team2.start.x" type="int"/>
+    <param name="team2.counter.shake" type="int"/>
+    <param name="team2.counter.anim" type="int"/>
+    <param name="team2.counter.spr" type="int2"/>
+    <param name="team2.counter.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="team2.counter.text" type="ustring"/>
+    <param name="team2.counter.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="team2.counter.offset" type="int2"/>
+    <param name="team2.counter.displaytime" type="int"/>
+    <param name="team2.counter.facing" type="int"/>
+    <param name="team2.counter.vfacing" type="int"/>
+    <param name="team2.counter.layerno" type="int"/>
+    <param name="team2.counter.scale" type="float2"/>
+    <param name="team2.counter.window" type="int4"/>
+    <param name="team2.counter.angle" type="float" minver="1.1"/>
+    <param name="team2.counter.yangle" type="float" minver="1.1"/>
+    <param name="team2.counter.xangle" type="float" minver="1.1"/>
+    <param name="team2.text.anim" type="int"/>
+    <param name="team2.text.spr" type="int2"/>
+    <param name="team2.text.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="team2.text.text" type="ustring"/>
+    <param name="team2.text.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="team2.text.offset" type="int2"/>
+    <param name="team2.text.displaytime" type="int"/>
+    <param name="team2.text.facing" type="int"/>
+    <param name="team2.text.vfacing" type="int"/>
+    <param name="team2.text.layerno" type="int"/>
+    <param name="team2.text.scale" type="float2"/>
+    <param name="team2.text.window" type="int4"/>
+    <param name="team2.text.angle" type="float" minver="1.1"/>
+    <param name="team2.text.yangle" type="float" minver="1.1"/>
+    <param name="team2.text.xangle" type="float" minver="1.1"/>
+    <param name="team2.displaytime" type="int"/>
+  </block>
+
+  <block type="Round">
+    <param name="match.wins" type="int"/>
+    <param name="match.maxdrawgames" type="int"/>
+    <param name="start.waittime" type="int"/>
+    <param name="pos" type="int2"/>
+    <param name="intro.time" type="int"/>
+    <param name="ctrl.time" type="int"/>
+    <param name="round.time" type="int"/>
+    <param name="round.sndtime" type="int" minver="1.0"/>
+    <param name="round.default.anim" type="int"/>
+    <param name="round.default.spr" type="int2"/>
+    <param name="round.default.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="round.default.text" type="ustring"/>
+    <param name="round.default.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="round.default.offset" type="int2"/>
+    <param name="round.default.displaytime" type="int"/>
+    <param name="round.default.facing" type="int"/>
+    <param name="round.default.vfacing" type="int"/>
+    <param name="round.default.layerno" type="int"/>
+    <param name="round.default.scale" type="float2"/>
+    <param name="round.default.window" type="int4"/>
+    <param name="round.default.angle" type="float" minver="1.1"/>
+    <param name="round.default.yangle" type="float" minver="1.1"/>
+    <param name="round.default.xangle" type="float" minver="1.1"/>
+    <param name="round*.anim" type="int"/>
+    <param name="round*.spr" type="int2"/>
+    <param name="round*.snd" type="int2"/>
+    <param name="round*.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="round*.text" type="ustring"/>
+    <param name="round*.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="round*.offset" type="int2"/>
+    <param name="round*.displaytime" type="int"/>
+    <param name="round*.facing" type="int"/>
+    <param name="round*.vfacing" type="int"/>
+    <param name="round*.layerno" type="int"/>
+    <param name="round*.scale" type="float2"/>
+    <param name="round*.window" type="int4"/>
+    <param name="round*.angle" type="float" minver="1.1"/>
+    <param name="round*.yangle" type="float" minver="1.1"/>
+    <param name="round*.xangle" type="float" minver="1.1"/>
+    <param name="fight.anim" type="int"/>
+    <param name="fight.spr" type="int2"/>
+    <param name="fight.snd" type="int2"/>
+    <param name="fight.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="fight.text" type="ustring"/>
+    <param name="fight.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="fight.offset" type="int2"/>
+    <param name="fight.displaytime" type="int"/>
+    <param name="fight.facing" type="int"/>
+    <param name="fight.vfacing" type="int"/>
+    <param name="fight.layerno" type="int"/>
+    <param name="fight.scale" type="float2"/>
+    <param name="fight.window" type="int4"/>
+    <param name="fight.angle" type="float" minver="1.1"/>
+    <param name="fight.yangle" type="float" minver="1.1"/>
+    <param name="fight.xangle" type="float" minver="1.1"/>
+    <param name="fight.time" type="int"/>
+    <param name="fight.sndtime" type="int"/>
+
+    <param name="KO.anim" type="int"/>
+    <param name="KO.spr" type="int2"/>
+    <param name="KO.snd" type="int2"/>
+    <param name="KO.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="KO.text" type="ustring"/>
+    <param name="KO.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="KO.offset" type="int2"/>
+    <param name="KO.displaytime" type="int"/>
+    <param name="KO.facing" type="int"/>
+    <param name="KO.vfacing" type="int"/>
+    <param name="KO.layerno" type="int"/>
+    <param name="KO.scale" type="float2"/>
+    <param name="KO.window" type="int4"/>
+    <param name="KO.angle" type="float" minver="1.1"/>
+    <param name="KO.yangle" type="float" minver="1.1"/>
+    <param name="KO.xangle" type="float" minver="1.1"/>
+    <param name="KO.time" type="int"/>
+    <param name="KO.sndtime" type="int"/>
+
+    <param name="DKO.anim" type="int"/>
+    <param name="DKO.spr" type="int2"/>
+    <param name="DKO.snd" type="int2"/>
+    <param name="DKO.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="DKO.text" type="ustring"/>
+    <param name="DKO.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="DKO.offset" type="int2"/>
+    <param name="DKO.displaytime" type="int"/>
+    <param name="DKO.facing" type="int"/>
+    <param name="DKO.vfacing" type="int"/>
+    <param name="DKO.layerno" type="int"/>
+    <param name="DKO.scale" type="float2"/>
+    <param name="DKO.window" type="int4"/>
+    <param name="DKO.angle" type="float" minver="1.1"/>
+    <param name="DKO.yangle" type="float" minver="1.1"/>
+    <param name="DKO.xangle" type="float" minver="1.1"/>
+
+    <param name="TO.anim" type="int"/>
+    <param name="TO.spr" type="int2"/>
+    <param name="TO.snd" type="int2"/>
+    <param name="TO.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="TO.text" type="ustring"/>
+    <param name="TO.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="TO.offset" type="int2"/>
+    <param name="TO.displaytime" type="int"/>
+    <param name="TO.facing" type="int"/>
+    <param name="TO.vfacing" type="int"/>
+    <param name="TO.layerno" type="int"/>
+    <param name="TO.scale" type="float2"/>
+    <param name="TO.window" type="int4"/>
+    <param name="TO.angle" type="float" minver="1.1"/>
+    <param name="TO.yangle" type="float" minver="1.1"/>
+    <param name="TO.xangle" type="float" minver="1.1"/>
+
+    <param name="slow.time" type="int"/>
+    <param name="over.waittime" type="int"/>
+    <param name="over.hittime" type="int"/>
+    <param name="over.wintime" type="int"/>
+    <param name="over.time" type="int"/>
+
+    <param name="win.anim" type="int"/>
+    <param name="win.spr" type="int2"/>
+    <param name="win.snd" type="int2"/>
+    <param name="win.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="win.text" type="ustring"/>
+    <param name="win.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="win.offset" type="int2"/>
+    <param name="win.displaytime" type="int"/>
+    <param name="win.facing" type="int"/>
+    <param name="win.vfacing" type="int"/>
+    <param name="win.layerno" type="int"/>
+    <param name="win.scale" type="float2"/>
+    <param name="win.window" type="int4"/>
+    <param name="win.angle" type="float" minver="1.1"/>
+    <param name="win.yangle" type="float" minver="1.1"/>
+    <param name="win.xangle" type="float" minver="1.1"/>
+    <param name="win.time" type="int"/>
+
+    <param name="win2.anim" type="int"/>
+    <param name="win2.spr" type="int2"/>
+    <param name="win2.snd" type="int2"/>
+    <param name="win2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="win2.text" type="ustring"/>
+    <param name="win2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="win2.offset" type="int2"/>
+    <param name="win2.displaytime" type="int"/>
+    <param name="win2.facing" type="int"/>
+    <param name="win2.vfacing" type="int"/>
+    <param name="win2.layerno" type="int"/>
+    <param name="win2.scale" type="float2"/>
+    <param name="win2.window" type="int4"/>
+    <param name="win2.angle" type="float" minver="1.1"/>
+    <param name="win2.yangle" type="float" minver="1.1"/>
+    <param name="win2.xangle" type="float" minver="1.1"/>
+
+    <param name="draw.anim" type="int"/>
+    <param name="draw.spr" type="int2"/>
+    <param name="draw.snd" type="int2"/>
+    <param name="draw.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="draw.text" type="ustring"/>
+    <param name="draw.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="draw.offset" type="int2"/>
+    <param name="draw.displaytime" type="int"/>
+    <param name="draw.facing" type="int"/>
+    <param name="draw.vfacing" type="int"/>
+    <param name="draw.layerno" type="int"/>
+    <param name="draw.scale" type="float2"/>
+    <param name="draw.window" type="int4"/>
+    <param name="draw.angle" type="float" minver="1.1"/>
+    <param name="draw.yangle" type="float" minver="1.1"/>
+    <param name="draw.xangle" type="float" minver="1.1"/>
+
+    <param name="lose.snd" type="int2"/>
+  </block>
+
+  <block type="WinIcon">
+    <param name="p1.pos" type="int2"/>
+    <param name="p1.iconoffset" type="int2"/>
+
+    <param name="p1.bg0.anim" type="int"/>
+    <param name="p1.bg0.spr" type="int2"/>
+    <param name="p1.bg0.snd" type="int2"/>
+    <param name="p1.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.bg0.text" type="ustring"/>
+    <param name="p1.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.bg0.offset" type="int2"/>
+    <param name="p1.bg0.displaytime" type="int"/>
+    <param name="p1.bg0.facing" type="int"/>
+    <param name="p1.bg0.vfacing" type="int"/>
+    <param name="p1.bg0.layerno" type="int"/>
+    <param name="p1.bg0.scale" type="float2"/>
+    <param name="p1.bg0.window" type="int4"/>
+    <param name="p1.bg0.angle" type="float" minver="1.1"/>
+    <param name="p1.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p1.bg0.xangle" type="float" minver="1.1"/>
+
+    <param name="p1.counter.anim" type="int"/>
+    <param name="p1.counter.spr" type="int2"/>
+    <param name="p1.counter.snd" type="int2"/>
+    <param name="p1.counter.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.counter.text" type="ustring"/>
+    <param name="p1.counter.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.counter.offset" type="int2"/>
+    <param name="p1.counter.displaytime" type="int"/>
+    <param name="p1.counter.facing" type="int"/>
+    <param name="p1.counter.vfacing" type="int"/>
+    <param name="p1.counter.layerno" type="int"/>
+    <param name="p1.counter.scale" type="float2"/>
+    <param name="p1.counter.window" type="int4"/>
+    <param name="p1.counter.angle" type="float" minver="1.1"/>
+    <param name="p1.counter.yangle" type="float" minver="1.1"/>
+    <param name="p1.counter.xangle" type="float" minver="1.1"/>
+
+    <param name="p1.n.anim" type="int"/>
+    <param name="p1.n.spr" type="int2"/>
+    <param name="p1.n.snd" type="int2"/>
+    <param name="p1.n.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.n.text" type="ustring"/>
+    <param name="p1.n.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.n.offset" type="int2"/>
+    <param name="p1.n.displaytime" type="int"/>
+    <param name="p1.n.facing" type="int"/>
+    <param name="p1.n.vfacing" type="int"/>
+    <param name="p1.n.layerno" type="int"/>
+    <param name="p1.n.scale" type="float2"/>
+    <param name="p1.n.window" type="int4"/>
+    <param name="p1.n.angle" type="float" minver="1.1"/>
+    <param name="p1.n.yangle" type="float" minver="1.1"/>
+    <param name="p1.n.xangle" type="float" minver="1.1"/>
+
+    <param name="p1.s.anim" type="int"/>
+    <param name="p1.s.spr" type="int2"/>
+    <param name="p1.s.snd" type="int2"/>
+    <param name="p1.s.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.s.text" type="ustring"/>
+    <param name="p1.s.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.s.offset" type="int2"/>
+    <param name="p1.s.displaytime" type="int"/>
+    <param name="p1.s.facing" type="int"/>
+    <param name="p1.s.vfacing" type="int"/>
+    <param name="p1.s.layerno" type="int"/>
+    <param name="p1.s.scale" type="float2"/>
+    <param name="p1.s.window" type="int4"/>
+    <param name="p1.s.angle" type="float" minver="1.1"/>
+    <param name="p1.s.yangle" type="float" minver="1.1"/>
+    <param name="p1.s.xangle" type="float" minver="1.1"/>
+
+    <param name="p1.h.anim" type="int"/>
+    <param name="p1.h.spr" type="int2"/>
+    <param name="p1.h.snd" type="int2"/>
+    <param name="p1.h.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.h.text" type="ustring"/>
+    <param name="p1.h.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.h.offset" type="int2"/>
+    <param name="p1.h.displaytime" type="int"/>
+    <param name="p1.h.facing" type="int"/>
+    <param name="p1.h.vfacing" type="int"/>
+    <param name="p1.h.layerno" type="int"/>
+    <param name="p1.h.scale" type="float2"/>
+    <param name="p1.h.window" type="int4"/>
+    <param name="p1.h.angle" type="float" minver="1.1"/>
+    <param name="p1.h.yangle" type="float" minver="1.1"/>
+    <param name="p1.h.xangle" type="float" minver="1.1"/>
+
+    <param name="p1.throw.anim" type="int"/>
+    <param name="p1.throw.spr" type="int2"/>
+    <param name="p1.throw.snd" type="int2"/>
+    <param name="p1.throw.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.throw.text" type="ustring"/>
+    <param name="p1.throw.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.throw.offset" type="int2"/>
+    <param name="p1.throw.displaytime" type="int"/>
+    <param name="p1.throw.facing" type="int"/>
+    <param name="p1.throw.vfacing" type="int"/>
+    <param name="p1.throw.layerno" type="int"/>
+    <param name="p1.throw.scale" type="float2"/>
+    <param name="p1.throw.window" type="int4"/>
+    <param name="p1.throw.angle" type="float" minver="1.1"/>
+    <param name="p1.throw.yangle" type="float" minver="1.1"/>
+    <param name="p1.throw.xangle" type="float" minver="1.1"/>
+
+    <param name="p1.t.anim" type="int"/>
+    <param name="p1.t.spr" type="int2"/>
+    <param name="p1.t.snd" type="int2"/>
+    <param name="p1.t.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.t.text" type="ustring"/>
+    <param name="p1.t.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.t.offset" type="int2"/>
+    <param name="p1.t.displaytime" type="int"/>
+    <param name="p1.t.facing" type="int"/>
+    <param name="p1.t.vfacing" type="int"/>
+    <param name="p1.t.layerno" type="int"/>
+    <param name="p1.t.scale" type="float2"/>
+    <param name="p1.t.window" type="int4"/>
+    <param name="p1.t.angle" type="float" minver="1.1"/>
+    <param name="p1.t.yangle" type="float" minver="1.1"/>
+    <param name="p1.t.xangle" type="float" minver="1.1"/>
+
+    <param name="p1.c.anim" type="int"/>
+    <param name="p1.c.spr" type="int2"/>
+    <param name="p1.c.snd" type="int2"/>
+    <param name="p1.c.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.c.text" type="ustring"/>
+    <param name="p1.c.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.c.offset" type="int2"/>
+    <param name="p1.c.displaytime" type="int"/>
+    <param name="p1.c.facing" type="int"/>
+    <param name="p1.c.vfacing" type="int"/>
+    <param name="p1.c.layerno" type="int"/>
+    <param name="p1.c.scale" type="float2"/>
+    <param name="p1.c.window" type="int4"/>
+    <param name="p1.c.angle" type="float" minver="1.1"/>
+    <param name="p1.c.yangle" type="float" minver="1.1"/>
+    <param name="p1.c.xangle" type="float" minver="1.1"/>
+
+    <param name="p1.suicide.anim" type="int"/>
+    <param name="p1.suicide.spr" type="int2"/>
+    <param name="p1.suicide.snd" type="int2"/>
+    <param name="p1.suicide.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.suicide.text" type="ustring"/>
+    <param name="p1.suicide.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.suicide.offset" type="int2"/>
+    <param name="p1.suicide.displaytime" type="int"/>
+    <param name="p1.suicide.facing" type="int"/>
+    <param name="p1.suicide.vfacing" type="int"/>
+    <param name="p1.suicide.layerno" type="int"/>
+    <param name="p1.suicide.scale" type="float2"/>
+    <param name="p1.suicide.window" type="int4"/>
+    <param name="p1.suicide.angle" type="float" minver="1.1"/>
+    <param name="p1.suicide.yangle" type="float" minver="1.1"/>
+    <param name="p1.suicide.xangle" type="float" minver="1.1"/>
+
+    <param name="p1.teammate.anim" type="int"/>
+    <param name="p1.teammate.spr" type="int2"/>
+    <param name="p1.teammate.snd" type="int2"/>
+    <param name="p1.teammate.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammate.text" type="ustring"/>
+    <param name="p1.teammate.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammate.offset" type="int2"/>
+    <param name="p1.teammate.displaytime" type="int"/>
+    <param name="p1.teammate.facing" type="int"/>
+    <param name="p1.teammate.vfacing" type="int"/>
+    <param name="p1.teammate.layerno" type="int"/>
+    <param name="p1.teammate.scale" type="float2"/>
+    <param name="p1.teammate.window" type="int4"/>
+    <param name="p1.teammate.angle" type="float" minver="1.1"/>
+    <param name="p1.teammate.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammate.xangle" type="float" minver="1.1"/>
+
+    <param name="p1.perfect.anim" type="int"/>
+    <param name="p1.perfect.spr" type="int2"/>
+    <param name="p1.perfect.snd" type="int2"/>
+    <param name="p1.perfect.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.perfect.text" type="ustring"/>
+    <param name="p1.perfect.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.perfect.offset" type="int2"/>
+    <param name="p1.perfect.displaytime" type="int"/>
+    <param name="p1.perfect.facing" type="int"/>
+    <param name="p1.perfect.vfacing" type="int"/>
+    <param name="p1.perfect.layerno" type="int"/>
+    <param name="p1.perfect.scale" type="float2"/>
+    <param name="p1.perfect.window" type="int4"/>
+    <param name="p1.perfect.angle" type="float" minver="1.1"/>
+    <param name="p1.perfect.yangle" type="float" minver="1.1"/>
+    <param name="p1.perfect.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.pos" type="int2"/>
+    <param name="p2.iconoffset" type="int2"/>
+
+    <param name="p2.bg0.anim" type="int"/>
+    <param name="p2.bg0.spr" type="int2"/>
+    <param name="p2.bg0.snd" type="int2"/>
+    <param name="p2.bg0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.bg0.text" type="ustring"/>
+    <param name="p2.bg0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.bg0.offset" type="int2"/>
+    <param name="p2.bg0.displaytime" type="int"/>
+    <param name="p2.bg0.facing" type="int"/>
+    <param name="p2.bg0.vfacing" type="int"/>
+    <param name="p2.bg0.layerno" type="int"/>
+    <param name="p2.bg0.scale" type="float2"/>
+    <param name="p2.bg0.window" type="int4"/>
+    <param name="p2.bg0.angle" type="float" minver="1.1"/>
+    <param name="p2.bg0.yangle" type="float" minver="1.1"/>
+    <param name="p2.bg0.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.counter.anim" type="int"/>
+    <param name="p2.counter.spr" type="int2"/>
+    <param name="p2.counter.snd" type="int2"/>
+    <param name="p2.counter.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.counter.text" type="ustring"/>
+    <param name="p2.counter.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.counter.offset" type="int2"/>
+    <param name="p2.counter.displaytime" type="int"/>
+    <param name="p2.counter.facing" type="int"/>
+    <param name="p2.counter.vfacing" type="int"/>
+    <param name="p2.counter.layerno" type="int"/>
+    <param name="p2.counter.scale" type="float2"/>
+    <param name="p2.counter.window" type="int4"/>
+    <param name="p2.counter.angle" type="float" minver="1.1"/>
+    <param name="p2.counter.yangle" type="float" minver="1.1"/>
+    <param name="p2.counter.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.n.anim" type="int"/>
+    <param name="p2.n.spr" type="int2"/>
+    <param name="p2.n.snd" type="int2"/>
+    <param name="p2.n.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.n.text" type="ustring"/>
+    <param name="p2.n.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.n.offset" type="int2"/>
+    <param name="p2.n.displaytime" type="int"/>
+    <param name="p2.n.facing" type="int"/>
+    <param name="p2.n.vfacing" type="int"/>
+    <param name="p2.n.layerno" type="int"/>
+    <param name="p2.n.scale" type="float2"/>
+    <param name="p2.n.window" type="int4"/>
+    <param name="p2.n.angle" type="float" minver="1.1"/>
+    <param name="p2.n.yangle" type="float" minver="1.1"/>
+    <param name="p2.n.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.s.anim" type="int"/>
+    <param name="p2.s.spr" type="int2"/>
+    <param name="p2.s.snd" type="int2"/>
+    <param name="p2.s.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.s.text" type="ustring"/>
+    <param name="p2.s.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.s.offset" type="int2"/>
+    <param name="p2.s.displaytime" type="int"/>
+    <param name="p2.s.facing" type="int"/>
+    <param name="p2.s.vfacing" type="int"/>
+    <param name="p2.s.layerno" type="int"/>
+    <param name="p2.s.scale" type="float2"/>
+    <param name="p2.s.window" type="int4"/>
+    <param name="p2.s.angle" type="float" minver="1.1"/>
+    <param name="p2.s.yangle" type="float" minver="1.1"/>
+    <param name="p2.s.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.h.anim" type="int"/>
+    <param name="p2.h.spr" type="int2"/>
+    <param name="p2.h.snd" type="int2"/>
+    <param name="p2.h.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.h.text" type="ustring"/>
+    <param name="p2.h.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.h.offset" type="int2"/>
+    <param name="p2.h.displaytime" type="int"/>
+    <param name="p2.h.facing" type="int"/>
+    <param name="p2.h.vfacing" type="int"/>
+    <param name="p2.h.layerno" type="int"/>
+    <param name="p2.h.scale" type="float2"/>
+    <param name="p2.h.window" type="int4"/>
+    <param name="p2.h.angle" type="float" minver="1.1"/>
+    <param name="p2.h.yangle" type="float" minver="1.1"/>
+    <param name="p2.h.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.throw.anim" type="int"/>
+    <param name="p2.throw.spr" type="int2"/>
+    <param name="p2.throw.snd" type="int2"/>
+    <param name="p2.throw.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.throw.text" type="ustring"/>
+    <param name="p2.throw.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.throw.offset" type="int2"/>
+    <param name="p2.throw.displaytime" type="int"/>
+    <param name="p2.throw.facing" type="int"/>
+    <param name="p2.throw.vfacing" type="int"/>
+    <param name="p2.throw.layerno" type="int"/>
+    <param name="p2.throw.scale" type="float2"/>
+    <param name="p2.throw.window" type="int4"/>
+    <param name="p2.throw.angle" type="float" minver="1.1"/>
+    <param name="p2.throw.yangle" type="float" minver="1.1"/>
+    <param name="p2.throw.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.t.anim" type="int"/>
+    <param name="p2.t.spr" type="int2"/>
+    <param name="p2.t.snd" type="int2"/>
+    <param name="p2.t.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.t.text" type="ustring"/>
+    <param name="p2.t.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.t.offset" type="int2"/>
+    <param name="p2.t.displaytime" type="int"/>
+    <param name="p2.t.facing" type="int"/>
+    <param name="p2.t.vfacing" type="int"/>
+    <param name="p2.t.layerno" type="int"/>
+    <param name="p2.t.scale" type="float2"/>
+    <param name="p2.t.window" type="int4"/>
+    <param name="p2.t.angle" type="float" minver="1.1"/>
+    <param name="p2.t.yangle" type="float" minver="1.1"/>
+    <param name="p2.t.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.c.anim" type="int"/>
+    <param name="p2.c.spr" type="int2"/>
+    <param name="p2.c.snd" type="int2"/>
+    <param name="p2.c.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.c.text" type="ustring"/>
+    <param name="p2.c.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.c.offset" type="int2"/>
+    <param name="p2.c.displaytime" type="int"/>
+    <param name="p2.c.facing" type="int"/>
+    <param name="p2.c.vfacing" type="int"/>
+    <param name="p2.c.layerno" type="int"/>
+    <param name="p2.c.scale" type="float2"/>
+    <param name="p2.c.window" type="int4"/>
+    <param name="p2.c.angle" type="float" minver="1.1"/>
+    <param name="p2.c.yangle" type="float" minver="1.1"/>
+    <param name="p2.c.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.suicide.anim" type="int"/>
+    <param name="p2.suicide.spr" type="int2"/>
+    <param name="p2.suicide.snd" type="int2"/>
+    <param name="p2.suicide.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.suicide.text" type="ustring"/>
+    <param name="p2.suicide.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.suicide.offset" type="int2"/>
+    <param name="p2.suicide.displaytime" type="int"/>
+    <param name="p2.suicide.facing" type="int"/>
+    <param name="p2.suicide.vfacing" type="int"/>
+    <param name="p2.suicide.layerno" type="int"/>
+    <param name="p2.suicide.scale" type="float2"/>
+    <param name="p2.suicide.window" type="int4"/>
+    <param name="p2.suicide.angle" type="float" minver="1.1"/>
+    <param name="p2.suicide.yangle" type="float" minver="1.1"/>
+    <param name="p2.suicide.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.teammate.anim" type="int"/>
+    <param name="p2.teammate.spr" type="int2"/>
+    <param name="p2.teammate.snd" type="int2"/>
+    <param name="p2.teammate.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammate.text" type="ustring"/>
+    <param name="p2.teammate.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammate.offset" type="int2"/>
+    <param name="p2.teammate.displaytime" type="int"/>
+    <param name="p2.teammate.facing" type="int"/>
+    <param name="p2.teammate.vfacing" type="int"/>
+    <param name="p2.teammate.layerno" type="int"/>
+    <param name="p2.teammate.scale" type="float2"/>
+    <param name="p2.teammate.window" type="int4"/>
+    <param name="p2.teammate.angle" type="float" minver="1.1"/>
+    <param name="p2.teammate.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammate.xangle" type="float" minver="1.1"/>
+
+    <param name="p2.perfect.anim" type="int"/>
+    <param name="p2.perfect.spr" type="int2"/>
+    <param name="p2.perfect.snd" type="int2"/>
+    <param name="p2.perfect.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.perfect.text" type="ustring"/>
+    <param name="p2.perfect.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.perfect.offset" type="int2"/>
+    <param name="p2.perfect.displaytime" type="int"/>
+    <param name="p2.perfect.facing" type="int"/>
+    <param name="p2.perfect.vfacing" type="int"/>
+    <param name="p2.perfect.layerno" type="int"/>
+    <param name="p2.perfect.scale" type="float2"/>
+    <param name="p2.perfect.window" type="int4"/>
+    <param name="p2.perfect.angle" type="float" minver="1.1"/>
+    <param name="p2.perfect.yangle" type="float" minver="1.1"/>
+    <param name="p2.perfect.xangle" type="float" minver="1.1"/>
+
+    <param name="useiconupto" type="int"/>
+  </block>
+
+</file>
+
+<file type="select">
+  <block type="Options">
+    <param name="arcade.maxmatches" type="intvec" required="true"/>
+    <param name="team.maxmatches" type="intvec" required="true"/>
+  </block>
+</file>
+
+<file type="motif">
+
+  <block type="Music">
+    <param name="title.bgm" type="file"/>
+    <param name="title.bgm.loop" type="int"/>
+    <param name="title.bgm.loopstart" type="int" minver="1.0"/>
+    <param name="title.bgm.loopend" type="int" minver="1.0"/>
+    <param name="title.bgm.volume" type="int" minver="1.0"/>
+    <param name="select.bgm" type="file"/>
+    <param name="select.bgm.loop" type="int"/>
+    <param name="select.bgm.loopstart" type="int" minver="1.0"/>
+    <param name="select.bgm.loopend" type="int" minver="1.0"/>
+    <param name="select.bgm.volume" type="int" minver="1.0"/>
+    <param name="vs.bgm" type="file"/>
+    <param name="vs.bgm.loop" type="int"/>
+    <param name="vs.bgm.loopstart" type="int" minver="1.0"/>
+    <param name="vs.bgm.loopend" type="int" minver="1.0"/>
+    <param name="vs.bgm.volume" type="int" minver="1.0"/>
+    <param name="victory.bgm" type="file" minver="1.0"/>
+    <param name="victory.bgm.loop" type="int" minver="1.0"/>
+    <param name="victory.bgm.loopstart" type="int" minver="1.0"/>
+    <param name="victory.bgm.loopend" type="int" minver="1.0"/>
+    <param name="victory.bgm.volume" type="int" minver="1.0"/>
+  </block>
+
+  <block type="Title Info">
+    <param name="fadein.time" type="int"/>
+    <param name="fadeout.time" type="int"/>
+    <param name="menu.pos" type="int2"/>
+    <param name="menu.item.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="menu.item.active.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="menu.item.spacing" type="int2"/>
+    <param name="menu.itemname.arcade" type="string"/>
+    <param name="menu.itemname.versus" type="string"/>
+    <param name="menu.itemname.teamarcade" type="string"/>
+    <param name="menu.itemname.teamversus" type="string"/>
+    <param name="menu.itemname.teamcoop" type="string"/>
+    <param name="menu.itemname.survival" type="string"/>
+    <param name="menu.itemname.survivalcoop" type="string"/>
+    <param name="menu.itemname.training" type="string"/>
+    <param name="menu.itemname.watch" type="string"/>
+    <param name="menu.itemname.options" type="string"/>
+    <param name="menu.itemname.exit" type="string"/>
+    <param name="menu.window.margins.y" type="int2"/>
+    <param name="menu.window.visibleitems" type="int"/>
+    <param name="menu.boxcursor.visible" type="int"/>
+   <param name="menu.boxcursor.coords" type="int4"/>
+    <param name="cursor.move.snd" type="int2"/>
+    <param name="cursor.done.snd" type="int2"/>
+    <param name="cancel.snd" type="int2"/>
+  </block>
+
+  <block type="Select Info">
+    <param name="fadein.time" type="int"/>
+    <param name="fadeout.time" type="int"/>
+    <param name="rows" type="int"/>
+    <param name="columns" type="int"/>
+    <param name="wrapping" type="int"/>
+    <param name="pos" type="int2"/>
+    <param name="showemptyboxes" type="int"/>
+    <param name="moveoveremptyboxes" type="int"/>
+    <param name="cell.size" type="int2"/>
+    <param name="cell.spacing" type="int"/>
+    <param name="cell.bg.anim" type="int"/>
+    <param name="cell.bg.spr" type="int2"/>
+    <param name="cell.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="cell.bg.text" type="ustring"/>
+    <param name="cell.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="cell.bg.offset" type="int2"/>
+    <param name="cell.bg.displaytime" type="int"/>
+    <param name="cell.bg.facing" type="int"/>
+    <param name="cell.bg.vfacing" type="int"/>
+    <param name="cell.bg.layerno" type="int"/>
+    <param name="cell.bg.scale" type="float2"/>
+    <param name="cell.bg.window" type="int4"/>
+    <param name="cell.bg.angle" type="float" minver="1.1"/>
+    <param name="cell.bg.yangle" type="float" minver="1.1"/>
+    <param name="cell.bg.xangle" type="float" minver="1.1"/>
+    <param name="cell.random.anim" type="int"/>
+    <param name="cell.random.spr" type="int2"/>
+    <param name="cell.random.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="cell.random.text" type="ustring"/>
+    <param name="cell.random.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="cell.random.offset" type="int2"/>
+    <param name="cell.random.displaytime" type="int"/>
+    <param name="cell.random.facing" type="int"/>
+    <param name="cell.random.vfacing" type="int"/>
+    <param name="cell.random.layerno" type="int"/>
+    <param name="cell.random.scale" type="float2"/>
+    <param name="cell.random.window" type="int4"/>
+    <param name="cell.random.angle" type="float" minver="1.1"/>
+    <param name="cell.random.yangle" type="float" minver="1.1"/>
+    <param name="cell.random.xangle" type="float" minver="1.1"/>
+    <param name="cell.random.switchtime" type="int"/>
+    <param name="p1.cursor.startcell" type="int2"/>
+    <param name="p1.cursor.active.anim" type="int"/>
+    <param name="p1.cursor.active.spr" type="int2"/>
+    <param name="p1.cursor.active.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.cursor.active.text" type="ustring"/>
+    <param name="p1.cursor.active.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.cursor.active.offset" type="int2"/>
+    <param name="p1.cursor.active.displaytime" type="int"/>
+    <param name="p1.cursor.active.facing" type="int"/>
+    <param name="p1.cursor.active.vfacing" type="int"/>
+    <param name="p1.cursor.active.layerno" type="int"/>
+    <param name="p1.cursor.active.scale" type="float2"/>
+    <param name="p1.cursor.active.window" type="int4"/>
+    <param name="p1.cursor.active.angle" type="float" minver="1.1"/>
+    <param name="p1.cursor.active.yangle" type="float" minver="1.1"/>
+    <param name="p1.cursor.active.xangle" type="float" minver="1.1"/>
+    <param name="p1.cursor.done.anim" type="int"/>
+    <param name="p1.cursor.done.spr" type="int2"/>
+    <param name="p1.cursor.done.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.cursor.done.text" type="ustring"/>
+    <param name="p1.cursor.done.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.cursor.done.offset" type="int2"/>
+    <param name="p1.cursor.done.displaytime" type="int"/>
+    <param name="p1.cursor.done.facing" type="int"/>
+    <param name="p1.cursor.done.vfacing" type="int"/>
+    <param name="p1.cursor.done.layerno" type="int"/>
+    <param name="p1.cursor.done.scale" type="float2"/>
+    <param name="p1.cursor.done.window" type="int4"/>
+    <param name="p1.cursor.done.angle" type="float" minver="1.1"/>
+    <param name="p1.cursor.done.yangle" type="float" minver="1.1"/>
+    <param name="p1.cursor.done.xangle" type="float" minver="1.1"/>
+    <param name="p1.cursor.move.snd" type="int2"/>
+    <param name="p1.cursor.done.snd" type="int2"/>
+    <param name="p1.random.move.snd" type="int2"/>
+    <param name="p2.cursor.startcell" type="int2"/>
+    <param name="p2.cursor.active.anim" type="int"/>
+    <param name="p2.cursor.active.spr" type="int2"/>
+    <param name="p2.cursor.active.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.cursor.active.text" type="ustring"/>
+    <param name="p2.cursor.active.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.cursor.active.offset" type="int2"/>
+    <param name="p2.cursor.active.displaytime" type="int"/>
+    <param name="p2.cursor.active.facing" type="int"/>
+    <param name="p2.cursor.active.vfacing" type="int"/>
+    <param name="p2.cursor.active.layerno" type="int"/>
+    <param name="p2.cursor.active.scale" type="float2"/>
+    <param name="p2.cursor.active.window" type="int4"/>
+    <param name="p2.cursor.active.angle" type="float" minver="1.1"/>
+    <param name="p2.cursor.active.yangle" type="float" minver="1.1"/>
+    <param name="p2.cursor.active.xangle" type="float" minver="1.1"/>
+    <param name="p2.cursor.done.anim" type="int"/>
+    <param name="p2.cursor.done.spr" type="int2"/>
+    <param name="p2.cursor.done.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.cursor.done.text" type="ustring"/>
+    <param name="p2.cursor.done.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.cursor.done.offset" type="int2"/>
+    <param name="p2.cursor.done.displaytime" type="int"/>
+    <param name="p2.cursor.done.facing" type="int"/>
+    <param name="p2.cursor.done.vfacing" type="int"/>
+    <param name="p2.cursor.done.layerno" type="int"/>
+    <param name="p2.cursor.done.scale" type="float2"/>
+    <param name="p2.cursor.done.window" type="int4"/>
+    <param name="p2.cursor.done.angle" type="float" minver="1.1"/>
+    <param name="p2.cursor.done.yangle" type="float" minver="1.1"/>
+    <param name="p2.cursor.done.xangle" type="float" minver="1.1"/>
+    <param name="p2.cursor.move.snd" type="int2"/>
+    <param name="p2.cursor.done.snd" type="int2"/>
+    <param name="p2.random.move.snd" type="int2"/>
+    <param name="p2.cursor.blink" type="int"/>
+    <param name="random.move.snd.cancel" type="int"/>
+    <param name="stage.move.snd" type="int2"/>
+    <param name="stage.done.snd" type="int2"/>
+    <param name="cancel.snd" type="int2"/>
+    <param name="portrait.anim" type="int"/>
+    <param name="portrait.spr" type="int2"/>
+    <param name="portrait.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="portrait.text" type="ustring"/>
+    <param name="portrait.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="portrait.offset" type="int2"/>
+    <param name="portrait.displaytime" type="int"/>
+    <param name="portrait.facing" type="int"/>
+    <param name="portrait.vfacing" type="int"/>
+    <param name="portrait.layerno" type="int"/>
+    <param name="portrait.scale" type="float2"/>
+    <param name="portrait.window" type="int4"/>
+    <param name="portrait.angle" type="float" minver="1.1"/>
+    <param name="portrait.yangle" type="float" minver="1.1"/>
+    <param name="portrait.xangle" type="float" minver="1.1"/>
+    <param name="title.offset" type="int2"/>
+    <param name="title.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.face.anim" type="int"/>
+    <param name="p1.face.spr" type="int2"/>
+    <param name="p1.face.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.face.text" type="ustring"/>
+    <param name="p1.face.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.face.offset" type="int2"/>
+    <param name="p1.face.displaytime" type="int"/>
+    <param name="p1.face.facing" type="int"/>
+    <param name="p1.face.vfacing" type="int"/>
+    <param name="p1.face.layerno" type="int"/>
+    <param name="p1.face.scale" type="float2"/>
+    <param name="p1.face.window" type="int4"/>
+    <param name="p1.face.angle" type="float" minver="1.1"/>
+    <param name="p1.face.yangle" type="float" minver="1.1"/>
+    <param name="p1.face.xangle" type="float" minver="1.1"/>
+    <param name="p2.face.anim" type="int"/>
+    <param name="p2.face.spr" type="int2"/>
+    <param name="p2.face.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.face.text" type="ustring"/>
+    <param name="p2.face.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.face.offset" type="int2"/>
+    <param name="p2.face.displaytime" type="int"/>
+    <param name="p2.face.facing" type="int"/>
+    <param name="p2.face.vfacing" type="int"/>
+    <param name="p2.face.layerno" type="int"/>
+    <param name="p2.face.scale" type="float2"/>
+    <param name="p2.face.window" type="int4"/>
+    <param name="p2.face.angle" type="float" minver="1.1"/>
+    <param name="p2.face.yangle" type="float" minver="1.1"/>
+    <param name="p2.face.xangle" type="float" minver="1.1"/>
+    <param name="p1.name.offset" type="int2"/>
+    <param name="p1.name.spacing" type="int2"/>
+    <param name="p1.name.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.name.offset" type="int2"/>
+    <param name="p2.name.spacing" type="int2"/>
+    <param name="p2.name.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="stage.pos" type="int2"/>
+    <param name="stage.active.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="stage.active2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="stage.done.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="teammenu.move.wrapping" type="int"/>
+
+    <param name="p1.teammenu.pos" type="int2"/>
+    <param name="p1.teammenu.bg.anim" type="int"/>
+    <param name="p1.teammenu.bg.spr" type="int2"/>
+    <param name="p1.teammenu.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammenu.bg.text" type="ustring"/>
+    <param name="p1.teammenu.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammenu.bg.offset" type="int2"/>
+    <param name="p1.teammenu.bg.displaytime" type="int"/>
+    <param name="p1.teammenu.bg.facing" type="int"/>
+    <param name="p1.teammenu.bg.vfacing" type="int"/>
+    <param name="p1.teammenu.bg.layerno" type="int"/>
+    <param name="p1.teammenu.bg.scale" type="float2"/>
+    <param name="p1.teammenu.bg.window" type="int4"/>
+    <param name="p1.teammenu.bg.angle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.bg.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.bg.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.selftitle.anim" type="int"/>
+    <param name="p1.teammenu.selftitle.spr" type="int2"/>
+    <param name="p1.teammenu.selftitle.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammenu.selftitle.text" type="ustring"/>
+    <param name="p1.teammenu.selftitle.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammenu.selftitle.offset" type="int2"/>
+    <param name="p1.teammenu.selftitle.displaytime" type="int"/>
+    <param name="p1.teammenu.selftitle.facing" type="int"/>
+    <param name="p1.teammenu.selftitle.vfacing" type="int"/>
+    <param name="p1.teammenu.selftitle.layerno" type="int"/>
+    <param name="p1.teammenu.selftitle.scale" type="float2"/>
+    <param name="p1.teammenu.selftitle.window" type="int4"/>
+    <param name="p1.teammenu.selftitle.angle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.selftitle.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.selftitle.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.enemytitle.anim" type="int"/>
+    <param name="p1.teammenu.enemytitle.spr" type="int2"/>
+    <param name="p1.teammenu.enemytitle.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammenu.enemytitle.text" type="ustring"/>
+    <param name="p1.teammenu.enemytitle.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammenu.enemytitle.offset" type="int2"/>
+    <param name="p1.teammenu.enemytitle.displaytime" type="int"/>
+    <param name="p1.teammenu.enemytitle.facing" type="int"/>
+    <param name="p1.teammenu.enemytitle.vfacing" type="int"/>
+    <param name="p1.teammenu.enemytitle.layerno" type="int"/>
+    <param name="p1.teammenu.enemytitle.scale" type="float2"/>
+    <param name="p1.teammenu.enemytitle.window" type="int4"/>
+    <param name="p1.teammenu.enemytitle.angle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.enemytitle.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.enemytitle.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.move.snd" type="int2"/>
+    <param name="p1.teammenu.value.snd" type="int2"/>
+    <param name="p1.teammenu.done.snd" type="int2"/>
+    <param name="p1.teammenu.item.offset" type="int2"/>
+    <param name="p1.teammenu.item.spacing" type="int2"/>
+    <param name="p1.teammenu.item.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammenu.item.active.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammenu.item.active2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammenu.item.cursor.anim" type="int"/>
+    <param name="p1.teammenu.item.cursor.spr" type="int2"/>
+    <param name="p1.teammenu.item.cursor.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammenu.item.cursor.text" type="ustring"/>
+    <param name="p1.teammenu.item.cursor.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammenu.item.cursor.offset" type="int2"/>
+    <param name="p1.teammenu.item.cursor.displaytime" type="int"/>
+    <param name="p1.teammenu.item.cursor.facing" type="int"/>
+    <param name="p1.teammenu.item.cursor.vfacing" type="int"/>
+    <param name="p1.teammenu.item.cursor.layerno" type="int"/>
+    <param name="p1.teammenu.item.cursor.scale" type="float2"/>
+    <param name="p1.teammenu.item.cursor.window" type="int4"/>
+    <param name="p1.teammenu.item.cursor.angle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.item.cursor.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.item.cursor.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.value.icon.anim" type="int"/>
+    <param name="p1.teammenu.value.icon.spr" type="int2"/>
+    <param name="p1.teammenu.value.icon.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammenu.value.icon.text" type="ustring"/>
+    <param name="p1.teammenu.value.icon.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammenu.value.icon.offset" type="int2"/>
+    <param name="p1.teammenu.value.icon.displaytime" type="int"/>
+    <param name="p1.teammenu.value.icon.facing" type="int"/>
+    <param name="p1.teammenu.value.icon.vfacing" type="int"/>
+    <param name="p1.teammenu.value.icon.layerno" type="int"/>
+    <param name="p1.teammenu.value.icon.scale" type="float2"/>
+    <param name="p1.teammenu.value.icon.window" type="int4"/>
+    <param name="p1.teammenu.value.icon.angle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.value.icon.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.value.icon.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.value.empty.icon.anim" type="int"/>
+    <param name="p1.teammenu.value.empty.icon.spr" type="int2"/>
+    <param name="p1.teammenu.value.empty.icon.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.teammenu.value.empty.icon.text" type="ustring"/>
+    <param name="p1.teammenu.value.empty.icon.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.teammenu.value.empty.icon.offset" type="int2"/>
+    <param name="p1.teammenu.value.empty.icon.displaytime" type="int"/>
+    <param name="p1.teammenu.value.empty.icon.facing" type="int"/>
+    <param name="p1.teammenu.value.empty.icon.vfacing" type="int"/>
+    <param name="p1.teammenu.value.empty.icon.layerno" type="int"/>
+    <param name="p1.teammenu.value.empty.icon.scale" type="float2"/>
+    <param name="p1.teammenu.value.empty.icon.window" type="int4"/>
+    <param name="p1.teammenu.value.empty.icon.angle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.value.empty.icon.yangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.value.empty.icon.xangle" type="float" minver="1.1"/>
+    <param name="p1.teammenu.value.spacing" type="int2"/>
+
+    <param name="p2.teammenu.pos" type="int2"/>
+    <param name="p2.teammenu.bg.anim" type="int"/>
+    <param name="p2.teammenu.bg.spr" type="int2"/>
+    <param name="p2.teammenu.bg.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammenu.bg.text" type="ustring"/>
+    <param name="p2.teammenu.bg.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammenu.bg.offset" type="int2"/>
+    <param name="p2.teammenu.bg.displaytime" type="int"/>
+    <param name="p2.teammenu.bg.facing" type="int"/>
+    <param name="p2.teammenu.bg.vfacing" type="int"/>
+    <param name="p2.teammenu.bg.layerno" type="int"/>
+    <param name="p2.teammenu.bg.scale" type="float2"/>
+    <param name="p2.teammenu.bg.window" type="int4"/>
+    <param name="p2.teammenu.bg.angle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.bg.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.bg.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.selftitle.anim" type="int"/>
+    <param name="p2.teammenu.selftitle.spr" type="int2"/>
+    <param name="p2.teammenu.selftitle.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammenu.selftitle.text" type="ustring"/>
+    <param name="p2.teammenu.selftitle.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammenu.selftitle.offset" type="int2"/>
+    <param name="p2.teammenu.selftitle.displaytime" type="int"/>
+    <param name="p2.teammenu.selftitle.facing" type="int"/>
+    <param name="p2.teammenu.selftitle.vfacing" type="int"/>
+    <param name="p2.teammenu.selftitle.layerno" type="int"/>
+    <param name="p2.teammenu.selftitle.scale" type="float2"/>
+    <param name="p2.teammenu.selftitle.window" type="int4"/>
+    <param name="p2.teammenu.selftitle.angle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.selftitle.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.selftitle.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.enemytitle.anim" type="int"/>
+    <param name="p2.teammenu.enemytitle.spr" type="int2"/>
+    <param name="p2.teammenu.enemytitle.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammenu.enemytitle.text" type="ustring"/>
+    <param name="p2.teammenu.enemytitle.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammenu.enemytitle.offset" type="int2"/>
+    <param name="p2.teammenu.enemytitle.displaytime" type="int"/>
+    <param name="p2.teammenu.enemytitle.facing" type="int"/>
+    <param name="p2.teammenu.enemytitle.vfacing" type="int"/>
+    <param name="p2.teammenu.enemytitle.layerno" type="int"/>
+    <param name="p2.teammenu.enemytitle.scale" type="float2"/>
+    <param name="p2.teammenu.enemytitle.window" type="int4"/>
+    <param name="p2.teammenu.enemytitle.angle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.enemytitle.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.enemytitle.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.move.snd" type="int2"/>
+    <param name="p2.teammenu.value.snd" type="int2"/>
+    <param name="p2.teammenu.done.snd" type="int2"/>
+    <param name="p2.teammenu.item.offset" type="int2"/>
+    <param name="p2.teammenu.item.spacing" type="int2"/>
+    <param name="p2.teammenu.item.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammenu.item.active.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammenu.item.active2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammenu.item.cursor.anim" type="int"/>
+    <param name="p2.teammenu.item.cursor.spr" type="int2"/>
+    <param name="p2.teammenu.item.cursor.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammenu.item.cursor.text" type="ustring"/>
+    <param name="p2.teammenu.item.cursor.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammenu.item.cursor.offset" type="int2"/>
+    <param name="p2.teammenu.item.cursor.displaytime" type="int"/>
+    <param name="p2.teammenu.item.cursor.facing" type="int"/>
+    <param name="p2.teammenu.item.cursor.vfacing" type="int"/>
+    <param name="p2.teammenu.item.cursor.layerno" type="int"/>
+    <param name="p2.teammenu.item.cursor.scale" type="float2"/>
+    <param name="p2.teammenu.item.cursor.window" type="int4"/>
+    <param name="p2.teammenu.item.cursor.angle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.item.cursor.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.item.cursor.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.value.icon.anim" type="int"/>
+    <param name="p2.teammenu.value.icon.spr" type="int2"/>
+    <param name="p2.teammenu.value.icon.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammenu.value.icon.text" type="ustring"/>
+    <param name="p2.teammenu.value.icon.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammenu.value.icon.offset" type="int2"/>
+    <param name="p2.teammenu.value.icon.displaytime" type="int"/>
+    <param name="p2.teammenu.value.icon.facing" type="int"/>
+    <param name="p2.teammenu.value.icon.vfacing" type="int"/>
+    <param name="p2.teammenu.value.icon.layerno" type="int"/>
+    <param name="p2.teammenu.value.icon.scale" type="float2"/>
+    <param name="p2.teammenu.value.icon.window" type="int4"/>
+    <param name="p2.teammenu.value.icon.angle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.value.icon.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.value.icon.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.value.empty.icon.anim" type="int"/>
+    <param name="p2.teammenu.value.empty.icon.spr" type="int2"/>
+    <param name="p2.teammenu.value.empty.icon.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.teammenu.value.empty.icon.text" type="ustring"/>
+    <param name="p2.teammenu.value.empty.icon.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.teammenu.value.empty.icon.offset" type="int2"/>
+    <param name="p2.teammenu.value.empty.icon.displaytime" type="int"/>
+    <param name="p2.teammenu.value.empty.icon.facing" type="int"/>
+    <param name="p2.teammenu.value.empty.icon.vfacing" type="int"/>
+    <param name="p2.teammenu.value.empty.icon.layerno" type="int"/>
+    <param name="p2.teammenu.value.empty.icon.scale" type="float2"/>
+    <param name="p2.teammenu.value.empty.icon.window" type="int4"/>
+    <param name="p2.teammenu.value.empty.icon.angle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.value.empty.icon.yangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.value.empty.icon.xangle" type="float" minver="1.1"/>
+    <param name="p2.teammenu.value.spacing" type="int2"/>
+
+    <param name="sysexplod0.anim" type="int"/>
+    <param name="sysexplod0.spr" type="int2"/>
+    <param name="sysexplod0.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="sysexplod0.text" type="ustring"/>
+    <param name="sysexplod0.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="sysexplod0.offset" type="int2"/>
+    <param name="sysexplod0.displaytime" type="int"/>
+    <param name="sysexplod0.facing" type="int"/>
+    <param name="sysexplod0.vfacing" type="int"/>
+    <param name="sysexplod0.layerno" type="int"/>
+    <param name="sysexplod0.scale" type="float2"/>
+    <param name="sysexplod0.window" type="int4"/>
+    <param name="sysexplod0.angle" type="float" minver="1.1"/>
+    <param name="sysexplod0.yangle" type="float" minver="1.1"/>
+    <param name="sysexplod0.xangle" type="float" minver="1.1"/>
+  </block>
+
+  <block type="VS Screen">
+    <param name="time" type="int"/>
+    <param name="fadein.time" type="int"/>
+    <param name="fadeout.time" type="int"/>
+    <param name="match.anim" type="int"/>
+    <param name="match.spr" type="int2"/>
+    <param name="match.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="match.text" type="ustring"/>
+    <param name="match.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="match.offset" type="int2"/>
+    <param name="match.displaytime" type="int"/>
+    <param name="match.facing" type="int"/>
+    <param name="match.vfacing" type="int"/>
+    <param name="match.layerno" type="int"/>
+    <param name="match.scale" type="float2"/>
+    <param name="match.window" type="int4"/>
+    <param name="match.angle" type="float" minver="1.1"/>
+    <param name="match.yangle" type="float" minver="1.1"/>
+    <param name="match.xangle" type="float" minver="1.1"/>
+    <param name="p1.anim" type="int"/>
+    <param name="p1.spr" type="int2"/>
+    <param name="p1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.text" type="ustring"/>
+    <param name="p1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.offset" type="int2"/>
+    <param name="p1.displaytime" type="int"/>
+    <param name="p1.facing" type="int"/>
+    <param name="p1.vfacing" type="int"/>
+    <param name="p1.layerno" type="int"/>
+    <param name="p1.scale" type="float2"/>
+    <param name="p1.window" type="int4"/>
+    <param name="p1.angle" type="float" minver="1.1"/>
+    <param name="p1.yangle" type="float" minver="1.1"/>
+    <param name="p1.xangle" type="float" minver="1.1"/>
+    <param name="p2.anim" type="int"/>
+    <param name="p2.spr" type="int2"/>
+    <param name="p2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.text" type="ustring"/>
+    <param name="p2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.offset" type="int2"/>
+    <param name="p2.displaytime" type="int"/>
+    <param name="p2.facing" type="int"/>
+    <param name="p2.vfacing" type="int"/>
+    <param name="p2.layerno" type="int"/>
+    <param name="p2.scale" type="float2"/>
+    <param name="p2.window" type="int4"/>
+    <param name="p2.angle" type="float" minver="1.1"/>
+    <param name="p2.yangle" type="float" minver="1.1"/>
+    <param name="p2.xangle" type="float" minver="1.1"/>
+    <param name="p1.name.pos" type="int2" deprecated="1.0"/>
+    <param name="p1.name.offset" type="int2" minver="1.0"/>
+    <param name="p1.name.spacing" type="int2" minver="1.0"/>
+    <param name="p1.name.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.name.pos" type="int2" deprecated="1.0"/>
+    <param name="p2.name.offset" type="int2" minver="1.0"/>
+    <param name="p2.name.spacing" type="int2" minver="1.0"/>
+    <param name="p2.name.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+  </block>
+
+  <block type="Demo Mode">
+    <param name="enabled" type="int"/>
+    <param name="select.enabled" type="int"/>
+    <param name="vsscreen.enabled" type="int"/>
+    <param name="title.waittime" type="int"/>
+    <param name="fight.endtime" type="int"/>
+    <param name="fight.playbgm" type="int"/>
+    <param name="fight.stopbgm" type="int"/>
+    <param name="fight.bars.display" type="int"/>
+    <param name="intro.waitcycles" type="int"/>
+    <param name="debuginfo" type="int"/>
+  </block>
+
+  <block type="Continue Screen">
+    <param name="enabled" type="int"/>
+    <param name="storyboard" type="file"/>
+    <param name="pos" type="int2"/>
+    <param name="continue.anim" type="int"/>
+    <param name="continue.spr" type="int2"/>
+    <param name="continue.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="continue.text" type="ustring"/>
+    <param name="continue.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="continue.offset" type="int2"/>
+    <param name="continue.displaytime" type="int"/>
+    <param name="continue.facing" type="int"/>
+    <param name="continue.vfacing" type="int"/>
+    <param name="continue.layerno" type="int"/>
+    <param name="continue.scale" type="float2"/>
+    <param name="continue.window" type="int4"/>
+    <param name="continue.angle" type="float" minver="1.1"/>
+    <param name="continue.yangle" type="float" minver="1.1"/>
+    <param name="continue.xangle" type="float" minver="1.1"/>
+    <param name="yes.anim" type="int"/>
+    <param name="yes.spr" type="int2"/>
+    <param name="yes.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="yes.text" type="ustring"/>
+    <param name="yes.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="yes.offset" type="int2"/>
+    <param name="yes.displaytime" type="int"/>
+    <param name="yes.facing" type="int"/>
+    <param name="yes.vfacing" type="int"/>
+    <param name="yes.layerno" type="int"/>
+    <param name="yes.scale" type="float2"/>
+    <param name="yes.window" type="int4"/>
+    <param name="yes.angle" type="float" minver="1.1"/>
+    <param name="yes.yangle" type="float" minver="1.1"/>
+    <param name="yes.xangle" type="float" minver="1.1"/>
+    <param name="no.anim" type="int"/>
+    <param name="no.spr" type="int2"/>
+    <param name="no.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="no.text" type="ustring"/>
+    <param name="no.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="no.offset" type="int2"/>
+    <param name="no.displaytime" type="int"/>
+    <param name="no.facing" type="int"/>
+    <param name="no.vfacing" type="int"/>
+    <param name="no.layerno" type="int"/>
+    <param name="no.scale" type="float2"/>
+    <param name="no.window" type="int4"/>
+    <param name="no.angle" type="float" minver="1.1"/>
+    <param name="no.yangle" type="float" minver="1.1"/>
+    <param name="no.xangle" type="float" minver="1.1"/>
+    <param name="yes.active.anim" type="int"/>
+    <param name="yes.active.spr" type="int2"/>
+    <param name="yes.active.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="yes.active.text" type="ustring"/>
+    <param name="yes.active.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="yes.active.offset" type="int2"/>
+    <param name="yes.active.displaytime" type="int"/>
+    <param name="yes.active.facing" type="int"/>
+    <param name="yes.active.vfacing" type="int"/>
+    <param name="yes.active.layerno" type="int"/>
+    <param name="yes.active.scale" type="float2"/>
+    <param name="yes.active.window" type="int4"/>
+    <param name="yes.active.angle" type="float" minver="1.1"/>
+    <param name="yes.active.yangle" type="float" minver="1.1"/>
+    <param name="yes.active.xangle" type="float" minver="1.1"/>
+    <param name="no.active.anim" type="int"/>
+    <param name="no.active.spr" type="int2"/>
+    <param name="no.active.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="no.active.text" type="ustring"/>
+    <param name="no.active.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="no.active.offset" type="int2"/>
+    <param name="no.active.displaytime" type="int"/>
+    <param name="no.active.facing" type="int"/>
+    <param name="no.active.vfacing" type="int"/>
+    <param name="no.active.layerno" type="int"/>
+    <param name="no.active.scale" type="float2"/>
+    <param name="no.active.window" type="int4"/>
+    <param name="no.active.angle" type="float" minver="1.1"/>
+    <param name="no.active.yangle" type="float" minver="1.1"/>
+    <param name="no.active.xangle" type="float" minver="1.1"/>
+  </block>
+
+  <block type="Game Over Screen">
+    <param name="enabled" type="int"/>
+    <param name="storyboard" type="file"/>
+  </block>
+
+  <block type="Victory Screen" minver="1.0">
+    <param name="enabled" type="int"/>
+    <param name="time" type="int"/>
+    <param name="fadein.time" type="int"/>
+    <param name="fadeout.time" type="int"/>
+    <param name="p1.anim" type="int"/>
+    <param name="p1.spr" type="int2"/>
+    <param name="p1.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p1.text" type="ustring"/>
+    <param name="p1.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p1.offset" type="int2"/>
+    <param name="p1.displaytime" type="int"/>
+    <param name="p1.facing" type="int"/>
+    <param name="p1.vfacing" type="int"/>
+    <param name="p1.layerno" type="int"/>
+    <param name="p1.scale" type="float2"/>
+    <param name="p1.window" type="int4"/>
+    <param name="p1.angle" type="float" minver="1.1"/>
+    <param name="p1.yangle" type="float" minver="1.1"/>
+    <param name="p1.xangle" type="float" minver="1.1"/>
+    <param name="p2.anim" type="int"/>
+    <param name="p2.spr" type="int2"/>
+    <param name="p2.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.text" type="ustring"/>
+    <param name="p2.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="p2.offset" type="int2"/>
+    <param name="p2.displaytime" type="int"/>
+    <param name="p2.facing" type="int"/>
+    <param name="p2.vfacing" type="int"/>
+    <param name="p2.layerno" type="int"/>
+    <param name="p2.scale" type="float2"/>
+    <param name="p2.window" type="int4"/>
+    <param name="p2.angle" type="float" minver="1.1"/>
+    <param name="p2.yangle" type="float" minver="1.1"/>
+    <param name="p2.xangle" type="float" minver="1.1"/>
+    <param name="p1.name.pos" type="int2" deprecated="1.0"/>
+    <param name="p1.name.offset" type="int2" minver="1.0"/>
+    <param name="p1.name.spacing" type="int2" minver="1.0"/>
+    <param name="p1.name.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="p2.name.pos" type="int2" deprecated="1.0"/>
+    <param name="p2.name.offset" type="int2" minver="1.0"/>
+    <param name="p2.name.spacing" type="int2" minver="1.0"/>
+    <param name="p2.name.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="winquote.anim" type="int"/>
+    <param name="winquote.spr" type="int2"/>
+    <param name="winquote.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="winquote.text" type="ustring"/>
+    <param name="winquote.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="winquote.offset" type="int2"/>
+    <param name="winquote.displaytime" type="int"/>
+    <param name="winquote.facing" type="int"/>
+    <param name="winquote.vfacing" type="int"/>
+    <param name="winquote.layerno" type="int"/>
+    <param name="winquote.scale" type="float2"/>
+    <param name="winquote.window" type="int4"/>
+    <param name="winquote.angle" type="float" minver="1.1"/>
+    <param name="winquote.yangle" type="float" minver="1.1"/>
+    <param name="winquote.xangle" type="float" minver="1.1"/>
+  </block>
+
+  <block type="Win Screen">
+    <param name="enabled" type="int"/>
+    <param name="wintext.anim" type="int"/>
+    <param name="wintext.spr" type="int2"/>
+    <param name="wintext.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="wintext.text" type="ustring"/>
+    <param name="wintext.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="wintext.offset" type="int2"/>
+    <param name="wintext.displaytime" type="int"/>
+    <param name="wintext.facing" type="int"/>
+    <param name="wintext.vfacing" type="int"/>
+    <param name="wintext.layerno" type="int"/>
+    <param name="wintext.scale" type="float2"/>
+    <param name="wintext.window" type="int4"/>
+    <param name="wintext.angle" type="float" minver="1.1"/>
+    <param name="wintext.yangle" type="float" minver="1.1"/>
+    <param name="wintext.xangle" type="float" minver="1.1"/>
+    <param name="pose.time" type="int"/>
+    <param name="fadein.time" type="int"/>
+    <param name="fadeout.time" type="int"/>
+  </block>
+
+  <block type="Default Ending">
+    <param name="enabled" type="int"/>
+    <param name="storyboard" type="file"/>
+  </block>
+
+  <block type="End Credits">
+    <param name="enabled" type="int"/>
+    <param name="storyboard" type="file"/>
+  </block>
+
+  <block type="Survival Results Screen">
+    <param name="enabled" type="int"/>
+    <param name="winstext.anim" type="int"/>
+    <param name="winstext.spr" type="int2"/>
+    <param name="winstext.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="winstext.text" type="ustring"/>
+    <param name="winstext.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="winstext.offset" type="int2"/>
+    <param name="winstext.displaytime" type="int"/>
+    <param name="winstext.facing" type="int"/>
+    <param name="winstext.vfacing" type="int"/>
+    <param name="winstext.layerno" type="int"/>
+    <param name="winstext.scale" type="float2"/>
+    <param name="winstext.window" type="int4"/>
+    <param name="winstext.angle" type="float" minver="1.1"/>
+    <param name="winstext.yangle" type="float" minver="1.1"/>
+    <param name="winstext.xangle" type="float" minver="1.1"/>
+    <param name="show.time" type="int"/>
+    <param name="fadein.time" type="int"/>
+    <param name="fadeout.time" type="int"/>
+    <param name="roundstowin" type="int"/>
+  </block>
+
+  <block type="Option Info">
+    <param name="fadein.time" type="int"/>
+    <param name="fadeout.time" type="int"/>
+    <param name="cursor.move.snd" type="int2"/>
+    <param name="cursor.done.snd" type="int2"/>
+    <param name="cancel.snd" type="int2"/>
+    <param name="title.anim" type="int"/>
+    <param name="title.spr" type="int2"/>
+    <param name="title.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="title.text" type="ustring"/>
+    <param name="title.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="title.offset" type="int2"/>
+    <param name="title.displaytime" type="int"/>
+    <param name="title.facing" type="int"/>
+    <param name="title.vfacing" type="int"/>
+    <param name="title.layerno" type="int"/>
+    <param name="title.scale" type="float2"/>
+    <param name="title.window" type="int4"/>
+    <param name="title.angle" type="float" minver="1.1"/>
+    <param name="title.yangle" type="float" minver="1.1"/>
+    <param name="title.xangle" type="float" minver="1.1"/>
+  </block>
+
+  <block type="Infobox" minver="1.0">
+    <param name="text.anim" type="int"/>
+    <param name="text.spr" type="int2"/>
+    <param name="text.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="text.text" type="ustring"/>
+    <param name="text.textwrap" type="keyword" list="C,N,W,Char,None,Word"/>
+    <param name="text.offset" type="int2"/>
+    <param name="text.displaytime" type="int"/>
+    <param name="text.facing" type="int"/>
+    <param name="text.vfacing" type="int"/>
+    <param name="text.layerno" type="int"/>
+    <param name="text.scale" type="float2"/>
+    <param name="text.window" type="int4"/>
+    <param name="text.angle" type="float" minver="1.1"/>
+    <param name="text.yangle" type="float" minver="1.1"/>
+    <param name="text.xangle" type="float" minver="1.1"/>
+  </block>
+
+  <block type="Infobox Text" minver="1.0"/>
+
+  <block type="TitleBGDef">
+    <param name="bgclearcolor" type="int3"/>
+  </block>
+  <block type="TitleBG>Dummy:stage.BG.Dummy"/>
+  <block type="TitleBG>Normal:stage.BG.Normal"/>
+  <block type="TitleBG>Anim:stage.BG.Anim"/>
+  <block type="TitleBG>Parallax:stage.BG.Parallax"/>
+  <block type="TitleBGCtrlDef:stage.BGCtrlDef"/>
+  <block type="TitleBGCtrl>Visible:stage.BGCtrlDef.Visible"/>
+  <block type="TitleBGCtrl>Enable:stage.BGCtrlDef.Enable"/>
+  <block type="TitleBGCtrl>VelSet:stage.BGCtrlDef.VelSet"/>
+  <block type="TitleBGCtrl>VelAdd:stage.BGCtrlDef.VelAdd"/>
+  <block type="TitleBGCtrl>PosSet:stage.BGCtrlDef.PosSet"/>
+  <block type="TitleBGCtrl>PosAdd:stage.BGCtrlDef.PosAdd"/>
+  <block type="TitleBGCtrl>Anim:stage.BGCtrlDef.Anim"/>
+  <block type="TitleBGCtrl>SinX:stage.BGCtrlDef.SinX"/>
+  <block type="TitleBGCtrl>SinY:stage.BGCtrlDef.SinY"/>
+
+  <block type="SelectBGDef:TitleBGDef"/>
+  <block type="SelectBG>Dummy:stage.BG.Dummy"/>
+  <block type="SelectBG>Normal:stage.BG.Normal"/>
+  <block type="SelectBG>Anim:stage.BG.Anim"/>
+  <block type="SelectBG>Parallax:stage.BG.Parallax"/>
+  <block type="SelectBGCtrlDef:stage.BGCtrlDef"/>
+  <block type="SelectBGCtrl>Visible:stage.BGCtrlDef.Visible"/>
+  <block type="SelectBGCtrl>Enable:stage.BGCtrlDef.Enable"/>
+  <block type="SelectBGCtrl>VelSet:stage.BGCtrlDef.VelSet"/>
+  <block type="SelectBGCtrl>VelAdd:stage.BGCtrlDef.VelAdd"/>
+  <block type="SelectBGCtrl>PosSet:stage.BGCtrlDef.PosSet"/>
+  <block type="SelectBGCtrl>PosAdd:stage.BGCtrlDef.PosAdd"/>
+  <block type="SelectBGCtrl>Anim:stage.BGCtrlDef.Anim"/>
+  <block type="SelectBGCtrl>SinX:stage.BGCtrlDef.SinX"/>
+  <block type="SelectBGCtrl>SinY:stage.BGCtrlDef.SinY"/>
+  
+  <block type="VersusBGDef:TitleBGDef"/>
+  <block type="VersusBG>Dummy:stage.BG.Dummy"/>
+  <block type="VersusBG>Normal:stage.BG.Normal"/>
+  <block type="VersusBG>Anim:stage.BG.Anim"/>
+  <block type="VersusBG>Parallax:stage.BG.Parallax"/>
+  <block type="VersusBGCtrlDef:stage.BGCtrlDef"/>
+  <block type="VersusBGCtrl>Visible:stage.BGCtrlDef.Visible"/>
+  <block type="VersusBGCtrl>Enable:stage.BGCtrlDef.Enable"/>
+  <block type="VersusBGCtrl>VelSet:stage.BGCtrlDef.VelSet"/>
+  <block type="VersusBGCtrl>VelAdd:stage.BGCtrlDef.VelAdd"/>
+  <block type="VersusBGCtrl>PosSet:stage.BGCtrlDef.PosSet"/>
+  <block type="VersusBGCtrl>PosAdd:stage.BGCtrlDef.PosAdd"/>
+  <block type="VersusBGCtrl>Anim:stage.BGCtrlDef.Anim"/>
+  <block type="VersusBGCtrl>SinX:stage.BGCtrlDef.SinX"/>
+  <block type="VersusBGCtrl>SinY:stage.BGCtrlDef.SinY"/>
+  
+  <block type="VictoryBGDef:TitleBGDef"/>
+  <block type="VictoryBG>Dummy:stage.BG.Dummy"/>
+  <block type="VictoryBG>Normal:stage.BG.Normal"/>
+  <block type="VictoryBG>Anim:stage.BG.Anim"/>
+  <block type="VictoryBG>Parallax:stage.BG.Parallax"/>
+  <block type="VictoryBGCtrlDef:stage.BGCtrlDef"/>
+  <block type="VictoryBGCtrl>Visible:stage.BGCtrlDef.Visible"/>
+  <block type="VictoryBGCtrl>Enable:stage.BGCtrlDef.Enable"/>
+  <block type="VictoryBGCtrl>VelSet:stage.BGCtrlDef.VelSet"/>
+  <block type="VictoryBGCtrl>VelAdd:stage.BGCtrlDef.VelAdd"/>
+  <block type="VictoryBGCtrl>PosSet:stage.BGCtrlDef.PosSet"/>
+  <block type="VictoryBGCtrl>PosAdd:stage.BGCtrlDef.PosAdd"/>
+  <block type="VictoryBGCtrl>Anim:stage.BGCtrlDef.Anim"/>
+  <block type="VictoryBGCtrl>SinX:stage.BGCtrlDef.SinX"/>
+  <block type="VictoryBGCtrl>SinY:stage.BGCtrlDef.SinY"/>
+  
+  <block type="OptionBGDef:TitleBGDef"/>
+  <block type="OptionBG>Dummy:stage.BG.Dummy"/>
+  <block type="OptionBG>Normal:stage.BG.Normal"/>
+  <block type="OptionBG>Anim:stage.BG.Anim"/>
+  <block type="OptionBG>Parallax:stage.BG.Parallax"/>
+  <block type="OptionBGCtrlDef:stage.BGCtrlDef"/>
+  <block type="OptionBGCtrl>Visible:stage.BGCtrlDef.Visible"/>
+  <block type="OptionBGCtrl>Enable:stage.BGCtrlDef.Enable"/>
+  <block type="OptionBGCtrl>VelSet:stage.BGCtrlDef.VelSet"/>
+  <block type="OptionBGCtrl>VelAdd:stage.BGCtrlDef.VelAdd"/>
+  <block type="OptionBGCtrl>PosSet:stage.BGCtrlDef.PosSet"/>
+  <block type="OptionBGCtrl>PosAdd:stage.BGCtrlDef.PosAdd"/>
+  <block type="OptionBGCtrl>Anim:stage.BGCtrlDef.Anim"/>
+  <block type="OptionBGCtrl>SinX:stage.BGCtrlDef.SinX"/>
+  <block type="OptionBGCtrl>SinY:stage.BGCtrlDef.SinY"/>
+</file>
+
+<file type="font">
+
+  <block type="FNT V2">
+    <param name="fntversion" type="int2"/>
+    <param name="name" type="string"/>
+    <param name="author" type="string"/>
+  </block>
+
+  <block type="Def>TrueType">
+    <param name="size" type="int2"/>
+    <param name="spacing" type="int2"/>
+    <param name="offset" type="int2"/>
+    <param name="file" type="file"/>
+    <param name="blend" type="int"/>
+  </block>
+
+  <block type="Def>Bitmap">
+    <param name="size" type="int2"/>
+    <param name="spacing" type="int2"/>
+    <param name="offset" type="int2"/>
+    <param name="file" type="file"/>
+  </block>
+
+</file>
+
+<file type="storyboard">
+
+  <block type="SceneDef">
+    <param name="spr" type="file" required="true"/>
+    <param name="snd" type="file"/>
+    <param name="font0" type="file"/>
+    <param name="font1" type="file"/>
+    <param name="font2" type="file"/>
+    <param name="font3" type="file"/>
+    <param name="font4" type="file"/>
+    <param name="font5" type="file"/>
+    <param name="font6" type="file"/>
+    <param name="font7" type="file"/>
+    <param name="font8" type="file"/>
+    <param name="font9" type="file"/>
+    <param name="startscene" type="int"/>
+  </block>
+
+  <block type="Scene">
+    <param name="fadein.time" type="int"/>
+    <param name="fadein.col" type="int3"/>
+    <param name="fadeout.time" type="int"/>
+    <param name="fadeout.col" type="int3"/>
+    <param name="clearcolor" type="int3"/>
+    <param name="window" type="int4"/>
+    <param name="layerall.pos" type="int2"/>
+    <param name="layer*.anim" type="int"/>
+    <param name="layer*.text" type="string"/>
+    <param name="layer*.font" type="intvec" max="6" optional="req,req,def,def,def,def"/>
+    <param name="layer*.textdelay" type="int"/>
+    <param name="layer*.offset" type="int2"/>
+    <param name="layer*.starttime" type="int"/>
+    <param name="layer*.endtime" type="int"/>
+    <param name="sound*.value" type="int2"/>
+    <param name="sound*.volumescale" type="float"/>
+    <param name="sound*.pan" type="int"/>
+    <param name="sound*.starttime" type="int"/>
+    <param name="bg.name" type="ustring"/>
+    <param name="bgm" type="file"/>
+    <param name="bgm.volume" type="float"/>
+    <param name="bgm.loop" type="int"/>
+    <param name="bgm.loopstart" type="int" minver="1.0"/>
+    <param name="bgm.loopend" type="int" minver="1.0"/>
+    <param name="end.time" type="int"/>
+  </block>
+
+  <block type="BG*Def:stage.BGDef"/>
+  <block type="BG*>Dummy:stage.Dummy"/>
+  <block type="BG*>Normal:stage.Normal"/>
+  <block type="BG*>Anim:stage.Anim"/>
+  <block type="BG*>Parallax:stage.Parallax"/>
+  <block type="BG*CtrlDef:stage.BGCtrlDef"/>
+  <block type="BG*Ctrl>Visible:stage.Visible"/>
+  <block type="BG*Ctrl>Enable:stage.Enable"/>
+  <block type="BG*Ctrl>VelSet:stage.VelSet"/>
+  <block type="BG*Ctrl>VelAdd:stage.VelAdd"/>
+  <block type="BG*Ctrl>Posset:stage.Posset"/>
+  <block type="BG*Ctrl>PosAdd:stage.PosAdd"/>
+  <block type="BG*Ctrl>Anim:stage.Anim"/>
+  <block type="BG*Ctrl>SinX:stage.SinX"/>
+  <block type="BG*Ctrl>SinY:stage.SinY"/>
+
+</file>
+
+  <consts name="const">
+    <const name="data.life"/>
+    <const name="data.power"/>
+    <const name="data.attack"/>
+    <const name="data.defence"/>
+    <const name="data.fall.defence_mul"/>
+    <const name="data.liedown.time"/>
+    <const name="data.airjuggle"/>
+    <const name="data.sparkno"/>
+    <const name="data.guard.sparkno"/>
+    <const name="data.ko.echo"/>
+    <const name="data.intpersistindex"/>
+    <const name="data.floatpersistindex"/>
+    <const name="size.xscale"/>
+    <const name="size.yscale"/>
+    <const name="size.ground.back"/>
+    <const name="size.ground.front"/>
+    <const name="size.air.back"/>
+    <const name="size.air.front"/>
+    <const name="size.height"/>
+    <const name="size.attack.dist"/>
+    <const name="size.proj.attack.dist"/>
+    <const name="size.proj.doscale"/>
+    <const name="size.head.pos.x"/>
+    <const name="size.head.pos.y"/>
+    <const name="size.mid.pos.x"/>
+    <const name="size.mid.pos.y"/>
+    <const name="size.shadowoffset"/>
+    <const name="size.draw.offset.x"/>
+    <const name="size.draw.offset.y"/>
+    <const name="velocity.walk.fwd.x"/>
+    <const name="velocity.walk.back.x"/>
+    <const name="velocity.run.fwd.x"/>
+    <const name="velocity.run.fwd.y"/>
+    <const name="velocity.run.back.x"/>
+    <const name="velocity.run.back.y"/>
+    <const name="velocity.jump.y"/>
+    <const name="velocity.jump.neu.x"/>
+    <const name="velocity.jump.back.x"/>
+    <const name="velocity.jump.fwd.x"/>
+    <const name="velocity.runjump.back.x"/>
+    <const name="velocity.runjump.fwd.x"/>
+    <const name="velocity.airjump.y"/>
+    <const name="velocity.airjump.neu.x"/>
+    <const name="velocity.airjump.back.x"/>
+    <const name="velocity.airjump.fwd.x"/>
+    <const name="velocity.air.gethit.groundrecover.x"/>
+    <const name="velocity.air.gethit.groundrecover.y"/>
+    <const name="velocity.air.gethit.airrecover.mul.x"/>
+    <const name="velocity.air.gethit.airrecover.mul.y"/>
+    <const name="velocity.air.gethit.airrecover.add.x"/>
+    <const name="velocity.air.gethit.airrecover.add.y"/>
+    <const name="velocity.air.gethit.airrecover.back"/>
+    <const name="velocity.air.gethit.airrecover.fwd"/>
+    <const name="velocity.air.gethit.airrecover.up"/>
+    <const name="velocity.air.gethit.airrecover.down"/>
+    <const name="movement.airjump.num"/>
+    <const name="movement.airjump.height"/>
+    <const name="movement.yaccel"/>
+    <const name="movement.stand.friction"/>
+    <const name="movement.crouch.friction"/>
+    <const name="movement.stand.friction.threshold"/>
+    <const name="movement.crouch.friction.threshold"/>
+    <const name="movement.jump.changeanim.threshold"/>
+    <const name="movement.air.gethit.groundlevel"/>
+    <const name="movement.air.gethit.groundrecover.ground.threshold"/>
+    <const name="movement.air.gethit.groundrecover.groundlevel"/>
+    <const name="movement.air.gethit.airrecover.threshold"/>
+    <const name="movement.air.gethit.airrecover.yaccel"/>
+    <const name="movement.air.gethit.trip.groundlevel"/>
+    <const name="movement.down.bounce.offset.x"/>
+    <const name="movement.down.bounce.offset.y"/>
+    <const name="movement.down.bounce.yaccel"/>
+    <const name="movement.down.bounce.groundlevel"/>
+    <const name="movement.down.friction.threshold"/>
+  </consts>
+
+  <consts name="GetHitVar">
+    <const name="xveladd"/>
+    <const name="yveladd"/>
+    <const name="type"/>
+    <const name="animtype"/>
+    <const name="airtype"/>
+    <const name="groundtype"/>
+    <const name="damage"/>
+    <const name="hitcount"/>
+    <const name="fallcount"/>
+    <const name="hitshaketime"/>
+    <const name="hittime"/>
+    <const name="slidetime"/>
+    <const name="ctrltime"/>
+    <const name="recovertime"/>
+    <const name="xoff"/> 
+    <const name="yoff"/>
+    <const name="zoff"/>
+    <const name="xvel"/>
+    <const name="yvel"/>
+    <const name="yaccel"/>
+    <const name="chainid"/>
+    <const name="guarded"/>
+    <const name="isbound"/>
+    <const name="fall"/>
+    <const name="fall.damage"/>
+    <const name="fall.xvel"/>
+    <const name="fall.yvel"/>
+    <const name="fall.recover"/>
+    <const name="fall.recovertime"/>
+    <const name="fall.kill"/>
+    <const name="fall.time"/>
+    <const name="fall.envshake.time"/>
+    <const name="fall.envshake.freq"/>
+    <const name="fall.envshake.ampl"/>
+    <const name="fall.envshake.phase"/>
+    <const name="fall.envshake.dir"/>
+  </consts>
+
+  <consts name="AssertSpecial">
+    <const name="Intro"/>
+    <const name="Invisible"/>
+    <const name="RoundNotOver"/>
+    <const name="NoBarDisplay"/>
+    <const name="NoBG"/>
+    <const name="NoFG"/>
+    <const name="NoStandGuard"/>
+    <const name="NoCrouchGuard"/>
+    <const name="NoAirGuard"/>
+    <const name="NoAutoTurn"/>
+    <const name="NoJuggleCheck"/>
+    <const name="NoKOSnd"/>
+    <const name="NoKOSlow"/>
+    <const name="NoShadow"/>
+    <const name="GlobalNoShadow"/>
+    <const name="NoMusic"/>
+    <const name="NoWalk"/>
+    <const name="NoKO"/>
+    <const name="TimerFreeze"/>
+    <const name="Unguardable"/>
+  </consts>
+
+  <consts name="StageVar">
+    <const name="info.author"/>
+    <const name="info.displayname"/>
+    <const name="info.name"/>
+  </consts>
+
+  <consts name="StageInfo">
+    <const name="info.author"/>
+    <const name="info.displayname"/>
+    <const name="info.name"/>
+  </consts>
+
+  <trigger name="Abs" type="exp" context="default,bgctrl"/>
+  <trigger name="ACos" type="exp" context="default,bgctrl"/>
+  <trigger name="AILevel" minver="1.0"/>
+  <trigger name="Alive"/>
+  <trigger name="Anim" context="default,bg"/>
+  <trigger name="AnimElem" type="op2int2" context="default,bg"/>
+  <trigger name="AnimElemNo" type="exp" context="default,bg"/>
+  <trigger name="AnimElemTime" type="exp" context="default,bg"/>
+  <trigger name="AnimExist" type="exp" context="default,bgctrl"/>
+  <trigger name="AnimTime" context="default,bg"/>
+  <trigger name="BGDist" minver="ext" context="default,bg"/>
+  <trigger name="ASin" type="exp" context="default,bgctrl"/>
+  <trigger name="ATan" type="exp" context="default,bgctrl"/>
+  <trigger name="AuthorName" type="opstr"/>
+  <trigger name="BackEdge" minver="1.1" context="default,bgctrl"/>
+  <trigger name="BackEdgeBodyDist"/>
+  <trigger name="BackEdgeDist"/>
+  <trigger name="BottomEdge" minver="1.1" context="default,bgctrl"/>
+  <trigger name="CameraPos" type="keyword" list="X,Y" minver="1.1" context="default,bgctrl"/>
+  <trigger name="CameraZoom" minver="1.1" context="default,bgctrl"/>
+  <trigger name="CanRecover"/>
+  <trigger name="Ceil" type="exp" context="default,bgctrl"/>
+  <trigger name="Command" type="opstr"/>
+  <trigger name="Cond" type="exp3" minver="1.0" context="default,bgctrl"/>
+  <trigger name="Const" type="const"/>
+  <trigger name="Const240p" type="exp" minver="1.0" context="default,bgctrl"/>
+  <trigger name="Const480p" type="exp" minver="1.0" context="default,bgctrl"/>
+  <trigger name="Const720p" type="exp" minver="1.0" context="default,bgctrl"/>
+  <trigger name="Cos" type="exp" context="default,bgctrl"/>
+  <trigger name="Ctrl"/>
+  <trigger name="DrawGame" context="default,bgctrl"/>
+  <trigger name="E" context="default,bgctrl"/>
+  <trigger name="Exp" type="exp" context="default,bgctrl"/>
+  <trigger name="Facing"/>
+  <trigger name="Floor" type="exp" context="default,bgctrl"/>
+  <trigger name="FrontEdge" minver="1.1"/>
+  <trigger name="FrontEdgeBodyDist"/>
+  <trigger name="FrontEdgeDist"/>
+  <trigger name="FVar" type="exp"/>
+  <trigger name="GameHeight" minver="1.0" context="default,bgctrl"/>
+  <trigger name="GameMode" minver="ext" context="default,bgctrl"/>
+  <trigger name="GameTime" context="default,bgctrl"/>
+  <trigger name="GameWidth" minver="1.0" context="default,bgctrl"/>
+  <trigger name="GameVar" type="exp" minver="ext" context="default,bgctrl"/>
+  <trigger name="GameFVar" type="exp" minver="ext" context="default,bgctrl"/>
+  <trigger name="GetHitVar" type="const"/>
+  <trigger name="HitCount"/>
+  <trigger name="HitDefAttr" type="hitattr"/>
+  <trigger name="HitFall"/>
+  <trigger name="HitOver"/>
+  <trigger name="HitPauseTime"/>
+  <trigger name="HitShakeOver"/>
+  <trigger name="HitVel" type="keyword" list="X,Y"/>
+  <trigger name="Id" context="default,bg"/>
+  <trigger name="IfElse" type="exp3" context="default,bgctrl"/>
+  <trigger name="InGuardDist"/>
+  <trigger name="IsHelper" type="expopt"/>
+  <trigger name="IsHomeTeam"/>
+  <trigger name="LeftEdge" minver="1.1" context="default,bgctrl"/>
+  <trigger name="Life"/>
+  <trigger name="LifeMax"/>
+  <trigger name="Ln" type="exp" context="default,bgctrl"/>
+  <trigger name="Log" type="exp2" context="default,bgctrl"/>
+  <trigger name="Lose"/>
+  <trigger name="LoseKO"/>
+  <trigger name="LoseTime"/>
+  <trigger name="MatchNo" context="default,bgctrl"/>
+  <trigger name="MatchOver" context="default,bgctrl"/>
+  <trigger name="MoveContact"/>
+  <trigger name="MoveGuarded"/>
+  <trigger name="MoveHit"/>
+  <trigger name="MoveType" type="valueeq" list="A,I,H"/>
+  <trigger name="MoveReversed"/>
+  <trigger name="Name" type="opstr"/>
+  <trigger name="NumEnemy"/>
+  <trigger name="NumExplod" type="nilexp"/>
+  <trigger name="NumHelper" type="nilexp"/>
+  <trigger name="NumPartner"/>
+  <trigger name="NumProj"/>
+  <trigger name="NumProjId" type="exp"/>
+  <trigger name="NumTarget" type="nilexp"/>
+  <trigger name="P1Name" type="opstr" context="default,bgctrl"/>
+  <trigger name="P2BodyDist" type="keyword" list="X,Y"/>
+  <trigger name="P2Dist" type="keyword" list="X,Y"/>
+  <trigger name="P2Life"/>
+  <trigger name="P2MoveType" type="valueeq" list="A,I,H"/>
+  <trigger name="P2Name" type="opstr" context="default,bgctrl"/>
+  <trigger name="P2StateNo"/>
+  <trigger name="P2StateType" type="valueeq" list="S,C,A,L"/>
+  <trigger name="P3Name" type="opstr" context="default,bgctrl"/>
+  <trigger name="P4Name" type="opstr" context="default,bgctrl"/>
+  <trigger name="PalNo"/>
+  <trigger name="ParentDist" type="keyword" list="X,Y"/>
+  <trigger name="Pi" context="default,bgctrl"/>
+  <trigger name="Pos" type="keyword" list="X,Y" context="default,bg"/>
+  <trigger name="Power"/>
+  <trigger name="PowerMax"/>
+  <trigger name="PlayerIdExist" type="exp" context="default,bgctrl"/>
+  <trigger name="PrevStateNo"/>
+  <trigger name="ProjCancelTime" type="exp"/>
+  <trigger name="ProjContact" type="opint"/>
+  <trigger name="ProjContact*" type="opint"/>
+  <trigger name="ProjContactTime" type="exp"/>
+  <trigger name="ProjGuarded" type="opint"/>
+  <trigger name="ProjGuarded*" type="opint"/>
+  <trigger name="ProjGuardedTime" type="exp"/>
+  <trigger name="ProjHit" type="opint"/>
+  <trigger name="ProjHit*" type="opint"/>
+  <trigger name="ProjHitTime" type="exp"/>
+  <trigger name="Random" context="default,bgctrl"/>
+  <trigger name="RightEdge" minver="1.1" context="default,bgctrl"/>
+  <trigger name="RootDist" type="keyword" list="X,Y"/>
+  <trigger name="RoundNo" context="default,bgctrl"/>
+  <trigger name="RoundsExisted"/>
+  <trigger name="RoundState" context="default,bgctrl"/>
+  <trigger name="ScreenPos" type="keyword" list="X,Y" context="default,bg"/>
+  <trigger name="ScreenHeight" minver="1.1" context="default,bgctrl"/>
+  <trigger name="ScreenWidth" minver="1.1" context="default,bgctrl"/>
+  <trigger name="SelfAnimExist" type="exp"/>
+  <trigger name="Sin" type="exp" context="default,bgctrl"/>
+  <trigger name="StateNo"/>
+  <trigger name="StateTime"/>
+  <trigger name="StateType" type="valueeq" list="S,C,A,L"/>
+  <trigger name="StageInfo" type="const" minver="ext" context="default,bgctrl"/>
+  <trigger name="StageVar" type="constexp" minver="1.0" context="default,bgctrl"/>
+  <trigger name="StageFVar" type="exp" minver="ext" context="default,bgctrl"/>
+  <trigger name="SysFVar" type="exp"/>
+  <trigger name="SysVar" type="exp"/>
+  <trigger name="Tan" type="exp" context="default,bgctrl"/>
+  <trigger name="TeamMode" type="valueeq" list="Single,Simul,Turns"/>
+  <trigger name="TeamSide"/>
+  <trigger name="TicksPerSecond" context="default,bgctrl"/>
+  <trigger name="Time"/>
+  <trigger name="TimeMod" type="opint2"/>
+  <trigger name="TopEdge" minver="1.1" context="default,bgctrl"/>
+  <trigger name="UniqHitCount"/>
+  <trigger name="Var" type="exp"/>
+  <trigger name="Vel" type="keyword" list="X,Y" context="default,bg"/>
+  <trigger name="Win"/>
+  <trigger name="WinKO"/>
+  <trigger name="WinTime"/>
+  <trigger name="WinPerfect"/>
+
+</syntax>

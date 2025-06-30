@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li>Scripting system</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Syntax highlight system</h1>
+        <h2>M.U.G.E.N.</h2>
+        <p>The syntax highlight database is a XML document, with the following structure:</p>
+        <p>&lt;?xml version="1.0" encoding="UTF-8"?&gt;<br/>
+        &lt;syntax&gt;<br/>
+        {file list}<br/>
+        &lt;/syntax&gt;</p>        
+        <p>To define a file you must write:</p>
+        <p>&lt;file type="type-name"/&gt; inside the {file list}. 'type_name' can be: char, state, command, stage, motif, font or storyboard (will be used based on file type of the document detected by the parser).</p>
+        <p>Inside a file, code is split into blocks. To define a block you must write:</p>
+        <p>&lt;block type="type-name>base_file.base_name"/&gt; inside a file. 'base_file' and 'base_name' are optional. They're used to inherit params from other block.</p>
+        <p>Each block can have parameters. To define a parameter you must write:</p>
+        <p>&lt;param name="name" type="type"/&gt; inside a block. Extra attributes are available for some types, like 'list' and 'char'</p>
+        <p>'block' and 'param' can have the 'minver' attribute too, to set the minimum required version, and 'deprecated' to mark this as deprecated on the specified version. 'param' could have the attribute 'optional', to define optional values as the name suggests.</p>
+        <p>Besides 'file', you can use 'consts' or 'trigger'.</p>
+        <p>To define a consts you must write:</p>
+        <p>&lt;consts name="name"/&gt; inside the {file list}. 'name' can be Const, GetHitVar and AssertSpecial.</p>
+        <p>To define a trigger you must write:</p>
+        <p>&lt;trigger name="name" type="type"/&gt; inside the {file list}.</p>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

@@ -1,0 +1,14 @@
+[StateDef 0]   
+type = S          ; SCA
+movetype = U      ; AIHU
+physics = S       ; SCANU
+anim = 0          ;refers to the .Air file
+;velset = 0,0      
+;ctrl =            ;
+;poweradd =
+;juggle =          ; Not used unless movetype becomes A
+;facep2 =          ; will allow your back to be turned
+;hitdefpersist =   ; drop all attacks
+;moveHitPersist =  ; Needed for MoveContact to remain true
+;hitcountpersist = ; Start a new combo
+;sprpriority =     ; Stand behind everything 

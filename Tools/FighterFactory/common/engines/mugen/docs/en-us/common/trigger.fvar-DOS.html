@@ -1,0 +1,11 @@
+<p>This trigger takes a mandatory variable number as an argument. It returns the value of the player's specified float variable.</p>
+<p><b>Format:</b> FVar(exprn)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>exprn <i>(int)</i>:</b> An expression evaluating to a variable number. Valid numbers at this time are 0-39.</li>
+</ul>
+<p><b>Return type:</b> float</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if exprn evaluates to 'Bottom', or if exprn evaluates to an invalid variable index.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>FVar</b>(5)) = -1.23<br>
+<i>; Triggers if the value of float variable 5 is -1.23.</i></code></p>

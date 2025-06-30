@@ -1,0 +1,11 @@
+<p>This trigger takes an ID number as a required argument. It returns the number of projectiles currently owned by the player and having the specified ID number.</p>
+<p><b>Format:</b> NumProjID(exprn)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>exprn <i>(int)</i>:</b> Expression evaluating to an ID number.</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> If a negative ID is specified, then the ID defaults to 0. Returns 'Bottom' if exprn evaluates to 'Bottom'.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>NumProjID</b>(1234) = 1<br>
+<i>; Triggers if there the player currently owns exactly 1 projectile with the ID number 1234.</i></code></p>

@@ -1,0 +1,19 @@
+<p>Plays back a sound.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>value</b> = group_no, sound_no (int)<br>
+	<i>group_no and sound_no correspond to the identifying pair that you assigned each sound in the player's snd file. To play back a sound from "fight.snd", precede group_no with an "F".</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>volume</b> = volume_level (int)<br>
+	<i>volume_level is 0 for normal volume, positive for louder, and negative for softer.</i></li>
+</ul>
+<p><b>Examples:</b></p>
+<p><code><i>; Plays back sound 2,0 from the player's SND file</i><br>
+<b>type</b> = <b>PlaySnd</b><br>
+<b>value</b> = 2,0<br>
+<br>
+<i>; Plays back sound 5,2 from fight.snd</i><br>
+<b>type</b> = <b>PlaySnd</b><br>
+<b>value</b> = F5,2</code></p>

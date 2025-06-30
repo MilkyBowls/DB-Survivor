@@ -1,0 +1,13 @@
+<p>This trigger is only valid for helper-type characters. ParentDist returns the distance from the helper to its parent. It works similarly to P2Dist.</p>
+<p><b>Format:</b> ParentDist <i>[component]</i></p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[component]:</b> X, Y</li>
+</ul>
+<p><b>Return type:</b> float</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if the player does not have a parent (e.g., if the parent was destroyed or KO'd).</p>
+<p><b>Details:</b></p>
+<p>For comparing the Y-distance, ParentDist gives the difference in the heights of the players' Y-axes. A negative value means that the parent is above its child. </p> 
+<p>For comparing the X-distance, ParentDist gives the X-distance of the parent's axis from the child's axis. A positive value indicates the parent is in front of the child.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>ParentDist X</b> != 0 <i>; Triggers if the parent is not at the exact same x-position as the helper character.</i></code></p>

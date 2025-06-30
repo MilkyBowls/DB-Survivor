@@ -1,0 +1,23 @@
+<p>Gets the animation-time elapsed since the start of a specified element of the current animation action. Useful for synchronizing events to elements of an animation action. (reminder: first element of an action is element 1, not 0)</p>
+<p><b>Format:</b> AnimElemTime(exprn)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>exprn <i>(int)</i>:</b> Expression that evaluates to the element number to check.</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if exprn evaluates to 'Bottom', or if exprn evaluates to an element number that is not valid for the current action.</p>
+<p><b>Notes:</b></p>
+<p>AnimElemTime will not trigger on the first game-tick of the second or later loop of an animation with a finite looptime. For example, "AnimElemTime(1) = 0" will trigger the first tick a player changes to an animation, but will not trigger on the tick that it loops. You may get it to trigger each time using "AnimElemTime(1) = 0 || AnimTime = 0".</p>
+<p><b>Examples:</b></p>
+<p><code><b>trigger1</b> = <b>AnimElemTime</b>(2) = 0<br>
+<i>; True on the first game-tick that the player's animation is on element 2. Is equivalent to saying:
+<br>
+&Tab;<b>trigger1</b> = <b>AnimElemTime</b>(2) = 4<br>
+<br>
+<b>trigger1</b> = <b>AnimElemNo</b>(2) = 4<br>
+<i>; True 4 game-ticks after the start of the player's second animation element.<br>
+<br>
+<b>trigger1</b> = <b>AnimElemNo</b>(2) &gt;= 0<br>
+<b>trigger1</b> = <b>AnimElemNo</b>(3) &lt; 0<br>
+<i>; True for the whole of the second element of the player's animation, assuming there is a third element. If a third element does not exist, the second line will evaluate to SFalse and hence trigger1 will never trigger. In this case, the second line should read,<br>
+&Tab;<b>trigger1</b> = <b>AnimTime</b> &lt;= 0</i></code></p>

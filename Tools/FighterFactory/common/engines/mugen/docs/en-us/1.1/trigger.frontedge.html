@@ -1,0 +1,13 @@
+<p>Returns the x position of the edge of the screen that is in front the player, in absolute stage coordinates.</p>
+<p><b>Format:</b> FrontEdge</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li>none</li>
+</ul>
+<p><b>Return type:</b> float</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Notes:</b></p>
+<p>This trigger is equivalent to the expression "ifelse(facing = 1, RightEdge, LeftEdge)".</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>facing</b> * (<b>Pos X</b> + <b>CameraPos X</b>) &lt; <b>facing</b> * (<b>FrontEdge</b>)<br>
+<i>; Triggers if the player is behind the front edge of the screen.</i></code></p>

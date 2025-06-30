@@ -1,0 +1,14 @@
+<p>This trigger takes three arguments. The first argument is a condition argument. If the condition is true (i.e., nonzero), Cond evaluates and returns the second argument. If the condition is false, Cond evaluates and returns the third argument. If the condition is bottom, then Cond returns bottom without evaluating the second or third arguments.</p>
+<p>In all cases, any unused argument(s) are not evaluated. Therefore, Cond can be used instead of IfElse to avoid any side effects that would be caused by evaluating the unused argument (e.g., variable assignment, or performing a computation that would cause bottom to be generated).</p>
+<p><b>Format:</b> Cond(exp_cond, exp_true, exp_false)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>exp_cond <i>(boolean)</i>:</b> Expression to test.</li>
+<li><b>exp_true:</b> Expression specifying value to return if exp_cond is nonzero.</li>
+<li><b>exp_false:</b> Expression specifying value to return if exp_cond is zero.</li>
+</ul>
+<p><b>Return type:</b> Type of exp_true or exp_false, whichever is returned.</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if exp_cond evaluates to 'Bottom', or if exp_true or exp_false (whichever is actually used) evaluates to 'Bottom'.</p>
+<p><b>Example:</b></p>
+<p><code><b>value</b> = <b>Cond</b>(<b>var</b>(3), 1, 2)<br>
+<i>; Sets value to 1 if var(3) is not zero, and sets value to 2 if var(3) is 0.</i></code></p>

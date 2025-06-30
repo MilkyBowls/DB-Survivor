@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+    <color name="attackbox" value="255,0,0" bold="false" italic="false"/>
+    <color name="back_end" value="28,29,33" bold="false" italic="false"/>
+    <color name="back_start" value="47,49,55" bold="false" italic="false"/>
+    <color name="background" value="28,29,33" bold="false" italic="false"/>
+    <color name="block" value="120,189,101" bold="true" italic="false"/>
+    <color name="block_range" value="25,25,25"/>
+    <color name="block_type" value="239,124,42" bold="true" italic="false"/>
+    <color name="collisionbox" value="0,0,255" bold="false" italic="false"/>
+    <color name="comment" value="104,107,120" bold="false" italic="false"/>
+    <color name="const" value="235,61,84" bold="false" italic="false"/>
+    <color name="foreground" value="203,205,210" bold="false" italic="false"/>
+    <color name="function" value="229,205,82" bold="true" italic="false"/>
+    <color name="keyword" value="203,205,210" bold="true" italic="false"/>
+    <color name="keyword_value" value="235,61,84" bold="false" italic="false"/>
+    <color name="line" value="10,10,10"/>
+    <color name="number" value="239,124,42" bold="false" italic="false"/>
+    <color name="paren" value="255,0,0" bold="false" italic="false"/>
+    <color name="paren_range" value="63,64,68"/>
+    <color name="sound_wave" value="185,175,55" bold="false" italic="false"/>
+    <color name="string" value="79,180,216" bold="false" italic="false"/>
+    <color name="symbol" value="255,255,255" bold="false" italic="false"/>
+</colors>

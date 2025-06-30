@@ -1,0 +1,11 @@
+<p>Returns the total number of hits the player's current attack move has done. This value is valid only for a single state; after any state change, it resets to 0. To prevent it from resetting to 0, set hitcountpersist in the StateDef (see cns documentation for details). The HitCount and UniqHitCount triggers differ only when the player is hitting more than one opponent. In the case where the player is hitting two opponents with the same attack, HitCount will increase by 1 for every hit, while UniqHitCount increases by 2.</p>
+<p><b>Format:</b> UniqHitCount</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li>none</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>UniqHitCount</b> = [4,6]<br>
+<i>; Triggers when 4, 5 or 6 hits have been dealt since the start of the player's attack move.</i></code></p>

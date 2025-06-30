@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li><a href="using.html">Using</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li>Options</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Options</h1>
+        <p>In this window, you can define how Fighter Factory will perform its actions. All options are grouped by affinity, in five tabs.</p>        
+        <p>At the bottom, five buttons perform some common actions: load defaults, open, save, apply and close. There is an engine selector to define engine-specific configurations on 'Engines' list and shortcuts.</p>
+        
+        <a id="general"></a><h2>General</h2>    
+        <div>
+          <p>General options that affects all editors.</p>
+          <p><b>Request confirmation on exit:</b> don't close the program without ask the user about it.</p>  
+          <p><b>Request confirmation on delete:</b> don't delete any item (sprite, palette, animations, frame, sample, ...) without ask the user about it.</p> 
+          <p><b>Enable closing the last open file (closes editor):</b> this allows you to close the last opened file (closing its editor), otherwise the file tabs in that editor will be hidden when there's just one file open.</p>
+          <p><b>Enable the file modification watcher:</b> Watch file modifications on the system.</p> 
+          <p><b>Use system native open dialog:</b> self-explanatory. On some systems, like some Linux distributions, the native open dialog just don't work fine.</p> 
+          <p><b>Sort file names from the open dialog:</b> The order which the system return selected files in open dialog is undefined. So this allow to sort them by name.</p> 
+          <p><b>Make a backup before loading a project:</b> Automatically make a backup anytime a project is opened (except when open as copy).</p> 
+          <p><b>Automatically check updates on startup:</b> Automatically check if there's any update available during startup.</p> 
+
+          <p><b>Cache type:</b> defines the storage type of the stream caching system.</p>
+          <p><b>Undo limit:</b> defines the limit for undo/redo command lists (max of 256).</p> 
+          <p><b>Max history:</b> defines the maximum number of items in the history (max of 32). This affects both the "recents" menu and shortcut buttons at first screen.</p>
+          <p><b>Thumbnail size:</b> defines the maximum size (width and height) of thumbnails (max of 128).</p>
+
+          <p><b>Auto save</b> defines how much time in minutes to trigger an automatic save on all opened files. "Only save if asynchronouys mode is supported" prevents the interface from becoming locked by a save, allowing only async saves to be triggered (when supported).</p> 
+          <p><b>Languages:</b> defines the current language used to translate all text of the interface.</p> 
+        </div>
+        
+        <a id="interface"></a><h2>Interface</h2>    
+        <div>
+          <p>Defines the Interface appearance and the shortcut keys.</p>
+          <p><b>Preset:</b> defines the current preset. The preset is a predefined set of attributes of all available interface controls.</p>  
+          <p><b>Iconset:</b> defines the current iconset. The iconset is a predefined set of PNG icons to be used by all available icon receivers.</p> 
+          <p><b>Stylesheet:</b> defines the current stylesheet. The stylesheet is a set of rules that changes the application theme, written in QSS (CSS compatible Nokia Qt standard).</p> 
+          <p><b>Colorset:</b> defines the current colorset. The colorset is a set of mutable colors used in many places of the program.</p> 
+          <p><b>Keyboard shortcuts:</b> defines one or more shortcuts to all available actions (actions of the selected engine will be here too).</p>
+          <div style="clear: both;"></div>
+        </div>
+                  
+        <a id="colors"></a><h2>Colors</h2>    
+        <div>
+          <p>Allow to change the preset colors. Any change here don't will be saved in the user selected colorset, but in a special and predefined Custom colorset.</p>  
+          <p>To change a color, select it in the list and choose its attributes on the right: bold and/or italic (text usage only), and color.</p> 
+          <p>To save the changes in a new preset, click on the Save button at bottom-right, otherwise the Custom preset will be used to store the changes.</p> 
+          <div style="clear: both;"></div>
+        </div>
+                      
+        <a id="image"></a><h2>Image</h2>    
+        <div>
+          <p>Defines some custom options of the graphic's workspace.</p> 
+          <p><b>Colors fit available space in Advanced Paelette Editor:</b> defines if the palettes in Advanced Palette Edtitor will increase column count to fit available space, otherwise remaisn 16x16.</p> 
+          <p><b>Renderer:</b> defines the rendering method for graphic editors:</p> 
+          <p><u>Automatic:</u> tries to detect the best rendering method for the hardware, in this order: OpenGL, DirectX, Native painter.</p> 
+          <p><u>OpenGL (desktop):</u> render graphics using native desktop OpenGL 2.0 implementation. This is the fastest mode, but requires hardware acceleration support. If you're experiencing artifacts or something wrong please don't use this mode.</p>
+          <p><u>DirectX (ANGLE):</u> render graphics using ANGLE library, which implements OpenGL ES 2.0 using DirectX API. This is pretty fast, but consumes a lot more memory, and requires hardware acceleration support. If you're experiencing artifacts or something wrong please don't use this mode.</p>
+          <p><u>Native painter:</u> render graphics using Qt's native painting API. In many cases it's a software rasterizer, so it works fine in all cases, but is much slower (probably will not reach 60 FPS in high intensive rendering tasks like BGs). Use it if you're experiencing artifacts or something wrong in the other modes.</p>
+          <p><b>Crosshair:</b> defines the appearance of all axis crosshairs.</p> 
+          <p><u>Default:</u> same as previous versions.</p> 
+          <p><u>Modern:</u> new look with transparencies.</p>
+          <p><u>Custom:</u> custom images (PNG).</p>
+          <p><u>Main:</u> main axis (sprite).</p>
+          <p><u>Secondary:</u> secondary axis (frame).</p>
+          <p><u>Extra:</u> extra axis.</p>
+          <p><b>OnionSkin:</b> defines the appearance of the OnionSkin sprite.</p>
+          <p><u>Effect:</u> palette effect to be applied on the sprite.</p>
+          <p><u>Opacity:</u> opacitty of the sprite.</p>
+          <p><b>Background:</b> defines the background image.</p>  
+          <p><u>Default:</u> default, adjusts itself based on local coordinates of the current project.</p> 
+          <p><u>Custom:</u> defines a custom background image (PNG).</p>
+          <p><u>None:</u> disables the background image.</p>  
+          <p><u>X / Y:</u> axis of the background image, related to the sprite axis.</p>
+          <p><b>Zoom mode:</b> defines the zoom range.</p>  
+          <p><b>Center of zoom:</b> defines the center while zooming in/out.</p>  
+          <p><b>Contact box opacity:</b> defines the transparency level of contact boxes fill color.</p>  
+          <p><b>Sprite over guide lines:</b> render the sprite over the guide lines.</p> 
+          <p><b>Contact box over axis:</b> render contact boxes over all axis.</p>  
+          <p><b>Invert sprite axis:</b> invert the coordinate of sprite axis (on supported engines).</p>
+          <div style="clear: both;"></div>
+        </div>
+                       
+        <a id="code"></a><h2>Code</h2>    
+        <div>
+          <p>Defines some options to be applied to all code editors.</p> 
+          <p><b>Display:</b> defines the visibility of some special areas in the code editor.</p> 
+          <p><u>Line numbers:</u> displays the line number column in the left.</p> 
+          <p><u>Folding markers:</u> displays the code folding column in the left.</p> 
+          <p><u>Highlight current line:</u> render a color in the background of the current line.</p> 
+          <p><u>Hightlight blocks:</u> blends a color in the current block and its parents/siblings to differentiate each other.</p> 
+          <p><u>Parenthesis matching:</u> enable the parenthesis matching colouring.</p> 
+          <p><u>Current line navigation:</u> auto select the current line on the tree view (if available).</p> 
+          <p><b>Editor font:</b> font to be used by the code editor (fixed point if possible).</p> 
+          <p><b>Font size:</b> size of the font to be used in the code editor.</p>    
+          <p><b>Default code page</b> defines the code page (text encoding) that will be used if the Universal Encoding Detector can't detect the code page.</p>
+          <div style="clear: both;"></div>
+        </div>
+
+        <a id="engine"></a><h2>Engine specific (this tab will have the engine's name on its caption)</h2>    
+        <div>
+          <p><b>Run configurations:</b> controls all available engine installations to use as a test target (changes on this list doesn't require Apply).</p> 
+          <p><u>Add:</u> adds a new item.</p> 
+          <p><u>Remove:</u> remove the selected item.</p>  
+          <p><u>Edit:</u> edit the selected item.</p> 
+          <p><u>Clear:</u> remove all items.</p>    
+          <p><u>Up:</u> move the selected item one position up.</p> 
+          <p><u>Down:</u> move the selected item one position down.</p> 
+          <div style="clear: both;"></div>
+          <h1>M.U.G.E.N. only:</h1>
+          <p><u>CLSN default color:</u> defines the color to be used on default CLSNs of each type.</p> 
+        </div>
+        
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

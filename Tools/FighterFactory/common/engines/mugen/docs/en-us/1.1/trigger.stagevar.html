@@ -1,0 +1,17 @@
+<p>Returns information about the stage. A limited number of parameters are supported.</p>
+<p><b>Format:</b> StageVar(param_name) <i>[oper]</i> "string"</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>param_name <i>(string)</i>:</b> The name of the stage parameter to check. Valid values are: info.name, info.displayname, info.authorname.</li>
+<li><b>[oper]:</b> =, != (other operators not valid)</li>
+<li><b>"string" <i>(string)</i>:</b> String to compare against. Must be in double quotes.</li>
+</ul>
+<p><b>Return type:</b> boolean (1 if true or 0 if false)</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>info.author: Compares the value of the "author" parameter in the [Info] group.<br>
+info.displayname: Compares the value of the "displayname" parameter in the [Info] group.<br>
+info.name: Compares the value of the "name" parameter in the [Info] group.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>StageVar</b>(<b>info.author</b>)</b> = "Suika"<br>
+<i>; Returns true if the stage author is named "Suika".</i></code></p>

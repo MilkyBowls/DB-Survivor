@@ -1,0 +1,13 @@
+<p>Gets the value of the player's absolute (screen-relative) position. You must specify the component that you want to check, eg. "Pos Y" to check the Y-position.</p>
+<p><b>Format:</b> ScreenPos <i>[component]</i></p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[component]:</b> X, Y</li>
+</ul>
+<p><b>Return type:</b> float</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>For "ScreenPos X", the value is relative to the left of the screen (value 0). Negative is left, positive is right. For "ScreenPos Y", the value is relative to the top of the screen. Negative is above the screen, positive is downward.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>ScreenPos Y</b> = [0,239]<br>
+<i>; True when the player's is in the screen's vertical extent.</i></code></p>

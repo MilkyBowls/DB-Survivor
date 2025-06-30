@@ -1,0 +1,20 @@
+<p>Temporarily specifies types of hits that should be allowed hit to the player.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>value</b> = attr_string OR <b>value2</b> = attr_string<br>
+	<i>Only one of the above parameters can be specified. attr_string should be a standard hit attribute string.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>time</b> = effective_time (int)<br>
+	<i>Specifies the number of game ticks that these HitBy attributes should be effective for. Defaults to 1.</i></li>
+</ul>
+<p><b>Details:</b></p>
+<p>The player has two hit attribute slots, which can be set using the value or value2 parameters to the HitBy controller. These slots can also be set by the NotHitBy controller. When a slot is set, it gets a timer (the effective time) which counts down toward zero. If the timer has not yet reached zero, the slot is considered to be active.</p>
+<p>The player can be hit by a HitDef only if that HitDef's attribute appears in all currently active slots.</p>
+<p>Using the HitBy controller sets the specified slot to contain only those hit attributes which appear in the HitBy attribute string.</p>
+<p><b>Example:</b></p>
+<p><code><i>; Can be hit only by standing normal attacks</i><br>
+<b>trigger1</b> = 1<br>
+<b>type</b> = HitBy<br>
+<b>value</b> = S, NA</code></p>

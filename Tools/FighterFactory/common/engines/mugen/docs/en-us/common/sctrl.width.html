@@ -1,0 +1,19 @@
+<p>Temporarily changes the size of the player's width bar for 1 tick. Useful for controlling the "pushing" behavior when the player makes contact with another or with the sides of the screen.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>edge</b> = edgewidth_front, edgewidth_back (int, int)<br>
+	<i>Sets the player's edge width in front and behind. Edge width determines how close the player can get to the edge of the screen. These parameters default to 0,0 if omitted.</i><br></li>
+	<li><b>player</b> = playwidth_front, playwidth_back (int, int)<br>
+	<i>Sets the player width in front and behind. Player width determines how close the player can get to other players. These parameters default to 0,0 if omitted.</i></li>
+</ul>
+<p><b>Alternate syntax:</b></p>
+<p><b>value</b> = width_front, width_back (int, int)</p>
+<p>This is a shorthand syntax for setting both edge width and player width simultaneously. This may only be used if the edge and player parameters are not specified.</p>
+<p><b>Notes:</b></p>
+<p>When collision box display is enabled, the edge width bar is displayed in orange, and the player width bar is displayed in yellow. Where they overlap, the overlapping region is displayed in bright yellow.</p>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

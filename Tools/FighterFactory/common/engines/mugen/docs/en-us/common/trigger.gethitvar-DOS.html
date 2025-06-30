@@ -1,0 +1,48 @@
+<p>When the player is in a gethit state, returns the value of the specified hit parameter.</p>
+<p><b>Format:</b> GetHitVar(param_name)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>param_name <i>(string)</i></b>: The name of the hit parameter to check. See Details.</li>
+</ul>
+<p><b>Return type:</b> Depends on specified hit parameter. See Details.</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<ul>
+	<li><b>xveladd <i>(float)</i><b/>: Returns the additional x-velocity that is added to the player's own when he is KOed.</li>
+	<li><b>yveladd <i>(float)</i><b/>: Returns the additional y-velocity that is added to the player's own when he is KOed.</li>
+	<li><b>type <i>(int)</i><b/>: Returns the type of the hit: 0 for none, 1 for high, 2 for low, 3 for trip (ground only).</li>
+	<li><b>animtype <i>(int)</i><b/>: Returns the animation type of the hit (0 for light, 1 for medium, 2 for hard, 3 for back, 4 for up, 5 for diag-up).</li>
+	<li><b>airtype <i>(int)</i><b/>: Returns the type specified in the HitDef for an air hit.</li>
+	<li><b>groundtype <i>(int)</i><b/>: Returns the type specified in the HitDef for a ground hit.</li>
+	<li><b>damage <i>(int)</i><b/>: Returns the damage given by the hit.</li>
+	<li><b>hitcount <i>(int)</i><b/>: Returns the number of hits taken by the player in current combo.</li>
+	<li><b>fallcount <i>(int)</i><b/>: Returns the number of times player has hit the ground in the current combo.</li>
+	<li><b>hitshaketime <i>(int)</i><b/>: Returns time player is "frozen" during the hit. This number counts down by 1 for each game tick, and stops when it reaches zero.</li>
+	<li><b>hittime <i>(int)</i><b/>: Returns time before player regains control and returns to an idle state after being hit. This counts down by 1 per game tick, as long as hitshaketime (see above) is greater than 0. It stops counting down when the value reaches -1. "GetHitVar(hittime) &lt; 0" is equivalent to the HitOver trigger.</li>
+	<li><b>slidetime <i>(int)</i><b/>: Returns time that player slides backwards (on the ground) after the hit.</li>
+	<li><b>ctrltime <i>(int)</i><b/>: Returns time before player regains control after guarding the hit.</li>
+	<li><b>recovertime <i>(int)</i><b/>: Returns time before player gets up from liedown state This number counts down to 0 for each game tick, and will count down faster if buttons are hit.</li>
+	<li><b>xoff</b>: "Snap" x offset when hit (deprecated)</li>
+	<li><b>yoff: "Snap" y offset when hit (deprecated)</li>
+	<li><b>zoff: "Snap" z offset when hit (deprecated)</li>
+	<li><b>xvel <i>(float)</i><b/>: Fixed x-velocity imparted by hit.</li>
+	<li><b>yvel <i>(float)</i><b/>: Fixed y-velocity imparted by hit.</li>
+	<li><b>yaccel <i>(float)</i><b/>: y acceleration set by the hit.</li>
+	<li><b>chainid <i>(int)</i><b/>: Player-assigned chainID for last hit taken.</li>
+	<li><b>guarded <i>(boolean)</i><b/>: True if the last hit was guarded, false otherwise.</li>
+	<li><b>isbound <i>(boolean)</i><b/>: True if the player is the subject of an attacker's TargetBind controller. Useful to prevent being stuck in thrown states.</li>
+	<li><b>fall <i>(boolean)</i><b/>: True if falling, false otherwise</li>
+	<li><b>fall.damage <i>(int)</i><b/>: Damage taken upon fall</li>
+	<li><b>fall.xvel <i>(float)</i><b/>: x velocity after bouncing off ground</li>
+	<li><b>fall.yvel <i>(float)</i><b/>: y velocity after bouncing off ground</li>
+	<li><b>fall.recover <i>(boolean)</i><b/>: True if player can recover, false otherwise.</li>
+	<li><b>fall.recovertime <i>(int)</i><b/>: time before player can recover.</li>
+	<li><b>fall.kill <i>(int)</i><b/>: value of fall.kill parameter in attacker's hitdef.</li>
+	<li><b>fall.envshake.time <i>(int)</i><b/>: Returns values set by the fall.envshake.time parameter in an attacker's hitdef.</li>
+	<li><b>fall.envshake.freq <i>(float)</i><b/>: Returns values set by the fall.envshake.freq parameter in an attacker's hitdef.</li>
+	<li><b>fall.envshake.ampl <i>(int)</i><b/>: Returns values set by the fall.envshake.ampl parameter in an attacker's hitdef.</li>
+	<li><b>fall.envshake.phase <i>(float)</i><b/>: Returns values set by the fall.envshake.phase parameter in an attacker's hitdef.</li>
+</ul>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>GetHitVar</b>(<b>yvel</b>) &lt; -5.5<br>
+<i>; Triggers if the hit's specified y velocity is less than -5.5.</i></code></p>

@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li><a href="using.html">Using</a></li>
+            <li><a href="workspace.html">Workspace</a></li>
+            <li>M.U.G.E.N Emulator</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>M.U.G.E.N Emulator</h1>
+        <p>The Emulator is based on MUGENext (a M.U.G.E.N compatible engine in development). It supports all debugging functionality Fighter Factory exposes, except:</p> 
+        <ul class="single">
+          <li>Function breakpoints;</li>
+          <li>File name and line number breakpoints are activated only in [State] and trigger(all) lines;</li>
+          <li>Cannot step by individual instruction, but by line instead.</li>
+        </ul>
+        <p>For more info about debugging, see <a href="debug.html">Debug</a>.</p>
+        <p>See <a href="emulator.html">Emulator workspace</a> for more details.</p>
+        <p>The options available to customize the engine's behavior while running are:</p>
+        <a id="enginedir"></a><h2>Engine directory</h2>
+        <p>The directory where the engine installation to be loaded by the Emulator is located. It's automatically detected if the current project is already inside one. If not, a custom built-in engine based on M.U.G.E.N 1.1 will be used.</p>
+        <a id="mode"></a><h2>Match mode</h2>
+        <p>Choose between Versus and Training (self-explanatory).</p>
+        <a id="enemy"></a><h2>Match enemy</h2>
+        <p>Choose between Self and Random. If Random, the char will be one from the engine's directory.</p>
+        <a id="rounds"></a><h2>Match rounds</h2>
+        <p>The number of rounds to play. 0 means the same as playing the game, from the engine's fight.def.</p>
+        <a id="time"></a><h2>Match round time</h2>
+        <p>Round time, in seconds. -1 for infinite.</p>
+        <a id="explod"></a><h2>Explod mode</h2>
+        <p>Defines the Explod behavior.</p>
+        <ul class="single">
+          <li><b>Engine's default:</b> detected from mugen.cfg in the engine directory.</li>
+          <li><b>M.U.G.E.N 1.0:</b> behave like in M.U.G.E.N 1.0.</li>
+          <li><b>M.U.G.E.N 1.1:</b> behave like in M.U.G.E.N 1.1.</li>
+          <li><b>MUGENext:</b> check our <a href="https://www.youtube.com/c/VirtuallTekGameStudio">YouTube channel</a> or <a href="https://www.patreon.com/virtualltek">Patreon page</a> for details.</li>
+          <li><b>Player's version:</b> use mugenversion from the project definitions.</li>
+        </ul>
+        <a id="dbginfo"></a><h2>Draw debug info</h2>
+        <p>Draw debug information bellow each player/helper.</p>
+        <a id="training"></a><h2>Training</h2>
+        <p>Same options from M.U.G.E.N's training menu, to be used when Match mode is set to Training.</p>
+        <a id="screen"></a><h2>Screen</h2>
+        <p>If the current project is system.def (System Screens), you can choose which one to test.</p>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<p>Selects a victory quote from the player to display in the next victory screen.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>value</b> = quote_index (int)<br>
+	<i>Specifies the index of the quote to use. Valid index values are from 0 to 99. If quote_index evaluates to an invalid index, a random quote will be selected. Defaults to -1.</i></li>
+</ul>
+<p><b>Notes:</b></p>
+<p>This controller can be called by any player at any time during a match; however only the winning player will affect the quote that is shown. This controller only affects the victory screen immediately following the current match. This controller has no effect if executed by a helper. The actual victory quotes are specified in the [Quotes] group of the player's constants file.</p>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

@@ -1,0 +1,11 @@
+<p>Returns 1 if a player with the specified ID number exists, 0 otherwise. This ID number is obtained using the "ID" trigger (see ID). Do not confuse PlayerID with TargetID.</p>
+<p><b>Format:</b> PlayerIDExist(ID_number)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>ID_number <i>(int)</i>:</b> An expression that evaluates to the ID number to check for.</li>
+</ul>
+<p><b>Return type:</b> boolean (1 if true or 0 if false)</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if exprn evaluates to 'Bottom'.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>PlayerIDExist</b>(<b>var</b>(4))<br>
+<i>; Triggers if a player with an ID number equal to the value of var(4) exists.</i></code></p>

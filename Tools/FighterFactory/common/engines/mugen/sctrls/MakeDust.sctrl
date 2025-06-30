@@ -1,0 +1,9 @@
+[State 0, MakeDust]
+type = MakeDust
+trigger1 = 
+pos = 0,0
+;pos2 = 
+spacing = 3
+;ignorehitpause = 
+;persistent = 
+

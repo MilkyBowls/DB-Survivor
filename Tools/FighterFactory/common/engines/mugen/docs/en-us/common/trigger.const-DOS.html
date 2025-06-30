@@ -1,0 +1,73 @@
+<p>Returns the value of one of the player's constants.</p>
+<p><b>Format:</b> Const(param_name)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>param_name <i>(string)</i>:</b> The name of the constant to check. See Details.</li>
+</ul>
+<p><b>Return type:</b> Depends on specified hit parameter. See Details.</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>The following values of param_name return values specified in the [Data] group in the player's constants.</p>
+<ul>
+	<li><b>data.life <i>(int)</i></b>: Returns value of the "life" parameter.</li>
+	<li><b>data.attack <i>(int)</i></b>: Returns value of the "attack" parameter.</li>
+	<li><b>data.defence <i>(int)</i></b>: Returns value of the "defence" parameter.</li>
+	<li><b>data.fall.defence_mul <i>(float)</i></b>: Returns value of the defence multiplier, calculated as 100/(f+100), where f is the "fall.defence_up" parameter.</li>
+	<li><b>data.liedown.time <i>(int)</i></b>: Returns value of the "liedown.time" parameter.</li>
+	<li><b>data.airjuggle <i>(int)</i></b>: Returns value of the "airjuggle" parameter.</li>
+	<li><b>data.sparkno <i>(int)</i></b>: Returns value of the "sparkno" parameter.</li>
+	<li><b>data.guard.sparkno <i>(int)</i></b>: Returns value of the "guard.sparkno" parameter.</li>
+	<li><b>data.KO.echo <i>(int)</i></b>: Returns value of the "ko.echo" parameter.</li>
+	<li><b>data.IntPersistIndex <i>(int)</i></b>: Returns value of the "IntPersistIndex" parameter.</li>
+	<li><b>data.FloatPersistIndex <i>(int)</i></b>: Returns value of the "FloatPersistIndex" parameter.</li>
+</ul>
+<p>The following values of param_name return values specified in the [Size] group in the player's constants.</p>
+<ul>
+	<li><b>size.xscale <i>(float)</i></b>: Returns value of the "xscale" parameter.</li>
+	<li><b>size.yscale <i>(float)</i></b>: Returns value of the "yscale" parameter.</li>
+	<li><b>size.ground.back <i>(int)</i></b>: Returns value of the "ground.back" parameter.</li>
+	<li><b>size.ground.front <i>(int)</i></b>: Returns value of the "ground.front" parameter.</li>
+	<li><b>size.air.back <i>(int)</i></b>: Returns value of the "air.back" parameter.</li>
+	<li><b>size.air.front <i>(int)</i></b>: Returns value of the "air.front" parameter.</li>
+	<li><b>size.height <i>(int)</i></b>: Returns value of the "height" parameter.</li>
+	<li><b>size.attack.dist <i>(int)</i></b>: Returns value of the "attack.dist" parameter.</li>
+	<li><b>size.proj.attack.dist <i>(int)</i></b>: Returns value of the "proj.attack.dist" parameter.</li>
+	<li><b>size.proj.doscale <i>(int)</i></b>: Returns value of the "proj.doscale" parameter.</li>
+	<li><b>size.head.pos.x <i>(int)</i></b>: Returns x-component of the "head.pos" parameter.</li>
+	<li><b>size.head.pos.y <i>(int)</i></b>: Returns y-component of the "head.pos" parameter.</li>
+	<li><b>size.mid.pos.x <i>(int)</i></b>: Returns x-component of the "mid.pos" parameter.</li>
+	<li><b>size.mid.pos.y <i>(int)</i></b>: Returns y-component of the "mid.pos" parameter.</li>
+	<li><b>size.shadowoffset <i>(int)</i></b>: Returns value of the "shadowoffset" parameter.</li>
+	<li><b>size.draw.offset.x <i>(int)</i></b>: Returns x-component of the "draw.offset" parameter.</li>
+	<li><b>size.draw.offset.y <i>(int)</i></b>: Returns y-component of the "draw.offset" parameter.</li>
+</ul>
+<p>The following values of param_name return values specified in the [Velocity] group in the player's constants.</p>
+<ul>
+	<li><b>velocity.walk.fwd.x <i>(float)</i></b>: Returns value of the "walk.fwd" parameter.</li>
+	<li><b>velocity.walk.back.x <i>(float)</i></b>: Returns value of the "walk.back" parameter.</li>
+	<li><b>velocity.run.fwd.x <i>(float)</i></b>: Returns x-component of the "run.fwd" parameter.</li>
+	<li><b>velocity.run.fwd.y <i>(float)</i></b>: Returns y-component of the "run.fwd" parameter.</li>
+	<li><b>velocity.run.back.x <i>(float)</i></b>: Returns x-component of the "run.back" parameter.</li>
+	<li><b>velocity.run.back.y <i>(float)</i></b>: Returns y-component of the "run.back" parameter.</li>
+	<li><b>velocity.jump.y <i>(float)</i></b>: Returns y-component of the "jump.neu" parameter. Note: this is NOT "velocity.jump.neu.y". Only the "neu" parameters take a y-component value.</li>
+	<li><b>velocity.jump.neu.x <i>(float)</i></b>: Returns x-component of the "jump.neu" parameter.</li>
+	<li><b>velocity.jump.back.x <i>(float)</i></b>: Returns value of the "jump.back" paramamter.</li>
+	<li><b>velocity.jump.fwd.x <i>(float)</i></b>: Returns value of the "jump.fwd" parameter.</li>
+	<li><b>velocity.runjump.back.x <i>(float)</i></b>: Returns value of the "runjump.back" paramamter.</li>
+	<li><b>velocity.runjump.fwd.x <i>(float)</i></b>: Returns value of the "runjump.fwd" parameter.</li>
+	<li><b>velocity.airjump.y <i>(float)</i></b>: Returns y-component of the "airjump.neu" parameter. Note: this is NOT "velocity.airjump.neu.y".</li>
+	<li><b>velocity.airjump.neu.x <i>(float)</i></b>: Returns x-component of the "airjump.neu" parameter.</li>
+	<li><b>velocity.airjump.back.x <i>(float)</i></b>: Returns value of the "airjump.back" paramamter.</li>
+	<li><b>velocity.airjump.fwd.x <i>(float)</i></b>: Returns value of the "airjump.fwd" parameter.</li>
+</ul>
+<p>The following values of param_name return values specified in the [Movement] group in the player's constants.</p>
+<ul>
+	<li><b>movement.airjump.num <i>(int)</i></b>: Returns value of the "airjump.num" parameter.</li>
+	<li><b>movement.airjump.height <i>(int)</i></b>: Returns value of the "airjump.height" parameter.</li>
+	<li><b>movement.yaccel <i>(float)</i></b>: Returns value of the "yaccel" parameter.</li>
+	<li><b>movement.stand.friction <i>(float)</i></b>: Returns value of the "stand.friction" parameter.</li>
+	<li><b>movement.crouch.friction <i>(float)</i></b>: Returns value of the "crouch.friction" parameter.</li>
+</ul>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>Const</b>(<b>velocity.walk.fwd.x</b>) &gt; 4<br>
+<i>; Triggers if the forward walking velocity is greater than 4.</i></code></p>

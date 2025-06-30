@@ -1,0 +1,25 @@
+<p>Creates force feedback for supported force feedback devices. <u>This controller is not implemented in MUGEN 1.1.</u></p>
+<p>Parameters to the ForceFeedback controller may not be specified using arithmetic expressions. It is an exception in this regard.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>waveform</b> = wave_type (string)<br>
+	<i>Valid waveforms are "sine", "square", "sinesquare", and "off". For the Dual Shock controller, a sine waveform corresponds to the large rumble motor, and a square waveform corresponds to the smaller buzzer motor. sinesquare, of course, corresponds to both motors simultaneously. Use "off" to turn off any force feedback that is currently executing. waveform defaults to sine.</i><br></li>
+
+	<li><b>time</b> = duration (integer constant)<br>
+	<i>Specifies how long the force feedback should last, in ticks. Defaults to 60.</i><br></li>
+
+	<li><b>freq</b> = start (integer constant), d1,d2, d3 (float constants)<br>
+	<i>Force feedback frequency varies between 0 and 255. The formula used to determine force feedback frequency is start + d1*t + d2*t**2 + d3*t**3 where t represents the number of ticks elapsed since the force feedback was initiated. Defaults to freq = 128,0,0,0 Currently, the frequency parameter is completely ignored.</i><br></li>
+
+	<li><b>ampl</b> = start (integer constant), d1,d2, d3 (float constants)<br>
+	<i>Force feedback amplitude varies between 0 and 255. The formula used to determine force feedback frequency is start + d1*t + d2*t**2 + d3*t**3 where t represents the number of ticks elapsed since the force feedback was initiated. Defaults to ampl = 128,0,0,0</i><br></li>
+
+	<li><b>self</b> = self_flag (boolean constant)<br>
+	<i>If self is 1, then P1's pad will vibrate. If self is 0, then P2's pad will vibrate. Defaults to 1.</i></li>
+</ul>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

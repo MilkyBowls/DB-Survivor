@@ -1,0 +1,27 @@
+<p>Adds to one of the player's working variables. Either a float variable or an int variable can be added to by this controller.</p>
+<p><b>Required parameters (int version):</b></p>
+<ul>
+	<li><b>v</b> = var_no (int)<br>
+	<i>var_no specifies the number of the variable to affect. It must evaluate to an integer between 0 and 59.</i><br></li>
+	<li><b>value</b> = int_expr (int)<br>
+	<i>int_expr specifies the value to add to the int variable indexed by var_no.</i></li>
+</ul>
+<p><b>Required parameters (float version):</b></p>
+<ul>
+	<li><b>fv</b> = var_no (int)<br>
+	<i>var_no specifies the number of the variable to affect. It must evaluate to an integer between 0 and 39.</i><br></li>
+	<li><b>value</b> = float_expr (int)<br>
+	<i>float_expr is the value to add to the float variable indexed by var_no.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Alternate syntax:</b></p>
+<p>var(var_no) = int_expr (int version)</p>
+<p>fvar(var_no) = float_expr (float version)</p>
+<p><b>Notes:</b></p>
+<p>Due to historical reasons, note that the alternate VarAdd syntax listed above matches neither the syntax for variable assignment within an expression, nor the syntax for variable addition within an expression.</p>
+<p>If you have placed P2 in a custom state through a successful hit, do not use variable assignment within the custom states. Otherwise, you will overwrite P2's variables, which can cause unintended malfunction of the opponent player.</p>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

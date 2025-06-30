@@ -1,0 +1,22 @@
+<p>Gets the animation-time elapsed since the start of a specified element of the current animation action. Useful for synchronizing events to elements of an animation action.</p>
+<p><i>Reminder: first element of an action is element 1, not 0.</i></p>
+<p><b>Format:</b></p>
+<p>AnimElem = value1</p>
+<p>AnimElem = value1, <i>[oper]</i> value2</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[oper]:</b> =, !=, &lt;, &gt;, &lt;=, &gt;=</li>
+<li><b>value1 <i>(int)</i>:</b> Element number to check.</li>
+<li><b>value2 <i>(int)</i>:</b> Value of animation-time to compare with.</li>
+</ul>
+<p><b>Return type:</b> boolean (0 if false or 1 if true)</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>Trigger in Format 1 is true if the player's animation is at the start of the element number specified by value1. In other words, if value1 is equal to n, it is true on the first game-tick of the nth element of the animation. Trigger in Format 2 compares the player's animation-time to t+value2, where t is time of the start of the element number specified by value1. If value1 is an invalid animation element, M.U.G.E.N may crash or behave strangely.</p>
+<p><b>Examples:</b></p>
+<p><code><b>trigger1</b> = <b>AnimElem</b> = 2 <i>; True on the first game-tick that the player's animation is on element 2. Is equivalent to saying:</i> <b>trigger1</b> = <b>AnimElem</b> = 2, = 0.</code></p>
+<br/>
+<p><code><b>trigger1</b> = <b>AnimElem</b> = 2, = 4 <i>; True 4 game-ticks after the start of the player's second animation element.</i></code></p>
+<br/>
+<p><code><b>trigger1</b> = <b>AnimElem</b> = 2, >= 0<br/>
+<b>trigger1</b> = <b>AnimElem</b> = 3, &lt; 0 <i>; True for the whole of the second element of the player's animation, assuming there is a third element. If a third element does not exist, the second line should read, <b>trigger1</b> = <b>AnimTime</b> &lt;= 0</code></p>

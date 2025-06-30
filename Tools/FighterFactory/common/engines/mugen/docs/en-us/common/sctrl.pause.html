@@ -1,0 +1,19 @@
+<p>Pauses the game for the specified amount of time. Player and background updates are not carried out during this time.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>time</b> = t (int)<br>
+	<i>This is the number of game ticks to pause for. Valid values for t are all positive numbers, starting from 0.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>endcmdbuftime</b> = bt (int)<br>
+	<i>This is the number of ticks during the end of the pause in which the player's move commands will be buffered. Buffered commands will be detected by the "command" trigger immediately after the pause ends. The buffering applies only to players who are unable to move during the pause (see movetime parameter). Valid values for endcmdbuftime are from 0 to t, where t is the value of the time parameter. Defaults to 0.</i><br></li>
+	<li><b>movetime</b> = mt (int)<br>
+	<i>This is the number of ticks during the start of the pause in which the player is allowed to move. Collision detection is carried out during this time, so it is possible to hit other players. Valid values for mt are from 0 to t, where t is the value of the time parameter. Defaults to 0.</i><br></li>
+	<li><b>pausebg</b> = p (boolean)<br>
+	<i>If set to 1, the background is stopped during the pause. If 0, the background continues updating during the pause. Defaults to 1.</i></li>
+</ul>
+<p><b>Notes:</b></p>
+<p>Executing a Pause controller during the pausetime of another will cancel out the effect of the previous Pause controller. Executing a Pause during a superpause will delay the effects of the pause until after the superpause has ended.</p>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

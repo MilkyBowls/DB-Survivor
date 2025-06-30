@@ -1,0 +1,77 @@
+<p>This controller allows you to assert up to three special flags simultaneously. M.U.G.E.N will automatically "deassert" each flag at every game tick, so you must assert a flag for each tick that you want it to be active.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>flag</b> = flag_name (string)<br>
+	<i>flag_name is a string specifying the flag to assert.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>flag2</b> = flag2_name (string)<br></li>
+	<li><b>flag3</b> = flag3_name (string)<br>
+	<i>You can assert up to three flags simultaneously.</i></li>
+</ul>
+<p><b>Details:</b></p>
+<p>The flag name can be one of the following:</p>
+<ul>
+	<li><b>intro</b><br>
+	<i>Tells M.U.G.E.N that the character is currently performing his intro pose. Must be asserted on every tick while the intro pose is being performed.</i><br></li>
+
+	<li><b>invisible</b><br>
+	<i>Turns the character invisible while asserted. Does not affect display of afterimages.</i><br></li>
+
+	<li><b>roundnotover</b><br>
+	<i>Tells M.U.G.E.N that the character is currently performing his win pose. Must be asserted on every tick while the win pose is being performed.</i><br></li>
+
+	<li><b>nobardisplay</b><br>
+	<i>Disables display of life, super bars, etc. while asserted.</i><br></li>
+
+	<li><b>noBG</b><br>
+	<i>Turns off the background. The screen is cleared to black.</i><br></li>
+
+	<li><b>noFG</b><br>
+	<i>Disables display of layer 1 of the stage (the foreground).</i><br></li>
+
+	<li><b>nostandguard</b><br>
+	<i>While asserted, disables standing guard for the character.</i><br></li>
+
+	<li><b>nocrouchguard</b><br>
+	<i>While asserted, disables crouching guard for the character.</i><br></li>
+
+	<li><b>noairguard</b><br>
+	<i>While asserted, disables air guard for the character.</i><br></li>
+
+	<li><b>noautoturn</b><br>
+	<i>While asserted, keeps the character from automatically turning to face the opponent.</i><br></li>
+
+	<li><b>nojugglecheck</b><br>
+	<i>While asserted, disables juggle checking. P2 can be juggled regardless of juggle points.</i><br></li>
+
+	<li><b>noko</b><br>
+	<i>While asserted, keeps M.U.G.E.N from showing the end of the round.</i><br></li>
+
+	<li><b>nokosnd</b><br>
+	<i>Suppresses playback of sound 11, 0 (the KO sound) for players who are knocked out. For players whose KO sound echoes, nokosnd must be asserted for 50 or more ticks after the player is KOed in order to suppress all echoes.</i><br></li>
+
+	<li><b>nokoslow</b><br>
+	<i>While asserted, keeps M.U.G.E.N from showing the end of the round in slow motion.</i><br></li>
+
+	<li><b>noshadow</b><br>
+	<i>While asserted, disables display of this player's shadows.</i><br></li>
+
+	<li><b>globalnoshadow</b><br>
+	<i>Disables display of all player, helper and explod shadows.</i><br></li>
+
+	<li><b>nomusic</b><br>
+	<i>While asserted, pauses playback of background music.</i><br></li>
+
+	<li><b>nowalk</b><br>
+	<i>While asserted, the player cannot enter his walk states, even if he has control. Use to prevent run states from canceling into walking.</i><br></li>
+
+	<li><b>timerfreeze</b><br>
+	<i>While asserted, keeps the round timer from counting down. Useful to keep the round from timing over in the middle of a splash screen.</i><br></li>
+
+	<li><b>unguardable</b><br>
+	<i>While asserted, all the asserting player's HitDefs become unblockable, i.e., their guardflags are ignored.</i></li>
+</ul>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

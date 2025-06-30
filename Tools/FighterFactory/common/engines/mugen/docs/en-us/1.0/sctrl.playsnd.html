@@ -1,0 +1,40 @@
+<p>Plays back a sound.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>value</b> = group_no, sound_no (int)<br>
+	<i>group_no and sound_no correspond to the identifying pair that you assigned each sound in the player's snd file. To play back a sound from "common.snd", precede group_no with an "F".</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>volumescale</b> = volume_scale (float)<br>
+	<i>volume_scale controls the volume of the sound. A value of 100 specifies 100% volume, 50 for 50%, and so on. Valid values are from 0 to 100. Defaults to 100.</i><br></li>
+
+	<li><b>channel</b> = channel_no (int)<br>
+	<i>channel_no specifies which of the player's sound channels the sound should play on. Only one voice may play on a particular channel at a time. For example, if you play a sound on channel 2, then play any sound on the same channel before the first sound is done, then by default the first sound is stopped as the second one plays. 0 is a special channel reserved for player voices. Channel 0 voices are stopped when the player is hit. It's recommended you play your character's voice sounds on channel 0. If omitted, channel_no defaults to -1, meaning the sound will play on any free channel.</i><br></li>
+
+	<li><b>lowpriority</b> = pr (int)<br>
+	<i>This is only valid if the channel is not -1. If pr is nonzero, then a sound currently playing on this sound's channel (from a previous PlaySnd call) cannot be interrupted by this sound.</i><br></li>
+
+	<li><b>freqmul</b> = f (float)<br>
+	<i>The sound frequency will be multiplied by f. For example. Setting f to 1.1 will result in a higher-pitched sound. Defaults to 1.0 (no change in frequency).</i><br></li>
+
+	<li><b>loop</b> = loop_flag (int)<br>
+	<i>Set loop_flag to a nonzero value to have the sound sample loop over and over. Defaults to 0.</i><br></li>
+
+	<li><b>pan</b> = p (int)<br>
+	<i><u>Mutually exclusive with abspan</u><br>
+    This is the positional offset of the sound, measured in pixels. If p &gt; 0, then the sound is offset to the front of the player. If p &lt; 0, then sound is offset to the back.<br>
+    Defaults to 0.</i><br></li>
+
+	<li><b>abspan</b> = p (int)<br>
+	<i><u>Mutually exclusive with pan</u><br>
+    Like pan, except the sound is panned from the center of the screen, not from the player's position.</i></li>
+</ul>
+<p><b>Examples:</b></p>
+<p><code><i>; Plays back sound 2,0 from the player's SND file</i><br>
+<b>type</b> = <b>PlaySnd</b><br>
+<b>value</b> = 2,0<br>
+<br>
+<i>; Plays back sound 5,2 from fight.snd</i><br>
+<b>type</b> = <b>PlaySnd</b><br>
+<b>value</b> = F5,2</code></p>

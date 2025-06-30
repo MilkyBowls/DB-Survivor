@@ -1,0 +1,7 @@
+[State 0, Pause]
+type = Pause
+trigger1 = 
+time = 1
+movetime = 1
+;ignorehitpause = 
+;persistent = 

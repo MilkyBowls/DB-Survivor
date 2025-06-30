@@ -1,0 +1,12 @@
+<p>Triggers if the user has input the specified command.</p>
+<p><b>Format:</b> Command <i>[oper]</i> command_name</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[oper]:</b> =, != (other operators not valid)</li>
+<li><b>command_name <i>(string)</i>:</b> Name of the command. Commands are defined in the player's CMD file, and are case-sensitive. If the CMD has multiple commands with the same name, then any one of those commands will work.</li>
+</ul>
+<p><b>Return type:</b> boolean (0 if false or 1 if true)</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>Command</b> = fireball_motion<br>
+<i>; True if the user inputs the command corresponding to the command name fireball_motion.</i></code></p>

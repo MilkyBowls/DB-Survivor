@@ -1,0 +1,20 @@
+<p>Binds the player to a specified position relative to the specified target.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>time</b> = bind_time (int)<br>
+	<i>Specify number of ticks that this binding should be effective. Defaults to 1.</i><br></li>
+	<li><b>ID</b> = bind_id (int)<br>
+	<i>Specifies ID number of the target to bind to. Defaults to -1 (pick any target).</i><br></li>
+	<li><b>pos</b> = pos_x (float), pos_y (float), postype (string)<br>
+	<i>pos_x and pos_y specify the offsets (from the bind point) to bind to. The bind point defaults to the target's axis.<br>
+    If postype is "Foot", then the bind point is the target's axis.<br>
+    If postype is "Mid", then the bind point is the target's midsection.<br>
+    If postype is "Head", then the bind point is the target's head.<br>
+    In the latter two cases, the bind point is determined from the values of the head.pos and mid.pos parameters in the target's CNS file. The bind point is not guaranteed to match up with the target's head or midsection.</i></li>
+</ul>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

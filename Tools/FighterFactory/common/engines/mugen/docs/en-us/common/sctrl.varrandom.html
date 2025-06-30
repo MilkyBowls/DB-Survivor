@@ -1,0 +1,18 @@
+<p>Sets the specified int variable to a random value. Float variables cannot be set by this controller.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>v</b> = var_no (int)<br>
+	<i>var_no is the index of the int variable to affect. It must evaluate to an integer between 0 and 59.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>range</b> = least_val, greatest_val (int)<br>
+	<i>least_val and greatest_val specify the least and greatest values which can be assigned by this controller, respectively. The value assigned to the variable will be a randomly chosen integer from this range. range defaults to 0,1000. If only one argument is specified, that is considered to specify the range 0,(argument).</i></li>
+</ul>
+<p><b>Notes:</b></p>
+<p>If you have placed P2 in a custom state through a successful hit, do not use variable assignment within the custom states. Otherwise, you will overwrite P2's variables, which can cause unintended malfunction of the opponent player.</p>
+<p><b>Example:</b></p>
+<p><code><i>;Assign a random number between 0 and 500 to var(5).</i><br>
+<b>type</b> = <b>VarRandom</b><br>
+<b>v</b> = 5<br>
+<b>range</b> = 500</code></p>

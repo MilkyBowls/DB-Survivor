@@ -1,0 +1,20 @@
+<p>Returns the number of the animation element in the current action that would be displayed at the specified time. The argument to AnimElemNo represents the time to check, expressed in game ticks, relative to the present.</p>
+<p><b>Format:</b> AnimElemNo(exprn)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>exprn <i>(int)</i>:</b> Expression that evaluates to the time offset.</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if you try to check a time that would fall before the start of the current action.</p>
+<p><b>Notes:</b></p>
+<p>If the action is currently within its looping portion, then it is assumed to have been looping forever. That is, no matter how far into the past you check, AnimElemNo will always return an element number that lies within the looping portion of the action.</p>
+<p><b>Examples:</b></p>
+<p><code><b>trigger1</b> = <b>AnimElemNo</b>(0) = 2<br>
+<i>; True when the animation element to be displayed 0 ticks in the future (i.e., now) is element 2. This is equivalent to:<br>
+&Tab;<b>trigger1</b> = <b>AnimElem</b> = 2, &gt;= 0<br>
+&Tab;<b>trigger1</b> = <b>AnimElem</b> = 3, &lt; 0<br>
+<br>
+<b>trigger1</b> = <b>AnimElemNo</b>(2) = 4<br>
+<i>; True when the animation element that will be displayed two ticks from now is element 4. This is equivalent to:<br>
+&Tab;<b>trigger1</b> = <b>AnimElem</b> = 4, &gt;= -2<br>
+&Tab;<b>trigger1</b> = <b>AnimElem</b> = 5, &lt; -2</i></code></p>

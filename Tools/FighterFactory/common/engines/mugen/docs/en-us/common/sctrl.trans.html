@@ -1,0 +1,25 @@
+<p>Overrides the player's animation transparency parameters for current game tick. Useful for special effects.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>trans</b> = trans_type (string)<br>
+	<i>trans_type must be one of the following:<br>
+	<ul>
+		<li><b>default</b> - does nothing</li>
+		<li><b>none</b> - disables transparency</li>
+		<li><b>add</b> - draws with additive transparency (alpha defaults to 256,256)</li>
+		<li><b>addalpha</b> - deprecated in 1.1; draws with additive transparency (alpha defaults to 256,0)</li>
+		<li><b>add1</b> - deprecated in 1.1; draws with additive transparency (alpha defaults to 256,128)</li>
+		<li><b>sub</b> - draws with full subtractive transparency (alpha is fixed at 256,256)</li>
+	</ul></i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>alpha</b> = source_alpha, dest_alpha (int, int)<br>
+	<i>These are the source and destination alpha values for the add trans types. Valid values are from 0 (low) to 256 (high). If omitted, default depends on trans_type.</i></li>
+</ul>
+<p><b>Examples:</b></p>
+<p><code><i>; Fades the character in, over 256 ticks.</i><br>
+<b>type</b> = <b>Trans</b><br>
+<b>trigger1</b> = time &lt; 256<br>
+<b>trans</b> = <b>add</b><br>
+<b>alpha</b> = <b>time</b>, 256-<b>time</b></code></p>

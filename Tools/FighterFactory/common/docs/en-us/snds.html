@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li><a href="using.html">Using</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li>Sounds</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Menu Sounds</h1>
+        <p>The Sounds menu is used to manipulate the sounds of the project.</p>
+        <p>See <a href="sndw.html">Sounds workspace</a> for more details.</p>
+        <a id="new"></a><h2>New</h2>
+        <p>Create a new empty file.</p>
+        <a id="open"></a><h2>Open</h2>
+        <p>Open an existing file.</p>
+        <a id="save"></a><h2>Save</h2>
+        <p>Overwrite the last saved file, if it exist. Else, execute 'Save as...'.</p>
+        <a id="saveas"></a><h2>Save as...</h2>
+        <p>Save the sounds on a new file.</p>
+        <a id="add"></a><h2>Add</h2> 
+        <div>
+          <p>Add one or more samples (sounds), starting on the next position from the current.</p>
+          <img src="images/add.png" style="float: right; display: inline;"/>
+          <h1>M.U.G.E.N. only</h1>
+          <p>First, you must select all files you want to add. After it, the 'Add sounds...' window will be shown. In this window, you can choose some options used to define all the sprite information. The options are:</p>
+          <p><b>Group:</b> sample's group.</p>
+          <p><b>Index:</b> sample's index within the group, defined by the field value. You can choose the increment by selecting the appropriate option below the field (one by one or ten by ten).</p>
+          <p>If you hit OK, the options above will be applied. Else, the default options will be used (group: 0, index: 0).</p>
+          <div style="clear: both;"></div>
+        </div>
+        <a id="delete"></a><h2>Delete</h2>
+        <p>Removes the current sample. <i>Note: A confirmation will be shown if is defined in the <a href="options.html">Options window</a>.</i></p>
+        <a id="duplicate"></a><h2>Duplicate</h2>
+        <p>Duplicates current sound./p>
+        <a id="change"></a><h2>Change sound...</h2>
+        <p>Change the current sample file.</p>
+        <a id="savesnd"></a><h2>Save sound as...</h2>
+        <p>Save one or more sample to a file. This function displays the 'Items' window that defines what samples will be saved.</p>
+        <a id="resample"></a><h2>Resample</h2>
+          <img src="images/resample.png" style="float: right; display: inline;"/>
+        <p>Resamples one or more sounds. This function uses the same resampler as Fighter Factory Ultimate, written by <a href="http://www.mega-nerd.com/SRC/">Erik de Castro Lopo</a>, which is one of the fastest and better one.</p>
+        <p>In the resample window you must select all items you want to process. There's some buttons to help you select multiple items.</p>
+        <p><b>Channels:</b> Number of channels to output. This is just a linear split/join operation.</p>
+        <p><b>Sample rate:</b> Output sample rate.</p>
+        <p><b>Bits per sample:</b> Number of bits per sample.</P>
+        <p><i>Note: The resampler works on floating-point data, so the less is this value, more loss of data will occur as we don't have enough precision to store the results.</i></p>
+          <div style="clear: both;"></div>
+        <a id="play"></a><h2>Play</h2>
+        <a id="loop"></a><h2>Play with loop</h2>
+        <a id="stop"></a><h2>Stop</h2>
+        <a id="deletegrp"></a><h2>Delete group</h2>
+        <div>
+          <h1>M.U.G.E.N. only</h1>
+          <img src="images/deletegrp.png" style="float: right; display: inline;"/>
+          <p>Displays a window to the user choose a group to delete.</p>
+          <p>The options are:</p>
+          <p><b>Group:</b> the group to delete.</p>
+          <p><b>Entire group:</b> all samples of this group.</p>
+          <p><b>Intervall:</b> only the indexes from Start to End.</p>
+          <p><i>Note: No confirmation will be shown if you hit OK.</i></p>
+          <div style="clear: both;"></div>
+        </div>
+        <a id="renamegrp"></a><h2>Rename group</h2>
+        <div>
+          <h1>M.U.G.E.N. only</h1>
+          <img src="images/renamegrp.png" style="float: right; display: inline;"/>
+          <p>Displays a window to the user choose a group to rename (entire group or intervall) and the new group number.</p>
+          <p>The options are:</p>
+          <p><b>Group:</b> the group to rename.</p>
+          <p><b>New group:</b> the new group number.</p>
+          <p><b>Entire group:</b> all samples of this group.</p>
+          <p><b>Intervall:</b> only the indexes from Start to End.</p>
+          <p><i>Note: No confirmation will be shown if you hit OK.</i></p>
+          <div style="clear: both;"></div>
+        </div>
+        <a id="export"></a><h2>Export...</h2>   
+        <div>
+          <h1>M.U.G.E.N. only</h1>
+          <img src="images/export.png" style="float: right; display: inline;"/>
+          <p>Exports a group or all samples. The 'Export' window will be shown to define the samples that will be exported. Then, the samples will be saved and a text file will be generated with the sample information.</p>   
+          <div style="clear: both;"></div>
+        </div>
+        <a id="import"></a><h2>Import...</h2>
+          <h1>M.U.G.E.N. only</h1>
+        <p>Import one or more samples to the editor from a Fighter Factory Export file. All samples described in the file will be imported.</p>
+        <p>You may be prompted to resolve collisions.</p>
+        <p><i>Note: The samples will be placed in the next position from the current sample.</i></p>
+        <a id="importproj"></a><h2>Import from another project...</h2>
+        <div>
+          <img src="images/impsnd.png" style="float: right; display: inline;"/>
+          <p>Import one or more samples from another project in the same Fighter Factory instance.</p>
+          <p>The options are:</p>
+          <p class="center"><b>Source</b></p>
+          <p><b>Project:</b> the source project.</p>
+          <p>You must select the sprites you want to import, and add them to the destination list.</p>
+          <p class="center"><b>Destination</b></p>
+          <p>Besides the list of sounds to import, you can rename items to avoid conflicts and/or choose conflict resolution option:</p>
+          <p><b>Replace existing:</b> replace sounds with the same identifier.</p>
+          <p><b>Skip (don't add):</b> ignore sounds who identifier already exists.</p>
+          <p><i>Note: The sounds will be placed in the next position from the current sound.</i></p>
+        </div>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

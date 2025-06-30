@@ -1,0 +1,13 @@
+<p>Returns the difficulty level of the player's AI.</p>
+<p><b>Format:</b> AILevel</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li>none</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>If AI is enabled on the player, the value ranges from 1 (easiest) to 8 (most difficult). If AI is not enabled on the player, the return value is 0.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>Random</b> &lt; <b>AILevel</b> * 10<br>
+<i>; Triggers with 10% probability at AILevel 1, 20% at AILevel 2, etc.</i></code></p>

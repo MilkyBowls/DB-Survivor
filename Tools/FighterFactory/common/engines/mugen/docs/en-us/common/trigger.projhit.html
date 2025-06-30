@@ -1,0 +1,22 @@
+<p>This trigger takes an optional positive ID number as a suffix. If the ID number is omitted, ProjHit returns true if any of the player's projectiles successfully hit the opponent. When the ID number is specified, ProjHit returns true only if one of the player's projectiles with the specified ID number successfully hit the opponent.</p>
+<p><b>Format:</b></p>
+<p>ProjHit<i>[ID]</i> = value</p>
+<p>ProjHit<i>[ID]</i> = value, <i>[oper]</i> value2</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[ID]:</b> Optional ID number.</li>
+<li><b>[oper]:</b> =, !=, &lt;, &gt;, &lt;=, &gt;=</li>
+<li><b>value <i>(boolean)</i>:</b> Value to compare against. 0 for false, 1 for true.</li>
+<li><b>value2 <i>(int)</i>:</b> Time value to compare against.</li>
+</ul>
+<p><b>Return type:</b> boolean (0 if false or 1 if true)</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>ProjHit will trigger once for each hit of the projectile, so a multi-hit projectile can trigger multiple times. </p>
+<p>The first form of ProjHit shown above is only valid for one tick after hit, unlike MoveHit.</p> 
+<p>For the second form, ProjHit returns true if the projectile hit n ticks ago, where n is a nonnegative number satisfying the relation "n (oper) value2".</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>ProjHit1234</b> = 1<br>
+<i>; Triggers if a projectile with ID 1234 just made successful contact with the opponent. </i><br><br>
+<b>trigger1</b> = <b>ProjHit1234</b> = 1, &lt; 15<br>
+<i>; Triggers if any of the player's projectiles made successful contact with the opponent within the last 15 ticks.</i></code></p>

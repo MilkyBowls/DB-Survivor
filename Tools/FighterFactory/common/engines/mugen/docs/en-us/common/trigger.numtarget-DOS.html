@@ -1,0 +1,16 @@
+<p>This trigger takes an ID number as an optional argument. If the ID number is omitted, NumTarget returns the current number of targets for the player. If the ID number is included, then NumTarget returns the number of targets for the player which have that target ID number. The ID number must be greater than -1. An ID number of -1 or less will give the same behavior as if the ID number is omitted.</p>
+<p><b>Format:</b></p>
+<p>NumTarget</p>
+<p>NumTarget(exprn)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>exprn <i>(int)</i>:</b> Expression evaluating to an ID number.</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if exprn evaluates to 'Bottom'.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>NumExplod</b> &gt;= 4<br>
+<i>; Triggers if the player currently owns 4 or more explods.</i><br>
+<br>
+<b>trigger1</b> = <b>NumExplod</b>(1234) &gt;= 4<br>
+<i>; Triggers if the player currently owns 4 or more explods with ID 1234.</i></code></p>

@@ -1,0 +1,11 @@
+[State 0, ReversalDef]
+type = ReversalDef
+trigger1 = 
+reversal.attr = S,NA           ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
+pausetime = 0,0
+sparkno = S1500
+hitsound = S1,0
+p1stateno = 
+p2stateno = 
+;ignorehitpause = 
+;persistent = 

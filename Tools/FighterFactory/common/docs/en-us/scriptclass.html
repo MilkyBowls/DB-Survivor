@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li> 
+            <li><a href="script.html">Scripting system</a></li>
+            <li>Classes and functions</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content"> 
+        <p>Classes are implemented using Lua meta-tables. It provides properties (get/set functions that acts as a member variable), enumerations (small and read-only classes to list constant values) and functions.</p>
+        <p><b>Enumeration syntax:</b> enums.value</p>
+        <p><b>Property syntax:</b> class.property</p>
+        <p><b>Function syntax:</b> class:function(argument)</p>
+        
+        <h1>Enumerations</h1>
+
+        <a id="filters"></a><h2>Filters</h2>
+        <p><b>Dirs</b></p>
+        <p><b>Files</b></p>
+        <p><b>NoSymLinks</b></p>
+        <p><b>AllEntries</b></p>
+        <p><b>AllDirs</b></p>
+        <p><b>CaseSensitive</b></p>
+        <p><b>NoFilter</b></p>
+
+        <a id="sortflags"></a><h2>SortFlags</h2>
+        <p><b>Name</b></p>
+        <p><b>Time</b></p>
+        <p><b>Size</b></p>
+        <p><b>DirsFirst</b></p>
+        <p><b>DirsLast</b></p>
+        <p><b>Reversed</b></p>
+        <p><b>IgnoreCase</b></p>
+        <p><b>Type</b></p>
+        <p><b>NoSort</b></p>
+
+        <a id="openflags"></a><h2>OpenFlags</h2>
+        <p><b>ReadOnly</b></p>
+        <p><b>WriteOnly</b></p>
+        <p><b>ReadWrite</b></p>
+
+        <a id="sharemode"></a><h2>ShareMode</h2>
+        <p><b>Share</b></p>
+        <p><b>NoShare</b></p>
+        <p><b>AskToShare</b></p>
+
+        <h1>Classes</h1>
+
+        <a id="file"></a><h2>File</h2>
+        <p><b>isSequential</b> <u><i>[boolean: read-only property]</i></u>: returns <b>true</b> if the file doesn't support random-access, otherwise <b>false</b>.</p>
+        <p><b>pos</b> <u><i>[integer: read-only property]</i></u>: returns the current position of the file in bytes.</p>
+        <p><b>size</b> <u><i>[integer: read-only property]</i></u>: returns the file size.</p>
+        <p><b>atEnd</b> <u><i>[boolean: read-only property]</i></u>: returns <b>true</b> if reached the end of the file, otherwise <b>false</b>.</p>
+        <p><b>seek(pos: <u><i>integer</i></u>)</b> <u><i>[boolean: function]</i></u>: for random-access files, this function sets the current position to <i>pos</i>, returning <b>true</b> on success, or <b>false</b> if an error occurred or on sequential files.</p>
+        <p><b>reset()</b> <u><i>[boolean: function]</i></u>: seeks to the start of input for random-access files. Returns <b>true</b> on success; otherwise returns <b>false</b>.</p>
+
+        <a id="archive"></a><h2>Archive</h2>
+        <p><b>name</b> <u><i>[string: read-only property]</i></u>: returns the archive file name.</p>
+        <p><b>path</b> <u><i>[string: read-only property]</i></u>: returns the archive file path.</p>
+        <p><b>absoluteFilePath(relativePath: <u><i>string</i></u>)</b> <u><i>[string: read-only property]</i></u>: returns the absolute file path from <i>relativePath</i>.</p>
+        <p><b>absoluteFileName(relativePath: <u><i>string</i></u>)</b> <u><i>[string: read-only property]</i></u>: returns the absolute file name (path + base name + extension) from <i>relativePath</i>.</p>
+        <p><b>isReadOnly()</b> <u><i>[boolean: read-only property]</i></u>: returns <b>true</b> if this archive is read-only, otherwise returns <b>false</b>.</p>
+        <p><b>entries(path: <u><i>string</i></u>, nameFilters: <u><i>string table</i></u>, filters: <u><i><a href="#filters">Filters</a></i></u>, sort: <u><i><a href="#sortflags">SortFlags</a></i></u>)</b> <u><i>[string table: function]</i></u>: returns a list of files/folders from <u><i>path</i></u>, filtering by <u><i>nameFilters</i></u> (wildcard list), <u><i>filters</i></u> and <u><i>sort</i></u>.</p>
+        <p><b>openFile(fileName: <u><i>string</i></u>, openFlags: <u><i><a href="#openflags">OpenFlags</a></i></u>)</b> <u><i>[<a href="#file">File</a>: function]</i></u>: opens the file pointed by <i><u>fileName</i></u> on this archive using <i><u>openFlags</i></u> access mode. Returns a <a href="#file">File</a> class on success, otherwise returns <b>nil</b>. The returned class must be closed with <b>closeFile</b> to avoid memory leaks.</p>
+        <p><b>closeFile(file: <u><i><a href="#openflags">File</a></i></u>)</b> <u><i>[function]</i></u>: closes <i><u>file</i></u>, freeing its memory.</p>
+        <p><b>removeFile(fileName: <u><i>string</i></u>)</b> <u><i>[boolean: function]</i></u>: deletes the file pointed by <i><u>fileName</i></u> on this archive. Returns <b>true</b> on success, otherwise returns <b>false</b>.</p>
+        <p><b>renameFile(fileName: <u><i>string</i></u>, newFileName: <u><i>string</i></u>)</b> <u><i>[boolean: function]</i></u>: renames the file pointed by <i><u>fileName</i></u> to <i><u>newFileName</i></u> on this archive. Returns <b>true</b> on success, otherwise returns <b>false</b>.</p>
+        <p><b>flush()</b> <u><i>[function]</i></u>: flushes any pending write operation on this archive.</p>
+        <p><b>isWritable(fileName: <u><i>string</i></u>)</b> <u><i>[boolean: function]</i></u>: returns <b>true</b> if the file pointed by <i><u>fileName</i></u> can be opened in write mode, otherwise returns <b>false</b>.</p>
+        <p><b>fileExists(fileName: <u><i>string</i></u>)</b> <u><i>[boolean: function]</i></u>: returns <b>true</b> if the file pointed by <i><u>fileName</i></u> exists, otherwise returns <b>false</b>.</p>
+        <p><b>directoryExists(filePath: <u><i>string</i></u>)</b> <u><i>[boolean: function]</i></u>: returns <b>true</b> if the  directory pointed by <i><u>filePath</i></u> exists, otherwise returns <b>false</b>.</p>
+        <p><b>release()</b> <u><i>[function]</i></u>: free this archive's memory (use only on objects returned by <b>instance</b> function).</p>
+        <p><b>instance(fileName: <u><i>string</i></u>, readOnly: <i><u>boolean</i></u>)</b> <u><i>[<a href="#archive">Archive</a>: function]</i></u>: returns an <a href="#archive">Archive</a> instance capable of handling the file pointed by <i><u>fileName</i></u>.</p>
+
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

@@ -1,0 +1,7 @@
+[State 0, RemapPal]
+type = RemapPal
+trigger1 = 
+;source = -1,-1
+dest = 0,0
+;ignorehitpause = 
+;persistent = 

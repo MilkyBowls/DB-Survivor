@@ -1,0 +1,16 @@
+<p>This trigger takes an optional ID number as a suffix. If the ID number is omitted, NumExplod returns the number of explods owned by the player. If the ID number is included, then NumExplod returns the number of explods with that ID number that are owned by the player.</p>
+<p><b>Format:</b></p>
+<p>NumExplod</p>
+<p>NumExplod[ID]</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[ID]:</b> Optional nonzero ID number.</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>NumExplod</b> >= 4<br>
+<i>; Triggers if the player currently owns 4 or more explods.</i><br>
+<br>
+<b>trigger1</b> = <b>NumExplod1234</b> >= 4<br>
+<i>; Triggers if the player currently owns 4 or more explods with ID 1234.</i></code></p>

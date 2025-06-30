@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <assemblyIdentity type="win32" name="qt4" version="4.8.7.0" processorArchitecture="amd64"></assemblyIdentity>
+    
+    <file name="QtCore4.dll"></file>
+    <file name="QtGui4.dll"></file>
+    <file name="QtNetwork4.dll"></file>
+    <file name="QtOpenGL4.dll"></file>
+    <file name="QtXml4.dll"></file>
+</assembly>

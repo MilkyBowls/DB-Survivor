@@ -1,0 +1,12 @@
+<p>Gives the distance of P2 from P1, where P1 is the player, and P2 is his opponent.</p>
+<p><b>Format:</b> P2Dist <i>[component]</i></p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[component]:</b> X, Y</li>
+</ul>
+<p><b>Return type:</b> float</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>For comparing the Y-distance, P2Dist and P2BodyDist work exactly the same. The value is negative if P2 is above P1. For comparing the X-distance, P2Dist gives the X-distance of P2's axis from P1's axis. A positive value indicates P2 is in front of P1.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>P2Dist Y</b> &lt;= -12 <i>; True if P2 is at least -12 pixels higher up than P1.</i></code></p>

@@ -1,0 +1,25 @@
+<p>Gets the attribute parameter of the player's currently-active HitDef. If the player is not in an attack state, then the condition does not trigger.</p>
+<p>Can be used for simple move-interrupts from weaker to stronger attacks in the CMD file.</p>
+<p><b>Format:</b> HitDefAttr <i>[oper]</i> value1, value2</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[oper]:</b> =, !=</li>
+<li><b>value1 <i>(string)</i>:</b> A string that has at least one of the letters "S", "C" and "A" for standing, crouching and aerial attacks respectively. For example, "SA" is for standing and aerial attacks.</li>
+<li><b>value2 <i>(string)</i>:</b> A set of 2-character strings, separated by commas. Each 2-character string must be of the form described: The first character is either "N" for "normal", "S" for "special", or "H" for "hyper". The second character must be either "A" for "attack" (a normal hit attack) or "T" for "throw". For example, "NA, ST" is for normal attacks and special throws.</li>
+</ul>
+<p><b>Return type:</b> boolean (0 if false or 1 if true)</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Notes:</b></p>
+<p>Assuming the attribute of the player's HitDef is in the form: 'arg1, arg2' then the trigger condition is determined to be true only if arg1 is a subset of value1, AND arg2 is a subset of value2.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>HitDefAttr</b> = A, HA<br>
+<i>; Triggers when the player is in an attack state, where<br>
+; the current HitDef has the following attributes:<br>
+; &Tab;1. is an aerial attack<br>
+; &Tab;and 2. is a hyper (super) attack</i><br>
+<br>
+<b>trigger1</b> = <b>HitDefAttr</b> = SC, NA, SA<br>
+<i>; Triggers when the player is in an attack state, where<br>
+; the current HitDef has the following attributes:<br>
+; &Tab;1. is either a standing or a crouching attack<br>
+; &Tab;and 2. is either a normal attack or a special attack</i></code></p>

@@ -1,0 +1,14 @@
+<p>This trigger takes an required nonnegative ID number as an argument.  If the player's last projectile to make any kind of contact was guarded by the opponent and had the specified ID number, then ProjGuardedTime returns the number of ticks since that contact occurred. If the specified ID number is 0, then the projectile ID is not checked. If no projectile meets all the above conditions, then ProjGuardedTime returns -1.</p>
+<p><b>Format:</b> ProjGuardedTime(exprn)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>exprn <i>(int)</i></b> Expression evaluating to a nonnegative ID number.</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if exprn evaluates to 'Bottom'. If a negative ID is specified, then the ID defaults to zero.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>ProjGuardedTime</b>(1234) = 1<br>
+<i>; Triggers if a projectile with ID 1234 was just guarded by the opponent.</i><br>
+<br>
+<b>trigger1</b> = <b>ProjGuardedTime</b>(0) != -1 &amp;&amp; <b>ProjGuardedTime</b>(0) &lt; 15<br>
+<i>; Triggers if any of the player's projectiles was guarded by the opponent within the last 15 ticks.</i></code></p>

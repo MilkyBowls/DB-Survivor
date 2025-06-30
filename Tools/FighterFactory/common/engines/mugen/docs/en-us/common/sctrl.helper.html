@@ -1,0 +1,64 @@
+<p>Creates another instance of the player as a helper character.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>helpertype</b> = type_string (string)<br>
+	<i><u>Deprecated -- do not use player-type helpers</u><br>
+	If helpertype = normal, then the helper will be allowed to move off the edge of the screen. Furthermore, the camera will not move to try to keep the helper on screen. If helpertype = player, then the helper will be constrained to the screen and will be followed by the camera, just like a normal player. Defaults to normal. If you plan to use a helper for camera manipulation, do not use a player-type helpers (it is deprecated). Use the ScreenBound controller with the "movecamera" parameter if necessary.</i><br></li>
+
+	<li><b>name</b> = "name_string" (string)<br>
+	<i>Specifies a name for this helper, which must be enclosed in double quotes. If omitted, the name defaults to "[parent]'s helper", where [parent] represents the name of the player creating the helper.</i><br></li>
+
+	<li><b>ID</b> = id_no (int)<br>
+	<i>Sets an ID number to refer to this helper by. Defaults to 0.</i><br></li>
+
+	<li><b>pos</b> = x_off, y_off (int)<br>
+	<i>Determines the x and y offsets to create this helper at. The precise meaning of these parameters is dependent on the postype. Defaults to 0,0.</i><br></li>
+
+	<li><b>postype</b> = postype_string (string)<br>
+	<i>postype works nearly the same as in the Explod controller. postype_string specifies the postype -- how to interpret the pos parameters. In all cases, a positive y offset means a downward displacement. Valid values for postype are the following:<br>
+	<ul>
+		<li><b>p1</b> - Interprets pos relative to p1's axis. A positive x offset is toward the front of p1. This is the default value for postype.</li>
+		<li><b>p2</b> - Interprets pos relative to p2's axis. A positive x offset is toward the front of p2. If p2 does not exist, the helper is created with respect to p1.</li>
+		<li><b>front</b> - Interprets xpos relative to the edge of the screen that p1 is facing toward, and ypos relative to p1's axis. A positive x offset is away from the center of the screen, whereas a negative x offset is toward the center.</li>
+		<li><b>back</b> - Interprets xpos relative to the edge of the screen that p1 is facing away from, and ypos relative to p1's axis. A positive x offset is toward the center of the screen, whereas a negative x offset is away from the center.</li>
+		<li><b>left</b> - Interprets xpos relative to the left edge of the screen, and ypos relative to p1's axis. A positive x offset is toward the right of the screen.</li>
+		<li><b>right</b> - Interprets xpos relative to the right edge of the screen, and ypos relative to p1's axis. A positive x offset is toward the left of the screen.</li>
+    </ul></i><br></li>
+
+	<li><b>facing</b> = facing (int)<br>
+	<i>If postype is left or right, setting facing to 1 will make the helper face the right, and a value of -1 makes the helper face left. For all other values of postype except p2, if facing is 1, the helper will face the same direction as the player. If facing is -1, the helper will face the opposite direction. In the case of postype = p2, facing has the same effect as above, except it is with respect to p2's facing. Defaults to 1.</i><br></li>
+
+	<li><b>stateno</b> = start_state (int)<br>
+	<i>Determines the state number that the helper starts off in. Defaults to 0.</i><br></li>
+
+	<li><b>keyctrl</b> = ctrl_flag (boolean)<br>
+	<i>If keyctrl = 1, then the helper is able to read command input from the player (e.g., the keyboard or joystick). Also, the helper will inherit its root's State -1. If keyctrl = 0, then the helper does not have access to command input, and does not inherit State -1. The default value of keyctrl is 0.</i><br></li>
+
+	<li><b>ownpal</b> = pal_flag (boolean)<br>
+	<i>If ownpal = 0, the helper will inherit its parent's palette. If the parent's palette is temporarily changed (eg. by a PalFX controller), the changes will be reflected in the helper too. If ownpal = 1, the helper will receive its own working palette, that is independent of its parent's. Defaults to 0.</i><br></li>
+
+	<li><b>supermovetime</b> = value (int)<br>
+	<i>Determines the number of ticks that the helper should be "unfrozen" during a SuperPause. Often useful if you want the helper to make its appearance during a SuperPause. Defaults to 0.</i><br></li>
+
+	<li><b>pausemovetime</b> = value (int)<br>
+	<i>Determines the number of ticks that the helper should be "unfrozen" during a Pause. Defaults to 0.</i><br></li>
+
+	<li><b>size.xscale</b> (float): Horizontal scaling factor.<br>
+	<li><b>size.yscale</b> (float): Vertical scaling factor.<br>
+	<li><b>size.ground.back</b> (int): Player width (back, ground)<br>
+	<li><b>size.ground.front</b> (int): Player width (front, ground)<br>
+	<li><b>size.air.back</b> (int): Player width (back, air)<br>
+	<li><b>size.air.front</b> (int): Player width (front, air)<br>
+	<li><b>size.height</b> (int): Height of player (for opponent to jump over)<br>
+	<li><b>size.proj.doscale</b> (int): Set to 1 to scale projectiles too<br>
+	<li><b>size.head.pos</b> (int, int): Approximate position of head<br>
+	<li><b>size.mid.pos</b> (int, int): Approximate position of midsection<br>
+	<li><b>size.shadowoffset</b> (int): Number of pixels to vertically offset the shadow<br>
+	<i>These parameters have the same meaning as the corresponding parameters in the root's CNS file. You can specify one or more of these parameters to change it to a value suitable for this helper. Otherwise, they default to the values inherited from the parent.</i></li>
+</ul>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

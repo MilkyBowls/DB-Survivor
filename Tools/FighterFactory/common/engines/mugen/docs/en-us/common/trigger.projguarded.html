@@ -1,0 +1,22 @@
+<p>This trigger takes an optional ID number as a suffix. If the ID number is omitted, ProjGuarded returns true if any of the player's projectiles were guarded by the opponent. When the ID number is specified, ProjGuarded returns true only if one of the player's projectiles with the specified ID number was guarded by the opponent.</p>
+<p><b>Format:</b></p>
+<p>ProjGuarded<i>[ID]</i> = value</p>
+<p>ProjGuarded<i>[ID]</i> = value, <i>[oper]</i> value2</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[ID]:</b> Optional ID number.</li>
+<li><b>[oper]:</b> =, !=, &lt;, &gt;, &lt;=, &gt;=</li>
+<li><b>value <i>(boolean)</i>:</b> Value to compare against. 0 for false, 1 for true.</li>
+<li><b>value2 <i>(int)</i>:</b> Time value to compare against.</li>
+</ul>
+<p><b>Return type:</b> boolean (0 if false or 1 if true)</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Details:</b></p>
+<p>ProjGuarded will trigger once for each hit of the projectile, so a multi-hit projectile can trigger multiple times.</p> 
+<p>The first form of ProjGuarded shown above is only valid for one tick after hit, unlike MoveGuarded.</p>
+<p>For the second form, ProjGuarded returns true if the projectile was guarded n ticks ago, where n is a nonnegative number satisfying the relation "n (oper) value2".</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>ProjGuarded1234</b> = 1<br>
+<i>; Triggers if the opponent just blocked a projectile with ID 1234.</i><br><br>
+<b>trigger1</b> = <b>ProjGuarded</b> = 1, &lt; 15<br>
+<i>; Triggers if the opponent blocked any projectile in the last 15 ticks.</i></code></p>

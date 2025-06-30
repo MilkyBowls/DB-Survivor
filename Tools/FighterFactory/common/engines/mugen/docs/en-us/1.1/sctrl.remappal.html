@@ -1,0 +1,17 @@
+<p>Changes one of the player's palettes to another.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>source</b> = src_pal_grp, src_pal_item</li>
+	<li><b>dest</b> = dst_pal_grp, dst_pal_item<br>
+	<i>All of the player sprites that use the source palette will be drawn using the dest palette instead. The source and dest palettes must exist within the player's sprites, and both must be of the same color depth. Note that the dest palette number refers to an unmapped palette; e.g. if you map (1,1) -> (1,6), and then you map (2,2) -> (1,1), the result is that (2,2) will be mapped to palette (1,1) from the original sprite file, not (1,6).</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Examples:</b></p>
+<p><code><i>; All sprites using palette (1,1) will be drawn using palette (1,3)</i><br>
+<i>; instead.</i><br>
+<b>type</b> = <b>RemapPal</b><br>
+<b>source</b> = 1,1<br>
+<b>dest</b> = 1,3</code></p>

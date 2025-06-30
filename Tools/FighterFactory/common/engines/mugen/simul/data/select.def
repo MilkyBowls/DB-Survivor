@@ -1,0 +1,13 @@
+
+[Characters]
+kfm
+
+[ExtraStagesWin]
+stages/stage0.def
+
+[ExtraStages]
+stages/stage0-720.def
+
+[Options]
+arcade.maxmatches = 6,1,1,0,0,0,0,0,0,0
+team.maxmatches = 4,1,1,0,0,0,0,0,0,0

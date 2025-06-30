@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <assemblyIdentity type="win32" name="qt5" version="5.15.7.0" processorArchitecture="amd64"></assemblyIdentity>
+    
+    <file name="libEGL.dll"></file>
+    <file name="libGLESv2.dll"></file>
+    <file name="Qt5Concurrent.dll"></file>
+    <file name="Qt5Core.dll"></file>
+    <file name="Qt5Gui.dll"></file>
+    <file name="Qt5Network.dll"></file>
+    <file name="Qt5OpenGL.dll"></file>
+    <file name="Qt5Widgets.dll"></file>
+    <file name="Qt5Xml.dll"></file>
+</assembly>

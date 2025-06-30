@@ -1,0 +1,21 @@
+<p>Creates a game animation, like a hit spark or a super charging effect. This controller has been superseded by Explod and is now considered obsolete. Support for it may be removed in future versions.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>value</b> = anim_no (int)<br>
+	<i>Specifies the animation number (from fightfx) of the animation to play. Defaults to 0.</i><br></li>
+
+	<li><b>under</b> = under_flag (int)<br>
+	<i>If under_flag is 1, the animation is drawn behind the character sprites. Defaults to 0 (draw over characters).</i><br></li>
+
+	<li><b>pos</b> = x_pos, y_pos (float)<br>
+	<i>Specifies the position to display the animation at, relative to the player axis. Defaults to 0,0.</i><br></li>
+
+	<li><b>random</b> = rand_amt (int)<br>
+	<i>The position of the animation will be displaced in the x and y directions by (different) random amounts. The displacement can be as large as half of rand_amt. You can think of rand_amt as specifying the total possible "spread" in the positions of the randomly displaced animations. Defaults to 0.</i></li>
+</ul>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li><a href="using.html">Using</a></li>
+            <li><a href="workspace.html">Editor's workspace</a></li>
+            <li>M.U.G.E.N.</li>
+            <li>Sprites</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Sprites</h1>
+        <p>The Sprites editor is used to edit the sprites (images) of current project.</p>
+        <p>See <a href="sprs.html">Sprites menu</a> for more details.</p>
+        <h2>Controls</h2>
+        <p>All controls available to the sprite editor are listed below:</p>
+        <a id="scroll"></a><h4>Sprite selection scroll bar</h2>
+        <p>Defines the current sprite to work on.</p>
+        
+        <h2>Controls (alignment mode)</h2><br/>
+        <a id="group"></a><h4>Group field</h2>
+        <p>Defines the group number of the current sprite.</p>
+        <a id="index"></a><h4>Index field</h2>
+        <p>Defines the index number of the current sprite within its group.</p>
+        <a id="xaxis"></a><h4>X axis field</h2>
+        <p>Defines the x axis of the current sprite.</p>
+        <a id="yaxis"></a><h4>Y axis field</h2>
+        <p>Defines the y axis number of the current sprite.</p>
+        <a id="decload"></a><h4>Decompress on load</h2>
+        <p>Defines if the sprite will be decompressed when loaded (default: disabled). <i>Note: M.U.G.E.N. 1.+ only.</i></p>
+        <a id="swpal"></a><h4>Switch to the sprite palette</h2>
+        <p>If enabled, switch to the sprite palette automatically when changing the sprite selection scroll bar.</p>
+        <a id="trans"></a><h4>Show transparency color</h2>
+        <p>If enabled, force the first color of the palette to fully opaque.</p>
+        <a id="onion"></a><h4>OnionSkin</h2>
+        <p>If enabled, displays the OnionSkin sprite. When enabled, the OnionSkin scroll bar will be set to the current sprite. You can control the OnionSkin appearance in the <a href="optimg.html">Options window</a>.</p>
+        <a id="onionscroll"></a><h4>OnionSkin scrool bar</h2>
+        <p>Defines the current OnionSkin sprite to display.</p>
+
+        <h2>Controls (image editor mode)</h2><br/>
+        <a id="blend"></a><h4>Layer blend mode</h2>
+        <p>Defines the blend mode of current layer. Only available for RGBA pixel format.</p>
+        <a id="opacity"></a><h4>Layer opacity</h2>
+        <p>Defines the opacity of current layer. Only available for RGBA pixel format.</p>
+        <a id="layers"></a><h4>Layers list</h2>
+        <p>Displays all layers and allows you to hide and select them.</p>
+        <a id="tool"></a><h4>Image editor tools</h2>
+        <p>Defines the current tool.</p>
+        <p><b>Canvas move:</b> Moves the canvas position on screen.</p>
+        <p><b>Move selection:</b> Moves selected portions of the image.</p>
+        <p><b>Rectangle selection:</b> Makes rectangle selections.</p>
+        <p><b>Free selection:</b> Changes the selection mask drawing with a pencil.</p>
+        <p><b>Magic wand:</b> Changes the selection mask painting large areas like Paint bucket. Left click paints selected pixels and right click paint unselected pixels. Shift enables additive mode and Alt subtraction mode.</p>
+        <p><b>Color picker:</b> Picks some color to be the foreground one (left click) or background (right click).</p>
+        <p><b>Pen:</b> Paints the foreground color with a pencil.</p>
+        <p><b>Eraser:</b> Paints the background color with a pencil.</p>
+        <p><b>Remap pen:</b> Paints only the first color of the selected slot with the second color of selected slot. You can set color to current slot by holding shift key and left clicking (first color) ou right clicking (second color), or left clicking a color in the palette for the first color or right click for second color.</p>
+        <p><b>Paint bucket:</b> Paints nearest pixels with the same color as the point you clicked, until the end of the flow. Contiguous option controls if it paints by flow or all pixels with the same color.</p>
+        <p><b>Foreground color:</b> Defines the foreground color. Left click a color in the palette to choose it as foreground, except while Remap pen is active.</p>
+        <p><b>Background color:</b> Defines the background color. Right click a color in the palette to choose it as background, except while Remap pen is active.</p>
+
+        <h2>Workspace</h2>
+        <p>The Sprite editor is used to manipulate the sprites (images) of the project. The graphic workspace contains the rulers, guide lines, OnionSkin image, current sprite image and the axis cross. Some of these can be enabled/disabled in the <a href="view">View menu</a>.</p>
+        <p>You can change the position of the image by dragging it to the desirable position. The guide lines can be placed in the same way. All other points will move the axis and background image.</p>
+        <p>When on image editor mode, the workspace displays the current sprite as a layer, so you can use the available editing tools to do changes in the sprite's image. Selections in this mode are a mask, so you can even paint the selection as in professional tools.</p>
+        <p>The zoom can be changed using the mouse wheel.</p>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

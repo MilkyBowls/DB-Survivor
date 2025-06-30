@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iconset>
+
+  <icon name="editor_def" file="editors/def.png"/>
+  <icon name="editor_st" file="*editors/st.png"/>
+  <icon name="editor_cmd" file="*files/cmd.png"/>
+  <icon name="editor_bg" file="*editors/bg.png"/>
+
+  <icon name="def_new" file="*common/new.png"/>
+  <icon name="def_open" file="*common/open.png"/>
+  <icon name="def_save" file="*common/save.png"/>
+  <icon name="def_saveas" file="*common/saveas.png"/>
+
+  <icon name="spr_edit_img" file="sff/editimg.png"/>
+  <icon name="spr_delete_grp" file="sff/deletegrp.png"/>
+  <icon name="spr_rename_grp" file="sff/renamegrp.png"/>
+  <icon name="spr_align" file="*air/align.png"/>
+  <icon name="spr_export" file="sff/export.png"/>
+  <icon name="spr_import" file="sff/import.png"/>
+  <icon name="spr_prev_grp" file="*common/left.png"/>
+  <icon name="spr_next_grp" file="*common/right.png"/>
+  <icon name="spr_pos_left" file="*common/left.png"/>
+  <icon name="spr_pos_up" file="*common/up.png"/>
+  <icon name="spr_pos_right" file="*common/right.png"/>
+  <icon name="spr_pos_down" file="*common/down.png"/>
+  <icon name="spr_align_topleft" file="guides/lt.png"/>
+  <icon name="spr_align_topright" file="guides/rt.png"/>
+  <icon name="spr_align_bottomleft" file="guides/lb.png"/>
+  <icon name="spr_align_bottomright" file="guides/rb.png"/>
+  <icon name="spr_align_topcenter" file="guides/tc.png"/>
+  <icon name="spr_align_bottomcenter" file="guides/bc.png"/>
+  <icon name="spr_align_centercenter" file="guides/cc.png"/>
+  <icon name="spr_align_centerleft" file="guides/lc.png"/>
+  <icon name="spr_align_centerright" file="guides/rc.png"/>
+
+  <icon name="anim_frameall_trans" file="air/alltrans.png"/>
+  <icon name="anim_box_default" file="air/clsndef.png"/>
+
+  <icon name="cmd_new" file="*common/new.png"/>
+  <icon name="cmd_open" file="*common/open.png"/>
+  <icon name="cmd_save" file="*common/save.png"/>
+  <icon name="cmd_saveas" file="*common/saveas.png"/>
+
+  <icon name="st_new" file="*common/new.png"/>
+  <icon name="st_open" file="*common/open.png"/>
+  <icon name="st_save" file="*common/save.png"/>
+  <icon name="st_saveas" file="*common/saveas.png"/>
+  <icon name="st_palfx" file="st/palfx.png"/>
+  <icon name="st_offset" file="st/offset.png"/>
+  <icon name="st_throw" file="st/throw.png"/>
+  <icon name="st_var_log" file="st/varlog.png"/>
+  <icon name="st_var_list" file="st/varlist.png"/>
+  <icon name="st_a" file="st/a.png"/>
+  <icon name="st_c" file="st/c.png"/>
+  <icon name="st_l" file="st/l.png"/>
+  <icon name="st_s" file="st/s.png"/>
+  <icon name="st_u" file="st/u.png"/>
+  <icon name="st_quote" file="st/quote.png"/>
+  <icon name="st_command" file="editors/cmd.png"/>
+  <icon name="st_sctrl_new" file="*common/add.png"/>
+  <icon name="st_sctrl_edit" file="*air/edittext.png"/>
+  <icon name="st_sctrl_delete" file="*common/remove.png"/>
+
+  <icon name="snd_delete_grp" file="snd/deletegrp.png"/>
+  <icon name="snd_prev_grp" file="*common/left.png"/>
+  <icon name="snd_next_grp" file="*common/right.png"/>
+
+  <icon name="code_exp" file="code/exp.png"/>
+  <icon name="code_ustring" file="code/string.png"/>
+  <icon name="code_flags" file="code/flags.png"/>
+  <icon name="code_coord" file="code/coord.png"/>
+  <icon name="code_version" file="code/version.png"/>
+  <icon name="code_cmd" file="code/cmd.png"/>
+
+  <icon name="bgs_add" file="*common/add.png"/>
+  <icon name="bgs_delete" file="*common/remove.png"/>
+  <icon name="bgs_duplicate" file="*common/duplicate.png"/>
+  <icon name="bgs_play" file="*common/play.png"/>
+  <icon name="bgs_pause" file="*common/pause.png"/>
+  <icon name="bgs_stop" file="*common/stop.png"/>
+  <icon name="bgs_controllers" file="bg/controllers.png"/>
+  <icon name="bgs_stage" file="bg/stage.png"/>
+
+  <icon name="bgctrls_def_add" file="*common/add.png"/>
+  <icon name="bgctrls_def_delete" file="*common/remove.png"/>
+  <icon name="bgctrls_add" file="*common/add.png"/>
+  <icon name="bgctrls_delete" file="*common/remove.png"/>
+
+</iconset>

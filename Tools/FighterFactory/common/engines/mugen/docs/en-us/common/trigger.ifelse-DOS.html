@@ -1,0 +1,13 @@
+<p>This trigger takes three arguments. If the first is nonzero, IfElse returns the value of the second argument. Else, it returns the value of the third argument. All arguments are evaluated prior to execution of ifelse.</p>
+<p><b>Format:</b> IfElse(exp_cond, exp_true, exp_false)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>exp_cond <i>(boolean)</i>:</b> Expression to test.</li>
+<li><b>exp_true:</b> Expression specifying value to return if exp_cond is nonzero.</li>
+<li><b>exp_false:</b> Expression specifying value to return if exp_false is zero.</li>
+</ul>
+<p><b>Return type:</b> Type of exp_true or exp_false, whichever is returned.</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if any of the arguments evaluate to 'Bottom'.</p>
+<p><b>Example:</b></p>
+<p><code><b>value</b> = <b>ifelse</b>(<b>var</b>(3), 1, 2)<br>
+<i>; Sets value to 1 if var(3) is not zero, and sets value to 2 if var(3) is 0.</i></code></p>

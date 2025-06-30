@@ -1,0 +1,12 @@
+<p>Returns 1 if the specified animation action exists for the player.</p>
+<p>The result of this trigger is undefined if the player has been placed in a custom state by a successful hit. In this situation, use SelfAnimExist.</p>
+<p><b>Format:</b> AnimExist(exprn)</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>exprn <i>(int)</i>:</b> An expression evaluating to an animation number.</li>
+</ul>
+<p><b>Return type:</b> boolean (0 if false or 1 if true)</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if exprn evaluates to 'Bottom'.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = !<b>AnimExist</b>(200)<br>
+<i>; Triggers if the player is missing action 200.</i></code></p>

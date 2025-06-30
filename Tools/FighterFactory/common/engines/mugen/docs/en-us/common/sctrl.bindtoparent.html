@@ -1,0 +1,18 @@
+<p>If the player is a helper, binds the player to a specified position relative to its parent. If the player is not a helper, this controller does nothing.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>time</b> = bind_time (int)<br>
+	<i>Specify number of ticks that this binding should be effective. Defaults to 1.</i><br></li>
+	<li><b>facing</b> = facing_flag (int)<br>
+	<i>If facing_flag is -1, makes the player always face the opposite direction from its parent during the binding time. If facing_flag is 1, makes the player always face the same direction as its parent during the binding time. If facing_flag is 0, the player will not turn regardless of what its parent does. Defaults to 0.</i><br></li>
+	<li><b>pos</b> = pos_x (float), pos_y (float)<br>
+	<i>pos_x and pos_y specify the offsets (from the parent's axis) to bind to. Defaults to 0,0.</i></li>
+</ul>
+<p><b>Notes:</b></p>
+<p>If the player's parent is destroyed (for example, if it is a helper, and executes DestroySelf), then the effect of BindToParent is terminated.</p>
+<p><b>Example:</b></p>
+<p><code>none</code></p>

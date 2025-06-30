@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" />    
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li><a href="using.html">Using</a></li>
+            <li>Workspace</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Workspace</h1>
+        <p>The Workspace have all available controls (defined by the interface preset). It is composed by 3 sections: Left panel, editor's workspace and Right panel.</p>
+        <p>Each editor have its own controls and workspace. The position and visibility of all controls can vary accordingly to the preset. Normally, the functions in the <a href="menu.html">editor's Menu</a> will be placed here.</p>
+        <p>Editors are engine specific, but Fighter Factory Library provides some engine-independent ones, such as Code, Sprites, Animations and Sounds. These are extended in engine's own library to add new functionality. This helps to create a nice and solid user experience, as different engines will share same editor functions and design patterns.</p>
+        <p>We use the name 'extra editor' for those ones that appear at the right panel, as they are additional. Editors often offer the possibility to change the one currently set in the right panel.</p>
+        <h2>Shared extra editors</h2>
+        <p>Fighter Factory Library provides some shared extra editors that, again, are engine-independent:</p>
+        <a href="org.html"></a><h3>Organizer</h3>
+        <p>This allow us to reorder items on supported editors.</p>
+        <a href="thumb.html"></a><h3>Sprite explorer</h3>
+        <p>This is used by the Animations editor, and allow us to insert frames on animations from a list of sprites with thumbnails. Image editor can also use this to insert multiple sprites as layers.</p>
+        <a href="debug.html"></a><h3>Debug</h3>
+        <p>This is exclusive for Code editors, activated only while a debug session is active. See <a href="debug.html">Debug</a>.</p>
+        <a href="emulator.html"></a><h3>Emulator</h3>
+        <p>When supported by the engine's module, this will run a built-in build of the engine inside Fighter Factory for full debugging functionality and fast testing. See <a href="emulator.html">Emulator</a>.</p>
+        
+        <h2>M.U.G.E.N.</h2>
+        <p>Currently, the module of this engine have these editors:</p>
+        <ul class="quad">
+          <li><a href="defw.html">Definitions</a></li>
+          <li><a href="palw.html">Palettes</a></li>
+          <li><a href="bgw.html">Backgrounds</a></li>
+          <li><a href="sprw.html">Sprites</a></li>
+          <li><a href="animw.html">Animations</a></li>
+          <li><a href="cmdw.html">Commands</a></li>
+          <li><a href="stw.html">States</a></li>
+          <li><a href="sndw.html">Sounds</a></li>
+        </ul>
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

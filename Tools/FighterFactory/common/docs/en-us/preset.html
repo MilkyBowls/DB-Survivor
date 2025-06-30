@@ -1,0 +1,485 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">  
+  <head>    
+    <title>Fighter Factory Studio - Reference Documentation</title>
+    <link href="styles/base.css" rel="stylesheet" type="text/css" /> 
+  </head> 
+  <body>
+    <div id="header">
+      <img src="images/logo.png"/>
+      <h1>Fighter Factory Studio - Reference Documentation</h1>
+      <p>For problems and bug report, go to <a href="http://fighterfactory.virtualltek.com">VirtuallTek Game Studio</a> web site. For doubts related to some specific engine, go to their own web pages or community forums.</p>
+    </div>
+    
+    <div id="margins">
+      <div id="navigation">
+        <div class="hd"></div>
+        <div class="breadcrumb block">
+          <ul>
+            <li class="first"><a href="index.html">Home</a></li>
+            <li>Preset system</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content">
+        <h1>Preset system</h1>
+        <p>The Preset system controls the interface of Fighter Factory. Within this sysem, all buttons, sliders, ..., are placed in the desired position.</p>
+        <p>This file is written in Lua.</p>
+        
+        <p>Fighter Factory supports a large set of widgets and some classes to change them, as described bellow:</p>
+        
+        <br/>
+        <h1>Lua Enumerations</h1>
+        <h2>FF.Align</h2>
+        <p><i>FF.Left</i></p>
+        <p><i>FF.HCenter</i></p>
+        <p><i>FF.Right</i></p>
+        <p><i>FF.Top</i></p>
+        <p><i>FF.VCenter</i></p>
+        <p><i>FF.Bottom</i></p>
+
+        <br/>
+        <h1>Lua classes</h1>
+        
+        <h2>FF.Toolbar</h2>     
+        <p>A toolbar that contains a set of icons that can trigger functions.</p>  
+        <h3>Properties</h3> 
+        <p><i>iconSize</i>: changes the size of icons in this toolbar.</p> 
+        <h3>Functions</h3> 
+        <p><i>addButton(string)</i>: appends a button to execute the function specified by first argument. The string argument can be any action of Fighter Factory. To see all possible actions, go to <a href="iconset.html">Iconset</a>.</p>  
+        <p><i>addSeparator()</i>: appends a separator (vertical line).</p>
+        
+        <h2>FF.Panel</h2> 
+        <p>A panel that contains other widgets and has a title.</p>
+        <h3>Properties</h3> 
+        <p><i>layout</i>: controls the panel layout (FF.Layout).</p>
+        
+        <h2>FF.Control</h2> 
+        <p>A widget.</p>
+        <h3>Functions</h3> 
+        <p><i>size(int, int)</i>: changes the size of the widget (width, height).</p>
+        <p><i>icon(int)</i>: changes the size of the icon (for button controls).</p>
+        <p><i>flat()</i>: setup button appearance to be flat, without depth.</p>
+        <p><i>horizontal()</i>: set slider orientation to horizontal.</p>
+        <p><i>vertical()</i>: set slider orientation to vertical.</p>
+        <p><i>align(int, int)</i>: appends a separator (vertical line).</p>
+        
+        <h2>FF.Layout</h2> 
+        <p>Control widget alignment, size and spacing.</p>
+        <h3>Properties</h3> 
+        <p><i>spacing</i>: manage layout's spacing between widgets.</p>
+        <p><i>margin</i>: manage the margins from the edges of parent widget.</p>
+        
+        <h2>FF.GridLayout</h2> 
+        <p>Control widget alignment, size and spacing in a uniform grid.</p>
+        <h3>Functions</h3>  
+        <p><i>addLayout(layout, row, column) / addLayout(layout, row, column, rowSpan, colSpan)</i>: adds another 'layout' in the grid specified by 'row', 'column'. 'rowSpan' and 'colSpan' can optionally be set to extend the item to next cells. All values are integer.</p> 
+        <p><i>addControl(name, row, column) / addControl(name, row, column, rowSpan, colSpan)</i>: adds a control (widget) in the grid specified by 'row', 'column'. 'rowSpan' and 'colSpan' can optionally be set to extend the item to next cells. All values are integer. 'name' must be a valid control. See <a href="#controls">Controls</a> for details.</p>
+        <p><i>addVerticalSpacer(row, column) / addHorizontalSpacer(row, column)</i>: adds a spacer that extends to the edge of the panel, in the direction specified by the function name. All values are integer.</p>
+         
+        <h2>FF.VerticalLayout / FF.HorizntalLayout</h2> 
+        <p>Control widget alignment, size and spacing in a single direction. Each child control will fill the entire length of that direction, and will be displayed in the order they were added.</p>
+        <h3>Functions</h3>  
+        <p><i>addLayout(layout)</i>: adds another 'layout'.</p> 
+        <p><i>addControl(name)</i>: adds a control (widget). 'name' must be a valid control. See <a href="#controls">Controls</a> for details.</p>
+        <p><i>addSpacing(size)</i>: adds a blank space of 'size'.</p>
+        <p><i>addVerticalSpacer() / addHorizontalSpacer()</i>: adds a spacer that extends to the edge of the panel, in the direction specified by the function name.</p>
+        
+        <br/>
+        <h1>Lua functions</h1>
+
+        <h2>FF.toolBar(string)</h2> 
+        <p>Returns an instance of an interface toolbar, by name.</p>
+        <p><i>Return value</i>: 'FF.ToolBar' class</p>
+
+        <h2>FF.panel(string)</h2> 
+        <p>Returns an instance of an interface panel (the left ones), by name.</p>
+        <p><i>Return value</i>: 'FF.ToolBar' class</p>
+
+        <h2>FF.extraPanel(string)</h2> 
+        <p>Returns an instance of an interface panel (the right ones), by name.</p>
+        <p><i>Return value</i>: 'FF.Panel' class</p>
+
+        <h2>FF.gridLayout()</h2> 
+        <p>Returns a new instance of FF.GridLayout. 'margin' and 'spacing' are set to 0.</p>
+        <p><i>Return value</i>: 'FF.GridLayout' class</p>
+
+        <h2>FF.horizontalLayout()</h2> 
+        <p>Returns a new instance of FF.HorizontalLayout. 'margin' and 'spacing' are set to 0.</p>
+        <p><i>Return value</i>: 'FF.HorizontalLayout' class</p>
+
+        <h2>FF.verticalLayout()</h2> 
+        <p>Returns a new instance of FF.VerticalLayout. 'margin' and 'spacing' are set to 0.</p>
+        <p><i>Return value</i>: 'FF.VerticalLayout' class</p>
+
+        <br/>
+        <h1 id="controls">Controls</h1>
+        <p>Any other supported interface widget, manageable by FF.Control class.</p> 
+        <p>Some controls have additional functions:</p>  
+        <p><b>Button</b>: 'flat' and 'icon'. Buttons are treated in the same way as the toolbar ones, then you can use any action supported by toolbars as 'name' (except the ones prefixed with 'advpal').</p>  
+        <p><b>Label</b>: 'align'.</p>  
+        <p><b>Slider</b>: 'horizontal' and 'vertical'".</p>
+        
+        <p>All supported controls are listed below, except those listed for buttons (see <a href="iconset.html">Iconset</a> for more details).</p>
+        <p>Here, we will use the notation: "<b>ctrl_name</b>: Widget; Description".</p>
+        <p>For controls that are editor-dependent, we use a underlined <b><u>ctrl_name</u></b>. When the user activates one of these controls, the program will switch to the editor of the control's preffix. Eg.: 'spr_sel' will switch to the sprites editor even if used in another editor. Most of the actions listed in the Iconset section are editor-dependent.</p> 
+
+        <h2>All engines</h2> 
+
+        </br><h3>Current editor</h3>
+        <p><b>editor_new</b>: ToolButton; New.</p> 
+        <p><b>editor_open</b>: ToolButton; Open.</p> 
+        <p><b>editor_save</b>: ToolButton; Save.</p> 
+        <p><b>editor_saveas</b>: ToolButton; Save as.</p> 
+
+        </br><h3>Edit menu</h3>
+        <p><b>edit_undo</b>: ToolButton; Edit/Undo menu item.</p> 
+        <p><b>edit_redo</b>: ToolButton; Edit/Redo menu item.</p> 
+        <p><b>edit_cut</b>: ToolButton; Edit/Cut menu item.</p> 
+        <p><b>edit_copy</b>: ToolButton; Edit/Copy menu item.</p> 
+        <p><b>edit_paste</b>: ToolButton; Edit/Paste menu item.</p> 
+        <p><b>edit_find_replace</b>: ToolButton; Edit/Find/Replace menu item.</p> 
+        <p><b>edit_find_replace_multi</b>: ToolButton; Edit/Find/Replace (multi-line) menu item.</p> 
+
+        </br><h3>View menu</h3>
+        <p><b>view_left_panel</b>: ToolButton; View/Left panel menu item.</p> 
+        <p><b>view_right_panel</b>: ToolButton; View/Right panel menu item.</p> 
+        <p><b>view_organizer</b>: ToolButton; View/Organizer menu item.</p> 
+        <p><b>view_actions</b>: ToolButton; View/Action list menu item.</p> 
+        <p><b>view_calculator</b>: ToolButton; View/Calculator menu item.</p> 
+        <p><b>view_clipboard</b>: ToolButton; View/Clipboard menu item.</p> 
+
+        </br><h3>Tools menu</h3>
+        <p><b>tools_pal_editor</b>: ToolButton; Tools/Advanced Palette Editor menu item.</p> 
+
+        </br><h3>Sprites editor</h3>
+        <p><b><u>spr_add</u></b>: ToolButton; Sprites/Add menu item.</p> 
+        <p><b><u>spr_delete</u></b>: ToolButton; Sprites/Delete menu item.</p> 
+        <p><b><u>spr_duplicate</u></b>: ToolButton; Sprites/Duplicate menu item.</p> 
+        <p><b><u>spr_openimg</u></b>: ToolButton; Sprites/Change image menu item.</p> 
+        <p><b><u>spr_saveimg</u></b>: ToolButton; Sprites/Save image changes menu item.</p> 
+        <p><b><u>spr_saveimgas</u></b>: ToolButton; Sprites/Save image menu item.</p> 
+        <p><b><u>spr_resize</u></b>: ToolButton; Sprites/Resize menu item.</p> 
+        <p><b><u>spr_crop</u></b>: ToolButton; Sprites/Crop menu item.</p> 
+        <p><b><u>spr_split_channels</u></b>: ToolButton; Sprites/Split channels menu item.</p> 
+        <p><b><u>spr_import_proj</u></b>: ToolButton; Sprites/Import from another project menu item.</p> 
+        <p><b><u>spr_frame_spr</u></b>: ToolButton; Sprites/Switch to the frame's menu item.</p> 
+        <p><b>spr_layers_blendmode</b>: ComboBox; Layer blend mode.</p> 
+        <p><b>spr_layers_opacity</b>: IntEdit; Layer opacity.</p> 
+        <p><b>spr_layers_menu</b>: ToolButton; Sprites/Layers menu.</p> 
+        <p><b>spr_layers_list</b>: ListView; List of layers.</p> 
+        <p><b>spr_layer_add</b>: ToolButton; Sprites/Layers/Add menu item.</p>
+        <p><b>spr_layer_delete</b>: ToolButton; Sprites/Layers/Delete menu item.</p>
+        <p><b>spr_layer_duplicate</b>: ToolButton; Sprites/Layers/Duplicate menu item.</p>
+        <p><b>spr_layer_mergevis</b>: ToolButton; Sprites/Layers/Merge visible menu item.</p>
+        <p><b>spr_layer_mergeall</b>: ToolButton; Sprites/Layers/Merge all menu item.</p>
+        <p><b>spr_layer_save</b>: ToolButton; Sprites/Layers/Save as individual sprites menu item.</p>
+        <p><b>spr_layer_play</b>: ToolButton; Sprites/Layers/Play menu item.</p>
+        <p><b>spr_view_original</b>: ToolButton; Sprites/Image/Original menu item.</p>
+        <p><b>spr_image_properties</b>: ToolButton; Sprites/Image/Properties menu item.</p>
+        <p><b>spr_select_all</b>: ToolButton; Sprites/Select/All menu item.</p>
+        <p><b>spr_select_none</b>: ToolButton; Sprites/Select/Deselect menu item.</p>
+        <p><b>spr_select_invert</b>: ToolButton; Sprites/Select/Invert menu item.</p>
+        <p><b>spr_image_rotate</b>: ToolButton; Sprites/Rotation/Rotate menu item.</p>
+        <p><b>spr_image_fliph</b>: ToolButton; Sprites/Rotation/Flip horizontally menu item.</p>
+        <p><b>spr_image_flipv</b>: ToolButton; Sprites/Rotation/Flip vertically menu item.</p>
+        <p><b><u>spr_sel</u></b>: Slider; Current sprite selector.</p> 
+        <p><b>spr_sel_lb</b>: Label; Current sprite (current index / count).</p> 
+        <p><b>spr_switch_pal</b>: CheckBox; Auto switch to sprite's palette.</p>
+        <p><b><u>spr_prev</u></b>: ToolButton; Previous sprite.</p> 
+        <p><b><u>spr_next</u></b>: ToolButton; Next sprite.</p> 
+        <p><b>spr_tool_canvasmove</b>: ToolButton; Canvas move tool.</p> 
+        <p><b>spr_tool_selmove</b>: ToolButton; Selection move tool.</p> 
+        <p><b>spr_tool_rectsel</b>: ToolButton; Rectangle selection tool.</p> 
+        <p><b>spr_tool_freesel</b>: ToolButton; Free selection tool.</p> 
+        <p><b>spr_tool_magicwand</b>: ToolButton; Magic Wand tool.</p> 
+        <p><b>spr_tool_picker</b>: ToolButton; Color picker tool.</p> 
+        <p><b>spr_tool_pen</b>: ToolButton; Pen tool.</p> 
+        <p><b>spr_tool_eraser</b>: ToolButton; Eraser tool.</p> 
+        <p><b>spr_tool_remap_pen</b>: ToolButton; Remap Pen tool.</p> 
+        <p><b>spr_tool_paintbucket</b>: ToolButton; Paint Bucket tool.</p> 
+        <p><b>spr_tool_options</b>: Widget; Tool options.</p> 
+        <p><b>spr_foreground</b>: Widget; Foreground color.</p> 
+        <p><b>spr_background</b>: Widget; Background color.</p> 
+        
+        </br><h3>Palettes editor</h3>
+        <p><b><u>pal_clear</u></b>: ToolButton; Palettes/Clear menu item.</p> 
+        <p><b><u>pal_clear_unused</u></b>: ToolButton; Palettes/Clear all unused menu item.</p> 
+        <p><b><u>pal_add</u></b>: ToolButton; Palettes/Add menu item.</p> 
+        <p><b><u>pal_delete</u></b>: ToolButton; Palettes/Delete menu item.</p> 
+        <p><b><u>pal_delete_duplicates</u></b>: ToolButton; Palettes/Remove all duplicates menu item.</p> 
+        <p><b><u>pal_open</u></b>: ToolButton; Palettes/Change menu item.</p> 
+        <p><b><u>pal_save</u></b>: ToolButton; Palettes/Save as menu item.</p> 
+        <p><b><u>pal_remap</u></b>: ToolButton; Palettes/Remap menu item.</p> 
+        <p><b><u>pal_undo</u></b>: ToolButton; Palettes/Undo menu item.</p> 
+        <p><b><u>pal_redo</u></b>: ToolButton; Palettes/Redo menu item.</p> 
+        <p><b><u>pal_switch_color</u></b>: ToolButton; Palettes/Exchange position of selected colors menu item.</p> 
+        <p><b><u>pal_set_color</u></b>: ToolButton; Palettes/Sets the color of the specified slot menu item.</p>
+        <p><b><u>pal_apply_sprite</u></b>: ToolButton; PAlettes/Apply to the sprites menu item.</p> 
+        <p><b><u>pal_sel</u></b>: Slider; Current palette selector.</p> 
+        <p><b>pal_sel_lb</b>: Label; Current palette (current index / count).</p> 
+        <p><b>pal_view</b>: Palette; Palette widget.</p>
+        <p><b><u>pal_prev</u></b>: ToolButton; Previous palette.</p> 
+        <p><b><u>pal_next</u></b>: ToolButton; Next palette.</p> 
+        <p><b>pal_view</b>: Palette; The palette.</p> 
+        
+        </br><h3>Animations editor</h3>
+        <p><b><u>anim_editcode</u></b>: ToolButton; Animations/Edit code menu item.</p> 
+        <p><b><u>anim_code</u></b>: ToolButton; Animations/Edit animation code menu item.</p> 
+        <p><b><u>anim_add</u></b>: ToolButton; Animations/Add code menu item.</p> 
+        <p><b><u>anim_delete</u></b>: ToolButton; Animations/Delete menu item.</p> 
+        <p><b><u>anim_duplicate</u></b>: ToolButton; Animations/Duplicate menu item.</p> 
+        <p><b><u>anim_save_gif</u></b>: ToolButton; Animations/Save as animated GIF menu item.</p> 
+        <p><b><u>anim_play</u></b>: ToolButton; Animations/Play menu item.</p> 
+        <p><b><u>anim_stop</u></b>: ToolButton; Animations/Stop menu item.</p> 
+        <p><b><u>anim_frame_add</u></b>: ToolButton; Animations/Add frame menu item.</p> 
+        <p><b><u>anim_frame_delete</u></b>: ToolButton; Animations/Delete frame menu item.</p> 
+        <p><b><u>anim_frameall_offset</u></b>: ToolButton; Animations/Apply offset to all next frames menu item.</p> 
+        <p><b><u>anim_frameall_time</u></b>: ToolButton; Animations/Apply time to all next frames menu item.</p> 
+        <p><b><u>anim_frameall_flip</u></b>: ToolButton; Animations/Apply flip to all next frames menu item.</p> 
+        <p><b><u>anim_frameall_scale</u></b>: ToolButton; Animations/Apply scale to all next frames menu item.</p> 
+        <p><b><u>anim_frame_align</u></b>: ToolButton; Animations/Alignment tool menu item.</p> 
+        <p><b><u>anim_box_add_attack</u></b>: ToolButton; Animations/Add attack box menu item.</p> 
+        <p><b><u>anim_box_add_collision</u></b>: ToolButton; Animations/Add collision box menu item.</p> 
+        <p><b><u>anim_box_del</u></b>: ToolButton; Animations/Delete selected contact boxes menu item.</p> 
+        <p><b><u>anim_box_delall</u></b>: ToolButton; Animations/Delete all contact boxes menu item.</p> 
+        <p><b><u>anim_box_delall_anim</u></b>: ToolButton; Animations/Delete all contact boxes of current animation menu item.</p> 
+        <p><b><u>anim_box_type</u></b>: ToolButton; Animations/Switch contact box type menu item.</p> 
+        <p><b><u>anim_box_prev</u></b>: ToolButton; Animations/Copy contact boxes of previous frame menu item.</p> 
+        <p><b><u>anim_box_allinst</u></b>: ToolButton; Animations/Use these contact boxes in all other instances of this frame menu item.</p> 
+        <p><b><u>anim_optimize</u></b>: ToolButton; Animations/Optimize menu item.</p> 
+        <p><b><u>anim_export</u></b>: ToolButton; Animations/Export menu item.</p> 
+        <p><b><u>anim_import</u></b>: ToolButton; Animations/Import menu item.</p> 
+        <p><b><u>anim_import_proj</u></b>: ToolButton; Animations/Import from another project menu item.</p> 
+        <p><b><u>anim_sel</u></b>: Slider; Current animation selector.</p>
+        <p><b>anim_sel_lb</b>: Label; Current animation (current index / count).</p> 
+        <p><b>anim_frame_lb</b>: Label; Animation frame.</p> 
+        <p><b><u>anim_frame_sel</u></b>: Slider; Animation frame selector.</p> 
+        <p><b>anim_frame_sel_lb</b>: Label; Current frame position (current index / count - tick count).</p> 
+        <p><b>anim_frame_xaxis_lb</b>: Label; Frame's x axis.</p> 
+        <p><b>anim_frame_xaxis</b>: IntEdit; Frame's x axis.</p> 
+        <p><b>anim_frame_yaxis_lb</b>: Label; Frame's y axis.</p> 
+        <p><b>anim_frame_yaxis</b>: IntEdit; Frame's y axis.</p> 
+        <p><b>anim_pos_left</b>: Button; Move the frame's position 1px to the left.</p> 
+        <p><b>anim_pos_up</b>: Button; Move the frame's position 1px up.</p> 
+        <p><b>anim_pos_right</b>: Button; Move the frame's position 1px to the right.</p> 
+        <p><b>anim_pos_down</b>: Button; Move the frame's position 1px down.</p> 
+        <p><b>anim_frame_time_lb</b>: Label; Frame's time.</p> 
+        <p><b>anim_frame_time</b>: IntEdit; Frame's time.</p> 
+        <p><b>anim_frame_flip_lb</b>: Label; Frame's flip effect.</p> 
+        <p><b>anim_frame_flip</b>: ComboBox; Frame's flip effect.</p> 
+        <p><b>anim_frame_loop</b>: CheckBox; Start loop in the current frame.</p> 
+        <p><b>anim_frame_xscale_lb</b>: Label; Frame's x scale.</p> 
+        <p><b>anim_frame_xscale</b>: FloatEdit; Frame's x scale.</p> 
+        <p><b>anim_frame_yscale_lb</b>: Label; Frame's y scale.</p> 
+        <p><b>anim_frame_yscale</b>: FlotEdit; Frame's y scale.</p> 
+        <p><b>anim_frame_angle_lb</b>: Label; Frame's angle.</p> 
+        <p><b>anim_frame_angle</b>: FloatEdit; Frame's angle.</p> 
+        <p><b>anim_onion_skin</b>: CheckBox; OnionSkin.</p> 
+        <p><b><u>anim_onion_sel</u></b>: Slider; Current OnionSkin animation.</p>
+        <p><b><u>anim_onion_framesel</u></b>: Slider; Current OnionSkin frame.</p>
+        <p><b>anim_onion_lb</b>: Label; OnionSkin label (animation / frame).</p> 
+        <p><b><u>anim_onion_find</u></b>: ToolButton; OnionSkin find animation.</p> 
+        <p><b><u>anim_prev_anim</u></b>: ToolButton; Previous animation.</p> 
+        <p><b><u>anim_next_anim</u></b>: ToolButton; Next animation.</p> 
+        <p><b><u>anim_prev_frame</u></b>: ToolButton; Previous frame.</p> 
+        <p><b><u>anim_next_frame</u></b>: ToolButton; Next frame.</p> 
+        
+        </br><h3>Sounds editor</h3>
+        <p><b><u>snd_add</u></b>: ToolButton; Sound/Add menu item.</p> 
+        <p><b><u>snd_delete</u></b>: ToolButton; Sound/Delete menu item.</p> 
+        <p><b><u>snd_duplicate</u></b>: ToolButton; Sound/Duplicate menu item.</p> 
+        <p><b><u>snd_open_sample</u></b>: ToolButton; Sound/Change sound menu item.</p> 
+        <p><b><u>snd_save_sample</u></b>: ToolButton; Sound/Save sound as menu item.</p> 
+        <p><b><u>snd_resample</u></b>: ToolButton; Sound/Resample menu item.</p> 
+        <p><b><u>snd_play</u></b>: ToolButton; Sound/Play menu item.</p> 
+        <p><b><u>snd_play_loop</u></b>: ToolButton; Sound/Play with Loop menu item.</p> 
+        <p><b><u>snd_stop</u></b>: ToolButton; Sound/Stop menu item.</p> 
+        <p><b><u>snd_import_proj</u></b>: ToolButton; Sound/Import from another project menu item.</p> 
+        <p><b>snd_volume</b>: Slider; Playback volume.</p>
+        <p><b><u>snd_sel</u></b>: Slider; Current sound selector.</p> 
+        <p><b>snd_sel_lb</b>: Label; Current sound position (current index / count).</p> 
+        <p><b>snd_info_lb</b>: Label; Sound information (Channels, sample rate, bit count, duration).</p> 
+        <p><b><u>snd_prev</u></b>: ToolButton; Previous sound.</p> 
+        <p><b><u>snd_next</u></b>: ToolButton; Next sound.</p>   
+        
+        </br><h3>Organizer</h3>
+        <p><b>org_up</b>: ToolButton; Move one position up.</p> 
+        <p><b>org_down</b>: ToolButton; Move one position down.</p> 
+        <p><b>org_up_10</b>: ToolButton; Move ten positions up.</p> 
+        <p><b>org_down_10</b>: ToolButton; Move ten positions down.</p> 
+        <p><b>org_top</b>: ToolButton; Move to the top.</p> 
+        <p><b>org_bottom</b>: ToolButton; Move to the bottom.</p> 
+        <p><b>org_auto</b>: ToolButton; Automatic sorting.</p> 
+        <p><b>org_palette</b>: ToolButton; Palette mode on organizer.</p> 
+        <p><b>org_list</b>: ListView; Orginizer list.</p> 
+        
+        </br><h3>Sprite explorer (thumbnails)</h3>
+        <p><b>thumb_action1</b>: ToolButton; First custom action.</p> 
+        <p><b>thumb_action2</b>: ToolButton; Second custom action.</p> 
+        <p><b>thumb_action3</b>: ToolButton; Third custom action.</p> 
+        <p><b>thumb_action4</b>: ToolButton; Fourth custom action.</p> 
+        <p><b>thumb_save</b>: ToolButton; Save selected.</p> 
+        <p><b>thumb_view</b>: ListView; Thumbnail container.</p> 
+
+        </br><h3>Debug</h3>
+        <p><b>debug_start</b>: ToolButton; Debug/Continue menu item.</p> 
+        <p><b>debug_interrupt</b>: ToolButton; Debug/Interrupt menu item.</p> 
+        <p><b>debug_stop</b>: ToolButton; Debug/Stop menu item.</p> 
+        <p><b>debug_restart</b>: ToolButton; Debug/Restart menu item.</p> 
+        <p><b>debug_step_over</b>: ToolButton; Debug/Step over menu item.</p> 
+        <p><b>debug_step_into</b>: ToolButton; Debug/Step into menu item.</p> 
+        <p><b>debug_step_out</b>: ToolButton; Debug/Step out menu item.</p> 
+        <p><b>debug_step_frame</b>: ToolButton; Debug/Step frame menu item.</p> 
+        <p><b>debug_variables</b>: TreeView; Debugger variables inspection.</p> 
+
+        <h2>M.U.G.E.N.</h2> 
+
+        </br><h3>Definitions editor</h3>
+        <p><b><u>def_new</u></b>: ToolButton; Definitions/New menu item.</p> 
+        <p><b><u>def_open</u></b>: ToolButton; Definitions/Open menu item.</p> 
+        <p><b><u>def_save</u></b>: ToolButton; Definitions/Save menu item.</p> 
+        <p><b><u>def_saveas_utf8</u></b>: ToolButton; Definitions/Save as UTF-8 menu item.</p> 
+        <p><b><u>def_saveas</u></b>: ToolButton; Definitions/Save as menu item.</p> 
+        <p><b>def_tree</b>: TreeView; Hierarchical list of groups in the definitions document.</p> 
+
+        </br><h3>Commands editor</h3>
+        <p><b><u>cmd_new</u></b>: ToolButton; Commands/New menu item.</p> 
+        <p><b><u>cmd_open</u></b>: ToolButton; Commands/Open menu item.</p> 
+        <p><b><u>cmd_save</u></b>: ToolButton; Commands/Save menu item.</p> 
+        <p><b><u>cmd_saveas_utf8</u></b>: ToolButton; Commands/Save as UTF-8 menu item.</p> 
+        <p><b><u>cmd_saveas</u></b>: ToolButton; Commands/Save as menu item.</p> 
+        <p><b>cmd_tree</b>: TreeView; Hierarchical list of groups in the commands document.</p> 
+
+        </br><h3>States editor</h3>
+        <p><b><u>st_new</u></b>: ToolButton; States/New menu item.</p> 
+        <p><b><u>st_open</u></b>: ToolButton; States/Open menu item.</p> 
+        <p><b><u>st_save</u></b>: ToolButton; States/Save menu item.</p> 
+        <p><b><u>st_saveas_utf8</u></b>: ToolButton; States/Save as UTF-8 menu item.</p> 
+        <p><b><u>st_saveas</u></b>: ToolButton; States/Save as menu item.</p> 
+        <p><b><u>st_var_list</u></b>: ToolButton; States/View variable usage list menu item.</p> 
+        <p><b><u>st_var_log</u></b>: ToolButton; States/Insert variable usage log menu item.</p> 
+        <p><b><u>st_palfx</u></b>: ToolButton; States/PalFX editor menu item.</p> 
+        <p><b><u>st_offset</u></b>: ToolButton; States/Offset viewer menu item.</p> 
+        <p><b><u>st_throw</u></b>: ToolButton; States/Throw creator menu item.</p> 
+        <p><b>st_tree</b>: TreeView; Hierarchical list of groups in the states document.</p> 
+        
+        </br><h3>Sprites editor</h3>
+        <p><b><u>spr_new</u></b>: ToolButton; Sprites/New menu item.</p> 
+        <p><b><u>spr_open</u></b>: ToolButton; Sprites/Open menu item.</p> 
+        <p><b><u>spr_save</u></b>: ToolButton; Sprites/Save menu item.</p> 
+        <p><b><u>spr_saveas</u></b>: ToolButton; Sprites/Save as menu item.</p>
+        <p><b><u>spr_saveimg_aligned</u></b>: ToolButton; Sprites/Save image (aligned) menu item.</p> 
+        <p><b><u>spr_delete_grp</u></b>: ToolButton; Sprites/Delete group menu item.</p> 
+        <p><b><u>spr_rename_grp</u></b>: ToolButton; Sprites/Rename group menu item.</p> 
+        <p><b><u>spr_align</u></b>: ToolButton; Sprites/Alignment tool menu item.</p> 
+        <p><b><u>spr_edit_img</u></b>: ToolButton; Sprites/Image editor menu item.</p> 
+        <p><b><u>spr_export</u></b>: ToolButton; Sprites/Export menu item.</p> 
+        <p><b><u>spr_import</u></b>: ToolButton; Sprites/Import menu item.</p> 
+        <p><b>spr_grp_lb</b>: Label; Sprite group.</p> 
+        <p><b>spr_grp</b>: IntEdit; Sprite group.</p> 
+        <p><b>spr_num_lb</b>: Label; Sprite index.</p> 
+        <p><b>spr_num</b>: IntEdit; Sprite index.</p> 
+        <p><b>spr_xaxis_lb</b>: Label; Sprite x axis.</p> 
+        <p><b>spr_xaxis</b>: IntEdit; Sprite x axis.</p> 
+        <p><b>spr_yaxis_lb</b>: Label; Sprite y axis.</p> 
+        <p><b>spr_yaxis:</b> IntEdit; Sprite y axis.</p> 
+        <p><b>spr_prev_grp</b>: Button; Previous sprte group.</p> 
+        <p><b>spr_next_grp</b>: Button; Next sprite group.</p> 
+        <p><b>spr_pos_left</b>: Button; Move sprite 1px to the left.</p> 
+        <p><b>spr_pos_up</b>: Button; Move sprite 1px up.</p> 
+        <p><b>spr_pos_right</b>: Button; Move sprite 1px to the right.</p> 
+        <p><b>spr_pos_down</b>: Button; Move sprite 1px down.</p> 
+        <p><b>spr_dec_load</b>: CheckBox; Decompress sprite on load.</p> 
+        <p><b>spr_trans_color</b>: CheckBox; Displays the transparency color.</p> 
+        <p><b>spr_switch_pal</b>: CheckBox; Switch to the sprite palette.</p> 
+        <p><b>spr_info_lb</b>: Label; Sprite's image information (size, format and sharing).</p> 
+        <p><b>spr_onion_skin</b>: CheckBox; OnionSkin activation.</p> 
+        <p><b>spr_onion_sel</b>: Slider; Current OnionSkin sprite selector.</p> 
+        <p><b>spr_onion_lb</b>: Label; OnionSkin position.</p>   
+        <p><b>spr_align_topleft</b>: ToolButton; Align Top Left from guide lines.</p>  
+        <p><b>spr_align_topright</b>: ToolButton; Align Top Right from guide lines.</p> 
+        <p><b>spr_align_bottomleft</b>: ToolButton; Align Bottom Left from guide lines.</p> 
+        <p><b>spr_align_bottomright</b>: ToolButton; Align Bottom Right from guide lines.</p> 
+        <p><b>spr_align_topcenter</b>: ToolButton; Align Top Center from guide lines.</p> 
+        <p><b>spr_align_bottomcenter</b>: ToolButton; Align Bottom Center from guide lines.</p> 
+        <p><b>spr_align_centercenter</b>: ToolButton; Align Center Center from guide lines.</p> 
+        <p><b>spr_align_centerleft</b>: ToolButton; Align Center Left from guide lines.</p> 
+        <p><b>spr_align_centerright</b>: ToolButton; Align Center Right from guide lines.</p> 
+        
+        </br><h3>Palette editor</h3>
+        <p><b><u>pal_switch_count</u></b>: ToolButton; Palettes/Switch color count (32-256) menu item.</p> 
+        <p><b>pal_grp_lb</b>: Label; Palette group.</p> 
+        <p><b>pal_grp</b>: IntEdit; Palette group.</p> 
+        <p><b>pal_num_lb</b>: Label; Palette index.</p> 
+        <p><b>pal_num</b>: IntEdit; Palette index.</p> 
+        <p><b>pal_prev_grp</b>: Button; Previous group.</p>
+        <p><b>pal_next_grp</b>: Button; Next group.</p>
+        
+        </br><h3>Animations editor</h3>
+        <p><b><u>anim_new</u></b>: ToolButton; Animations/New menu item.</p> 
+        <p><b><u>anim_open</u></b>: ToolButton; Animations/Open menu item.</p> 
+        <p><b><u>anim_save</u></b>: ToolButton; Animations/Save menu item.</p> 
+        <p><b><u>anim_saveas_utf8</u></b>: ToolButton; Animations/Save as UTF-8 menu item.</p> 
+        <p><b><u>anim_saveas</u></b>: ToolButton; Animations/Save as menu item.</p> 
+        <p><b><u>anim_box_default</u></b>: ToolButton; Animations/Switch contact boxes to default menu item.</p> 
+        </br><h3>Sprite explorer (thumbnails)</h3>
+        <p><b><u>thumb_grp_list</u></b>: ComboBox; Thumbnails sprite group.</p> 
+
+        <p><b><u>anim_frameall_trans</u></b>: ToolButton; Animations/Apply transparency to all next frames menu item.</p> 
+        <p><b>anim_number_lb</b>: Label; Animation number.</p> 
+        <p><b>anim_number</b>: IntEdit; Animation number.</p> 
+        <p><b>anim_name_lb</b>: Label; Animation name.</p> 
+        <p><b>anim_name</b>: TextEdit; Animation name.</p> 
+        <p><b>anim_frame_grp_lb</b>: Label; Frame's sprite group.</p> 
+        <p><b>anim_frame_grp</b>: IntEdit; Frame's sprite group.</p> 
+        <p><b>anim_frame_num_lb</b>: Label; Frame's sprite index.</p> 
+        <p><b>anim_frame_num</b>:IntEdit; Frame's sprite index.</p> 
+        <p><b>anim_frame_trans_lb</b>: Label; Frame's transparecy.</p> 
+        <p><b>anim_frame_trans</b>: ComboBox; Frame's transparecy type.</p> 
+        <p><b>anim_frame_transsrc_lb</b>: Label; Alpha source.</p> 
+        <p><b>anim_frame_transsrc</b>: IntEdit; Alpha source.</p> 
+        <p><b>anim_frame_transdst_lb</b>: Label; Alpha destination.</p> 
+        <p><b>anim_frame_transdst</b>: IntEdit; Alpha destination.</p> 
+        <p><b>anim_frame_loop</b>: CheckBox; Start loop in the current frame.</p> 
+        <p><b>anim_frame_intp</b>: Label; Frame interpolation.</p> 
+        <p><b>anim_frame_intp_offset</b>: CheckBox; Interpolate offset.</p> 
+        <p><b>anim_frame_intp_blend</b>: CheckBox; Interpolate blend.</p> 
+        <p><b>anim_frame_intp_scale</b>: CheckBox; Interpolate scale.</p> 
+        <p><b>anim_frame_intp_angle</b>: CheckBox; Interpolate angle.</p> 
+
+        </br><h3>Sounds editor</h3>
+        <p><b><u>snd_new</u></b>: ToolButton; Sounds/New menu item.</p> 
+        <p><b><u>snd_open</u></b>: ToolButton; Sounds/Open menu item.</p> 
+        <p><b><u>snd_save</u></b>: ToolButton; Sounds/Save menu item.</p> 
+        <p><b><u>snd_saveas</u></b>: ToolButton; Sounds/Save as menu item.</p> 
+        <p><b><u>snd_delete_grp</u></b>: ToolButton; Sounds/Delete group menu item.</p> 
+        <p><b><u>snd_rename_grp</u></b>: ToolButton; Sounds/Rename group menu item.</p> 
+        <p><b><u>snd_export</u></b>: ToolButton; Sounds/Export menu item.</p> 
+        <p><b><u>snd_import</u></b>: ToolButton; Sounds/Import menu item.</p> 
+        <p><b>snd_grp_lb</b>: Label; Sound group.</p> 
+        <p><b>snd_grp</b>: IntEdit; Sound group.</p> 
+        <p><b>snd_num_lb</b>: Label; Sound index.</p> 
+        <p><b>snd_num</b>: IntEdit; Sound index.</p> 
+        <p><b>snd_prev_grp</b>: Button; Previous group.</p> 
+        <p><b>snd_next_grp</b>: Button; Next group.</p>
+
+        </br><h3>Sprite explorer (thumbnails)</h3>
+        <p><b>thumb_grp_list</b>: ComboBox; Sprite group list.</p> 
+
+      </div>
+      
+      <div id="ft"></div>
+    </div>
+    
+    <div id="footer">
+      <p>Copyright &copy; 2004-2021 VirtuallTek Game Studio. Fighter Factory is a program developed by VirtuallTek Game Studio, all rights reserved.</p>
+      <p>Fighter Factory is developed using <a href="https://www.qt.io/">Qt Library</a> and licensed under the <a href="license.html">LGPL license</a>.</p>
+      <p>This program uses the Universal Encoding Detector developed by Mozilla Foundation, and licensed under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL license</a>. The source code is available on <a href="http://www.mozilla.org/source.html">Mozilla source page</a>.</p>
+      <p>Fighter Factory uses <a href="http://www.mega-nerd.com/SRC">libsamplerate</a> licensed under the 2-clause BSD license. This program uses hqx, licensed under GNU Lesser General Public License 2.1 and <a href="http://giflib.sourceforge.net/">giflib</a>.</p>
+      <p>Fighter Factory is scriptable with <a href="http://www.lua.org">Lua 5.3</a>, licensed under the MIT license. The program is provided AS IS with NO WARRANTY OF ANY KIND.</p>
+    </div>
+        
+  </body>
+</html>

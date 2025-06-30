@@ -1,0 +1,19 @@
+<p>Adds the specified amounts to all targets' velocities. A positive x velocity is in the direction that the target is facing, while a positive y velocity is downward on the screen.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li>none</li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>x</b> = x_value (float)<br>
+	<i>Specifies the value to add to the x-velocity of the target.</i><br></li>
+	<li><b>y</b> = y_value (float)<br>
+	<i>Specifies the value to add to the y-velocity of the target.</i><br></li>
+	<li><b>ID</b> = target_id (int)<br>
+	<i>Specifies the desired target ID to affect. Only targets with this target ID will be affected. Defaults to -1 (affects all targets.)</i></li>
+</ul>
+<p><b>Examples:</b></p>
+<p><code><i>; Applies constant gravity to all targets</i><br>
+<b>type</b> = <b>TargetVelAdd</b><br>
+<b>trigger1</b> = 1<br>
+<b>y</b> = 0.45</code></p>

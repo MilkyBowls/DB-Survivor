@@ -1,0 +1,17 @@
+<p>Adds the specified amount to all targets' life, scaled by the targets' defense multipliers if necessary.</p>
+<p><b>Required parameters:</b></p>
+<ul>
+	<li><b>value</b> = add_amt (int)<br>
+	<i>add_amt is added toe ach target's life.</i></li>
+</ul>
+<p><b>Optional parameters:</b></p>
+<ul>
+	<li><b>ID</b> = target_id (int)<br>
+	<i>Specifies the desired target ID to affect. Only targets with this target ID will be affected. Defaults to -1 (affects all targets.)</i><br></li>
+	<li><b>kill</b> = kill_flag (boolean)<br>
+	<i>If kill_flag is 0, then the addition will not take any player below 1 life point. Defaults to 1.</i><br></li>
+	<li><b>absolute</b> = abs_flag (boolean)<br>
+	<i>If abs_flag is 1, then add_amt will not be scaled (i.e. attack and defense multipliers will be ignored). Defaults to 0.</i></li>
+</ul>
+<p><b>Examples:</b></p>
+<p><code></code></p>

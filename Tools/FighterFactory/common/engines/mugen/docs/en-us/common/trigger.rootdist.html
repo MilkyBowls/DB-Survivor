@@ -1,0 +1,15 @@
+<p>This trigger is only valid for helper-type characters.</p>
+<p>RootDist returns the distance from the helper to its root. The root is the main player character who owns the helper: for instance, if you select Kumquat to play with, and Kumquat spawns a helper named Kiwi, who in turn spawns a helper named Penguin, then Penguin's root is Kumquat, and Penguin is a descendant of Kumquat. RootDist works similarly to P2Dist.</p>
+<p><b>Format:</b> RootDist <i>[component]</i></p>
+<p><b>Arguments:</b></p>
+<ul>
+<li><b>[component]:</b> X, Y</li>
+</ul>
+<p><b>Return type:</b> float</p>
+<p><b>Error conditions:</b> Returns 'Bottom' if the player has no root.</p>
+<p><b>Details:</b></p>
+<p>For comparing the Y-distance, RootDist gives the difference in the heights of the players' Y-axes. A negative value means that the root is above its descendant.</p>  
+<p>For comparing the X-distance, RootDist gives the X-distance of the root's axis from the descendant's axis. A positive value indicates the root is in front of its descendant.</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>RootDist X</b> != 0<br>
+<i>; Triggers if the root is not at the exact same x-position as the helper character.</i></code></p>

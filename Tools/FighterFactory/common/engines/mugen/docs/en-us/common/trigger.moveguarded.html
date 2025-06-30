@@ -1,0 +1,11 @@
+<p>This trigger is valid only when the player is in an attack state. Gives a non-zero value if P2 has guarded. It gives 0 if the attack missed or successfully hit. P1 is the player, and P2 is his opponent.</p>
+<p>Typically used with the "StateNo" and "Command" triggers for detecting move-interrupts in the CMD file.</p>
+<p><b>Format:</b> MoveGuarded</p>
+<p><b>Arguments:</b></p>
+<ul>
+<li>none</li>
+</ul>
+<p><b>Return type:</b> int</p>
+<p><b>Error conditions:</b> none</p>
+<p><b>Example:</b></p>
+<p><code><b>trigger1</b> = <b>MoveGuarded</b> = 1 <i>; True if P1's attack has been guarded.</i></code></p>
