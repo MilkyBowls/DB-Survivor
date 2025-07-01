@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class AuraController : MonoBehaviour
 {
+    public Animator auraAnimator;
     public SpriteRenderer auraRenderer;
+
     public float pulseSpeed = 2f;
     public float pulseScaleAmount = 0.1f;
     public float pulseAlphaAmount = 0.2f;
@@ -20,9 +22,7 @@ public class AuraController : MonoBehaviour
     void Start()
     {
         if (auraRenderer != null)
-        {
             baseColor = auraRenderer.color;
-        }
 
         defaultScale = transform.localScale;
         defaultLocalPosition = transform.localPosition;
@@ -30,29 +30,25 @@ public class AuraController : MonoBehaviour
 
     void Update()
     {
-        if (!isActive || auraRenderer == null) return;
+        if (!isActive || auraRenderer == null || isCharging) return;
 
-        // Pulsing scale added to current base scale (which includes rotation/flip)
         float pulse = Mathf.Sin(Time.time * pulseSpeed) * pulseScaleAmount;
         transform.localScale = currentScale + Vector3.one * pulse;
 
-        // Pulsing alpha
         Color c = baseColor;
         c.a = baseColor.a - Mathf.Abs(Mathf.Sin(Time.time * pulseSpeed) * pulseAlphaAmount);
         auraRenderer.color = c;
     }
 
-    public void SetAura(Sprite auraSprite)
-    {
-        if (auraRenderer != null)
-        {
-            auraRenderer.sprite = auraSprite;
-            baseColor = auraRenderer.color;
-        }
-    }
-
     public void EnableAura()
     {
+        if (auraAnimator != null)
+        {
+            auraAnimator.enabled = true;
+            auraAnimator.gameObject.SetActive(true); // Optional but safe
+            auraAnimator.SetBool("IsActive", true);
+        }
+
         if (auraRenderer != null)
         {
             auraRenderer.enabled = true;
@@ -62,14 +58,39 @@ public class AuraController : MonoBehaviour
 
     public void DisableAura()
     {
+        if (auraAnimator != null)
+        {
+            auraAnimator.SetBool("IsActive", false);
+            auraAnimator.SetBool("IsCharging", false);
+            auraAnimator.enabled = false;
+        }
+
         if (auraRenderer != null)
         {
             auraRenderer.enabled = false;
-            isActive = false;
-            transform.localScale = defaultScale;
             auraRenderer.color = baseColor;
         }
+
+        isActive = false;
+        transform.localScale = defaultScale;
     }
+
+
+    private bool isCharging = false;
+
+    public void PlayChargeAnimation(bool charging)
+    {
+        Debug.Log($"Aura PlayChargeAnimation({charging}) | Animator: {auraAnimator}, Active: {isActive}");
+
+        if (auraAnimator != null && isActive)
+        {
+            isCharging = charging;
+            auraAnimator.SetBool("IsCharging", charging);
+        }
+    }
+
+    public void SetAura(Sprite auraSprite) { }
+
 
     public void FadeInAura(float duration = 0.5f)
     {
@@ -111,7 +132,6 @@ public class AuraController : MonoBehaviour
             case "WalkAttack":
                 transform.localRotation = Quaternion.Euler(0f, 0f, 90f);
 
-                // Flip Y when rotated sideways
                 Vector3 walkScale = defaultScale;
                 walkScale.y = Mathf.Abs(walkScale.y) * (faceLeft ? -1f : 1f);
                 currentScale = walkScale;
@@ -127,14 +147,12 @@ public class AuraController : MonoBehaviour
 
                 Vector3 resetScale = defaultScale;
                 resetScale.x = Mathf.Abs(resetScale.x);
-                resetScale.y = Mathf.Abs(resetScale.y); // always positive
+                resetScale.y = Mathf.Abs(resetScale.y);
                 currentScale = resetScale;
 
                 Vector2 idleOffsetFlipped = idleOffset;
                 if (faceLeft) idleOffsetFlipped.x *= -1f;
                 transform.localPosition = defaultLocalPosition + (Vector3)idleOffsetFlipped;
-
-                transform.localRotation = Quaternion.identity;
                 break;
         }
     }

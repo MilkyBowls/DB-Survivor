@@ -16,7 +16,7 @@ MonoBehaviour:
   damageModifier: 1.3
   projectileSpeedModifier: 1.15
   fireCooldownModifier: 0
-  projectileScale: 0.65
+  projectileScale: 0.85
   enableDoubleShot: 1
   enablePiercing: 1
   enableExplosion: 0

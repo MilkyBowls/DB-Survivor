@@ -277,11 +277,8 @@ public class PlayerController : MonoBehaviour
         isTransforming = true;
 
         animator.SetTrigger("Transform");
-        auraController?.SetAura(transformation.auraSprite);
 
         yield return new WaitForSecondsRealtime(0f);
-
-        auraController?.FadeInAura(1f);
 
         moveSpeed = characterData.movementSpeed * transformation.speedMultiplier;
         damage = characterData.damage * transformation.damageMultiplier;
@@ -314,8 +311,7 @@ public class PlayerController : MonoBehaviour
         animator.runtimeAnimatorController = characterData.animatorController;
         animator.SetBool("IsCharging", false);
         animator.Play("Idle", 0, 0f);
-
-        auraController?.DisableAura();
+        
         SFXManager.Instance?.Play(SFXManager.Instance.PowerDown);
 
         isCharging = false;
@@ -337,7 +333,6 @@ public class PlayerController : MonoBehaviour
 
         animator.updateMode = AnimatorUpdateMode.UnscaledTime;
         animator.SetTrigger("Transform");
-        auraController?.SetAura(transformation.auraSprite);
 
         CameraFollow.Instance?.TriggerImpulseShake(1f, 0.05f, 25f);
         CameraFollow.Instance?.TemporaryZoom(3.5f, 0.5f);
@@ -462,26 +457,30 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    private void StartCharge()
-    {
-        if (isCharging || isDead || isTransforming) return;
-
-        isCharging = true;
-        currentMagnetRadius = baseMagnetRadius;
-
-        SFXManager.Instance?.StartKiChargeLoop();
-        cameraFollow?.StartChargingEffects();
-        animator.SetBool("IsCharging", true);
-        moveInput = Vector2.zero;
-
-        foreach (var collectible in CollectibleObject.ActiveCollectibles)
+        private void StartCharge()
         {
-            if (Vector3.Distance(transform.position, collectible.transform.position) <= currentMagnetRadius)
+            if (isCharging || isDead || isTransforming) return;
+
+            isCharging = true;
+            currentMagnetRadius = baseMagnetRadius;
+
+            SFXManager.Instance?.StartKiChargeLoop();
+            cameraFollow?.StartChargingEffects();
+            animator.SetBool("IsCharging", true);
+            moveInput = Vector2.zero;
+
+            auraController?.EnableAura(); // Make sure aura visuals and Animator are active
+            auraController?.PlayChargeAnimation(true); // Play looping charge animation
+
+            foreach (var collectible in CollectibleObject.ActiveCollectibles)
             {
-                collectible.StartMagnetize(transform);
+                if (Vector3.Distance(transform.position, collectible.transform.position) <= currentMagnetRadius)
+                {
+                    collectible.StartMagnetize(transform);
+                }
             }
         }
-    }
+
 
     private void StopCharge()
     {
@@ -491,6 +490,7 @@ public class PlayerController : MonoBehaviour
         SFXManager.Instance?.StopKiChargeLoop();
         cameraFollow?.StopChargingEffects();
         animator.SetBool("IsCharging", false);
+        auraController?.PlayChargeAnimation(false);
 
         currentMagnetRadius = 0f;
     }

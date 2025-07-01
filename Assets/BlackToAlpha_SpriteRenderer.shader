@@ -1,19 +1,21 @@
-Shader "Custom/BlackToAlpha_SpriteRenderer"
+Shader "Custom/BlackToAlpha_BrightAura_WithBrightness"
 {
     Properties
     {
-        [PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
+        _MainTex ("Sprite Texture", 2D) = "white" {}
         _Color ("Tint", Color) = (1,1,1,1)
-        _Cutoff ("Alpha Cutoff", Range(0, 1)) = 0.05
-        _Brightness ("Brightness Boost", Range(0.5, 3.0)) = 1.5
+        _Brightness ("Brightness", Float) = 1.0
     }
+
     SubShader
     {
-        Tags { "Queue"="Transparent" "RenderType"="Transparent" "PreviewType"="Plane" }
+        Tags { "Queue"="Transparent" "RenderType"="Transparent" "IgnoreProjector"="True" }
+        LOD 100
+
         Blend SrcAlpha OneMinusSrcAlpha
+        ZWrite Off
         Cull Off
         Lighting Off
-        ZWrite Off
 
         Pass
         {
@@ -22,44 +24,48 @@ Shader "Custom/BlackToAlpha_SpriteRenderer"
             #pragma fragment frag
             #include "UnityCG.cginc"
 
-            sampler2D _MainTex;
-            fixed4 _Color;
-            float _Cutoff;
-            float _Brightness;
-
-            struct appdata
+            struct appdata_t
             {
                 float4 vertex : POSITION;
-                float2 uv : TEXCOORD0;
+                float4 color : COLOR;
+                float2 texcoord : TEXCOORD0;
             };
 
             struct v2f
             {
-                float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
+                float4 color : COLOR;
+                float2 texcoord : TEXCOORD0;
             };
 
-            v2f vert (appdata v)
+            sampler2D _MainTex;
+            fixed4 _Color;
+            float _Brightness;
+
+            v2f vert(appdata_t IN)
             {
-                v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
-                o.uv = v.uv;
-                return o;
+                v2f OUT;
+                OUT.vertex = UnityObjectToClipPos(IN.vertex);
+                OUT.texcoord = IN.texcoord;
+                OUT.color = IN.color * _Color;
+                return OUT;
             }
 
-            fixed4 frag (v2f i) : SV_Target
+            fixed4 frag(v2f IN) : SV_Target
             {
-                fixed4 texCol = tex2D(_MainTex, i.uv);
-                float brightness = (texCol.r + texCol.g + texCol.b) / 3.0;
+                fixed4 texColor = tex2D(_MainTex, IN.texcoord);
 
-                texCol.rgb *= _Brightness;
-                texCol *= _Color;
-                texCol.a = brightness;
+                // Compute luminance for black-to-alpha
+                float luminance = dot(texColor.rgb, float3(0.299, 0.587, 0.114));
+                float baseAlpha = saturate(luminance); // black = 0 alpha
 
-                if (texCol.a < _Cutoff)
-                    discard;
+                // Apply tint and brightness to color
+                fixed3 finalRGB = texColor.rgb * IN.color.rgb * _Brightness;
 
-                return texCol;
+                // Final alpha uses both luminance and sprite alpha
+                float finalAlpha = baseAlpha * IN.color.a;
+
+                return fixed4(finalRGB, finalAlpha);
             }
             ENDCG
         }

@@ -20267,7 +20267,7 @@ TextureImporter:
         width: 494
         height: 463
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -20350,12 +20350,12 @@ TextureImporter:
       name: GokuBase_Effects_23
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5880
-        width: 354
-        height: 388
-      alignment: 9
-      pivot: {x: 0.47142944, y: 0.12389633}
+        x: 5
+        y: 5913
+        width: 344
+        height: 355
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -20372,12 +20372,12 @@ TextureImporter:
       name: GokuBase_Effects_24
       rect:
         serializedVersion: 2
-        x: 357
-        y: 5864
-        width: 356
-        height: 405
-      alignment: 9
-      pivot: {x: 0.45941418, y: 0.09152199}
+        x: 359
+        y: 5882
+        width: 349
+        height: 387
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -20394,12 +20394,12 @@ TextureImporter:
       name: GokuBase_Effects_25
       rect:
         serializedVersion: 2
-        x: 713
-        y: 5854
-        width: 383
-        height: 414
-      alignment: 9
-      pivot: {x: 0.50754446, y: 0.10563741}
+        x: 725
+        y: 5881
+        width: 369
+        height: 387
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -20416,12 +20416,12 @@ TextureImporter:
       name: GokuBase_Effects_26
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 5837
-        width: 354
-        height: 431
-      alignment: 9
-      pivot: {x: 0.55509955, y: 0.19326648}
+        x: 1110
+        y: 5905
+        width: 336
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -20439,11 +20439,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1457
-        y: 5891
-        width: 371
-        height: 322
-      alignment: 9
-      pivot: {x: 0.5077885, y: 0.06026786}
+        y: 5901
+        width: 365
+        height: 313
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
