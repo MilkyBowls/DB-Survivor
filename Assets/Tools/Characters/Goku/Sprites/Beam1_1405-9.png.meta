@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: 7044aa38997b1de49a0dffdf8c14245c
+guid: 9d8c73fe4797eb04aaa8a52475346b9a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5260920050488599626
-    second: BeamPerfect (1)_0
-  - first:
-      213: -6629030321652447839
-    second: BeamPerfect (1)_1
-  - first:
-      213: 4892690763432290447
-    second: BeamPerfect (1)_2
-  - first:
-      213: 2314344388953928912
-    second: BeamPerfect (1)_3
-  - first:
-      213: 8102940281281128012
-    second: BeamPerfect (1)_4
-  - first:
-      213: -4016497475857174246
-    second: BeamPerfect (1)_5
+      213: -6030786449666666012
+    second: Beam1_1405-9_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -52,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,93 +96,40 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BeamPerfect (1)_0
+      name: Beam1_1405-9_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 105
-        height: 85
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+        width: 629
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bb95ee66157df6b0800000000000000
-      internalID: -5260920050488599626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeamPerfect (1)_1
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 0
-        width: 105
-        height: 85
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a5cc986b04f004a0800000000000000
-      internalID: -6629030321652447839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeamPerfect (1)_4
-      rect:
-        serializedVersion: 2
-        x: 328
-        y: 0
-        width: 121
-        height: 85
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4627fd214d637070800000000000000
-      internalID: 8102940281281128012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeamPerfect (1)_5
-      rect:
-        serializedVersion: 2
-        x: 461
-        y: 0
-        width: 120
-        height: 85
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a11b74673d88248c0800000000000000
-      internalID: -4016497475857174246
+      spriteID: 4e1116f2da75e4ca0800000000000000
+      internalID: -6030786449666666012
       vertices: []
       indices: 
       edges: []
@@ -206,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d7b1f41c8d507c3429452a30bbf2362f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -216,12 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BeamPerfect (1)_0: -5260920050488599626
-      BeamPerfect (1)_1: -6629030321652447839
-      BeamPerfect (1)_2: 4892690763432290447
-      BeamPerfect (1)_3: 2314344388953928912
-      BeamPerfect (1)_4: 8102940281281128012
-      BeamPerfect (1)_5: -4016497475857174246
+      Beam1_1405-9_0: -6030786449666666012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

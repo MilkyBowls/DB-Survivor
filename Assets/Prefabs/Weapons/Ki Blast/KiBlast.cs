@@ -215,9 +215,9 @@ public class KiBlast : MonoBehaviour
             if (sr != null)
             {
                 Color color = sr.color;
-                color.r *= Random.Range(0.3f, 1.1f);
-                color.g *= Random.Range(0.3f, 1.1f);
-                color.b *= Random.Range(0.3f, 1.1f);
+                color.r *= Random.Range(0.9f, 1.1f);
+                color.g *= Random.Range(0.9f, 1.1f);
+                color.b *= Random.Range(0.9f, 1.1f);
                 sr.color = color;
             }
         }

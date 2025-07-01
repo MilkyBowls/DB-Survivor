@@ -16,11 +16,15 @@ public abstract class WeaponBase : MonoBehaviour
     public WeaponUpgradeData[] upgrades;
     public WeaponUpgradeData currentUpgrade;
 
+    private FirePointController firePointController;
+
+
     protected virtual void Awake()
     {
         player = GetComponentInParent<PlayerController>();
         controls = new PlayerControls();
         ApplyUpgrade();
+        firePointController = player?.firePoint?.GetComponent<FirePointController>();
     }
 
     protected virtual void ApplyUpgrade()
@@ -62,6 +66,9 @@ public abstract class WeaponBase : MonoBehaviour
 
     protected virtual bool CanFire()
     {
+        if (firePointController != null && firePointController.IsAimingTooClose)
+        return false;
+
         float modifier = currentUpgrade != null ? currentUpgrade.fireCooldownModifier : 1f;
         float cooldown = fireCooldown * modifier;
 

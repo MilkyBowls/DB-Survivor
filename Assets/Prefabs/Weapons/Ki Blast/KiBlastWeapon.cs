@@ -60,12 +60,21 @@ public class KiBlastWeapon : WeaponBase
 
             player.PlayAttackAnimation();
 
-            // 🔁 Get fresh mouse + firepoint position each blast
-            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-            mouseWorldPos.z = 0f;
-
+            FirePointController firePoint = player.firePoint.GetComponent<FirePointController>();
             Vector3 firePointPos = player.firePoint.position;
-            Vector3 aimDir = (mouseWorldPos - firePointPos).normalized;
+
+            Vector3 aimDir;
+
+            if (firePoint != null && firePoint.IsAimingTooClose)
+            {
+                aimDir = firePoint.LastValidDirection;
+            }
+            else
+            {
+                Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+                mouseWorldPos.z = 0f;
+                aimDir = (mouseWorldPos - firePoint.PlayerCenter).normalized;
+            }
             float baseAngle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg;
 
             // Apply random angle offset for spread
@@ -95,13 +104,6 @@ public class KiBlastWeapon : WeaponBase
 
         isBarrageFiring = false;
     }
-
-
-
-
-
-
-
 
     private GameObject FireBlastAndReturn(Vector3 direction)
     {
@@ -136,10 +138,6 @@ public class KiBlastWeapon : WeaponBase
 
         return blast;
     }
-
-
-
-
 
     private void FireBlast(Vector3 direction)
     {

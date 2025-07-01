@@ -10,6 +10,12 @@ public class FirePointController : MonoBehaviour
 
     private Vector3 lastValidDirection = Vector3.right;
 
+    // ✅ Add this for external weapon scripts to use
+    public bool IsAimingTooClose { get; private set; } = false;
+
+    public Vector3 LastValidDirection => lastValidDirection;
+    public Vector3 PlayerCenter => player.position + offsetFromPlayerCenter;
+
     void Awake()
     {
         if (player == null)
@@ -32,8 +38,10 @@ public class FirePointController : MonoBehaviour
 
         Vector3 direction;
 
-        // Use beam-style logic: ignore very small inputs, preserve last valid direction
-        if (distance > minInputRadius)
+        // ✅ Set aiming state for use by weapons
+        IsAimingTooClose = distance <= minInputRadius;
+
+        if (!IsAimingTooClose)
         {
             direction = toMouse.normalized;
             lastValidDirection = direction;
@@ -43,10 +51,8 @@ public class FirePointController : MonoBehaviour
             direction = lastValidDirection;
         }
 
-        // Position firePoint on the edge of max radius circle
         transform.position = playerCenter + direction * maxRadius;
 
-        // Face the direction
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
     }

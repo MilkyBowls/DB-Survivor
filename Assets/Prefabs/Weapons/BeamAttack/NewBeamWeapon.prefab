@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3799930303479939859
+--- !u!1 &3490009740551356749
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3905435677213425089}
-  - component: {fileID: 3286094276942770542}
-  m_Layer: 7
-  m_Name: BeamWeapon
+  - component: {fileID: 2486055362353475027}
+  - component: {fileID: 571029378577626450}
+  m_Layer: 0
+  m_Name: NewBeamWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3905435677213425089
+--- !u!4 &2486055362353475027
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3799930303479939859}
+  m_GameObject: {fileID: 3490009740551356749}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3286094276942770542
+--- !u!114 &571029378577626450
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3799930303479939859}
+  m_GameObject: {fileID: 3490009740551356749}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 155c1555382742247a9f8dbb70653083, type: 3}
+  m_Script: {fileID: 11500000, guid: 84466b4b0321ad149ab59be91ee5258d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 0}
@@ -59,13 +59,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3186066e39e0f1149a20cb39915a9270, type: 2}
   - {fileID: 11400000, guid: 59da250d9035ebb44840ddb3d7ca81d8, type: 2}
   currentUpgrade: {fileID: 0}
-  beamPrefab: {fileID: 824023819897462620, guid: eae16fe4b89e81e4c8ffc23da0294aa4, type: 3}
-  beamGrowthSpeed: 30
-  maxBeamLength: 40
-  beamWidth: 2.55
-  kiDrainPerSecond: 0
-  baseBeamDuration: 5
-  explosionPrefab: {fileID: 0}
-  visualScaleX: 1
-  visualScaleY: 1
+  beamPrefab: {fileID: 3124335214188792966, guid: 9a0749c07ad77004f8e66088b1a9aaa9, type: 3}
+  beamDuration: 20
+  kiDrainPerSecond: 10
   baseDamage: 1

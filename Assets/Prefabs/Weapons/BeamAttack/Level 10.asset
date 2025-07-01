@@ -16,7 +16,7 @@ MonoBehaviour:
   damageModifier: 1
   projectileSpeedModifier: 1
   fireCooldownModifier: 1
-  projectileScale: 4
+  projectileScale: 10
   enableDoubleShot: 0
   enablePiercing: 0
   enableExplosion: 0
@@ -40,7 +40,10 @@ MonoBehaviour:
   beamVisualScaleX: 1
   beamVisualScaleY: 4
   extraBeams: 3
-  beamSpreadAngle: 45
+  beamSpreadAngle: 30
   beamStartOverride: {fileID: 0}
   beamEndOverride: {fileID: 0}
   beamMidOverrideSprite: {fileID: 0}
+  beamMidBaseHeight: 4
+  animatedMidFrames: []
+  animatedMidFrameRate: 12
