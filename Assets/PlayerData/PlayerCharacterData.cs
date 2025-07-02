@@ -16,6 +16,9 @@ public class PlayerCharacterData : ScriptableObject
     [Header("Starting Weapon")]
     public GameObject startingWeaponPrefab;
 
+    [Header("Base Aura Profile")]
+    public CharacterTransformation baseAuraProfile;
+
     [Header("Base Stats")]
     public float maxHealth;
     public float damage;

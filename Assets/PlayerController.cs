@@ -206,8 +206,6 @@ public class PlayerController : MonoBehaviour
                                       animState.IsName("WalkAttack") ? "Walk" :
                                       animState.IsName("Idle") ? "Idle" :
                                       animState.IsName("Rise") ? "Rise" : "Other";
-
-            auraController.UpdateAuraOrientation(currentStateName, isFacingLeft);
         }
     }
 
@@ -291,6 +289,8 @@ public class PlayerController : MonoBehaviour
         animator.Play("Idle", 0, 0f);
         animator.updateMode = AnimatorUpdateMode.Normal;
 
+        auraController?.ApplyTransformationAura(transformation);
+
         isTransforming = false;
     }
 
@@ -313,6 +313,10 @@ public class PlayerController : MonoBehaviour
         animator.Play("Idle", 0, 0f);
         
         SFXManager.Instance?.Play(SFXManager.Instance.PowerDown);
+
+        auraController?.ClearAuraState();
+        if (characterData.baseAuraProfile != null)
+            auraController?.ApplyTransformationAura(characterData.baseAuraProfile);
 
         isCharging = false;
         isTransforming = false;
@@ -351,11 +355,15 @@ public class PlayerController : MonoBehaviour
         if (transformation.transformationPortrait != null)
             spriteRenderer.sprite = transformation.transformationPortrait;
 
+        // ✅ Apply the aura animator override and particles
+        auraController?.ApplyTransformationAura(transformation);
+
         animator.Play("Idle", 0, 0f);
         animator.updateMode = AnimatorUpdateMode.Normal;
 
         isTransforming = false;
     }
+
 
     private void RevertToBaseForm()
     {
@@ -370,6 +378,11 @@ public class PlayerController : MonoBehaviour
 
         animator.runtimeAnimatorController = characterData.animatorController;
         auraController?.DisableAura();
+        auraController?.ClearAuraState();
+
+        if (characterData.baseAuraProfile != null)
+            auraController?.ApplyTransformationAura(characterData.baseAuraProfile);
+        
         SFXManager.Instance?.Play(SFXManager.Instance.PowerDown);
 
         Debug.Log("Reverted to base form.");

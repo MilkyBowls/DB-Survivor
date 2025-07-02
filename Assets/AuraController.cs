@@ -19,6 +19,7 @@ public class AuraController : MonoBehaviour
     private Color baseColor;
     private bool isActive = false;
     private Vector3 currentScale;
+    private List<ParticleSystem> persistentParticles = new List<ParticleSystem>();
 
     [Header("Charging Particle Effects")]
     public List<ParticleSystem> chargeParticlePrefabs;
@@ -222,38 +223,137 @@ public class AuraController : MonoBehaviour
         auraRenderer.color = c;
     }
 
-    public void UpdateAuraOrientation(string animationStateName, bool faceLeft)
+    // public void UpdateAuraOrientation(string animationStateName, bool faceLeft)
+    // {
+    //     if (auraRenderer == null) return;
+
+    //     switch (animationStateName)
+    //     {
+    //         case "Walk":
+    //         case "WalkAttack":
+    //             transform.localRotation = Quaternion.Euler(0f, 0f, 90f);
+
+    //             Vector3 walkScale = defaultScale;
+    //             walkScale.y = Mathf.Abs(walkScale.y) * (faceLeft ? -1f : 1f);
+    //             currentScale = walkScale;
+
+    //             Vector2 walkOffsetFlipped = walkOffset;
+    //             if (faceLeft) walkOffsetFlipped.x *= -1f;
+
+    //             transform.localPosition = defaultLocalPosition + (Vector3)walkOffsetFlipped;
+    //             break;
+
+    //         default:
+    //             transform.localRotation = Quaternion.identity;
+
+    //             Vector3 resetScale = defaultScale;
+    //             resetScale.x = Mathf.Abs(resetScale.x);
+    //             resetScale.y = Mathf.Abs(resetScale.y);
+    //             currentScale = resetScale;
+
+    //             Vector2 idleOffsetFlipped = idleOffset;
+    //             if (faceLeft) idleOffsetFlipped.x *= -1f;
+    //             transform.localPosition = defaultLocalPosition + (Vector3)idleOffsetFlipped;
+    //             break;
+    //     }
+    // }
+
+    public void ApplyTransformationAura(CharacterTransformation transformation)
     {
-        if (auraRenderer == null) return;
+        ClearAuraState(); // 🔁 Clean everything first
 
-        switch (animationStateName)
+        // Clear previous persistent particles
+        foreach (var p in persistentParticles)
         {
-            case "Walk":
-            case "WalkAttack":
-                transform.localRotation = Quaternion.Euler(0f, 0f, 90f);
+            if (p != null)
+                Destroy(p.gameObject);
+        }
+        persistentParticles.Clear();
 
-                Vector3 walkScale = defaultScale;
-                walkScale.y = Mathf.Abs(walkScale.y) * (faceLeft ? -1f : 1f);
-                currentScale = walkScale;
+        if (transformation == null) return;
 
-                Vector2 walkOffsetFlipped = walkOffset;
-                if (faceLeft) walkOffsetFlipped.x *= -1f;
+        // Set override controller
+        if (transformation.auraAnimatorOverride != null && auraAnimator != null)
+        {
+            auraAnimator.runtimeAnimatorController = transformation.auraAnimatorOverride;
+        }
 
-                transform.localPosition = defaultLocalPosition + (Vector3)walkOffsetFlipped;
-                break;
+        // Set charge particles
+        if (transformation.auraChargeParticles != null && transformation.auraChargeParticles.Count > 0)
+        {
+            chargeParticlePrefabs = transformation.auraChargeParticles;
 
-            default:
-                transform.localRotation = Quaternion.identity;
+            // ✅ Spawn persistent particles if flagged
+            if (transformation.alwaysShowAuraParticles)
+            {
+                foreach (var prefab in chargeParticlePrefabs)
+                {
+                    // Instantiate with localPosition explicitly
+                    ParticleSystem ps = Instantiate(prefab, transform);
+                    ps.transform.localPosition = particleSpawnArea != null
+                        ? transform.InverseTransformPoint(particleSpawnArea.position)
+                        : Vector3.zero;
 
-                Vector3 resetScale = defaultScale;
-                resetScale.x = Mathf.Abs(resetScale.x);
-                resetScale.y = Mathf.Abs(resetScale.y);
-                currentScale = resetScale;
-
-                Vector2 idleOffsetFlipped = idleOffset;
-                if (faceLeft) idleOffsetFlipped.x *= -1f;
-                transform.localPosition = defaultLocalPosition + (Vector3)idleOffsetFlipped;
-                break;
+                    ps.Play();
+                    persistentParticles.Add(ps);
+                }
+            }
         }
     }
+
+    public void ClearAuraState()
+    {
+        // Reset animator
+        if (auraAnimator != null)
+        {
+            auraAnimator.runtimeAnimatorController = null;
+            auraAnimator.Rebind();
+            auraAnimator.Update(0f);
+        }
+
+        // Stop particle loop
+        if (particleLoopCoroutine != null)
+        {
+            StopCoroutine(particleLoopCoroutine);
+            particleLoopCoroutine = null;
+        }
+
+        // Clear persistent particles
+        foreach (var p in persistentParticles)
+        {
+            if (p != null)
+                Destroy(p.gameObject);
+        }
+        persistentParticles.Clear();
+
+        // Destroy all remaining ParticleSystems under this object (including charge)
+        foreach (Transform child in transform)
+        {
+            ParticleSystem ps = child.GetComponent<ParticleSystem>();
+            if (ps != null)
+                Destroy(ps.gameObject);
+        }
+
+        // 💥 Clear reference to old prefab list
+        chargeParticlePrefabs = new List<ParticleSystem>();
+
+        isCharging = false;
+    }
+
+    private void UpdatePersistentParticlePositions()
+    {
+        Vector3 targetPosition = particleSpawnArea != null
+            ? particleSpawnArea.position
+            : transform.position;
+
+        foreach (var ps in persistentParticles)
+        {
+            if (ps != null)
+                ps.transform.position = targetPosition;
+        }
+    }
+
+
+
+
 }

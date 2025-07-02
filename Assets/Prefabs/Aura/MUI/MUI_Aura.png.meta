@@ -1,0 +1,3614 @@
+fileFormatVersion: 2
+guid: 850e9cda3c861d64c996d8e61f63201a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5867962751420018713
+    second: MUI_Aura_0
+  - first:
+      213: -6758257354966699809
+    second: MUI_Aura_1
+  - first:
+      213: 7533995715031014219
+    second: MUI_Aura_2
+  - first:
+      213: -5789042607521021560
+    second: MUI_Aura_3
+  - first:
+      213: 3675457977772946195
+    second: MUI_Aura_4
+  - first:
+      213: 529895779792224418
+    second: MUI_Aura_5
+  - first:
+      213: -3911544439456232387
+    second: MUI_Aura_6
+  - first:
+      213: 1926277176798038702
+    second: MUI_Aura_7
+  - first:
+      213: 6873720331984713986
+    second: MUI_Aura_8
+  - first:
+      213: 7506996578788886218
+    second: MUI_Aura_9
+  - first:
+      213: -8252492328004525596
+    second: MUI_Aura_10
+  - first:
+      213: -5155323553291835939
+    second: MUI_Aura_11
+  - first:
+      213: -6894264499556828881
+    second: MUI_Aura_12
+  - first:
+      213: 3945537033613119129
+    second: MUI_Aura_13
+  - first:
+      213: 3662851535464334866
+    second: MUI_Aura_14
+  - first:
+      213: -6260213439956324263
+    second: MUI_Aura_15
+  - first:
+      213: -5555388731381576071
+    second: MUI_Aura_16
+  - first:
+      213: 621226837380431348
+    second: MUI_Aura_17
+  - first:
+      213: -6659109282488373120
+    second: MUI_Aura_18
+  - first:
+      213: -1987498733324610944
+    second: MUI_Aura_19
+  - first:
+      213: -821176728637206109
+    second: MUI_Aura_20
+  - first:
+      213: -6604051618113496857
+    second: MUI_Aura_21
+  - first:
+      213: -3891299425799036480
+    second: MUI_Aura_22
+  - first:
+      213: 2513662609848865318
+    second: MUI_Aura_23
+  - first:
+      213: -5390682652845645703
+    second: MUI_Aura_24
+  - first:
+      213: -7204776998864836763
+    second: MUI_Aura_25
+  - first:
+      213: -8128113935491885158
+    second: MUI_Aura_26
+  - first:
+      213: 339700524995236369
+    second: MUI_Aura_27
+  - first:
+      213: -8507730754154252496
+    second: MUI_Aura_28
+  - first:
+      213: -2316336457675190832
+    second: MUI_Aura_29
+  - first:
+      213: -7301409950269163266
+    second: MUI_Aura_30
+  - first:
+      213: -5408914749244198060
+    second: MUI_Aura_31
+  - first:
+      213: -7907874323284611087
+    second: MUI_Aura_32
+  - first:
+      213: -8147832457516311689
+    second: MUI_Aura_33
+  - first:
+      213: 3210196599998743039
+    second: MUI_Aura_34
+  - first:
+      213: 5763736106803149832
+    second: MUI_Aura_35
+  - first:
+      213: 3602123403676298607
+    second: MUI_Aura_36
+  - first:
+      213: -8411985956319671539
+    second: MUI_Aura_37
+  - first:
+      213: 6407360995761819793
+    second: MUI_Aura_38
+  - first:
+      213: -7993927967293157380
+    second: MUI_Aura_39
+  - first:
+      213: -3607737822000415037
+    second: MUI_Aura_40
+  - first:
+      213: 6502632955749672771
+    second: MUI_Aura_41
+  - first:
+      213: 8072555531453184373
+    second: MUI_Aura_42
+  - first:
+      213: 371952193809628912
+    second: MUI_Aura_43
+  - first:
+      213: 3181940134716640735
+    second: MUI_Aura_44
+  - first:
+      213: 7969656858444723890
+    second: MUI_Aura_45
+  - first:
+      213: -6700498666336585868
+    second: MUI_Aura_46
+  - first:
+      213: -1107872172758376896
+    second: MUI_Aura_47
+  - first:
+      213: 3835884663914776153
+    second: MUI_Aura_48
+  - first:
+      213: -6186147808065560827
+    second: MUI_Aura_49
+  - first:
+      213: 6560738004834151666
+    second: MUI_Aura_50
+  - first:
+      213: 1746905179027444790
+    second: MUI_Aura_51
+  - first:
+      213: -4890344924292931195
+    second: MUI_Aura_52
+  - first:
+      213: 4599194217270334575
+    second: MUI_Aura_53
+  - first:
+      213: -7463446140623065114
+    second: MUI_Aura_54
+  - first:
+      213: 307879994551149160
+    second: MUI_Aura_55
+  - first:
+      213: 4855068490020984957
+    second: MUI_Aura_56
+  - first:
+      213: 6003192126871692420
+    second: MUI_Aura_57
+  - first:
+      213: -3325853537575234622
+    second: MUI_Aura_58
+  - first:
+      213: -8857242900256155939
+    second: MUI_Aura_59
+  - first:
+      213: 7495711209838426269
+    second: MUI_Aura_60
+  - first:
+      213: -5676236009591815669
+    second: MUI_Aura_61
+  - first:
+      213: 330737898330894109
+    second: MUI_Aura_62
+  - first:
+      213: 4692921812344277255
+    second: MUI_Aura_63
+  - first:
+      213: 1835200379605969851
+    second: MUI_Aura_64
+  - first:
+      213: 3380237818357733165
+    second: MUI_Aura_65
+  - first:
+      213: 691189229667915740
+    second: MUI_Aura_66
+  - first:
+      213: 6952981568203195210
+    second: MUI_Aura_67
+  - first:
+      213: -2051310991370247481
+    second: MUI_Aura_68
+  - first:
+      213: 7942050340112535445
+    second: MUI_Aura_69
+  - first:
+      213: -2275268813063259919
+    second: MUI_Aura_70
+  - first:
+      213: -6683678989380506860
+    second: MUI_Aura_71
+  - first:
+      213: -3220696071517129096
+    second: MUI_Aura_72
+  - first:
+      213: -5364929170587533110
+    second: MUI_Aura_73
+  - first:
+      213: 5956390980304830703
+    second: MUI_Aura_74
+  - first:
+      213: 8495568742292577905
+    second: MUI_Aura_75
+  - first:
+      213: -9025433474759236367
+    second: MUI_Aura_76
+  - first:
+      213: -703147378145806151
+    second: MUI_Aura_77
+  - first:
+      213: -4364444766496323023
+    second: MUI_Aura_78
+  - first:
+      213: 2604858232091097097
+    second: MUI_Aura_79
+  - first:
+      213: -2373218729962603468
+    second: MUI_Aura_80
+  - first:
+      213: -3330205427289495768
+    second: MUI_Aura_81
+  - first:
+      213: -3375559683376451605
+    second: MUI_Aura_82
+  - first:
+      213: 6306936305749612502
+    second: MUI_Aura_83
+  - first:
+      213: 2685305444243631827
+    second: MUI_Aura_84
+  - first:
+      213: 7188278519369419847
+    second: MUI_Aura_85
+  - first:
+      213: 7781133874861452381
+    second: MUI_Aura_86
+  - first:
+      213: -2704820654054596234
+    second: MUI_Aura_87
+  - first:
+      213: -3061260450210669017
+    second: MUI_Aura_88
+  - first:
+      213: -869198941279836829
+    second: MUI_Aura_89
+  - first:
+      213: 1536449972204206812
+    second: MUI_Aura_90
+  - first:
+      213: -2103550151532180433
+    second: MUI_Aura_91
+  - first:
+      213: 2087559062365660658
+    second: MUI_Aura_92
+  - first:
+      213: 4051555480216112734
+    second: MUI_Aura_93
+  - first:
+      213: -2777827846009006929
+    second: MUI_Aura_94
+  - first:
+      213: 5942350318680505918
+    second: MUI_Aura_95
+  - first:
+      213: -3434366037862246801
+    second: MUI_Aura_96
+  - first:
+      213: -1854759031883422428
+    second: MUI_Aura_97
+  - first:
+      213: -5664607296969437631
+    second: MUI_Aura_98
+  - first:
+      213: -7287328507372503452
+    second: MUI_Aura_99
+  - first:
+      213: 4028567404397234305
+    second: MUI_Aura_100
+  - first:
+      213: -16652080112787997
+    second: MUI_Aura_101
+  - first:
+      213: 2007022573941237581
+    second: MUI_Aura_102
+  - first:
+      213: 6058597145137275923
+    second: MUI_Aura_103
+  - first:
+      213: -6355805234125652372
+    second: MUI_Aura_104
+  - first:
+      213: 5682374576419975033
+    second: MUI_Aura_105
+  - first:
+      213: 7945351986391795449
+    second: MUI_Aura_106
+  - first:
+      213: 5502365263425280824
+    second: MUI_Aura_107
+  - first:
+      213: -6152919437164533373
+    second: MUI_Aura_108
+  - first:
+      213: 2501154671508564870
+    second: MUI_Aura_109
+  - first:
+      213: 6095504107900844227
+    second: MUI_Aura_110
+  - first:
+      213: 2886621408388361561
+    second: MUI_Aura_111
+  - first:
+      213: 7621240019043792234
+    second: MUI_Aura_112
+  - first:
+      213: 9056937331277700385
+    second: MUI_Aura_113
+  - first:
+      213: 1282746267516614591
+    second: MUI_Aura_114
+  - first:
+      213: -8813731714087852334
+    second: MUI_Aura_115
+  - first:
+      213: -1131341369750161503
+    second: MUI_Aura_116
+  - first:
+      213: -2205151801105637855
+    second: MUI_Aura_117
+  - first:
+      213: -4264993472107970453
+    second: MUI_Aura_118
+  - first:
+      213: -5320662521603153866
+    second: MUI_Aura_119
+  - first:
+      213: -5480057324811584157
+    second: MUI_Aura_120
+  - first:
+      213: 3261384056380826333
+    second: MUI_Aura_121
+  - first:
+      213: -4147881074269700563
+    second: MUI_Aura_122
+  - first:
+      213: -2484349688360656442
+    second: MUI_Aura_123
+  - first:
+      213: 8526167943701319517
+    second: MUI_Aura_124
+  - first:
+      213: -7519751812402746053
+    second: MUI_Aura_125
+  - first:
+      213: 4942992797828736426
+    second: MUI_Aura_126
+  - first:
+      213: -2853192930308860686
+    second: MUI_Aura_127
+  - first:
+      213: 1505909425155837980
+    second: MUI_Aura_128
+  - first:
+      213: -7504894333537592682
+    second: MUI_Aura_129
+  - first:
+      213: 7558292768277413548
+    second: MUI_Aura_130
+  - first:
+      213: -6237852599680865570
+    second: MUI_Aura_131
+  - first:
+      213: -1850841781516202827
+    second: MUI_Aura_132
+  - first:
+      213: -5342988862286275723
+    second: MUI_Aura_133
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MUI_Aura_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10521
+        width: 445
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efc266a7fec09ea0800000000000000
+      internalID: -5867962751420018713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_1
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 10524
+        width: 450
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0f9801eb8d532a0800000000000000
+      internalID: -6758257354966699809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_2
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 10530
+        width: 451
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b1dbd9f212e8860800000000000000
+      internalID: 7533995715031014219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_3
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 10532
+        width: 494
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881cb1d8b6039afa0800000000000000
+      internalID: -5789042607521021560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_4
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 10552
+        width: 419
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3133800be89d10330800000000000000
+      internalID: 3675457977772946195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_5
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 10974
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a08e7a77619a5700800000000000000
+      internalID: 529895779792224418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_6
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 10538
+        width: 445
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c8e0b7e0767b9c0800000000000000
+      internalID: -3911544439456232387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_7
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 10548
+        width: 427
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa4dfde2e28bba10800000000000000
+      internalID: 1926277176798038702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_8
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 10548
+        width: 484
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2093451393c546f50800000000000000
+      internalID: 6873720331984713986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_9
+      rect:
+        serializedVersion: 2
+        x: 3894
+        y: 10548
+        width: 446
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6c8c85d953e2860800000000000000
+      internalID: 7506996578788886218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_10
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 10931
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e167a583f1497d80800000000000000
+      internalID: -8252492328004525596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_11
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 10934
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5e5d7da8c9478b0800000000000000
+      internalID: -5155323553291835939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_12
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 10829
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29345c07f6a250a0800000000000000
+      internalID: -6894264499556828881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_13
+      rect:
+        serializedVersion: 2
+        x: 4337
+        y: 10786
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e88a8170d51c630800000000000000
+      internalID: 3945537033613119129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_14
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 10753
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216885c901015d230800000000000000
+      internalID: 3662851535464334866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_15
+      rect:
+        serializedVersion: 2
+        x: 4324
+        y: 10706
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950f64d5b014f19a0800000000000000
+      internalID: -6260213439956324263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_16
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 10551
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e0bcce16b47e2b0800000000000000
+      internalID: -5555388731381576071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_17
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 10537
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdfff6648a0f9800800000000000000
+      internalID: 621226837380431348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9871
+        width: 436
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08036c893671693a0800000000000000
+      internalID: -6659109282488373120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_19
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 9860
+        width: 431
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082d5a8ae6cfa64e0800000000000000
+      internalID: -1987498733324610944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_20
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 9868
+        width: 446
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a113c7bd189a94f0800000000000000
+      internalID: -821176728637206109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_21
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 9875
+        width: 492
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e850080b02b954a0800000000000000
+      internalID: -6604051618113496857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_22
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 9881
+        width: 440
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1219a0ac35ff9c0800000000000000
+      internalID: -3891299425799036480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_23
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 10267
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622193163d252e220800000000000000
+      internalID: 2513662609848865318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_24
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 9892
+        width: 448
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970664430b27035b0800000000000000
+      internalID: -5390682652845645703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_25
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 9892
+        width: 485
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567a1c8fd7d730c90800000000000000
+      internalID: -7204776998864836763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_26
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 10213
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a979a15b073233f80800000000000000
+      internalID: -8128113935491885158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_27
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 10163
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112da52e3dbd6b400800000000000000
+      internalID: 339700524995236369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_28
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 10189
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03738f974f77ee980800000000000000
+      internalID: -8507730754154252496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_29
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 10155
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddcbf3a348badfd0800000000000000
+      internalID: -2316336457675190832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_30
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 10143
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef834b2b55e2caa90800000000000000
+      internalID: -7301409950269163266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_31
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 10126
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453bde671bcafe4b0800000000000000
+      internalID: -5408914749244198060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_32
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 10109
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff20306336914290800000000000000
+      internalID: -7907874323284611087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_33
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 10083
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b97588c851dee80800000000000000
+      internalID: -8147832457516311689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_34
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 10070
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff18712acc8ec8c20800000000000000
+      internalID: 3210196599998743039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_35
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 9849
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c38199377ecff40800000000000000
+      internalID: 5763736106803149832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_36
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 9210
+        width: 444
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d2f3996205df130800000000000000
+      internalID: 3602123403676298607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_37
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 9211
+        width: 449
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bcdf1675f924b80800000000000000
+      internalID: -8411985956319671539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_38
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 9225
+        width: 495
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1909314c0e48be850800000000000000
+      internalID: 6407360995761819793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_39
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 9234
+        width: 444
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff4e6d0edcdf0190800000000000000
+      internalID: -7993927967293157380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9180
+        width: 448
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce7ce4c09dbeedc0800000000000000
+      internalID: -3607737822000415037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_41
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 9185
+        width: 454
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3472538883efd3a50800000000000000
+      internalID: 6502632955749672771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_42
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 9563
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579b1e15c7a770070800000000000000
+      internalID: 8072555531453184373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_43
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 9507
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe3371bc80792500800000000000000
+      internalID: 371952193809628912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_44
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 9505
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd0852a1b5882c20800000000000000
+      internalID: 3181940134716640735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_45
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 9458
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b67a5d00b8e99e60800000000000000
+      internalID: 7969656858444723890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_46
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 9442
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4777707b6fb0303a0800000000000000
+      internalID: -6700498666336585868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_47
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 9392
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e523ee02c00a0f0800000000000000
+      internalID: -1107872172758376896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 8512
+        width: 434
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956420847cccb3530800000000000000
+      internalID: 3835884663914776153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_49
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 8514
+        width: 439
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fd03c1853662aa0800000000000000
+      internalID: -6186147808065560827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_50
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 8527
+        width: 454
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc6b82847c6c0b50800000000000000
+      internalID: 6560738004834151666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_51
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 8552
+        width: 431
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634983c31014e3810800000000000000
+      internalID: 1746905179027444790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_52
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 8561
+        width: 458
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581a2669331022cb0800000000000000
+      internalID: -4890344924292931195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_53
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 8577
+        width: 479
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64dd65e5ce93df30800000000000000
+      internalID: 4599194217270334575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7846
+        width: 431
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efe6e337438c6890800000000000000
+      internalID: -7463446140623065114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_55
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 7856
+        width: 443
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862abac493fc54400800000000000000
+      internalID: 307879994551149160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_56
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 7869
+        width: 492
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7894e3811ba06340800000000000000
+      internalID: 4855068490020984957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_57
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 7902
+        width: 436
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484eb90ee6f9f4350800000000000000
+      internalID: 6003192126871692420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_58
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 8288
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c31ad524d138d1d0800000000000000
+      internalID: -3325853537575234622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_59
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 7912
+        width: 487
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd691e88280c41580800000000000000
+      internalID: -8857242900256155939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_60
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 8214
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d983551a1ad160860800000000000000
+      internalID: 7495711209838426269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_61
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 8153
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02cffa5c65f931b0800000000000000
+      internalID: -5676236009591815669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_62
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 8074
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fa5cfbd54079400800000000000000
+      internalID: 330737898330894109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_63
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7184
+        width: 449
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709867f268b902140800000000000000
+      internalID: 4692921812344277255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_64
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 7560
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb631e9501f77910800000000000000
+      internalID: 1835200379605969851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_65
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 7186
+        width: 431
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27dd83f26409ee20800000000000000
+      internalID: 3380237818357733165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_66
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 7198
+        width: 454
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd79eea31f8979900800000000000000
+      internalID: 691189229667915740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_67
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 7505
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a430796d5e3fd7060800000000000000
+      internalID: 6952981568203195210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_68
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 7219
+        width: 455
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2a58b85874883e0800000000000000
+      internalID: -2051310991370247481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_69
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 7252
+        width: 470
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f8dae94b4d73e60800000000000000
+      internalID: 7942050340112535445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_70
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 7477
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8f6d4c11f9c60e0800000000000000
+      internalID: -2275268813063259919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_71
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 7465
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bab3dee5dce33a0800000000000000
+      internalID: -6683678989380506860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_72
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 7397
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876b9b7acf9cd43d0800000000000000
+      internalID: -3220696071517129096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_73
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6522
+        width: 450
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0cffd0851fb85b0800000000000000
+      internalID: -5364929170587533110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_74
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 6524
+        width: 437
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0096cc90a59a250800000000000000
+      internalID: 5956390980304830703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_75
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 6527
+        width: 448
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ed24972c256e570800000000000000
+      internalID: 8495568742292577905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_76
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 6548
+        width: 458
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f46e01d2183fb280800000000000000
+      internalID: -9025433474759236367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_77
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 6569
+        width: 469
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b83fdc5f2bed36f0800000000000000
+      internalID: -703147378145806151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_78
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 6895
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a8c23db906e63c0800000000000000
+      internalID: -4364444766496323023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_79
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 6833
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908ba0ec2c0562420800000000000000
+      internalID: 2604858232091097097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_80
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 6841
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c76429322a01fd0800000000000000
+      internalID: -2373218729962603468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_81
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 6777
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827e45ddecbb8c1d0800000000000000
+      internalID: -3330205427289495768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_82
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5860
+        width: 439
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef673a3a5a9721d0800000000000000
+      internalID: -3375559683376451605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_83
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 5862
+        width: 450
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7583d872db68750800000000000000
+      internalID: 6306936305749612502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_84
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 5874
+        width: 457
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de609df21f144520800000000000000
+      internalID: 2685305444243631827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_85
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 5898
+        width: 478
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cc59d6a35e1c360800000000000000
+      internalID: 7188278519369419847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_86
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5198
+        width: 431
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c20e078042cfb60800000000000000
+      internalID: 7781133874861452381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_87
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 5200
+        width: 452
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671afe522fb867ad0800000000000000
+      internalID: -2704820654054596234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_88
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 5208
+        width: 449
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e9d3cf6d73485d0800000000000000
+      internalID: -3061260450210669017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_89
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 5222
+        width: 447
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365aed90b2cffe3f0800000000000000
+      internalID: -869198941279836829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_90
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 5463
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaf368fb11925510800000000000000
+      internalID: 1536449972204206812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_91
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 5261
+        width: 471
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c84b24840bec2e0800000000000000
+      internalID: -2103550151532180433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_92
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4537
+        width: 432
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5e3f728ef78fc10800000000000000
+      internalID: 2087559062365660658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_93
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 4545
+        width: 442
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e81124e340a3830800000000000000
+      internalID: 4051555480216112734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_94
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 4546
+        width: 447
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4d177aa4c2379d0800000000000000
+      internalID: -2777827846009006929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_95
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 4790
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e71e38128777250800000000000000
+      internalID: 5942350318680505918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_96
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 4554
+        width: 442
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f661e8cd84ea650d0800000000000000
+      internalID: -3434366037862246801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_97
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 4585
+        width: 450
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42524a8cc729246e0800000000000000
+      internalID: -1854759031883422428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_98
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3882
+        width: 431
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e0d000da54361b0800000000000000
+      internalID: -5664607296969437631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_99
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 3891
+        width: 465
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46efb7c15553eda90800000000000000
+      internalID: -7287328507372503452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_100
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 3908
+        width: 432
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18880d4c5b858e730800000000000000
+      internalID: 4028567404397234305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_101
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 4170
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed1b187507d4cff0800000000000000
+      internalID: -16652080112787997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_102
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 3930
+        width: 450
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4725f7b5606adb10800000000000000
+      internalID: 2007022573941237581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_103
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 4145
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3146a11f006741450800000000000000
+      internalID: 6058597145137275923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_104
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 4129
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e3f5660d4abc7a0800000000000000
+      internalID: -6355805234125652372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_105
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 4126
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f293c1299dbde40800000000000000
+      internalID: 5682374576419975033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_106
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 3916
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6c35c098f834e60800000000000000
+      internalID: 7945351986391795449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_107
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3558
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b99e6ed045c5c40800000000000000
+      internalID: 5502365263425280824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_108
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3228
+        width: 428
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38926381f507c9aa0800000000000000
+      internalID: -6152919437164533373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_109
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3250
+        width: 464
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ba39b0ce2e5b220800000000000000
+      internalID: 2501154671508564870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_110
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 3251
+        width: 453
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c83d56d0b4979450800000000000000
+      internalID: 6095504107900844227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_111
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 3270
+        width: 458
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95da60080e65f0820800000000000000
+      internalID: 2886621408388361561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_112
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 3442
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65b8131b6514c960800000000000000
+      internalID: 7621240019043792234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_113
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3366
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d18cf5484b0bd70800000000000000
+      internalID: 9056937331277700385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_114
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2609
+        width: 464
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7394c1fea3dc110800000000000000
+      internalID: 1282746267516614591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_115
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 2612
+        width: 424
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6e23404b55fa580800000000000000
+      internalID: -8813731714087852334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_116
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 3226
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a77650b40bac40f0800000000000000
+      internalID: -1131341369750161503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_117
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2584
+        width: 465
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e194bce1ab561e0800000000000000
+      internalID: -2205151801105637855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_118
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 2882
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6005a5b803bfc4c0800000000000000
+      internalID: -4264993472107970453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_119
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 2835
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6302c1e60a53926b0800000000000000
+      internalID: -5320662521603153866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_120
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2824
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36df3ddc5ece2f3b0800000000000000
+      internalID: -5480057324811584157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_121
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1940
+        width: 466
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2a3bc0583c24d20800000000000000
+      internalID: 3261384056380826333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_122
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1942
+        width: 462
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2eb69da324cf66c0800000000000000
+      internalID: -4147881074269700563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_123
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1969
+        width: 452
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1296ffe11d58dd0800000000000000
+      internalID: -2484349688360656442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_124
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 2369
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fc3ab3298035670800000000000000
+      internalID: 8526167943701319517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_125
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1296
+        width: 452
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d62a6619974a790800000000000000
+      internalID: -7519751812402746053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_126
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1298
+        width: 464
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa565e1b2c9099440800000000000000
+      internalID: 4942992797828736426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_127
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1298
+        width: 462
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4d841952c6768d0800000000000000
+      internalID: -2853192930308860686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_128
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 652
+        width: 445
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10935eb4a016e410800000000000000
+      internalID: 1505909425155837980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_129
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 654
+        width: 443
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a56a4cd5249d790800000000000000
+      internalID: -7504894333537592682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_130
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 878
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae34992a3374e860800000000000000
+      internalID: 7558292768277413548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_131
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 425
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda66c23c12be69a0800000000000000
+      internalID: -6237852599680865570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_132
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 291
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc8645b43d7056e0800000000000000
+      internalID: -1850841781516202827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MUI_Aura_133
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 208
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bde8820f3e9d5b0800000000000000
+      internalID: -5342988862286275723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MUI_Aura_0: -5867962751420018713
+      MUI_Aura_1: -6758257354966699809
+      MUI_Aura_10: -8252492328004525596
+      MUI_Aura_100: 4028567404397234305
+      MUI_Aura_101: -16652080112787997
+      MUI_Aura_102: 2007022573941237581
+      MUI_Aura_103: 6058597145137275923
+      MUI_Aura_104: -6355805234125652372
+      MUI_Aura_105: 5682374576419975033
+      MUI_Aura_106: 7945351986391795449
+      MUI_Aura_107: 5502365263425280824
+      MUI_Aura_108: -6152919437164533373
+      MUI_Aura_109: 2501154671508564870
+      MUI_Aura_11: -5155323553291835939
+      MUI_Aura_110: 6095504107900844227
+      MUI_Aura_111: 2886621408388361561
+      MUI_Aura_112: 7621240019043792234
+      MUI_Aura_113: 9056937331277700385
+      MUI_Aura_114: 1282746267516614591
+      MUI_Aura_115: -8813731714087852334
+      MUI_Aura_116: -1131341369750161503
+      MUI_Aura_117: -2205151801105637855
+      MUI_Aura_118: -4264993472107970453
+      MUI_Aura_119: -5320662521603153866
+      MUI_Aura_12: -6894264499556828881
+      MUI_Aura_120: -5480057324811584157
+      MUI_Aura_121: 3261384056380826333
+      MUI_Aura_122: -4147881074269700563
+      MUI_Aura_123: -2484349688360656442
+      MUI_Aura_124: 8526167943701319517
+      MUI_Aura_125: -7519751812402746053
+      MUI_Aura_126: 4942992797828736426
+      MUI_Aura_127: -2853192930308860686
+      MUI_Aura_128: 1505909425155837980
+      MUI_Aura_129: -7504894333537592682
+      MUI_Aura_13: 3945537033613119129
+      MUI_Aura_130: 7558292768277413548
+      MUI_Aura_131: -6237852599680865570
+      MUI_Aura_132: -1850841781516202827
+      MUI_Aura_133: -5342988862286275723
+      MUI_Aura_14: 3662851535464334866
+      MUI_Aura_15: -6260213439956324263
+      MUI_Aura_16: -5555388731381576071
+      MUI_Aura_17: 621226837380431348
+      MUI_Aura_18: -6659109282488373120
+      MUI_Aura_19: -1987498733324610944
+      MUI_Aura_2: 7533995715031014219
+      MUI_Aura_20: -821176728637206109
+      MUI_Aura_21: -6604051618113496857
+      MUI_Aura_22: -3891299425799036480
+      MUI_Aura_23: 2513662609848865318
+      MUI_Aura_24: -5390682652845645703
+      MUI_Aura_25: -7204776998864836763
+      MUI_Aura_26: -8128113935491885158
+      MUI_Aura_27: 339700524995236369
+      MUI_Aura_28: -8507730754154252496
+      MUI_Aura_29: -2316336457675190832
+      MUI_Aura_3: -5789042607521021560
+      MUI_Aura_30: -7301409950269163266
+      MUI_Aura_31: -5408914749244198060
+      MUI_Aura_32: -7907874323284611087
+      MUI_Aura_33: -8147832457516311689
+      MUI_Aura_34: 3210196599998743039
+      MUI_Aura_35: 5763736106803149832
+      MUI_Aura_36: 3602123403676298607
+      MUI_Aura_37: -8411985956319671539
+      MUI_Aura_38: 6407360995761819793
+      MUI_Aura_39: -7993927967293157380
+      MUI_Aura_4: 3675457977772946195
+      MUI_Aura_40: -3607737822000415037
+      MUI_Aura_41: 6502632955749672771
+      MUI_Aura_42: 8072555531453184373
+      MUI_Aura_43: 371952193809628912
+      MUI_Aura_44: 3181940134716640735
+      MUI_Aura_45: 7969656858444723890
+      MUI_Aura_46: -6700498666336585868
+      MUI_Aura_47: -1107872172758376896
+      MUI_Aura_48: 3835884663914776153
+      MUI_Aura_49: -6186147808065560827
+      MUI_Aura_5: 529895779792224418
+      MUI_Aura_50: 6560738004834151666
+      MUI_Aura_51: 1746905179027444790
+      MUI_Aura_52: -4890344924292931195
+      MUI_Aura_53: 4599194217270334575
+      MUI_Aura_54: -7463446140623065114
+      MUI_Aura_55: 307879994551149160
+      MUI_Aura_56: 4855068490020984957
+      MUI_Aura_57: 6003192126871692420
+      MUI_Aura_58: -3325853537575234622
+      MUI_Aura_59: -8857242900256155939
+      MUI_Aura_6: -3911544439456232387
+      MUI_Aura_60: 7495711209838426269
+      MUI_Aura_61: -5676236009591815669
+      MUI_Aura_62: 330737898330894109
+      MUI_Aura_63: 4692921812344277255
+      MUI_Aura_64: 1835200379605969851
+      MUI_Aura_65: 3380237818357733165
+      MUI_Aura_66: 691189229667915740
+      MUI_Aura_67: 6952981568203195210
+      MUI_Aura_68: -2051310991370247481
+      MUI_Aura_69: 7942050340112535445
+      MUI_Aura_7: 1926277176798038702
+      MUI_Aura_70: -2275268813063259919
+      MUI_Aura_71: -6683678989380506860
+      MUI_Aura_72: -3220696071517129096
+      MUI_Aura_73: -5364929170587533110
+      MUI_Aura_74: 5956390980304830703
+      MUI_Aura_75: 8495568742292577905
+      MUI_Aura_76: -9025433474759236367
+      MUI_Aura_77: -703147378145806151
+      MUI_Aura_78: -4364444766496323023
+      MUI_Aura_79: 2604858232091097097
+      MUI_Aura_8: 6873720331984713986
+      MUI_Aura_80: -2373218729962603468
+      MUI_Aura_81: -3330205427289495768
+      MUI_Aura_82: -3375559683376451605
+      MUI_Aura_83: 6306936305749612502
+      MUI_Aura_84: 2685305444243631827
+      MUI_Aura_85: 7188278519369419847
+      MUI_Aura_86: 7781133874861452381
+      MUI_Aura_87: -2704820654054596234
+      MUI_Aura_88: -3061260450210669017
+      MUI_Aura_89: -869198941279836829
+      MUI_Aura_9: 7506996578788886218
+      MUI_Aura_90: 1536449972204206812
+      MUI_Aura_91: -2103550151532180433
+      MUI_Aura_92: 2087559062365660658
+      MUI_Aura_93: 4051555480216112734
+      MUI_Aura_94: -2777827846009006929
+      MUI_Aura_95: 5942350318680505918
+      MUI_Aura_96: -3434366037862246801
+      MUI_Aura_97: -1854759031883422428
+      MUI_Aura_98: -5664607296969437631
+      MUI_Aura_99: -7287328507372503452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

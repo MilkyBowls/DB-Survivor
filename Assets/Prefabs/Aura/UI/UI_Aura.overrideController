@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_Aura
+  m_Controller: {fileID: 9100000, guid: 57f81d1bb5ddf0b44841a73cac87424a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ae6ccd5b177d93b44ba714faba5efb92, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 50debdd8afe027f49890c8f8af96edd0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c0ea4be19cc40c742a73e51838a580fe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fa9dbf3322e08c244bfc07f2d853e119, type: 2}
