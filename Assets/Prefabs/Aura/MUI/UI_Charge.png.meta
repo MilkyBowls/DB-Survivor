@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: 95fc35f97d9c716419edbb09f4bf7786
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5253600421724858680
+    second: UI_Charge_0
+  - first:
+      213: 550539855490476344
+    second: UI_Charge_1
+  - first:
+      213: 1685444435557922861
+    second: UI_Charge_2
+  - first:
+      213: -3811153904741859399
+    second: UI_Charge_3
+  - first:
+      213: 818077993946287596
+    second: UI_Charge_4
+  - first:
+      213: 6487368396160384006
+    second: UI_Charge_5
+  - first:
+      213: 807584105580411785
+    second: UI_Charge_6
+  - first:
+      213: 1408515438134750177
+    second: UI_Charge_7
+  - first:
+      213: -4110012261670672485
+    second: UI_Charge_8
+  - first:
+      213: -3269884984057344276
+    second: UI_Charge_9
+  - first:
+      213: 6987002832992281811
+    second: UI_Charge_10
+  - first:
+      213: -4539869836965866777
+    second: UI_Charge_11
+  - first:
+      213: 7101692495184747561
+    second: UI_Charge_12
+  - first:
+      213: -7642071423682648096
+    second: UI_Charge_13
+  - first:
+      213: 504672374888512661
+    second: UI_Charge_14
+  - first:
+      213: 5914802380272871517
+    second: UI_Charge_15
+  - first:
+      213: -8631318659373349550
+    second: UI_Charge_16
+  - first:
+      213: 487556290047548073
+    second: UI_Charge_17
+  - first:
+      213: 5576457042532936027
+    second: UI_Charge_18
+  - first:
+      213: -2104850203841138527
+    second: UI_Charge_19
+  - first:
+      213: 5706162637302066730
+    second: UI_Charge_20
+  - first:
+      213: -5922253818509089239
+    second: UI_Charge_21
+  - first:
+      213: 7857861218169027698
+    second: UI_Charge_22
+  - first:
+      213: -3543680509256208254
+    second: UI_Charge_23
+  - first:
+      213: -8135188524816446111
+    second: UI_Charge_24
+  - first:
+      213: -47651894641584760
+    second: UI_Charge_25
+  - first:
+      213: -4128396458318955525
+    second: UI_Charge_26
+  - first:
+      213: -5205460009645687364
+    second: UI_Charge_27
+  - first:
+      213: -6660059102109588149
+    second: UI_Charge_28
+  - first:
+      213: -5111629618172087718
+    second: UI_Charge_29
+  - first:
+      213: -1959221364658672797
+    second: UI_Charge_30
+  - first:
+      213: 8777079046816592487
+    second: UI_Charge_31
+  - first:
+      213: 2601108552655395455
+    second: UI_Charge_32
+  - first:
+      213: -5335657912382689742
+    second: UI_Charge_33
+  - first:
+      213: -2355060896762166775
+    second: UI_Charge_34
+  - first:
+      213: 2048646845937521588
+    second: UI_Charge_35
+  - first:
+      213: -2233793171404382715
+    second: UI_Charge_36
+  - first:
+      213: 7299707286864442092
+    second: UI_Charge_37
+  - first:
+      213: 3444285544123680192
+    second: UI_Charge_38
+  - first:
+      213: 844472413812026221
+    second: UI_Charge_39
+  - first:
+      213: -1612451177078803618
+    second: UI_Charge_40
+  - first:
+      213: 7417513591948788053
+    second: UI_Charge_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_Charge_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 7267
+        width: 393
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839a0c0bfb988e840800000000000000
+      internalID: 5253600421724858680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_2
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 7279
+        width: 351
+        height: 534
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28b616c8c6e36710800000000000000
+      internalID: 1685444435557922861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_3
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 7267
+        width: 382
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfb48b47bf0c1bc0800000000000000
+      internalID: -3811153904741859399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_4
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 7512
+        width: 370
+        height: 301
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced8bb3e9956a5b00800000000000000
+      internalID: 818077993946287596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_10
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 7321
+        width: 275
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d42721de02d6f060800000000000000
+      internalID: 6987002832992281811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 6706
+        width: 386
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c5b8fa2b74e8260800000000000000
+      internalID: 7101692495184747561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 6706
+        width: 378
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cbe21e9d4f00700800000000000000
+      internalID: 504672374888512661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_15
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 6725
+        width: 30
+        height: 531
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58acc84d69951250800000000000000
+      internalID: 5914802380272871517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_16
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 6870
+        width: 470
+        height: 386
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255c9d4f865673880800000000000000
+      internalID: -8631318659373349550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_30
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 6744
+        width: 248
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36be92b9c827fc4e0800000000000000
+      internalID: -1959221364658672797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_31
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6145
+        width: 385
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762f60fd3e27ec970800000000000000
+      internalID: 8777079046816592487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_32
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 6145
+        width: 397
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a5147827ef81420800000000000000
+      internalID: 2601108552655395455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_33
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 6160
+        width: 39
+        height: 531
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e6d61f56fe3f5b0800000000000000
+      internalID: -5335657912382689742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_34
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 6183
+        width: 23
+        height: 527
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90204109794215fd0800000000000000
+      internalID: -2355060896762166775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_35
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 6477
+        width: 432
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b39452c3714e6c10800000000000000
+      internalID: 2048646845937521588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5579
+        width: 401
+        height: 550
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e9fbc12f8fff0e0800000000000000
+      internalID: -2233793171404382715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_37
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 5587
+        width: 378
+        height: 542
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2b2e51a15cd4560800000000000000
+      internalID: 7299707286864442092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_38
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 5595
+        width: 133
+        height: 534
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5418a247f8ccf20800000000000000
+      internalID: 3444285544123680192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_39
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 5595
+        width: 69
+        height: 534
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6be1e7af2b28bb00800000000000000
+      internalID: 844472413812026221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5022
+        width: 374
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53be84923c6f99e0800000000000000
+      internalID: -1612451177078803618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_41
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 5022
+        width: 378
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5514dbcef4d40f660800000000000000
+      internalID: 7417513591948788053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_42
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 5037
+        width: 210
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016ab52bfeb9b5d4d9521f8cb3b056cc
+      internalID: 81473901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_43
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4464
+        width: 382
+        height: 543
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a6c6afb2e1a1f44bce622e584814cc
+      internalID: -1214875248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_44
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 4472
+        width: 290
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de8b0c63498e5c41a28e525d961f03d
+      internalID: 1861312303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_45
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 4472
+        width: 187
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f68e36d5e7c5fc4aaba7efdcdcbef40
+      internalID: 18435850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_46
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3903
+        width: 374
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e470df392ae91534a9899601e231aa8f
+      internalID: 1969372264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_47
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3911
+        width: 336
+        height: 538
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c941a5d5c51a93845a21bd2422f8d973
+      internalID: 1841340147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3345
+        width: 378
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88314139c6daf74188c7f1656fa1699
+      internalID: -1955691275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_49
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2788
+        width: 378
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44d101f683daae4481e2275345dd892
+      internalID: -1405045826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2234
+        width: 374
+        height: 542
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0326d4a50ecc6814db558c30a888718c
+      internalID: -679063293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_51
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2238
+        width: 375
+        height: 538
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42771d5373275b4ca84f9820005955e
+      internalID: -784230775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1676
+        width: 370
+        height: 543
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2087e1360d2e1e44d948b19d549bf9d9
+      internalID: -1382165866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_53
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1680
+        width: 371
+        height: 539
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8682b51f225f72d4b970e0e97ba70e6d
+      internalID: 1500190610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_54
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1684
+        width: 367
+        height: 539
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10189e4710b157e4bb5f1a9ed6803e44
+      internalID: -1677943402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_55
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1119
+        width: 370
+        height: 542
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed081ff15d113c4cb7d9e4868e7f510
+      internalID: 152607224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_56
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1127
+        width: 370
+        height: 538
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8312bfe2b7af6e45b53f301640e0323
+      internalID: -2010373429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_57
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1127
+        width: 371
+        height: 538
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b221b6be8e26a46b445beae406a051
+      internalID: -79167476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_58
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1127
+        width: 359
+        height: 538
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04f1cce822222a4995693a77437ac65
+      internalID: 940587102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_59
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 561
+        width: 370
+        height: 543
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce90c1107a3a7f845b5126060331228c
+      internalID: 1417746834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_60
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 565
+        width: 370
+        height: 539
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee0020394a44c6459fb0ba7463344d9
+      internalID: 738905059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Charge_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 370
+        height: 538
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e910fc63a177a514488360409deb649f
+      internalID: -1532459759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4be77d19e563a744098071fcc634995c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      UI_Charge_0: 5253600421724858680
+      UI_Charge_1: 550539855490476344
+      UI_Charge_10: 6987002832992281811
+      UI_Charge_11: -4539869836965866777
+      UI_Charge_12: 7101692495184747561
+      UI_Charge_13: -7642071423682648096
+      UI_Charge_14: 504672374888512661
+      UI_Charge_15: 5914802380272871517
+      UI_Charge_16: -8631318659373349550
+      UI_Charge_17: 487556290047548073
+      UI_Charge_18: 5576457042532936027
+      UI_Charge_19: -2104850203841138527
+      UI_Charge_2: 1685444435557922861
+      UI_Charge_20: 5706162637302066730
+      UI_Charge_21: -5922253818509089239
+      UI_Charge_22: 7857861218169027698
+      UI_Charge_23: -3543680509256208254
+      UI_Charge_24: -8135188524816446111
+      UI_Charge_25: -47651894641584760
+      UI_Charge_26: -4128396458318955525
+      UI_Charge_27: -5205460009645687364
+      UI_Charge_28: -6660059102109588149
+      UI_Charge_29: -5111629618172087718
+      UI_Charge_3: -3811153904741859399
+      UI_Charge_30: -1959221364658672797
+      UI_Charge_31: 8777079046816592487
+      UI_Charge_32: 2601108552655395455
+      UI_Charge_33: -5335657912382689742
+      UI_Charge_34: -2355060896762166775
+      UI_Charge_35: 2048646845937521588
+      UI_Charge_36: -2233793171404382715
+      UI_Charge_37: 7299707286864442092
+      UI_Charge_38: 3444285544123680192
+      UI_Charge_39: 844472413812026221
+      UI_Charge_4: 818077993946287596
+      UI_Charge_40: -1612451177078803618
+      UI_Charge_41: 7417513591948788053
+      UI_Charge_42: 81473901
+      UI_Charge_43: -1214875248
+      UI_Charge_44: 1861312303
+      UI_Charge_45: 18435850
+      UI_Charge_46: 1969372264
+      UI_Charge_47: 1841340147
+      UI_Charge_48: -1955691275
+      UI_Charge_49: -1405045826
+      UI_Charge_5: 6487368396160384006
+      UI_Charge_50: -679063293
+      UI_Charge_51: -784230775
+      UI_Charge_52: -1382165866
+      UI_Charge_53: 1500190610
+      UI_Charge_54: -1677943402
+      UI_Charge_55: 152607224
+      UI_Charge_56: -2010373429
+      UI_Charge_57: -79167476
+      UI_Charge_58: 940587102
+      UI_Charge_59: 1417746834
+      UI_Charge_6: 807584105580411785
+      UI_Charge_60: 738905059
+      UI_Charge_61: -1532459759
+      UI_Charge_7: 1408515438134750177
+      UI_Charge_8: -4110012261670672485
+      UI_Charge_9: -3269884984057344276
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

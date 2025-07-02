@@ -18,6 +18,28 @@ MonoBehaviour:
   voiceLines: []
   transformationShout: {fileID: 0}
   startingWeaponPrefab: {fileID: 3490009740551356749, guid: 78a8958a784ae7943bfe77386641a7f2, type: 3}
+  baseAuraProfile:
+    formName: 
+    transformationPortrait: {fileID: 0}
+    animatorOverride: {fileID: 0}
+    transformationSFX: {fileID: 0}
+    kiCostToTransform: 0
+    auraAnimatorOverride: {fileID: 22100000, guid: a8356ad60d63d2449b1a780134ff4b41, type: 2}
+    auraChargeParticles:
+    - {fileID: 8208719630833260415, guid: 4c0f2848559e8e2478b4adf85d51942b, type: 3}
+    - {fileID: 8208719630833260415, guid: 5d991f202b2e4af43aa2d864dc50e1d0, type: 3}
+    - {fileID: 8208719630833260415, guid: 74dd6f72f507c2840931c534d2a92ac3, type: 3}
+    - {fileID: 8208719630833260415, guid: 2ea8a0cc929b7384e83c00188efff90d, type: 3}
+    - {fileID: 8208719630833260415, guid: 0d5f755b25cb846458fb6a8320fe16f7, type: 3}
+    - {fileID: 8208719630833260415, guid: eef282d2ade4fa642b354c686f53e17c, type: 3}
+    - {fileID: 8208719630833260415, guid: e58a5047d780e6c41a62bd1bca924e3e, type: 3}
+    - {fileID: 8208719630833260415, guid: fdaad94f7a4263c4b9748248cc5d1a77, type: 3}
+    alwaysShowAuraParticles: 0
+    attackKiMultiplier: 0
+    kiDrainPerSecond: 0
+    healthMultiplier: 0
+    damageMultiplier: 0
+    speedMultiplier: 0
   maxHealth: 1000
   damage: 1
   movementSpeed: 2
@@ -36,9 +58,17 @@ MonoBehaviour:
     animatorOverride: {fileID: 9100000, guid: 64fa2727f9a76fa4693c95eb5f538fe7, type: 2}
     transformationSFX: {fileID: 0}
     kiCostToTransform: 10
-    auraAnimatorOverride: {fileID: 0}
-    auraChargeParticles: []
-    alwaysShowAuraParticles: 0
+    auraAnimatorOverride: {fileID: 22100000, guid: 9172324edfe082844819749a64bbfd17, type: 2}
+    auraChargeParticles:
+    - {fileID: 8208719630833260415, guid: 348ccc61dd0e2164c926759100cbd7dd, type: 3}
+    - {fileID: 8208719630833260415, guid: 40cd0579ddec2994db39bad14a59a5e3, type: 3}
+    - {fileID: 8208719630833260415, guid: 4fb643c499b267c4bbeccd5a734c3dc1, type: 3}
+    - {fileID: 8208719630833260415, guid: 7afdf66236db45846b01737ca9568d17, type: 3}
+    - {fileID: 8208719630833260415, guid: e55f64eaa71631d4faec5922f5650e62, type: 3}
+    - {fileID: 8208719630833260415, guid: 3293b4a63476d8947ad8ec79f412c5ae, type: 3}
+    - {fileID: 8208719630833260415, guid: aed8f87e68ea9bc4eac60e611b2ad74e, type: 3}
+    - {fileID: 8208719630833260415, guid: 10619348e6cecd34392a3b87ea5e61ad, type: 3}
+    alwaysShowAuraParticles: 1
     attackKiMultiplier: 1.25
     kiDrainPerSecond: 0
     healthMultiplier: 1
@@ -49,9 +79,17 @@ MonoBehaviour:
     animatorOverride: {fileID: 9100000, guid: 02c904b34e361e3469f81ae9363d8af2, type: 2}
     transformationSFX: {fileID: 0}
     kiCostToTransform: 20
-    auraAnimatorOverride: {fileID: 22100000, guid: 9a025ef11a4c6de4788a617b472f067f, type: 2}
-    auraChargeParticles: []
-    alwaysShowAuraParticles: 0
+    auraAnimatorOverride: {fileID: 22100000, guid: cd2c8b9d59238884f92c7672d983fbfc, type: 2}
+    auraChargeParticles:
+    - {fileID: 8208719630833260415, guid: c601bf558d68d6a459da64e86c7aa2b8, type: 3}
+    - {fileID: 8208719630833260415, guid: 1373691622ef25d448082712ed45e587, type: 3}
+    - {fileID: 8208719630833260415, guid: c141d9bf67b96374d990289e688d8a53, type: 3}
+    - {fileID: 8208719630833260415, guid: af0128aeee85bf740ac1ad201add7860, type: 3}
+    - {fileID: 8208719630833260415, guid: 4b7aa8485a010384cbe67058349fe630, type: 3}
+    - {fileID: 8208719630833260415, guid: 0af38f078b5419d40bb15bc020796360, type: 3}
+    - {fileID: 8208719630833260415, guid: b413335cc0b90ec4da41ae6dbd504e4b, type: 3}
+    - {fileID: 8208719630833260415, guid: 7cf4b1eca888f2642aab839180695952, type: 3}
+    alwaysShowAuraParticles: 1
     attackKiMultiplier: 1.5
     kiDrainPerSecond: 0
     healthMultiplier: 1.25
@@ -62,9 +100,37 @@ MonoBehaviour:
     animatorOverride: {fileID: 9100000, guid: 02c904b34e361e3469f81ae9363d8af2, type: 2}
     transformationSFX: {fileID: 0}
     kiCostToTransform: 40
-    auraAnimatorOverride: {fileID: 22100000, guid: 9a025ef11a4c6de4788a617b472f067f, type: 2}
-    auraChargeParticles: []
-    alwaysShowAuraParticles: 0
+    auraAnimatorOverride: {fileID: 22100000, guid: cd2c8b9d59238884f92c7672d983fbfc, type: 2}
+    auraChargeParticles:
+    - {fileID: 8208719630833260415, guid: b51f79a3e594735409ef13990f6a3739, type: 3}
+    - {fileID: 8208719630833260415, guid: f2617722f183f0843840ea0c496cc410, type: 3}
+    - {fileID: 8208719630833260415, guid: 97f08391d1f8e7347ab133bd984a83aa, type: 3}
+    - {fileID: 8208719630833260415, guid: 55207ef60d670ae44a24fa15a4051c38, type: 3}
+    - {fileID: 8208719630833260415, guid: a469d8df030b4864db3ad9d31bce4e32, type: 3}
+    - {fileID: 8208719630833260415, guid: 332c8525f6beda1438944d26c5a4a832, type: 3}
+    - {fileID: 8208719630833260415, guid: 29231e7ff33c1e840964e609b234aa79, type: 3}
+    - {fileID: 8208719630833260415, guid: 123be9475f0988140b3f3ce46511ff0a, type: 3}
+    - {fileID: 8208719630833260415, guid: 8d9450250597a224ba7d43c4013dae37, type: 3}
+    - {fileID: 8208719630833260415, guid: 55308640b951ab14bbf0cced3b4f4619, type: 3}
+    - {fileID: 8208719630833260415, guid: 9ef3beef0ff6f1f488fec10d17f3b8bb, type: 3}
+    - {fileID: 8208719630833260415, guid: eebb55319665e1b48a6139cbd14c4663, type: 3}
+    - {fileID: 8208719630833260415, guid: 34ea6dc6d6a59384783ea82b90debd14, type: 3}
+    - {fileID: 8208719630833260415, guid: e1f542e2234911e469d41fe894215a90, type: 3}
+    - {fileID: 8208719630833260415, guid: ed0312cae1a4ac34da88d83e3c276a25, type: 3}
+    - {fileID: 8208719630833260415, guid: 6c3c20fa6c21aaa4e9339c9fb695e127, type: 3}
+    - {fileID: 8208719630833260415, guid: 3e61c2aed599f3d41a0dad9251c7557b, type: 3}
+    - {fileID: 8208719630833260415, guid: 7610f59f55b036140890fe696097ce7e, type: 3}
+    - {fileID: 8208719630833260415, guid: 550b804d88873fe4a8e99d355c3212b5, type: 3}
+    - {fileID: 8208719630833260415, guid: 2c2f3d8b6a358b8419b0f69ac3f57d59, type: 3}
+    - {fileID: 8208719630833260415, guid: 57f93ec929834db4b8b9cb2acf053cfd, type: 3}
+    - {fileID: 8208719630833260415, guid: 527c66f92585ec24fbd0b91d3386bbbd, type: 3}
+    - {fileID: 8208719630833260415, guid: 1dd9e2a5dc03d6449b6af99e640c2075, type: 3}
+    - {fileID: 8208719630833260415, guid: c63955e4e81d7ed4085477e71ca5328c, type: 3}
+    - {fileID: 8208719630833260415, guid: a2cb6318822f4c342a5dab4e5f0d5070, type: 3}
+    - {fileID: 8208719630833260415, guid: f5337926676c89c4da1f7e389807ade5, type: 3}
+    - {fileID: 8208719630833260415, guid: 04d068ffd2348d943a89d16aa2c19dbc, type: 3}
+    - {fileID: 8208719630833260415, guid: 12bd0a51337676341810222988024db7, type: 3}
+    alwaysShowAuraParticles: 1
     attackKiMultiplier: 1.75
     kiDrainPerSecond: 0
     healthMultiplier: 1.5
@@ -75,9 +141,37 @@ MonoBehaviour:
     animatorOverride: {fileID: 9100000, guid: cf0d180b7a6e0cd4c9ab702d64027163, type: 2}
     transformationSFX: {fileID: 0}
     kiCostToTransform: 60
-    auraAnimatorOverride: {fileID: 22100000, guid: 9a025ef11a4c6de4788a617b472f067f, type: 2}
-    auraChargeParticles: []
-    alwaysShowAuraParticles: 0
+    auraAnimatorOverride: {fileID: 22100000, guid: cd2c8b9d59238884f92c7672d983fbfc, type: 2}
+    auraChargeParticles:
+    - {fileID: 8208719630833260415, guid: 766598263a882ed448fb3773596cd505, type: 3}
+    - {fileID: 8208719630833260415, guid: 3f128d937e88f174c861b9dad7c8cc6f, type: 3}
+    - {fileID: 8208719630833260415, guid: 47a92330f94cbf14f9ed142113a49878, type: 3}
+    - {fileID: 8208719630833260415, guid: ea525c6d84005824ea147680223fe080, type: 3}
+    - {fileID: 8208719630833260415, guid: b7201e8436cf16744897de9328fbb3f5, type: 3}
+    - {fileID: 8208719630833260415, guid: 38d32ef8fc2d6894c8bb86b404aaa405, type: 3}
+    - {fileID: 8208719630833260415, guid: 94365bd9bb7e8754aa1d3cf5b844b506, type: 3}
+    - {fileID: 8208719630833260415, guid: 03c359602701e8b4ca1f666b01f202d3, type: 3}
+    - {fileID: 8208719630833260415, guid: badcd7f68bdd10d41bd4c9ecc2aa7c01, type: 3}
+    - {fileID: 8208719630833260415, guid: 5dcfcfc73e49bd049ab0381b23eecf75, type: 3}
+    - {fileID: 8208719630833260415, guid: 68acbb46d9310914fb6869afdd9531a2, type: 3}
+    - {fileID: 8208719630833260415, guid: 49a67eeef8bd5b348824a9638a4c3df5, type: 3}
+    - {fileID: 8208719630833260415, guid: 4c182192523973f4898f47eadff6a5a3, type: 3}
+    - {fileID: 8208719630833260415, guid: f757dd57e714993458842c3d3634e5d3, type: 3}
+    - {fileID: 8208719630833260415, guid: 5618260c8bdfda64dabfc1b6853ab318, type: 3}
+    - {fileID: 8208719630833260415, guid: 845c709d835e7fc47a5767253d3a8187, type: 3}
+    - {fileID: 8208719630833260415, guid: da2ebf585e8734542be533ef2f1ad47d, type: 3}
+    - {fileID: 8208719630833260415, guid: b0b6f68716c58604582c212ad7d3f8e8, type: 3}
+    - {fileID: 8208719630833260415, guid: a54d6491269c2024bad50da04f58814e, type: 3}
+    - {fileID: 8208719630833260415, guid: b40eb808f083dd241b57c7da141d5852, type: 3}
+    - {fileID: 8208719630833260415, guid: 214d92a6a9186664eaee76dd5ae14ac8, type: 3}
+    - {fileID: 8208719630833260415, guid: b13e797b2fcee4a46856b8008845c52c, type: 3}
+    - {fileID: 8208719630833260415, guid: 8d3aebc334feb9942ac78479d02d71a5, type: 3}
+    - {fileID: 8208719630833260415, guid: 0ec18fe48fa3d53429854cefea248778, type: 3}
+    - {fileID: 8208719630833260415, guid: ef593468aabedd048a4ee67904b142ab, type: 3}
+    - {fileID: 8208719630833260415, guid: 3c055a34aaaff334db42684b81d963e1, type: 3}
+    - {fileID: 8208719630833260415, guid: 66b4221223fc2104c93f012a83363ad9, type: 3}
+    - {fileID: 8208719630833260415, guid: b960e9ee4f11dbd4a99dd310be53989e, type: 3}
+    alwaysShowAuraParticles: 1
     attackKiMultiplier: 2
     kiDrainPerSecond: 0
     healthMultiplier: 1.75
@@ -102,8 +196,23 @@ MonoBehaviour:
     transformationSFX: {fileID: 0}
     kiCostToTransform: 150
     auraAnimatorOverride: {fileID: 0}
-    auraChargeParticles: []
-    alwaysShowAuraParticles: 0
+    auraChargeParticles:
+    - {fileID: 8208719630833260415, guid: 86230f7e3897bbc48a343bda86a22445, type: 3}
+    - {fileID: 8208719630833260415, guid: 98931b32de4161e4985c802d7dddaaa0, type: 3}
+    - {fileID: 8208719630833260415, guid: 7c708a543fc43b548a4ae58e82df4540, type: 3}
+    - {fileID: 8208719630833260415, guid: 42ee18d2b6a5192498abc1f222c9cc45, type: 3}
+    - {fileID: 8208719630833260415, guid: e142ba7c7adef4b4d9c5cc204034b646, type: 3}
+    - {fileID: 8208719630833260415, guid: d9274e45e4477ef48a6d8af669f30f02, type: 3}
+    - {fileID: 8208719630833260415, guid: af113fd05b5bcfd489d9af175b101f42, type: 3}
+    - {fileID: 8208719630833260415, guid: 58b961f0883238647b2f2832ccb0ffb2, type: 3}
+    - {fileID: 8208719630833260415, guid: 6fe0c1286f3a9894696793f14c07f719, type: 3}
+    - {fileID: 8208719630833260415, guid: f804c24618be2374c97a4e9827c2103c, type: 3}
+    - {fileID: 8208719630833260415, guid: 5d766df9625b1da4a8f7304ac51e88e3, type: 3}
+    - {fileID: 8208719630833260415, guid: 65ce21f6f1b25b84daa1ac1abe61e549, type: 3}
+    - {fileID: 8208719630833260415, guid: 384d49d918816a043b52f625a41e0c9a, type: 3}
+    - {fileID: 8208719630833260415, guid: 4792aeaafcd445946b1322ecb09877f6, type: 3}
+    - {fileID: 8208719630833260415, guid: 90e12106875e23e48ba26fe9c5b79f60, type: 3}
+    alwaysShowAuraParticles: 1
     attackKiMultiplier: 4
     kiDrainPerSecond: 0
     healthMultiplier: 3.5

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 555b8fca02c9eae4aa76cd97c91a76a4
+guid: 55dcfa89591d00e4da1a9e550def5e35
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -11,51 +11,6 @@ TextureImporter:
   - first:
       213: -6514766186222854426
     second: SSJ_Aura_2
-  - first:
-      213: 7712495271131717244
-    second: SSJ_Aura_3
-  - first:
-      213: -5563804012341680295
-    second: SSJ_Aura_4
-  - first:
-      213: 2330640843054602402
-    second: SSJ_Aura_5
-  - first:
-      213: 3216354899675361851
-    second: SSJ_Aura_6
-  - first:
-      213: -7762007746471788736
-    second: SSJ_Aura_7
-  - first:
-      213: -6071730770151134584
-    second: SSJ_Aura_8
-  - first:
-      213: 5555887149335633882
-    second: SSJ_Aura_9
-  - first:
-      213: -324747464285897708
-    second: SSJ_Aura_10
-  - first:
-      213: 194620247360517523
-    second: SSJ_Aura_11
-  - first:
-      213: -3704609279759383285
-    second: SSJ_Aura_12
-  - first:
-      213: -3089538428495284352
-    second: SSJ_Aura_13
-  - first:
-      213: 1202219504397360033
-    second: SSJ_Aura_14
-  - first:
-      213: 2584647384144287056
-    second: SSJ_Aura_15
-  - first:
-      213: 4139183739328441563
-    second: SSJ_Aura_16
-  - first:
-      213: 9056442672921420514
-    second: SSJ_Aura_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,19 +102,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -167,12 +109,12 @@ TextureImporter:
       name: SSJ_Aura_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 910
-        width: 378
-        height: 458
-      alignment: 9
-      pivot: {x: 0.5, y: 0.14}
+        x: 9
+        y: 226
+        width: 185
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,19 +131,19 @@ TextureImporter:
       name: SSJ_Aura_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 443
-        width: 378
-        height: 467
-      alignment: 9
-      pivot: {x: 0.5, y: 0.14}
+        x: 212
+        y: 221
+        width: 172
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5097d183229a5004da8cf68f309ec108
+      spriteID: ddd2e64f3486e35b0800000000000000
       internalID: -5386753463215575587
       vertices: []
       indices: 
@@ -211,19 +153,19 @@ TextureImporter:
       name: SSJ_Aura_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 10
-        width: 378
-        height: 433
-      alignment: 9
-      pivot: {x: 0.5, y: 0.14}
+        x: 9
+        y: 9
+        width: 163
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c075800d315eec04db26f39c0a1ebf7e
+      spriteID: 6eed57b9ba6e695a0800000000000000
       internalID: -6514766186222854426
       vertices: []
       indices: 
@@ -233,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ed3916bbba7acec4ea10d560edaf586d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -241,9 +183,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":378.0,"y":1368.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
       SSJ_Aura_0: -8821776729149430855
       SSJ_Aura_1: -5386753463215575587

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,9 +16,11 @@ public class AuraController : MonoBehaviour
 
     private Vector3 defaultScale;
     private Vector3 defaultLocalPosition;
+    private Vector3 currentScale;
     private Color baseColor;
     private bool isActive = false;
-    private Vector3 currentScale;
+    private bool isCharging = false;
+    private Coroutine particleLoopCoroutine;
     private List<ParticleSystem> persistentParticles = new List<ParticleSystem>();
 
     [Header("Charging Particle Effects")]
@@ -26,11 +28,14 @@ public class AuraController : MonoBehaviour
     public Transform particleSpawnArea;
     public float particlesPerSecond = 4f;
     public Vector2 spawnRadius = new Vector2(0.5f, 0.5f);
-    public Vector2 upwardVelocityRange = new Vector2(0.5f, 1.5f);
     public float fadeDuration = 0.5f;
 
-    private Coroutine particleLoopCoroutine;
-    private bool isCharging = false;
+    [Header("Persistent Aura Particle Loop")]
+    public bool usePersistentAuraLoop = true;
+    public float persistentAuraInterval = 2f;
+    public int persistentParticlesPerCycle = 2;
+    private Coroutine persistentParticleCoroutine;
+
 
     void Start()
     {
@@ -38,6 +43,7 @@ public class AuraController : MonoBehaviour
             baseColor = auraRenderer.color;
 
         defaultScale = transform.localScale;
+        currentScale = defaultScale;
         defaultLocalPosition = transform.localPosition;
     }
 
@@ -65,8 +71,11 @@ public class AuraController : MonoBehaviour
         if (auraRenderer != null)
         {
             auraRenderer.enabled = true;
-            isActive = true;
         }
+
+        currentScale = defaultScale;
+        transform.localScale = currentScale;
+        isActive = true;
     }
 
     public void DisableAura()
@@ -75,7 +84,8 @@ public class AuraController : MonoBehaviour
         {
             auraAnimator.SetBool("IsActive", false);
             auraAnimator.SetBool("IsCharging", false);
-            auraAnimator.enabled = false;
+            auraAnimator.Rebind();
+            auraAnimator.Update(0f);
         }
 
         if (auraRenderer != null)
@@ -84,11 +94,7 @@ public class AuraController : MonoBehaviour
             auraRenderer.color = baseColor;
         }
 
-        if (particleLoopCoroutine != null)
-        {
-            StopCoroutine(particleLoopCoroutine);
-            particleLoopCoroutine = null;
-        }
+        StopChargingParticles();
 
         isActive = false;
         isCharging = false;
@@ -97,28 +103,39 @@ public class AuraController : MonoBehaviour
 
     public void PlayChargeAnimation(bool charging)
     {
-        Debug.Log($"Aura PlayChargeAnimation({charging}) | Animator: {auraAnimator}, Active: {isActive}");
+        if (!isActive || auraAnimator == null)
+            return;
 
-        if (auraAnimator != null && isActive)
-        {
-            isCharging = charging;
-            auraAnimator.SetBool("IsCharging", charging);
-        }
+        Debug.Log($"[Aura] Charge Triggered: {charging}");
 
         if (charging)
         {
+            if (isCharging) return;
+            isCharging = true;
+
+            auraAnimator.SetBool("IsCharging", true);
+            auraAnimator.ResetTrigger("StartCharge");
+            auraAnimator.SetTrigger("StartCharge");
+
             if (particleLoopCoroutine == null)
                 particleLoopCoroutine = StartCoroutine(LoopChargeParticles());
+
+            transform.localScale = currentScale;
         }
         else
         {
-            if (particleLoopCoroutine != null)
-            {
-                StopCoroutine(particleLoopCoroutine);
-                particleLoopCoroutine = null;
-            }
+            if (!isCharging) return;
+            isCharging = false;
+
+            auraAnimator.SetBool("IsCharging", false);
+
+            // Optional but effective: force immediate transition override
+            auraAnimator.CrossFade("Idle", 0f); // 👈 this forces the Idle animation instantly
+
+            StopChargingParticles();
         }
     }
+
 
     private IEnumerator LoopChargeParticles()
     {
@@ -136,59 +153,164 @@ public class AuraController : MonoBehaviour
         int index = Random.Range(0, chargeParticlePrefabs.Count);
         ParticleSystem prefab = chargeParticlePrefabs[index];
 
-        Vector3 spawnOrigin = particleSpawnArea != null ? particleSpawnArea.position : transform.position;
-        Vector2 offset = new Vector2(
-            Random.Range(-spawnRadius.x, spawnRadius.x),
-            Random.Range(-spawnRadius.y, spawnRadius.y)
-        );
-
-        Vector3 spawnPos = spawnOrigin + (Vector3)offset;
-        ParticleSystem ps = Instantiate(prefab, spawnPos, Quaternion.identity, transform);
-
-        // Optional Rigidbody2D motion
-        Rigidbody2D rb = ps.GetComponent<Rigidbody2D>();
-        if (rb != null)
-        {
-            float upwardForce = Random.Range(upwardVelocityRange.x, upwardVelocityRange.y);
-            rb.linearVelocity = new Vector2(0f, upwardForce);
-        }
-
-        var main = ps.main;
-        main.startColor = new ParticleSystem.MinMaxGradient(new Color(1f, 1f, 1f, 0f), new Color(1f, 1f, 1f, 1f)); // optional gradient
+        ParticleSystem ps = Instantiate(prefab, transform);
+        ps.transform.localPosition = particleSpawnArea != null
+            ? transform.InverseTransformPoint(particleSpawnArea.position)
+            : Vector3.zero;
 
         ps.Play();
         StartCoroutine(FadeOutAndDestroy(ps, ps.main.duration + ps.main.startLifetime.constantMax));
     }
 
+
     private IEnumerator FadeOutAndDestroy(ParticleSystem ps, float totalDuration)
     {
+        if (ps == null) yield break;
+
         float timer = 0f;
         float fadeStart = totalDuration - fadeDuration;
+
         ParticleSystemRenderer psr = ps.GetComponent<ParticleSystemRenderer>();
         Material mat = psr != null ? psr.material : null;
+        Color originalColor = mat != null && mat.HasProperty("_Color") ? mat.color : Color.white;
 
-        if (mat != null && mat.HasProperty("_Color"))
+        while (timer < totalDuration)
         {
-            Color originalColor = mat.color;
+            if (ps == null) yield break;
 
-            while (timer < totalDuration)
+            if (mat != null && timer > fadeStart)
             {
-                if (timer > fadeStart)
-                {
-                    float t = (timer - fadeStart) / fadeDuration;
-                    Color c = originalColor;
-                    c.a = Mathf.Lerp(originalColor.a, 0f, t);
-                    mat.color = c;
-                }
-
-                timer += Time.deltaTime;
-                yield return null;
+                float t = (timer - fadeStart) / fadeDuration;
+                Color c = originalColor;
+                c.a = Mathf.Lerp(originalColor.a, 0f, t);
+                mat.color = c;
             }
 
-            mat.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0f);
+            timer += Time.deltaTime;
+            yield return null;
         }
 
-        Destroy(ps.gameObject);
+        if (ps != null)
+            Destroy(ps.gameObject);
+    }
+
+    public void ApplyTransformationAura(CharacterTransformation transformation)
+    {
+        ClearAuraState();
+
+        foreach (var p in persistentParticles)
+        {
+            if (p != null)
+                Destroy(p.gameObject);
+        }
+        persistentParticles.Clear();
+
+        if (transformation == null) return;
+
+        Debug.Log($"[Aura] Applying transformation: {transformation.formName}");
+        Debug.Log($"[Aura] Animator override: {transformation.auraAnimatorOverride}");
+
+        if (transformation.auraAnimatorOverride != null && auraAnimator != null)
+        {
+            auraAnimator.runtimeAnimatorController = transformation.auraAnimatorOverride;
+        }
+
+        if (transformation.auraChargeParticles != null && transformation.auraChargeParticles.Count > 0)
+        {
+            chargeParticlePrefabs = transformation.auraChargeParticles;
+
+            if (transformation.alwaysShowAuraParticles)
+            {
+                int spawnCount = Mathf.Min(2, chargeParticlePrefabs.Count);
+
+                List<int> usedIndices = new List<int>();
+                for (int i = 0; i < spawnCount; i++)
+                {
+                    int index;
+                    do
+                    {
+                        index = Random.Range(0, chargeParticlePrefabs.Count);
+                    } while (usedIndices.Contains(index) && usedIndices.Count < chargeParticlePrefabs.Count);
+
+                    usedIndices.Add(index);
+
+                    ParticleSystem prefab = chargeParticlePrefabs[index];
+                    ParticleSystem ps = Instantiate(prefab, transform);
+                    ps.transform.localPosition = particleSpawnArea != null
+                        ? transform.InverseTransformPoint(particleSpawnArea.position)
+                        : Vector3.zero;
+
+                    ps.Play();
+                    persistentParticles.Add(ps);
+                }
+
+                // ✅ Moved outside the loop
+                if (usePersistentAuraLoop && persistentParticleCoroutine == null)
+                {
+                    persistentParticleCoroutine = StartCoroutine(PersistentAuraLoop());
+                }
+            }
+
+        }
+
+    }
+
+    public void ClearAuraState()
+    {
+        if (auraAnimator != null)
+        {
+            auraAnimator.runtimeAnimatorController = null;
+            auraAnimator.Rebind();
+            auraAnimator.Update(0f);
+        }
+
+        if (particleLoopCoroutine != null)
+        {
+            StopCoroutine(particleLoopCoroutine);
+            particleLoopCoroutine = null;
+        }
+
+        foreach (var p in persistentParticles)
+        {
+            if (p != null)
+                Destroy(p.gameObject);
+        }
+        persistentParticles.Clear();
+
+        foreach (Transform child in transform)
+        {
+            ParticleSystem ps = child.GetComponent<ParticleSystem>();
+            if (ps != null)
+                Destroy(ps.gameObject);
+        }
+
+        chargeParticlePrefabs = new List<ParticleSystem>();
+        isCharging = false;
+
+        if (persistentParticleCoroutine != null)
+        {
+            StopCoroutine(persistentParticleCoroutine);
+            persistentParticleCoroutine = null;
+        }
+    }
+
+    private void StopChargingParticles()
+    {
+        if (particleLoopCoroutine != null)
+        {
+            StopCoroutine(particleLoopCoroutine);
+            particleLoopCoroutine = null;
+        }
+
+        foreach (Transform child in transform)
+        {
+            ParticleSystem ps = child.GetComponent<ParticleSystem>();
+            if (ps != null && !persistentParticles.Contains(ps))
+            {
+                ps.Stop();
+                Destroy(ps.gameObject, fadeDuration);
+            }
+        }
     }
 
     public void SetAura(Sprite auraSprite) { }
@@ -223,137 +345,73 @@ public class AuraController : MonoBehaviour
         auraRenderer.color = c;
     }
 
-    // public void UpdateAuraOrientation(string animationStateName, bool faceLeft)
-    // {
-    //     if (auraRenderer == null) return;
-
-    //     switch (animationStateName)
-    //     {
-    //         case "Walk":
-    //         case "WalkAttack":
-    //             transform.localRotation = Quaternion.Euler(0f, 0f, 90f);
-
-    //             Vector3 walkScale = defaultScale;
-    //             walkScale.y = Mathf.Abs(walkScale.y) * (faceLeft ? -1f : 1f);
-    //             currentScale = walkScale;
-
-    //             Vector2 walkOffsetFlipped = walkOffset;
-    //             if (faceLeft) walkOffsetFlipped.x *= -1f;
-
-    //             transform.localPosition = defaultLocalPosition + (Vector3)walkOffsetFlipped;
-    //             break;
-
-    //         default:
-    //             transform.localRotation = Quaternion.identity;
-
-    //             Vector3 resetScale = defaultScale;
-    //             resetScale.x = Mathf.Abs(resetScale.x);
-    //             resetScale.y = Mathf.Abs(resetScale.y);
-    //             currentScale = resetScale;
-
-    //             Vector2 idleOffsetFlipped = idleOffset;
-    //             if (faceLeft) idleOffsetFlipped.x *= -1f;
-    //             transform.localPosition = defaultLocalPosition + (Vector3)idleOffsetFlipped;
-    //             break;
-    //     }
-    // }
-
-    public void ApplyTransformationAura(CharacterTransformation transformation)
+    public void UpdateAuraOrientation(string animationStateName, bool faceLeft)
     {
-        ClearAuraState(); // 🔁 Clean everything first
+        if (auraRenderer == null) return;
 
-        // Clear previous persistent particles
-        foreach (var p in persistentParticles)
+        switch (animationStateName)
         {
-            if (p != null)
-                Destroy(p.gameObject);
+            case "Walk":
+            case "WalkAttack":
+                transform.localRotation = Quaternion.Euler(0f, 0f, 90f);
+                Vector3 walkScale = defaultScale;
+                walkScale.y = Mathf.Abs(walkScale.y) * (faceLeft ? -1f : 1f);
+                currentScale = walkScale;
+
+                Vector2 walkOffsetFlipped = walkOffset;
+                if (faceLeft) walkOffsetFlipped.x *= -1f;
+                transform.localPosition = defaultLocalPosition + (Vector3)walkOffsetFlipped;
+                break;
+
+            default:
+                transform.localRotation = Quaternion.identity;
+                Vector3 resetScale = defaultScale;
+                resetScale.x = Mathf.Abs(resetScale.x);
+                resetScale.y = Mathf.Abs(resetScale.y);
+                currentScale = resetScale;
+
+                Vector2 idleOffsetFlipped = idleOffset;
+                if (faceLeft) idleOffsetFlipped.x *= -1f;
+                transform.localPosition = defaultLocalPosition + (Vector3)idleOffsetFlipped;
+                break;
         }
-        persistentParticles.Clear();
-
-        if (transformation == null) return;
-
-        // Set override controller
-        if (transformation.auraAnimatorOverride != null && auraAnimator != null)
+    }
+    private IEnumerator PersistentAuraLoop()
+    {
+        while (true)
         {
-            auraAnimator.runtimeAnimatorController = transformation.auraAnimatorOverride;
-        }
+            int spawnCount = Mathf.Min(persistentParticlesPerCycle, chargeParticlePrefabs.Count);
+            HashSet<int> usedIndices = new HashSet<int>();
 
-        // Set charge particles
-        if (transformation.auraChargeParticles != null && transformation.auraChargeParticles.Count > 0)
-        {
-            chargeParticlePrefabs = transformation.auraChargeParticles;
-
-            // ✅ Spawn persistent particles if flagged
-            if (transformation.alwaysShowAuraParticles)
+            for (int i = 0; i < spawnCount; i++)
             {
-                foreach (var prefab in chargeParticlePrefabs)
+                int index;
+                do
                 {
-                    // Instantiate with localPosition explicitly
-                    ParticleSystem ps = Instantiate(prefab, transform);
-                    ps.transform.localPosition = particleSpawnArea != null
-                        ? transform.InverseTransformPoint(particleSpawnArea.position)
-                        : Vector3.zero;
-
-                    ps.Play();
-                    persistentParticles.Add(ps);
+                    index = Random.Range(0, chargeParticlePrefabs.Count);
                 }
+                while (usedIndices.Contains(index) && usedIndices.Count < chargeParticlePrefabs.Count);
+
+                usedIndices.Add(index);
+
+                ParticleSystem prefab = chargeParticlePrefabs[index];
+                ParticleSystem ps = Instantiate(prefab, transform);
+
+                ps.transform.localPosition = particleSpawnArea != null
+                    ? transform.InverseTransformPoint(particleSpawnArea.position)
+                    : Vector3.zero;
+
+                ps.Play();
+                persistentParticles.Add(ps);
+
+                // Let it destroy itself naturally after playing
+                float lifetime = ps.main.duration + ps.main.startLifetime.constantMax;
+                Destroy(ps.gameObject, lifetime);
             }
+
+            yield return new WaitForSeconds(persistentAuraInterval);
         }
     }
-
-    public void ClearAuraState()
-    {
-        // Reset animator
-        if (auraAnimator != null)
-        {
-            auraAnimator.runtimeAnimatorController = null;
-            auraAnimator.Rebind();
-            auraAnimator.Update(0f);
-        }
-
-        // Stop particle loop
-        if (particleLoopCoroutine != null)
-        {
-            StopCoroutine(particleLoopCoroutine);
-            particleLoopCoroutine = null;
-        }
-
-        // Clear persistent particles
-        foreach (var p in persistentParticles)
-        {
-            if (p != null)
-                Destroy(p.gameObject);
-        }
-        persistentParticles.Clear();
-
-        // Destroy all remaining ParticleSystems under this object (including charge)
-        foreach (Transform child in transform)
-        {
-            ParticleSystem ps = child.GetComponent<ParticleSystem>();
-            if (ps != null)
-                Destroy(ps.gameObject);
-        }
-
-        // 💥 Clear reference to old prefab list
-        chargeParticlePrefabs = new List<ParticleSystem>();
-
-        isCharging = false;
-    }
-
-    private void UpdatePersistentParticlePositions()
-    {
-        Vector3 targetPosition = particleSpawnArea != null
-            ? particleSpawnArea.position
-            : transform.position;
-
-        foreach (var ps in persistentParticles)
-        {
-            if (ps != null)
-                ps.transform.position = targetPosition;
-        }
-    }
-
-
 
 
 }
