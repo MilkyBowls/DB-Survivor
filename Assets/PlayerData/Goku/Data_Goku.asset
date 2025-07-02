@@ -17,7 +17,7 @@ MonoBehaviour:
   animatorController: {fileID: 9100000, guid: 2d59078d0dd65f7489a478b1e4af9894, type: 2}
   voiceLines: []
   transformationShout: {fileID: 0}
-  startingWeaponPrefab: {fileID: 3490009740551356749, guid: 78a8958a784ae7943bfe77386641a7f2, type: 3}
+  startingWeaponPrefab: {fileID: 4901655239696510724, guid: a5cb0b8b4b5034444a583d10e5fefb15, type: 3}
   baseAuraProfile:
     formName: 
     transformationPortrait: {fileID: 0}
@@ -97,7 +97,7 @@ MonoBehaviour:
     speedMultiplier: 1.5
   - formName: SSJ2
     transformationPortrait: {fileID: -1656325423940868666, guid: a116784080999524eb1dc4730817e4f6, type: 3}
-    animatorOverride: {fileID: 9100000, guid: 02c904b34e361e3469f81ae9363d8af2, type: 2}
+    animatorOverride: {fileID: 9100000, guid: 79aca156deb56774ba313140a1799833, type: 2}
     transformationSFX: {fileID: 0}
     kiCostToTransform: 40
     auraAnimatorOverride: {fileID: 22100000, guid: cd2c8b9d59238884f92c7672d983fbfc, type: 2}
@@ -182,7 +182,7 @@ MonoBehaviour:
     animatorOverride: {fileID: 9100000, guid: 872959ab1fa90c94a878f536032ae540, type: 2}
     transformationSFX: {fileID: 0}
     kiCostToTransform: 100
-    auraAnimatorOverride: {fileID: 0}
+    auraAnimatorOverride: {fileID: 22100000, guid: 3c13da94ea4640b4e925616477b3a558, type: 2}
     auraChargeParticles: []
     alwaysShowAuraParticles: 0
     attackKiMultiplier: 3
