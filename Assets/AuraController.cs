@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class AuraController : MonoBehaviour
@@ -18,6 +19,17 @@ public class AuraController : MonoBehaviour
     private Color baseColor;
     private bool isActive = false;
     private Vector3 currentScale;
+
+    [Header("Charging Particle Effects")]
+    public List<ParticleSystem> chargeParticlePrefabs;
+    public Transform particleSpawnArea;
+    public float particlesPerSecond = 4f;
+    public Vector2 spawnRadius = new Vector2(0.5f, 0.5f);
+    public Vector2 upwardVelocityRange = new Vector2(0.5f, 1.5f);
+    public float fadeDuration = 0.5f;
+
+    private Coroutine particleLoopCoroutine;
+    private bool isCharging = false;
 
     void Start()
     {
@@ -45,7 +57,7 @@ public class AuraController : MonoBehaviour
         if (auraAnimator != null)
         {
             auraAnimator.enabled = true;
-            auraAnimator.gameObject.SetActive(true); // Optional but safe
+            auraAnimator.gameObject.SetActive(true);
             auraAnimator.SetBool("IsActive", true);
         }
 
@@ -71,12 +83,16 @@ public class AuraController : MonoBehaviour
             auraRenderer.color = baseColor;
         }
 
+        if (particleLoopCoroutine != null)
+        {
+            StopCoroutine(particleLoopCoroutine);
+            particleLoopCoroutine = null;
+        }
+
         isActive = false;
+        isCharging = false;
         transform.localScale = defaultScale;
     }
-
-
-    private bool isCharging = false;
 
     public void PlayChargeAnimation(bool charging)
     {
@@ -87,10 +103,94 @@ public class AuraController : MonoBehaviour
             isCharging = charging;
             auraAnimator.SetBool("IsCharging", charging);
         }
+
+        if (charging)
+        {
+            if (particleLoopCoroutine == null)
+                particleLoopCoroutine = StartCoroutine(LoopChargeParticles());
+        }
+        else
+        {
+            if (particleLoopCoroutine != null)
+            {
+                StopCoroutine(particleLoopCoroutine);
+                particleLoopCoroutine = null;
+            }
+        }
+    }
+
+    private IEnumerator LoopChargeParticles()
+    {
+        while (true)
+        {
+            SpawnChargeParticle();
+            yield return new WaitForSeconds(1f / particlesPerSecond);
+        }
+    }
+
+    private void SpawnChargeParticle()
+    {
+        if (chargeParticlePrefabs == null || chargeParticlePrefabs.Count == 0) return;
+
+        int index = Random.Range(0, chargeParticlePrefabs.Count);
+        ParticleSystem prefab = chargeParticlePrefabs[index];
+
+        Vector3 spawnOrigin = particleSpawnArea != null ? particleSpawnArea.position : transform.position;
+        Vector2 offset = new Vector2(
+            Random.Range(-spawnRadius.x, spawnRadius.x),
+            Random.Range(-spawnRadius.y, spawnRadius.y)
+        );
+
+        Vector3 spawnPos = spawnOrigin + (Vector3)offset;
+        ParticleSystem ps = Instantiate(prefab, spawnPos, Quaternion.identity, transform);
+
+        // Optional Rigidbody2D motion
+        Rigidbody2D rb = ps.GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            float upwardForce = Random.Range(upwardVelocityRange.x, upwardVelocityRange.y);
+            rb.linearVelocity = new Vector2(0f, upwardForce);
+        }
+
+        var main = ps.main;
+        main.startColor = new ParticleSystem.MinMaxGradient(new Color(1f, 1f, 1f, 0f), new Color(1f, 1f, 1f, 1f)); // optional gradient
+
+        ps.Play();
+        StartCoroutine(FadeOutAndDestroy(ps, ps.main.duration + ps.main.startLifetime.constantMax));
+    }
+
+    private IEnumerator FadeOutAndDestroy(ParticleSystem ps, float totalDuration)
+    {
+        float timer = 0f;
+        float fadeStart = totalDuration - fadeDuration;
+        ParticleSystemRenderer psr = ps.GetComponent<ParticleSystemRenderer>();
+        Material mat = psr != null ? psr.material : null;
+
+        if (mat != null && mat.HasProperty("_Color"))
+        {
+            Color originalColor = mat.color;
+
+            while (timer < totalDuration)
+            {
+                if (timer > fadeStart)
+                {
+                    float t = (timer - fadeStart) / fadeDuration;
+                    Color c = originalColor;
+                    c.a = Mathf.Lerp(originalColor.a, 0f, t);
+                    mat.color = c;
+                }
+
+                timer += Time.deltaTime;
+                yield return null;
+            }
+
+            mat.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0f);
+        }
+
+        Destroy(ps.gameObject);
     }
 
     public void SetAura(Sprite auraSprite) { }
-
 
     public void FadeInAura(float duration = 0.5f)
     {
