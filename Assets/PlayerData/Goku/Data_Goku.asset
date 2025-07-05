@@ -183,8 +183,16 @@ MonoBehaviour:
     transformationSFX: {fileID: 0}
     kiCostToTransform: 100
     auraAnimatorOverride: {fileID: 22100000, guid: 3c13da94ea4640b4e925616477b3a558, type: 2}
-    auraChargeParticles: []
-    alwaysShowAuraParticles: 0
+    auraChargeParticles:
+    - {fileID: 8208719630833260415, guid: 53c33a75b0ea62e4f94b0131d3dda09d, type: 3}
+    - {fileID: 8208719630833260415, guid: cd15ae40527ce29449fc35e0d532791e, type: 3}
+    - {fileID: 8208719630833260415, guid: 11649f3eda0175d43bd93a2ea4f11ccd, type: 3}
+    - {fileID: 8208719630833260415, guid: 226f67dc097da974ca07cfebb9426198, type: 3}
+    - {fileID: 8208719630833260415, guid: 9775dc62701df0a4082c03f341e81922, type: 3}
+    - {fileID: 8208719630833260415, guid: efe6711ada27be3429d71bacae988ddf, type: 3}
+    - {fileID: 8208719630833260415, guid: 9f94d2df52e508842a01c684c95b6f4c, type: 3}
+    - {fileID: 8208719630833260415, guid: c368ed5ef1b8e9645bcc9b5e8026275e, type: 3}
+    alwaysShowAuraParticles: 1
     attackKiMultiplier: 3
     kiDrainPerSecond: 0
     healthMultiplier: 3
@@ -195,7 +203,7 @@ MonoBehaviour:
     animatorOverride: {fileID: 9100000, guid: d6ba8b533bbaeb14bad502d7f6867eff, type: 2}
     transformationSFX: {fileID: 0}
     kiCostToTransform: 150
-    auraAnimatorOverride: {fileID: 0}
+    auraAnimatorOverride: {fileID: 22100000, guid: 182859ae4630e7d44884e98ef510695f, type: 2}
     auraChargeParticles:
     - {fileID: 8208719630833260415, guid: 86230f7e3897bbc48a343bda86a22445, type: 3}
     - {fileID: 8208719630833260415, guid: 98931b32de4161e4985c802d7dddaaa0, type: 3}

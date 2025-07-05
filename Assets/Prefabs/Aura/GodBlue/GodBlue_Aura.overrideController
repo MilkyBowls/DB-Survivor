@@ -9,5 +9,7 @@ AnimatorOverrideController:
   m_Name: GodBlue_Aura
   m_Controller: {fileID: 9100000, guid: 57f81d1bb5ddf0b44841a73cac87424a, type: 2}
   m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c0ea4be19cc40c742a73e51838a580fe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 18bbc34669617894ab22cbc153d6c97b, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: ae6ccd5b177d93b44ba714faba5efb92, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: a3cda6027c5388944861e75fdf41e05d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e5dd6c6767697f948b888686b4bc355b, type: 2}

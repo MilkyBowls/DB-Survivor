@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WalkAttack_SSJ1
+  m_Name: ChargeAnimation_SSJ2
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,7 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 7268809959888710112, guid: a116784080999524eb1dc4730817e4f6, type: 3}
+      value: {fileID: 4418237279173245952, guid: b3b6a06fc44f3364bbbd2aa0d8152829, type: 3}
+    - time: 0.11666667
+      value: {fileID: 3744740603293049436, guid: b3b6a06fc44f3364bbbd2aa0d8152829, type: 3}
+    - time: 0.23333333
+      value: {fileID: -2800243971216032211, guid: b3b6a06fc44f3364bbbd2aa0d8152829, type: 3}
+    - time: 0.35
+      value: {fileID: -2800243971216032211, guid: b3b6a06fc44f3364bbbd2aa0d8152829, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,13 +50,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 7268809959888710112, guid: a116784080999524eb1dc4730817e4f6, type: 3}
+    - {fileID: 4418237279173245952, guid: b3b6a06fc44f3364bbbd2aa0d8152829, type: 3}
+    - {fileID: 3744740603293049436, guid: b3b6a06fc44f3364bbbd2aa0d8152829, type: 3}
+    - {fileID: -2800243971216032211, guid: b3b6a06fc44f3364bbbd2aa0d8152829, type: 3}
+    - {fileID: -2800243971216032211, guid: b3b6a06fc44f3364bbbd2aa0d8152829, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 0.36666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
