@@ -1,5 +1,6 @@
 public interface IDamageable
 {
+    void TakeDamage(int amount, float delayBeforeDeath);
     void TakeDamage(int amount);
 
     // ✅ Add these for the KiBlast upgrade system

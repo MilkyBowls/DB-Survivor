@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 5dfba87f4d002ea40bf68cac35bf15ea, type: 2}
-  explosionTriggerRadius: 1.5
+  explosionTriggerRadius: 0.5
   stickDistance: 0.2
   magnetSpeed: 5
   explosionDelay: 1

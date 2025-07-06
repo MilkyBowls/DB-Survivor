@@ -27,6 +27,7 @@ public class SaibamanEnemy : MonoBehaviour, IDamageable
     public float nextWaypointDistance = 0.1f;
     public float repathRate = 1f;
     private bool reachedEndOfPath = false;
+    public bool IsExploding => isExploding;
 
     public void ScaleHealth(int wave, float difficultyMultiplier)
     {
@@ -100,11 +101,24 @@ public class SaibamanEnemy : MonoBehaviour, IDamageable
             spriteRenderer.flipX = direction.x < 0;
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(int amount, float delayBeforeDeath)
     {
         currentHealth -= amount;
         if (currentHealth <= 0)
-            Die();
+        {
+            StartCoroutine(DelayedDeath(delayBeforeDeath));
+        }
+    }
+
+    public void TakeDamage(int amount)
+    {
+        TakeDamage(amount, 0.2f); // Default fallback
+    }
+
+    private IEnumerator DelayedDeath(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Die();
     }
 
     private void Die()

@@ -88,6 +88,22 @@ public class PlayerController : MonoBehaviour
     private float dashBufferTime = 0.15f;
     private float dashBufferTimer = 0f;
 
+    [Header("Melee Settings")]
+    public float meleeRange = 1.5f;
+    public float meleeCooldown = 0.75f;
+    public LayerMask enemyLayer;
+    private float meleeCooldownTimer = 0f;
+    private bool isMeleeAttacking = false;
+
+    [SerializeField] private int maxComboCount = 3;
+    [SerializeField] private float comboResetTime = 1.2f;
+    private int currentComboIndex = 0;
+    private float comboTimer = 0f;
+    private bool isInCombo = false;
+
+    [Header("Hit Effects")]
+    public GameObject hitEffectPrefab;
+
     private void Awake()
     {
         controls = new PlayerControls();
@@ -110,6 +126,8 @@ public class PlayerController : MonoBehaviour
         controls.Player.BaseForm.performed += ctx => ForceRevertToBaseForm();
 
         controls.Player.Dash.performed += ctx => TryDash();
+
+        controls.Player.Attack.performed += ctx => TryManualAttack();
     }
 
     private void OnDisable()
@@ -159,7 +177,7 @@ public class PlayerController : MonoBehaviour
         UpdateUI();
     }
 
-    private void Update()
+    void Update()
     {
         if (!isDead && !isTransforming)
         {
@@ -192,11 +210,23 @@ public class PlayerController : MonoBehaviour
         if (dashBufferTimer > 0)
         {
             dashBufferTimer -= Time.deltaTime;
-
             if (canDash && !isDashing && !isDead && !isCharging && moveInput != Vector2.zero)
             {
                 TryDash();
                 dashBufferTimer = 0;
+            }
+        }
+
+        if (meleeCooldownTimer > 0f)
+            meleeCooldownTimer -= Time.deltaTime;
+
+        if (isInCombo)
+        {
+            comboTimer -= Time.deltaTime;
+            if (comboTimer <= 0f)
+            {
+                currentComboIndex = 0;
+                isInCombo = false;
             }
         }
     }
@@ -222,7 +252,6 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        // Stronger acceleration/deceleration using MoveTowards
         Vector2 targetVelocity = moveInput.normalized * moveSpeed;
         float accel = (moveInput.sqrMagnitude > 0.1f) ? acceleration : deceleration;
         rb.linearVelocity = Vector2.MoveTowards(rb.linearVelocity, targetVelocity, accel * Time.fixedDeltaTime);
@@ -236,11 +265,170 @@ public class PlayerController : MonoBehaviour
         animator.SetInteger("Direction", direction);
         animator.SetFloat("Speed", isMoving ? moveInput.sqrMagnitude : 0f);
 
+        //if (!isCharging && !isDashing && !isLatched && meleeCooldownTimer <= 0f)
+        //{
+        //    Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, meleeRange, enemyLayer);
+
+        //    Transform closest = null;
+        //    float closestDist = float.MaxValue;
+
+        //    foreach (var enemy in enemies)
+        //    {
+        //        if (enemy.TryGetComponent<SaibamanEnemy>(out var saibaman) && saibaman.IsExploding)
+        //            continue;
+
+        //        float dist = Vector2.SqrMagnitude(enemy.transform.position - transform.position);
+        //        if (dist < closestDist)
+        //        {
+        //            closest = enemy.transform;
+        //            closestDist = dist;
+        //        }
+        //    }
+
+        //    if (closest != null)
+        //    {
+        //        TriggerMeleeAttack(closest);
+        //        meleeCooldownTimer = meleeCooldown;
+        //    }
+        //}
+
         if (isLatched || isCharging || isDead || isTransforming) return;
 
         FaceMouseDirection();
+    }
 
-        
+    private void TryManualAttack()
+    {
+        if (isCharging || isDashing || isLatched || isDead || isTransforming || meleeCooldownTimer > 0f)
+            return;
+
+        // Scan for closest enemy
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, meleeRange, enemyLayer);
+
+        Transform closest = null;
+        float closestDist = float.MaxValue;
+
+        foreach (var enemy in enemies)
+        {
+            if (enemy.TryGetComponent<SaibamanEnemy>(out var saibaman) && saibaman.IsExploding)
+                continue;
+
+            float dist = Vector2.SqrMagnitude(enemy.transform.position - transform.position);
+            if (dist < closestDist)
+            {
+                closest = enemy.transform;
+                closestDist = dist;
+            }
+        }
+
+        if (closest != null)
+        {
+            TriggerMeleeAttack(closest);
+            meleeCooldownTimer = meleeCooldown;
+        }
+    }
+
+
+    private void TriggerMeleeAttack(Transform target)
+    {
+        if (isLatched)
+            return;
+
+        if (target.TryGetComponent<SaibamanEnemy>(out var saibaman) && saibaman.IsExploding)
+            return;
+
+        isMeleeAttacking = true;
+
+        if (target.position.x < transform.position.x)
+            spriteRenderer.flipX = true;
+        else
+            spriteRenderer.flipX = false;
+
+        Vector2 direction = (target.position - transform.position).normalized;
+        StartCoroutine(ShortDash(direction, 0.3f, 5f)); // direction, duration, speed
+
+        // Determine animation clip length
+        string clipName = $"Melee{currentComboIndex + 1}";
+        float clipLength = 0.5f;
+
+        foreach (var clip in animator.runtimeAnimatorController.animationClips)
+        {
+            if (clip.name == clipName)
+            {
+                clipLength = clip.length;
+                break;
+            }
+        }
+
+        // Delay hit effect to sync with animation impact
+        StartCoroutine(PlayHitEffectAfterDelay(target.position, clipLength * 0.8f));
+
+        animator.SetTrigger($"Melee{currentComboIndex + 1}");
+        StartCoroutine(EndMeleeAfterDelay(clipLength));
+
+        foreach (var clip in animator.runtimeAnimatorController.animationClips)
+        {
+            if (clip.name == clipName)
+            {
+                clipLength = clip.length;
+                break;
+            }
+        }
+
+        var damageable = target.GetComponent<IDamageable>();
+        if (damageable != null)
+        {
+            damageable.TakeDamage(10, clipLength); // always uses animation length
+            damageable.ApplyStatusEffect(StatusEffect.Stun, 0.25f);
+        }
+
+        float hitPauseDuration = 0.05f + (0.02f * currentComboIndex); // e.g., 0.05 → 0.07 → 0.09
+        StartCoroutine(HitPauseAfterDelay(clipLength * 0.8f, hitPauseDuration));
+        CameraFollow.Instance?.TriggerImpulseShake(0.3f, 0.02f, 10f);
+
+        currentComboIndex = (currentComboIndex + 1) % maxComboCount;
+        comboTimer = comboResetTime;
+        isInCombo = true;
+    }
+
+    private IEnumerator PlayHitEffectAfterDelay(Vector3 position, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (hitEffectPrefab != null)
+            Instantiate(hitEffectPrefab, position, Quaternion.identity);
+    }
+
+    private IEnumerator EndMeleeAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        isMeleeAttacking = false;
+        animator.CrossFade("Idle", 0.1f);
+    }
+
+    private IEnumerator ShortDash(Vector2 direction, float duration, float speed)
+    {
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            rb.linearVelocity = direction * speed;
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        rb.linearVelocity = Vector2.zero;
+    }
+
+    private IEnumerator HitPause(float duration)
+    {
+        float originalTimeScale = Time.timeScale;
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(duration);
+        Time.timeScale = originalTimeScale;
+    }
+
+    private IEnumerator HitPauseAfterDelay(float delayBeforePause, float pauseDuration)
+    {
+        yield return new WaitForSeconds(delayBeforePause);
+        yield return HitPause(pauseDuration);
     }
 
     private void UpdateUI()
@@ -457,6 +645,9 @@ public class PlayerController : MonoBehaviour
 
     private void FaceMouseDirection()
     {
+        if (isMeleeAttacking)
+            return; // don't flip during melee
+
         Vector3 mousePos = Mouse.current.position.ReadValue();
         Vector3 worldMousePos = Camera.main.ScreenToWorldPoint(mousePos);
         worldMousePos.z = 0f;

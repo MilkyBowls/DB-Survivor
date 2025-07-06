@@ -2100,6 +2100,138 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_44
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1389
+        width: 42
+        height: 51
+      alignment: 9
+      pivot: {x: 0.32846215, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fcb5ce66294e54cabd65184da57b86
+      internalID: 1105054592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_45
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1389
+        width: 39
+        height: 51
+      alignment: 9
+      pivot: {x: 0.35463616, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc84b9485eea6324ea0d9cf10c2a3389
+      internalID: -77897508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_46
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1391
+        width: 45
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f13a1bc51bcf2448abb354cf540b84d
+      internalID: -1553374386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_47
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1394
+        width: 45
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dd85bff0401364cb15e62946f2dced
+      internalID: -1965505465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_48
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1390
+        width: 45
+        height: 43
+      alignment: 9
+      pivot: {x: 0.31365153, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4803ba0ca046b46bfc41063f55529b
+      internalID: -1779538280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Base Edited_49
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1391
+        width: 34
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4062069, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1693bb48a82f4da4f88c1932347ed049
+      internalID: 334358887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -2155,6 +2287,12 @@ TextureImporter:
       Goku Base Edited_41: -425744557
       Goku Base Edited_42: 697164482
       Goku Base Edited_43: 829782239
+      Goku Base Edited_44: 1105054592
+      Goku Base Edited_45: -77897508
+      Goku Base Edited_46: -1553374386
+      Goku Base Edited_47: -1965505465
+      Goku Base Edited_48: -1779538280
+      Goku Base Edited_49: 334358887
       Goku Base Edited_5: -2605857969203350636
       Goku Base Edited_6: 1955641502597648286
       Goku Base Edited_7: -1118506424
