@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1197042523013150285}
   - component: {fileID: 3046428603232844018}
   - component: {fileID: 4905506757513261799}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: XPCrystal
   m_TagString: Untagged
   m_Icon: {fileID: 0}

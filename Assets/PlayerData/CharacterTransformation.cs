@@ -15,7 +15,7 @@ public class CharacterTransformation
     [Header("Aura Overrides")]
     public AnimatorOverrideController auraAnimatorOverride;
     public List<ParticleSystem> auraChargeParticles;
-    
+
     [Header("Aura Behavior")]
     public bool alwaysShowAuraParticles;
 
@@ -27,4 +27,5 @@ public class CharacterTransformation
     public float healthMultiplier;
     public float damageMultiplier;
     public float speedMultiplier;
+    public float dashSpeedMultiplier;
 }

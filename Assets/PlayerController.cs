@@ -1,5 +1,4 @@
-﻿// FULL UPDATED VERSION WITH TRANSFORMATION CYCLING
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using TMPro;
@@ -62,6 +61,33 @@ public class PlayerController : MonoBehaviour
     [Header("Weapon")]
     public Transform firePoint;
 
+    [Header("Collectibles")]
+    public LayerMask collectibleLayer;
+
+    [Header("Dash Settings")]
+    public float baseDashSpeed = 12f;
+    public float dashDuration = 0.2f;
+    public float dashCooldown = 0.5f;
+    public bool allowDashInvincibility = true;
+    public AnimationCurve dashAccelerationCurve = AnimationCurve.Linear(0, 1, 1, 1);
+
+    private bool isDashing = false;
+    private bool canDash = true;
+    private Coroutine dashRoutine;
+
+    [Header("Afterimage Effect")]
+    public GameObject afterimagePrefab;
+    public float afterimageInterval = 0.05f;
+    public int afterimageCount = 6;
+
+    [Header("Movement Dynamics")]
+    public float acceleration = 20f;
+    public float deceleration = 30f;
+
+    // Input buffering
+    private float dashBufferTime = 0.15f;
+    private float dashBufferTimer = 0f;
+
     private void Awake()
     {
         controls = new PlayerControls();
@@ -82,11 +108,19 @@ public class PlayerController : MonoBehaviour
 
         controls.Player.MaxTransform.performed += ctx => MaxTransform();
         controls.Player.BaseForm.performed += ctx => ForceRevertToBaseForm();
+
+        controls.Player.Dash.performed += ctx => TryDash();
     }
 
     private void OnDisable()
     {
         controls.Player.Disable();
+    }
+
+    private void OnMove(InputAction.CallbackContext ctx)
+    {
+        if (!isCharging)
+            moveInput = ctx.ReadValue<Vector2>();
     }
 
     void Start()
@@ -99,6 +133,8 @@ public class PlayerController : MonoBehaviour
         }
 
         rb = GetComponent<Rigidbody2D>();
+        rb.interpolation = RigidbodyInterpolation2D.Interpolate;
+
         animator = visualTransform.GetComponent<Animator>();
         spriteRenderer = visualTransform.GetComponent<SpriteRenderer>();
         visualBasePosition = visualTransform.localPosition;
@@ -112,9 +148,6 @@ public class PlayerController : MonoBehaviour
         currentKi = maxKi;
         kiRegenRate = (int)characterData.kiRegenRate;
 
-        if (kiBar != null) { kiBar.maxValue = maxKi; kiBar.value = currentKi; }
-        if (healthBar != null) { healthBar.maxValue = maxHealth; healthBar.value = currentHealth; }
-
         animator.runtimeAnimatorController = characterData.animatorController;
 
         if (characterData.startingWeaponPrefab != null)
@@ -123,9 +156,10 @@ public class PlayerController : MonoBehaviour
         }
 
         currentMagnetRadius = baseMagnetRadius;
+        UpdateUI();
     }
 
-    void Update()
+    private void Update()
     {
         if (!isDead && !isTransforming)
         {
@@ -137,46 +171,40 @@ public class PlayerController : MonoBehaviour
                     currentKi += kiRegenRate;
                     currentKi = Mathf.Min(currentKi, maxKi);
                     kiRegenTimer = 0f;
+                    UpdateUI();
                 }
             }
 
-            // Only auto-revert if you're currently transformed
             if (currentTransformation != null && currentKi <= 0)
             {
                 currentTransformationIndex = -1;
                 RevertToBaseForm();
+                UpdateUI();
             }
         }
 
-        if (kiBar != null) kiBar.value = currentKi;
-            if (kiBarText != null) kiBarText.text = $"{currentKi:F1} / {maxKi}";
-            if (healthBar != null) healthBar.value = currentHealth;
-            if (healthBarText != null) healthBarText.text = $"{currentHealth} / {maxHealth}";
+        if (isCharging && currentMagnetRadius < maxMagnetRadius)
+        {
+            currentMagnetRadius += radiusGrowSpeed * Time.deltaTime;
+            currentMagnetRadius = Mathf.Min(currentMagnetRadius, maxMagnetRadius);
+        }
 
-            if (isCharging && currentMagnetRadius < maxMagnetRadius)
+        if (dashBufferTimer > 0)
+        {
+            dashBufferTimer -= Time.deltaTime;
+
+            if (canDash && !isDashing && !isDead && !isCharging && moveInput != Vector2.zero)
             {
-                currentMagnetRadius += radiusGrowSpeed * Time.deltaTime;
-                currentMagnetRadius = Mathf.Min(currentMagnetRadius, maxMagnetRadius);
+                TryDash();
+                dashBufferTimer = 0;
             }
-
-            if (isCharging)
-            {
-                foreach (var collectible in CollectibleObject.ActiveCollectibles)
-                {
-                    if (Vector3.Distance(transform.position, collectible.transform.position) <= currentMagnetRadius)
-                        collectible.StartMagnetize(transform);
-                }
-            }
-
-        if (isLatched || isCharging || isDead || isTransforming) return;
-
-        rb.linearVelocity = moveInput.normalized * moveSpeed;
-        FaceMouseDirection();
+        }
     }
 
     void FixedUpdate()
     {
         if (isDead || isTransforming) return;
+        if (isDashing) return;
 
         if (isCharging)
         {
@@ -184,29 +212,56 @@ public class PlayerController : MonoBehaviour
             visualTransform.localPosition = visualBasePosition;
             animator.SetInteger("Direction", 0);
             animator.SetFloat("Speed", 0f);
+
+            Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, currentMagnetRadius, collectibleLayer);
+            foreach (var hit in hits)
+            {
+                var collectible = hit.GetComponent<CollectibleObject>();
+                if (collectible != null) collectible.StartMagnetize(transform);
+            }
             return;
         }
 
-        Vector2 movement = moveInput.normalized * moveSpeed * Time.fixedDeltaTime;
-        rb.MovePosition(rb.position + movement);
+        // Stronger acceleration/deceleration using MoveTowards
+        Vector2 targetVelocity = moveInput.normalized * moveSpeed;
+        float accel = (moveInput.sqrMagnitude > 0.1f) ? acceleration : deceleration;
+        rb.linearVelocity = Vector2.MoveTowards(rb.linearVelocity, targetVelocity, accel * Time.fixedDeltaTime);
 
         bool isMoving = moveInput.sqrMagnitude > 0.01f;
         visualTransform.localPosition = isMoving
-            ? visualBasePosition + new Vector3(0, Mathf.Sin(Time.time * 2f) * 0.1f, 0)
+            ? visualBasePosition + new Vector3(0, Mathf.Sin(Time.time * 10f) * 0.15f, 0)
             : visualBasePosition;
 
         int direction = isMoving ? (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y) ? 1 : 2) : 0;
         animator.SetInteger("Direction", direction);
         animator.SetFloat("Speed", isMoving ? moveInput.sqrMagnitude : 0f);
 
-        if (auraController != null && animator != null)
-        {
-            AnimatorStateInfo animState = animator.GetCurrentAnimatorStateInfo(0);
-            string currentStateName = animState.IsName("Walk") ? "Walk" :
-                                      animState.IsName("WalkAttack") ? "Walk" :
-                                      animState.IsName("Idle") ? "Idle" :
-                                      animState.IsName("Rise") ? "Rise" : "Other";
-        }
+        if (isLatched || isCharging || isDead || isTransforming) return;
+
+        FaceMouseDirection();
+
+        
+    }
+
+    private void UpdateUI()
+    {
+        if (kiBar != null) kiBar.value = currentKi;
+        if (kiBarText != null) kiBarText.text = $"{currentKi:F1} / {maxKi}";
+        if (healthBar != null) healthBar.value = currentHealth;
+        if (healthBarText != null) healthBarText.text = $"{currentHealth} / {maxHealth}";
+    }
+
+    private void ApplyTransformationStats(CharacterTransformation transformation)
+    {
+        moveSpeed = characterData.movementSpeed * transformation.speedMultiplier;
+        damage = characterData.damage * transformation.damageMultiplier;
+
+        if (transformation.animatorOverride != null)
+            animator.runtimeAnimatorController = transformation.animatorOverride;
+        if (transformation.transformationPortrait != null)
+            spriteRenderer.sprite = transformation.transformationPortrait;
+
+        auraController?.ApplyTransformationAura(transformation);
     }
 
     private void TryTransform()
@@ -278,21 +333,14 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(0f);
 
-        moveSpeed = characterData.movementSpeed * transformation.speedMultiplier;
-        damage = characterData.damage * transformation.damageMultiplier;
-
-        if (transformation.animatorOverride != null)
-            animator.runtimeAnimatorController = transformation.animatorOverride;
-        if (transformation.transformationPortrait != null)
-            spriteRenderer.sprite = transformation.transformationPortrait;
+        ApplyTransformationStats(transformation); // <-- replaces all manual assignments
 
         animator.Play("Idle", 0, 0f);
         animator.updateMode = AnimatorUpdateMode.Normal;
 
-        auraController?.ApplyTransformationAura(transformation);
-
         isTransforming = false;
     }
+
 
 
     public void ForceRevertToBaseForm()
@@ -311,7 +359,7 @@ public class PlayerController : MonoBehaviour
         animator.runtimeAnimatorController = characterData.animatorController;
         animator.SetBool("IsCharging", false);
         animator.Play("Idle", 0, 0f);
-        
+
         SFXManager.Instance?.Play(SFXManager.Instance.PowerDown);
 
         auraController?.ClearAuraState();
@@ -327,8 +375,6 @@ public class PlayerController : MonoBehaviour
 
         Debug.Log("Forced revert to base form.");
     }
-
-
 
 
     private IEnumerator PerformTransformation(CharacterTransformation transformation)
@@ -347,22 +393,14 @@ public class PlayerController : MonoBehaviour
         auraController?.FadeInAura(1f);
         Time.timeScale = 1f;
 
-        moveSpeed = characterData.movementSpeed * transformation.speedMultiplier;
-        damage = characterData.damage * transformation.damageMultiplier;
-
-        if (transformation.animatorOverride != null)
-            animator.runtimeAnimatorController = transformation.animatorOverride;
-        if (transformation.transformationPortrait != null)
-            spriteRenderer.sprite = transformation.transformationPortrait;
-
-        // ✅ Apply the aura animator override and particles
-        auraController?.ApplyTransformationAura(transformation);
+        ApplyTransformationStats(transformation); // <-- replaces all manual assignments
 
         animator.Play("Idle", 0, 0f);
         animator.updateMode = AnimatorUpdateMode.Normal;
 
         isTransforming = false;
     }
+
 
 
     private void RevertToBaseForm()
@@ -382,7 +420,7 @@ public class PlayerController : MonoBehaviour
 
         if (characterData.baseAuraProfile != null)
             auraController?.ApplyTransformationAura(characterData.baseAuraProfile);
-        
+
         SFXManager.Instance?.Play(SFXManager.Instance.PowerDown);
 
         Debug.Log("Reverted to base form.");
@@ -470,29 +508,29 @@ public class PlayerController : MonoBehaviour
     }
 
 
-        private void StartCharge()
+    private void StartCharge()
+    {
+        if (isCharging || isDead || isTransforming) return;
+
+        isCharging = true;
+        currentMagnetRadius = baseMagnetRadius;
+
+        SFXManager.Instance?.StartKiChargeLoop();
+        cameraFollow?.StartChargingEffects();
+        animator.SetBool("IsCharging", true);
+        moveInput = Vector2.zero;
+
+        auraController?.EnableAura(); // Make sure aura visuals and Animator are active
+        auraController?.PlayChargeAnimation(true); // Play looping charge animation
+
+        foreach (var collectible in CollectibleObject.ActiveCollectibles)
         {
-            if (isCharging || isDead || isTransforming) return;
-
-            isCharging = true;
-            currentMagnetRadius = baseMagnetRadius;
-
-            SFXManager.Instance?.StartKiChargeLoop();
-            cameraFollow?.StartChargingEffects();
-            animator.SetBool("IsCharging", true);
-            moveInput = Vector2.zero;
-
-            auraController?.EnableAura(); // Make sure aura visuals and Animator are active
-            auraController?.PlayChargeAnimation(true); // Play looping charge animation
-
-            foreach (var collectible in CollectibleObject.ActiveCollectibles)
+            if (Vector3.Distance(transform.position, collectible.transform.position) <= currentMagnetRadius)
             {
-                if (Vector3.Distance(transform.position, collectible.transform.position) <= currentMagnetRadius)
-                {
-                    collectible.StartMagnetize(transform);
-                }
+                collectible.StartMagnetize(transform);
             }
         }
+    }
 
 
     private void StopCharge()
@@ -507,4 +545,97 @@ public class PlayerController : MonoBehaviour
 
         currentMagnetRadius = 0f;
     }
+
+    private void TryDash()
+    {
+        if (!canDash || isDashing || isDead || isLatched || isTransforming)
+        {
+            dashBufferTimer = dashBufferTime; // store intent to dash
+            return;
+        }
+
+        if (moveInput == Vector2.zero)
+            return; // Require a direction to dash
+
+        if (dashRoutine != null)
+            StopCoroutine(dashRoutine);
+
+        dashRoutine = StartCoroutine(DashRoutine());
+    }
+
+    private IEnumerator DashRoutine()
+    {
+        isDashing = true;
+        canDash = false;
+
+        StartCoroutine(SpawnAfterimages());
+
+        Vector2 dashDir = moveInput.normalized;
+        float dashEndTime = Time.time + dashDuration;
+
+        CameraFollow.Instance?.TriggerImpulseShake(0.5f, 0.02f, 10f); // Camera shake
+
+        if (allowDashInvincibility)
+            gameObject.layer = LayerMask.NameToLayer("PlayerInvincible");
+
+        float dashTimer = 0f;
+
+        while (Time.time < dashEndTime)
+        {
+            float progress = dashTimer / dashDuration;
+            float speedScale = dashAccelerationCurve.Evaluate(progress);
+
+            float finalDashSpeed = baseDashSpeed;
+            if (currentTransformation != null)
+                finalDashSpeed *= currentTransformation.dashSpeedMultiplier;
+
+            rb.linearVelocity = dashDir * (finalDashSpeed * speedScale);
+
+            dashTimer += Time.deltaTime;
+            yield return null;
+        }
+
+        if (allowDashInvincibility)
+            gameObject.layer = LayerMask.NameToLayer("Player");
+
+        isDashing = false;
+
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
+    }
+    
+    private IEnumerator SpawnAfterimages()
+    {
+        for (int i = 0; i < afterimageCount; i++)
+        {
+            if (afterimagePrefab != null)
+            {
+                GameObject ghost = Instantiate(afterimagePrefab, visualTransform.position, visualTransform.rotation);
+                SpriteRenderer ghostSR = ghost.GetComponent<SpriteRenderer>();
+                SpriteRenderer playerSR = visualTransform.GetComponent<SpriteRenderer>();
+
+                if (ghostSR != null && playerSR != null)
+                {
+                    ghostSR.sprite = playerSR.sprite;
+                    ghostSR.flipX = playerSR.flipX;
+                    ghostSR.color = new Color(1f, 1f, 1f, 0.4f);
+                    ghostSR.sortingLayerID = playerSR.sortingLayerID;
+                    ghostSR.sortingOrder = playerSR.sortingOrder - 1;
+
+                    // Step 3: scale stretch for motion
+                    Vector3 scale = visualTransform.lossyScale;
+                    scale.x *= 1.2f;
+                    ghost.transform.localScale = scale;
+
+                    // Step 4: slight offset behind movement
+                    Vector3 offset = -((Vector3)moveInput.normalized * 0.1f);
+                    ghost.transform.position += offset;
+                }
+            }
+
+            yield return new WaitForSeconds(afterimageInterval);
+        }
+    }
+
 }
+
