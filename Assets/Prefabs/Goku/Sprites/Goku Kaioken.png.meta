@@ -1406,50 +1406,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Goku Kaioken_45
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 964
-        width: 39
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dfc603bbda8d22bf0800000000000000
-      internalID: -350479580300022531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goku Kaioken_46
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 964
-        width: 43
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e538733d2c186ad90800000000000000
-      internalID: -7086834289853627554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Goku Kaioken_47
       rect:
         serializedVersion: 2

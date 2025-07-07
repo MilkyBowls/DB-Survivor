@@ -173,7 +173,12 @@ public class KiBlastWeapon : WeaponBase
 
     protected override bool CanFire()
     {
-        if (isBarrageFiring) return false; // 🔒 Lock out firing during active barrage
+        if (isBarrageFiring) return false;
+
+        // ✅ Prevent firing if aiming too close
+        FirePointController firePoint = player.firePoint?.GetComponent<FirePointController>();
+        if (firePoint != null && firePoint.IsAimingTooClose)
+            return false;
 
         float modifier = currentUpgrade?.fireCooldownModifier ?? 1f;
         float cooldown = fireCooldown * modifier;

@@ -74,6 +74,12 @@ public class NewBeamWeapon : WeaponBase
     {
         if (!CanFire() || isFiring) return;
 
+        if (firePointController != null && firePointController.IsAimingTooClose)
+        {
+            Debug.Log("[NewBeamWeapon] Aiming too close — beam will not fire.");
+            return;
+        }
+
         isFiring = true;
 
         int extraBeams = currentUpgrade?.extraBeams ?? 0;
