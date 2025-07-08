@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class PlayerController : MonoBehaviour
 {
@@ -100,9 +101,14 @@ public class PlayerController : MonoBehaviour
     private int currentComboIndex = 0;
     private float comboTimer = 0f;
     private bool isInCombo = false;
+    private bool bufferedAttack = false;
 
     [Header("Hit Effects")]
     public GameObject hitEffectPrefab;
+
+    [Header("Finisher Effects")]
+    public GameObject finisherTrailEffect;
+    public GameObject finisherImpactFlash;
 
     private void Awake()
     {
@@ -265,33 +271,6 @@ public class PlayerController : MonoBehaviour
         animator.SetInteger("Direction", direction);
         animator.SetFloat("Speed", isMoving ? moveInput.sqrMagnitude : 0f);
 
-        //if (!isCharging && !isDashing && !isLatched && meleeCooldownTimer <= 0f)
-        //{
-        //    Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, meleeRange, enemyLayer);
-
-        //    Transform closest = null;
-        //    float closestDist = float.MaxValue;
-
-        //    foreach (var enemy in enemies)
-        //    {
-        //        if (enemy.TryGetComponent<SaibamanEnemy>(out var saibaman) && saibaman.IsExploding)
-        //            continue;
-
-        //        float dist = Vector2.SqrMagnitude(enemy.transform.position - transform.position);
-        //        if (dist < closestDist)
-        //        {
-        //            closest = enemy.transform;
-        //            closestDist = dist;
-        //        }
-        //    }
-
-        //    if (closest != null)
-        //    {
-        //        TriggerMeleeAttack(closest);
-        //        meleeCooldownTimer = meleeCooldown;
-        //    }
-        //}
-
         if (isLatched || isCharging || isDead || isTransforming) return;
 
         FaceMouseDirection();
@@ -299,8 +278,14 @@ public class PlayerController : MonoBehaviour
 
     private void TryManualAttack()
     {
-        if (isCharging || isDashing || isLatched || isDead || isTransforming || meleeCooldownTimer > 0f)
+        if (isCharging || isDashing || isLatched || isDead || isTransforming)
             return;
+
+        if (meleeCooldownTimer > 0f)
+        {
+            bufferedAttack = true;
+            return;
+        }
 
         // Scan for closest enemy
         Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, meleeRange, enemyLayer);
@@ -326,70 +311,62 @@ public class PlayerController : MonoBehaviour
             TriggerMeleeAttack(closest);
             meleeCooldownTimer = meleeCooldown;
         }
-    }
+        else
+        {
+            animator.SetTrigger("MeleeWhiff");
+            meleeCooldownTimer = meleeCooldown;
 
+            // Still track combo timing to allow follow-up
+            comboTimer = comboResetTime;
+            isInCombo = true;
+
+            // Optional: smooth return from whiff
+            StartCoroutine(EndMeleeAfterDelay(0.2f));
+        }
+    }
 
     private void TriggerMeleeAttack(Transform target)
     {
-        if (isLatched)
-            return;
-
-        if (target.TryGetComponent<SaibamanEnemy>(out var saibaman) && saibaman.IsExploding)
-            return;
+        if (isLatched) return;
+        if (target.TryGetComponent<SaibamanEnemy>(out var saibaman) && saibaman.IsExploding) return;
 
         isMeleeAttacking = true;
-
-        if (target.position.x < transform.position.x)
-            spriteRenderer.flipX = true;
-        else
-            spriteRenderer.flipX = false;
+        spriteRenderer.flipX = target.position.x < transform.position.x;
 
         Vector2 direction = (target.position - transform.position).normalized;
-        StartCoroutine(ShortDash(direction, 0.3f, 5f)); // direction, duration, speed
+        StartCoroutine(ShortDash(direction, 0.3f, 5f));
 
-        // Determine animation clip length
-        string clipName = $"Melee{currentComboIndex + 1}";
-        float clipLength = 0.5f;
-
-        foreach (var clip in animator.runtimeAnimatorController.animationClips)
-        {
-            if (clip.name == clipName)
-            {
-                clipLength = clip.length;
-                break;
-            }
-        }
-
-        // Delay hit effect to sync with animation impact
-        StartCoroutine(PlayHitEffectAfterDelay(target.position, clipLength * 0.8f));
-
-        animator.SetTrigger($"Melee{currentComboIndex + 1}");
-        StartCoroutine(EndMeleeAfterDelay(clipLength));
-
-        foreach (var clip in animator.runtimeAnimatorController.animationClips)
-        {
-            if (clip.name == clipName)
-            {
-                clipLength = clip.length;
-                break;
-            }
-        }
+        int animationIndex = (currentComboIndex % 3) + 1;
+        string clipName = $"Melee{animationIndex}";
+        animator.SetTrigger(clipName);
+        StartCoroutine(WaitAndStartEndMelee(target, clipName));
 
         var damageable = target.GetComponent<IDamageable>();
         if (damageable != null)
         {
-            damageable.TakeDamage(10, clipLength); // always uses animation length
+            damageable.TakeDamage(10);
             damageable.ApplyStatusEffect(StatusEffect.Stun, 0.25f);
         }
 
-        float hitPauseDuration = 0.05f + (0.02f * currentComboIndex); // e.g., 0.05 → 0.07 → 0.09
-        StartCoroutine(HitPauseAfterDelay(clipLength * 0.8f, hitPauseDuration));
+        StartCoroutine(HitPauseAfterDelay(0.05f, 0.05f));
         CameraFollow.Instance?.TriggerImpulseShake(0.3f, 0.02f, 10f);
 
-        currentComboIndex = (currentComboIndex + 1) % maxComboCount;
-        comboTimer = comboResetTime;
-        isInCombo = true;
+        currentComboIndex++;
+
+        if (currentComboIndex >= maxComboCount)
+        {
+            // After the 3rd hit is complete, THEN start finisher
+            StartCoroutine(StartFinisherAfterDelay(clipName));
+            currentComboIndex = 0;
+            isInCombo = false;
+        }
+        else
+        {
+            comboTimer = comboResetTime;
+            isInCombo = true;
+        }
     }
+
 
     private IEnumerator PlayHitEffectAfterDelay(Vector3 position, float delay)
     {
@@ -402,7 +379,116 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         isMeleeAttacking = false;
+
+        if (bufferedAttack)
+        {
+            bufferedAttack = false;
+            TryManualAttack(); // queue follow-up attack
+            yield break;
+        }
+
         animator.CrossFade("Idle", 0.1f);
+    }
+
+    private IEnumerator ExecuteComboFinisher()
+    {
+        isMeleeAttacking = true;
+        comboTimer = 0;
+        isInCombo = false;
+        currentComboIndex = 0;
+        rb.linearVelocity = Vector2.zero;
+        controls.Disable();
+
+        List<Vector3> relativeOffsets = new List<Vector3>
+        {
+            new Vector3(-1f, 0.5f, 0),
+            new Vector3(1f, 0.5f, 0),
+            new Vector3(0f, -0.75f, 0)
+        };
+
+        List<Transform> targets = GetNearestEnemies(3);
+
+        if (targets.Count < 3 && targets.Count > 0)
+        {
+            Transform fallback = targets[0];
+            while (targets.Count < 3)
+                targets.Add(fallback);
+        }
+
+        for (int i = 0; i < targets.Count; i++)
+        {
+            if (targets[i] == null) continue;
+
+            transform.position = targets[i].position + relativeOffsets[i % relativeOffsets.Count];
+            spriteRenderer.flipX = targets[i].position.x < transform.position.x;
+
+            string trigger = $"Melee{i + 1}";
+            animator.SetTrigger(trigger);
+
+            if (finisherTrailEffect != null)
+            {
+                GameObject trail = Instantiate(finisherTrailEffect, transform.position, Quaternion.identity);
+                Destroy(trail, 0.083f);
+            }
+
+            if (i == 0)
+                cameraFollow?.TemporaryZoom(4.5f, 0.2f); // custom method in CameraFollow
+
+            if (i == targets.Count - 1)
+            {
+                Time.timeScale = 0.3f;
+                if (finisherImpactFlash != null)
+                    Instantiate(finisherImpactFlash, targets[i].position, Quaternion.identity);
+            }
+
+            CameraFollow.Instance?.TriggerImpulseShake(0.4f, 0.02f, 12f);
+            StartCoroutine(HitPause(0.05f));
+
+            var damageable = targets[i].GetComponent<IDamageable>();
+            damageable?.TakeDamage(10);
+            damageable?.ApplyStatusEffect(StatusEffect.Stun, 0.25f);
+
+            if (hitEffectPrefab != null)
+                Instantiate(hitEffectPrefab, targets[i].position, Quaternion.identity);
+
+            yield return new WaitForSecondsRealtime(0.35f);
+
+            if (i == targets.Count - 1)
+                Time.timeScale = 1f;
+        }
+
+        controls.Enable();
+        isMeleeAttacking = false;
+        animator.CrossFade("Idle", 0.1f);
+    }
+
+    private IEnumerator StartFinisherAfterDelay(string clipName)
+    {
+        yield return null; // wait 1 frame
+
+        float delay = 0.5f; // fallback
+        foreach (var clip in animator.runtimeAnimatorController.animationClips)
+        {
+            if (clip.name == clipName)
+            {
+                delay = clip.length;
+                break;
+            }
+        }
+
+        yield return new WaitForSeconds(delay);
+        StartCoroutine(ExecuteComboFinisher());
+    }
+
+    private List<Transform> GetNearestEnemies(int count)
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, 6f, enemyLayer);
+        return hits
+            .Where(c => c != null && c.gameObject.activeInHierarchy)
+            .OrderBy(c => Vector2.SqrMagnitude(c.transform.position - transform.position))
+            .Select(c => c.transform)
+            .Take(count)
+            .ToList();
     }
 
     private IEnumerator ShortDash(Vector2 direction, float duration, float speed)
@@ -410,7 +496,7 @@ public class PlayerController : MonoBehaviour
         float elapsed = 0f;
         while (elapsed < duration)
         {
-            rb.linearVelocity = direction * speed;
+            rb.linearVelocity = (direction * speed * 0.7f) + (moveInput.normalized * moveSpeed * 0.3f);
             elapsed += Time.deltaTime;
             yield return null;
         }
@@ -430,6 +516,21 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(delayBeforePause);
         yield return HitPause(pauseDuration);
     }
+
+    private IEnumerator WaitAndStartEndMelee(Transform target, string triggerName)
+    {
+        yield return null; // Wait 1 frame to ensure Animator updates
+
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        float clipLength = stateInfo.length;
+
+        // Delay hit effect
+        if (hitEffectPrefab != null)
+            StartCoroutine(PlayHitEffectAfterDelay(target.position, clipLength * 0.8f));
+
+        StartCoroutine(EndMeleeAfterDelay(clipLength));
+    }
+
 
     private void UpdateUI()
     {

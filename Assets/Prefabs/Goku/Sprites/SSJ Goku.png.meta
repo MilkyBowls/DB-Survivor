@@ -2759,12 +2759,12 @@ TextureImporter:
       name: SSJ Goku_36
       rect:
         serializedVersion: 2
-        x: 632
-        y: 3189
-        width: 99
-        height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 672
+        y: 3192
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2781,9 +2781,9 @@ TextureImporter:
       name: SSJ Goku_37
       rect:
         serializedVersion: 2
-        x: 735
+        x: 758
         y: 3194
-        width: 52
+        width: 29
         height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -10737,6 +10737,28 @@ TextureImporter:
       bones: []
       spriteID: 4f81c12eea208f3a0800000000000000
       internalID: -6631547501161998092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSJ Goku_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 3195
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ae6ae68dc68ff489ea599dddc816e9
+      internalID: -6453565104074239960
       vertices: []
       indices: 
       edges: []
