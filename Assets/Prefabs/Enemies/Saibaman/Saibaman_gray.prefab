@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4685057004974957721}
   - component: {fileID: -3143755999742204763}
   - component: {fileID: 6024688341406782967}
+  - component: {fileID: 3957585755366711965}
   m_Layer: 6
   m_Name: Saibaman_gray
   m_TagString: Enemy
@@ -232,7 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 1
+  version: 1073741824
   drawGizmos: 1
   detailedGizmos: 0
   startEndModifier:
@@ -248,3 +249,30 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &3957585755366711965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182719422405556832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560112f876f5746c780eca0d404e7139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1073741824
+  radiusBackingField: 0.5
+  heightBackingField: 2
+  centerBackingField: 1
+  locked: 0
+  lockWhenNotMoving: 0
+  agentTimeHorizon: 2
+  obstacleTimeHorizon: 0.5
+  maxNeighbours: 10
+  layer: 1
+  collidesWith: -1
+  wallAvoidForce: 1
+  wallAvoidFalloff: 1
+  priority: 0.5
+  debug: 0

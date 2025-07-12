@@ -16,6 +16,10 @@ GameObject:
   - component: {fileID: 4685057004974957721}
   - component: {fileID: -3143755999742204763}
   - component: {fileID: 1423167602686100215}
+  - component: {fileID: 5831605972577194933}
+  - component: {fileID: -8610349615337681654}
+  - component: {fileID: 2300319591215081520}
+  - component: {fileID: -1687392601023226999}
   m_Layer: 6
   m_Name: Saibaman_green
   m_TagString: Enemy
@@ -205,8 +209,6 @@ MonoBehaviour:
   stickDistance: 0.2
   magnetSpeed: 5
   explosionDelay: 1
-  nextWaypointDistance: 0.1
-  repathRate: 1
 --- !u!114 &-3143755999742204763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 1
+  version: 1073741824
   drawGizmos: 1
   detailedGizmos: 0
   startEndModifier:
@@ -248,3 +250,105 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &5831605972577194933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182719422405556832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560112f876f5746c780eca0d404e7139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1073741824
+  radiusBackingField: 1
+  heightBackingField: 2
+  centerBackingField: 0
+  locked: 0
+  lockWhenNotMoving: 0
+  agentTimeHorizon: 1.2
+  obstacleTimeHorizon: 3
+  maxNeighbours: 10
+  layer: 1
+  collidesWith: -1
+  wallAvoidForce: 1
+  wallAvoidFalloff: 1
+  priority: 0.3
+  debug: 0
+--- !u!114 &-8610349615337681654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182719422405556832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1073741824
+  radius: 1.5
+  height: 2
+  canMove: 1
+  maxSpeed: 3
+  gravity: {x: NaN, y: NaN, z: NaN}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  endReachedDistance: 0.15
+  whenCloseToDestination: 0
+  rvoDensityBehavior:
+    enabled: 1
+    densityThreshold: 0.5
+    returnAfterBeingPushedAway: 0
+    progressAverage: 0
+    lastJobDensityResult: 0
+  repathRateCompatibility: NaN
+  canSearchCompability: 0
+  orientation: 1
+  enableRotation: 0
+  autoRepath:
+    mode: 2
+    period: 0.5
+    sensitivity: 1
+    maximumPeriod: 0
+    visualizeSensitivity: 0
+  maxAcceleration: -2.5
+  rotationSpeed: 360
+  slowdownDistance: 0.3
+  pickNextWaypointDist: 0.2
+  alwaysDrawGizmos: 0
+  slowWhenNotFacingTarget: 1
+  preventMovingBackwards: 0
+  constrainInsideGraph: 0
+--- !u!114 &2300319591215081520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182719422405556832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1073741824
+  target: {fileID: 0}
+  useRotation: 0
+--- !u!114 &-1687392601023226999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182719422405556832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10655f0c44110f44986a6134b653504f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followOffsetRadius: 0.5

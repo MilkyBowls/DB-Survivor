@@ -54,7 +54,10 @@ public class PlayerController : MonoBehaviour
     private float currentMagnetRadius = 0f;
 
     private float moveSpeed;
-    private float damage;
+    private float kiDamage;
+    private float meleeDamage;
+    public float GetKiDamage() => kiDamage;
+    public float GetMeleeDamage() => meleeDamage;
     private int kiRegenRate;
     private int maxKi;
     private int maxHealth;
@@ -165,7 +168,8 @@ public class PlayerController : MonoBehaviour
         cameraFollow = Camera.main.GetComponent<CameraFollow>();
 
         moveSpeed = characterData.movementSpeed;
-        damage = characterData.damage;
+        kiDamage = characterData.kiDamage;
+        meleeDamage = characterData.meleeDamage;
         maxHealth = (int)characterData.maxHealth;
         currentHealth = maxHealth;
         maxKi = (int)characterData.maxKiCapacity;
@@ -234,6 +238,18 @@ public class PlayerController : MonoBehaviour
                 currentComboIndex = 0;
                 isInCombo = false;
             }
+        }
+
+        // 🧯 Emergency unlatch if stuck and no Saibamen exist
+        if (isLatched && FindObjectsOfType<SaibamanEnemy>().Length == 0)
+        {
+            ForceUnlatch();
+        }
+
+        if (isLatched && SaibamanEnemy.playerIsLatched == false)
+        {
+            Debug.LogWarning("Force unlocking player — latch flag was out of sync.");
+            isLatched = false;
         }
     }
 
@@ -341,10 +357,12 @@ public class PlayerController : MonoBehaviour
         animator.SetTrigger(clipName);
         StartCoroutine(WaitAndStartEndMelee(target, clipName));
 
+
+
         var damageable = target.GetComponent<IDamageable>();
         if (damageable != null)
         {
-            damageable.TakeDamage(10);
+            damageable.TakeDamage(Mathf.RoundToInt(meleeDamage));
             damageable.ApplyStatusEffect(StatusEffect.Stun, 0.25f);
         }
 
@@ -392,6 +410,10 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator ExecuteComboFinisher()
     {
+        // ✅ Safeguard against being latched during teleportation
+        isLatched = false;
+        SaibamanEnemy.playerIsLatched = false;
+
         isMeleeAttacking = true;
         comboTimer = 0;
         isInCombo = false;
@@ -445,7 +467,7 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(HitPause(0.05f));
 
             var damageable = targets[i].GetComponent<IDamageable>();
-            damageable?.TakeDamage(10);
+            damageable.TakeDamage(Mathf.RoundToInt(meleeDamage));
             damageable?.ApplyStatusEffect(StatusEffect.Stun, 0.25f);
 
             if (hitEffectPrefab != null)
@@ -531,6 +553,12 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(EndMeleeAfterDelay(clipLength));
     }
 
+    public void ForceUnlatch()
+    {
+        Debug.LogWarning("Force unlatched.");
+        isLatched = false;
+        SaibamanEnemy.playerIsLatched = false;
+    }
 
     private void UpdateUI()
     {
@@ -543,7 +571,8 @@ public class PlayerController : MonoBehaviour
     private void ApplyTransformationStats(CharacterTransformation transformation)
     {
         moveSpeed = characterData.movementSpeed * transformation.speedMultiplier;
-        damage = characterData.damage * transformation.damageMultiplier;
+        kiDamage = characterData.kiDamage * transformation.damageMultiplier;
+        meleeDamage = characterData.meleeDamage * transformation.damageMultiplier;
 
         if (transformation.animatorOverride != null)
             animator.runtimeAnimatorController = transformation.animatorOverride;
@@ -552,6 +581,7 @@ public class PlayerController : MonoBehaviour
 
         auraController?.ApplyTransformationAura(transformation);
     }
+
 
     private void TryTransform()
     {
@@ -594,8 +624,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
-
     private void OnDeTransform(InputAction.CallbackContext ctx)
     {
         if (Keyboard.current.leftShiftKey.isPressed || Keyboard.current.rightShiftKey.isPressed)
@@ -630,8 +658,6 @@ public class PlayerController : MonoBehaviour
         isTransforming = false;
     }
 
-
-
     public void ForceRevertToBaseForm()
     {
         if (currentTransformation == null && currentTransformationIndex == -1)
@@ -643,7 +669,8 @@ public class PlayerController : MonoBehaviour
         currentTransformationIndex = -1;
 
         moveSpeed = characterData.movementSpeed;
-        damage = characterData.damage;
+        kiDamage = characterData.kiDamage;
+        meleeDamage = characterData.meleeDamage;
 
         animator.runtimeAnimatorController = characterData.animatorController;
         animator.SetBool("IsCharging", false);
@@ -664,7 +691,6 @@ public class PlayerController : MonoBehaviour
 
         Debug.Log("Forced revert to base form.");
     }
-
 
     private IEnumerator PerformTransformation(CharacterTransformation transformation)
     {
@@ -690,8 +716,6 @@ public class PlayerController : MonoBehaviour
         isTransforming = false;
     }
 
-
-
     private void RevertToBaseForm()
     {
         if (currentTransformation == null && currentTransformationIndex == -1)
@@ -701,7 +725,8 @@ public class PlayerController : MonoBehaviour
         currentTransformationIndex = -1;
 
         moveSpeed = characterData.movementSpeed;
-        damage = characterData.damage;
+        kiDamage = characterData.kiDamage;
+        meleeDamage = characterData.meleeDamage;
 
         animator.runtimeAnimatorController = characterData.animatorController;
         auraController?.DisableAura();

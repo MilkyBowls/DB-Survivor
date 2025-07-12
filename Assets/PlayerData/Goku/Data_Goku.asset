@@ -42,7 +42,8 @@ MonoBehaviour:
     speedMultiplier: 0
     dashSpeedMultiplier: 0
   maxHealth: 1000
-  damage: 1
+  kiDamage: 1
+  meleeDamage: 1
   movementSpeed: 2
   dodgeChance: 0
   kiRegenRate: 1

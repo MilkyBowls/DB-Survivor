@@ -21,7 +21,8 @@ public class PlayerCharacterData : ScriptableObject
 
     [Header("Base Stats")]
     public float maxHealth;
-    public float damage;
+    public float kiDamage;
+    public float meleeDamage;
     public float movementSpeed;
     public float dodgeChance;
     public float kiRegenRate;

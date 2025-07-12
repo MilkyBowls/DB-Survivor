@@ -78,6 +78,7 @@ public class TilemapSpawner : MonoBehaviour
 
     void SpawnNewTiles(Vector2Int center)
     {
+        ResizeGridIfNeeded();
         for (int x = -tileRadius; x <= tileRadius; x++)
         {
             for (int y = -tileRadius; y <= tileRadius; y++)
@@ -91,41 +92,66 @@ public class TilemapSpawner : MonoBehaviour
                     activeTiles.Add(tileCoord);
 
                     Vector3 worldPos = tilemap.CellToWorld(cell) + new Vector3(tileSize / 2f, tileSize / 2f, 0);
+                    Bounds tileBounds = new Bounds(worldPos, Vector3.one * tileSize);
 
-                    if (!activeProps.ContainsKey(worldPos))
+                    // Update A* pathfinding graph for this tile using GraphUpdateObject
+                    GraphUpdateObject guoTile = new GraphUpdateObject(tileBounds);
+                    AstarPath.active.UpdateGraphs(guoTile);
+
+                    // Skip prop spawn near player
+                    if (Vector3.Distance(worldPos, player.position) < propSpawnAvoidRadius)
+                        continue;
+
+                    foreach (var group in propGroups)
                     {
-                        if (Vector3.Distance(worldPos, player.position) < propSpawnAvoidRadius)
+                        if (group.props.Count == 0) continue;
+                        if (Random.value < group.spawnChance)
                         {
-                            continue; // Skip prop spawn near player
-                        }
-                            foreach (var group in propGroups)
+                            if (!IsTooCloseToExistingProps(worldPos, group.minimumSpacingInTiles))
                             {
-                                if (group.props.Count == 0) continue;
-                                if (Random.value < group.spawnChance)
+                                GameObject prefab = GetWeightedPropFromGroup(group);
+                                if (prefab != null)
                                 {
-                                    if (!IsTooCloseToExistingProps(worldPos, group.minimumSpacingInTiles))
-                                    {
-                                        GameObject prefab = GetWeightedPropFromGroup(group);
-                                        if (prefab != null)
-                                        {
-                                        GameObject propInstance = Instantiate(prefab, worldPos, Quaternion.identity, this.transform);
-                                        activeProps[worldPos] = propInstance;
+                                    GameObject propInstance = Instantiate(prefab, worldPos, Quaternion.identity, this.transform);
+                                    activeProps[worldPos] = propInstance;
 
-                                        // Update A* pathfinding grid just around this prop
-                                        Collider2D col = propInstance.GetComponent<Collider2D>();
-                                        if (col != null)
-                                        {
-                                            Bounds bounds = col.bounds;
-                                            AstarPath.active.UpdateGraphs(bounds);
-                                        }
-                                        break; // prevent multiple props per tile
-                                        }
+                                    // Update A* pathfinding graph for the prop collider
+                                    Collider2D col = propInstance.GetComponent<Collider2D>();
+                                    if (col != null)
+                                    {
+                                        Bounds propBounds = col.bounds;
+
+                                        GraphUpdateObject guoProp = new GraphUpdateObject(propBounds);
+                                        // Optional: make the prop block movement
+                                        guoProp.modifyWalkability = true;
+                                        guoProp.setWalkability = false;
+
+                                        AstarPath.active.UpdateGraphs(guoProp);
                                     }
+
+                                    break; // Prevent multiple props per tile
                                 }
+                            }
                         }
                     }
                 }
             }
+        }
+    }
+
+    void ResizeGridIfNeeded()
+    {
+        var grid = AstarPath.active.data.gridGraph;
+
+        Vector3 playerPos = player.position;
+        Bounds currentBounds = grid.bounds;
+
+        if (!currentBounds.Contains(playerPos))
+        {
+            grid.center = playerPos;
+            grid.UpdateTransform();
+            AstarPath.active.Scan();
+            Debug.Log("A* Grid recentered and rescanned around player.");
         }
     }
 
