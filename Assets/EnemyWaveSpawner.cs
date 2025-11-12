@@ -1,3 +1,6 @@
+// 11/12/2025 AI-Tag
+// This was created with the help of Assistant, a Unity Artificial Intelligence product.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,6 +26,18 @@ public class EnemyWaveSpawner : MonoBehaviour
 
         public bool useSpawnPattern = false;
         public SpawnPatternSO spawnPattern;
+
+        // Precomputed total weight
+        public float totalWeight;
+
+        public void CalculateTotalWeight()
+        {
+            totalWeight = 0f;
+            foreach (var enemy in enemies)
+            {
+                totalWeight += enemy.weight;
+            }
+        }
     }
 
     public List<Wave> waves;
@@ -36,6 +51,13 @@ public class EnemyWaveSpawner : MonoBehaviour
     private void Start()
     {
         BootstrapExistingEnemies();
+
+        // Precompute total weights for all waves
+        foreach (var wave in waves)
+        {
+            wave.CalculateTotalWeight();
+        }
+
         StartCoroutine(SpawnWaves());
     }
 
@@ -77,7 +99,7 @@ public class EnemyWaveSpawner : MonoBehaviour
 
     private void SpawnEnemy(Wave wave, int spawnIndex)
     {
-        GameObject enemyPrefab = GetWeightedRandomEnemy(wave.enemies);
+        GameObject enemyPrefab = GetWeightedRandomEnemy(wave);
         if (enemyPrefab == null) return;
 
         Vector2 spawnPos;
@@ -100,15 +122,12 @@ public class EnemyWaveSpawner : MonoBehaviour
         EnemyLifetimeTracker.EnsureTracking(enemyInstance);
     }
 
-    private GameObject GetWeightedRandomEnemy(List<WeightedEnemy> enemies)
+    private GameObject GetWeightedRandomEnemy(Wave wave)
     {
-        float totalWeight = 0f;
-        foreach (var enemy in enemies) totalWeight += enemy.weight;
-
-        float randomWeight = Random.Range(0f, totalWeight);
+        float randomWeight = Random.Range(0f, wave.totalWeight);
         float current = 0f;
 
-        foreach (var enemy in enemies)
+        foreach (var enemy in wave.enemies)
         {
             current += enemy.weight;
             if (randomWeight <= current) return enemy.enemyPrefab;
@@ -146,6 +165,4 @@ public class EnemyWaveSpawner : MonoBehaviour
 
         return spawnPos;
     }
-
-
 }
