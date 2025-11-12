@@ -79,6 +79,10 @@ public class TilemapSpawner : MonoBehaviour
     void SpawnNewTiles(Vector2Int center)
     {
         ResizeGridIfNeeded();
+        Bounds aggregatedTileBounds = default;
+        bool hasTileBounds = false;
+        List<GraphUpdateObject> pendingPropGraphUpdates = null;
+
         for (int x = -tileRadius; x <= tileRadius; x++)
         {
             for (int y = -tileRadius; y <= tileRadius; y++)
@@ -95,8 +99,15 @@ public class TilemapSpawner : MonoBehaviour
                     Bounds tileBounds = new Bounds(worldPos, Vector3.one * tileSize);
 
                     // Update A* pathfinding graph for this tile using GraphUpdateObject
-                    GraphUpdateObject guoTile = new GraphUpdateObject(tileBounds);
-                    AstarPath.active.UpdateGraphs(guoTile);
+                    if (!hasTileBounds)
+                    {
+                        aggregatedTileBounds = tileBounds;
+                        hasTileBounds = true;
+                    }
+                    else
+                    {
+                        aggregatedTileBounds.Encapsulate(tileBounds);
+                    }
 
                     // Skip prop spawn near player
                     if (Vector3.Distance(worldPos, player.position) < propSpawnAvoidRadius)
@@ -121,12 +132,14 @@ public class TilemapSpawner : MonoBehaviour
                                     {
                                         Bounds propBounds = col.bounds;
 
-                                        GraphUpdateObject guoProp = new GraphUpdateObject(propBounds);
-                                        // Optional: make the prop block movement
-                                        guoProp.modifyWalkability = true;
-                                        guoProp.setWalkability = false;
+                                        GraphUpdateObject guoProp = new GraphUpdateObject(propBounds)
+                                        {
+                                            // Optional: make the prop block movement
+                                            modifyWalkability = true,
+                                            setWalkability = false
+                                        };
 
-                                        AstarPath.active.UpdateGraphs(guoProp);
+                                        (pendingPropGraphUpdates ??= new List<GraphUpdateObject>()).Add(guoProp);
                                     }
 
                                     break; // Prevent multiple props per tile
@@ -135,6 +148,20 @@ public class TilemapSpawner : MonoBehaviour
                         }
                     }
                 }
+            }
+        }
+
+        if (hasTileBounds)
+        {
+            var aggregatedTileUpdate = new GraphUpdateObject(aggregatedTileBounds);
+            AstarPath.active.UpdateGraphs(aggregatedTileUpdate);
+        }
+
+        if (pendingPropGraphUpdates != null)
+        {
+            foreach (var graphUpdate in pendingPropGraphUpdates)
+            {
+                AstarPath.active.UpdateGraphs(graphUpdate);
             }
         }
     }
