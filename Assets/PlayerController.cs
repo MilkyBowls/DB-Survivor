@@ -241,7 +241,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // 🧯 Emergency unlatch if stuck and no Saibamen exist
-        if (isLatched && FindObjectsOfType<SaibamanEnemy>().Length == 0)
+        if (isLatched && SaibamanEnemy.ActiveCount == 0)
         {
             ForceUnlatch();
         }

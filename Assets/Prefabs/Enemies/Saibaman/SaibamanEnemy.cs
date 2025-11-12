@@ -22,6 +22,19 @@ public class SaibamanEnemy : MonoBehaviour, IDamageable
     private Rigidbody2D rb;
     public bool IsExploding => isExploding;
     public static bool playerIsLatched = false;
+    private static int activeCount = 0;
+    public static int ActiveCount => activeCount;
+
+    void OnEnable()
+    {
+        activeCount++;
+    }
+
+    void OnDisable()
+    {
+        if (activeCount > 0)
+            activeCount--;
+    }
 
 
     public void ScaleHealth(int wave, float difficultyMultiplier)
