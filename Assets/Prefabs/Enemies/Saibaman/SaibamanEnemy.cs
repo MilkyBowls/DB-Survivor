@@ -18,10 +18,52 @@ public class SaibamanEnemy : MonoBehaviour, IDamageable
 
     private Animator animator;
     private Transform player;
+    private PlayerController playerController;
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D rb;
     public bool IsExploding => isExploding;
     public static bool playerIsLatched = false;
+    private static int activeCount = 0;
+    public static int ActiveCount => activeCount;
+    private bool hasReservedLatchSlot = false;
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void ResetStatics()
+    {
+        playerIsLatched = false;
+        activeCount = 0;
+    }
+
+    void OnEnable()
+    {
+        activeCount++;
+    }
+
+    void OnDisable()
+    {
+        activeCount = Mathf.Max(0, activeCount - 1);
+
+        if (hasReservedLatchSlot)
+        {
+            hasReservedLatchSlot = false;
+            playerIsLatched = false;
+
+            if (playerController == null && player != null)
+            {
+                playerController = player.GetComponent<PlayerController>();
+            }
+
+            if (playerController != null)
+            {
+                playerController.isLatched = false;
+            }
+
+            if (transform.parent != null)
+            {
+                transform.SetParent(null);
+            }
+        }
+    }
 
 
     public void ScaleHealth(int wave, float difficultyMultiplier)
@@ -36,6 +78,10 @@ public class SaibamanEnemy : MonoBehaviour, IDamageable
         rb = GetComponent<Rigidbody2D>();
         currentHealth = stats.maxHealth;
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        if (player != null)
+        {
+            playerController = player.GetComponent<PlayerController>();
+        }
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -89,8 +135,19 @@ public class SaibamanEnemy : MonoBehaviour, IDamageable
 
         isExploding = true;
         playerIsLatched = true;
+        hasReservedLatchSlot = true;
 
-        PlayerController pc = player.GetComponent<PlayerController>();
+        PlayerController pc = playerController;
+        if (pc == null && player != null)
+        {
+            pc = player.GetComponent<PlayerController>();
+        }
+
+        if (pc != null)
+        {
+            playerController = pc;
+        }
+
         Transform target = pc != null && pc.enemyTargetPoint != null ? pc.enemyTargetPoint : player;
 
         spriteRenderer.flipX = target.position.x < transform.position.x;
@@ -132,6 +189,7 @@ public class SaibamanEnemy : MonoBehaviour, IDamageable
         finally
         {
             playerIsLatched = false;
+            hasReservedLatchSlot = false;
             if (transform.parent != null) transform.SetParent(null);
             Destroy(gameObject);
         }
@@ -139,40 +197,37 @@ public class SaibamanEnemy : MonoBehaviour, IDamageable
 
 
     public void ApplyStatusEffect(StatusEffect effectType, float duration)
-{
-    switch (effectType)
     {
-        case StatusEffect.Burn:
-            StartCoroutine(ApplyBurn(duration));
-            break;
-        case StatusEffect.Stun:
-            StartCoroutine(ApplyStun(duration));
-            break;
+        switch (effectType)
+        {
+            case StatusEffect.Burn:
+                StartCoroutine(ApplyBurn(duration));
+                break;
+            case StatusEffect.Stun:
+                StartCoroutine(ApplyStun(duration));
+                break;
+        }
     }
-}
 
-private IEnumerator ApplyBurn(float duration)
-{
-    float interval = 0.5f;
-    int ticks = Mathf.FloorToInt(duration / interval);
-    for (int i = 0; i < ticks; i++)
+    private IEnumerator ApplyBurn(float duration)
     {
-        TakeDamage(1);
-        yield return new WaitForSeconds(interval);
+        float interval = 0.5f;
+        int ticks = Mathf.FloorToInt(duration / interval);
+        for (int i = 0; i < ticks; i++)
+        {
+            TakeDamage(1);
+            yield return new WaitForSeconds(interval);
+        }
     }
-}
 
-private IEnumerator ApplyStun(float duration)
-{
-    // Temporarily stop movement/explosion AI
-    bool wasExploding = isExploding;
-    isExploding = true;
-    yield return new WaitForSeconds(duration);
-    isExploding = wasExploding;
-}
-
-
-
+    private IEnumerator ApplyStun(float duration)
+    {
+        // Temporarily stop movement/explosion AI
+        bool wasExploding = isExploding;
+        isExploding = true;
+        yield return new WaitForSeconds(duration);
+        isExploding = wasExploding;
+    }
 
     public void SaibamanExplosionShake() => Camera.main.GetComponent<CameraFollow>()?.SaibamanExplosion();
 
