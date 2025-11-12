@@ -35,7 +35,17 @@ public class EnemyWaveSpawner : MonoBehaviour
 
     private void Start()
     {
+        BootstrapExistingEnemies();
         StartCoroutine(SpawnWaves());
+    }
+
+    private void BootstrapExistingEnemies()
+    {
+        var existingEnemies = GameObject.FindGameObjectsWithTag("Enemy");
+        for (int i = 0; i < existingEnemies.Length; i++)
+        {
+            EnemyLifetimeTracker.EnsureTracking(existingEnemies[i]);
+        }
     }
 
     private IEnumerator SpawnWaves()
@@ -61,7 +71,7 @@ public class EnemyWaveSpawner : MonoBehaviour
             currentWave++;
 
             // Optional: Wait for all enemies to die before next wave
-            yield return new WaitUntil(() => GameObject.FindGameObjectsWithTag("Enemy").Length == 0);
+            yield return new WaitUntil(() => EnemyLifetimeTracker.ActiveEnemies == 0);
         }
     }
 
@@ -86,7 +96,8 @@ public class EnemyWaveSpawner : MonoBehaviour
             spawnPos = GetValidSpawnPosition();
         }
 
-        Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
+        var enemyInstance = Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
+        EnemyLifetimeTracker.EnsureTracking(enemyInstance);
     }
 
     private GameObject GetWeightedRandomEnemy(List<WeightedEnemy> enemies)
